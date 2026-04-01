@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Preview screenshots (development only)
+preview-*.png
+
+# Prototype files (development only)
+*-prototype.html
+
+# Original reference
+original-reference.html
+
+# Dev docs
+GUIDELINES.md
+DEPLOYMENT.md
+data/publications.json.bak
+index-standalone.html

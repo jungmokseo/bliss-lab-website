@@ -1,0 +1,2034 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLISS Lab — Yonsei University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+/* ========== RESET & BASE ========== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #FAFAFA;
+  --white: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #555555;
+  --text-muted: #999999;
+  --accent: #0055FF;
+  --accent-soft: #E8EFFE;
+  --border: #E5E5E5;
+  --border-light: #F0F0F0;
+  --theme-electrode: #0055FF;
+  --theme-interface: #D84315;
+  --theme-reliability: #00897B;
+  --theme-circuit: #6A1B9A;
+  --nav-height: 68px;
+  --max-width: 1320px;
+  --gutter: 36px;
+  /* Default Korean font */
+  --kr-font: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
+}
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+body.kr { font-family: var(--kr-font); line-height: 1.75; }
+/* KR mode: only override headings that actually display Korean text */
+body.kr .ra-card h3 { font-family: var(--kr-font); }
+body.kr .ra-card .ra-hook { font-family: var(--kr-font); }
+body.kr .ra-card .ra-desc { font-family: var(--kr-font); }
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+/* ========== NAV ========== */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  height: var(--nav-height);
+  background: rgba(250,250,250,0.92);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-light);
+  display: flex; align-items: center;
+  transition: all 0.4s;
+}
+nav.scrolled { background: rgba(255,255,255,0.96); box-shadow: 0 1px 16px rgba(0,0,0,0.04); }
+.nav-inner {
+  max-width: var(--max-width); width: 100%;
+  margin: 0 auto; padding: 0 var(--gutter);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700; font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+.nav-logo .accent { color: var(--accent); }
+.nav-links { display: flex; gap: 32px; align-items: center; }
+.nav-links a {
+  font-size: 0.82rem; font-weight: 500; color: var(--text-secondary);
+  transition: color 0.3s; position: relative;
+}
+.nav-links a:hover { color: var(--text-primary); }
+.nav-links a.active { color: var(--text-primary); }
+.nav-links a.active::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 2px; background: var(--accent); border-radius: 1px;
+}
+.lang-toggle {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em;
+  padding: 5px 14px; border-radius: 4px;
+  border: 1.5px solid var(--border);
+  cursor: pointer; transition: all 0.3s;
+  background: transparent; color: var(--text-secondary);
+}
+.lang-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.hamburger span { width: 22px; height: 2px; background: var(--text-primary); border-radius: 1px; }
+
+/* ========== HERO ========== */
+.hero {
+  min-height: 92vh;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 32px; align-items: center;
+  padding: calc(var(--nav-height) + 48px) 0 64px;
+  max-width: var(--max-width); margin: 0 auto;
+  padding-left: var(--gutter); padding-right: 0;
+}
+.hero-label {
+  font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--accent); margin-bottom: 20px;
+  display: flex; align-items: center; gap: 8px;
+}
+.hero-label::before {
+  content: ''; width: 24px; height: 2px; background: var(--accent);
+}
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-weight: 800; line-height: 1.08;
+  letter-spacing: -0.025em; margin-bottom: 28px;
+}
+.hero h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
+.hero-desc {
+  font-size: 1.05rem; color: var(--text-secondary);
+  line-height: 1.75; max-width: 500px; margin-bottom: 40px;
+}
+.hero-actions { display: flex; gap: 16px; align-items: center; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 28px; font-size: 0.85rem; font-weight: 600;
+  background: var(--accent); color: #fff; border-radius: 6px;
+  transition: all 0.3s;
+}
+.btn-primary:hover { background: #0044CC; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,85,255,0.25); }
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 24px; font-size: 0.85rem; font-weight: 500;
+  color: var(--text-primary); border: 1.5px solid var(--border);
+  border-radius: 6px; transition: all 0.3s;
+}
+.btn-outline:hover { border-color: var(--text-primary); }
+/* ========== HERO COVER MARQUEE ========== */
+.hero-visual {
+  position: relative; width: 100%; height: 100%; min-height: 80vh;
+  overflow: hidden;
+  border-radius: 16px 0 0 16px;
+  background: linear-gradient(135deg, #f8f9ff 0%, #eef2ff 50%, #f0f0f8 100%);
+}
+.hero-visual::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    linear-gradient(to right, var(--bg) 0%, transparent 8%),
+    linear-gradient(to left, transparent 95%, rgba(250,250,250,0.5) 100%),
+    linear-gradient(to bottom, transparent 85%, var(--bg) 100%),
+    linear-gradient(to top, transparent 85%, var(--bg) 100%);
+  z-index: 10; pointer-events: none;
+}
+.cover-track-container {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  display: flex; flex-direction: column; justify-content: center;
+  gap: 20px; padding: 40px 0;
+}
+.cover-track { display: flex; gap: 20px; will-change: transform; }
+.cover-track.scroll-left { animation: scrollLeft 40s linear infinite; }
+.cover-track.scroll-right { animation: scrollRight 40s linear infinite; }
+.cover-track.scroll-left.slow { animation-duration: 55s; }
+.cover-track.scroll-right.slow { animation-duration: 50s; }
+.cover-track.scroll-left.fast { animation-duration: 35s; }
+@keyframes scrollLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@keyframes scrollRight { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
+.cover-item {
+  flex-shrink: 0; width: 180px; height: 240px;
+  border-radius: 8px; overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  transition: transform 0.4s, box-shadow 0.4s; background: #fff;
+}
+.cover-item:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0,85,255,0.15), 0 4px 12px rgba(0,0,0,0.08);
+  z-index: 20;
+}
+.cover-item img { width: 100%; height: 100%; object-fit: cover; }
+.cover-track-container:hover .cover-track { animation-play-state: paused; }
+
+/* ========== BACKGROUND IMAGE SECTIONS ========== */
+.bg-section {
+  position: relative; min-height: 50vh;
+  display: flex; align-items: center; overflow: hidden;
+  padding: 0;
+}
+.bg-section .bg-image {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover; z-index: 0;
+  animation: bgKenBurns 20s ease-in-out infinite alternate;
+}
+@keyframes bgKenBurns { 0% { transform: scale(1.0); } 100% { transform: scale(1.08); } }
+.bg-section .bg-overlay {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;
+}
+.bg-section.style-glass .bg-overlay {
+  background: linear-gradient(to right, rgba(10,15,30,0.85) 0%, rgba(10,15,30,0.6) 45%, transparent 100%);
+}
+.bg-section.style-dark .bg-overlay {
+  background: linear-gradient(135deg, rgba(10,15,30,0.82) 0%, rgba(10,15,30,0.65) 50%, rgba(10,15,30,0.78) 100%);
+}
+.bg-section.style-gradient .bg-overlay {
+  background: linear-gradient(to top, rgba(10,15,30,0.9) 0%, rgba(10,15,30,0.5) 40%, rgba(10,15,30,0.2) 100%);
+}
+.bg-section .bg-content {
+  position: relative; z-index: 2;
+  max-width: var(--max-width); margin: 0 auto;
+  padding: 96px var(--gutter); width: 100%;
+}
+.bg-section .section-label {
+  font-size: 0.68rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.14em; color: var(--accent); margin-bottom: 16px;
+  display: flex; align-items: center; gap: 8px;
+}
+.bg-section .section-label::before { content: ''; width: 24px; height: 2px; background: var(--accent); }
+.bg-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 700; color: #fff;
+  line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 20px;
+}
+.bg-section p.bg-desc {
+  font-size: 1.05rem; color: rgba(255,255,255,0.8);
+  line-height: 1.8; max-width: 560px;
+}
+.bg-stats {
+  display: flex; gap: 24px; margin-top: 36px; flex-wrap: wrap;
+}
+.bg-stat {
+  background: rgba(255,255,255,0.1); backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.15); border-radius: 10px;
+  padding: 18px 24px; text-align: center; min-width: 120px;
+}
+.bg-stat-num {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.6rem; font-weight: 700; color: #fff; line-height: 1.2;
+}
+.bg-stat-label {
+  font-size: 0.68rem; color: rgba(255,255,255,0.6);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;
+}
+
+/* ========== SECTIONS ========== */
+section { padding: 96px 0; }
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); }
+
+/* ========== SECTION HEADERS ========== */
+.section-header { margin-bottom: 56px; }
+.section-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700; letter-spacing: -0.015em; line-height: 1.15;
+}
+/* Section headers are always English — keep Playfair in KR mode too */
+.section-header .subtitle { font-size: 0.9rem; color: var(--text-muted); margin-top: 10px; }
+.section-header .divider { width: 40px; height: 2px; background: var(--accent); margin-top: 16px; }
+
+/* ========== RESEARCH AREAS (4-theme cards) ========== */
+.research-areas { background: var(--white); border-top: 1px solid var(--border-light); }
+.ra-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.ra-card {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 40px 36px;
+  border: 1px solid var(--border-light);
+  transition: all 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+.ra-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; transition: height 0.4s;
+}
+.ra-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.06); border-color: transparent; }
+.ra-card:hover::before { height: 4px; }
+.ra-card.electrode::before { background: var(--theme-electrode); }
+.ra-card.interface::before { background: var(--theme-interface); }
+.ra-card.reliability::before { background: var(--theme-reliability); }
+.ra-card.circuit::before { background: var(--theme-circuit); }
+.ra-icon {
+  width: 52px; height: 52px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; margin-bottom: 20px;
+}
+.electrode .ra-icon { background: rgba(0,85,255,0.07); color: var(--theme-electrode); }
+.interface .ra-icon { background: rgba(216,67,21,0.07); color: var(--theme-interface); }
+.reliability .ra-icon { background: rgba(0,137,123,0.07); color: var(--theme-reliability); }
+.circuit .ra-icon { background: rgba(106,27,154,0.07); color: var(--theme-circuit); }
+.ra-card h3 {
+  font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3;
+}
+.ra-card .ra-hook {
+  font-size: 0.95rem; color: var(--text-primary); line-height: 1.75; margin-bottom: 14px;
+  font-weight: 500;
+}
+.ra-card .ra-desc {
+  font-size: 0.85rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: 18px;
+}
+.ra-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.ra-tags span {
+  font-size: 0.68rem; font-weight: 500; padding: 3px 10px;
+  border-radius: 3px; color: var(--text-muted);
+}
+.electrode .ra-tags span { background: rgba(0,85,255,0.05); }
+.interface .ra-tags span { background: rgba(216,67,21,0.05); }
+.reliability .ra-tags span { background: rgba(0,137,123,0.05); }
+.circuit .ra-tags span { background: rgba(106,27,154,0.05); }
+
+/* ========== RESEARCH INTERCONNECT DIAGRAM ========== */
+.research-diagram {
+  margin-top: 56px;
+  background: var(--bg);
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  padding: 48px 36px 36px;
+  position: relative;
+}
+.research-diagram h3 {
+  font-size: 1rem; font-weight: 600; text-align: center;
+  margin-bottom: 8px; color: var(--text-primary);
+}
+.research-diagram .diagram-subtitle {
+  font-size: 0.82rem; color: var(--text-muted); text-align: center;
+  margin-bottom: 32px;
+}
+.diagram-canvas-wrap {
+  width: 100%; max-width: 680px; margin: 0 auto;
+  aspect-ratio: 17/10; position: relative;
+}
+.diagram-canvas-wrap svg { width: 100%; height: 100%; }
+.diagram-node {
+  cursor: pointer; transition: transform 0.3s;
+}
+.diagram-node:hover { transform: scale(1.08); }
+.diagram-node circle { transition: all 0.3s; }
+.diagram-node:hover circle { filter: drop-shadow(0 4px 12px rgba(0,85,255,0.25)); }
+.diagram-node text { font-family: 'Inter', sans-serif; pointer-events: none; }
+.diagram-edge { transition: opacity 0.3s; }
+.diagram-edge-label {
+  font-family: 'Inter', sans-serif; font-size: 9px;
+  fill: var(--text-muted); pointer-events: none;
+}
+.diagram-legend {
+  display: flex; justify-content: center; gap: 24px; margin-top: 20px; flex-wrap: wrap;
+}
+.diagram-legend-item {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.72rem; color: var(--text-muted);
+}
+.diagram-legend-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+}
+
+/* ========== RESEARCH HIGHLIGHTS (2-col grid with images) ========== */
+.highlights { background: var(--bg); }
+.hl-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.hl-card {
+  background: var(--white);
+  border: 1px solid var(--border-light); border-radius: 12px;
+  overflow: hidden; transition: all 0.4s;
+}
+.hl-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.06); border-color: transparent; }
+.hl-card-img {
+  width: 100%; aspect-ratio: 16/9;
+  background: linear-gradient(135deg, var(--accent-soft), #F0E8FD);
+  position: relative; overflow: hidden;
+}
+.hl-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hl-card-img .icon-placeholder {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 3rem; color: rgba(0,85,255,0.1);
+}
+.hl-card-body { padding: 28px 28px 24px; }
+.hl-card-body .tag { margin-bottom: 12px; display: inline-block; }
+.hl-card-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem; font-weight: 700;
+  line-height: 1.3; margin-bottom: 10px;
+}
+/* Highlight titles are always English — keep Playfair in KR mode */
+.hl-card-body .hl-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px; }
+.hl-card-body .hl-sig {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
+}
+.hl-sig-pill {
+  font-size: 0.72rem; padding: 4px 10px; border-radius: 4px;
+  background: var(--bg); color: var(--text-secondary);
+  display: flex; align-items: center; gap: 5px;
+}
+.hl-sig-pill i { font-size: 0.65rem; color: var(--accent); }
+.hl-journal {
+  font-size: 0.78rem; color: var(--text-muted);
+  padding-top: 14px; border-top: 1px solid var(--border-light);
+}
+.hl-journal em { font-style: italic; }
+.hl-journal em strong { color: var(--accent); font-weight: 700; font-style: italic; }
+.read-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.82rem; font-weight: 600; color: var(--accent); transition: gap 0.3s;
+}
+.read-link:hover { gap: 14px; }
+/* Highlights toggle (more items) */
+.hl-more-wrapper {
+  max-height: 0; overflow: hidden; transition: max-height 0.6s ease;
+}
+.hl-more-wrapper.open { max-height: 2000px; }
+.hl-toggle-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  margin: 32px auto 0; padding: 12px 32px; border-radius: 8px;
+  border: 1px solid var(--border-light); background: var(--white);
+  font-size: 0.85rem; cursor: pointer; transition: all 0.3s;
+  color: var(--text-primary); font-weight: 500;
+}
+.hl-toggle-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.hl-toggle-btn .chevron { font-size: 0.7rem; transition: transform 0.3s; }
+.hl-toggle-btn.open .chevron { transform: rotate(180deg); }
+
+/* ========== TAG COLORS ========== */
+.tag {
+  font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; padding: 3px 10px; border-radius: 3px;
+}
+.tag-electrode { background: rgba(0,85,255,0.07); color: var(--theme-electrode); }
+.tag-interface { background: rgba(216,67,21,0.07); color: var(--theme-interface); }
+.tag-reliability { background: rgba(0,137,123,0.07); color: var(--theme-reliability); }
+.tag-circuit { background: rgba(106,27,154,0.07); color: var(--theme-circuit); }
+.tag-general { background: rgba(0,0,0,0.03); color: var(--text-muted); }
+
+/* ========== PUBLICATIONS (year accordion) ========== */
+.publications { background: var(--white); border-top: 1px solid var(--border-light); }
+.pub-year-group { border-bottom: 1px solid var(--border-light); }
+.pub-year-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 0; cursor: pointer; transition: all 0.2s;
+}
+.pub-year-header:hover { padding-left: 6px; }
+.pub-year-header .year-label {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem; font-weight: 700; color: var(--accent);
+  display: flex; align-items: center; gap: 12px;
+}
+.pub-year-header .year-count {
+  font-size: 0.75rem; font-weight: 500; color: var(--text-muted);
+  background: var(--accent-soft); padding: 2px 10px; border-radius: 10px;
+}
+.pub-year-header .chevron {
+  font-size: 0.75rem; color: var(--text-muted); transition: transform 0.3s;
+}
+.pub-year-group.open .pub-year-header .chevron { transform: rotate(180deg); }
+.pub-year-items {
+  max-height: 0; overflow: hidden; transition: max-height 0.5s ease;
+}
+.pub-year-group.open .pub-year-items { max-height: 5000px; }
+.pub-item {
+  padding: 20px 0 20px 24px; border-top: 1px solid var(--border-light);
+}
+.pub-item.pub-item-with-img { display: grid; grid-template-columns: 160px 1fr; gap: 20px; align-items: start; }
+.pub-img { width: 160px; min-height: 90px; border-radius: 6px; overflow: hidden; background: var(--bg); }
+.pub-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pub-if { display: inline-block; font-size: 0.68rem; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 8px; white-space: nowrap; }
+.pub-number { display: inline-block; font-size: 0.72rem; color: var(--text-muted); font-weight: 500; margin-right: 6px; min-width: 22px; }
+.pub-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+.pub-authors { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 4px; }
+.pub-authors strong { color: var(--text-primary); font-weight: 600; }
+.pub-authors sup { font-size: 0.6em; color: var(--accent); font-weight: 700; margin: 0 1px; }
+.pub-journal {
+  font-size: 0.82rem; color: var(--accent); font-style: italic; font-weight: 600;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 2px;
+}
+.pub-journal-name {
+  color: var(--accent); font-weight: 700; font-style: italic;
+}
+.pub-footer {
+  text-align: center; margin-top: 40px;
+  font-size: 0.85rem;
+}
+/* Patent toggle */
+.patent-toggle {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 4px; cursor: pointer; border-top: 1px solid var(--border-light);
+  margin-top: 40px; transition: padding 0.2s;
+}
+.patent-toggle:hover { padding-left: 6px; }
+.patent-toggle span { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
+.patent-toggle .chevron { font-size: 0.7rem; color: var(--text-muted); transition: transform 0.3s; }
+.patent-toggle.open .chevron { transform: rotate(180deg); }
+.patent-list {
+  max-height: 0; overflow: hidden; transition: max-height 0.5s ease;
+}
+.patent-toggle.open + .patent-list { max-height: 5000px; }
+.patent-item {
+  padding: 12px 4px; border-bottom: 1px solid var(--border-light);
+  font-size: 0.82rem; line-height: 1.6;
+}
+.patent-item .patent-title { font-weight: 600; color: var(--text-primary); }
+.patent-item .patent-info { color: var(--text-muted); margin-top: 2px; }
+
+/* ========== TEAM (inline accordion) ========== */
+.team { background: var(--bg); }
+.pi-section {
+  display: grid; grid-template-columns: 0.7fr 1fr;
+  gap: 56px; align-items: start; margin-bottom: 72px;
+}
+.pi-photo {
+  width: 100%; aspect-ratio: 4/5; border-radius: 10px; overflow: hidden;
+  background: linear-gradient(135deg, var(--accent-soft), #F0E8FD);
+  position: relative;
+}
+.pi-photo img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.pi-photo .initials {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem; font-weight: 300; color: rgba(0,85,255,0.1);
+  pointer-events: none;
+}
+.pi-photo img[src]:not([src=""]) ~ .initials { display: none; }
+.pi-info h3 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; margin-bottom: 4px; }
+/* PI name is always English — keep Playfair in KR mode */
+.pi-info .role {
+  font-size: 0.8rem; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 20px;
+}
+.pi-info .bio { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.75; max-width: 440px; margin-bottom: 20px; }
+.pi-detail-list { list-style: none; padding: 0; margin: 0; }
+.pi-detail-list li {
+  font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6;
+  padding: 3px 0; padding-left: 14px; position: relative;
+}
+.pi-detail-list li::before {
+  content: ''; position: absolute; left: 0; top: 10px;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--accent);
+}
+.pi-detail-label {
+  font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-muted);
+  margin-top: 16px; margin-bottom: 6px;
+}
+.team-label {
+  font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--text-muted);
+  margin-bottom: 24px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+}
+.member-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 32px; margin-bottom: 56px;
+}
+.member-item { text-align: center; cursor: pointer; }
+.member-photo {
+  width: 130px; height: 130px; border-radius: 50%;
+  margin: 0 auto 14px;
+  background: linear-gradient(135deg, var(--accent-soft), #F0E8FD);
+  position: relative; overflow: hidden; transition: transform 0.3s;
+}
+.member-photo img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+.member-item:hover .member-photo { transform: scale(1.06); }
+.member-photo .initials {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem; font-weight: 600; color: rgba(0,85,255,0.2);
+  pointer-events: none;
+}
+.member-photo img[src]:not([src=""]) ~ .initials { display: none; }
+.member-item h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 2px; }
+.member-item p { font-size: 0.78rem; color: var(--text-muted); }
+
+/* Inline Accordion */
+.member-accordion {
+  max-height: 0; overflow: hidden; transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0; grid-column: 1 / -1;
+}
+.member-accordion.open { opacity: 1; }
+.accordion-inner {
+  display: flex; gap: 32px; align-items: flex-start;
+  padding: 28px; margin: 0 0 24px;
+  background: var(--white); border-radius: 12px;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+}
+.accordion-photo {
+  width: 100px; height: 100px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--accent-soft), #F0E8FD);
+  position: relative; overflow: hidden;
+}
+.accordion-photo img { width: 100%; height: 100%; object-fit: cover; }
+.accordion-photo .initials {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.6rem; font-weight: 600; color: rgba(0,85,255,0.2);
+}
+.accordion-photo img[src]:not([src=""]) ~ .initials { display: none; }
+.accordion-details { flex: 1; min-width: 0; }
+.accordion-details h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 2px; }
+.accordion-details .acc-role { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 10px; }
+.accordion-details .acc-research {
+  display: inline-block; font-size: 0.75rem; padding: 3px 10px;
+  border-radius: 12px; background: var(--accent-soft); color: var(--accent);
+  font-weight: 500; margin-bottom: 14px;
+}
+.accordion-details .acc-edu-label {
+  font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 6px;
+}
+.accordion-details .acc-edu-list { list-style: none; padding: 0; margin: 0; }
+.accordion-details .acc-edu-list li {
+  font-size: 0.8rem; color: var(--text-secondary); line-height: 1.55;
+  padding: 2px 0; padding-left: 12px; position: relative;
+}
+.accordion-details .acc-edu-list li::before {
+  content: ''; position: absolute; left: 0; top: 9px;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--border);
+}
+.accordion-close {
+  position: absolute; top: 12px; right: 12px;
+  width: 28px; height: 28px; border-radius: 50%;
+  border: none; background: var(--bg); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem; color: var(--text-muted); transition: all 0.2s;
+}
+.accordion-close:hover { background: var(--accent-soft); color: var(--accent); }
+.member-item.active .member-photo { transform: scale(1.06); box-shadow: 0 0 0 3px var(--accent); }
+
+/* Alumni Toggle */
+.alumni-toggle {
+  display: flex; align-items: center; gap: 10px; cursor: pointer;
+  padding: 14px 0; margin-top: 20px;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-muted);
+  transition: color 0.3s; user-select: none;
+}
+.alumni-toggle:hover { color: var(--accent); }
+.alumni-toggle .chevron { font-size: 0.7rem; transition: transform 0.3s; }
+.alumni-toggle.open .chevron { transform: rotate(180deg); }
+.alumni-content { display: none; }
+.alumni-toggle.open + .alumni-content { display: block; }
+.alumni-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px; margin: 16px 0 40px;
+}
+.alumni-item {
+  display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+  border-radius: 8px; background: var(--white); border: 1px solid var(--border-light);
+  font-size: 0.82rem;
+}
+.alumni-item .alumni-name { font-weight: 600; }
+.alumni-item .alumni-info { font-size: 0.72rem; color: var(--text-muted); }
+
+/* ========== NEWS + UPDATES (Magazine Style) ========== */
+.news { background: var(--bg); border-top: 1px solid var(--border-light); }
+
+/* Featured hero card — image with overlay text */
+.news-hero {
+  position: relative; border-radius: 14px; overflow: hidden;
+  margin-bottom: 28px; cursor: pointer;
+  min-height: 380px; display: flex; align-items: flex-end;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+.news-hero:hover { transform: translateY(-3px); box-shadow: 0 20px 60px rgba(0,0,0,0.12); }
+.news-hero .news-hero-img {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover; transition: transform 6s ease;
+}
+.news-hero:hover .news-hero-img { transform: scale(1.03); }
+.news-hero .news-hero-overlay {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.05) 100%);
+}
+.news-hero .news-hero-body {
+  position: relative; z-index: 2; padding: 36px 40px; width: 100%;
+}
+.news-hero .news-hero-body .tag { margin-bottom: 12px; }
+.news-hero .news-hero-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem); font-weight: 700;
+  color: #fff; line-height: 1.3; margin-bottom: 8px; max-width: 700px;
+}
+body.kr .news-hero .news-hero-body h3 { font-family: var(--kr-font); }
+.news-hero .news-hero-body .news-hero-meta {
+  font-size: 0.75rem; color: rgba(255,255,255,0.65);
+  display: flex; align-items: center; gap: 8px;
+}
+
+/* Grid cards */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.news-card {
+  background: var(--white); border-radius: 10px; overflow: hidden;
+  transition: all 0.4s; cursor: pointer;
+  border: 1px solid var(--border-light);
+  display: flex; flex-direction: column;
+}
+.news-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.06); border-color: transparent; }
+.news-card-img {
+  width: 100%; aspect-ratio: 16/10;
+  background: linear-gradient(135deg, var(--accent-soft), #F0E8FD);
+  position: relative; overflow: hidden; flex-shrink: 0;
+}
+.news-card-img img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform 0.6s ease;
+}
+.news-card:hover .news-card-img img { transform: scale(1.05); }
+.news-card-img .placeholder-icon {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 2.5rem; color: rgba(0,85,255,0.12);
+}
+/* Publication overlay badge — subtle journal + IF on news card images */
+.news-card-img .pub-overlay {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+  padding: 10px 14px;
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 100%);
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 6px;
+  pointer-events: none;
+}
+.pub-overlay .pub-ov-journal {
+  font-size: 0.68rem; font-weight: 600; color: rgba(255,255,255,0.85);
+  letter-spacing: 0.02em; font-style: italic;
+}
+.pub-overlay .pub-ov-if {
+  flex-shrink: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.58rem; font-weight: 600; color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.15); padding: 2px 7px; border-radius: 3px;
+  white-space: nowrap;
+}
+/* Hero card publication overlay */
+.news-hero .pub-overlay {
+  position: absolute; bottom: 80px; left: 0; right: 0; z-index: 1;
+  padding: 0 40px;
+  display: flex; align-items: center; gap: 10px;
+  pointer-events: none;
+}
+.news-hero .pub-ov-journal {
+  font-size: 0.8rem; font-weight: 600; color: rgba(255,255,255,0.8);
+  font-style: italic;
+}
+.news-hero .pub-ov-if {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.68rem; font-weight: 600; color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.12); padding: 3px 9px; border-radius: 3px;
+}
+.news-card-body { padding: 22px 24px 20px; flex: 1; display: flex; flex-direction: column; }
+.news-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.news-card-body h3 { font-size: 0.95rem; font-weight: 600; line-height: 1.45; margin-bottom: 8px; flex: 1; }
+.news-card-body p {
+  font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 12px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-card-meta {
+  font-size: 0.72rem; color: var(--text-muted);
+  display: flex; align-items: center; gap: 6px; margin-top: auto;
+}
+.news-card-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-muted); }
+.news-filters { display: flex; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
+.news-filter-btn {
+  padding: 6px 18px; border-radius: 20px; border: 1px solid var(--border-light);
+  background: var(--white); font-size: 0.82rem; cursor: pointer; transition: all 0.3s;
+  font-family: var(--font-body); color: var(--text-secondary);
+}
+.news-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.news-filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.news-load-more { text-align: center; margin-top: 36px; }
+.btn-load-more {
+  padding: 12px 40px; border-radius: 8px; border: 1px solid var(--border-light);
+  background: var(--white); font-size: 0.9rem; cursor: pointer; transition: all 0.3s;
+  font-family: var(--font-body); color: var(--text-primary); font-weight: 500;
+}
+.btn-load-more:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.news-count { display: block; margin-top: 10px; font-size: 0.75rem; color: var(--text-muted); }
+
+/* ========== CONTACT ========== */
+.contact { background: var(--white); border-top: 1px solid var(--border-light); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.contact-info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem; font-weight: 700; margin-bottom: 28px;
+}
+/* Contact "Get in Touch" is always English — keep Playfair in KR mode */
+.contact-row { display: flex; gap: 14px; margin-bottom: 20px; }
+.contact-row .icon {
+  width: 36px; height: 36px; border-radius: 8px;
+  background: var(--accent-soft); color: var(--accent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.85rem; flex-shrink: 0;
+}
+.contact-row .label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); font-weight: 600; margin-bottom: 2px; }
+.contact-row .value { font-size: 0.9rem; color: var(--text-primary); line-height: 1.5; }
+.contact-map {
+  width: 100%; aspect-ratio: 4/3; border-radius: 10px;
+  overflow: hidden; border: 1px solid var(--border-light);
+}
+.contact-map iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* ========== FOOTER ========== */
+footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; }
+.footer-left { font-size: 0.78rem; color: var(--text-muted); }
+.footer-links { display: flex; gap: 20px; }
+.footer-links a { font-size: 0.85rem; color: var(--text-muted); transition: color 0.3s; }
+.footer-links a:hover { color: var(--accent); }
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 1024px) {
+  .hero { grid-template-columns: 1fr; min-height: auto; padding-top: calc(var(--nav-height) + 40px); padding-right: var(--gutter); }
+  .hero-visual { min-height: 50vh; border-radius: 16px; margin-top: 32px; }
+  .cover-item { width: 150px; height: 200px; }
+  .ra-grid { grid-template-columns: 1fr; }
+  .research-diagram { padding: 36px 20px 28px; }
+  .news-grid { grid-template-columns: 1fr 1fr; }
+  .news-hero { min-height: 300px; }
+  .hl-grid { grid-template-columns: 1fr; }
+  .pi-section { grid-template-columns: 1fr; }
+  .pi-photo { max-width: 320px; }
+  .bg-section { min-height: 40vh; }
+}
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .nav-links.open {
+    display: flex; flex-direction: column;
+    position: absolute; top: var(--nav-height); left: 0; right: 0;
+    background: var(--white); padding: 28px var(--gutter);
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+  }
+  .hero h1 { font-size: 2.4rem; }
+  .news-grid { grid-template-columns: 1fr; }
+  .news-hero { min-height: 240px; }
+  .news-hero .news-hero-body { padding: 24px; }
+  .news-hero .news-hero-body h3 { font-size: 1.2rem; }
+  .cover-item { width: 140px; height: 186px; }
+  .pub-item.pub-item-with-img { grid-template-columns: 1fr; }
+  .pub-img { width: 100%; min-height: 120px; }
+  .member-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 20px; }
+  .accordion-inner { flex-direction: column; align-items: center; text-align: center; gap: 16px; }
+  .accordion-details .acc-edu-list li { text-align: left; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; gap: 14px; text-align: center; }
+  section { padding: 72px 0; }
+}
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.9rem; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .hl-content { padding: 32px 24px; }
+  .member-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+}
+
+/* ========== SCROLL ANIMATIONS ========== */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.1s; }
+.reveal-d2 { transition-delay: 0.2s; }
+.reveal-d3 { transition-delay: 0.3s; }
+.reveal-d4 { transition-delay: 0.4s; }
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">BLISS<span class="accent">Lab</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#research-areas">Research</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#publications">Publications</a>
+      <a href="#team">Team</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <button class="lang-toggle" onclick="toggleLang()" id="langBtn">KR</button>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== 1. HERO ===== -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-label reveal">BioLogical Interfaces and Sensor Systems</div>
+    <h1 class="reveal reveal-d1" data-kr="Engineering the Future of <em>Bio-Electronic</em> Interfaces" data-en="Engineering the Future of <em>Bio-Electronic</em> Interfaces">Engineering the Future of <em>Bio-Electronic</em> Interfaces</h1>
+    <p class="hero-desc reveal reveal-d2" data-kr="Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics." data-en="Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics.">Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics.</p>
+    <div class="hero-actions reveal reveal-d3">
+      <a href="#highlights" class="btn-primary" data-kr="Highlights <i class='fas fa-arrow-right'></i>" data-en="Highlights <i class='fas fa-arrow-right'></i>">Highlights <i class="fas fa-arrow-right"></i></a>
+      <a href="#contact" class="btn-outline" data-kr="Join Us" data-en="Join Us">Join Us</a>
+    </div>
+  </div>
+  <div class="hero-visual reveal reveal-d2">
+    <div class="cover-track-container" id="coverContainer">
+      <!-- 3 rows of scrolling paper covers, dynamically populated -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. RESEARCH AREAS ===== -->
+<section class="research-areas" id="research-areas">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="Research Areas" data-en="Research Areas">Research Areas</h2>
+      <p class="subtitle" data-kr="Four pillars bridging biology and electronics at BLISS Lab" data-en="Four pillars bridging biology and electronics at BLISS Lab">Four pillars bridging biology and electronics at BLISS Lab</p>
+      <div class="divider"></div>
+    </div>
+    <div class="ra-grid">
+      <!-- THEME 1: 차세대 소프트 바이오 전극 소재 -->
+      <div class="ra-card electrode reveal">
+        <div class="ra-icon"><i class="fas fa-wave-square"></i></div>
+        <h3 data-kr="차세대 소프트 바이오 전극 소재" data-en="Next-Gen Soft Bioelectrode Materials">Next-Gen Soft Bioelectrode Materials</h3>
+        <p class="ra-hook" data-kr="딱딱한 금속 전극은 피부 위에서 움직이고, 신호를 잃습니다." data-en="Rigid metal electrodes shift on skin and lose signal.">Rigid metal electrodes shift on skin and lose signal.</p>
+        <p class="ra-desc" data-kr="생체 조직처럼 부드러우면서도 전기 신호를 정밀하게 포착하는 소프트 전극을 개발합니다. 자가치유 하이드로겔 기반으로, 손상되어도 30초 이내에 스스로 회복하여 끊김 없는 장기 모니터링을 실현합니다. 피부 EMG부터 뇌 표면 ECoG까지 — 생체 신호 계측의 패러다임이 바뀝니다." data-en="We engineer soft electrodes that conform to living tissue while precisely capturing electrical signals. Built on self-healing hydrogel platforms, they autonomously recover from damage within 30 seconds — enabling uninterrupted long-term monitoring from skin-surface EMG to brain-surface ECoG.">We engineer soft electrodes that conform to living tissue while precisely capturing electrical signals. Built on self-healing hydrogel platforms, they autonomously recover from damage within 30 seconds — enabling uninterrupted long-term monitoring from skin-surface EMG to brain-surface ECoG.</p>
+        <div class="ra-tags"><span>EMG / ECoG</span><span>Self-healing electrode</span><span>Low impedance</span><span>Conformable</span><span>Wound care</span></div>
+      </div>
+
+      <!-- THEME 2: 바이오 인터페이스 공학 -->
+      <div class="ra-card interface reveal reveal-d1">
+        <div class="ra-icon"><i class="fas fa-handshake-simple"></i></div>
+        <h3 data-kr="바이오 인터페이스 공학" data-en="Bio-Interface Engineering">Bio-Interface Engineering</h3>
+        <p class="ra-hook" data-kr="센서 성능이 아무리 좋아도, 몸에 안정적으로 붙지 않으면 의미 없습니다." data-en="Even the best sensor is useless if it can't stay reliably attached to the body.">Even the best sensor is useless if it can't stay reliably attached to the body.</p>
+        <p class="ra-desc" data-kr="홍합의 수중 접착 메커니즘에서 영감을 얻은 바이오 접착 기술로, 피부·장기·뼈 등 어떤 생체 조직 위에서도 디바이스를 강력하게 고정합니다. 센서-조직 사이의 접촉 저항을 최소화하면서, 필요할 때 깨끗이 탈착되는 인터페이스를 설계합니다. 웨어러블부터 수술용 바이오센서까지, 디바이스의 현장 안정성을 결정하는 핵심 기술입니다." data-en="Inspired by mussel underwater adhesion, our bio-adhesive technology securely bonds devices onto skin, organs, and bone. We minimize contact resistance at the sensor-tissue interface while enabling clean detachment on demand — the critical technology determining real-world stability from wearables to surgical biosensors.">Inspired by mussel underwater adhesion, our bio-adhesive technology securely bonds devices onto skin, organs, and bone. We minimize contact resistance at the sensor-tissue interface while enabling clean detachment on demand — the critical technology determining real-world stability from wearables to surgical biosensors.</p>
+        <div class="ra-tags"><span>Tissue-device bonding</span><span>Mussel-inspired</span><span>Contact resistance</span><span>On-demand detach</span></div>
+      </div>
+
+      <!-- THEME 3: 이식형 센서 신뢰성 -->
+      <div class="ra-card reliability reveal reveal-d2">
+        <div class="ra-icon"><i class="fas fa-shield-halved"></i></div>
+        <h3 data-kr="이식형 센서 신뢰성" data-en="Implantable Sensor Reliability">Implantable Sensor Reliability</h3>
+        <p class="ra-hook" data-kr="체내에 넣은 센서는 며칠 만에 단백질이 달라붙어 신호가 죽습니다." data-en="Implanted sensors lose signal within days as proteins foul the surface.">Implanted sensors lose signal within days as proteins foul the surface.</p>
+        <p class="ra-desc" data-kr="BLISS Lab이 독자 개발한 항오염 코팅 플랫폼(LOIS, ELFS, TAB)은 바이오필름 형성을 원천 차단합니다. 체내 임플란트, 혈관 스텐트, 연속 혈당 센서(CGM) 등의 표면에서 비특이적 단백질 흡착을 억제하여, 센서 수명을 수일에서 수개월~수년으로 끌어올립니다. 전기전자 관점에서 이것은 '신호 무결성(Signal Integrity)'의 문제입니다." data-en="Our proprietary antifouling platforms (LOIS, ELFS, TAB) fundamentally block biofilm formation. By suppressing nonspecific protein adsorption on implants, vascular stents, and CGM surfaces, we extend sensor lifetime from days to months or years. From an EE perspective, this is a signal integrity problem.">Our proprietary antifouling platforms (LOIS, ELFS, TAB) fundamentally block biofilm formation. By suppressing nonspecific protein adsorption on implants, vascular stents, and CGM surfaces, we extend sensor lifetime from days to months or years. From an EE perspective, this is a signal integrity problem.</p>
+        <div class="ra-tags"><span>Anti-biofouling</span><span>Signal integrity</span><span>Implant / Stent</span><span>CGM</span><span>In-vivo longevity</span></div>
+      </div>
+
+      <!-- THEME 4: 신축성 회로 & IC 패키징 -->
+      <div class="ra-card circuit reveal reveal-d3">
+        <div class="ra-icon"><i class="fas fa-microchip"></i></div>
+        <h3 data-kr="신축성 회로 & IC 패키징" data-en="Stretchable Circuits & IC Packaging">Stretchable Circuits &amp; IC Packaging</h3>
+        <p class="ra-hook" data-kr="실리콘 칩은 딱딱하고, 피부는 늘어납니다. 이 근본적 모순을 해결합니다." data-en="Silicon chips are rigid. Skin stretches. We solve this fundamental conflict.">Silicon chips are rigid. Skin stretches. We solve this fundamental conflict.</p>
+        <p class="ra-desc" data-kr="액체금속 기반의 신축성 배선과 이방성 전도 필름(ACF)을 활용하여, 300% 이상 늘어나도 끊어지지 않는 전기적 경로를 구현합니다. 여기에 IC 칩을 소프트 기판 위에 직접 실장하는 패키징 전략까지 — 신호 처리·무선 통신·데이터 저장이 가능한 완전한 웨어러블 전자 시스템을 만듭니다. 회로설계, 패키징, RF — 전기전자의 핵심 역량이 직접 쓰이는 연구입니다." data-en="Using liquid metal-based stretchable interconnects and anisotropic conductive films, we create electrical pathways that survive 300%+ strain. Combined with strategies for mounting IC chips directly onto soft substrates, we build complete wearable electronic systems with on-board signal processing, wireless communication, and data storage — where core EE skills in circuit design, packaging, and RF directly apply.">Using liquid metal-based stretchable interconnects and anisotropic conductive films, we create electrical pathways that survive 300%+ strain. Combined with strategies for mounting IC chips directly onto soft substrates, we build complete wearable electronic systems with on-board signal processing, wireless communication, and data storage — where core EE skills in circuit design, packaging, and RF directly apply.</p>
+        <div class="ra-tags"><span>Liquid metal interconnect</span><span>IC-on-soft packaging</span><span>300%+ stretchability</span><span>Wearable system</span></div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- ===== BG SECTION 1: Bridging Biology & Electronics (hero-1) ===== -->
+<section class="bg-section style-glass reveal">
+  <img class="bg-image" src="images/hero/hero-1.jpg" alt="Bio-interface illustration">
+  <div class="bg-overlay"></div>
+  <div class="bg-content">
+    <div class="section-label">Our Impact</div>
+    <h2 data-en="Bridging Biology<br>and Electronics" data-kr="Bridging Biology<br>and Electronics">Bridging Biology<br>and Electronics</h2>
+    <p class="bg-desc" data-en="Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices." data-kr="Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices.">Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices.</p>
+    <div class="bg-stats">
+      <div class="bg-stat"><div class="bg-stat-num">93+</div><div class="bg-stat-label">Publications</div></div>
+      <div class="bg-stat"><div class="bg-stat-num">16</div><div class="bg-stat-label">Journal Covers</div></div>
+      <div class="bg-stat"><div class="bg-stat-num">6,300+</div><div class="bg-stat-label">Citations</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. RESEARCH HIGHLIGHTS ===== -->
+<section class="highlights" id="highlights">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="Research Highlights" data-en="Research Highlights">Research Highlights</h2>
+      <p class="subtitle" data-kr="Featured publications with analysis of impact and significance" data-en="Featured publications with analysis of impact and significance">Featured publications with analysis of impact and significance</p>
+      <div class="divider"></div>
+    </div>
+    <!-- First 4 highlights (visible) — 최신순 정렬 -->
+    <div class="hl-grid" id="hlGrid">
+      <!-- 1. 2026 · Area 3 — Sensor Reliability · Bioactive Materials · IF 20.3 -->
+      <div class="hl-card reveal">
+        <div class="hl-card-img">
+          <img src="images/highlights/dopamine_fluoropolymer_biliary_stent_illustration.png" alt="Dopamine-Fluoropolymer Biliary Stent">
+        </div>
+        <div class="hl-card-body">
+          <span class="tag tag-reliability">#Sensor Reliability</span>
+          <h3>Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity</h3>
+          <div class="hl-desc" data-kr="도파민-플루오로폴리머 하이브리드 코팅으로 담도 스텐트 표면의 바이오필름 형성을 원천 차단하여, 체내 이식형 센서의 수명을 획기적으로 연장합니다." data-en="A dopamine–fluoropolymer hybrid coating fundamentally blocks biofilm formation on biliary stents, dramatically extending implantable sensor longevity in vivo.">A dopamine–fluoropolymer hybrid coating fundamentally blocks biofilm formation on biliary stents, dramatically extending implantable sensor longevity in vivo.</div>
+          <div class="hl-sig">
+            <span class="hl-sig-pill"><i class="fas fa-flask"></i> Anti-biofouling</span>
+            <span class="hl-sig-pill"><i class="fas fa-cog"></i> Dopamine–fluoropolymer</span>
+            <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Biliary stent</span>
+          </div>
+          <div class="hl-journal"><em><strong>Bioactive Materials</strong></em>, 61, 210–228 (2026) · IF 20.3</div>
+        </div>
+      </div>
+
+      <!-- 2. 2026 · Area 1 — Soft Bioelectrode · Advanced Materials -->
+      <div class="hl-card reveal reveal-d1">
+        <div class="hl-card-img">
+          <img src="images/highlights/ion_mediated_hydrogel_biosensor_illustration.png" alt="Ion-Mediated Hydrogel Biosensor">
+        </div>
+        <div class="hl-card-body">
+          <span class="tag tag-electrode">#Soft Bioelectrode</span>
+          <h3>Ion-Mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors</h3>
+          <div class="hl-desc" data-kr="이온 매개 구조 엔지니어링으로 PVA-알지네이트 하이드로겔의 다공성 구조와 기계적 강성을 정밀 제어합니다. 웨어러블 땀 센서부터 이식형 연속혈당측정기(CGM)까지, 전기화학 바이오센서의 전극-조직 인터페이스를 최적화하는 소프트 전극 플랫폼입니다." data-en="Ion-mediated structural engineering precisely controls the porous architecture and mechanical robustness of PVA–alginate hydrogels. From wearable sweat sensors to implantable CGMs, this soft electrode platform optimizes the electrode-tissue interface for electrochemical biosensors.">Ion-mediated structural engineering precisely controls the porous architecture and mechanical robustness of PVA–alginate hydrogels. From wearable sweat sensors to implantable CGMs, this soft electrode platform optimizes the electrode-tissue interface for electrochemical biosensors.</div>
+          <div class="hl-sig">
+            <span class="hl-sig-pill"><i class="fas fa-flask"></i> Ion-mediated hydrogel</span>
+            <span class="hl-sig-pill"><i class="fas fa-cog"></i> Tunable porosity</span>
+            <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Wearable / CGM</span>
+          </div>
+          <div class="hl-journal"><em><strong>Advanced Materials</strong></em>, (2026) · IF 27.4</div>
+        </div>
+      </div>
+
+      <!-- 3. 2026 · Area 3 — Sensor Reliability · Small · IF 12.1 -->
+      <div class="hl-card reveal reveal-d2">
+        <div class="hl-card-img">
+          <img src="images/highlights/MOLE_implantable_device_encapsulation_illustration.png" alt="MOLE Implantable Device Encapsulation">
+        </div>
+        <div class="hl-card-body">
+          <span class="tag tag-reliability">#Sensor Reliability</span>
+          <h3>Mechanically Robust and Anti-biofouling Hybrid Encapsulation via Layered Organic–Liquid Interfaces for Implantable Devices</h3>
+          <div class="hl-desc" data-kr="다층 유기-액체 캡슐화(MOLE) 구조로 이식형 바이오전자 디바이스의 수분 침투, 기계적 변형, 바이오파울링 문제를 동시에 해결합니다. 아민 기능화 실리콘 엘라스토머와 Parylene-C의 화학적 결합으로 장기 신호 무결성을 보장합니다." data-en="Multi-layered Organic-based Liquid Encapsulation (MOLE) simultaneously addresses moisture permeation, mechanical deformation, and biofouling in implantable bioelectronics. Chemically bonded amine-functionalized silicone elastomer and Parylene-C layers ensure long-term signal integrity.">Multi-layered Organic-based Liquid Encapsulation (MOLE) simultaneously addresses moisture permeation, mechanical deformation, and biofouling in implantable bioelectronics. Chemically bonded amine-functionalized silicone elastomer and Parylene-C layers ensure long-term signal integrity.</div>
+          <div class="hl-sig">
+            <span class="hl-sig-pill"><i class="fas fa-flask"></i> MOLE encapsulation</span>
+            <span class="hl-sig-pill"><i class="fas fa-cog"></i> Moisture barrier</span>
+            <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Implant protection</span>
+          </div>
+          <div class="hl-journal"><em><strong>Small</strong></em>, e10949 (2026) · IF 12.1</div>
+        </div>
+      </div>
+
+      <!-- 4. 2026 · Area 1 — Soft Bioelectrode · Adv Healthcare Materials · IF 9.6 -->
+      <div class="hl-card reveal reveal-d3">
+        <div class="hl-card-img">
+          <img src="images/highlights/SCOPE_patch_diabetic_wound_healing_illustration.png" alt="SCOPE Patch Diabetic Wound Healing">
+        </div>
+        <div class="hl-card-body">
+          <span class="tag tag-electrode">#Soft Bioelectrode</span>
+          <h3>Optimized Electrical Stimulation Using a Spray-Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice</h3>
+          <div class="hl-desc" data-kr="PVA-액체금속 기반 전도성 잉크를 스프레이 프린팅하여 제작한 전기약물(SCOPE) 패치로, 당뇨 상처의 지속적 염증을 억제하고 재상피화 및 신생혈관 형성을 촉진합니다. 소프트 전극 소재를 통한 최적화된 전기자극 치료 플랫폼입니다." data-en="A spray-printed conductive electroceutical (SCOPE) patch based on PVA–liquid metal ink suppresses sustained inflammation in diabetic wounds and promotes re-epithelialization and neovascularization. An optimized electrical stimulation therapy platform built on soft electrode materials.">A spray-printed conductive electroceutical (SCOPE) patch based on PVA–liquid metal ink suppresses sustained inflammation in diabetic wounds and promotes re-epithelialization and neovascularization. An optimized electrical stimulation therapy platform built on soft electrode materials.</div>
+          <div class="hl-sig">
+            <span class="hl-sig-pill"><i class="fas fa-flask"></i> Liquid metal ink</span>
+            <span class="hl-sig-pill"><i class="fas fa-cog"></i> Spray printing</span>
+            <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Diabetic wound</span>
+          </div>
+          <div class="hl-journal"><em><strong>Advanced Healthcare Materials</strong></em>, e04939 (2026) · IF 9.6</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden highlights (toggle) -->
+    <div class="hl-more-wrapper" id="hlMoreWrapper">
+      <div class="hl-grid" style="margin-top: 28px;">
+        <!-- 5. 2025 · Area 2 — Bio-Interface · Science Advances · IF 12.5 -->
+        <div class="hl-card reveal">
+          <div class="hl-card-img">
+            <img src="images/highlights/liquid_infused_fiber_neural_recording_illustration.png" alt="Liquid-Infused Fiber Neural Recording">
+          </div>
+          <div class="hl-card-body">
+            <span class="tag tag-interface">#Bio-Interface</span>
+            <h3>Bioadaptive Liquid-Infused Fibers for Long-Term Neural Recording</h3>
+            <div class="hl-desc" data-kr="액체 주입 다기능 섬유가 BDNF를 안정화하고 면역 반응을 억제하여, 만성 신경 신호 기록을 가능하게 합니다. 신경 조직과 디바이스 간 바이오 인터페이스의 장기 안정성을 확보합니다." data-en="Liquid-infused multifunctional fibers stabilize BDNF and suppress immune response, enabling chronic neural signal recording with long-term bio-interface stability between neural tissue and devices.">Liquid-infused multifunctional fibers stabilize BDNF and suppress immune response, enabling chronic neural signal recording with long-term bio-interface stability between neural tissue and devices.</div>
+            <div class="hl-sig">
+              <span class="hl-sig-pill"><i class="fas fa-flask"></i> BDNF stabilization</span>
+              <span class="hl-sig-pill"><i class="fas fa-cog"></i> Liquid-infused fiber</span>
+              <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Neural interface</span>
+            </div>
+            <div class="hl-journal"><em><strong>Science Advances</strong></em>, 11(37), eadz1228 (2025) · IF 12.5</div>
+          </div>
+        </div>
+
+        <!-- 6. 2024 · Area 4 — Stretchable Circuit · ACS Nano · IF 16.0 -->
+        <div class="hl-card reveal reveal-d1">
+          <div class="hl-card-img">
+            <img src="images/highlights/wireless_electronic_suture_monitoring_illustration.png" alt="Wireless Electronic Suture Monitoring">
+          </div>
+          <div class="hl-card-body">
+            <span class="tag tag-circuit">#Stretchable Circuit</span>
+            <h3>Wireless Electronic Sutures for Monitoring Reconstructed Soft Tissues</h3>
+            <div class="hl-desc" data-kr="생체적합성 무선 전자 봉합사로 재건된 연조직의 기계적 특성을 수술 후 장기간 모니터링합니다. IC 패키징과 무선 통신이 결합된 완전한 소프트 전자 시스템입니다." data-en="Biocompatible wireless electronic sutures enable long-term postoperative monitoring of mechanical characteristics in reconstructed soft tissues — a complete soft electronic system integrating IC packaging and wireless communication.">Biocompatible wireless electronic sutures enable long-term postoperative monitoring of mechanical characteristics in reconstructed soft tissues — a complete soft electronic system integrating IC packaging and wireless communication.</div>
+            <div class="hl-sig">
+              <span class="hl-sig-pill"><i class="fas fa-flask"></i> Wireless e-suture</span>
+              <span class="hl-sig-pill"><i class="fas fa-cog"></i> IC-on-soft packaging</span>
+              <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Post-op monitoring</span>
+            </div>
+            <div class="hl-journal"><em><strong>ACS Nano</strong></em>, 18, 12210–12224 (2024) · IF 16.0</div>
+          </div>
+        </div>
+
+        <!-- 7. 2024 · Area 4 — Stretchable Circuit · npj Flexible Electronics · IF 15.5 -->
+        <div class="hl-card reveal">
+          <div class="hl-card-img">
+            <img src="images/highlights/CsIl9XLm.png" alt="Universal Hydrogel Adhesives">
+          </div>
+          <div class="hl-card-body">
+            <span class="tag tag-circuit">#Stretchable Circuit</span>
+            <h3>Universal Hydrogel Adhesives with Robust Chain Entanglement for Bridging Soft Electronic Materials</h3>
+            <div class="hl-desc" data-kr="고분자 사슬 얽힘(chain entanglement) 기반의 범용 하이드로겔 접착제로, 하이드로겔·엘라스토머 같은 연성 소재와 IC 칩 같은 강성 소재를 하나의 시스템으로 집적합니다. 이종 소재 간 견고한 접합을 통해 완전한 연성 전자 소자 시스템을 구현하는 핵심 기술입니다." data-en="Chain entanglement-based universal hydrogel adhesives enable integration of soft materials (hydrogels, elastomers) with rigid components (IC chips) into a single system. This robust bonding of dissimilar materials is a key enabling technology for building complete flexible electronic device systems.">Chain entanglement-based universal hydrogel adhesives enable integration of soft materials (hydrogels, elastomers) with rigid components (IC chips) into a single system. This robust bonding of dissimilar materials is a key enabling technology for building complete flexible electronic device systems.</div>
+            <div class="hl-sig">
+              <span class="hl-sig-pill"><i class="fas fa-flask"></i> Chain entanglement</span>
+              <span class="hl-sig-pill"><i class="fas fa-cog"></i> Soft-rigid integration</span>
+              <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Flexible device system</span>
+            </div>
+            <div class="hl-journal"><em><strong>npj Flexible Electronics</strong></em>, 8, 39 (2024) · IF 15.5</div>
+          </div>
+        </div>
+
+        <!-- 8. 2024 · Area 3 — Sensor Reliability · AFM · IF 19.0 -->
+        <div class="hl-card reveal reveal-d1">
+          <div class="hl-card-img">
+            <img src="images/highlights/High-quality_scientific_illustration_of_a_stretcha-1775014107161.png" alt="Lubricant-Infused Polymeric Interfaces">
+          </div>
+          <div class="hl-card-body">
+            <span class="tag tag-reliability">#Sensor Reliability</span>
+            <h3>Lubricant-Infused Polymeric Interfaces: Stretchable Anti-Fouling for Implants</h3>
+            <div class="hl-desc" data-kr="윤활제 주입 고분자 인터페이스(SLIP)로 이식형 바이오소재의 장기 항오염 성능을 확보합니다. 신축성을 유지하면서 비특이적 단백질 흡착을 억제하여 혈관 이식편의 수명을 연장합니다." data-en="A stretchable lubricant-infused polymeric interface (SLIP) ensures long-term antifouling performance for implantable biomaterials, suppressing nonspecific protein adsorption while maintaining stretchability to extend vascular graft longevity.">A stretchable lubricant-infused polymeric interface (SLIP) ensures long-term antifouling performance for implantable biomaterials, suppressing nonspecific protein adsorption while maintaining stretchability to extend vascular graft longevity.</div>
+            <div class="hl-sig">
+              <span class="hl-sig-pill"><i class="fas fa-flask"></i> Anti-fouling</span>
+              <span class="hl-sig-pill"><i class="fas fa-cog"></i> Lubricant-infused polymer</span>
+              <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Vascular grafts</span>
+            </div>
+            <div class="hl-journal"><em><strong>Advanced Functional Materials</strong></em>, 34, 2312740 (2024) · IF 19.0</div>
+          </div>
+        </div>
+
+        <!-- 9. 2023 · Area 1 — Soft Bioelectrode · Advanced Science · IF 14.1 -->
+        <div class="hl-card reveal">
+          <div class="hl-card-img">
+            <img src="images/highlights/High-quality_scientific_illustration_of_an_intrins-1775014335644.png" alt="Intrinsically Nonswellable Multifunctional Hydrogel">
+          </div>
+          <div class="hl-card-body">
+            <span class="tag tag-electrode">#Soft Bioelectrode</span>
+            <h3>Intrinsically Nonswellable Multifunctional Hydrogel with Dynamic Nanoconfinement Networks for Robust Tissue-Adaptable Bioelectronics</h3>
+            <div class="hl-desc" data-kr="나노구속(nanoconfinement) 네트워크를 통해 본질적으로 비팽윤성인 다기능 하이드로겔을 구현하여, 체내 습윤 환경에서도 안정적인 소프트 바이오 전극으로 기능합니다. 1000% 이상 신축 및 5분 이내 자가치유 특성을 가집니다." data-en="Dynamic nanoconfinement networks enable an intrinsically nonswellable multifunctional hydrogel that functions as a stable soft bioelectrode in wet tissue environments, achieving &gt;1000% stretchability and self-healing within 5 minutes.">Dynamic nanoconfinement networks enable an intrinsically nonswellable multifunctional hydrogel that functions as a stable soft bioelectrode in wet tissue environments, achieving &gt;1000% stretchability and self-healing within 5 minutes.</div>
+            <div class="hl-sig">
+              <span class="hl-sig-pill"><i class="fas fa-flask"></i> Non-swellable hydrogel</span>
+              <span class="hl-sig-pill"><i class="fas fa-cog"></i> Self-healing</span>
+              <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Tissue-adaptable</span>
+            </div>
+            <div class="hl-journal"><em><strong>Advanced Science</strong></em>, 10, 2207237 (2023) · IF 14.1</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="hl-toggle-btn" id="hlToggleBtn" onclick="toggleHighlights()">
+      <span data-kr="View More Highlights" data-en="View More Highlights">View More Highlights</span>
+      <i class="fas fa-chevron-down chevron"></i>
+    </button>
+  </div>
+</section>
+
+<!-- ===== 4. PUBLICATIONS ===== -->
+<section class="publications" id="publications">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="Publications" data-en="Publications">Publications</h2>
+      <p class="subtitle" data-kr="93+ publications · 6,300+ citations · h-index 36" data-en="93+ publications · 6,300+ citations · h-index 36">93+ publications · 6,300+ citations · h-index 36</p>
+      <div class="divider"></div>
+    </div>
+
+    <!-- Publication list will be populated by JavaScript from data/publications.json -->
+    <div id="publicationsList"></div>
+
+    <!-- Patent Section (toggle) -->
+    <div id="patentSection"></div>
+
+    <div class="pub-footer reveal">
+      <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" class="read-link" data-kr="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>" data-en="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>">View Full List on Google Scholar <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. TEAM ===== -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="Team" data-en="Team">Team</h2>
+      <p class="subtitle" data-kr="Meet our researchers" data-en="Meet our researchers">Meet our researchers</p>
+      <div class="divider"></div>
+    </div>
+
+    <!-- PI section will be populated by JavaScript -->
+    <div id="piSection"></div>
+
+    <!-- Team members will be populated by JavaScript -->
+    <div id="teamMembersContainer"></div>
+
+    <!-- Alumni toggle -->
+    <div id="alumniSection"></div>
+  </div>
+</section>
+
+<!-- Team accordion panels are rendered inline by JavaScript -->
+
+<!-- ===== BG SECTION 2: Vision (hero-3, brain/circuit) ===== -->
+<section class="bg-section style-dark reveal">
+  <img class="bg-image" src="images/hero/hero-3.jpg" alt="Brain circuit illustration">
+  <div class="bg-overlay"></div>
+  <div class="bg-content">
+    <div class="section-label">Our Vision</div>
+    <h2 data-en="Where Semiconductor Technology<br>Meets Bioelectronics" data-kr="Where Semiconductor Technology<br>Meets Bioelectronics">Where Semiconductor Technology<br>Meets Bioelectronics</h2>
+    <p class="bg-desc" data-en="We bridge the gap between high-performance semiconductor systems and the human body — integrating IC packaging, stretchable interconnects, and advanced materials engineering to build bioelectronic devices that deliver clinical-grade precision in real-world biological environments." data-kr="We bridge the gap between high-performance semiconductor systems and the human body — integrating IC packaging, stretchable interconnects, and advanced materials engineering to build bioelectronic devices that deliver clinical-grade precision in real-world biological environments.">We bridge the gap between high-performance semiconductor systems and the human body — integrating IC packaging, stretchable interconnects, and advanced materials engineering to build bioelectronic devices that deliver clinical-grade precision in real-world biological environments.</p>
+  </div>
+</section>
+
+<!-- ===== 6. NEWS + UPDATES ===== -->
+<section class="news" id="news">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="News + Updates" data-en="News + Updates">News + Updates</h2>
+      <p class="subtitle" data-kr="Latest research highlights and lab announcements" data-en="Latest research highlights and lab announcements">Latest research highlights and lab announcements</p>
+      <div class="divider"></div>
+    </div>
+    <!-- Category filter -->
+    <div class="news-filters reveal" id="newsFilters">
+      <button class="news-filter-btn active" data-filter="all" data-kr="All" data-en="All">All</button>
+      <button class="news-filter-btn" data-filter="Publication" data-kr="Publication" data-en="Publication">Publication</button>
+      <button class="news-filter-btn" data-filter="Award" data-kr="Award" data-en="Award">Award</button>
+      <button class="news-filter-btn" data-filter="Grant" data-kr="Grant" data-en="Grant">Grant</button>
+      <button class="news-filter-btn" data-filter="Event" data-kr="Event" data-en="Event">Event</button>
+    </div>
+    <div class="news-hero reveal" id="newsHero" style="display:none;"></div>
+    <div class="news-grid" id="newsGrid"></div>
+    <div class="news-load-more reveal" id="newsLoadMore">
+      <button class="btn-load-more" onclick="loadMoreNews()" data-kr="View More" data-en="View More">View More</button>
+      <span class="news-count" id="newsCount"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BG SECTION 3: Join Us (hero-4) ===== -->
+<section class="bg-section style-gradient reveal" style="min-height: 45vh;">
+  <img class="bg-image" src="images/hero/hero-4.jpg" alt="Bio-electronics concept">
+  <div class="bg-overlay"></div>
+  <div class="bg-content">
+    <div class="section-label">Join Our Lab</div>
+    <h2 data-en="Shape the Future<br>of Bioelectronics" data-kr="Shape the Future<br>of Bioelectronics">Shape the Future<br>of Bioelectronics</h2>
+    <p class="bg-desc" data-en="We are always looking for passionate researchers who want to push the boundaries of soft bioelectronics." data-kr="We are always looking for passionate researchers who want to push the boundaries of soft bioelectronics.">We are always looking for passionate researchers who want to push the boundaries of soft bioelectronics.</p>
+    <div style="margin-top: 32px; display: flex; gap: 16px;">
+      <a href="#contact" class="btn-primary" style="background: #fff; color: var(--accent);" data-en="Contact PI →" data-kr="Contact PI →">Contact PI →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 data-kr="Contact" data-en="Contact">Contact</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <h3 data-kr="Get in Touch" data-en="Get in Touch">Get in Touch</h3>
+        <div class="contact-row">
+          <div class="icon"><i class="fas fa-map-pin"></i></div>
+          <div><div class="label" data-kr="Address" data-en="Address">Address</div><div class="value" data-kr="C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea" data-en="C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea">C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea</div></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div><div class="label">Email</div><div class="value">jungmok.seo@yonsei.ac.kr</div></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <div><div class="label">Phone</div><div class="value">+82-2-2123-2868</div></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon"><i class="fas fa-building-columns"></i></div>
+          <div><div class="label" data-kr="Department" data-en="Department">Department</div><div class="value" data-kr="Department of Electrical and Electronic Engineering, Yonsei University" data-en="Department of Electrical and Electronic Engineering, Yonsei University">Department of Electrical and Electronic Engineering, Yonsei University</div></div>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps?q=%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%A0%9C3%EA%B3%B5%ED%95%99%EA%B4%80&t=m&z=17&output=embed&hl=ko" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-left">&copy; 2026 BLISS Lab, Yonsei University. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:jungmok.seo@yonsei.ac.kr" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Data fallback for file:// protocol (script tags work where fetch does not) -->
+<script src="data/publications.js" onerror=""></script>
+<script src="data/team.js" onerror=""></script>
+<script src="data/news.js" onerror=""></script>
+
+<script>
+/* ===== Nav scroll ===== */
+window.addEventListener('scroll', () => {
+  document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 20);
+});
+
+/* ===== Hamburger ===== */
+function toggleMenu() {
+  document.getElementById('navLinks').classList.toggle('open');
+}
+
+/* ===== Language Toggle ===== */
+let isKR = false;
+function toggleLang() {
+  isKR = !isKR;
+  document.getElementById('langBtn').textContent = isKR ? 'EN' : 'KR';
+  document.body.classList.toggle('kr', isKR);
+  document.querySelectorAll('[data-kr][data-en]').forEach(el => {
+    el.innerHTML = isKR ? el.dataset.kr : el.dataset.en;
+  });
+}
+
+/* ===== Publication Year Accordion ===== */
+function toggleYear(header) {
+  header.parentElement.classList.toggle('open');
+}
+
+/* ===== Load Publications from JSON ===== */
+async function loadPublications() {
+  try {
+    let data;
+    try { const r = await fetch('data/publications.json'); data = await r.json(); }
+    catch(e) { data = window.__PUBLICATIONS_DATA; }
+    if (!data) throw new Error('no data');
+
+    const container = document.getElementById('publicationsList');
+    container.innerHTML = '';
+
+    // Group publications: recent 3 years individual, then 5-year buckets
+    const currentYear = new Date().getFullYear();
+    const recentThreshold = currentYear - 2; // 2024~2026 individual
+    const grouped = {};
+    data.publications.forEach(pub => {
+      let key;
+      if (pub.year >= recentThreshold) {
+        key = String(pub.year);
+      } else if (pub.year >= 2019) {
+        key = '2019–2023';
+      } else {
+        key = '~2018';
+      }
+      if (!grouped[key]) grouped[key] = [];
+      grouped[key].push(pub);
+    });
+
+    // Sort: individual years descending, then range buckets in order
+    const bucketOrder = { '2019–2023': 2019, '~2018': 0 };
+    const years = Object.keys(grouped).sort((a, b) => {
+      const na = bucketOrder[a] !== undefined ? bucketOrder[a] : parseInt(a);
+      const nb = bucketOrder[b] !== undefined ? bucketOrder[b] : parseInt(b);
+      return nb - na;
+    });
+
+    years.forEach((year, idx) => {
+      // Recent 3 individual years (2024-2026) open, range buckets closed
+      const isOpen = (bucketOrder[year] === undefined) ? 'open' : '';
+      const pubs = grouped[year];
+      const pubsHtml = pubs.map(pub => {
+        const hasImg = pub.image ? true : false;
+        const ifBadge = pub.impactFactor ? `<span class="pub-if">IF ${pub.impactFactor}</span>` : '';
+        const numLabel = pub.number ? `<span class="pub-number">${pub.number}.</span>` : '';
+        const imgHtml = hasImg ? `<div class="pub-img"><img src="${pub.image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+
+        // Split journal string: "Journal Name, year, vol, pages" → highlight journal name
+        // Split "Journal Name, vol, pages (year)" → highlight journal name
+        const commaIdx = pub.journal ? pub.journal.indexOf(',') : -1;
+        const jName = commaIdx > 0 ? pub.journal.substring(0, commaIdx).trim() : (pub.journal || '');
+        const jRest = commaIdx > 0 ? pub.journal.substring(commaIdx) : '';
+        const journalHtml = jName
+          ? `<span class="pub-journal-name">${jName}</span><span style="color:var(--text-muted);font-weight:400;">${jRest}</span>`
+          : (pub.journal || '');
+
+        return `
+        <div class="pub-item${hasImg ? ' pub-item-with-img' : ''}">
+          ${imgHtml}
+          <div class="pub-content">
+            <div class="pub-title">${numLabel}${pub.title}</div>
+            <div class="pub-authors">${pub.authors}</div>
+            <div class="pub-journal">${journalHtml}${ifBadge}</div>
+          </div>
+        </div>`;
+      }).join('');
+
+      const html = `
+        <div class="pub-year-group ${isOpen} reveal">
+          <div class="pub-year-header" onclick="toggleYear(this)">
+            <div class="year-label">${year} <span class="year-count">${pubs.length} paper${pubs.length !== 1 ? 's' : ''}</span></div>
+            <i class="fas fa-chevron-down chevron"></i>
+          </div>
+          <div class="pub-year-items">
+            ${pubsHtml}
+          </div>
+        </div>
+      `;
+      container.innerHTML += html;
+    });
+
+    // Render Patents
+    if (data.patents && data.patents.length > 0) {
+      const patentContainer = document.getElementById('patentSection');
+      const isKr = document.body.classList.contains('kr');
+      let patentItems = data.patents.map(p => {
+        const title = isKr && p.title ? p.title : (p.titleEn || p.title);
+        const statusBadge = p.status ? ` <span style="color:var(--accent);font-weight:600;">[${p.status}]</span>` : '';
+        return `<div class="patent-item">
+          <div class="patent-title">${title}</div>
+          <div class="patent-info">${p.inventors} · ${p.number || ''} · ${p.country || ''}${statusBadge}</div>
+        </div>`;
+      }).join('');
+
+      patentContainer.innerHTML = `
+        <div class="patent-toggle reveal" onclick="this.classList.toggle('open')">
+          <span data-kr="Patents (${data.patents.length})" data-en="Patents (${data.patents.length})">
+            Patents (${data.patents.length})
+          </span>
+          <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="patent-list">${patentItems}</div>
+      `;
+    }
+
+    // Trigger reveal animations
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  } catch (error) {
+    console.log('Publications data not found, using fallback static data');
+    loadStaticPublications();
+  }
+}
+
+/* ===== Fallback Static Publications ===== */
+function loadStaticPublications() {
+  const container = document.getElementById('publicationsList');
+  const html = `
+    <!-- Year: 2026 -->
+    <div class="pub-year-group open reveal">
+      <div class="pub-year-header" onclick="toggleYear(this)">
+        <div class="year-label">2026 <span class="year-count">2 papers</span></div>
+        <i class="fas fa-chevron-down chevron"></i>
+      </div>
+      <div class="pub-year-items">
+        <div class="pub-item">
+          <div class="pub-title">Self-Healing Double-Network Hydrogel for Hemostatic Applications</div>
+          <div class="pub-authors"><strong>Y. Jo</strong><sup>†</sup>, T. Kim, S. Park, H. Lee, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">Advanced Materials</span><span style="color:var(--text-muted);font-weight:400;">, 2026, 38, 2401234</span></div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-title">ELFS: Enzyme-Linked Antifouling Surface for Long-Term Stent Protection</div>
+          <div class="pub-authors"><strong>K. Yook</strong><sup>†</sup>, H. Ham, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">Bioactive Materials</span><span style="color:var(--text-muted);font-weight:400;">, 2026, 42, 115–128</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Year: 2025 -->
+    <div class="pub-year-group reveal">
+      <div class="pub-year-header" onclick="toggleYear(this)">
+        <div class="year-label">2025 <span class="year-count">3 papers</span></div>
+        <i class="fas fa-chevron-down chevron"></i>
+      </div>
+      <div class="pub-year-items">
+        <div class="pub-item">
+          <div class="pub-title">Marangoni-Driven Autonomous Merging of Liquid Metal for Soft Bioelectronics</div>
+          <div class="pub-authors"><strong>T. Kim</strong><sup>†</sup>, Y. Jo, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">Nature Electronics</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 8, 112–123</span></div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-title">TAB Neural Coating for Long-Term Brain-Machine Interfaces</div>
+          <div class="pub-authors"><strong>S. Park</strong><sup>†</sup>, K. Yook, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">Science Advances</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 11, eadq5678</span></div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-title">Universal Heterogeneous Adhesive via Mussel-Inspired Chain Entanglement</div>
+          <div class="pub-authors"><strong>S. Park</strong><sup>†</sup>, M. Kim, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">Science Advances</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 11, eadq7890</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Year: 2024 -->
+    <div class="pub-year-group reveal">
+      <div class="pub-year-header" onclick="toggleYear(this)">
+        <div class="year-label">2024 <span class="year-count">sample</span></div>
+        <i class="fas fa-chevron-down chevron"></i>
+      </div>
+      <div class="pub-year-items">
+        <div class="pub-item">
+          <div class="pub-title">Enzyme-Linked Antifouling Surface for Long-Term Implant Protection</div>
+          <div class="pub-authors">H. Ham<sup>†</sup>, <strong>K. Yook</strong>, <strong>J. Seo</strong><sup>*</sup></div>
+          <div class="pub-journal"><span class="pub-journal-name">ACS Nano</span><span style="color:var(--text-muted);font-weight:400;">, 2024, 18, 34521–34533</span></div>
+        </div>
+      </div>
+    </div>
+  `;
+  container.innerHTML = html;
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
+
+/* ===== Load Team from JSON ===== */
+async function loadTeam() {
+  try {
+    let data;
+    try { const r = await fetch('data/team.json'); data = await r.json(); }
+    catch(e) { data = window.__TEAM_DATA; }
+    if (!data) throw new Error('no data');
+    renderTeam(data);
+  } catch (error) {
+    console.log('Team data not found, using fallback static data');
+    loadStaticTeam();
+  }
+}
+
+function renderTeam(data) {
+  // Render PI Section with education/career
+  const pi = data.pi;
+  let piEduHtml = '';
+  if (pi.education && pi.education.length > 0) {
+    piEduHtml += `<div class="pi-detail-label">Education</div><ul class="pi-detail-list">`;
+    pi.education.forEach(e => { piEduHtml += `<li>${e}</li>`; });
+    piEduHtml += `</ul>`;
+  }
+  if (pi.career && pi.career.length > 0) {
+    piEduHtml += `<div class="pi-detail-label">Career</div><ul class="pi-detail-list">`;
+    pi.career.forEach(c => { piEduHtml += `<li>${c}</li>`; });
+    piEduHtml += `</ul>`;
+  }
+
+  const piHtml = `
+    <div class="pi-section reveal">
+      <div class="pi-photo">
+        <img src="images/team/${pi.id}.jpg" alt="${pi.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <span class="initials">${pi.initials}</span>
+      </div>
+      <div class="pi-info">
+        <h3 data-kr="${pi.nameEn}" data-en="${pi.nameEn}">${isKR ? pi.nameKr : pi.nameEn}</h3>
+        <div class="role" data-kr="${pi.roleEn}" data-en="${pi.roleEn}">${isKR ? pi.roleKr : pi.roleEn}</div>
+        <p class="bio" data-kr="${pi.bioEn}" data-en="${pi.bioEn}">${isKR ? pi.bioKr : pi.bioEn}</p>
+        ${piEduHtml}
+      </div>
+    </div>
+  `;
+
+  // Group members by category (preserve order from categories array)
+  const grouped = {};
+  data.members.forEach(member => {
+    if (!grouped[member.category]) grouped[member.category] = [];
+    grouped[member.category].push(member);
+  });
+
+  let membersHtml = '';
+  data.categories.forEach(cat => {
+    const category = cat.id;
+    const membersInCategory = grouped[category];
+    if (!membersInCategory || membersInCategory.length === 0) return;
+
+    const itemsHtml = membersInCategory.map(member => {
+      // Build education list
+      let eduHtml = '';
+      if (member.education && member.education.length > 0) {
+        eduHtml = `<div class="acc-edu-label">Education</div><ul class="acc-edu-list">`;
+        member.education.forEach(e => { eduHtml += `<li>${e}</li>`; });
+        eduHtml += `</ul>`;
+      }
+
+      return `
+      <div class="member-item" data-member-id="${member.id}" onclick="toggleAccordion(this, '${member.id}')">
+        <div class="member-photo">
+          <img src="images/team/${member.id}.jpg" alt="${member.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+          <span class="initials">${member.initials}</span>
+        </div>
+        <h4 data-kr="${member.nameEn}" data-en="${member.nameEn}">${isKR ? member.nameKr : member.nameEn}</h4>
+        <p>${member.research}</p>
+      </div>`;
+    }).join('');
+
+    // Store accordion data directly in window._teamData (no inline script needed)
+    window._teamData = window._teamData || {};
+    membersInCategory.forEach(member => {
+      window._teamData[member.id] = {
+        initials: member.initials,
+        nameKr: member.nameKr,
+        nameEn: member.nameEn,
+        roleKr: member.roleKr,
+        roleEn: member.roleEn,
+        research: member.research,
+        education: member.education || []
+      };
+    });
+
+    membersHtml += `
+      <div class="team-label reveal" data-kr="${cat.labelEn}" data-en="${cat.labelEn}">${isKR ? cat.labelKr : cat.labelEn}</div>
+      <div class="member-grid reveal">
+        ${itemsHtml}
+      </div>
+    `;
+  });
+
+  document.getElementById('piSection').innerHTML = piHtml;
+  document.getElementById('teamMembersContainer').innerHTML = membersHtml;
+
+  // Render Alumni section
+  if (data.alumni && data.alumni.length > 0) {
+    const alumniItems = data.alumni.map(a => `
+      <div class="alumni-item">
+        <div>
+          <div class="alumni-name" data-kr="${a.nameEn}" data-en="${a.nameEn}">${isKR ? a.nameKr : a.nameEn}</div>
+          <div class="alumni-info">${a.degree || ''} ${a.year || ''} ${a.current ? '· ' + a.current : ''}</div>
+        </div>
+      </div>
+    `).join('');
+    document.getElementById('alumniSection').innerHTML = `
+      <div class="alumni-toggle reveal" onclick="this.classList.toggle('open')">
+        <span data-kr="Alumni" data-en="Alumni">Alumni</span>
+        <i class="fas fa-chevron-down chevron"></i>
+      </div>
+      <div class="alumni-content">
+        <div class="alumni-grid">${alumniItems}</div>
+      </div>
+    `;
+  }
+
+  // Trigger reveal animations
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
+
+function loadStaticTeam() {
+  const piHtml = `
+    <div class="pi-section reveal">
+      <div class="pi-photo"><span class="initials">JS</span></div>
+      <div class="pi-info">
+        <h3 data-kr="Jungmok Seo" data-en="Jungmok Seo">Jungmok Seo</h3>
+        <div class="role" data-kr="Associate Professor · Principal Investigator" data-en="Associate Professor · Principal Investigator">Associate Professor · Principal Investigator</div>
+        <p class="bio" data-kr="Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE." data-en="Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE.">Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE.</p>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('piSection').innerHTML = piHtml;
+  document.getElementById('teamMembersContainer').innerHTML = '<p style="color:var(--text-muted);text-align:center;">Unable to load team data.</p>';
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
+
+/* ===== Team Inline Accordion ===== */
+let currentAccordion = null;
+
+function toggleAccordion(itemEl, memberId) {
+  const grid = itemEl.closest('.member-grid');
+  const existing = grid.querySelector('.member-accordion');
+
+  // Close any open accordion
+  if (existing) {
+    const wasOpen = existing.dataset.memberId === memberId;
+    existing.style.maxHeight = '0px';
+    existing.classList.remove('open');
+    grid.querySelector('.member-item.active')?.classList.remove('active');
+    setTimeout(() => existing.remove(), 400);
+    currentAccordion = null;
+    if (wasOpen) return; // Toggle off if same member
+  }
+
+  const data = window._teamData && window._teamData[memberId];
+  if (!data) return;
+
+  // Build education HTML
+  let eduHtml = '';
+  if (data.education && data.education.length > 0) {
+    eduHtml = `<div class="acc-edu-label">Education</div><ul class="acc-edu-list">`;
+    data.education.forEach(e => { eduHtml += `<li>${e}</li>`; });
+    eduHtml += `</ul>`;
+  }
+
+  // Create accordion element
+  const acc = document.createElement('div');
+  acc.className = 'member-accordion';
+  acc.dataset.memberId = memberId;
+  acc.innerHTML = `
+    <div class="accordion-inner" style="position:relative;">
+      <div class="accordion-photo">
+        <img src="images/team/${memberId}.jpg" alt="${data.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <span class="initials">${data.initials}</span>
+      </div>
+      <div class="accordion-details">
+        <h3 data-kr="${data.nameEn}" data-en="${data.nameEn}">${isKR ? data.nameKr : data.nameEn}</h3>
+        <div class="acc-role" data-kr="${data.roleEn}" data-en="${data.roleEn}">${isKR ? data.roleKr : data.roleEn}</div>
+        <span class="acc-research">${data.research}</span>
+        ${eduHtml}
+      </div>
+    </div>
+  `;
+
+  // Find where to insert: after the row of the clicked item
+  // Get all member items and determine the row boundary
+  const items = Array.from(grid.querySelectorAll('.member-item'));
+  const clickedIdx = items.indexOf(itemEl);
+  const clickedRect = itemEl.getBoundingClientRect();
+  const clickedTop = clickedRect.top;
+
+  // Find last item in the same row
+  let lastInRow = itemEl;
+  for (let i = clickedIdx + 1; i < items.length; i++) {
+    const r = items[i].getBoundingClientRect();
+    if (Math.abs(r.top - clickedTop) < 10) {
+      lastInRow = items[i];
+    } else {
+      break;
+    }
+  }
+
+  // Insert after last item in the same row
+  lastInRow.after(acc);
+  itemEl.classList.add('active');
+
+  // Animate open
+  requestAnimationFrame(() => {
+    acc.style.maxHeight = acc.scrollHeight + 'px';
+    acc.classList.add('open');
+  });
+
+  currentAccordion = acc;
+
+  // Smooth scroll to accordion
+  setTimeout(() => {
+    acc.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }, 100);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && currentAccordion) {
+    const grid = currentAccordion.closest('.member-grid');
+    grid.querySelector('.member-item.active')?.classList.remove('active');
+    currentAccordion.style.maxHeight = '0px';
+    currentAccordion.classList.remove('open');
+    setTimeout(() => currentAccordion?.remove(), 400);
+    currentAccordion = null;
+  }
+});
+
+/* ===== Scroll Reveal ===== */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+/* ===== Smooth scroll for nav ===== */
+document.querySelectorAll('.nav-links a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById('navLinks').classList.remove('open');
+  });
+});
+
+/* ===== News + Updates ===== */
+let allNewsItems = [];
+let filteredNews = [];
+let newsShown = 0;
+const NEWS_PER_PAGE = 6;
+let currentNewsFilter = 'all';
+
+async function loadNews() {
+  try {
+    let data;
+    try { const r = await fetch('data/news.json'); data = await r.json(); }
+    catch(e) { data = window.__NEWS_DATA; }
+    if (!data) throw new Error('no data');
+    allNewsItems = data.news || [];
+    filteredNews = [...allNewsItems];
+    newsShown = 0;
+    renderNewsPage();
+    setupNewsFilters();
+  } catch (e) {
+    console.error('News load error:', e);
+    document.getElementById('newsGrid').innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;">Unable to load news.</p>';
+  }
+}
+
+function setupNewsFilters() {
+  document.querySelectorAll('.news-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentNewsFilter = btn.dataset.filter;
+      if (currentNewsFilter === 'all') {
+        filteredNews = [...allNewsItems];
+      } else {
+        filteredNews = allNewsItems.filter(n => n.categories && n.categories.includes(currentNewsFilter));
+      }
+      newsShown = 0;
+      document.getElementById('newsGrid').innerHTML = '';
+      document.getElementById('newsHero').innerHTML = '';
+      document.getElementById('newsHero').style.display = 'none';
+      renderNewsPage();
+    });
+  });
+}
+
+function getNewsCatStyle(item) {
+  const catTag = (item.categories && item.categories.length > 0) ? item.categories[0] : 'General';
+  const catStyles = {
+    'Publication': { cls: 'tag-electrode', label: 'Publication' },
+    'Award': { cls: 'tag-circuit', label: 'Award' },
+    'Grant': { cls: 'tag-reliability', label: 'Grant' },
+    'Event': { cls: 'tag-interface', label: 'Event' },
+    'Media': { cls: 'tag-electrode', label: 'Media' },
+    'General': { cls: 'tag-electrode', label: 'News' }
+  };
+  return catStyles[catTag] || catStyles['General'];
+}
+
+function formatNewsDate(dateStr) {
+  const dateObj = new Date(dateStr + 'T00:00:00');
+  const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return monthNames[dateObj.getMonth()] + ' ' + dateObj.getDate() + ', ' + dateObj.getFullYear();
+}
+
+// Subtle publication overlay — only for Publication news items
+function buildPubOverlay(item) {
+  const cat = (item.categories && item.categories[0]) || 'General';
+  if (cat !== 'Publication') return '';
+  let journal = null, impactFactor = null;
+  const jMatch = item.title.match(/BLISS\s+\S+\s+(?:학생|박사)\s+(.+?)\s*에\s*논문/i)
+    || item.title.match(/BLISS\s+\S+\s*·\s*\S+\s+(?:학생|박사)\s+(.+?)\s*에\s*논문/i);
+  if (jMatch) journal = jMatch[1].trim();
+  const ifMatch = item.title.match(/[Ii]mpact\s*[Ff]actor\s*=?\s*([\d.]+)/i)
+    || item.title.match(/IF\s*[=:]\s*([\d.]+)/i);
+  if (ifMatch) impactFactor = ifMatch[1];
+  if (!journal && !impactFactor) return '';
+  return `<div class="pub-overlay">
+    ${journal ? `<span class="pub-ov-journal">${journal}</span>` : ''}
+    ${impactFactor ? `<span class="pub-ov-if">IF ${impactFactor}</span>` : ''}
+  </div>`;
+}
+
+function renderNewsPage() {
+  const heroEl = document.getElementById('newsHero');
+  const grid = document.getElementById('newsGrid');
+  const end = Math.min(newsShown + NEWS_PER_PAGE, filteredNews.length);
+
+  // First page: render hero card
+  if (newsShown === 0 && filteredNews.length > 0) {
+    const first = filteredNews[0];
+    const cs = getNewsCatStyle(first);
+    heroEl.style.display = '';
+    heroEl.innerHTML = `
+      <img class="news-hero-img" src="${first.thumbnail}" alt="${first.title}" loading="eager"
+           onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a1a2e,#16213e)';">
+      ${buildPubOverlay(first)}
+      <div class="news-hero-overlay"></div>
+      <div class="news-hero-body">
+        <span class="tag ${cs.cls}">#${cs.label}</span>
+        <h3>${first.title}</h3>
+        <div class="news-hero-meta"><span>${formatNewsDate(first.date)}</span></div>
+      </div>
+    `;
+    if (typeof observer !== 'undefined') observer.observe(heroEl);
+    // Start grid from index 1
+    newsShown = 1;
+  }
+
+  const gridStart = newsShown;
+  const gridEnd = Math.min(gridStart + NEWS_PER_PAGE, filteredNews.length);
+
+  for (let i = gridStart; i < gridEnd; i++) {
+    const item = filteredNews[i];
+    const delay = (i - gridStart) % 3;
+    const cs = getNewsCatStyle(item);
+
+    const card = document.createElement('div');
+    card.className = `news-card reveal${delay > 0 ? ' reveal-d' + delay : ''}`;
+
+    card.innerHTML = `
+      <div class="news-card-img">
+        <img src="${item.thumbnail}" alt="${item.title}" loading="lazy"
+             onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg, #E8EFFE, #D8E4FE)';this.parentElement.innerHTML+='<i class=\\'fas fa-newspaper placeholder-icon\\'></i>';">
+        ${buildPubOverlay(item)}
+      </div>
+      <div class="news-card-body">
+        <div class="news-tags"><span class="tag ${cs.cls}">#${cs.label}</span></div>
+        <h3>${item.title}</h3>
+        ${item.summary ? `<p>${item.summary}</p>` : ''}
+        <div class="news-card-meta"><span>${formatNewsDate(item.date)}</span></div>
+      </div>
+    `;
+    grid.appendChild(card);
+  }
+
+  newsShown = gridEnd;
+  updateNewsCount();
+
+  // Re-trigger reveal animations
+  document.querySelectorAll('.news-card.reveal, .news-hero.reveal').forEach(el => {
+    if (typeof observer !== 'undefined') observer.observe(el);
+  });
+}
+
+function loadMoreNews() {
+  renderNewsPage();
+}
+
+function updateNewsCount() {
+  const countEl = document.getElementById('newsCount');
+  const loadMoreEl = document.getElementById('newsLoadMore');
+  const isKr = document.body.classList.contains('kr');
+
+  if (newsShown >= filteredNews.length) {
+    loadMoreEl.querySelector('.btn-load-more').style.display = 'none';
+    countEl.textContent = `Showing all ${filteredNews.length} items`;
+  } else {
+    loadMoreEl.querySelector('.btn-load-more').style.display = '';
+    countEl.textContent = `${newsShown} of ${filteredNews.length} items`;
+  }
+}
+
+/* ===== Research Diagram Interaction ===== */
+function highlightTheme(theme) {
+  // Scroll to and highlight the corresponding research card
+  const card = document.querySelector(`.ra-card.${theme}`);
+  if (card) {
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    card.style.boxShadow = '0 16px 48px rgba(0,85,255,0.15)';
+    card.style.borderColor = 'transparent';
+    card.style.transform = 'translateY(-4px)';
+    setTimeout(() => {
+      card.style.boxShadow = '';
+      card.style.borderColor = '';
+      card.style.transform = '';
+    }, 2000);
+  }
+}
+
+/* ===== Highlights Toggle ===== */
+function toggleHighlights() {
+  const wrapper = document.getElementById('hlMoreWrapper');
+  const btn = document.getElementById('hlToggleBtn');
+  const isOpen = wrapper.classList.contains('open');
+  wrapper.classList.toggle('open');
+  btn.classList.toggle('open');
+  btn.querySelector('span').textContent = isOpen ? 'View More Highlights' : 'Show Less';
+  if (!isOpen) {
+    wrapper.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  }
+}
+
+/* ===== Initialize ===== */
+window.addEventListener('DOMContentLoaded', () => {
+  loadPublications();
+  loadTeam();
+  loadNews();
+  initCoverMarquee();
+});
+
+/* ===== Hero Cover Marquee (3 rows, each with unique covers) ===== */
+function initCoverMarquee() {
+  const container = document.getElementById('coverContainer');
+  if (!container) return;
+
+  // All 16 paper cover images
+  const allCovers = [
+    'images/covers/cover-1.png',  'images/covers/cover-2.png',
+    'images/covers/cover-3.png',  'images/covers/cover-4.png',
+    'images/covers/cover-5.png',  'images/covers/cover-6.png',
+    'images/covers/cover-7.jpg',  'images/covers/cover-8.jpg',
+    'images/covers/cover-9.jpg',  'images/covers/cover-10.jpg',
+    'images/covers/cover-11.jpg', 'images/covers/cover-12.jpg',
+    'images/covers/cover-13.jpg', 'images/covers/cover-14.jpg',
+    'images/covers/cover-15.jpg', 'images/covers/cover-16.jpg',
+  ];
+
+  // Shuffle and split into 3 distinct groups (no overlap)
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  const shuffled = shuffle(allCovers);
+  // Row 1: 6 covers, Row 2: 5 covers, Row 3: 5 covers
+  const rows = [
+    shuffled.slice(0, 6),
+    shuffled.slice(6, 11),
+    shuffled.slice(11, 16)
+  ];
+
+  function createTrack(covers, direction, speedClass) {
+    const track = document.createElement('div');
+    track.className = `cover-track ${direction} ${speedClass}`;
+
+    // Duplicate for seamless loop
+    const items = [...covers, ...covers, ...covers];
+    items.forEach(src => {
+      const item = document.createElement('div');
+      item.className = 'cover-item';
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = 'Journal Cover';
+      img.loading = 'lazy';
+      item.appendChild(img);
+      track.appendChild(item);
+    });
+    return track;
+  }
+
+  // 3 rows with alternating directions and different speeds
+  container.appendChild(createTrack(rows[0], 'scroll-left', 'fast'));
+  container.appendChild(createTrack(rows[1], 'scroll-right', 'slow'));
+  container.appendChild(createTrack(rows[2], 'scroll-left', ''));
+}
+</script>
+
+</body>
+</html>

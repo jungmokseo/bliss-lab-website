@@ -1,0 +1,371 @@
+{
+  "pi": {
+    "id": "seo-jungmok",
+    "initials": "JS",
+    "nameKr": "서정목",
+    "nameEn": "Jungmok Seo",
+    "roleKr": "부교수 · 연구책임자",
+    "roleEn": "Associate Professor · Principal Investigator",
+    "bioKr": "연세대학교 전기전자공학과에서 BLISS Lab을 이끌고 있으며, 소프트 바이오 전극 소재, 바이오 인터페이스 공학, 이식형 센서 신뢰성, 신축성 회로 및 IC 패키징을 연구합니다. 생체와 전자소자 사이의 물리적·전기적 경계를 허무는 차세대 바이오일렉트로닉스 시스템을 개발합니다.",
+    "bioEn": "Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE.",
+    "education": [
+      "Ph.D., School of Electrical and Electronic Engineering, Yonsei University (2008–2014)",
+      "B.S., School of Electrical and Electronic Engineering, Yonsei University (2004–2008)"
+    ],
+    "career": [
+      "Associate Professor, Yonsei University (2023–present)",
+      "Assistant Professor, Yonsei University (2019–2023)",
+      "Senior Research Scientist, KIST (2017–2019)",
+      "Postdoc, Harvard Medical School (2015–2017)"
+    ]
+  },
+  "categories": [
+    {
+      "id": "postdoc",
+      "labelKr": "박사후연구원",
+      "labelEn": "Postdoctoral Researcher"
+    },
+    {
+      "id": "phd",
+      "labelKr": "통합과정 · 박사과정",
+      "labelEn": "Joint M.S. & Ph.D. / Ph.D. Students"
+    },
+    {
+      "id": "intern",
+      "labelKr": "학부인턴",
+      "labelEn": "Undergraduate Interns"
+    }
+  ],
+  "members": [
+    {
+      "id": "kim-taeyoung",
+      "initials": "TK",
+      "nameKr": "김태영",
+      "nameEn": "Taeyoung Kim",
+      "roleKr": "박사후연구원",
+      "roleEn": "Postdoctoral Researcher",
+      "research": "Functional Hydrogel Materials & Bio-interfaces",
+      "category": "postdoc",
+      "education": [
+        "Postdoctoral Researcher, Yonsei University (2024.09–present)",
+        "Ph.D., School of EEE, Yonsei University (2021.09–2024.08)",
+        "M.S., Department of Medical Science, Yonsei University (2019.03–2021.02)"
+      ]
+    },
+    {
+      "id": "jo-yejin",
+      "initials": "YJ",
+      "nameKr": "조예진",
+      "nameEn": "Yejin Jo",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Bio-interfaces & Device Packaging",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2021.09–present)",
+        "Undergraduate Intern, Yonsei University (2020.11–2021.02)"
+      ]
+    },
+    {
+      "id": "kang-minkyung",
+      "initials": "MK",
+      "nameKr": "강민경",
+      "nameEn": "Minkyung Kang",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Functional Hydrogels & Electronics",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2021.09–present)",
+        "Undergraduate Intern, Yonsei University (2021.06–2021.08)"
+      ]
+    },
+    {
+      "id": "lee-yurim",
+      "initials": "YL",
+      "nameKr": "이유림",
+      "nameEn": "Yurim Lee",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Device Packaging",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2022.03–present)",
+        "Undergraduate Intern, Yonsei University (2021.09–2022.02)"
+      ]
+    },
+    {
+      "id": "kim-sooa",
+      "initials": "SA",
+      "nameKr": "김수아",
+      "nameEn": "Sooa Kim",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Functional Hydrogels & Electronics",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2022.03–present)",
+        "Undergraduate Intern, Yonsei University (2021.09–2022.02)"
+      ]
+    },
+    {
+      "id": "beibei",
+      "initials": "BB",
+      "nameKr": "Beibei",
+      "nameEn": "Beibei",
+      "roleKr": "박사과정",
+      "roleEn": "Ph.D. Candidate",
+      "research": "Bio-interfaces",
+      "category": "phd",
+      "education": [
+        "Ph.D. Candidate, Yonsei University (2025.09–present)"
+      ]
+    },
+    {
+      "id": "park-siyeon",
+      "initials": "SP",
+      "nameKr": "박시연",
+      "nameEn": "Siyeon Park",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Neuromorphic Device & Functional Hydrogels",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2023.09–present)"
+      ]
+    },
+    {
+      "id": "son-gayoung",
+      "initials": "GS",
+      "nameKr": "손가영",
+      "nameEn": "Gayoung Son",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Functional Hydrogel Materials & Bio-interfaces",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2024.03–present)",
+        "Undergraduate Intern, Yonsei University (2023.02–2024.02)"
+      ]
+    },
+    {
+      "id": "yook-keunyoung",
+      "initials": "KY",
+      "nameKr": "육근영",
+      "nameEn": "Keunyoung Yook",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Soft Interconnects & Integration",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2024.03–present)",
+        "Undergraduate Intern, Yonsei University (2023.11–2024.02)"
+      ]
+    },
+    {
+      "id": "ham-hyein",
+      "initials": "HH",
+      "nameKr": "함혜인",
+      "nameEn": "Hyein Ham",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Device Packaging",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.03–present)",
+        "Undergraduate Intern, Yonsei University (2024.09–2025.02)"
+      ]
+    },
+    {
+      "id": "kim-chansu",
+      "initials": "CK",
+      "nameKr": "김찬수",
+      "nameEn": "Chansu Kim",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Soft Interconnects & Integration",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.09–present)",
+        "Undergraduate Intern, Yonsei University (2025.01–2025.08)"
+      ]
+    },
+    {
+      "id": "jung-yunmin",
+      "initials": "YJ",
+      "nameKr": "정윤민",
+      "nameEn": "Yunmin Jung",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Soft Interconnects & Integration",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.09–present)",
+        "Undergraduate Intern, Yonsei University (2025.01–2025.08)"
+      ]
+    },
+    {
+      "id": "kim-mido",
+      "initials": "MK",
+      "nameKr": "김미도",
+      "nameEn": "Mido Kim",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Soft Interconnects & Integration",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.03–present)",
+        "Undergraduate Intern, Yonsei University (2025.05–2026.02)"
+      ]
+    },
+    {
+      "id": "jang-hanbit",
+      "initials": "HJ",
+      "nameKr": "장한빛",
+      "nameEn": "Hanbit Jang",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Device Packaging & Integration",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.03–present)",
+        "Undergraduate Intern, Yonsei University (2025.09–2026.02)"
+      ]
+    },
+    {
+      "id": "hong-seungwan",
+      "initials": "SH",
+      "nameKr": "홍승완",
+      "nameEn": "Seungwan Hong",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Device Packaging",
+      "category": "intern",
+      "education": [
+        "Undergraduate Intern, Yonsei University (2025.05–present)"
+      ]
+    },
+    {
+      "id": "park-jimin",
+      "initials": "JM",
+      "nameKr": "박지민",
+      "nameEn": "Jimin Park",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Functional Hydrogels & Bio-interfaces",
+      "category": "intern",
+      "education": [
+        "Undergraduate Intern, Yonsei University (2026.01–present)"
+      ]
+    },
+    {
+      "id": "sim-hyunji",
+      "initials": "HS",
+      "nameKr": "심현지",
+      "nameEn": "Hyunji Sim",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Device Packaging & Integration",
+      "category": "intern",
+      "education": [
+        "Undergraduate Intern, Yonsei University (2026.03–present)"
+      ]
+    }
+  ],
+  "alumni": [
+    {
+      "nameKr": "김승회",
+      "nameEn": "Seunghoi Kim",
+      "degree": "Master's degree",
+      "current": "삼성바이오에피스 (Samsung Bioepis)"
+    },
+    {
+      "nameKr": "김현철",
+      "nameEn": "Hyunchul Kim",
+      "degree": "Postgraduate Researcher",
+      "current": "Ph.D. Candidate, University of Illinois Urbana-Champaign"
+    },
+    {
+      "nameKr": "채교민",
+      "nameEn": "Kyomin Chae",
+      "degree": "Master's degree",
+      "current": "삼성전자 (Samsung Electronics)"
+    },
+    {
+      "nameKr": "이동원",
+      "nameEn": "Dongwon Lee",
+      "degree": "Undergraduate Intern",
+      "current": "Ph.D. Candidate, Georgia Institute of Technology"
+    },
+    {
+      "nameKr": "김해윤",
+      "nameEn": "Hae Youn Kim",
+      "degree": "Master's degree",
+      "current": "한국과학기술연구원 (KIST)"
+    },
+    {
+      "nameKr": "김연주",
+      "nameEn": "Yeonju Kim",
+      "degree": "Master's degree"
+    },
+    {
+      "nameKr": "김지현",
+      "nameEn": "Jihyun Kim",
+      "degree": "Master's degree",
+      "current": "Ph.D. Candidate, Tufts University"
+    },
+    {
+      "nameKr": "황수영",
+      "nameEn": "Sooyoung Hwang",
+      "degree": "Master's degree"
+    },
+    {
+      "nameKr": "박재규",
+      "nameEn": "Jaegyu Park",
+      "degree": "Master's degree",
+      "current": "Ph.D. Candidate, Washington University in St. Louis"
+    },
+    {
+      "nameKr": "이연택",
+      "nameEn": "Yeontaek Lee",
+      "degree": "Doctoral degree",
+      "current": "CTO, Lynk Solutec, Inc."
+    },
+    {
+      "nameKr": "오진석",
+      "nameEn": "Jinseok Oh",
+      "degree": "Master's degree",
+      "current": "삼성전자 (Samsung Electronics)"
+    },
+    {
+      "nameKr": "박기준",
+      "nameEn": "Kijun Park",
+      "degree": "Doctoral degree",
+      "current": "Postdoctoral researcher, Harvard Medical School"
+    },
+    {
+      "nameKr": "김상인",
+      "nameEn": "Sangin Kim",
+      "degree": "Master's degree",
+      "current": "Ph.D. Candidate, Virginia Tech"
+    },
+    {
+      "nameKr": "김상원",
+      "nameEn": "Sangwon Kim",
+      "degree": "Master's degree",
+      "current": "삼성전자 (Samsung Electronics)"
+    },
+    {
+      "nameKr": "박상우",
+      "nameEn": "Sangwoo Park",
+      "degree": "Master's degree",
+      "current": "삼성디스플레이 (Samsung Display)"
+    },
+    {
+      "nameKr": "김장호",
+      "nameEn": "Jangho Kim",
+      "degree": "Master's degree",
+      "current": "엘지디스플레이 (LG Display)"
+    }
+  ]
+}
