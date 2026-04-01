@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="kr-default">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -868,7 +868,7 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
 .reveal-d4 { transition-delay: 0.4s; }
 </style>
 </head>
-<body>
+<body class="kr">
 
 <!-- ========== NAV ========== -->
 <nav>
@@ -881,7 +881,7 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
       <a href="#team">Team</a>
       <a href="#news">News</a>
       <a href="#contact">Contact</a>
-      <button class="lang-toggle" onclick="toggleLang()" id="langBtn">KR</button>
+      <button class="lang-toggle" onclick="toggleLang()" id="langBtn">EN</button>
     </div>
     <div class="hamburger" onclick="toggleMenu()">
       <span></span><span></span><span></span>
@@ -1263,7 +1263,7 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
         <h3 data-kr="Get in Touch" data-en="Get in Touch">Get in Touch</h3>
         <div class="contact-row">
           <div class="icon"><i class="fas fa-map-pin"></i></div>
-          <div><div class="label" data-kr="Address" data-en="Address">Address</div><div class="value" data-kr="C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea" data-en="C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea">C525, Engineering Building III<br>Yonsei University, Seoul 03722, Korea</div></div>
+          <div><div class="label" data-kr="Address" data-en="Address">Address</div><div class="value" data-kr="Engineering Building III<br>Yonsei University, Seoul 03722, Korea" data-en="Engineering Building III<br>Yonsei University, Seoul 03722, Korea">Engineering Building III<br>Yonsei University, Seoul 03722, Korea</div></div>
         </div>
         <div class="contact-row">
           <div class="icon"><i class="fas fa-envelope"></i></div>
@@ -1317,7 +1317,7 @@ function toggleMenu() {
 }
 
 /* ===== Language Toggle ===== */
-let isKR = false;
+let isKR = true;
 function toggleLang() {
   isKR = !isKR;
   document.getElementById('langBtn').textContent = isKR ? 'EN' : 'KR';
@@ -1963,6 +1963,10 @@ function toggleHighlights() {
 
 /* ===== Initialize ===== */
 window.addEventListener('DOMContentLoaded', () => {
+  // Apply default KR text to all bilingual elements
+  document.querySelectorAll('[data-kr][data-en]').forEach(el => {
+    el.innerHTML = el.dataset.kr;
+  });
   loadPublications();
   loadTeam();
   loadNews();
