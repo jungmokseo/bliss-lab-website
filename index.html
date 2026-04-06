@@ -466,6 +466,8 @@ section { padding: 96px 0; }
 .pub-if { display: inline-block; font-size: 0.68rem; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 8px; white-space: nowrap; }
 .pub-number { display: inline-block; font-size: 0.72rem; color: var(--text-muted); font-weight: 500; margin-right: 6px; min-width: 22px; }
 .pub-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
+.pub-title a { color: inherit; text-decoration: none; transition: color 0.2s; }
+.pub-title a:hover { color: var(--primary); }
 .pub-authors { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 4px; }
 .pub-authors strong { color: var(--text-primary); font-weight: 600; }
 .pub-authors sup { font-size: 0.6em; color: var(--accent); font-weight: 700; margin: 0 1px; }
@@ -1396,7 +1398,7 @@ async function loadPublications() {
         <div class="pub-item${hasImg ? ' pub-item-with-img' : ''}">
           ${imgHtml}
           <div class="pub-content">
-            <div class="pub-title">${numLabel}${pub.title}</div>
+            <div class="pub-title">${numLabel}${pub.link ? `<a href="${pub.link}" target="_blank" rel="noopener">${pub.title}</a>` : pub.title}</div>
             <div class="pub-authors">${pub.authors}</div>
             <div class="pub-journal">${journalHtml}${ifBadge}</div>
           </div>
