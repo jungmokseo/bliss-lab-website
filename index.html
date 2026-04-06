@@ -859,6 +859,11 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
   .member-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
 }
 
+/* ========== SCROLL OFFSET FOR FIXED NAV ========== */
+section[id] {
+  scroll-margin-top: calc(var(--nav-height) + 16px);
+}
+
 /* ========== SCROLL ANIMATIONS ========== */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
@@ -1764,9 +1769,18 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 document.querySelectorAll('.nav-links a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     e.preventDefault();
+    const navLinks = document.getElementById('navLinks');
+    const wasOpen = navLinks.classList.contains('open');
+    navLinks.classList.remove('open');
     const target = document.querySelector(a.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    document.getElementById('navLinks').classList.remove('open');
+    if (target) {
+      // On mobile, wait for menu close animation before scrolling
+      if (wasOpen) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+      } else {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   });
 });
 
