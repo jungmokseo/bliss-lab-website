@@ -45,6 +45,7 @@ window.__TEAM_DATA = {
       "roleKr": "박사후연구원",
       "roleEn": "Postdoctoral Researcher",
       "research": "Functional Hydrogel Materials & Bio-interfaces",
+      "email": "taeyoung.kim92@yonsei.ac.kr",
       "category": "postdoc",
       "education": [
         "Postdoctoral Researcher, Yonsei University (2024.09–present)",
@@ -60,6 +61,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Bio-interfaces & Device Packaging",
+      "email": "yejin.jo12@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2021.09–present)",
@@ -74,6 +76,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Functional Hydrogels & Electronics",
+      "email": "mkkang@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2021.09–present)",
@@ -88,6 +91,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Device Packaging",
+      "email": "l22yurim@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2022.03–present)",
@@ -102,6 +106,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Functional Hydrogels & Electronics",
+      "email": "sooa.kim38@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2022.03–present)",
@@ -116,6 +121,7 @@ window.__TEAM_DATA = {
       "roleKr": "박사과정",
       "roleEn": "Ph.D. Candidate",
       "research": "Bio-interfaces",
+      "email": "2025323066@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Ph.D. Candidate, Yonsei University (2025.09–present)"
@@ -129,6 +135,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Neuromorphic Device & Functional Hydrogels",
+      "email": "pksy51630@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2023.09–present)"
@@ -142,6 +149,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Functional Hydrogel Materials & Bio-interfaces",
+      "email": "sonky0803@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2024.03–present)",
@@ -156,6 +164,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Soft Interconnects & Integration",
+      "email": "kyyook1118@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2024.03–present)",
@@ -170,6 +179,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Device Packaging",
+      "email": "hhi0706@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.03–present)",
@@ -184,6 +194,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Soft Interconnects & Integration",
+      "email": "nce9080@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.09–present)",
@@ -198,6 +209,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Soft Interconnects & Integration",
+      "email": "yunminj@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2025.09–present)",
@@ -212,6 +224,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Soft Interconnects & Integration",
+      "email": "mido.kim@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.03–present)",
@@ -226,6 +239,7 @@ window.__TEAM_DATA = {
       "roleKr": "통합과정",
       "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Device Packaging & Integration",
+      "email": "hanbitjang@yonsei.ac.kr",
       "category": "phd",
       "education": [
         "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.03–present)",
@@ -240,6 +254,7 @@ window.__TEAM_DATA = {
       "roleKr": "학부인턴",
       "roleEn": "Undergraduate Intern",
       "research": "Device Packaging",
+      "email": "hongpius1208@yonsei.ac.kr",
       "category": "intern",
       "education": [
         "Undergraduate Intern, Yonsei University (2025.05–present)"
@@ -253,6 +268,7 @@ window.__TEAM_DATA = {
       "roleKr": "학부인턴",
       "roleEn": "Undergraduate Intern",
       "research": "Functional Hydrogels & Bio-interfaces",
+      "email": "jimin5252@yonsei.ac.kr",
       "category": "intern",
       "education": [
         "Undergraduate Intern, Yonsei University (2026.01–present)"
@@ -266,6 +282,7 @@ window.__TEAM_DATA = {
       "roleKr": "학부인턴",
       "roleEn": "Undergraduate Intern",
       "research": "Device Packaging & Integration",
+      "email": "sim2543@yonsei.ac.kr",
       "category": "intern",
       "education": [
         "Undergraduate Intern, Yonsei University (2026.03–present)"
@@ -368,5 +385,4 @@ window.__TEAM_DATA = {
       "current": "엘지디스플레이 (LG Display)"
     }
   ]
-}
-;
+};

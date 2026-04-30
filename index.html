@@ -609,6 +609,13 @@ section { padding: 96px 0; }
   border-radius: 12px; background: var(--accent-soft); color: var(--accent);
   font-weight: 500; margin-bottom: 14px;
 }
+.accordion-details .acc-email {
+  font-size: 0.8rem; color: var(--text-secondary);
+  margin: 0 0 14px; display: flex; align-items: center; gap: 8px;
+}
+.accordion-details .acc-email i { color: var(--accent); font-size: 0.78rem; }
+.accordion-details .acc-email a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+.accordion-details .acc-email a:hover { color: var(--accent); }
 .accordion-details .acc-edu-label {
   font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 6px;
@@ -1606,6 +1613,7 @@ function renderTeam(data) {
         roleKr: member.roleKr,
         roleEn: member.roleEn,
         research: member.research,
+        email: member.email || '',
         education: member.education || []
       };
     });
@@ -1696,6 +1704,11 @@ function toggleAccordion(itemEl, memberId) {
   const acc = document.createElement('div');
   acc.className = 'member-accordion';
   acc.dataset.memberId = memberId;
+  // Email row (only when email exists)
+  const emailHtml = data.email
+    ? `<div class="acc-email"><i class="fas fa-envelope"></i> <a href="mailto:${data.email}">${data.email}</a></div>`
+    : '';
+
   acc.innerHTML = `
     <div class="accordion-inner" style="position:relative;">
       <div class="accordion-photo">
@@ -1706,6 +1719,7 @@ function toggleAccordion(itemEl, memberId) {
         <h3 data-kr="${data.nameEn}" data-en="${data.nameEn}">${isKR ? data.nameKr : data.nameEn}</h3>
         <div class="acc-role" data-kr="${data.roleEn}" data-en="${data.roleEn}">${isKR ? data.roleKr : data.roleEn}</div>
         <span class="acc-research">${data.research}</span>
+        ${emailHtml}
         ${eduHtml}
       </div>
     </div>
