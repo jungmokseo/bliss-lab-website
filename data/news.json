@@ -1,6 +1,18 @@
 {
   "news": [
     {
+      "title": "BLISS 김태영 박사, 손가영 학생 Nature Communications 에 논문 게재 승인 (Impact factor =15.7)",
+      "slug": "ty_gs_natcom",
+      "date": "2026-04-22",
+      "month": "Apr 2026",
+      "categories": [
+        "Publication"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/ty_gs_natcom.jpg",
+      "contentImage": "images/news/ty_gs_natcom-content.jpg"
+    },
+    {
       "title": "BLISS 김수아 학생 Advanced Materials 에 논문 게재 승인 (Impact factor = 27.4)",
       "slug": "sa_am",
       "date": "2026-03-20",

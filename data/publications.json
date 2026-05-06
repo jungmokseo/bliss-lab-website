@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 92,
+      "year": 2026,
+      "title": "Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion",
+      "authors": "<strong>Tae Young Kim</strong><sup>†</sup>, <strong>Kayoung Son</strong><sup>†</sup>, Chang-Hwan Moon, <strong>Keun-Young Yook</strong>, <strong>Soo A. Kim</strong>, <strong>Hyein Ham</strong>, <strong>Yurim Lee</strong>, Soo In Lee, <strong>Yejin Jo</strong>, Yunlong Yu, Dae-Hyun Kim, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "Nature Communications, 17 (2026)",
+      "impactFactor": 15.7,
+      "image": "images/publications/pub-92.png",
+      "link": "https://doi.org/10.1038/s41467-026-72068-6"
+    },
+    {
       "number": 91,
       "year": 2026,
       "title": "Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity",
