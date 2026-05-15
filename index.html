@@ -176,7 +176,11 @@ nav.scrolled { background: rgba(255,255,255,0.96); box-shadow: 0 1px 16px rgba(0
   z-index: 20;
 }
 .cover-item img { width: 100%; height: 100%; object-fit: cover; }
-.cover-track-container:hover .cover-track { animation-play-state: paused; }
+/* Pause only on devices with a real hover (mouse). On touch devices, a tap
+   activates :hover persistently and freezes the carousel until the next tap. */
+@media (hover: hover) and (pointer: fine) {
+  .cover-track-container:hover .cover-track { animation-play-state: paused; }
+}
 
 /* ========== BACKGROUND IMAGE SECTIONS ========== */
 .bg-section {
