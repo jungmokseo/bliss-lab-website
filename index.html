@@ -900,7 +900,7 @@ section[id] {
       <a href="#contact">Contact</a>
       <button class="lang-toggle" onclick="toggleLang()" id="langBtn">EN</button>
     </div>
-    <div class="hamburger" onclick="toggleMenu()">
+    <div class="hamburger" onclick="toggleMenu()" role="button" tabindex="0" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
       <span></span><span></span><span></span>
     </div>
   </div>
@@ -1362,8 +1362,38 @@ window.addEventListener('scroll', () => {
 
 /* ===== Hamburger ===== */
 function toggleMenu() {
-  document.getElementById('navLinks').classList.toggle('open');
+  const links = document.getElementById('navLinks');
+  const burger = document.querySelector('.hamburger');
+  links.classList.toggle('open');
+  if (burger) burger.setAttribute('aria-expanded', links.classList.contains('open') ? 'true' : 'false');
 }
+
+/* ===== Keyboard a11y for click-only div widgets ===== */
+(function setupKeyboardA11y() {
+  const SEL = '.hamburger, .pub-year-header, .member-item, .patent-toggle, .alumni-toggle, .hl-toggle-btn, .news-filter-btn';
+  function decorate(root) {
+    root.querySelectorAll(SEL).forEach(el => {
+      if (!el.hasAttribute('tabindex')) el.tabIndex = 0;
+      if (!el.getAttribute('role')) el.setAttribute('role', 'button');
+    });
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const t = e.target.closest(SEL);
+    if (t) { e.preventDefault(); t.click(); }
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => decorate(document));
+  } else {
+    decorate(document);
+  }
+  // Dynamic content (publications/team/news cards) — redecorate on mutation
+  new MutationObserver(muts => {
+    for (const m of muts) {
+      m.addedNodes.forEach(n => { if (n.nodeType === 1) decorate(n.parentElement || n); });
+    }
+  }).observe(document.body, { childList: true, subtree: true });
+})();
 
 /* ===== Language Toggle ===== */
 let isKR = true;
@@ -1378,7 +1408,9 @@ function toggleLang() {
 
 /* ===== Publication Year Accordion ===== */
 function toggleYear(header) {
-  header.parentElement.classList.toggle('open');
+  const parent = header.parentElement;
+  parent.classList.toggle('open');
+  header.setAttribute('aria-expanded', parent.classList.contains('open') ? 'true' : 'false');
 }
 
 /* ===== Load Publications from JSON ===== */
@@ -1458,8 +1490,8 @@ async function loadPublications() {
 
       const html = `
         <div class="pub-year-group ${isOpen} reveal">
-          <div class="pub-year-header" onclick="toggleYear(this)">
-            <div class="year-label">${year} <span class="year-count">${pubs.length} paper${pubs.length !== 1 ? 's' : ''}</span></div>
+          <div class="pub-year-header" onclick="toggleYear(this)" aria-expanded="${isOpen ? 'true' : 'false'}">
+            <div class="year-label">${escapeHtml(year)} <span class="year-count">${pubs.length} paper${pubs.length !== 1 ? 's' : ''}</span></div>
             <i class="fas fa-chevron-down chevron"></i>
           </div>
           <div class="pub-year-items">
@@ -1484,7 +1516,7 @@ async function loadPublications() {
       }).join('');
 
       patentContainer.innerHTML = `
-        <div class="patent-toggle reveal" onclick="this.classList.toggle('open')">
+        <div class="patent-toggle reveal" aria-expanded="false" onclick="this.classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));">
           <span data-kr="Patents (${data.patents.length})" data-en="Patents (${data.patents.length})">
             Patents (${data.patents.length})
           </span>
@@ -1685,7 +1717,7 @@ function renderTeam(data) {
       </div>
     `).join('');
     document.getElementById('alumniSection').innerHTML = `
-      <div class="alumni-toggle reveal" onclick="this.classList.toggle('open')">
+      <div class="alumni-toggle reveal" aria-expanded="false" onclick="this.classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));">
         <span data-kr="Alumni" data-en="Alumni">Alumni</span>
         <i class="fas fa-chevron-down chevron"></i>
       </div>
