@@ -1209,7 +1209,7 @@ section[id] {
     <div id="patentSection"></div>
 
     <div class="pub-footer reveal">
-      <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" class="read-link" data-kr="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>" data-en="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>">View Full List on Google Scholar <i class="fas fa-arrow-right"></i></a>
+      <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" rel="noopener noreferrer" class="read-link" data-kr="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>" data-en="View Full List on Google Scholar <i class='fas fa-arrow-right'></i>">View Full List on Google Scholar <i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
 </section>
@@ -1326,7 +1326,7 @@ section[id] {
     <div class="footer-inner">
       <div class="footer-left">&copy; 2026 BLISS Lab, Yonsei University. All rights reserved.</div>
       <div class="footer-links">
-        <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="mailto:jungmok.seo@yonsei.ac.kr" title="Email"><i class="fas fa-envelope"></i></a>
@@ -1335,12 +1335,26 @@ section[id] {
   </div>
 </footer>
 
-<!-- Data fallback for file:// protocol (script tags work where fetch does not) -->
-<script src="data/publications.js" onerror=""></script>
-<script src="data/team.js" onerror=""></script>
-<script src="data/news.js" onerror=""></script>
+<!-- Data is loaded via fetch from data/*.json (GitHub Pages serves them with correct CORS). -->
+<!-- File:// fallback scripts removed: they were unmaintained and silently shipped stale data. -->
 
 <script>
+/* ===== HTML escape helpers (XSS protection for innerHTML interpolation) ===== */
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+// Allow only <strong>, <sup>, <sub> inside the authors field. Strip everything else.
+function sanitizeAuthors(s) {
+  if (!s) return '';
+  return escapeHtml(s).replace(/&lt;(\/?(?:strong|sup|sub))&gt;/g, '<$1>');
+}
+
 /* ===== Nav scroll ===== */
 window.addEventListener('scroll', () => {
   document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 20);
@@ -1370,9 +1384,9 @@ function toggleYear(header) {
 /* ===== Load Publications from JSON ===== */
 async function loadPublications() {
   try {
-    let data;
-    try { const r = await fetch('data/publications.json'); data = await r.json(); }
-    catch(e) { data = window.__PUBLICATIONS_DATA; }
+    const r = await fetch('data/publications.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
     if (!data) throw new Error('no data');
 
     const container = document.getElementById('publicationsList');
@@ -1409,28 +1423,33 @@ async function loadPublications() {
       const pubs = grouped[year];
       const pubsHtml = pubs.map(pub => {
         const hasImg = pub.image ? true : false;
-        const ifBadge = pub.impactFactor ? `<span class="pub-if">IF ${pub.impactFactor}</span>` : '';
-        const numLabel = pub.number ? `<span class="pub-number">${pub.number}.</span>` : '';
-        const imgHtml = hasImg ? `<div class="pub-img"><img src="${pub.image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+        const ifBadge = pub.impactFactor != null ? `<span class="pub-if">IF ${escapeHtml(String(pub.impactFactor))}</span>` : '';
+        const numLabel = pub.number != null ? `<span class="pub-number">${escapeHtml(String(pub.number))}.</span>` : '';
+        const imgHtml = hasImg ? `<div class="pub-img"><img src="${escapeHtml(pub.image)}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
         const awardsHtml = (pub.awards && pub.awards.length > 0)
-          ? `<div class="pub-awards">${pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${a}</span>`).join('')}</div>`
+          ? `<div class="pub-awards">${pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${escapeHtml(a)}</span>`).join('')}</div>`
           : '';
 
-        // Split journal string: "Journal Name, year, vol, pages" → highlight journal name
-        // Split "Journal Name, vol, pages (year)" → highlight journal name
-        const commaIdx = pub.journal ? pub.journal.indexOf(',') : -1;
-        const jName = commaIdx > 0 ? pub.journal.substring(0, commaIdx).trim() : (pub.journal || '');
-        const jRest = commaIdx > 0 ? pub.journal.substring(commaIdx) : '';
+        // Split journal string: "Journal Name, vol, pages (year)" → highlight journal name
+        const journalStr = pub.journal || '';
+        const commaIdx = journalStr.indexOf(',');
+        const jName = commaIdx > 0 ? journalStr.substring(0, commaIdx).trim() : journalStr;
+        const jRest = commaIdx > 0 ? journalStr.substring(commaIdx) : '';
         const journalHtml = jName
-          ? `<span class="pub-journal-name">${jName}</span><span style="color:var(--text-muted);font-weight:400;">${jRest}</span>`
-          : (pub.journal || '');
+          ? `<span class="pub-journal-name">${escapeHtml(jName)}</span><span style="color:var(--text-muted);font-weight:400;">${escapeHtml(jRest)}</span>`
+          : escapeHtml(journalStr);
+
+        const titleSafe = escapeHtml(pub.title);
+        const titleHtml = pub.link
+          ? `<a href="${escapeHtml(pub.link)}" target="_blank" rel="noopener noreferrer">${titleSafe}</a>`
+          : titleSafe;
 
         return `
         <div class="pub-item${hasImg ? ' pub-item-with-img' : ''}">
           ${imgHtml}
           <div class="pub-content">
-            <div class="pub-title">${numLabel}${pub.link ? `<a href="${pub.link}" target="_blank" rel="noopener">${pub.title}</a>` : pub.title}</div>
-            <div class="pub-authors">${pub.authors}</div>
+            <div class="pub-title">${numLabel}${titleHtml}</div>
+            <div class="pub-authors">${sanitizeAuthors(pub.authors)}</div>
             <div class="pub-journal">${journalHtml}${ifBadge}</div>
             ${awardsHtml}
           </div>
@@ -1457,10 +1476,10 @@ async function loadPublications() {
       const isKr = document.body.classList.contains('kr');
       let patentItems = data.patents.map(p => {
         const title = isKr && p.title ? p.title : (p.titleEn || p.title);
-        const statusBadge = p.status ? ` <span style="color:var(--accent);font-weight:600;">[${p.status}]</span>` : '';
+        const statusBadge = p.status ? ` <span style="color:var(--accent);font-weight:600;">[${escapeHtml(p.status)}]</span>` : '';
         return `<div class="patent-item">
-          <div class="patent-title">${title}</div>
-          <div class="patent-info">${p.inventors} · ${p.number || ''} · ${p.country || ''}${statusBadge}</div>
+          <div class="patent-title">${escapeHtml(title)}</div>
+          <div class="patent-info">${escapeHtml(p.inventors || '')} · ${escapeHtml(p.number || '')} · ${escapeHtml(p.country || '')}${statusBadge}</div>
         </div>`;
       }).join('');
 
@@ -1554,9 +1573,9 @@ function loadStaticPublications() {
 /* ===== Load Team from JSON ===== */
 async function loadTeam() {
   try {
-    let data;
-    try { const r = await fetch('data/team.json'); data = await r.json(); }
-    catch(e) { data = window.__TEAM_DATA; }
+    const r = await fetch('data/team.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
     if (!data) throw new Error('no data');
     renderTeam(data);
   } catch (error) {
@@ -1571,25 +1590,25 @@ function renderTeam(data) {
   let piEduHtml = '';
   if (pi.education && pi.education.length > 0) {
     piEduHtml += `<div class="pi-detail-label">Education</div><ul class="pi-detail-list">`;
-    pi.education.forEach(e => { piEduHtml += `<li>${e}</li>`; });
+    pi.education.forEach(e => { piEduHtml += `<li>${escapeHtml(e)}</li>`; });
     piEduHtml += `</ul>`;
   }
   if (pi.career && pi.career.length > 0) {
     piEduHtml += `<div class="pi-detail-label">Career</div><ul class="pi-detail-list">`;
-    pi.career.forEach(c => { piEduHtml += `<li>${c}</li>`; });
+    pi.career.forEach(c => { piEduHtml += `<li>${escapeHtml(c)}</li>`; });
     piEduHtml += `</ul>`;
   }
 
   const piHtml = `
     <div class="pi-section reveal">
       <div class="pi-photo">
-        <img src="images/team/${pi.id}.jpg" alt="${pi.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
-        <span class="initials">${pi.initials}</span>
+        <img src="images/team/${escapeHtml(pi.id)}.jpg" alt="${escapeHtml(pi.nameEn)}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <span class="initials">${escapeHtml(pi.initials)}</span>
       </div>
       <div class="pi-info">
-        <h3 data-kr="${pi.nameEn}" data-en="${pi.nameEn}">${isKR ? pi.nameKr : pi.nameEn}</h3>
-        <div class="role" data-kr="${pi.roleEn}" data-en="${pi.roleEn}">${isKR ? pi.roleKr : pi.roleEn}</div>
-        <p class="bio" data-kr="${pi.bioEn}" data-en="${pi.bioEn}">${isKR ? pi.bioKr : pi.bioEn}</p>
+        <h3 data-kr="${escapeHtml(pi.nameKr || pi.nameEn)}" data-en="${escapeHtml(pi.nameEn)}">${escapeHtml(isKR ? (pi.nameKr || pi.nameEn) : pi.nameEn)}</h3>
+        <div class="role" data-kr="${escapeHtml(pi.roleKr || pi.roleEn)}" data-en="${escapeHtml(pi.roleEn)}">${escapeHtml(isKR ? (pi.roleKr || pi.roleEn) : pi.roleEn)}</div>
+        <p class="bio" data-kr="${escapeHtml(pi.bioKr || pi.bioEn)}" data-en="${escapeHtml(pi.bioEn)}">${escapeHtml(isKR ? (pi.bioKr || pi.bioEn) : pi.bioEn)}</p>
         ${piEduHtml}
       </div>
     </div>
@@ -1613,18 +1632,19 @@ function renderTeam(data) {
       let eduHtml = '';
       if (member.education && member.education.length > 0) {
         eduHtml = `<div class="acc-edu-label">Education</div><ul class="acc-edu-list">`;
-        member.education.forEach(e => { eduHtml += `<li>${e}</li>`; });
+        member.education.forEach(e => { eduHtml += `<li>${escapeHtml(e)}</li>`; });
         eduHtml += `</ul>`;
       }
 
+      const safeId = escapeHtml(member.id);
       return `
-      <div class="member-item" data-member-id="${member.id}" onclick="toggleAccordion(this, '${member.id}')">
+      <div class="member-item" data-member-id="${safeId}" onclick="toggleAccordion(this, '${safeId}')">
         <div class="member-photo">
-          <img src="images/team/${member.id}.jpg" alt="${member.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
-          <span class="initials">${member.initials}</span>
+          <img src="images/team/${safeId}.jpg" alt="${escapeHtml(member.nameEn)}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+          <span class="initials">${escapeHtml(member.initials)}</span>
         </div>
-        <h4 data-kr="${member.nameEn}" data-en="${member.nameEn}">${isKR ? member.nameKr : member.nameEn}</h4>
-        <p>${member.research}</p>
+        <h4 data-kr="${escapeHtml(member.nameKr || member.nameEn)}" data-en="${escapeHtml(member.nameEn)}">${escapeHtml(isKR ? (member.nameKr || member.nameEn) : member.nameEn)}</h4>
+        <p>${escapeHtml(member.research || '')}</p>
       </div>`;
     }).join('');
 
@@ -1644,7 +1664,7 @@ function renderTeam(data) {
     });
 
     membersHtml += `
-      <div class="team-label reveal" data-kr="${cat.labelEn}" data-en="${cat.labelEn}">${isKR ? cat.labelKr : cat.labelEn}</div>
+      <div class="team-label reveal" data-kr="${escapeHtml(cat.labelKr || cat.labelEn)}" data-en="${escapeHtml(cat.labelEn)}">${escapeHtml(isKR ? (cat.labelKr || cat.labelEn) : cat.labelEn)}</div>
       <div class="member-grid reveal">
         ${itemsHtml}
       </div>
@@ -1659,8 +1679,8 @@ function renderTeam(data) {
     const alumniItems = data.alumni.map(a => `
       <div class="alumni-item">
         <div>
-          <div class="alumni-name" data-kr="${a.nameEn}" data-en="${a.nameEn}">${isKR ? a.nameKr : a.nameEn}</div>
-          <div class="alumni-info">${a.degree || ''} ${a.year || ''} ${a.current ? '· ' + a.current : ''}</div>
+          <div class="alumni-name" data-kr="${escapeHtml(a.nameKr || a.nameEn)}" data-en="${escapeHtml(a.nameEn)}">${escapeHtml(isKR ? (a.nameKr || a.nameEn) : a.nameEn)}</div>
+          <div class="alumni-info">${escapeHtml(a.degree || '')} ${escapeHtml(a.year || '')} ${a.current ? '· ' + escapeHtml(a.current) : ''}</div>
         </div>
       </div>
     `).join('');
@@ -1721,7 +1741,7 @@ function toggleAccordion(itemEl, memberId) {
   let eduHtml = '';
   if (data.education && data.education.length > 0) {
     eduHtml = `<div class="acc-edu-label">Education</div><ul class="acc-edu-list">`;
-    data.education.forEach(e => { eduHtml += `<li>${e}</li>`; });
+    data.education.forEach(e => { eduHtml += `<li>${escapeHtml(e)}</li>`; });
     eduHtml += `</ul>`;
   }
 
@@ -1730,20 +1750,22 @@ function toggleAccordion(itemEl, memberId) {
   acc.className = 'member-accordion';
   acc.dataset.memberId = memberId;
   // Email row (only when email exists)
+  const safeEmail = escapeHtml(data.email || '');
   const emailHtml = data.email
-    ? `<div class="acc-email"><i class="fas fa-envelope"></i> <a href="mailto:${data.email}">${data.email}</a></div>`
+    ? `<div class="acc-email"><i class="fas fa-envelope"></i> <a href="mailto:${safeEmail}">${safeEmail}</a></div>`
     : '';
+  const safeId = escapeHtml(memberId);
 
   acc.innerHTML = `
     <div class="accordion-inner" style="position:relative;">
       <div class="accordion-photo">
-        <img src="images/team/${memberId}.jpg" alt="${data.nameEn}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
-        <span class="initials">${data.initials}</span>
+        <img src="images/team/${safeId}.jpg" alt="${escapeHtml(data.nameEn)}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <span class="initials">${escapeHtml(data.initials)}</span>
       </div>
       <div class="accordion-details">
-        <h3 data-kr="${data.nameEn}" data-en="${data.nameEn}">${isKR ? data.nameKr : data.nameEn}</h3>
-        <div class="acc-role" data-kr="${data.roleEn}" data-en="${data.roleEn}">${isKR ? data.roleKr : data.roleEn}</div>
-        <span class="acc-research">${data.research}</span>
+        <h3 data-kr="${escapeHtml(data.nameKr || data.nameEn)}" data-en="${escapeHtml(data.nameEn)}">${escapeHtml(isKR ? (data.nameKr || data.nameEn) : data.nameEn)}</h3>
+        <div class="acc-role" data-kr="${escapeHtml(data.roleKr || data.roleEn)}" data-en="${escapeHtml(data.roleEn)}">${escapeHtml(isKR ? (data.roleKr || data.roleEn) : data.roleEn)}</div>
+        <span class="acc-research">${escapeHtml(data.research || '')}</span>
         ${emailHtml}
         ${eduHtml}
       </div>
@@ -1834,9 +1856,9 @@ let currentNewsFilter = 'all';
 
 async function loadNews() {
   try {
-    let data;
-    try { const r = await fetch('data/news.json'); data = await r.json(); }
-    catch(e) { data = window.__NEWS_DATA; }
+    const r = await fetch('data/news.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
     if (!data) throw new Error('no data');
     allNewsItems = data.news || [];
     filteredNews = [...allNewsItems];
@@ -1888,21 +1910,29 @@ function formatNewsDate(dateStr) {
   return monthNames[dateObj.getMonth()] + ' ' + dateObj.getDate() + ', ' + dateObj.getFullYear();
 }
 
-// Subtle publication overlay — only for Publication news items
+// Subtle publication overlay — only for Publication news items.
+// Prefers explicit `journal` / `impactFactor` fields; falls back to title-regex.
 function buildPubOverlay(item) {
   const cat = (item.categories && item.categories[0]) || 'General';
   if (cat !== 'Publication') return '';
-  let journal = null, impactFactor = null;
-  const jMatch = item.title.match(/BLISS\s+\S+\s+(?:학생|박사)\s+(.+?)\s*에\s*논문/i)
-    || item.title.match(/BLISS\s+\S+\s*·\s*\S+\s+(?:학생|박사)\s+(.+?)\s*에\s*논문/i);
-  if (jMatch) journal = jMatch[1].trim();
-  const ifMatch = item.title.match(/[Ii]mpact\s*[Ff]actor\s*=?\s*([\d.]+)/i)
-    || item.title.match(/IF\s*[=:]\s*([\d.]+)/i);
-  if (ifMatch) impactFactor = ifMatch[1];
-  if (!journal && !impactFactor) return '';
+  let journal = item.journal || null;
+  let impactFactor = (item.impactFactor != null) ? item.impactFactor : null;
+  const title = item.title || '';
+  if (!journal) {
+    // Greedy `.*` so the LAST 학생/박사 anchor wins — handles titles with
+    // multiple coauthors like "BLISS A 박사, B 학생 Nature Communications 에 논문…"
+    const jMatch = title.match(/.*\s+(?:학생|박사)\s+(.+?)\s*에\s*논문/i);
+    if (jMatch) journal = jMatch[1].trim();
+  }
+  if (impactFactor == null) {
+    const ifMatch = title.match(/[Ii]mpact\s*[Ff]actor\s*=?\s*([\d.]+)/i)
+      || title.match(/IF\s*[=:]\s*([\d.]+)/i);
+    if (ifMatch) impactFactor = ifMatch[1];
+  }
+  if (!journal && impactFactor == null) return '';
   return `<div class="pub-overlay">
-    ${journal ? `<span class="pub-ov-journal">${journal}</span>` : ''}
-    ${impactFactor ? `<span class="pub-ov-if">IF ${impactFactor}</span>` : ''}
+    ${journal ? `<span class="pub-ov-journal">${escapeHtml(journal)}</span>` : ''}
+    ${impactFactor != null ? `<span class="pub-ov-if">IF ${escapeHtml(String(impactFactor))}</span>` : ''}
   </div>`;
 }
 
@@ -1917,14 +1947,14 @@ function renderNewsPage() {
     const cs = getNewsCatStyle(first);
     heroEl.style.display = '';
     heroEl.innerHTML = `
-      <img class="news-hero-img" src="${first.thumbnail}" alt="${first.title}" loading="eager"
+      <img class="news-hero-img" src="${escapeHtml(first.thumbnail || '')}" alt="${escapeHtml(first.title || '')}" loading="eager"
            onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a1a2e,#16213e)';">
       ${buildPubOverlay(first)}
       <div class="news-hero-overlay"></div>
       <div class="news-hero-body">
-        <span class="tag ${cs.cls}">#${cs.label}</span>
-        <h3>${first.title}</h3>
-        <div class="news-hero-meta"><span>${formatNewsDate(first.date)}</span></div>
+        <span class="tag ${escapeHtml(cs.cls)}">#${escapeHtml(cs.label)}</span>
+        <h3>${escapeHtml(first.title || '')}</h3>
+        <div class="news-hero-meta"><span>${escapeHtml(formatNewsDate(first.date))}</span></div>
       </div>
     `;
     if (typeof observer !== 'undefined') observer.observe(heroEl);
@@ -1945,15 +1975,15 @@ function renderNewsPage() {
 
     card.innerHTML = `
       <div class="news-card-img">
-        <img src="${item.thumbnail}" alt="${item.title}" loading="lazy"
+        <img src="${escapeHtml(item.thumbnail || '')}" alt="${escapeHtml(item.title || '')}" loading="lazy"
              onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg, #E8EFFE, #D8E4FE)';this.parentElement.innerHTML+='<i class=\\'fas fa-newspaper placeholder-icon\\'></i>';">
         ${buildPubOverlay(item)}
       </div>
       <div class="news-card-body">
-        <div class="news-tags"><span class="tag ${cs.cls}">#${cs.label}</span></div>
-        <h3>${item.title}</h3>
-        ${item.summary ? `<p>${item.summary}</p>` : ''}
-        <div class="news-card-meta"><span>${formatNewsDate(item.date)}</span></div>
+        <div class="news-tags"><span class="tag ${escapeHtml(cs.cls)}">#${escapeHtml(cs.label)}</span></div>
+        <h3>${escapeHtml(item.title || '')}</h3>
+        ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ''}
+        <div class="news-card-meta"><span>${escapeHtml(formatNewsDate(item.date))}</span></div>
       </div>
     `;
     grid.appendChild(card);
