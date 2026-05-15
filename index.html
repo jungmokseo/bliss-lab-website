@@ -464,6 +464,9 @@ section { padding: 96px 0; }
 .pub-img { width: 160px; min-height: 90px; border-radius: 6px; overflow: hidden; background: var(--bg); }
 .pub-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pub-if { display: inline-block; font-size: 0.68rem; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 8px; white-space: nowrap; }
+.pub-awards { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+.pub-award { display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; background: #fff8e1; color: #b45309; padding: 3px 9px; border-radius: 10px; font-weight: 600; border: 1px solid #fde68a; }
+.pub-award i { font-size: 0.78rem; color: #d97706; }
 .pub-number { display: inline-block; font-size: 0.72rem; color: var(--text-muted); font-weight: 500; margin-right: 6px; min-width: 22px; }
 .pub-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
 .pub-title a { color: inherit; text-decoration: none; transition: color 0.2s; }
@@ -1409,6 +1412,9 @@ async function loadPublications() {
         const ifBadge = pub.impactFactor ? `<span class="pub-if">IF ${pub.impactFactor}</span>` : '';
         const numLabel = pub.number ? `<span class="pub-number">${pub.number}.</span>` : '';
         const imgHtml = hasImg ? `<div class="pub-img"><img src="${pub.image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+        const awardsHtml = (pub.awards && pub.awards.length > 0)
+          ? `<div class="pub-awards">${pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${a}</span>`).join('')}</div>`
+          : '';
 
         // Split journal string: "Journal Name, year, vol, pages" → highlight journal name
         // Split "Journal Name, vol, pages (year)" → highlight journal name
@@ -1426,6 +1432,7 @@ async function loadPublications() {
             <div class="pub-title">${numLabel}${pub.link ? `<a href="${pub.link}" target="_blank" rel="noopener">${pub.title}</a>` : pub.title}</div>
             <div class="pub-authors">${pub.authors}</div>
             <div class="pub-journal">${journalHtml}${ifBadge}</div>
+            ${awardsHtml}
           </div>
         </div>`;
       }).join('');

@@ -1,6 +1,18 @@
 {
   "news": [
     {
+      "title": "BLISS 김태영 박사 Small 'Top 10% Most-Viewed Paper' 선정 (2024)",
+      "slug": "ty_small_top10_2024",
+      "date": "2026-05-15",
+      "month": "May 2026",
+      "categories": [
+        "Grant"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/ty_small_top10_2024.jpg",
+      "contentImage": "images/news/ty_small_top10_2024-content.jpg"
+    },
+    {
       "title": "BLISS 김태영 박사, 손가영 학생 Nature Communications 에 논문 게재 승인 (Impact factor =15.7)",
       "slug": "ty_gs_natcom",
       "date": "2026-04-22",
