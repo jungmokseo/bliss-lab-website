@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 93,
+      "year": 2026,
+      "title": "A Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling",
+      "authors": "<strong>Kayoung Son</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Kyungwon Lee, <strong>Yejin Jo</strong>, <strong>Yurim Lee</strong>, Seung Hyun Lee, Min Young Seo, Jung Seung Lee, Seung Ah Lee, Seung Hoon Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "ACS Applied Materials & Interfaces (2026)",
+      "impactFactor": 8.2,
+      "image": null,
+      "link": "https://doi.org/10.1021/acsami.6c04312"
+    },
+    {
       "number": 92,
       "year": 2026,
       "title": "Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion",
@@ -877,6 +887,14 @@
     }
   ],
   "patents": [
+    {
+      "number": "10-2026-0099568",
+      "title": "이중 네트워크 하이드로겔 및 이를 이용한 지혈용 습윤 조직 접착제",
+      "inventors": "서정목, 김태영, 손가영",
+      "year": 2026,
+      "status": "출원",
+      "country": "KR"
+    },
     {
       "number": "10-2025-0153329",
       "title": "적층형 유기-액상 계면 기반의 고내구성 항바이오파울링 봉지막 구조체 및 그 제조 방법",
