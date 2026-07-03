@@ -4,7 +4,7 @@
       "number": 96,
       "year": 2026,
       "title": "Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing",
-      "authors": "Seol-Ha Jeong<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Eleftheria-Angeliki Valsami, Jarno Hiemstra, Rafael Alejandro Cornejo Rodríguez, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, Danilo Martins dos Santos, Zhuqing Li, <strong>Yejin Jo</strong>, <strong>Kijun Park</strong>, Aristidis Veves, Nebras Sobahi, Brendan C. Thibault, Kyungsang Kim, <strong>Jungmok Seo</strong>, Mohammad Asif Hussain, Lance Fiondella, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
+      "authors": "Seol-Ha Jeong<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Eleftheria-Angeliki Valsami, Jarno Hiemstra, Rafael Alejandro Cornejo Rodríguez, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, Danilo Martins dos Santos, Zhuqing Li, <strong>Yejin Jo</strong>, Aristidis Veves, Nebras Sobahi, Brendan C. Thibault, Kyungsang Kim, <strong>Jungmok Seo</strong>, Mohammad Asif Hussain, Lance Fiondella, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "Advanced Functional Materials (2026)",
       "impactFactor": 19,
       "image": null,
@@ -226,7 +226,7 @@
       "title": "[Invited Review] Liquid-based electronic materials for bioelectronics: current trends and challenges",
       "authors": "<strong>Kijun Park</strong>, <strong>Sangwoo Park</strong>, <strong>Yejin Jo</strong>, <strong>Soo A Kim</strong>, <strong>Tae Young Kim</strong>, <strong>Sangwon Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
       "journal": "Industrial Chemistry & Materials, 2(3), 361-377 (2024)",
-      "impactFactor": 11.9,
+      "impactFactor": 15.7,
       "image": "images/publications/pub-74.jpg",
       "link": "https://doi.org/10.1039/d3im00122a"
     },
