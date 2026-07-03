@@ -1,6 +1,18 @@
 {
   "news": [
     {
+      "title": "BLISS 조예진 학생 Materials Today Bio 에 논문 게재 승인 (Impact factor = 11.0)",
+      "slug": "yj_mtbio_stent",
+      "date": "2026-06-28",
+      "month": "Jun 2026",
+      "categories": [
+        "Publication"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/yj_mtbio_stent.jpg",
+      "contentImage": "images/news/yj_mtbio_stent-content.jpg"
+    },
+    {
       "title": "BLISS 김태영 박사 Small 'Top 10% Most-Viewed Paper' 선정 (2024)",
       "slug": "ty_small_top10_2024",
       "date": "2026-05-15",
@@ -25,7 +37,7 @@
       "contentImage": "images/news/ty_gs_natcom-content.jpg"
     },
     {
-      "title": "BLISS 김수아 학생 Advanced Materials 에 논문 게재 승인 (Impact factor = 27.4)",
+      "title": "BLISS 김수아 학생 Advanced Materials 에 논문 게재 승인 (Impact factor = 26.8)",
       "slug": "sa_am",
       "date": "2026-03-20",
       "month": "Mar 2026",
@@ -49,7 +61,7 @@
       "contentImage": null
     },
     {
-      "title": "BLISS 김태영 박사 Bioactive Materials 에 논문 게재 승인 (Impact factor =20.3)",
+      "title": "BLISS 김태영 박사 Bioactive Materials 에 논문 게재 승인 (Impact factor =23.6)",
       "slug": "ba_ty",
       "date": "2026-02-20",
       "month": "Feb 2026",
@@ -205,7 +217,7 @@
       "contentImage": "images/news/ty_sa-content.jpg"
     },
     {
-      "title": "BLISS 이연택 박사, 손가영 학생 Advanced Materials Interfaces 에 논문 게재 승인(Impact factor = 4.3)",
+      "title": "BLISS 이연택 박사, 손가영 학생 Advanced Materials Interfaces 에 논문 게재 승인(Impact factor = 4.7)",
       "slug": "ami_yt_ky",
       "date": "2025-06-13",
       "month": "Jun 2025",
@@ -325,7 +337,7 @@
       "contentImage": "images/news/2024iumrs_sa-2-content.jpg"
     },
     {
-      "title": "BLISS 조예진, 이유림 학생 npj Flexible Electronics 에 논문 게재 승인(Impact factor = 14.6)",
+      "title": "BLISS 조예진, 이유림 학생 npj Flexible Electronics 에 논문 게재 승인(Impact factor = 15.7)",
       "slug": "npjfe_jl",
       "date": "2024-06-19",
       "month": "Jun 2024",
@@ -337,7 +349,7 @@
       "contentImage": "images/news/npjfe_jl-content.jpg"
     },
     {
-      "title": "BLISS 김태영 학생 Small 에 논문 게재 승인(Impact factor = 13.3)",
+      "title": "BLISS 김태영 학생 Small 에 논문 게재 승인(Impact factor = 12.1)",
       "slug": "small_kty1",
       "date": "2024-06-19",
       "month": "Jun 2024",
@@ -397,7 +409,7 @@
       "contentImage": null
     },
     {
-      "title": "BLISS 이연택 학생 ACS Nano 에 논문 게재 & Supplementary Cover 선정 (Impact factor = 17.1)",
+      "title": "BLISS 이연택 학생 ACS Nano 에 논문 게재 & Supplementary Cover 선정 (Impact factor = 17.3)",
       "slug": "ytl_acsnano_1",
       "date": "2024-04-23",
       "month": "Apr 2024",
@@ -409,7 +421,7 @@
       "contentImage": "images/news/ytl_acsnano_1-content.jpg"
     },
     {
-      "title": "BLISS 오진석 학생 Advanced Electronic Materials 에 논문 게재(Impact factor = 6.2)",
+      "title": "BLISS 오진석 학생 Advanced Electronic Materials 에 논문 게재(Impact factor = 5.3)",
       "slug": "ojs-aem1",
       "date": "2024-03-28",
       "month": "Mar 2024",
@@ -421,7 +433,7 @@
       "contentImage": "images/news/ojs-aem1-content.png"
     },
     {
-      "title": "BLISS 강민경 학생 Biosensors & Bioelectronics 에 논문 게재(Impact factor = 12.6)",
+      "title": "BLISS 강민경 학생 Biosensors & Bioelectronics 에 논문 게재(Impact factor = 10.7)",
       "slug": "kmk-bnb1",
       "date": "2024-03-28",
       "month": "Mar 2024",
@@ -433,7 +445,7 @@
       "contentImage": "images/news/kmk-bnb1-content.png"
     },
     {
-      "title": "BLISS 박재규 학생 Chemical Engineering Journal에 논문 게재(Impact factor = 15.1)",
+      "title": "BLISS 박재규 학생 Chemical Engineering Journal에 논문 게재(Impact factor = 13.3)",
       "slug": "jaecej",
       "date": "2024-01-26",
       "month": "Jan 2024",
@@ -553,7 +565,7 @@
       "contentImage": "images/news/korea_materals_award-content.png"
     },
     {
-      "title": "BLISS 박재규, 김태영 학생 Advanced Science에 논문 게재 (Impact factor = 15.1)",
+      "title": "BLISS 박재규, 김태영 학생 Advanced Science에 논문 게재 (Impact factor = 14.1)",
       "slug": "jaetaeadsci",
       "date": "2023-08-10",
       "month": "Aug 2023",
@@ -697,7 +709,7 @@
       "contentImage": "images/news/international-journal-of-bioprinting-content.png"
     },
     {
-      "title": "BLISS 박기준, 김지현 학생 ACS NANO에 논문 게재 (Impact factor = 18.027, JCR 상위 5.65%)",
+      "title": "BLISS 박기준, 김지현 학생 ACS NANO에 논문 게재 (Impact factor = 17.3, JCR 상위 5.65%)",
       "slug": "acsnano",
       "date": "2023-03-31",
       "month": "Mar 2023",
