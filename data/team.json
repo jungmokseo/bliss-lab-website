@@ -273,6 +273,62 @@
       "education": [
         "Undergraduate Intern, Yonsei University (2026.01–present)"
       ]
+    },
+    {
+      "id": "oh-hyeonghun",
+      "initials": "HO",
+      "nameKr": "오형훈",
+      "nameEn": "Hyeonghun Oh",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Stretchable Circuits & System Integration",
+      "email": "ohhunghun@gmail.com",
+      "category": "intern",
+      "education": [
+        "Undergraduate Research Intern, BLISS Lab (2026–present)"
+      ]
+    },
+    {
+      "id": "lee-yelim",
+      "initials": "YL",
+      "nameKr": "이예림",
+      "nameEn": "Yerim Lee",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Functional Hydrogels & Bio-interfaces",
+      "email": "",
+      "category": "intern",
+      "education": [
+        "Undergraduate Research Intern, BLISS Lab (2026–present)"
+      ]
+    },
+    {
+      "id": "choi-jungin",
+      "initials": "JC",
+      "nameKr": "최정인",
+      "nameEn": "Jungin Choi",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Flexible Bioelectronics & Device Packaging",
+      "email": "ian1022@yonsei.ac.kr",
+      "category": "intern",
+      "education": [
+        "Undergraduate Research Intern, BLISS Lab (2026–present)"
+      ]
+    },
+    {
+      "id": "lee-seul",
+      "initials": "SL",
+      "nameKr": "이슬",
+      "nameEn": "Seul Lee",
+      "roleKr": "학부인턴",
+      "roleEn": "Undergraduate Intern",
+      "research": "Functional Hydrogels & Bio-interfaces",
+      "email": "leet1290@gmail.com",
+      "category": "intern",
+      "education": [
+        "Undergraduate Research Intern, BLISS Lab (2026–present)"
+      ]
     }
   ],
   "alumni": [
@@ -301,7 +357,7 @@
       "current": "Ph.D. Candidate, Georgia Institute of Technology"
     },
     {
-      "nameKr": "김해윤",
+      "nameKr": "김혜윤",
       "nameEn": "Hae Youn Kim",
       "degree": "Master's degree",
       "current": "한국과학기술연구원 (KIST)"
