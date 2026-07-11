@@ -31,7 +31,7 @@
   /* Default Korean font */
   --kr-font: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
 }
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; scroll-padding-top: calc(var(--nav-height) + 16px); }
 body {
   font-family: 'Inter', -apple-system, sans-serif;
   background: var(--bg);
@@ -1374,6 +1374,43 @@ function toggleMenu() {
   links.classList.toggle('open');
   if (burger) burger.setAttribute('aria-expanded', links.classList.contains('open') ? 'true' : 'false');
 }
+
+/* ===== Robust in-page anchor navigation =====
+   Fixes mobile: closes the open hamburger menu on tap (so it doesn't cover the
+   target), and scrolls with an exact fixed-nav offset so links land precisely
+   on the section. Works for every a[href^="#"] (nav, hero buttons, contact). */
+(function setupAnchorNav() {
+  function navOffset() {
+    const v = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height'), 10);
+    return (isNaN(v) ? 68 : v) + 16;
+  }
+  function closeMenu() {
+    const links = document.getElementById('navLinks');
+    const burger = document.querySelector('.hamburger');
+    if (links && links.classList.contains('open')) {
+      links.classList.remove('open');
+      if (burger) burger.setAttribute('aria-expanded', 'false');
+    }
+  }
+  document.addEventListener('click', function (e) {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    closeMenu(); // always close the mobile menu on any anchor tap
+    if (href === '#' || href === '#!' || href.length < 2) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      history.replaceState(null, '', location.pathname + location.search);
+      return;
+    }
+    const target = document.getElementById(decodeURIComponent(href.slice(1)));
+    if (!target) return; // let the browser handle unknown anchors
+    e.preventDefault();
+    const y = target.getBoundingClientRect().top + window.pageYOffset - navOffset();
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    history.replaceState(null, '', href);
+  });
+})();
 
 /* ===== Keyboard a11y for click-only div widgets ===== */
 (function setupKeyboardA11y() {
