@@ -2142,7 +2142,7 @@ function initCoverMarquee() {
   const container = document.getElementById('coverContainer');
   if (!container) return;
 
-  // All 16 paper cover images
+  // All 17 paper cover images
   const allCovers = [
     'images/covers/cover-1.png',  'images/covers/cover-2.png',
     'images/covers/cover-3.png',  'images/covers/cover-4.png',
@@ -2152,6 +2152,7 @@ function initCoverMarquee() {
     'images/covers/cover-11.jpg', 'images/covers/cover-12.jpg',
     'images/covers/cover-13.jpg', 'images/covers/cover-14.jpg',
     'images/covers/cover-15.jpg', 'images/covers/cover-16.jpg',
+    'images/covers/cover-17.jpg', // ACS AMI 18(25) Supplementary Cover — SHIELD-C endoscope cap (#93)
   ];
 
   // Shuffle and split into 3 distinct groups (no overlap)
@@ -2165,11 +2166,11 @@ function initCoverMarquee() {
   }
 
   const shuffled = shuffle(allCovers);
-  // Row 1: 6 covers, Row 2: 5 covers, Row 3: 5 covers
+  // Row 1: 6 covers, Row 2: 6 covers, Row 3: 5 covers
   const rows = [
     shuffled.slice(0, 6),
-    shuffled.slice(6, 11),
-    shuffled.slice(11, 16)
+    shuffled.slice(6, 12),
+    shuffled.slice(12, 17)
   ];
 
   function createTrack(covers, direction, speedClass) {
