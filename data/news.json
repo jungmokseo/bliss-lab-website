@@ -1,6 +1,18 @@
 {
   "news": [
     {
+      "title": "BLISS 김태영 박사, 손가영 학생 'STAT' 지혈 하이드로겔 연구 (Nature Communications) 네이버 뉴스에서 소개",
+      "slug": "stat_media",
+      "date": "2026-07-15",
+      "month": "Jul 2026",
+      "categories": [
+        "Media"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/stat_media.jpg",
+      "contentImage": "images/news/stat_media-content.jpg"
+    },
+    {
       "title": "BLISS 조예진 학생, 이연택 박사 Materials Today Bio 에 논문 게재 승인 (Impact factor = 11.0)",
       "slug": "yj_mtbio_stent",
       "date": "2026-06-28",
