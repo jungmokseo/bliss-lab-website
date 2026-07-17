@@ -2020,6 +2020,15 @@ function renderNewsPage() {
   const grid = document.getElementById('newsGrid');
   const end = Math.min(newsShown + NEWS_PER_PAGE, filteredNews.length);
 
+  // Bilingual news title: renders current language now, and carries data-kr/
+  // data-en so toggleLang() swaps it live. Double-escape for the data-* attrs
+  // so the value decodes back to escaped HTML when re-injected via innerHTML.
+  const isKr = document.body.classList.contains('kr');
+  const biTitle = (o) => {
+    const kr = o.title || '', en = o.titleEn || o.title || '';
+    return `<h3 data-kr="${escapeHtml(escapeHtml(kr))}" data-en="${escapeHtml(escapeHtml(en))}">${escapeHtml(isKr ? kr : en)}</h3>`;
+  };
+
   // First page: render hero card
   if (newsShown === 0 && filteredNews.length > 0) {
     const first = filteredNews[0];
@@ -2032,7 +2041,7 @@ function renderNewsPage() {
       <div class="news-hero-overlay"></div>
       <div class="news-hero-body">
         <span class="tag ${escapeHtml(cs.cls)}">#${escapeHtml(cs.label)}</span>
-        <h3>${escapeHtml(first.title || '')}</h3>
+        ${biTitle(first)}
         <div class="news-hero-meta"><span>${escapeHtml(formatNewsDate(first.date))}</span></div>
       </div>
     `;
@@ -2060,7 +2069,7 @@ function renderNewsPage() {
       </div>
       <div class="news-card-body">
         <div class="news-tags"><span class="tag ${escapeHtml(cs.cls)}">#${escapeHtml(cs.label)}</span></div>
-        <h3>${escapeHtml(item.title || '')}</h3>
+        ${biTitle(item)}
         ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ''}
         <div class="news-card-meta"><span>${escapeHtml(formatNewsDate(item.date))}</span></div>
       </div>

@@ -2,6 +2,7 @@
   "news": [
     {
       "title": "BLISS 김태영 박사, 손가영 학생 'STAT' 지혈 하이드로겔 연구 (Nature Communications) 네이버 뉴스에서 소개",
+      "titleEn": "BLISS Dr. Tae Young Kim & Kayoung Son's 'STAT' hemostatic hydrogel study (Nature Communications) featured in Naver News",
       "slug": "stat_media",
       "date": "2026-07-15",
       "month": "Jul 2026",
@@ -14,6 +15,7 @@
     },
     {
       "title": "BLISS 손가영 학생, 이연택 박사 내시경 캡 논문(SHIELD-C), ACS Applied Materials & Interfaces 표지(Supplementary Cover) 선정",
+      "titleEn": "BLISS Kayoung Son & Dr. Yeontaek Lee's endoscope cap paper (SHIELD-C) selected as Supplementary Cover of ACS Applied Materials & Interfaces",
       "slug": "acsami_cover_shieldc",
       "date": "2026-07-01",
       "month": "Jul 2026",
@@ -26,6 +28,7 @@
     },
     {
       "title": "BLISS 조예진 학생, 이연택 박사 Materials Today Bio 에 논문 게재 승인 (Impact factor = 11.0)",
+      "titleEn": "BLISS Yejin Jo & Dr. Yeontaek Lee — Paper accepted in Materials Today Bio (Impact Factor = 11.0)",
       "slug": "yj_mtbio_stent",
       "date": "2026-06-28",
       "month": "Jun 2026",
@@ -38,6 +41,7 @@
     },
     {
       "title": "BLISS 김태영 박사 Small 'Top 10% Most-Viewed Paper' 선정 (2024)",
+      "titleEn": "BLISS Dr. Tae Young Kim selected for Small 'Top 10% Most-Viewed Paper' (2024)",
       "slug": "ty_small_top10_2024",
       "date": "2026-05-15",
       "month": "May 2026",
@@ -50,6 +54,7 @@
     },
     {
       "title": "BLISS 김태영 박사, 손가영 학생 Nature Communications 에 논문 게재 승인 (Impact factor =15.7)",
+      "titleEn": "BLISS Dr. Tae Young Kim & Kayoung Son — Paper accepted in Nature Communications (Impact Factor = 15.7)",
       "slug": "ty_gs_natcom",
       "date": "2026-04-22",
       "month": "Apr 2026",
@@ -62,6 +67,7 @@
     },
     {
       "title": "BLISS 김수아 학생 Advanced Materials 에 논문 게재 승인 (Impact factor = 26.8)",
+      "titleEn": "BLISS Soo A Kim — Paper accepted in Advanced Materials (Impact Factor = 26.8)",
       "slug": "sa_am",
       "date": "2026-03-20",
       "month": "Mar 2026",
@@ -74,6 +80,7 @@
     },
     {
       "title": "BLISS 김장호 학생 졸업식",
+      "titleEn": "BLISS Jangho Kim's graduation ceremony",
       "slug": "2025mrs-2",
       "date": "2026-03-04",
       "month": "Mar 2026",
@@ -86,6 +93,7 @@
     },
     {
       "title": "BLISS 김태영 박사 Bioactive Materials 에 논문 게재 승인 (Impact factor =23.6)",
+      "titleEn": "BLISS Dr. Tae Young Kim — Paper accepted in Bioactive Materials (Impact Factor = 23.6)",
       "slug": "ba_ty",
       "date": "2026-02-20",
       "month": "Feb 2026",
@@ -98,6 +106,7 @@
     },
     {
       "title": "BLISS 박상우 학생 Small 에 논문 게재 승인 (Impact factor =12.1)",
+      "titleEn": "BLISS Sangwoo Park — Paper accepted in Small (Impact Factor = 12.1)",
       "slug": "small_sw",
       "date": "2026-02-04",
       "month": "Feb 2026",
@@ -110,6 +119,7 @@
     },
     {
       "title": "BLISS 김수아 · 조예진 학생,  하버드 의과대학 신수련 교수 연구실 파견",
+      "titleEn": "BLISS Soo A Kim & Yejin Jo dispatched to Prof. Su Ryon Shin's lab at Harvard Medical School",
       "slug": "havard",
       "date": "2026-01-22",
       "month": "Jan 2026",
@@ -122,6 +132,7 @@
     },
     {
       "title": "BLISS 김장호 학생 Advanced Electronic Materials에 논문 게재 승인 (IMPACT FACTOR = 5.3)",
+      "titleEn": "BLISS Jangho Kim — Paper accepted in Advanced Electronic Materials (Impact Factor = 5.3)",
       "slug": "jh_aem",
       "date": "2026-01-21",
       "month": "Jan 2026",
@@ -134,6 +145,7 @@
     },
     {
       "title": "BLISS 김수아 학생 Advanced Healthcare  Materials에 논문 게재 승인 (IMPACT FACTOR = 9.6)",
+      "titleEn": "BLISS Soo A Kim — Paper accepted in Advanced Healthcare Materials (Impact Factor = 9.6)",
       "slug": "sa_ahm",
       "date": "2026-01-21",
       "month": "Jan 2026",
@@ -146,6 +158,7 @@
     },
     {
       "title": "BLISS 손가영 학생 2025 Conference on Emerging Materials and Applications참석 및 Best Poseter Award 수상",
+      "titleEn": "BLISS Kayoung Son attended the 2025 Conference on Emerging Materials and Applications and received a Best Poster Award",
       "slug": "gy_25acs",
       "date": "2025-12-23",
       "month": "Dec 2025",
@@ -158,6 +171,7 @@
     },
     {
       "title": "BLISS 2025 스승의날",
+      "titleEn": "BLISS 2025 Teachers' Day",
       "slug": "2025pr",
       "date": "2025-12-12",
       "month": "Dec 2025",
@@ -170,6 +184,7 @@
     },
     {
       "title": "BLISS 2025 하계MT",
+      "titleEn": "BLISS 2025 Summer Retreat (MT)",
       "slug": "2025mt_s",
       "date": "2025-12-12",
       "month": "Dec 2025",
@@ -182,6 +197,7 @@
     },
     {
       "title": "BLISS 박상우 학생 졸업식",
+      "titleEn": "BLISS Sangwoo Park's graduation ceremony",
       "slug": "2025graduation_sw",
       "date": "2025-12-12",
       "month": "Dec 2025",
@@ -194,6 +210,7 @@
     },
     {
       "title": "2025 MRS 학회 참석",
+      "titleEn": "Attended the 2025 MRS Meeting",
       "slug": "2025mrs",
       "date": "2025-12-12",
       "month": "Dec 2025",
@@ -206,6 +223,7 @@
     },
     {
       "title": "BLISS 김태영 박사 Chinese biomaterials congress 참석, Excellent speaker 선정",
+      "titleEn": "BLISS Dr. Tae Young Kim attended the Chinese Biomaterials Congress and was selected as an Excellent Speaker",
       "slug": "ty_china-congress",
       "date": "2025-10-13",
       "month": "Oct 2025",
@@ -218,6 +236,7 @@
     },
     {
       "title": "BLISS 김태영 박사 한-중 나이벡 미래 과학자상 수상, 한국 대표 젊은 과학자 3인 중 한 명으로 선정",
+      "titleEn": "BLISS Dr. Tae Young Kim received the Korea-China Navibiotech Future Scientist Award, selected as one of three young scientists representing Korea",
       "slug": "ty_nibec",
       "date": "2025-09-12",
       "month": "Sep 2025",
@@ -230,6 +249,7 @@
     },
     {
       "title": "BLISS 김태영 박사 Science Advances 에 논문 게재 승인(Impact factor = 12.5)",
+      "titleEn": "BLISS Dr. Tae Young Kim — Paper accepted in Science Advances (Impact Factor = 12.5)",
       "slug": "ty_sa",
       "date": "2025-08-08",
       "month": "Aug 2025",
@@ -242,6 +262,7 @@
     },
     {
       "title": "BLISS 이연택 박사, 손가영 학생 Advanced Materials Interfaces 에 논문 게재 승인(Impact factor = 4.7)",
+      "titleEn": "BLISS Dr. Yeontaek Lee & Kayoung Son — Paper accepted in Advanced Materials Interfaces (Impact Factor = 4.7)",
       "slug": "ami_yt_ky",
       "date": "2025-06-13",
       "month": "Jun 2025",
@@ -254,6 +275,7 @@
     },
     {
       "title": "BLISS 김태영 박사 2025 한국고분자학회 우수논문발표상 수상",
+      "titleEn": "BLISS Dr. Tae Young Kim received the Best Presentation Award at the 2025 Polymer Society of Korea meeting",
       "slug": "polymeraward",
       "date": "2025-04-28",
       "month": "Apr 2025",
@@ -266,6 +288,7 @@
     },
     {
       "title": "BLISS 김태영 박사, 박재규 학생 Advanced Science Top Viewed Article에 선정",
+      "titleEn": "BLISS Dr. Tae Young Kim & Jae Park selected for an Advanced Science Top Viewed Article",
       "slug": "as_topviewedarticle",
       "date": "2025-04-16",
       "month": "Apr 2025",
@@ -278,6 +301,7 @@
     },
     {
       "title": "BLISS 손가영 학생 YES 2025 Best Poster Award 수상",
+      "titleEn": "BLISS Kayoung Son received the Best Poster Award at YES 2025",
       "slug": "yes2025award",
       "date": "2025-03-25",
       "month": "Mar 2025",
@@ -290,6 +314,7 @@
     },
     {
       "title": "2024 BLISS 송년회",
+      "titleEn": "2024 BLISS Year-End Party",
       "slug": "2024year-end",
       "date": "2025-01-02",
       "month": "Jan 2025",
@@ -302,6 +327,7 @@
     },
     {
       "title": "BLISS 육근영 학생 우수 실험 조교상 수상",
+      "titleEn": "BLISS Keun-Young Yook received the Outstanding Teaching Assistant Award",
       "slug": "tutor",
       "date": "2025-01-02",
       "month": "Jan 2025",
@@ -314,6 +340,7 @@
     },
     {
       "title": "BLISS 이연택, 박기준 박사 ACS Nano 게재 논문 재단법인 만례재단상 수상",
+      "titleEn": "BLISS Dr. Yeontaek Lee & Dr. Kijun Park's ACS Nano paper received the Manrye Foundation Award",
       "slug": "acsnano_award",
       "date": "2024-12-26",
       "month": "Dec 2024",
@@ -326,6 +353,7 @@
     },
     {
       "title": "BLISS 이유림 학생 세계생체재료학회 (2024 WBC) 우수 포스터 발표상 수상",
+      "titleEn": "BLISS Yurim Lee received a Best Poster Award at the World Biomaterials Congress (2024 WBC)",
       "slug": "2024wbc_yr",
       "date": "2024-08-09",
       "month": "Aug 2024",
@@ -338,6 +366,7 @@
     },
     {
       "title": "BLISS 김수아 학생 2024 IUMRS-ICYRAM YOUNG RESEARCHER AWARD 수상",
+      "titleEn": "BLISS Soo A Kim received the 2024 IUMRS-ICYRAM Young Researcher Award",
       "slug": "2024iumrs_sa",
       "date": "2024-08-09",
       "month": "Aug 2024",
@@ -350,6 +379,7 @@
     },
     {
       "title": "BLISS 김상원 학생 2024 나노코리아 Young Scientist Awards 수상",
+      "titleEn": "BLISS Sangwon Kim received a 2024 NanoKorea Young Scientist Award",
       "slug": "2024iumrs_sa-2",
       "date": "2024-08-09",
       "month": "Aug 2024",
@@ -362,6 +392,7 @@
     },
     {
       "title": "BLISS 조예진, 이유림 학생 npj Flexible Electronics 에 논문 게재 승인(Impact factor = 15.7)",
+      "titleEn": "BLISS Yejin Jo & Yurim Lee — Paper accepted in npj Flexible Electronics (Impact Factor = 15.7)",
       "slug": "npjfe_jl",
       "date": "2024-06-19",
       "month": "Jun 2024",
@@ -374,6 +405,7 @@
     },
     {
       "title": "BLISS 김태영 학생 Small 에 논문 게재 승인(Impact factor = 12.1)",
+      "titleEn": "BLISS Tae Young Kim — Paper accepted in Small (Impact Factor = 12.1)",
       "slug": "small_kty1",
       "date": "2024-06-19",
       "month": "Jun 2024",
@@ -386,6 +418,7 @@
     },
     {
       "title": "BLISS 이연택 학생 졸업식",
+      "titleEn": "BLISS Yeontaek Lee's graduation ceremony",
       "slug": "grad_lyt",
       "date": "2024-06-07",
       "month": "Jun 2024",
@@ -398,6 +431,7 @@
     },
     {
       "title": "BLISS 2024 봄 소풍",
+      "titleEn": "BLISS 2024 Spring Picnic",
       "slug": "camping",
       "date": "2024-06-07",
       "month": "Jun 2024",
@@ -410,6 +444,7 @@
     },
     {
       "title": "BLISS 2024 스승의날",
+      "titleEn": "BLISS 2024 Teachers' Day",
       "slug": "2024teacher",
       "date": "2024-06-07",
       "month": "Jun 2024",
@@ -422,6 +457,7 @@
     },
     {
       "title": "2024 WBC 학회 참석",
+      "titleEn": "Attended the 2024 WBC (World Biomaterials Congress)",
       "slug": "2024wbc",
       "date": "2024-06-07",
       "month": "Jun 2024",
@@ -434,6 +470,7 @@
     },
     {
       "title": "BLISS 이연택 학생 ACS Nano 에 논문 게재 & Supplementary Cover 선정 (Impact factor = 17.3)",
+      "titleEn": "BLISS Yeontaek Lee — Paper published in ACS Nano & selected as Supplementary Cover (Impact Factor = 17.3)",
       "slug": "ytl_acsnano_1",
       "date": "2024-04-23",
       "month": "Apr 2024",
@@ -446,6 +483,7 @@
     },
     {
       "title": "BLISS 오진석 학생 Advanced Electronic Materials 에 논문 게재(Impact factor = 5.3)",
+      "titleEn": "BLISS Jinseok Oh — Paper published in Advanced Electronic Materials (Impact Factor = 5.3)",
       "slug": "ojs-aem1",
       "date": "2024-03-28",
       "month": "Mar 2024",
@@ -458,6 +496,7 @@
     },
     {
       "title": "BLISS 강민경 학생 Biosensors & Bioelectronics 에 논문 게재(Impact factor = 10.7)",
+      "titleEn": "BLISS Minkyong Kang — Paper published in Biosensors & Bioelectronics (Impact Factor = 10.7)",
       "slug": "kmk-bnb1",
       "date": "2024-03-28",
       "month": "Mar 2024",
@@ -470,6 +509,7 @@
     },
     {
       "title": "BLISS 박재규 학생 Chemical Engineering Journal에 논문 게재(Impact factor = 13.3)",
+      "titleEn": "BLISS Jae Park — Paper published in Chemical Engineering Journal (Impact Factor = 13.3)",
       "slug": "jaecej",
       "date": "2024-01-26",
       "month": "Jan 2024",
@@ -482,6 +522,7 @@
     },
     {
       "title": "BLISS 이유림 학생 CES 2024 우수 서포터즈 선정",
+      "titleEn": "BLISS Yurim Lee selected as an Outstanding Supporter for CES 2024",
       "slug": "yurmces",
       "date": "2024-01-26",
       "month": "Jan 2024",
@@ -494,6 +535,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 창업 기업 링크솔루텍 2024 CES 참가 성료",
+      "titleEn": "Lynk Solutec, the startup founded by BLISS Prof. Jungmok Seo, successfully participated in CES 2024",
       "slug": "ces-2-3",
       "date": "2024-01-26",
       "month": "Jan 2024",
@@ -506,6 +548,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 서울시 기업 대표로 오세훈 서울 시장과의 간담회 참석",
+      "titleEn": "BLISS Prof. Jungmok Seo attended a meeting with Seoul Mayor Oh Se-hoon as a representative Seoul company",
       "slug": "ces-2-2-2",
       "date": "2024-01-26",
       "month": "Jan 2024",
@@ -518,6 +561,7 @@
     },
     {
       "title": "BLISS 2023 송년회",
+      "titleEn": "BLISS 2023 Year-End Party",
       "slug": "2023-year-end",
       "date": "2024-01-17",
       "month": "Jan 2024",
@@ -530,6 +574,7 @@
     },
     {
       "title": "BLISS 김태영 학생 Advanced Functional Materials 에 논문 게재(Impact factor = 19.0)",
+      "titleEn": "BLISS Tae Young Kim — Paper published in Advanced Functional Materials (Impact Factor = 19.0)",
       "slug": "taeadfm",
       "date": "2023-12-14",
       "month": "Dec 2023",
@@ -542,6 +587,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 창업 기업 링크솔루텍 2024 CES Innovation Award 디지털 헬스, 인간 안보 부문 수상",
+      "titleEn": "Lynk Solutec, founded by BLISS Prof. Jungmok Seo, won a 2024 CES Innovation Award in the Digital Health and Human Security categories",
       "slug": "ces",
       "date": "2023-11-16",
       "month": "Nov 2023",
@@ -554,6 +600,7 @@
     },
     {
       "title": "BLISS 박기준 학생 대학원생 연구 프로필 사이트 (Y-Scholar Hub) 등록 연구원 선정",
+      "titleEn": "BLISS Kijun Park selected as a registered researcher on the graduate researcher profile site (Y-Scholar Hub)",
       "slug": "yscholarhub_kj",
       "date": "2023-10-10",
       "month": "Oct 2023",
@@ -566,6 +613,7 @@
     },
     {
       "title": "Injectable hydrogels for tissue regeneration seminar : The University of Hong Kong Sang Jin Lee 교수님",
+      "titleEn": "Seminar: Injectable hydrogels for tissue regeneration — Prof. Sang Jin Lee, The University of Hong Kong",
       "slug": "sangjinlee",
       "date": "2023-09-26",
       "month": "Sep 2023",
@@ -578,6 +626,7 @@
     },
     {
       "title": "BLISS 강민경, 조예진 학생 2023 한국생체재료학회 우수 논문 발표상 및 우수 학술상 수상",
+      "titleEn": "BLISS Minkyong Kang & Yejin Jo received the Best Presentation Award and Academic Excellence Award at the 2023 Korean Society for Biomaterials meeting",
       "slug": "korea_materals_award",
       "date": "2023-09-25",
       "month": "Sep 2023",
@@ -590,6 +639,7 @@
     },
     {
       "title": "BLISS 박재규, 김태영 학생 Advanced Science에 논문 게재 (Impact factor = 14.1)",
+      "titleEn": "BLISS Jae Park & Tae Young Kim — Paper published in Advanced Science (Impact Factor = 14.1)",
       "slug": "jaetaeadsci",
       "date": "2023-08-10",
       "month": "Aug 2023",
@@ -602,6 +652,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 창업 기업 링크솔루텍 2023 제 17회 대한민국 우수 특허 대상 선정",
+      "titleEn": "Lynk Solutec, founded by BLISS Prof. Jungmok Seo, selected for the 17th Korea Excellent Patent Grand Award (2023)",
       "slug": "linksol_patenet",
       "date": "2023-07-26",
       "month": "Jul 2023",
@@ -614,6 +665,7 @@
     },
     {
       "title": "BLISS 김태영 학생 NanoKorea 2023 'Young Scientist Awards' 수상",
+      "titleEn": "BLISS Tae Young Kim received a 'Young Scientist Award' at NanoKorea 2023",
       "slug": "tyk_nanokorea",
       "date": "2023-07-25",
       "month": "Jul 2023",
@@ -626,6 +678,7 @@
     },
     {
       "title": "BLISS 2023 하계 MT",
+      "titleEn": "BLISS 2023 Summer Retreat (MT)",
       "slug": "2023summermt",
       "date": "2023-07-25",
       "month": "Jul 2023",
@@ -638,6 +691,7 @@
     },
     {
       "title": "Liquid-based Materials workshop : Xiamen University Xu Hou 교수님",
+      "titleEn": "Liquid-based Materials workshop — Prof. Xu Hou, Xiamen University",
       "slug": "xuhou",
       "date": "2023-07-12",
       "month": "Jul 2023",
@@ -650,6 +704,7 @@
     },
     {
       "title": "Chang Gung University & Yonsei University joint seminar : Chang Gung University Kin fong lei 교수님",
+      "titleEn": "Chang Gung University & Yonsei University joint seminar — Prof. Kin Fong Lei, Chang Gung University",
       "slug": "kinfenglie",
       "date": "2023-07-12",
       "month": "Jul 2023",
@@ -662,6 +717,7 @@
     },
     {
       "title": "2023 Nano Korea 학회 참석",
+      "titleEn": "Attended 2023 NanoKorea",
       "slug": "2023nanokorea",
       "date": "2023-07-12",
       "month": "Jul 2023",
@@ -674,6 +730,7 @@
     },
     {
       "title": "BLISS 2023 교수님 생신",
+      "titleEn": "BLISS 2023 Professor's Birthday",
       "slug": "2023birthday",
       "date": "2023-07-12",
       "month": "Jul 2023",
@@ -686,6 +743,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 유막 코팅 혈전 억제 인공혈관 제작 기술 한국연구재단에서 소개",
+      "titleEn": "BLISS Prof. Jungmok Seo's oil-film-coated, thrombosis-suppressing artificial blood vessel technology featured by the National Research Foundation of Korea",
       "slug": "news1",
       "date": "2023-06-10",
       "month": "Jun 2023",
@@ -698,6 +756,7 @@
     },
     {
       "title": "BLISS 박기준 학생 한국조직공학 재생의학회 우수 포스터 발표상 수상",
+      "titleEn": "BLISS Kijun Park received a Best Poster Award at the Korean Society for Tissue Engineering and Regenerative Medicine",
       "slug": "kjp_award",
       "date": "2023-05-22",
       "month": "May 2023",
@@ -710,6 +769,7 @@
     },
     {
       "title": "BLISS 2023 스승의날",
+      "titleEn": "BLISS 2023 Teachers' Day",
       "slug": "2023teacher",
       "date": "2023-05-16",
       "month": "May 2023",
@@ -722,6 +782,7 @@
     },
     {
       "title": "BLISS 김수아 학생 International Journal of Bioprinting에 논문 게재",
+      "titleEn": "BLISS Soo A Kim — Paper published in the International Journal of Bioprinting",
       "slug": "international-journal-of-bioprinting",
       "date": "2023-04-24",
       "month": "Apr 2023",
@@ -734,6 +795,7 @@
     },
     {
       "title": "BLISS 박기준, 김지현 학생 ACS NANO에 논문 게재 (Impact factor = 17.3, JCR 상위 5.65%)",
+      "titleEn": "BLISS Kijun Park & Jihyun Kim — Paper published in ACS Nano (Impact Factor = 17.3, top 5.65% in JCR)",
       "slug": "acsnano",
       "date": "2023-03-31",
       "month": "Mar 2023",
@@ -746,6 +808,7 @@
     },
     {
       "title": "BLISS 박재규, 김상원 학생 졸업식",
+      "titleEn": "BLISS Jae Park & Sangwon Kim's graduation ceremony",
       "slug": "2023graduate",
       "date": "2023-03-09",
       "month": "Mar 2023",
@@ -758,6 +821,7 @@
     },
     {
       "title": "BLISS 2023 1학기 개강 회식",
+      "titleEn": "BLISS 2023 Spring Semester Opening Dinner",
       "slug": "202301begin",
       "date": "2023-03-09",
       "month": "Mar 2023",
@@ -770,6 +834,7 @@
     },
     {
       "title": "BLISS 박기준 학생 BK21 Y-BASE 지능정보 교육연구사업단 우수 연구 선정",
+      "titleEn": "BLISS Kijun Park selected for Outstanding Research by the BK21 Y-BASE Intelligent Information Education & Research Group",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2023-02-25",
       "month": "Feb 2023",
@@ -782,6 +847,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 2023 경희대학교 캠퍼스타운 스타트업 CEO로 매거진 한경에서 소개",
+      "titleEn": "BLISS Prof. Jungmok Seo featured as a Kyung Hee University Campus Town startup CEO in Magazine Hankyung (2023)",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2023-02-23",
       "month": "Feb 2023",
@@ -794,6 +860,7 @@
     },
     {
       "title": "BLISS 박재규 학생 Advanced Science에 논문 게재",
+      "titleEn": "BLISS Jae Park — Paper published in Advanced Science",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2023-02-06",
       "month": "Feb 2023",
@@ -806,6 +873,7 @@
     },
     {
       "title": "BLISS 박기준 학생 LG display 산학협력센터 workshop 우수 발표 선정",
+      "titleEn": "BLISS Kijun Park selected for an Outstanding Presentation at the LG Display Industry-Academia Cooperation Center workshop",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2023-01-16",
       "month": "Jan 2023",
@@ -818,6 +886,7 @@
     },
     {
       "title": "BLISS 2022 가을 소풍",
+      "titleEn": "BLISS 2022 Autumn Picnic",
       "slug": "2022fallpicnic",
       "date": "2023-01-13",
       "month": "Jan 2023",
@@ -830,6 +899,7 @@
     },
     {
       "title": "2022년도 바이오그룹 워크샵",
+      "titleEn": "2022 Bio Group Workshop",
       "slug": "2022bioworkshop",
       "date": "2023-01-13",
       "month": "Jan 2023",
@@ -842,6 +912,7 @@
     },
     {
       "title": "BLISS 2022 송년회",
+      "titleEn": "BLISS 2022 Year-End Party",
       "slug": "2022yearend",
       "date": "2023-01-13",
       "month": "Jan 2023",
@@ -854,6 +925,7 @@
     },
     {
       "title": "BLISS 김태영 학생 TERMIS-AP BEST Presentation Award 수상",
+      "titleEn": "BLISS Tae Young Kim received the TERMIS-AP Best Presentation Award",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2022-10-15",
       "month": "Oct 2022",
@@ -866,6 +938,7 @@
     },
     {
       "title": "TERMIS-AP 2022 참석",
+      "titleEn": "Attended TERMIS-AP 2022",
       "slug": "happyprofessorsday-2-2-2-2",
       "date": "2022-10-15",
       "month": "Oct 2022",
@@ -878,6 +951,7 @@
     },
     {
       "title": "BLISS 2022 여름 회식",
+      "titleEn": "BLISS 2022 Summer Dinner",
       "slug": "happyprofessorsday-2-2-3",
       "date": "2022-07-31",
       "month": "Jul 2022",
@@ -890,6 +964,7 @@
     },
     {
       "title": "2022 연세대학교- 하버드 메디컬 스쿨 Joint workshop",
+      "titleEn": "2022 Yonsei University – Harvard Medical School Joint Workshop",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-3",
       "date": "2022-07-31",
       "month": "Jul 2022",
@@ -902,6 +977,7 @@
     },
     {
       "title": "BLISS 2022 여름 방학 회식",
+      "titleEn": "BLISS 2022 Summer Vacation Dinner",
       "slug": "happyprofessorsday-2-2-2",
       "date": "2022-07-31",
       "month": "Jul 2022",
@@ -914,6 +990,7 @@
     },
     {
       "title": "BLISS 박기준 학생 JCR 상위 1.14% Bioactive Materials에 논문 게재",
+      "titleEn": "BLISS Kijun Park — Paper published in Bioactive Materials (top 1.14% in JCR)",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2-2",
       "date": "2022-07-18",
       "month": "Jul 2022",
@@ -926,6 +1003,7 @@
     },
     {
       "title": "BLISS 2022 스승의날",
+      "titleEn": "BLISS 2022 Teachers' Day",
       "slug": "happyprofessorsday-2",
       "date": "2022-05-17",
       "month": "May 2022",
@@ -938,6 +1016,7 @@
     },
     {
       "title": "BLISS 박재규 학생 ACS Applied Electronic Materials에 논문 게재 & Supplementary cover 선정",
+      "titleEn": "BLISS Jae Park — Paper published in ACS Applied Electronic Materials & selected as Supplementary Cover",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2-2",
       "date": "2022-04-27",
       "month": "Apr 2022",
@@ -950,6 +1029,7 @@
     },
     {
       "title": "BLISS 박재규 학생 한국 고분자 학회 춘계 학술대회 구두 발표부문 최우수 논문발표상 수상",
+      "titleEn": "BLISS Jae Park received the Best Oral Presentation Award at the Spring Meeting of the Polymer Society of Korea",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2-2",
       "date": "2022-04-08",
       "month": "Apr 2022",
@@ -962,6 +1042,7 @@
     },
     {
       "title": "BLISS 이연택 학생 \"One of the most popular 2021 Nanoscale articles\" 선정",
+      "titleEn": "BLISS Yeontaek Lee selected as 'One of the most popular 2021 Nanoscale articles'",
       "slug": "ytlee-contest-2-2-2-2-2-2-2-2",
       "date": "2022-03-07",
       "month": "Mar 2022",
@@ -974,6 +1055,7 @@
     },
     {
       "title": "BLISS 이연택 학생 학과우수논문상 수상",
+      "titleEn": "BLISS Yeontaek Lee received the Departmental Best Paper Award",
       "slug": "ytlee-contest-2-2-2-2-2-2",
       "date": "2022-01-17",
       "month": "Jan 2022",
@@ -986,6 +1068,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 경희대학교 캠퍼스타운 캠타비전 데모데이 최우수상 수상",
+      "titleEn": "BLISS Prof. Jungmok Seo won the Grand Prize at the Kyung Hee University Campus Town Vision Demo Day",
       "slug": "ytlee-contest-2-2-2-2-2-2-2",
       "date": "2022-01-17",
       "month": "Jan 2022",
@@ -998,6 +1081,7 @@
     },
     {
       "title": "BLISS 김지현 학생 바이오메디컬 글로벌 인재양성 프로그램 선발",
+      "titleEn": "BLISS Jihyun Kim selected for the Biomedical Global Talent Development Program",
       "slug": "ytlee-contest-2-2-2-2",
       "date": "2021-12-10",
       "month": "Dec 2021",
@@ -1010,6 +1094,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 2021 대학 실험실 창업 Uni-tec 데모데이 금상 수상",
+      "titleEn": "BLISS Prof. Jungmok Seo won the Gold Prize at the 2021 University Lab Startup Uni-tec Demo Day",
       "slug": "ytlee-contest-2-2-2-2-2",
       "date": "2021-12-10",
       "month": "Dec 2021",
@@ -1022,6 +1107,7 @@
     },
     {
       "title": "BLISS 박재규 학생 Biotechnology Journal에 논문 게재 & Front Cover 선정",
+      "titleEn": "BLISS Jae Park — Paper published in Biotechnology Journal & selected as Front Cover",
       "slug": "ytlee-contest-2-2-2",
       "date": "2021-12-03",
       "month": "Dec 2021",
@@ -1034,6 +1120,7 @@
     },
     {
       "title": "2021 한국바이오칩학회 추계학술대회 참석",
+      "titleEn": "Attended the 2021 Korea BioChip Society Fall Conference",
       "slug": "ytgrats-3",
       "date": "2021-12-03",
       "month": "Dec 2021",
@@ -1046,6 +1133,7 @@
     },
     {
       "title": "BLISS 이연택 학생 Nanoscale에 논문 게재",
+      "titleEn": "BLISS Yeontaek Lee — Paper published in Nanoscale",
       "slug": "ytlee-contest-2-2",
       "date": "2021-11-02",
       "month": "Nov 2021",
@@ -1058,6 +1146,7 @@
     },
     {
       "title": "BLISS 이연택 학생 사회혁신 성과 공모전 우수작 선정",
+      "titleEn": "BLISS Yeontaek Lee selected as an outstanding entry in the Social Innovation Achievement Contest",
       "slug": "ytlee-contest",
       "date": "2021-08-22",
       "month": "Aug 2021",
@@ -1070,6 +1159,7 @@
     },
     {
       "title": "BLISS 2021 교수님 생신",
+      "titleEn": "BLISS 2021 Professor's Birthday",
       "slug": "happybirthday1",
       "date": "2021-07-09",
       "month": "Jul 2021",
@@ -1082,6 +1172,7 @@
     },
     {
       "title": "BLISS 이연택 학생  Advanced Science에 논문 게재 & Back cover 선정",
+      "titleEn": "BLISS Yeontaek Lee — Paper published in Advanced Science & selected as Back Cover",
       "slug": "ytgrats-2-3",
       "date": "2021-06-07",
       "month": "Jun 2021",
@@ -1094,6 +1185,7 @@
     },
     {
       "title": "BLISS 2021 스승의날",
+      "titleEn": "BLISS 2021 Teachers' Day",
       "slug": "happyprofessorsday",
       "date": "2021-05-17",
       "month": "May 2021",
@@ -1106,6 +1198,7 @@
     },
     {
       "title": "BLISS 이연택 학생  K-startup_교육부 장관상 수상",
+      "titleEn": "BLISS Yeontaek Lee received the Minister of Education Award at K-Startup",
       "slug": "ytgrats-2",
       "date": "2020-12-21",
       "month": "Dec 2020",
@@ -1118,6 +1211,7 @@
     },
     {
       "title": "BLISS 한국공업화학회 학술대회 참석 및 추계 MT",
+      "titleEn": "BLISS attended the Korean Society of Industrial and Engineering Chemistry conference and Fall Retreat (MT)",
       "slug": "fallmt",
       "date": "2020-11-11",
       "month": "Nov 2020",
@@ -1130,6 +1224,7 @@
     },
     {
       "title": "BLISS 이연택 학생 교육부 장관상 축하 회식",
+      "titleEn": "BLISS dinner celebrating Yeontaek Lee's Minister of Education Award",
       "slug": "ytgrats",
       "date": "2020-11-11",
       "month": "Nov 2020",
@@ -1142,6 +1237,7 @@
     },
     {
       "title": "BLISS 서정목 교수님 미원상사 신진과학자상 수상 & 2020 한국공업화학회 학술대회 참석",
+      "titleEn": "BLISS Prof. Jungmok Seo received the Miwon Young Scientist Award & attended the 2020 Korean Society of Industrial and Engineering Chemistry conference",
       "slug": "kmddf_mtie-2",
       "date": "2020-11-10",
       "month": "Nov 2020",
@@ -1154,6 +1250,7 @@
     },
     {
       "title": "BLISS 채교민 & 박기준 학생 삽입형 소재의 수술 후 감염 억제를 위한 고기능성 표면 개질 기술 연구 Science Advances 게재 승인",
+      "titleEn": "BLISS Kyomin Chae & Kijun Park — Study on high-functionality surface modification for post-operative infection suppression of implantable materials accepted in Science Advances",
       "slug": "lois-2",
       "date": "2020-10-12",
       "month": "Oct 2020",
@@ -1166,6 +1263,7 @@
     },
     {
       "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정",
+      "titleEn": "BLISS finally selected for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program",
       "slug": "kmddf_msict",
       "date": "2020-10-12",
       "month": "Oct 2020",
@@ -1178,6 +1276,7 @@
     },
     {
       "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정",
+      "titleEn": "BLISS finally selected for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program",
       "slug": "kmddf_mtie",
       "date": "2020-10-12",
       "month": "Oct 2020",
@@ -1190,6 +1289,7 @@
     },
     {
       "title": "BLISS 채교민 & 이동원 학생 송별회",
+      "titleEn": "BLISS farewell party for Kyomin Chae & Dongwon Lee",
       "slug": "farewell1",
       "date": "2020-08-03",
       "month": "Aug 2020",
@@ -1202,6 +1302,7 @@
     },
     {
       "title": "BLISS 최성아 학생 환영 회식",
+      "titleEn": "BLISS welcome dinner for Seong-A Choi",
       "slug": "estherchoi_welcome",
       "date": "2020-07-20",
       "month": "Jul 2020",
@@ -1214,6 +1315,7 @@
     },
     {
       "title": "BLISS 2020 스승의날",
+      "titleEn": "BLISS 2020 Teachers' Day",
       "slug": "teachers_day",
       "date": "2020-05-26",
       "month": "May 2020",
@@ -1226,6 +1328,7 @@
     },
     {
       "title": "이연택 학생 - 예비창업패키지 사업 선정",
+      "titleEn": "Yeontaek Lee selected for the Preliminary Startup Package Program",
       "slug": "labstartup-2",
       "date": "2020-05-11",
       "month": "May 2020",
@@ -1238,6 +1341,7 @@
     },
     {
       "title": "이연택 학생 - 실험실 특화형 창업선도대학사업 신규 실험실 팀으로 선정",
+      "titleEn": "Yeontaek Lee selected as a new lab team for the Lab-Specialized Startup Leading University Program",
       "slug": "labstartup111",
       "date": "2020-04-03",
       "month": "Apr 2020",
@@ -1250,6 +1354,7 @@
     },
     {
       "title": "BLISS EE Festival 마라톤 참석",
+      "titleEn": "BLISS participated in the EE Festival Marathon",
       "slug": "blissrun2019",
       "date": "2020-01-29",
       "month": "Jan 2020",
@@ -1262,6 +1367,7 @@
     },
     {
       "title": "BLISS MRS 2019 학회 참석 및 포스터 발표",
+      "titleEn": "BLISS attended MRS 2019 and presented a poster",
       "slug": "blissmrs2019",
       "date": "2020-01-29",
       "month": "Jan 2020",
@@ -1274,6 +1380,7 @@
     },
     {
       "title": "BLISS 2020년을 맞이하여 신년회",
+      "titleEn": "BLISS 2020 New Year Party",
       "slug": "blissnewyear2020",
       "date": "2020-01-29",
       "month": "Jan 2020",
@@ -1286,6 +1393,7 @@
     },
     {
       "title": "서정목 교수님 연구팀 BLISS - 감염 억제를 위한  정형외과용 인공 삽입물 표면 개질 기술이전",
+      "titleEn": "Prof. Jungmok Seo's team (BLISS) — Technology transfer of orthopedic implant surface modification for infection suppression",
       "slug": "techtransfer1",
       "date": "2020-01-29",
       "month": "Jan 2020",
@@ -1298,6 +1406,7 @@
     },
     {
       "title": "서영민 박사님 연구교수로서 BLISS 합류",
+      "titleEn": "Dr. Youngmin Seo joins BLISS as a Research Professor",
       "slug": "youngminseo",
       "date": "2020-01-29",
       "month": "Jan 2020",
@@ -1310,6 +1419,7 @@
     },
     {
       "title": "BLISS 2019년도 2학기 회식 - BLISS Lab dinner",
+      "titleEn": "BLISS 2019 Fall Semester Dinner — BLISS Lab dinner",
       "slug": "labdinner2",
       "date": "2019-10-21",
       "month": "Oct 2019",
@@ -1322,6 +1432,7 @@
     },
     {
       "title": "BLISS 채교민 학생 석사 예심",
+      "titleEn": "BLISS Kyomin Chae's master's preliminary examination",
       "slug": "masterthesis1",
       "date": "2019-10-21",
       "month": "Oct 2019",
@@ -1334,6 +1445,7 @@
     },
     {
       "title": "제 1회 2019 BLISS 하계 MT - BLISS SUMMER CAMP",
+      "titleEn": "1st 2019 BLISS Summer Retreat (MT) — BLISS SUMMER CAMP",
       "slug": "blisssummercamp1",
       "date": "2019-09-04",
       "month": "Sep 2019",
@@ -1346,6 +1458,7 @@
     },
     {
       "title": "ACS Applied Materials & Interfaces 논문 표지 선정",
+      "titleEn": "Paper selected as cover of ACS Applied Materials & Interfaces",
       "slug": "acsamicover",
       "date": "2019-06-12",
       "month": "Jun 2019",
@@ -1358,6 +1471,7 @@
     },
     {
       "title": "2019 BLISS 상반기 회식",
+      "titleEn": "2019 BLISS First-Half Dinner",
       "slug": "teamdinner1",
       "date": "2019-05-21",
       "month": "May 2019",
@@ -1370,6 +1484,7 @@
     },
     {
       "title": "2019 한국바이오칩학회 춘계학술대회 참석",
+      "titleEn": "Attended the 2019 Korea BioChip Society Spring Conference",
       "slug": "biochipconference",
       "date": "2019-05-21",
       "month": "May 2019",
@@ -1382,6 +1497,7 @@
     },
     {
       "title": "서정목 교수님 연구실 BLISS - 2019 한국바이오칩학회 춘계학술대회에서 수상",
+      "titleEn": "Prof. Jungmok Seo's lab (BLISS) received an award at the 2019 Korea BioChip Society Spring Conference",
       "slug": "biochipjournal",
       "date": "2019-05-21",
       "month": "May 2019",
@@ -1394,6 +1510,7 @@
     },
     {
       "title": "2019년 4월 5일 연세대학교 전기전자공학부 학부생 간담회 개최",
+      "titleEn": "Held an undergraduate meet-up for the School of Electrical & Electronic Engineering, Yonsei University (April 5, 2019)",
       "slug": "lunchmeeting",
       "date": "2019-05-20",
       "month": "May 2019",
@@ -1406,6 +1523,7 @@
     },
     {
       "title": "2019년 한국연구재단 개인기초연구지원사업(신진연구)에 선정",
+      "titleEn": "Selected for the 2019 National Research Foundation of Korea Individual Basic Research Program (Junior Researcher)",
       "slug": "grant1",
       "date": "2019-03-13",
       "month": "Mar 2019",
@@ -1418,6 +1536,7 @@
     },
     {
       "title": "AMI 표지 논문 선정 '거의 모든 종류의 액체에 젖지 않는 플렉서블한 초소유성 표면 개발'",
+      "titleEn": "AMI cover paper selected — 'A flexible superamphiphobic surface that repels nearly all types of liquids'",
       "slug": "1902amicover",
       "date": "2019-02-12",
       "month": "Feb 2019",
@@ -1430,6 +1549,7 @@
     },
     {
       "title": "2018 국내 바이오융합부문 연구성과 Top 5 로 선정",
+      "titleEn": "Selected as a Top 5 domestic bio-convergence research achievement (2018)",
       "slug": "2018-top5",
       "date": "2019-01-23",
       "month": "Jan 2019",
@@ -1442,6 +1562,7 @@
     },
     {
       "title": "IAC symposium - 2018년 국소 면역반응 조절 원천기술 개발을 위한 심포지움 개최!",
+      "titleEn": "IAC symposium — 2018 symposium on developing core technology for local immune response modulation",
       "slug": "iac-symposium",
       "date": "2019-01-23",
       "month": "Jan 2019",
@@ -1454,6 +1575,7 @@
     },
     {
       "title": "University of Twente 출장 - 국제 협력 과제 추진을 위한 트웬테 대학 방문",
+      "titleEn": "Business trip to the University of Twente — visit to advance an international collaboration project",
       "slug": "university-of-twente",
       "date": "2019-01-23",
       "month": "Jan 2019",
@@ -1466,6 +1588,7 @@
     },
     {
       "title": "Boston 출장 - Boston에 방문하여 심포지엄 개최! 연구 교류를 본격적으로 시작",
+      "titleEn": "Business trip to Boston — held a symposium and launched active research exchange",
       "slug": "boston",
       "date": "2019-01-23",
       "month": "Jan 2019",
@@ -1478,6 +1601,7 @@
     },
     {
       "title": "체액 한 방울만으로 여러 가지 건강 상태를 빠르고 간단하게 진단 할 수 있는 새로운 바이오센서 기술을 개발!",
+      "titleEn": "Developed a new biosensor technology that can quickly and simply diagnose multiple health conditions from a single drop of body fluid",
       "slug": "biosensor",
       "date": "2019-01-07",
       "month": "Jan 2019",
