@@ -1,6 +1,19 @@
 {
   "news": [
     {
+      "title": "BLISS 육근영 학생, 하버드 의과대학 Yuhan Lee 교수 연구실 파견 (2026.08–2027.01)",
+      "titleEn": "BLISS Keun-Young Yook dispatched to Prof. Yuhan Lee's lab at Harvard Medical School (Aug 2026 – Jan 2027)",
+      "slug": "ky_harvard",
+      "date": "2026-07-26",
+      "month": "Jul 2026",
+      "categories": [
+        "General"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/ky_harvard.jpg",
+      "contentImage": "images/news/ky_harvard-content.jpg"
+    },
+    {
       "title": "BLISS 김태영 박사, 손가영 학생 'STAT' 지혈 하이드로겔 연구 (Nature Communications) 네이버 뉴스에서 소개",
       "titleEn": "BLISS Dr. Tae Young Kim & Kayoung Son's 'STAT' hemostatic hydrogel study (Nature Communications) featured in Naver News",
       "slug": "stat_media",
