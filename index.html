@@ -1205,7 +1205,7 @@ section[id] {
   <div class="container">
     <div class="section-header reveal">
       <h2 data-kr="Publications" data-en="Publications">Publications</h2>
-      <p class="subtitle" data-kr="93+ publications · 6,300+ citations · h-index 36" data-en="93+ publications · 6,300+ citations · h-index 36">93+ publications · 6,300+ citations · h-index 36</p>
+      <p class="subtitle" data-kr="98+ publications · 6,300+ citations · h-index 36" data-en="98+ publications · 6,300+ citations · h-index 36" id="pubStats">98+ publications · 6,300+ citations · h-index 36</p>
       <div class="divider"></div>
     </div>
 
@@ -1467,6 +1467,14 @@ async function loadPublications() {
 
     const container = document.getElementById('publicationsList');
     container.innerHTML = '';
+
+    // Keep the "N+ publications" stat in sync with the data file
+    const statEl = document.getElementById('pubStats');
+    if (statEl && Array.isArray(data.publications)) {
+      const n = data.publications.length;
+      ['kr','en'].forEach(k => { if (statEl.dataset[k]) statEl.dataset[k] = statEl.dataset[k].replace(/^\d+\+ publications/, `${n}+ publications`); });
+      statEl.textContent = statEl.textContent.replace(/^\d+\+ publications/, `${n}+ publications`);
+    }
 
     // Group publications: recent 3 years individual, then 5-year buckets
     const currentYear = new Date().getFullYear();
