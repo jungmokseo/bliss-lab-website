@@ -24,11 +24,11 @@
       "number": 96,
       "year": 2026,
       "title": "Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing",
-      "authors": "Seol-Ha Jeong<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Eleftheria-Angeliki Valsami, Jarno Hiemstra, Rafael Alejandro Cornejo Rodríguez, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, Danilo Martins dos Santos, Zhuqing Li, <strong>Yejin Jo</strong>, Aristidis Veves, Nebras Sobahi, Brendan C. Thibault, Kyungsang Kim, <strong>Jungmok Seo</strong>, Mohammad Asif Hussain, Lance Fiondella, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
-      "journal": "Advanced Functional Materials (2026)",
+      "authors": "Seol-Ha Jeong<sup>†</sup>, Eleftheria-Angeliki Valsami, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, <strong>Jungmok Seo</strong>, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, <strong>Yejin Jo</strong>, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
+      "journal": "Advanced Functional Materials, 36(67), e77191 (2026)",
       "impactFactor": 19.9,
       "image": "images/publications/pub-96.png",
-      "link": ""
+      "link": "https://doi.org/10.1002/adfm.77191"
     },
     {
       "number": 95,
@@ -162,9 +162,9 @@
     },
     {
       "number": 82,
-      "year": 2024,
+      "year": 2025,
       "title": "Large Scale Ultrafast Manufacturing of Wireless Soft Bioelectronics Enabled by Autonomous Robot Arm Printing Assisted by a Computer Vision-Enabled Guidance System for Personalized Wound Healing",
-      "authors": "<strong>Jihyun Kim</strong><sup>†</sup>, Seol-Ha Jeong<sup>†</sup>, Brendan Craig Thibault, Javier Alejandro Lozano Soto, Hiroyuki Tetsuka, Surya Varchasvi Devaraj, Estefania Riestra de la Rosa, Yeongseok Jang, Jeong Wook Seo, Rafael Alejandro Cornejo Rodriguez, Lucia L. Huang, Yuhan Lee, Ioana Preda, Sameer Sonkusale, Lance Fiondella, <strong>Jungmok Seo</strong>, Lorenzo Pirrami, Su Ryon Shin",
+      "authors": "<strong>Jihyun Kim</strong><sup>†</sup>, Seol-Ha Jeong<sup>†</sup>, Brendan Craig Thibault, Javier Alejandro Lozano Soto, Hiroyuki Tetsuka, Surya Varchasvi Devaraj, Estefania Riestra de la Rosa, Yeongseok Jang, Jeong Wook Seo, Rafael Alejandro Cornejo Rodriguez, Lucia L. Huang, Yuhan Lee, Ioana Preda, Sameer Sonkusale, Lance Fiondella, <strong>Jungmok Seo</strong><sup>*</sup>, Lorenzo Pirrami<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "Advanced Healthcare Materials, 14(1), 2401735 (2025)",
       "impactFactor": 11,
       "link": "https://doi.org/10.1002/adhm.202401735"
@@ -235,7 +235,7 @@
       "number": 75,
       "year": 2024,
       "title": "Intelligent In Situ Printing of Multimaterial Bioinks for First-Aid Wound Care Guided by Eye-In-Hand Robot Technology",
-      "authors": "Seol-Ha Jeong, <strong>Jihyun Kim</strong>, Brendan Craig Thibault, Javier Alejandro Lozano Soto, Fatima Tourk, Joshua Steakelum, Diego Azuela, Violeta Carvalho, Guillermo Quiroga-Ocaña, Weida Zhuang, Mei Li L. Cham-Pérez, Lucia L. Huang, Zhuqing Li, Eleftheria‐Angeliki Valsami, Enya Wang, Nelson Rodrigues, Senhorinha F.C.F. Teixeira, Yuhan Lee, <strong>Jungmok Seo</strong>, Aristidis Veves, Shabir Hassan, Georgios Theocharidis, Lance Fiondella, Su Ryon Shin",
+      "authors": "Seol-Ha Jeong, <strong>Jihyun Kim</strong>, Brendan Craig Thibault, Javier Alejandro Lozano Soto, Fatima Tourk, Joshua Steakelum, Diego Azuela, Violeta Carvalho, Guillermo Quiroga-Ocaña, Weida Zhuang, Mei Li L. Cham-Pérez, Lucia L. Huang, Zhuqing Li, Eleftheria‐Angeliki Valsami, Enya Wang, Nelson Rodrigues, Senhorinha F.C.F. Teixeira, Yuhan Lee, <strong>Jungmok Seo</strong>, Aristidis Veves, Shabir Hassan, Georgios Theocharidis<sup>*</sup>, Lance Fiondella<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "Advanced Materials Technologies, 9(11), 2400060 (2024)",
       "impactFactor": 6,
       "link": "https://doi.org/10.1002/admt.202400060"
@@ -399,9 +399,9 @@
     {
       "number": 58,
       "year": 2021,
-      "title": "Electronic Drugs: Spatial and Temporal Medical Treatments of Human Diseases",
+      "title": "Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases",
       "authors": "Chihyeong Won<sup>†</sup>, Chaebeen Kwon<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup>",
-      "journal": "Advanced Materials, 33(47), 2005930",
+      "journal": "Advanced Materials, 33(47), 2005930 (2021)",
       "impactFactor": 29.1,
       "image": "images/publications/pub-58.jpg",
       "link": "https://doi.org/10.1002/adma.202005930"
@@ -440,7 +440,7 @@
       "number": 54,
       "year": 2019,
       "title": "Biocompatible Carbon Nanotube-based Hybrid Microfiber for Implantable Electrochemical Acutator and Flexible Electronic Applications",
-      "authors": "Ting Zheng<sup>†</sup>, Parisa Pour Shahid Saeed Abadi<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Byung-Hyun Cha, Beatrice Miccoli, Yi-Chen Li, <strong>Kijun Park</strong>, Sunghyun Park, Seon-Ji Choi, Rasoul Bayaniahangar, Dongxing Zhang, Soo-Hong Lee, Chang-Kee Lee, Ali Khademhosseini, Su Ryon Shin",
+      "authors": "Ting Zheng<sup>†</sup>, Parisa Pour Shahid Saeed Abadi<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Byung-Hyun Cha, Beatrice Miccoli, Yi-Chen Li, <strong>Kijun Park</strong>, Sunghyun Park, Seon-Ji Choi, Rasoul Bayaniahangar, Dongxing Zhang, Soo-Hong Lee, Chang-Kee Lee, Ali Khademhosseini<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 11, 20615-20627 (2019)",
       "impactFactor": 7.8,
       "image": "images/publications/pub-54.jpg",
@@ -539,7 +539,7 @@
       "number": 44,
       "year": 2018,
       "title": "Electrically driven microengineered bio-inspired soft robots",
-      "authors": "Su Ryon Shin, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, <strong>Jungmok Seo</strong>, Serena Mandla, Alessandro Enrico, Silvia Antonia, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini",
+      "authors": "Su Ryon Shin<sup>*</sup>, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, <strong>Jungmok Seo</strong>, Serena Mandla, Alessandro Enrico, Silvia Antonia, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini<sup>*</sup>",
       "journal": "Advanced Materials, 30 (10), 1704189 (2018)",
       "image": "images/publications/pub-44.jpg",
       "link": "https://doi.org/10.1002/adma.201704189",
@@ -855,7 +855,7 @@
     },
     {
       "number": 9,
-      "year": 2013,
+      "year": 2012,
       "title": "Nanomaterials on flexible substrates to explore innovative functions: from energy harvesting to bio-integrated electronics",
       "authors": "Ja Hoon Koo, <strong>Jungmok Seo</strong>, Taeyoon Lee<sup>*</sup>",
       "journal": "Thin Solid Films, 524, 1-19 (2012)",
@@ -864,7 +864,7 @@
     },
     {
       "number": 8,
-      "year": 2013,
+      "year": 2012,
       "title": "Direct gravure printing of silicon nanowires using entropic attraction forces",
       "authors": "<strong>Jungmok Seo</strong>, Hyonik Lee, Seulah Lee, Tae Il Lee, Jae-Min Myoung, Taeyoon Lee<sup>*</sup>",
       "journal": "Small, 8 (10), 1614-1621 (2012)",
@@ -873,7 +873,7 @@
     },
     {
       "number": 7,
-      "year": 2013,
+      "year": 2012,
       "title": "The effects of surface modification on the electrical properties of p-n<sup>+</sup> junction silicon nanowires grown by an aqueous electroless etching method",
       "authors": "Seulah Lee, Ja Hoon Koo, <strong>Jungmok Seo</strong>, Sung-Dae Kim, Kwang Hyun Lee, Seongil Im, Young-Woon Kim, Taeyoon Lee<sup>*</sup>",
       "journal": "Journal of Nanoparticle Research, 14, 840-1 (2012)",
@@ -882,16 +882,16 @@
     },
     {
       "number": 6,
-      "year": 2013,
+      "year": 2011,
       "title": "Guided transport of water droplets on superhydrophobic−hydrophilic patterned Si nanowires",
       "authors": "<strong>Jungmok Seo</strong>, Soonil Lee, Jaehong Lee, Taeyoon Lee<sup>*</sup>",
-      "journal": "ACS Applied Materials & Interfaces, 3 (12), 4722-4729 (2012)",
+      "journal": "ACS Applied Materials & Interfaces, 3 (12), 4722-4729 (2011)",
       "impactFactor": 7.8,
       "link": "https://doi.org/10.1021/am2011756"
     },
     {
       "number": 5,
-      "year": 2013,
+      "year": 2011,
       "title": "Si/Si<sub>1-x</sub>Ge<sub>x</sub>/Si heterojunction PIN nanowires fabricated by an aqueous electroless etching method",
       "authors": "Hyonik Lee, Min Su Kim, <strong>Jungmok Seo</strong>, Ja Hoon Koo, Edward Namkyu Cho, Ilgu Yun, Taeyoon Lee<sup>*</sup>",
       "journal": "Journal of the Korean Physical Society, 59 (2), 501-504 (2011)",
@@ -900,7 +900,7 @@
     },
     {
       "number": 4,
-      "year": 2013,
+      "year": 2011,
       "title": "Growth, modulation and photoresponse characteristics of vertically aligned ZnO nanowires",
       "authors": "J.P. Kar, S.N. Das, J.H. Choi, T.I. Lee, <strong>J. Seo</strong>, T. Lee, J.M. Myoung<sup>*</sup>",
       "journal": "Applied Surface Science, 257 (11), 4973-4977 (2011)",
@@ -909,7 +909,7 @@
     },
     {
       "number": 3,
-      "year": 2013,
+      "year": 2010,
       "title": "Surface deformation of amorphous silicon thin film on elastomeric substrate",
       "authors": "Sangwook Lee, <strong>Jungmok Seo</strong>, Ja Hoon Koo, Kyeong-Ju Moon, Jae-Min Myoung, Taeyoon Lee<sup>*</sup>",
       "journal": "Thin Solid Films, 519 (2), 823-828 (2010)",
@@ -918,7 +918,7 @@
     },
     {
       "number": 2,
-      "year": 2013,
+      "year": 2010,
       "title": "The trade-off relationship of size and density of platinum nanocrystal in the non-volatile memory characteristics",
       "authors": "<strong>Jungmok Seo</strong>, Taeyoon Lee<sup>*</sup>",
       "journal": "Japanese Journal of Applied Physics, 49, 104003 (2010)",
@@ -927,7 +927,7 @@
     },
     {
       "number": 1,
-      "year": 2013,
+      "year": 2009,
       "title": "Effects of H<sub>2</sub> ambient annealing in fully 002-textured ZnO: Ga thin films grown on glass substrates using RF magnetron co-sputter deposition",
       "authors": "Sungyeon Kim, <strong>Jungmok Seo</strong>, Hyeon Woo Jang, Jungsik Bang, Woong Lee, Taeyoon Lee, Jae-Min Myoung<sup>*</sup>",
       "journal": "Applied Surface Science, 255 (8), 4616-4622 (2009)",
@@ -1190,17 +1190,6 @@
       "statusEn": "Registered"
     },
     {
-      "number": "KR 2017-0141220",
-      "title": "다중검지 바이오센서 시스템 및 그 동작 방법",
-      "inventors": "서정목, 이태윤, 한희탁",
-      "year": 2018,
-      "status": "등록",
-      "country": "KR",
-      "titleEn": "Multi-detection biosensor system and operating method thereof",
-      "inventorsEn": "Jungmok Seo, Taeyoon Lee, Heetak Han",
-      "statusEn": "Registered"
-    },
-    {
       "number": "10-2052100",
       "title": "자가조립 단분자막 코팅 없이 금속 증착으로 제어 할 수 있는 변형 가능한 초발액성 표면의 구현",
       "inventors": "서정목, 이태윤, 김현철, 한희탁",
@@ -1300,17 +1289,6 @@
       "statusEn": "Registered"
     },
     {
-      "number": "10-1050198",
-      "title": "Method of generating nanowire diode",
-      "inventors": "Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee",
-      "year": 2011,
-      "status": "등록",
-      "country": "KR",
-      "titleEn": "Method of generating nanowire diode",
-      "inventorsEn": "Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee",
-      "statusEn": "Registered"
-    },
-    {
       "number": "10-1252734",
       "title": "Method of arranging nanowires",
       "inventors": "Jungmok Seo, Hyonik Lee, Juree Hong, Jahoon Koo, Taeyoon Lee",
@@ -1342,6 +1320,17 @@
       "titleEn": "Nanowire ink solution and method of forming the ink solution",
       "inventorsEn": "Jungmok Seo, Jahoon Koo, Seulah Lee, Taeyoon Lee",
       "statusEn": "Filed"
+    },
+    {
+      "number": "10-1050198",
+      "title": "Method of generating nanowire diode",
+      "inventors": "Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee",
+      "year": 2011,
+      "status": "등록",
+      "country": "KR",
+      "titleEn": "Method of generating nanowire diode",
+      "inventorsEn": "Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee",
+      "statusEn": "Registered"
     }
   ]
 }

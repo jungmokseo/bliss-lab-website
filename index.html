@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BLISS Lab — Yonsei University</title>
+<link rel="icon" href="images/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -413,7 +414,7 @@ section { padding: 96px 0; }
 .hl-more-wrapper {
   max-height: 0; overflow: hidden; transition: max-height 0.6s ease;
 }
-.hl-more-wrapper.open { max-height: 2000px; }
+.hl-more-wrapper.open { max-height: 6000px; }
 .hl-toggle-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   margin: 32px auto 0; padding: 12px 32px; border-radius: 8px;
@@ -990,8 +991,8 @@ section[id] {
     <h2 data-en="Bridging Biology<br>and Electronics" data-kr="Bridging Biology<br>and Electronics">Bridging Biology<br>and Electronics</h2>
     <p class="bg-desc" data-en="Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices." data-kr="Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices.">Our lab develops next-generation soft bioelectronic interfaces that conformally integrate with biological tissues — enabling seamless signal transduction between living systems and electronic devices.</p>
     <div class="bg-stats">
-      <div class="bg-stat"><div class="bg-stat-num">93+</div><div class="bg-stat-label">Publications</div></div>
-      <div class="bg-stat"><div class="bg-stat-num">16</div><div class="bg-stat-label">Journal Covers</div></div>
+      <div class="bg-stat"><div class="bg-stat-num" id="impactPubCount">98+</div><div class="bg-stat-label">Publications</div></div>
+      <div class="bg-stat"><div class="bg-stat-num">17</div><div class="bg-stat-label">Journal Covers</div></div>
       <div class="bg-stat"><div class="bg-stat-num">6,300+</div><div class="bg-stat-label">Citations</div></div>
     </div>
   </div>
@@ -1043,7 +1044,7 @@ section[id] {
         </div>
       </div>
 
-      <!-- 3. 2026 · Area 1 — Soft Bioelectrode · Advanced Materials -->
+      <!-- 3. 2026 · Area 1 — Soft Bioelectrode · Advanced Materials · IF 29.1 -->
       <div class="hl-card reveal reveal-d2">
         <div class="hl-card-img">
           <img src="images/highlights/ion_mediated_hydrogel_biosensor_illustration.png" alt="Ion-Mediated Hydrogel Biosensor">
@@ -1334,8 +1335,6 @@ section[id] {
       <div class="footer-left">&copy; 2026 BLISS Lab, Yonsei University. All rights reserved.</div>
       <div class="footer-links">
         <a href="https://scholar.google.com/citations?user=kl7IdKgAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="mailto:jungmok.seo@yonsei.ac.kr" title="Email"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
@@ -1475,17 +1474,20 @@ async function loadPublications() {
       ['kr','en'].forEach(k => { if (statEl.dataset[k]) statEl.dataset[k] = statEl.dataset[k].replace(/^\d+\+ publications/, `${n}+ publications`); });
       statEl.textContent = statEl.textContent.replace(/^\d+\+ publications/, `${n}+ publications`);
     }
+    const impactEl = document.getElementById('impactPubCount');
+    if (impactEl && Array.isArray(data.publications)) impactEl.textContent = `${data.publications.length}+`;
 
     // Group publications: recent 3 years individual, then 5-year buckets
     const currentYear = new Date().getFullYear();
-    const recentThreshold = currentYear - 2; // 2024~2026 individual
+    const recentThreshold = currentYear - 2; // last 3 years individual
+    const rangeKey = `2019–${recentThreshold - 1}`;
     const grouped = {};
     data.publications.forEach(pub => {
       let key;
       if (pub.year >= recentThreshold) {
         key = String(pub.year);
       } else if (pub.year >= 2019) {
-        key = '2019–2023';
+        key = rangeKey;
       } else {
         key = '~2018';
       }
@@ -1494,7 +1496,7 @@ async function loadPublications() {
     });
 
     // Sort: individual years descending, then range buckets in order
-    const bucketOrder = { '2019–2023': 2019, '~2018': 0 };
+    const bucketOrder = { [rangeKey]: 2019, '~2018': 0 };
     const years = Object.keys(grouped).sort((a, b) => {
       const na = bucketOrder[a] !== undefined ? bucketOrder[a] : parseInt(a);
       const nb = bucketOrder[b] !== undefined ? bucketOrder[b] : parseInt(b);
@@ -1526,7 +1528,7 @@ async function loadPublications() {
           ? `<span class="pub-journal-name">${escapeHtml(jName)}</span><span style="color:var(--text-muted);font-weight:400;">${escapeHtml(jRest)}</span>`
           : escapeHtml(journalStr);
 
-        const titleSafe = escapeHtml(pub.title);
+        const titleSafe = sanitizeAuthors(pub.title); // allows <sub>/<sup> in chemical formulas
         const titleHtml = pub.link
           ? `<a href="${escapeHtml(pub.link)}" target="_blank" rel="noopener noreferrer">${titleSafe}</a>`
           : titleSafe;
@@ -1588,78 +1590,11 @@ async function loadPublications() {
     // Trigger reveal animations
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   } catch (error) {
-    console.log('Publications data not found, using fallback static data');
-    loadStaticPublications();
+    console.error('Publications load error:', error);
+    document.getElementById('publicationsList').innerHTML = '<p style="color:var(--text-muted);text-align:center;">Unable to load publications.</p>';
   }
 }
 
-/* ===== Fallback Static Publications ===== */
-function loadStaticPublications() {
-  const container = document.getElementById('publicationsList');
-  const html = `
-    <!-- Year: 2026 -->
-    <div class="pub-year-group open reveal">
-      <div class="pub-year-header" onclick="toggleYear(this)">
-        <div class="year-label">2026 <span class="year-count">2 papers</span></div>
-        <i class="fas fa-chevron-down chevron"></i>
-      </div>
-      <div class="pub-year-items">
-        <div class="pub-item">
-          <div class="pub-title">Self-Healing Double-Network Hydrogel for Hemostatic Applications</div>
-          <div class="pub-authors"><strong>Y. Jo</strong><sup>†</sup>, T. Kim, S. Park, H. Lee, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">Advanced Materials</span><span style="color:var(--text-muted);font-weight:400;">, 2026, 38, 2401234</span></div>
-        </div>
-        <div class="pub-item">
-          <div class="pub-title">ELFS: Enzyme-Linked Antifouling Surface for Long-Term Stent Protection</div>
-          <div class="pub-authors"><strong>K. Yook</strong><sup>†</sup>, H. Ham, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">Bioactive Materials</span><span style="color:var(--text-muted);font-weight:400;">, 2026, 42, 115–128</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Year: 2025 -->
-    <div class="pub-year-group reveal">
-      <div class="pub-year-header" onclick="toggleYear(this)">
-        <div class="year-label">2025 <span class="year-count">3 papers</span></div>
-        <i class="fas fa-chevron-down chevron"></i>
-      </div>
-      <div class="pub-year-items">
-        <div class="pub-item">
-          <div class="pub-title">Marangoni-Driven Autonomous Merging of Liquid Metal for Soft Bioelectronics</div>
-          <div class="pub-authors"><strong>T. Kim</strong><sup>†</sup>, Y. Jo, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">Nature Electronics</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 8, 112–123</span></div>
-        </div>
-        <div class="pub-item">
-          <div class="pub-title">TAB Neural Coating for Long-Term Brain-Machine Interfaces</div>
-          <div class="pub-authors"><strong>S. Park</strong><sup>†</sup>, K. Yook, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">Science Advances</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 11, eadq5678</span></div>
-        </div>
-        <div class="pub-item">
-          <div class="pub-title">Universal Heterogeneous Adhesive via Mussel-Inspired Chain Entanglement</div>
-          <div class="pub-authors"><strong>S. Park</strong><sup>†</sup>, M. Kim, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">Science Advances</span><span style="color:var(--text-muted);font-weight:400;">, 2025, 11, eadq7890</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Year: 2024 -->
-    <div class="pub-year-group reveal">
-      <div class="pub-year-header" onclick="toggleYear(this)">
-        <div class="year-label">2024 <span class="year-count">sample</span></div>
-        <i class="fas fa-chevron-down chevron"></i>
-      </div>
-      <div class="pub-year-items">
-        <div class="pub-item">
-          <div class="pub-title">Enzyme-Linked Antifouling Surface for Long-Term Implant Protection</div>
-          <div class="pub-authors">H. Ham<sup>†</sup>, <strong>K. Yook</strong>, <strong>J. Seo</strong><sup>*</sup></div>
-          <div class="pub-journal"><span class="pub-journal-name">ACS Nano</span><span style="color:var(--text-muted);font-weight:400;">, 2024, 18, 34521–34533</span></div>
-        </div>
-      </div>
-    </div>
-  `;
-  container.innerHTML = html;
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-}
 
 /* ===== Load Team from JSON ===== */
 async function loadTeam() {
@@ -2140,7 +2075,8 @@ function toggleHighlights() {
   const isOpen = wrapper.classList.contains('open');
   wrapper.classList.toggle('open');
   btn.classList.toggle('open');
-  btn.querySelector('span').textContent = isOpen ? 'View More Highlights' : 'Show Less';
+  const lbl = btn.querySelector('span'); const label = isOpen ? 'View More Highlights' : 'Show Less';
+  lbl.dataset.kr = label; lbl.dataset.en = label; lbl.textContent = label;
   if (!isOpen) {
     wrapper.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   }
