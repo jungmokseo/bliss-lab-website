@@ -1553,12 +1553,16 @@ async function loadPublications() {
     if (data.patents && data.patents.length > 0) {
       const patentContainer = document.getElementById('patentSection');
       const isKr = document.body.classList.contains('kr');
+      // Bilingual: every text carries data-kr/data-en so toggleLang() swaps it live.
+      const bi = (kr, en, cls) => `<span class="${cls || ''}" data-kr="${escapeHtml(escapeHtml(kr))}" data-en="${escapeHtml(escapeHtml(en))}">${escapeHtml(isKr ? kr : en)}</span>`;
       let patentItems = data.patents.map(p => {
-        const title = isKr && p.title ? p.title : (p.titleEn || p.title);
-        const statusBadge = p.status ? ` <span style="color:var(--accent);font-weight:600;">[${escapeHtml(p.status)}]</span>` : '';
+        const tKr = p.title || '', tEn = p.titleEn || p.title || '';
+        const iKr = p.inventors || '', iEn = p.inventorsEn || p.inventors || '';
+        const sKr = p.status ? `[${p.status}]` : '', sEn = p.status ? `[${p.statusEn || p.status}]` : '';
+        const statusBadge = p.status ? ` <span style="color:var(--accent);font-weight:600;" data-kr="${escapeHtml(escapeHtml(sKr))}" data-en="${escapeHtml(escapeHtml(sEn))}">${escapeHtml(isKr ? sKr : sEn)}</span>` : '';
         return `<div class="patent-item">
-          <div class="patent-title">${escapeHtml(title)}</div>
-          <div class="patent-info">${escapeHtml(p.inventors || '')} · ${escapeHtml(p.number || '')} · ${escapeHtml(p.country || '')}${statusBadge}</div>
+          <div class="patent-title" data-kr="${escapeHtml(escapeHtml(tKr))}" data-en="${escapeHtml(escapeHtml(tEn))}">${escapeHtml(isKr ? tKr : tEn)}</div>
+          <div class="patent-info">${bi(iKr, iEn)} · ${escapeHtml(p.number || '')} · ${escapeHtml(p.country || '')}${statusBadge}</div>
         </div>`;
       }).join('');
 
@@ -1759,7 +1763,7 @@ function renderTeam(data) {
       <div class="alumni-item">
         <div>
           <div class="alumni-name" data-kr="${escapeHtml(a.nameKr || a.nameEn)}" data-en="${escapeHtml(a.nameEn)}">${escapeHtml(isKR ? (a.nameKr || a.nameEn) : a.nameEn)}</div>
-          <div class="alumni-info">${escapeHtml(a.degree || '')} ${escapeHtml(a.year || '')} ${a.current ? '· ' + escapeHtml(a.current) : ''}</div>
+          <div class="alumni-info">${escapeHtml(a.degree || '')} ${escapeHtml(a.year || '')} ${a.current ? '· ' + (() => { const kr = a.current; const m = kr.match(/\(([^()]*[A-Za-z][^()]*)\)\s*$/); const en = m ? m[1].trim() : kr; return `<span data-kr="${escapeHtml(escapeHtml(kr))}" data-en="${escapeHtml(escapeHtml(en))}">${escapeHtml(document.body.classList.contains('kr') ? kr : en)}</span>`; })() : ''}</div>
         </div>
       </div>
     `).join('');
@@ -2070,7 +2074,7 @@ function renderNewsPage() {
       <div class="news-card-body">
         <div class="news-tags"><span class="tag ${escapeHtml(cs.cls)}">#${escapeHtml(cs.label)}</span></div>
         ${biTitle(item)}
-        ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ''}
+        ${item.summary ? `<p data-kr="${escapeHtml(escapeHtml(item.summary))}" data-en="${escapeHtml(escapeHtml(item.summaryEn || item.summary))}">${escapeHtml(isKr ? item.summary : (item.summaryEn || item.summary))}</p>` : ''}
         <div class="news-card-meta"><span>${escapeHtml(formatNewsDate(item.date))}</span></div>
       </div>
     `;
