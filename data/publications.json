@@ -24,7 +24,7 @@
       "number": 96,
       "year": 2026,
       "title": "Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing",
-      "authors": "Seol-Ha Jeong<sup>†</sup>, Eleftheria-Angeliki Valsami, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, <strong>Jungmok Seo</strong>, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, <strong>Yejin Jo</strong>, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
+      "authors": "Seol-Ha Jeong<sup>†</sup>, Eleftheria-Angeliki Valsami<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, <strong>Jungmok Seo</strong>, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, <strong>Yejin Jo</strong>, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "Advanced Functional Materials, 36(67), e77191 (2026)",
       "impactFactor": 19.9,
       "image": "images/publications/pub-96.png",
@@ -598,7 +598,7 @@
       "number": 38,
       "year": 2017,
       "title": "Spatially and temporally controlled hydrogels for tissue engineering",
-      "authors": "Jeroen Leijten<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Kan Yue, Grissel Trujillo-de Santiago, Ali Tamayol, Guillermo U. Ruiz-Esparza, Su Ryon Shin, Roholah Sharifi, Iman Noshadi, Mario Moisés Álvarez, Yu Shrike Zhang, Ali Khademhosseini",
+      "authors": "Jeroen Leijten<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Kan Yue, Grissel Trujillo-de Santiago, Ali Tamayol, Guillermo U. Ruiz-Esparza, Su Ryon Shin, Roholah Sharifi, Iman Noshadi, Mario Moisés Álvarez, Yu Shrike Zhang, Ali Khademhosseini<sup>*</sup>",
       "journal": "Materials Science and Engineering R: Reports, 119, 1-35 (2017)",
       "impactFactor": 21.1,
       "link": "https://doi.org/10.1016/j.mser.2017.07.001"
@@ -625,7 +625,7 @@
       "number": 35,
       "year": 2017,
       "title": "Bioprinted 3D vascularized tissue model for drug toxicity analysis",
-      "authors": "Solange Massa, Mahmoud Ahmed Sakr, <strong>Jungmok Seo</strong>, Praveen Bandaru, Andrea Arneri, Simone Bersini, Elaheh Zare-Eelanjegh, Elmira Jalilian, Byun-Hyun Cha, Silvia Antona, Alessandro Enrico, Yuan Gao, Shabir Hassan, Juan Pablo Acevedo, Mehmet R. Dokmeci, Yu Shrike Zhang, Ali Khademhosseini, Su Ryon Shin",
+      "authors": "Solange Massa, Mahmoud Ahmed Sakr, <strong>Jungmok Seo</strong>, Praveen Bandaru, Andrea Arneri, Simone Bersini, Elaheh Zare-Eelanjegh, Elmira Jalilian, Byun-Hyun Cha, Silvia Antona, Alessandro Enrico, Yuan Gao, Shabir Hassan, Juan Pablo Acevedo, Mehmet R. Dokmeci, Yu Shrike Zhang, Ali Khademhosseini<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "Biomicrofluidics, 11 (4), 044109 (2017)",
       "impactFactor": 2.7,
       "link": "https://doi.org/10.1063/1.4994708"
