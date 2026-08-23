@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 98,
+      "year": 2026,
+      "title": "Bioadhesive Hydrogels as Immunomodulatory Interfaces for Chronic Wound Healing: From Microenvironmental Regulation Mechanism to Engineering Strategies",
+      "authors": "<strong>Kayoung Son</strong><sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, <strong>Minkyong Kang</strong>, <strong>Yejin Jo</strong>, <strong>Chansoo Kim</strong>, <strong>Kijun Park</strong>, <strong>Yunmin Jung</strong>, <strong>Tae Young Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "Burns & Trauma, tkag055 (2026)",
+      "impactFactor": 11,
+      "image": "images/publications/pub-98.jpg",
+      "link": "https://doi.org/10.1093/burnst/tkag055"
+    },
+    {
       "number": 97,
       "year": 2026,
       "title": "Play-Doh Inspired a Transformative, Shape-Adaptive iHEÄLS Enabling Post-Crosslinking Mechanical-Biological Modulation and Its Effectiveness in Musculoskeletal Repair",

@@ -1,6 +1,19 @@
 {
   "news": [
     {
+      "title": "BLISS 손가영, 김수아 학생 Burns & Trauma 에 논문 게재 승인 (Impact factor = 11)",
+      "titleEn": "BLISS Kayoung Son & Soo A Kim — Paper accepted in Burns & Trauma (Impact Factor = 11)",
+      "slug": "ks_sa_burns",
+      "date": "2026-08-14",
+      "month": "Aug 2026",
+      "categories": [
+        "Publication"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/ks_sa_burns.jpg",
+      "contentImage": "images/news/ks_sa_burns-content.jpg"
+    },
+    {
       "title": "BLISS 육근영 학생, 하버드 의과대학 Yuhan Lee 교수 연구실 파견 (2026.08–2027.01)",
       "titleEn": "BLISS Keun-Young Yook dispatched to Prof. Yuhan Lee's lab at Harvard Medical School (Aug 2026 – Jan 2027)",
       "slug": "ky_harvard",
