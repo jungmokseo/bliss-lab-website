@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 99,
+      "year": 2026,
+      "title": "Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance",
+      "authors": "<strong>Yurim Lee</strong><sup>†</sup>, <strong>Hyein Ham</strong><sup>†</sup>, <strong>Siyeon Park</strong>, <strong>Hanbit Jang</strong>, <strong>Seungwan Hong</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "Small Science (2026)",
+      "impactFactor": 7,
+      "image": "images/publications/pub-99.jpg",
+      "link": ""
+    },
+    {
       "number": 98,
       "year": 2026,
       "title": "Bioadhesive Hydrogels as Immunomodulatory Interfaces for Chronic Wound Healing: From Microenvironmental Regulation Mechanism to Engineering Strategies",

@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "BLISS 이유림, 함혜인 학생 Small Science 에 논문 게재 승인 (Impact factor = 7.0)",
+      "titleEn": "BLISS Yurim Lee & Hyein Ham — Paper accepted in Small Science (Impact Factor = 7.0)",
+      "slug": "yr_hi_smallsci",
+      "date": "2026-08-26",
+      "month": "Aug 2026",
+      "categories": [
+        "Publication"
+      ],
+      "summary": "",
+      "summaryEn": "",
+      "thumbnail": "images/news/yr_hi_smallsci.jpg",
+      "contentImage": "images/news/yr_hi_smallsci-content.jpg"
+    },
+    {
       "title": "BLISS 손가영, 김수아 학생 Burns & Trauma 에 논문 게재 승인 (Impact factor = 11)",
       "titleEn": "BLISS Kayoung Son & Soo A Kim — Paper accepted in Burns & Trauma (Impact Factor = 11)",
       "slug": "ks_sa_burns",
