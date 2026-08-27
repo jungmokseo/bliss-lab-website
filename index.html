@@ -414,7 +414,7 @@ section { padding: 96px 0; }
 .hl-more-wrapper {
   max-height: 0; overflow: hidden; transition: max-height 0.6s ease;
 }
-.hl-more-wrapper.open { max-height: 6000px; }
+.hl-more-wrapper.open { max-height: 100000px; } /* JS sets the exact height; this is a no-JS fallback */
 .hl-toggle-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   margin: 32px auto 0; padding: 12px 32px; border-radius: 8px;
@@ -461,7 +461,7 @@ section { padding: 96px 0; }
 .pub-year-items {
   max-height: 0; overflow: hidden; transition: max-height 0.5s ease;
 }
-.pub-year-group.open .pub-year-items { max-height: 5000px; }
+.pub-year-group.open .pub-year-items { max-height: 100000px; } /* JS sets the exact height; this is a no-JS fallback */
 .pub-item {
   padding: 20px 0 20px 24px; border-top: 1px solid var(--border-light);
 }
@@ -506,7 +506,7 @@ section { padding: 96px 0; }
 .patent-list {
   max-height: 0; overflow: hidden; transition: max-height 0.5s ease;
 }
-.patent-toggle.open + .patent-list { max-height: 5000px; }
+.patent-toggle.open + .patent-list { max-height: 100000px; } /* JS sets the exact height; this is a no-JS fallback */
 .patent-item {
   padding: 12px 4px; border-bottom: 1px solid var(--border-light);
   font-size: 0.82rem; line-height: 1.6;
@@ -1449,11 +1449,53 @@ function toggleLang() {
   });
 }
 
+/* ===== Collapsible height helpers =====
+   A fixed max-height cap silently clips content once the panel grows past it —
+   which happens on mobile, where publication cards stack image-over-text and a
+   year group can exceed 6000px. Animate to the measured height, then drop the
+   cap so lazy-loaded images, font swaps, or rotation can never hide entries. */
+function expandCollapsible(el) {
+  if (!el) return;
+  el.style.maxHeight = el.scrollHeight + 'px';
+  const done = (e) => {
+    if (e.target !== el || e.propertyName !== 'max-height') return;
+    el.style.maxHeight = 'none';           // released: content can grow freely
+    el.style.overflow = 'visible';         // and nothing is cropped at the edge
+    el.removeEventListener('transitionend', done);
+  };
+  el.addEventListener('transitionend', done);
+  setTimeout(() => {
+    if (el.style.maxHeight !== '0px') { el.style.maxHeight = 'none'; el.style.overflow = 'visible'; }
+  }, 800);
+}
+function collapseCollapsible(el) {
+  if (!el) return;
+  el.style.overflow = 'hidden';
+  el.style.maxHeight = el.scrollHeight + 'px';  // from 'none' to a real height first
+  requestAnimationFrame(() => { el.style.maxHeight = '0px'; });
+}
+function releaseCollapsible(el) {
+  if (!el) return;
+  el.style.maxHeight = 'none';
+  el.style.overflow = 'visible';
+}
+
+function togglePatents(el) {
+  const willOpen = !el.classList.contains('open');
+  el.classList.toggle('open');
+  el.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  const list = el.nextElementSibling;
+  willOpen ? expandCollapsible(list) : collapseCollapsible(list);
+}
+
 /* ===== Publication Year Accordion ===== */
 function toggleYear(header) {
   const parent = header.parentElement;
+  const items = parent.querySelector('.pub-year-items');
+  const willOpen = !parent.classList.contains('open');
   parent.classList.toggle('open');
-  header.setAttribute('aria-expanded', parent.classList.contains('open') ? 'true' : 'false');
+  header.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  willOpen ? expandCollapsible(items) : collapseCollapsible(items);
 }
 
 /* ===== Load Publications from JSON ===== */
@@ -1577,7 +1619,7 @@ async function loadPublications() {
       }).join('');
 
       patentContainer.innerHTML = `
-        <div class="patent-toggle reveal" aria-expanded="false" onclick="this.classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));">
+        <div class="patent-toggle reveal" aria-expanded="false" onclick="togglePatents(this)">
           <span data-kr="Patents (${data.patents.length})" data-en="Patents (${data.patents.length})">
             Patents (${data.patents.length})
           </span>
@@ -1586,6 +1628,9 @@ async function loadPublications() {
         <div class="patent-list">${patentItems}</div>
       `;
     }
+
+    // Year groups that render already open must not keep the CSS cap
+    document.querySelectorAll('.pub-year-group.open .pub-year-items').forEach(releaseCollapsible);
 
     // Trigger reveal animations
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
@@ -2075,6 +2120,7 @@ function toggleHighlights() {
   const isOpen = wrapper.classList.contains('open');
   wrapper.classList.toggle('open');
   btn.classList.toggle('open');
+  isOpen ? collapseCollapsible(wrapper) : expandCollapsible(wrapper);
   const lbl = btn.querySelector('span'); const label = isOpen ? 'View More Highlights' : 'Show Less';
   lbl.dataset.kr = label; lbl.dataset.en = label; lbl.textContent = label;
   if (!isOpen) {
