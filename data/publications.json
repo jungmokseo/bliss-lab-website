@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 100,
+      "year": 2026,
+      "title": "Bridging IC Chips and Deformable Circuits: A Packaging Framework for High-Density Soft Electronics",
+      "authors": "<strong>Yurim Lee</strong>, <strong>Yeontaek Lee</strong>, <strong>Siyeon Park</strong>, <strong>Hyein Ham</strong>, <strong>Hanbit Jang</strong>, <strong>Yunmin Jung</strong>, Sooin Lee, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "Materials Science and Engineering R: Reports, Accepted (2026)",
+      "impactFactor": 21.1,
+      "image": "images/publications/pub-100.jpg",
+      "link": ""
+    },
+    {
       "number": 99,
       "year": 2026,
       "title": "Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance",
