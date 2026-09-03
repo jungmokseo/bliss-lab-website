@@ -247,31 +247,48 @@
       ]
     },
     {
-      "id": "hong-seungwan",
-      "initials": "SH",
-      "nameKr": "홍승완",
-      "nameEn": "Seungwan Hong",
-      "roleKr": "학부인턴",
-      "roleEn": "Undergraduate Intern",
-      "research": "Device Packaging",
-      "email": "hongpius1208@yonsei.ac.kr",
-      "category": "intern",
-      "education": [
-        "Undergraduate Intern, Yonsei University (2025.05–present)"
-      ]
-    },
-    {
       "id": "park-jimin",
       "initials": "JM",
       "nameKr": "박지민",
       "nameEn": "Jimin Park",
-      "roleKr": "학부인턴",
-      "roleEn": "Undergraduate Intern",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
       "research": "Functional Hydrogels & Bio-interfaces",
-      "email": "jimin5252@yonsei.ac.kr",
-      "category": "intern",
+      "email": "jimin.park@yonsei.ac.kr",
+      "category": "phd",
       "education": [
-        "Undergraduate Intern, Yonsei University (2026.01–present)"
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.09–present)",
+        "Undergraduate Intern, Yonsei University (2026.01–2026.08)"
+      ]
+    },
+    {
+      "id": "choi-jungin",
+      "initials": "JC",
+      "nameKr": "최정인",
+      "nameEn": "Jungin Choi",
+      "roleKr": "통합과정",
+      "roleEn": "Joint M.S. & Ph.D. Candidate",
+      "research": "Flexible Bioelectronics & Device Packaging",
+      "email": "junginchoi@yonsei.ac.kr",
+      "category": "phd",
+      "education": [
+        "Joint M.S. & Ph.D. Candidate, Yonsei University (2026.09–present)",
+        "Undergraduate Intern, Yonsei University (2026.07–2026.08)"
+      ]
+    },
+    {
+      "id": "hong-seungwan",
+      "initials": "SH",
+      "nameKr": "홍승완",
+      "nameEn": "Seungwan Hong",
+      "roleKr": "석사과정",
+      "roleEn": "M.S. Candidate",
+      "research": "Device Packaging",
+      "email": "hongpius1208@yonsei.ac.kr",
+      "category": "phd",
+      "education": [
+        "M.S. Candidate, Yonsei University (2026.09–present)",
+        "Undergraduate Intern, Yonsei University (2025.05–2026.08)"
       ]
     },
     {
@@ -297,20 +314,6 @@
       "roleEn": "Undergraduate Intern",
       "research": "Functional Hydrogels & Bio-interfaces",
       "email": "",
-      "category": "intern",
-      "education": [
-        "Undergraduate Research Intern, BLISS Lab (2026–present)"
-      ]
-    },
-    {
-      "id": "choi-jungin",
-      "initials": "JC",
-      "nameKr": "최정인",
-      "nameEn": "Jungin Choi",
-      "roleKr": "학부인턴",
-      "roleEn": "Undergraduate Intern",
-      "research": "Flexible Bioelectronics & Device Packaging",
-      "email": "ian1022@yonsei.ac.kr",
       "category": "intern",
       "education": [
         "Undergraduate Research Intern, BLISS Lab (2026–present)"
