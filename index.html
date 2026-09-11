@@ -475,6 +475,11 @@ section { padding: 96px 0; }
 .pub-awards { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
 .pub-award { display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; background: #fff8e1; color: #b45309; padding: 3px 9px; border-radius: 10px; font-weight: 600; border: 1px solid #fde68a; }
 .pub-award i { font-size: 0.78rem; color: #d97706; }
+/* Press-coverage chip: one representative article + outlet count (restored from the pre-2026 WordPress site) */
+.pub-press { display: inline-flex; align-items: center; gap: 5px; font-size: 0.72rem; background: var(--white, #fff); color: #0f5132; padding: 3px 9px; border-radius: 10px; font-weight: 600; border: 1px solid #b7e4c7; text-decoration: none; transition: background 0.18s, color 0.18s, border-color 0.18s; }
+.pub-press i { font-size: 0.74rem; color: #198754; transition: color 0.18s; }
+.pub-press:hover, .pub-press:focus { background: #198754; color: #fff; border-color: #198754; outline: none; }
+.pub-press:hover i, .pub-press:focus i { color: #fff; }
 .pub-number { display: inline-block; font-size: 0.72rem; color: var(--text-muted); font-weight: 500; margin-right: 6px; min-width: 22px; }
 .pub-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
 .pub-title a { color: inherit; text-decoration: none; transition: color 0.2s; }
@@ -1554,8 +1559,19 @@ async function loadPublications() {
         const ifBadge = pub.impactFactor != null ? `<span class="pub-if">IF ${escapeHtml(String(pub.impactFactor))}</span>` : '';
         const numLabel = pub.number != null ? `<span class="pub-number">${escapeHtml(String(pub.number))}.</span>` : '';
         const imgHtml = hasImg ? `<div class="pub-img"><img src="${escapeHtml(pub.image)}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
-        const awardsHtml = (pub.awards && pub.awards.length > 0)
-          ? `<div class="pub-awards">${pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${escapeHtml(a)}</span>`).join('')}</div>`
+        const awardChips = (pub.awards && pub.awards.length > 0)
+          ? pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${escapeHtml(a)}</span>`).join('')
+          : '';
+        // Press coverage: { url, label, labelEn } → "언론 보도 · 경향신문 등 21개 매체" / "Press · …".
+        // Text lives in a data-kr/data-en span (double-escaped, like news titles) so toggleLang() swaps it.
+        let pressChip = '';
+        if (pub.press && pub.press.url) {
+          const pKr = `언론 보도${pub.press.label ? ' · ' + pub.press.label : ''}`;
+          const pEn = `Press${pub.press.labelEn ? ' · ' + pub.press.labelEn : ''}`;
+          pressChip = `<a class="pub-press" href="${escapeHtml(pub.press.url)}" target="_blank" rel="noopener noreferrer" aria-label="Press coverage of ${escapeHtml(pub.title.replace(/<[^>]+>/g, ''))}"><i class="far fa-newspaper"></i> <span data-kr="${escapeHtml(escapeHtml(pKr))}" data-en="${escapeHtml(escapeHtml(pEn))}">${escapeHtml(isKR ? pKr : pEn)}</span></a>`;
+        }
+        const awardsHtml = (awardChips || pressChip)
+          ? `<div class="pub-awards">${awardChips}${pressChip}</div>`
           : '';
         const doiBadge = pub.link
           ? `<a class="pub-doi" href="${escapeHtml(pub.link)}" target="_blank" rel="noopener noreferrer" title="Open at publisher" aria-label="Open ${escapeHtml(pub.title)} at publisher"><i class="fas fa-external-link-alt"></i> DOI</a>`

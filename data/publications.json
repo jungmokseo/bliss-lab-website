@@ -48,7 +48,12 @@
       "journal": "Advanced Functional Materials, 36(67), e77191 (2026)",
       "impactFactor": 19.9,
       "image": "images/publications/pub-96.png",
-      "link": "https://doi.org/10.1002/adfm.77191"
+      "link": "https://doi.org/10.1002/adfm.77191",
+      "press": {
+        "url": "https://www.imb.or.kr/19897",
+        "label": "헬스365뉴스, 보건의료신문 등 4개 매체",
+        "labelEn": "Health365 News, Bogun Uiryo Shinmun and 2 other outlets"
+      }
     },
     {
       "number": 95,
@@ -58,7 +63,12 @@
       "journal": "Materials Today Bio, 39, 103405 (2026)",
       "impactFactor": 11,
       "image": "images/publications/pub-95.jpg",
-      "link": "https://doi.org/10.1016/j.mtbio.2026.103405"
+      "link": "https://doi.org/10.1016/j.mtbio.2026.103405",
+      "press": {
+        "url": "https://www.khan.co.kr/article/202608271451001",
+        "label": "경향신문, 이데일리 등 21개 매체",
+        "labelEn": "The Kyunghyang Shinmun, Edaily and 19 other outlets"
+      }
     },
     {
       "number": 94,
@@ -88,7 +98,12 @@
       "journal": "Nature Communications, 17 (2026)",
       "impactFactor": 18.1,
       "image": "images/publications/pub-92.png",
-      "link": "https://doi.org/10.1038/s41467-026-72068-6"
+      "link": "https://doi.org/10.1038/s41467-026-72068-6",
+      "press": {
+        "url": "https://www.joongang.co.kr/article/25445311",
+        "label": "중앙일보, 에듀동아 등 5개 매체",
+        "labelEn": "The JoongAng, EduDonga and 3 other outlets"
+      }
     },
     {
       "number": 91,
@@ -108,7 +123,12 @@
       "journal": "Advanced Materials, 38(19), e15767 (2026)",
       "impactFactor": 29.1,
       "image": "images/publications/pub-90.png",
-      "link": "https://doi.org/10.1002/adma.202515767"
+      "link": "https://doi.org/10.1002/adma.202515767",
+      "press": {
+        "url": "https://www.naeil.com/news/read/590341",
+        "label": "내일신문, 에듀동아 등 4개 매체",
+        "labelEn": "Naeil Shinmun, EduDonga and 2 other outlets"
+      }
     },
     {
       "number": 89,
@@ -158,7 +178,12 @@
       "journal": "Science Advances, 11(37), eadz1228 (2025)",
       "impactFactor": 13.9,
       "image": "images/publications/pub-85.jpg",
-      "link": "https://doi.org/10.1126/sciadv.adz1228"
+      "link": "https://doi.org/10.1126/sciadv.adz1228",
+      "press": {
+        "url": "https://www.dongascience.com/ko/news/74187",
+        "label": "동아사이언스, 전자신문 등 9개 매체",
+        "labelEn": "Dongascience, The Electronic Times and 7 other outlets"
+      }
     },
     {
       "number": 84,
@@ -200,7 +225,12 @@
       "link": "https://doi.org/10.1002/smll.202402431",
       "awards": [
         "Top 10% Most-Viewed in Small (2024)"
-      ]
+      ],
+      "press": {
+        "url": "https://www.asiatime.co.kr/article/20240704500180",
+        "label": "아시아타임즈 등 6개 매체",
+        "labelEn": "Asia Times Korea and 5 other outlets"
+      }
     },
     {
       "number": 80,
@@ -210,7 +240,12 @@
       "journal": "npj Flexible Electronics, 8, 39 (2024)",
       "impactFactor": 15.4,
       "image": "images/publications/pub-80.png",
-      "link": "https://doi.org/10.1038/s41528-024-00327-x"
+      "link": "https://doi.org/10.1038/s41528-024-00327-x",
+      "press": {
+        "url": "https://biz.newdaily.co.kr/site/data/html/2024/07/17/2024071700248.html",
+        "label": "뉴데일리 등 6개 매체",
+        "labelEn": "NewDaily and 5 other outlets"
+      }
     },
     {
       "number": 79,
@@ -229,7 +264,12 @@
       "journal": "ACS Nano, 18, 12210-12224 (2024)",
       "impactFactor": 17.3,
       "image": "images/publications/pub-78.png",
-      "link": "https://doi.org/10.1021/acsnano.4c00396"
+      "link": "https://doi.org/10.1021/acsnano.4c00396",
+      "press": {
+        "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=3156178",
+        "label": "BBS뉴스 등 27개 매체",
+        "labelEn": "BBS News and 26 other outlets"
+      }
     },
     {
       "number": 77,
@@ -268,7 +308,12 @@
       "journal": "Industrial Chemistry & Materials, 2(3), 361-377 (2024)",
       "impactFactor": 15.7,
       "image": "images/publications/pub-74.jpg",
-      "link": "https://doi.org/10.1039/d3im00122a"
+      "link": "https://doi.org/10.1039/d3im00122a",
+      "press": {
+        "url": "https://www.eurekalert.org/news-releases/1060973",
+        "label": "EurekAlert! 보도자료",
+        "labelEn": "EurekAlert! news release"
+      }
     },
     {
       "number": 73,
@@ -278,7 +323,12 @@
       "journal": "Chemical Engineering Journal, 482, 149043 (2024)",
       "impactFactor": 12.5,
       "image": "images/publications/pub-73.png",
-      "link": "https://doi.org/10.1016/j.cej.2024.149043"
+      "link": "https://doi.org/10.1016/j.cej.2024.149043",
+      "press": {
+        "url": "https://mdtoday.co.kr/news/view/1065589590851363",
+        "label": "메디컬투데이, 의학신문 등 13개 매체",
+        "labelEn": "Medical Today, The Medical Newspaper and 11 other outlets"
+      }
     },
     {
       "number": 72,
@@ -288,7 +338,12 @@
       "journal": "Advanced Functional Materials, 34(14), 2312740 (2024)",
       "impactFactor": 19.9,
       "image": "images/publications/pub-72.png",
-      "link": "https://doi.org/10.1002/adfm.202312740"
+      "link": "https://doi.org/10.1002/adfm.202312740",
+      "press": {
+        "url": "https://www.dongascience.com/ko/news/64870",
+        "label": "아시아투데이, 동아사이언스 등 6개 매체",
+        "labelEn": "Asia Today, Dongascience and 4 other outlets"
+      }
     },
     {
       "number": 71,
@@ -307,7 +362,12 @@
       "journal": "Advanced Science, 10(30), 2303651 (2023)",
       "impactFactor": 14.1,
       "image": "images/publications/pub-70.png",
-      "link": "https://doi.org/10.1002/advs.202303651"
+      "link": "https://doi.org/10.1002/advs.202303651",
+      "press": {
+        "url": "https://www.seoul.co.kr/news/society/science-news/2023/09/19/20230919500161",
+        "label": "서울신문 등 7개 매체",
+        "labelEn": "Seoul Shinmun and 6 other outlets"
+      }
     },
     {
       "number": 69,
@@ -327,7 +387,12 @@
       "journal": "ACS Nano, 17, 8, 7296–7310 (2023)",
       "impactFactor": 17.3,
       "image": "images/publications/pub-68.png",
-      "link": "https://doi.org/10.1021/acsnano.2c10657"
+      "link": "https://doi.org/10.1021/acsnano.2c10657",
+      "press": {
+        "url": "https://www.dongascience.com/ko/news/60164",
+        "label": "동아사이언스 등 8개 매체",
+        "labelEn": "Dongascience and 7 other outlets"
+      }
     },
     {
       "number": 67,
@@ -337,7 +402,12 @@
       "journal": "Bioactive Materials, 25, 555-568 (2023)",
       "impactFactor": 23.6,
       "image": "images/publications/pub-67.png",
-      "link": "https://doi.org/10.1016/j.bioactmat.2022.07.019"
+      "link": "https://doi.org/10.1016/j.bioactmat.2022.07.019",
+      "press": {
+        "url": "https://www.newsis.com/view/?id=NISX20220826_0001991706&cID=10201&pID=10200",
+        "label": "뉴시스, 에듀동아 등 10개 매체",
+        "labelEn": "Newsis, EduDonga and 8 other outlets"
+      }
     },
     {
       "number": 66,
@@ -347,7 +417,12 @@
       "journal": "Advanced Science, 10(12), 2207237 (2023)",
       "impactFactor": 14.1,
       "image": null,
-      "link": "https://doi.org/10.1002/advs.202207237"
+      "link": "https://doi.org/10.1002/advs.202207237",
+      "press": {
+        "url": "https://www.dongascience.com/ko/news/60308",
+        "label": "한겨레, 동아사이언스 등 7개 매체",
+        "labelEn": "The Hankyoreh, Dongascience and 5 other outlets"
+      }
     },
     {
       "number": 65,
@@ -414,7 +489,12 @@
       "journal": "Advanced Science, 8(15), 2100231 (2021)",
       "impactFactor": 14.1,
       "image": "images/publications/pub-59.png",
-      "link": "https://doi.org/10.1002/advs.202100231"
+      "link": "https://doi.org/10.1002/advs.202100231",
+      "press": {
+        "url": "https://www.yna.co.kr/view/AKR20210709061700017",
+        "label": "연합뉴스, 서울신문 등 19개 매체",
+        "labelEn": "Yonhap News, Seoul Shinmun and 17 other outlets"
+      }
     },
     {
       "number": 58,
@@ -434,7 +514,12 @@
       "journal": "Science Advances, 6 (44), eabb0025 (2020)",
       "impactFactor": 13.9,
       "image": "images/publications/pub-57.png",
-      "link": "https://doi.org/10.1126/sciadv.abb0025"
+      "link": "https://doi.org/10.1126/sciadv.abb0025",
+      "press": {
+        "url": "https://www.chosun.com/economy/science/2020/10/29/GV6JFFCAUVCHLJSACCCSIV46OU/",
+        "label": "조선일보, 연합뉴스 등 17개 매체",
+        "labelEn": "The Chosun Ilbo, Yonhap News and 15 other outlets"
+      }
     },
     {
       "number": 56,
@@ -573,7 +658,12 @@
       "journal": "ACS Nano, 12 (2), 932-941 (2018)",
       "impactFactor": 17.3,
       "image": "images/publications/pub-43.jpg",
-      "link": "https://doi.org/10.1021/acsnano.7b05826"
+      "link": "https://doi.org/10.1021/acsnano.7b05826",
+      "press": {
+        "url": "https://www.yna.co.kr/view/AKR20180125048000017",
+        "label": "연합뉴스, 헤럴드경제 등 11개 매체",
+        "labelEn": "Yonhap News, The Herald Business and 9 other outlets"
+      }
     },
     {
       "number": 42,
