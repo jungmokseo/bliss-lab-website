@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "BLISS 조예진 학생, 이연택 박사 '자가 재생 윤활 요관 스텐트(FLUID)' 연구 (Materials Today Bio) 경향신문·이데일리 등 언론 보도",
+      "titleEn": "BLISS Yejin Jo & Dr. Yeontaek Lee's self-regenerating lubricious ureteral stent (FLUID) study (Materials Today Bio) covered by the Kyunghyang Shinmun, Edaily and other media",
+      "slug": "yj_mtbio_stent_media",
+      "date": "2026-08-27",
+      "month": "Aug 2026",
+      "categories": [
+        "Media"
+      ],
+      "summary": "강남세브란스병원 비뇨의학과 구교철 교수팀과 공동 개발한 자가 재생 윤활 요관 스텐트 '플루이드(FLUID)' 연구가 2026년 8월 27일 보도자료 배포 후 경향신문, 이데일리, 메디파나뉴스, 메디칼업저버 등 20여 개 매체에 보도되었다.",
+      "summaryEn": "The self-regenerating lubricious ureteral stent 'FLUID', co-developed with Prof. Kyo Chul Koo's team at the Department of Urology, Gangnam Severance Hospital, was covered by more than 20 outlets, including the Kyunghyang Shinmun, Edaily, Medipana News and Medical Observer, after the hospital's press release on Aug 27, 2026.",
+      "thumbnail": "images/news/yj_mtbio_stent_media.jpg",
+      "contentImage": "images/news/yj_mtbio_stent_media-content.jpg"
+    },
+    {
       "title": "BLISS 이유림 학생 Materials Science & Engineering R 에 논문 게재 승인 (Impact factor = 21.1)",
       "titleEn": "BLISS Yurim Lee — Paper accepted in Materials Science & Engineering R: Reports (Impact Factor = 21.1)",
       "slug": "yr_mser",
