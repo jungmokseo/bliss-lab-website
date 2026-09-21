@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "BLISS 김태영 박사 한국생체재료학회 30주년 국제학술대회(KSBM 2026) GSSOC Outstanding Research Presentation Award 수상",
+      "titleEn": "BLISS Dr. Tae Young Kim received the GSSOC Outstanding Research Presentation Award at KSBM 2026, the 30th Anniversary International Conference of the Korean Society for Biomaterials",
+      "slug": "ty_ksbm2026_gssoc",
+      "date": "2026-09-18",
+      "month": "Sep 2026",
+      "categories": [
+        "Award"
+      ],
+      "summary": "김태영 박사가 2026년 9월 16~18일 부산 벡스코에서 열린 한국생체재료학회 30주년 국제학술대회(KSBM 2026)의 구두발표 경연(Graduate Student & Scientist Oral Competition, GSSOC)에서 'One-Step Solvent-Free Synthesis of an Amorphous-Oxide Percolating Liquid-Metal Paste for System-Level Stretchable Bioelectronics' 발표로 Outstanding Research Presentation Award를 수상하였다.",
+      "summaryEn": "Dr. Tae Young Kim received the Outstanding Research Presentation Award in the Graduate Student & Scientist Oral Competition (GSSOC) at KSBM 2026, the 30th Anniversary International Conference of the Korean Society for Biomaterials (Sep 16–18, 2026, BEXCO, Busan), for the talk \"One-Step Solvent-Free Synthesis of an Amorphous-Oxide Percolating Liquid-Metal Paste for System-Level Stretchable Bioelectronics.\"",
+      "thumbnail": "images/news/ty_ksbm2026_gssoc.jpg",
+      "contentImage": "images/news/ty_ksbm2026_gssoc-content.jpg"
+    },
+    {
       "title": "BLISS 조예진 학생, 이연택 박사 '자가 재생 윤활 요관 스텐트(FLUID)' 연구 (Materials Today Bio) 경향신문·이데일리 등 언론 보도",
       "titleEn": "BLISS Yejin Jo & Dr. Yeontaek Lee's self-regenerating lubricious ureteral stent (FLUID) study (Materials Today Bio) covered by the Kyunghyang Shinmun, Edaily and other media",
       "slug": "yj_mtbio_stent_media",
