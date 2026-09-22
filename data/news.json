@@ -1,6 +1,19 @@
 {
   "news": [
     {
+      "title": "BLISS 육근영 학생 Advanced Science 에 논문 게재 승인 (Impact factor = 14.1)",
+      "titleEn": "BLISS Keun-Young Yook — Paper accepted in Advanced Science (Impact Factor = 14.1)",
+      "slug": "yky_advsci",
+      "date": "2026-09-22",
+      "month": "Sep 2026",
+      "categories": [
+        "Publication"
+      ],
+      "summary": "",
+      "thumbnail": "images/news/yky_advsci.jpg",
+      "contentImage": "images/news/yky_advsci-content.jpg"
+    },
+    {
       "title": "BLISS 김태영 박사 한국생체재료학회 30주년 국제학술대회(KSBM 2026) GSSOC Outstanding Research Presentation Award 수상",
       "titleEn": "BLISS Dr. Tae Young Kim received the GSSOC Outstanding Research Presentation Award at KSBM 2026, the 30th Anniversary International Conference of the Korean Society for Biomaterials",
       "slug": "ty_ksbm2026_gssoc",

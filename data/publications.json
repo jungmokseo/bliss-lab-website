@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "number": 101,
+      "year": 2026,
+      "title": "Synergistic Mechano-Fluidic Self-Fusion of Poly(vinyl alcohol)-Modified Liquid-Metal Particles for Post-Treatment-Free Soft Electronics",
+      "authors": "<strong>Keun-Young Yook</strong>, <strong>Sangwon Kim</strong>, <strong>Chansoo Kim</strong>, <strong>Minkyong Kang</strong>, <strong>Yurim Lee</strong>, <strong>Mido Kim</strong>, <strong>Kijun Park</strong>, Seung Yeop Han, Seung-Woo Cho, Gun-Hee Lee, <strong>Kayoung Son</strong>, <strong>Hanbit Jang</strong>, <strong>Tae Young Kim</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
+      "journal": "Advanced Science, Accepted (2026)",
+      "impactFactor": 14.1,
+      "image": "images/publications/pub-101.jpg",
+      "link": ""
+    },
+    {
       "number": 100,
       "year": 2026,
       "title": "Bridging IC Chips and Deformable Circuits: A Packaging Framework for High-Density Soft Electronics",
