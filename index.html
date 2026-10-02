@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BLISS Lab — Yonsei University</title>
+<meta id="siteDescription" name="description" content="연세대학교 BLISS Lab은 서정목 교수와 함께 소프트 바이오전자 소재, 생체-소자 인터페이스, 이식형 센서 신뢰성, 신축성 회로 및 IC 패키징을 연구합니다.">
+<link rel="canonical" href="https://bliss.yonsei.ac.kr/">
 <link rel="icon" href="images/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1447,6 +1449,10 @@ function toggleMenu() {
 let isKR = true;
 function toggleLang() {
   isKR = !isKR;
+  document.documentElement.lang = isKR ? 'ko' : 'en';
+  document.getElementById('siteDescription').content = isKR
+    ? '연세대학교 BLISS Lab은 서정목 교수와 함께 소프트 바이오전자 소재, 생체-소자 인터페이스, 이식형 센서 신뢰성, 신축성 회로 및 IC 패키징을 연구합니다.'
+    : 'BLISS Lab at Yonsei University, led by Jungmok Seo, researches soft bioelectronics, bio-interfaces, implantable sensor reliability, stretchable circuits and IC packaging.';
   document.getElementById('langBtn').textContent = isKR ? 'EN' : 'KR';
   document.body.classList.toggle('kr', isKR);
   document.querySelectorAll('[data-kr][data-en]').forEach(el => {
@@ -1697,6 +1703,7 @@ function renderTeam(data) {
         <div class="role" data-kr="${escapeHtml(pi.roleKr || pi.roleEn)}" data-en="${escapeHtml(pi.roleEn)}">${escapeHtml(isKR ? (pi.roleKr || pi.roleEn) : pi.roleEn)}</div>
         <p class="bio" data-kr="${escapeHtml(pi.bioKr || pi.bioEn)}" data-en="${escapeHtml(pi.bioEn)}">${escapeHtml(isKR ? (pi.bioKr || pi.bioEn) : pi.bioEn)}</p>
         ${piEduHtml}
+        <a href="https://orcid.org/0000-0002-8898-044X" target="_blank" rel="noopener noreferrer" class="read-link">ORCID 0000-0002-8898-044X <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
   `;
@@ -1794,6 +1801,7 @@ function loadStaticTeam() {
         <h3 data-kr="Jungmok Seo" data-en="Jungmok Seo">Jungmok Seo</h3>
         <div class="role" data-kr="Associate Professor · Principal Investigator" data-en="Associate Professor · Principal Investigator">Associate Professor · Principal Investigator</div>
         <p class="bio" data-kr="Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE." data-en="Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE.">Prof. Seo leads the BLISS Lab in the School of Electrical and Electronic Engineering at Yonsei University, driving research across soft bioelectrode materials, bio-interface engineering, implantable sensor reliability, and stretchable circuits with IC packaging. His work breaks down the physical and electrical barriers between living tissue and electronic systems, creating next-generation bioelectronics that seamlessly bridge biology and EE.</p>
+        <a href="https://orcid.org/0000-0002-8898-044X" target="_blank" rel="noopener noreferrer" class="read-link">ORCID 0000-0002-8898-044X <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
   `;
