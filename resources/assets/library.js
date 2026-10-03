@@ -44,11 +44,12 @@
     const search = document.querySelector("#search");
     const theme = document.querySelector("#theme-filter");
     const level = document.querySelector("#level-filter");
+    const correspondence = document.querySelector("#correspondence-filter");
     const items = Array.from(document.querySelectorAll("[data-filter-item]"));
-    if ((!search && !theme && !level) || items.length === 0) return;
+    if ((!search && !theme && !level && !correspondence) || items.length === 0) return;
     const result = document.querySelector("#result-count");
     const empty = document.querySelector(".empty-state");
-    const controls = [search, theme, level].filter(Boolean);
+    const controls = [search, theme, level, correspondence].filter(Boolean);
     const normalize = (text) => String(text || "").normalize("NFKC").toLocaleLowerCase().replace(/\s+/g, " ").trim();
     const tokens = (text) => normalize(text).split(/[\s,;|]+/).filter(Boolean);
     const records = items.map((element) => ({
@@ -56,6 +57,7 @@
       search: normalize(`${element.dataset.search || ""} ${element.textContent}`),
       themes: tokens(element.dataset.theme),
       levels: tokens(element.dataset.level),
+      correspondence: tokens(element.dataset.correspondence),
     }));
     const selected = (control) => {
       const value = normalize(control ? control.value : "");
@@ -65,11 +67,13 @@
       const words = normalize(search ? search.value : "").split(" ").filter(Boolean);
       const themeValue = selected(theme);
       const levelValue = selected(level);
+      const correspondenceValue = selected(correspondence);
       let visible = 0;
       records.forEach((record) => {
         const matches = words.every((word) => record.search.includes(word))
           && (!themeValue || record.themes.includes(themeValue))
-          && (!levelValue || record.levels.includes(levelValue));
+          && (!levelValue || record.levels.includes(levelValue))
+          && (!correspondenceValue || record.correspondence.includes(correspondenceValue));
         record.element.hidden = !matches;
         if (matches) visible += 1;
       });
@@ -92,7 +96,7 @@
     document.querySelectorAll("[data-reset-filters]").forEach((button) => {
       button.addEventListener("click", () => {
         if (search) search.value = "";
-        [theme, level].filter(Boolean).forEach((control) => {
+        [theme, level, correspondence].filter(Boolean).forEach((control) => {
           const allOption = Array.from(control.options).find((option) => !option.value || option.value === "all");
           if (allOption) control.value = allOption.value;
           else control.selectedIndex = 0;

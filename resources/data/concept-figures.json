@@ -1,0 +1,36 @@
+[
+  {
+    "number": 48,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-048-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1021/acsami.8b10217",
+    "caption_ko": "AI 생성 개념도: Kevlar 지지 섬유 위 Ag–SBS 전도 복합층과 표면의 PFDT 처리 역할을 설명합니다. 회색 영역은 전도층이며, 분자 수준 SAM을 두꺼운 방수 봉지로 그린 것이 아닙니다. 액적·입자·층 두께는 설명용 표현으로, 세탁·접힘·전도 성능의 실험 증거나 실제 비율이 아닙니다.",
+    "caption_en": "AI-generated concept of a Kevlar support fiber, an Ag–SBS conductive composite coating and PFDT surface treatment. The gray region is the conductive coating, not a thick waterproof SAM encapsulation. Droplets, particles and layer dimensions are explanatory, not measurements or evidence of washing, folding or electrical performance.",
+    "alt_ko": "직물 위에 놓인 전도성 섬유의 개념 단면으로, 노란 지지 섬유 다발과 회색 입자 포함 외층 및 표면 액적을 보여 줍니다.",
+    "alt_en": "Conceptual cutaway of a conductive fiber on a textile background, showing a yellow support bundle, a gray particle-containing outer coating and surface droplets.",
+    "concept_scope_ko": "지지체·전도 복합층·표면 젖음 조절의 기능만 설명합니다. 실제 Ag 입자 크기·농도·연결망·SAM 배열·층 두께·직조 구조·측정 접촉각은 재현하지 않습니다. 청색 선과 확대창을 분자층의 실측 단면으로 사용하지 않습니다.",
+    "concept_scope_en": "Only support, conductive-composite and surface-wetting functions are represented. Particle size, concentration, connectivity, SAM arrangement, layer thickness, weave geometry and contact angles are not reproduced. Blue outlines and the magnification frame are not measured molecular-layer sections.",
+    "generation_provenance_ko": "확인된 공개 논문의 개념으로 2026-10-03 웹 ChatGPT에서 생성하고 본문과 대조했습니다. 표시용 WebP 압축 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web on 3 October 2026 from verified concepts in a public paper and compared with the reviewed main text. Display processing is limited to WebP encoding, without cropping or content editing.",
+    "sha256": "a98cb9fa59d0cafe9fb94d1c51eecc1166fb0719716c7e49ba393b0a0b0b6f71"
+  },
+  {
+    "number": 43,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-043-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1021/acsnano.7b05826",
+    "sha256": "dd01a74ef19a5edba2713f7eb854a2c02558b4b5cf40d029a141f223761c26f9",
+    "caption_ko": "AI 생성 개념도: 아래쪽 진공 팁이 연성 기판을 국소적으로 변형해 액적 이동을 돕고, 젖음성 패턴에 액체 일부가 남는 원리를 설명합니다. 화살표는 기판 변형을, 원형 표시는 젖음성 영역을 뜻합니다. 액체 흡입·실험 결과·실제 형상 비율을 나타내지 않습니다.",
+    "caption_en": "AI-generated concept: a vacuum tip below deforms a soft substrate to guide droplets, while wettable patterns retain portions of liquid. Arrows indicate substrate deformation and circles denote wettable regions. This is not liquid aspiration, experimental evidence or a scale-accurate device rendering.",
+    "alt_ko": "진공 팁 위에서 아래로 변형된 파란 연성 기판과 그 위의 큰 액적, 원형 젖음성 영역에 남은 작은 액적을 나타낸 개념도입니다.",
+    "alt_en": "Concept of a blue soft substrate locally deflected above a vacuum tip, with a large surface droplet and smaller droplets retained on circular wettable regions.",
+    "concept_scope_ko": "SPO 이동 영역과 SPI 잔류 영역의 기능만 표현합니다. 연속 이동·분주 과정, 실제 재료 미세구조, 시약 고정·발색 분석, 동물 시료와 진단 정확도는 그리지 않았습니다. 기판 변형 깊이와 액적 비율은 임의의 설명용 비율입니다.",
+    "concept_scope_en": "Only substrate-mediated transport and wettable retention are represented. This is not the complete dispensing sequence, reagent immobilization, colorimetric analysis, animal sampling or diagnostic validation. Deflection and droplet proportions are illustrative.",
+    "generation_provenance_ko": "확인된 공개 논문의 개념으로 2026-10-03 웹 ChatGPT에서 생성하고 본문과 대조했습니다. 표시용 WebP 압축 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web on 3 October 2026 from verified concepts in a public paper and compared with the reviewed main text. Display processing is limited to WebP encoding, without cropping or content editing."
+  }
+]

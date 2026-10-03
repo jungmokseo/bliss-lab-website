@@ -1,17 +1,16 @@
 {
   "records": 101,
   "channel_statuses": 505,
-  "search_log_entries": 468,
-  "verified_papers": 55,
-  "verified_associations": 104,
-  "verified_unique_urls": 101,
+  "search_log_entries": 474,
+  "verified_papers": 56,
+  "verified_associations": 110,
+  "verified_unique_urls": 102,
   "candidate_associations": 22,
   "candidate_papers": 14,
   "no_verified_papers": [
     101,
     99,
     94,
-    91,
     89,
     87,
     86,
@@ -80,12 +79,13 @@
     "independent_reporting": 3,
     "press_release_republication": 27,
     "publisher_promotion": 9,
-    "self_authored": 12,
+    "self_authored": 18,
     "institutional_social": 0,
     "third_party_social": 0,
     "lab_announcement": 35,
     "other_outreach": 1,
     "unresolved": 8
   },
-  "checked_at": "2026-10-03"
+  "checked_at": "2026-10-03",
+  "by_editorial_type_unit": "verified paper-link associations, not unique articles or independent reporting events"
 }

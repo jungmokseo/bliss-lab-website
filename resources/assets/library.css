@@ -145,6 +145,24 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
 .badge[data-level="abstract"] { background: var(--accent-soft); border-color: #d2defa; color: #234e9e; }
 .badge[data-level="full_text"] { background: #eef7f3; border-color: #cee6db; color: #21674b; }
 .badge.ambiguity { background: #fff9ec; border-color: #eadabc; color: #77591d; }
+.correspondence-badge { border-style: dashed; }
+.correspondence-badge[data-correspondence="confirmed_corresponding"] { background: #eff3ff; border-color: #a9bce7; color: #2e4b8a; }
+.correspondence-badge[data-correspondence="confirmed_not_corresponding"] { background: #f5f5f5; border-color: #c8c8c8; color: #565656; }
+.correspondence-badge[data-correspondence="unresolved"] { background: #fff9ee; border-color: #d7be8c; color: #735b2d; }
+.correspondence-overview { margin: 0 0 28px; padding: 22px 24px; border: 1px solid var(--border); border-left: 3px solid var(--accent); background: var(--white); border-radius: 0 5px 5px 0; }
+.correspondence-overview h2 { font-size: 1rem; line-height: 1.5; margin-bottom: 10px; }
+.correspondence-overview > p { color: var(--text-secondary); font-size: .84rem; line-height: 1.8; }
+.correspondence-overview > p.small { margin-top: 14px; font-size: .77rem; }
+.correspondence-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.correspondence-jump a { min-height: 36px; padding: 5px 11px; }
+.correspondence-filter-note { margin: 0 0 18px; color: var(--text-secondary); font-size: .8rem; line-height: 1.8; }
+.correspondence-review { padding: 24px; border: 1px solid var(--border); border-radius: 5px; background: var(--white); }
+.correspondence-review .proof-notation { margin-block: 7px 0; color: var(--text); font-size: .8rem; overflow-wrap: anywhere; }
+.correspondence-review .correspondence-scope, .depth-review-scope dl { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); font-size: .8rem; }
+.correspondence-proofs li + li { margin-top: 18px; }
+.depth-review-scope { margin-block: 20px; }
+.concept-figure figcaption > strong { color: #514b85; }
+.figure-pending { color: #735b2d; }
 .notice { margin-block: 24px; padding: 18px 22px; border: 1px solid #d9e3f7; border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; background: #f2f6fe; color: #35496f; font-size: .85rem; line-height: 1.8; }
 .notice > * + * { margin-top: 8px; }
 .notice strong { color: #223d6a; }
@@ -156,6 +174,7 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
 /* Filtered lists remain regular HTML lists when JavaScript is unavailable. */
 .filters { display: none; }
 .filters[data-filters-ready="true"] { display: grid; grid-template-columns: minmax(200px,1.7fr) repeat(2,minmax(160px,1fr)); gap: 16px; padding: 22px; margin: 0 0 20px; border: 1px solid var(--border); border-radius: 6px; background: var(--white); }
+.filters.has-correspondence[data-filters-ready="true"] { grid-template-columns: minmax(190px,1.5fr) repeat(3,minmax(150px,1fr)); }
 .filters > * { min-width: 0; }
 .filters label { display: block; color: var(--text-secondary); font-size: .76rem; font-weight: 600; }
 .filters label input, .filters label select { margin-top: 7px; }
@@ -301,6 +320,8 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
   .sidebar { position: static; grid-template-columns: repeat(2,minmax(0,1fr)); }
   .sidebar > .notice { grid-column: 1/-1; }
   .filters[data-filters-ready="true"] { grid-template-columns: repeat(2,minmax(0,1fr)); padding: 18px; }
+  .filters.has-correspondence[data-filters-ready="true"] { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .filters.has-correspondence > label:last-of-type { grid-column: 1/-1; }
   .filters .filter-search, .filters > label:first-child, .filters > div:first-child { grid-column: 1/-1; }
   .table-wrap .comparison-table { min-width: 620px; }
   .section { padding-bottom: 44px; }
@@ -343,6 +364,7 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
   html:lang(ko) .section-heading h2:not([lang="en"]) { font-size: 1.5rem; }
   .section-heading p { font-size: .82rem; }
   .notice { padding: 16px 17px; font-size: .8rem; }
+  .correspondence-overview, .correspondence-review { padding: 20px 18px; }
   .filters[data-filters-ready="true"] { gap: 13px; padding: 16px; }
   .filters input, .filters select { font-size: 16px; }
   .filters label { font-size: .73rem; }
