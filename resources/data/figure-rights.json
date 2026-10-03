@@ -1,0 +1,207 @@
+[
+  {
+    "number": 92,
+    "checked_at": "2026-10-03",
+    "figure_number": "2",
+    "figure_title": "Fabrication and Structural Characterization of the STAT Hydrogel.",
+    "doi": "10.1038/s41467-026-72068-6",
+    "article_url": "https://www.nature.com/articles/s41467-026-72068-6",
+    "figure_page_url": "https://www.nature.com/articles/s41467-026-72068-6/figures/2",
+    "image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-72068-6/MediaObjects/41467_2026_72068_Fig2_HTML.png",
+    "image_dimensions": [
+      1935,
+      2505
+    ],
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse_status": "permitted_with_attribution",
+    "permitted_scope_ko": "출처·저자·라이선스와 변경 여부를 표시하여 재사용할 수 있습니다.",
+    "permitted_scope_en": "Reuse is permitted with author/source credit, a license link and disclosure of changes.",
+    "caption_summary_ko": "STAT의 네트워크 형성·산화 과정과 구조 분석, 산화 전후 돼지 피부 접착 평가를 함께 보여줍니다.",
+    "caption_summary_en": "Network formation, oxidation, structural characterization and porcine-skin adhesion measurements for STAT.",
+    "alt_ko": "STAT 제작 단계와 분광·열 분석, 산화 전후 색 변화 및 피부 접착 사진·측정 그래프가 배치된 11개 패널.",
+    "alt_en": "Eleven panels show STAT fabrication, spectroscopy, thermal analysis, oxidation-related color changes, skin-adhesion photographs and measurements.",
+    "attribution_ko": "Kim, T. Y., Son, K., Moon, C.-H. 외, Nature Communications 17, 5526 (2026), Figure 2. DOI: 10.1038/s41467-026-72068-6. CC BY 4.0. 원그림의 픽셀 변경 없이 WebP로 무손실 변환.",
+    "attribution_en": "Kim, T. Y., Son, K., Moon, C.-H. et al., Nature Communications 17, 5526 (2026), Figure 2. DOI: 10.1038/s41467-026-72068-6. CC BY 4.0. Lossless WebP conversion; pixel content unchanged.",
+    "rights_evidence": [
+      {
+        "url": "https://www.nature.com/articles/s41467-026-72068-6",
+        "locator": "Rights and permissions",
+        "access": "publisher_body_read",
+        "finding_ko": "CC BY 4.0이며 별도 크레딧으로 제외하지 않은 그림·제3자 자료를 포함한다고 명시합니다.",
+        "finding_en": "The article specifies CC BY 4.0, including images/third-party material unless a credit line excludes them."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-026-72068-6/figures/2",
+        "locator": "Figure 2 complete caption and image",
+        "access": "publisher_figure_page_public_http_read_and_image_viewed",
+        "finding_ko": "세부 페이지와 그림을 확인했습니다. Illustrator 제작 표시는 있으나 외부 원전·별도 권리 제한·BioRender 크레딧은 없습니다.",
+        "finding_en": "The detail page and image were checked. The caption mentions Illustrator, with no external-source, separate-rights or BioRender credit."
+      }
+    ],
+    "notes_ko": "Figure 1에는 BioRender 크레딧이 있어 이번 선택에서 제외했습니다. Figure 2의 원래 레이블·데이터는 고치지 않았습니다. 화면 크기만 조절할 경우에도 출처 표시는 유지해야 합니다.",
+    "notes_en": "Figure 1 has BioRender credits and was not selected. Figure 2 labels/data remain unchanged. Preserve attribution when resizing its display.",
+    "verification_ko": "웹 도구의 그림 세부 페이지 열기는 실패했지만 일반 공개 HTTP는 200으로 전체 캡션을 반환했습니다. 원본 PNG도 200으로 내려받아 시각 확인했습니다.",
+    "verification_en": "The web-tool figure open failed; ordinary public HTTP returned the full caption with status 200. The PNG also returned 200 and was visually inspected.",
+    "asset_path": "assets/figures/paper-092-figure-2.webp",
+    "width": 1935,
+    "height": 2505,
+    "bytes": 2153470,
+    "sha256": "f059d918c8410fed08614e1ce3a128fd5357cc94167de10f718f8d302bc5b3a1",
+    "modification": "Lossless WebP conversion; pixel content unchanged; no cropping or annotation",
+    "generated": false,
+    "caption_ko": "STAT의 네트워크 형성·산화 과정과 구조 분석, 산화 전후 돼지 피부 접착 평가를 함께 보여줍니다.",
+    "caption_en": "Network formation, oxidation, structural characterization and porcine-skin adhesion measurements for STAT."
+  },
+  {
+    "number": 85,
+    "checked_at": "2026-10-03",
+    "figure_number": "1",
+    "figure_title": "Design and principle of the multifunctional neural fiber with TAB coating.",
+    "doi": "10.1126/sciadv.adz1228",
+    "article_url": "https://doi.org/10.1126/sciadv.adz1228",
+    "figure_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422202/figure/F1/",
+    "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a73f/12422202/a08d91fca801/sciadv.adz1228-f1.jpg",
+    "image_dimensions": [
+      775,
+      832
+    ],
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "reuse_status": "permitted_noncommercial_with_attribution",
+    "permitted_scope_ko": "현재 비상업적 학술 연구 자료실에서 출처·라이선스·변경 여부를 표시하여 사용할 수 있습니다. 상업적 용도까지 허용된 라이선스는 아닙니다.",
+    "permitted_scope_en": "Permitted for the current noncommercial academic research library with credit, license and change disclosure. Commercial use is not covered.",
+    "caption_summary_ko": "유연 신경 섬유와 TAB 코팅의 구성, 기존 코팅과의 차이 및 기계적·생화학적 기능을 설명합니다.",
+    "caption_summary_en": "Flexible neural-fiber construction, TAB versus conventional coatings, and mechanical/biochemical functions.",
+    "alt_ko": "섬유 제작과 TAB 코팅, 시간에 따른 계면 반응의 비교, 기능 요약 및 장기 신경 기록 예시를 보여주는 다섯 패널.",
+    "alt_en": "Five panels show fiber fabrication, TAB coating, contrasting interface responses over time, functional summaries and example long-term neural recordings.",
+    "attribution_ko": "Tae Young Kim 외, Science Advances (2025), Figure 1. DOI: 10.1126/sciadv.adz1228. © 2025 The Authors; exclusive licensee AAAS. CC BY-NC 4.0. 원그림 변경 없음.",
+    "attribution_en": "Tae Young Kim et al., Science Advances (2025), Figure 1. DOI: 10.1126/sciadv.adz1228. © 2025 The Authors; exclusive licensee AAAS. CC BY-NC 4.0. Reproduced unchanged.",
+    "rights_evidence": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12422202/fullTextXML",
+        "locator": "article-meta/permissions; fig[@id='F1']; acknowledgments",
+        "access": "public_repository_full_text_xml_read",
+        "finding_ko": "논문 제목·DOI, CC BY-NC 고지와 F1 전체 캡션을 대조했습니다. F1에 별도 권리·재전재·제3자 크레딧은 없었습니다.",
+        "finding_en": "The title/DOI, CC BY-NC notice and complete F1 caption were matched. F1 contains no separate-rights, reprint or third-party credit."
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "locator": "Deed / Attribution / NonCommercial",
+        "access": "license_body_read",
+        "finding_ko": "출처와 변경 표시가 필요하며 상업적 목적의 이용은 허용하지 않습니다.",
+        "finding_en": "Attribution and change disclosure are required; commercial use is not permitted."
+      }
+    ],
+    "notes_ko": "PMC 세부 페이지는 브라우저 확인 화면으로 막혀 공개 Europe PMC XML의 F1 요소와 연결된 JPEG를 대신 대조했습니다. JPEG는 775×832 표시용 그림이며 고해상도 인쇄용 파일은 아닙니다. 별도 크레딧이 없다는 확인 범위 이상으로 권리 보증을 확장하지 않습니다.",
+    "notes_en": "The PMC detail page showed a browser check. F1 in public Europe PMC XML and its linked JPEG were checked instead. The 775×832 display image is not a print-resolution asset. No broader rights warranty is inferred.",
+    "verification_ko": "공개 XML과 JPEG는 각각 일반 HTTP 200으로 확인했고 JPEG를 시각 검토했습니다. 출판사 Science 웹 본문을 직접 열었다고 기록하지 않았습니다.",
+    "verification_en": "Public XML and JPEG returned HTTP 200; the JPEG was visually inspected. Direct Science publisher-page access was not established.",
+    "asset_path": "assets/figures/paper-085-figure-1.jpg",
+    "width": 775,
+    "height": 832,
+    "bytes": 246773,
+    "sha256": "54b4235239d0841c9a941cb08c4b4c7aae26225b122ce1bd306d76452d659d15",
+    "modification": "none",
+    "generated": false,
+    "deployment_use_ko": "비상업적 학술 연구 자료실에서 출처와 CC BY-NC 4.0 표시를 유지하여 재사용합니다. 이 허용을 광고·판매 등 상업적 재사용으로 확대하지 않습니다.",
+    "deployment_use_en": "Reused in this noncommercial academic research library with attribution and CC BY-NC 4.0. This does not authorize commercial reuse, advertising or sales.",
+    "caption_ko": "유연 신경 섬유와 TAB 코팅의 구성, 기존 코팅과의 차이 및 기계적·생화학적 기능을 설명합니다.",
+    "caption_en": "Flexible neural-fiber construction, TAB versus conventional coatings, and mechanical/biochemical functions."
+  },
+  {
+    "number": 80,
+    "checked_at": "2026-10-03",
+    "doi": "10.1038/s41528-024-00327-x",
+    "article_title": "Universal hydrogel adhesives with robust chain entanglement for bridging soft electronic materials",
+    "figure_number": "1",
+    "figure_page_url": "https://www.nature.com/articles/s41528-024-00327-x/figures/1",
+    "article_url": "https://www.nature.com/articles/s41528-024-00327-x",
+    "image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41528-024-00327-x/MediaObjects/41528_2024_327_Fig1_HTML.png",
+    "reuse_status": "reusable_with_attribution",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright_holder": "The Author(s), 2024",
+    "rights_scope_ko": "출판사 공개 HTML의 Rights and permissions, Figure 1 캡션과 원본 PNG, 사사를 직접 확인했습니다. 논문은 CC BY 4.0이며 별도 크레디트로 제외하지 않은 그림에도 라이선스가 적용된다고 명시합니다. 확인한 Figure 1과 캡션에는 별도 제3자 권리 또는 재인쇄 제한 표시는 없었습니다.",
+    "rights_scope_en": "Read the publisher HTML rights section, Figure 1 caption, acknowledgements, and the original PNG. The article explicitly applies CC BY 4.0 to images unless a credit line excludes them. No separate third-party credit or reuse restriction was found in the inspected figure or caption.",
+    "third_party_credit_found": false,
+    "attribution_ko": "Yejin Jo 외, “Universal hydrogel adhesives with robust chain entanglement for bridging soft electronic materials,” npj Flexible Electronics 8, 39 (2024), Figure 1. DOI: 10.1038/s41528-024-00327-x. © 저자들 2024. CC BY 4.0. 원그림의 픽셀 변경 없이 WebP로 무손실 변환; 아래 한국어 설명은 자료실에서 작성했습니다.",
+    "attribution_en": "Figure 1 from Yejin Jo et al., “Universal hydrogel adhesives with robust chain entanglement for bridging soft electronic materials,” npj Flexible Electronics 8, 39 (2024). DOI: 10.1038/s41528-024-00327-x. © The Author(s) 2024, CC BY 4.0. Lossless WebP conversion; pixel content unchanged; accompanying description written for this library.",
+    "caption_ko": "d-HAPT 접착층이 연성 기판·전극·연결선과 회로를 잇는 원리 및 인장 중 접합 유지 시연입니다. 논문의 원그림이며 생성 이미지가 아닙니다.",
+    "caption_en": "Original paper figure showing d-HAPT bonding across soft substrates, electrodes, interconnects and circuitry, with stretching demonstrations. This is not an AI-generated illustration.",
+    "alt_ko": "위쪽은 건조–건조 및 습윤–건조 계면의 고분자 사슬 결합 도식이며, 아래쪽은 늘어난 고무 기판의 PDMS 조각과 불이 켜진 LED 연결부 사진입니다.",
+    "alt_en": "Schematics show polymer-chain bonding at dry–dry and wet–dry interfaces; photographs below show attached PDMS discs on stretched elastomer and an illuminated LED connection.",
+    "conditions_ko": "그림 옆에 저자·논문·DOI·원그림 링크·CC BY 4.0 링크와 변경 여부를 표시해야 합니다. 현재 제안은 원그림 무수정 사용이며, 추후 자르기나 주석을 추가하면 변경 사실도 갱신해야 합니다.",
+    "conditions_en": "Display author, article, DOI, source figure link, CC BY 4.0 link and modification notice next to the figure. This proposal uses the unchanged image; disclose later cropping or annotations.",
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41528-024-00327-x",
+        "access": "public_publisher_html_read",
+        "locator": "Rights and permissions; Acknowledgements; dc.rights metadata"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41528-024-00327-x/figures/1",
+        "access": "public_publisher_figure_caption_read",
+        "locator": "Figure 1 panels a–c and caption"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41528-024-00327-x/MediaObjects/41528_2024_327_Fig1_HTML.png",
+        "access": "public_publisher_image_visually_inspected",
+        "locator": "Complete Figure 1 PNG; no separate rights credit visible"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "access": "public_license_read",
+        "locator": "Attribution and modification requirements"
+      }
+    ],
+    "asset_note_ko": "권리 확인 후 원그림을 픽셀 변경 없이 WebP로 무손실 변환해 수록했습니다. 저자·DOI·원그림과 CC BY 4.0 출처 표시를 제공합니다.",
+    "asset_note_en": "After the rights review, the original figure was included as lossless WebP with unchanged pixels and author, DOI, source-figure and CC BY 4.0 attribution.",
+    "asset_path": "assets/figures/paper-080-figure-1.webp",
+    "width": 2000,
+    "height": 1777,
+    "bytes": 1368578,
+    "sha256": "979b6dd93231cbe66530bfe5462cce5ab162af583f09bc3c8dbf0196930175cd",
+    "modification": "Lossless WebP conversion; pixel content unchanged; no cropping or annotation",
+    "generated": false
+  },
+  {
+    "number": 78,
+    "checked_at": "2026-10-03",
+    "doi": "10.1021/acsnano.4c00396",
+    "article_title": "Postoperative Long-Term Monitoring of Mechanical Characteristics in Reconstructed Soft Tissues Using Biocompatible, Immune-Tolerant, and Wireless Electronic Sutures",
+    "figure_number": "1",
+    "figure_page_url": null,
+    "article_url": "https://pubs.acs.org/doi/10.1021/acsnano.4c00396",
+    "image_url": null,
+    "reuse_status": "link_only_rights_unconfirmed",
+    "license": null,
+    "license_url": null,
+    "copyright_holder": "American Chemical Society, 2024",
+    "rights_scope_ko": "제목·DOI가 일치하는 로컬 논문 PDF의 첫 페이지 저작권 표시와 3쪽(학술지 12212쪽) Figure 1 전체·캡션을 직접 읽고 시각 확인했습니다. 첫 페이지에는 © 2024 American Chemical Society가 표시됩니다. PDF에서 공개 재사용 라이선스나 해당 그림의 별도 허가를 확인하지 못했으며, 출판사 웹 원문 요청은 HTTP 403으로 차단되었습니다.",
+    "rights_scope_en": "Matched the local article PDF by title and DOI, then read the first-page copyright notice and visually inspected Figure 1 and its caption on PDF page 3 (journal page 12212). The PDF states © 2024 American Chemical Society. No public reuse license or figure-specific permission was confirmed; the publisher web request returned HTTP 403.",
+    "third_party_credit_found": false,
+    "attribution_ko": null,
+    "attribution_en": null,
+    "caption_ko": "원문 Figure 1 링크: 무선 봉합사 센서의 구조와 돼지 아킬레스건 변형을 읽는 개념을 설명합니다. 그림 재사용 권한은 확인되지 않아 이 자료실에는 이미지를 싣지 않습니다.",
+    "caption_en": "Reference to original Figure 1: the suture sensor structure and concept for wireless reading of porcine Achilles-tendon deformation. The image is not reproduced because reuse permission remains unconfirmed.",
+    "alt_ko": "링크 대상 Figure 1에는 봉합사 센서·유도 코일 도식, 돼지 아킬레스건 측정 개념, 장치 및 미세구조 사진과 전극 특성 그래프가 있습니다.",
+    "alt_en": "The linked Figure 1 contains sensor and inductive-coil schematics, a porcine tendon measurement concept, device and microstructure images, and electrode characterization plots.",
+    "conditions_ko": "현재는 DOI 또는 논문 링크만 사용해야 합니다. 저자 보유 원고나 학교 구독 접근만으로 원그림 재배포 권한을 추정하지 않았습니다. 추후 ACS 또는 권리자가 해당 Figure 1의 재사용을 명시적으로 허용한 근거가 필요합니다.",
+    "conditions_en": "Use only the DOI or article link at present. Access to a manuscript or institutional subscription is not treated as permission to redistribute the figure. Reuse needs explicit evidence from ACS or the relevant rights holder.",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1021/acsnano.4c00396",
+        "access": "local_pdf_read_and_visually_inspected",
+        "locator": "Exact title and DOI on PDF page 1; copyright footer page 1; Figure 1 and complete caption PDF page 3 / journal page 12212"
+      },
+      {
+        "url": "https://pubs.acs.org/doi/10.1021/acsnano.4c00396",
+        "access": "access_blocked",
+        "locator": "Public web read and direct read-only HTTP request: HTTP 403; no authenticated browser used"
+      }
+    ],
+    "asset_note_ko": "PDF와 페이지 렌더는 권리 확인용으로만 읽었으며 원그림 추출·사이트 복사·공개는 하지 않았습니다.",
+    "asset_note_en": "The PDF and page render were used only for rights inspection. No figure was extracted into the site or published."
+  }
+]

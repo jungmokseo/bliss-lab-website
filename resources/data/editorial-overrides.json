@@ -1,0 +1,46 @@
+[
+  {
+    "number": 80,
+    "summary_ko": "d-HAPT는 PVA와 탄닌산을 여러 층으로 쌓아 말린 접착막이다. 수분이 들어오면 고분자 사슬이 이동하고 얽히는 성질을 이용해 건조 부품끼리, 또는 하이드로젤과 건조 부품을 연결한다.",
+    "summary_en": "d-HAPT is a dried multilayer adhesive made from PVA and tannic acid. Moisture enables polymer-chain movement and entanglement, joining dry components to one another or hydrogels to dry components.",
+    "improvement_ko": "서로 다른 경도와 수분 상태의 부품을 하나의 접착 재료로 조립하고, 착용형 센서와 급성 이식 전극의 작동으로 활용 가능성을 보였다. 다만 건조 부품끼리 접합하는 공정에는 계면의 물을 제거하는 가열 단계가 포함된다.",
+    "improvement_en": "One adhesive assembles components with different stiffness and hydration, demonstrated in wearable sensors and acutely implanted electrodes. Dry-to-dry assembly includes heating to remove interfacial water.",
+    "unresolved_ko": "장기 체액 노출, 멸균 이후의 접합 안정성, 반복 하중은 후속 검증 항목이다. 확인된 급성 작동과 단기 생체적합성만으로 만성 이식의 안전성까지 판단할 수는 없다.",
+    "unresolved_en": "Prolonged fluid exposure, stability after sterilization and cyclic loading remain follow-up checks. Acute operation and short-term biocompatibility do not establish chronic implant safety.",
+    "comparison_ko": "접합 성능은 기판 조합과 함수율, 접착층 두께, 가열 이력, 시험 속도를 맞춘 조건에서 비교한다. 전단 강도와 박리 에너지는 서로 다른 지표로 구분한다.",
+    "comparison_en": "Compare bonding under matched substrates, hydration, adhesive thickness, thermal history and test rate, treating shear strength and peeling energy as distinct measures."
+  },
+  {
+    "number": 92,
+    "summary_ko": "STAT는 퀴논을 통한 조직 결합과 탄닌산의 지혈 기능을 결합한 이중 네트워크 재료다. 패치와 주입형으로 만들어 동물의 출혈 및 피부 절개 모델에서 평가했다.",
+    "summary_en": "STAT is a double-network material combining quinone-mediated tissue bonding with tannic-acid-assisted hemostasis. Patches and injectable material were evaluated in animal bleeding and skin-incision models.",
+    "improvement_ko": "적용 현장에서 별도의 활성화 시약을 넣지 않고 접착하도록 설계한 점이 특징이다. 사용 전 재료를 합성하고 산화 상태를 준비하는 과정까지 없어지는 것은 아니다.",
+    "improvement_en": "Adhesion requires no separate activation reagent at application. Material synthesis and preparation of the oxidation state still precede use.",
+    "unresolved_ko": "동물 모델의 결과만으로 사람에서의 임상 효능을 확정할 수는 없다. 적용 가능성을 판단하려면 산화·보관 조건의 재현성도 함께 살펴야 한다.",
+    "unresolved_en": "Animal-model results do not establish human clinical efficacy. Reproducibility of oxidation and storage conditions also matters when assessing applicability.",
+    "comparison_ko": "접착과 지혈 결과를 비교할 때는 조직과 출혈 모델, 압박·접촉 시간, 산화 상태, 시험 속도를 맞춘다. 전단 강도와 박리 에너지는 구분해 해석한다.",
+    "comparison_en": "Adhesion and hemostasis comparisons require matched tissue, bleeding model, compression/contact time, oxidation state and test speed. Interpret shear strength separately from peel energy."
+  },
+  {
+    "number": 57,
+    "summary_ko": "LOIS는 미세·나노 구조 안에 윤활액을 유지해 정형외과 고정물 표면에 오염물이 달라붙는 것을 줄이는 코팅이다. 세균 부착과 수술 취급에 따른 손상, 토끼 골절 모델에서의 결과를 평가했다.",
+    "summary_en": "LOIS retains lubricant within micro/nanostructures to reduce fouling on orthopedic fixation hardware. Evaluation covered bacterial adhesion, surgical-handling damage and a rabbit fracture model.",
+    "improvement_ko": "공기층에 의존하는 초소수성 표면을 대조군으로 삼아 윤활 계면의 유지와 손상 후 기능 회복을 검토했다. 표면의 부착 억제뿐 아니라 감염 관련 염증과 골 치유까지 함께 평가한 연구다.",
+    "improvement_en": "Using air-dependent superhydrophobic surfaces as controls, the study examined lubricant-interface retention and recovery after damage, alongside infection-related inflammation and bone healing.",
+    "unresolved_ko": "이식 전에 오염시킨 고정물의 결과가 모든 감염 경로를 설명하지는 않는다. 저자도 이식 이후 감염을 일으키는 모델과 골유도 세포의 선택적 부착을 후속 과제로 남겼다.",
+    "unresolved_en": "Precontaminated implants do not represent every infection route. The authors identify post-implantation infection models and selective osteoinductive-cell adhesion as follow-up questions.",
+    "comparison_ko": "공정한 비교에는 균주와 오염 시점, 하중·손상 조건, 남아 있는 윤활액과 골 치유 지표를 맞추는 작업이 필요하다. 세균의 표면 부착을 줄이는 효과는 세균을 죽이는 효과와 구별한다.",
+    "comparison_en": "Fair comparisons match organism, contamination timing, loading/damage, retained lubricant and bone-healing endpoints. Reduced surface adhesion must be distinguished from bacterial killing."
+  },
+  {
+    "number": 66,
+    "summary_ko": "기능화한 탄소나노튜브와 탄닌산의 나노 구속 구조를 이용해 잘 붓지 않으면서 전기를 전달하고 스스로 회복하는 하이드로겔을 설계했다. 수중 근전도와 적출한 방광의 변형 측정으로 적용 가능성을 보였다.",
+    "summary_en": "Functionalized carbon nanotubes and tannic-acid nanoconfinement combine swelling resistance, conductivity and recovery in a hydrogel, demonstrated in underwater EMG and ex vivo bladder-deformation measurements.",
+    "improvement_ko": "국소적으로 에너지를 소산하는 구조에 가역 결합을 더해 부드러움, 인성, 회복성을 함께 확보하려는 접근이다. 세 특성 사이의 상충을 줄이는 데 초점을 맞췄다.",
+    "improvement_en": "Localized energy dissipation and reversible bonds address trade-offs among softness, toughness and recovery.",
+    "unresolved_ko": "공기 중에서는 건조가, 접착 계면에서는 과도한 수분이 한계로 남는다. 조직 접착 실험에는 추가 화학 처리와 표면의 과잉 수분을 제거하는 조건이 포함되어 있었다.",
+    "unresolved_en": "Air drying and excess interfacial water remain limitations. Tissue-adhesion experiments included additional chemistry and removal of excess surface water.",
+    "comparison_ko": "전도성과 접착을 비교하려면 침지액과 침지 시간, 수분 상태, 표면 처리 조건을 함께 맞춰야 한다. 변형·회복 이력과 전극 형상도 비교 조건에 포함된다.",
+    "comparison_en": "Conductivity and adhesion comparisons require matched immersion medium/time, hydration and surface treatment, as well as deformation/recovery history and electrode geometry."
+  }
+]

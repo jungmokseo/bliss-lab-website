@@ -1,0 +1,1122 @@
+[
+  {
+    "number": 101,
+    "primary_theme": "routing",
+    "subtheme": "liquid-conductors",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "title_only",
+    "rationale_ko": "공개 제목의 액체금속 입자와 소프트 전자소자 문맥을 근거로 액체 전도체에 임시 배치한다. 초록·DOI 미확보로 실제 기판 부착·배선 연속성과 소자 접속은 확인하지 않았다.",
+    "rationale_en": "Public-title references to liquid-metal particles and soft electronics support a provisional liquid-conductor shelf. Without an abstract/DOI, substrate attachment, routing continuity and component joining remain unverified."
+  },
+  {
+    "number": 100,
+    "primary_theme": "integration",
+    "subtheme": "packaging",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "Crossref에서 확인한 제목이 IC 칩과 변형 가능한 회로 사이 패키징을 직접 명시해 배선–칩 접합 경계에 부합한다. 초록 전체는 미확보이므로 구체 공법·성능 분류는 보류한다.",
+    "rationale_en": "The Crossref-confirmed title explicitly concerns IC-chip/deformable-circuit packaging, fitting the interconnect–chip boundary. The complete abstract is unavailable, so specific methods and performance remain unclassified."
+  },
+  {
+    "number": 99,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "tissue",
+      "routing"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "출판사 초록은 전기 접촉·열 전달·피부 순응성을 함께 다루는 광범위한 리뷰임을 확인한다. 특정 접합법 중심이 아니므로 소자 통합의 기초·연결 검토에 두고 조직 결합 및 배선의 교차 범위를 표시한다.",
+    "rationale_en": "The publisher abstract spans electrical contacts, heat transfer and skin conformity. As no single joining method dominates, retain integration foundations with tissue/routing cross-links and explicit cross-theme ambiguity."
+  },
+  {
+    "number": 98,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "생체접착 하이드로젤의 면역·상처 미세환경 조절이 중심이며 조직 접착을 부차적으로 연결한다.",
+    "rationale_en": "Immunomodulation and the wound microenvironment are central; tissue adhesion provides a secondary connection."
+  },
+  {
+    "number": 97,
+    "primary_theme": "tissue",
+    "subtheme": "repair-biofabrication",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "출판사 초록의 결손부 충전·조직 접착·골 복구가 조직–재료 접촉과 복구 경계에 직접 해당한다. 세포 이동·골 분화 조절은 숙주 상호작용의 부차적 연결이다.",
+    "rationale_en": "Publisher-abstract evidence for defect filling, tissue adhesion and bone repair directly fits tissue–material contact and repair. Cell migration and osteogenic modulation provide a secondary host-interaction link."
+  },
+  {
+    "number": 96,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "출판사 초록의 저산소 완화·대식세포 상태 변화·재생 면역 환경이 숙주 반응 조절을 직접 다룬다. 형상 적응 상처 인쇄는 조직 복구의 연결이며, 로봇 사용만으로 배선–칩 소자 통합에 분류하지 않는다.",
+    "rationale_en": "Publisher-abstract evidence addresses hypoxia, macrophage states and regenerative immune responses directly. Conformal wound printing links to tissue repair; robot use alone does not establish interconnect–chip integration."
+  },
+  {
+    "number": 95,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "요관 스텐트의 윤활 계면으로 세균·결정 침착·조직 자극을 다루므로 기기–숙주 반응에 직접 해당한다.",
+    "rationale_en": "A lubricated ureteral-stent interface addresses bacteria, encrustation and irritation, directly fitting device–host interaction."
+  },
+  {
+    "number": 94,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "항균 압전 플랫폼과 숙주 안전성을 다루는 확장 범위 리뷰다. 이식체 코팅을 포함하지만 모든 사례가 기기–숙주 계면은 아니므로 교차 범위를 표시한다.",
+    "rationale_en": "This broader review addresses piezoelectric antibacterial platforms and host safety. It includes implant coatings, but not every case is a device–host interface, so the mapping remains qualified."
+  },
+  {
+    "number": 93,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "내시경 캡의 혈액·점액 오염과 안개를 액체 계면으로 줄이는 연구이므로 숙주 접촉 중 오염 억제에 해당한다.",
+    "rationale_en": "A liquid interface addresses blood/mucus fouling and fogging on an endoscope cap, fitting antifouling during host contact."
+  },
+  {
+    "number": 92,
+    "primary_theme": "tissue",
+    "subtheme": "wet-adhesion",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": false,
+    "rationale_ko": "퀴논 기반 결합으로 젖은 조직에 접착하는 이중 네트워크 하이드로젤이다. 공개 본문에서 패치·주입 형태의 동물 지혈 및 절개 모델을 확인하여 습윤 조직 접착에 배치했다.",
+    "rationale_en": "A double-network hydrogel bonds to wet tissue through quinone-mediated interactions. Public-text evidence on patch and injectable applications in animal bleeding and incision models supports placement in wet tissue adhesion.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 91,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "담도 스텐트 윤활 코팅의 부착·바이오필름·면역 섬유화 반응이 핵심이다. 호중구 경로는 동일 숙주 테마 안의 면역 연결이다.",
+    "rationale_en": "The lubricated biliary-stent coating targets adhesion, biofilm and immune fibrosis; the neutrophil pathway is an immune connection within the same host theme."
+  },
+  {
+    "number": 90,
+    "primary_theme": "tissue",
+    "subtheme": "analyte-transport",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "생체액 분석물이 센서에 도달하는 겔 계면의 이동성과 기계적 적합성을 함께 조절하므로 조직 결합의 분석물 이동 경계에 해당한다.",
+    "rationale_en": "The gel interface jointly controls transport from biofluids to sensors and mechanical suitability, fitting tissue-coupling analyte transport."
+  },
+  {
+    "number": 89,
+    "primary_theme": "integration",
+    "subtheme": "packaging",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "로컬 출판 본문의 층간 접착·차단·전기 절연 평가가 보호 패키징에 해당한다. 7일 피하 이식의 급성 염증·조직 반응은 숙주 연결이며 장기 생체적합성 확증으로 확대하지 않는다.",
+    "rationale_en": "Locally read interlayer adhesion, barrier and electrical-insulation evidence fits protective packaging. Acute inflammatory/tissue responses after seven-day subcutaneous implantation support a host cross-link, without establishing chronic biocompatibility."
+  },
+  {
+    "number": 88,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "로컬 출판 본문의 전기 자극·염증 지표·당뇨 상처 평가가 숙주 면역 반응에 직접 해당한다. 변형·수화 중 전도 안정성을 확인했지만 핵심 분류는 치료 반응이며 조직 접촉을 부차적으로 연결한다.",
+    "rationale_en": "Locally read stimulation, inflammatory-marker and diabetic-wound evidence directly fits host immune response. Conductive stability under deformation/hydration is verified, but the primary classification remains therapeutic response with a tissue-contact cross-link."
+  },
+  {
+    "number": 87,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "구동·발포·방출을 합친 복합체의 기초 연구다. 공개 초록은 배선–칩 또는 기판–부품 접합을 검증하지 않아 소자 통합의 기초·연결 검토로 한정한다.",
+    "rationale_en": "This foundational composite combines actuation, foaming and release. The abstract does not verify interconnect–chip or substrate–component joining, so integration is only a provisional foundation."
+  },
+  {
+    "number": 86,
+    "primary_theme": "integration",
+    "subtheme": "packaging",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "OLED 봉지의 차단·기계 안정성은 보호 패키징에 해당한다. 리뷰가 기존 표시소자부터 생체 적용까지 넓게 다루어 경계를 표시하고 피부 순응성은 부차 연결로 둔다.",
+    "rationale_en": "OLED barrier and mechanical stability fit protective packaging. Its breadth from conventional displays to biointegration requires a qualified boundary; skin conformity is secondary."
+  },
+  {
+    "number": 85,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": false,
+    "rationale_ko": "윤활 표면과 BDNF 고정화를 결합해 비특이적 부착 억제와 신경세포 상호작용을 함께 다룬다. 장기 기록의 표면–조직 반응이 중심이므로 숙주 상호작용에 배치했다.",
+    "rationale_en": "Lubrication and immobilized BDNF combine resistance to nonspecific attachment with neural interaction. The focus on surface–tissue responses during chronic recording supports a host-interaction assignment.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 84,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "산업용 기체 분리막의 구조·밀봉 연구다. 생체소자 접합이나 숙주 반응을 직접 보이지 않아 계면 제조의 기초·연결 검토로만 임시 배치한다.",
+    "rationale_en": "This industrial gas-membrane study addresses structural confinement and sealing. Without bioelectronic joining or host-response evidence, it is provisionally shelved only as interface-manufacturing foundations."
+  },
+  {
+    "number": 83,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "의료 표면의 생물학적 오염과 마찰을 낮추는 윤활 계면이 중심이다. 산업용 탈형 등 응용도 포함하므로 모든 결과를 숙주 반응으로 읽지 않는다.",
+    "rationale_en": "The medical interface centers on reduced biological fouling and friction. Industrial demolding is also included and is not itself evidence of host response."
+  },
+  {
+    "number": 82,
+    "primary_theme": "integration",
+    "subtheme": "manufacturing",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "전극·수신 코일·연성 기판을 서로 다른 잉크로 결합하는 제작 공정이 핵심이다. 조직 접촉과 자극은 보조 연결이며 단순 센서 성능으로 분류한 것이 아니다.",
+    "rationale_en": "The central process joins electrodes, receiving coils and a soft substrate through different inks. Tissue contact and stimulation provide a secondary connection; placement does not rely on sensing performance alone."
+  },
+  {
+    "number": 81,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "윤활 채널의 비특이적 약물 손실 억제와 배양막의 필요한 세포 부착을 분리 설계한다. 체외 장기 모델이므로 직접 장치–숙주 반응과는 거리가 있어 확장 분류로 표시한다.",
+    "rationale_en": "It separates nonspecific drug loss at lubricated channels from necessary cell attachment on the culture membrane. As an in vitro organ model, its connection to device–host response is extended and remains ambiguous."
+  },
+  {
+    "number": 80,
+    "primary_theme": "integration",
+    "subtheme": "manufacturing",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "rationale_ko": "건조 부품끼리, 또는 하이드로젤과 건조 부품 사이를 접합하는 재료다. 착용형·급성 이식 소자의 조립을 다루므로 소자 통합에 배치했다. 배선–칩의 전기 접속에 한정되지 않는 이종 재료 조립이라는 점에서 확장 분류다.",
+    "rationale_en": "Joining dry components and hydrogel–dry interfaces enables assembly of wearable and acute implanted devices. This is an extended component-integration assignment: heterogeneous material assembly extends beyond an interconnect–chip electrical junction.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 79,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "조직 모사 역학과 혈관 훈련 모형을 구현하는 잉크 제작이다. 살아 있는 조직과의 접촉·복구가 직접 목표인 실험과 구별하여 기초 연구로 임시 배치한다.",
+    "rationale_en": "The ink targets tissue-mimetic mechanics and vessel training models. It is provisionally foundational because these differ from direct living-tissue contact or repair experiments."
+  },
+  {
+    "number": 78,
+    "primary_theme": "integration",
+    "subtheme": "sensing-actuation",
+    "secondary_themes": [
+      "host",
+      "tissue"
+    ],
+    "ambiguity": true,
+    "rationale_ko": "정전용량 섬유 센서, 유도 코일, 봉합 고정을 결합한 칩 없는 무선 측정 시스템이다. 소자 통합의 센서 연결에 배치하되, 배선–칩 접속 자체를 실증한 논문과 구분한다. 항오염 표면과 조직 고정은 다른 두 테마와 연결된다.",
+    "rationale_en": "A chip-free wireless system combines a capacitive fiber sensor, inductive coil and suture fixation. It extends component integration to sensor-system assembly without demonstrating an interconnect–chip junction. Antifouling and tissue fixation provide host and tissue cross-links.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 77,
+    "primary_theme": "tissue",
+    "subtheme": "tissue-mechanics",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "강성 조절·비팽윤·점탄성으로 조직과의 역학 불일치를 줄이며, Fig. 4와 Methods 2.7–2.9에서 돼지 피부 계면·접착을 직접 평가한다. CNT 전도 경로와 신축 센서 시연은 배선 테마의 보조 연결이다.",
+    "rationale_en": "Modulus control, limited swelling and viscoelasticity address tissue mismatch; Fig. 4 and Methods 2.7–2.9 directly evaluate the porcine-skin interface and adhesion. CNT conduction and stretchable sensing form the secondary routing connection."
+  },
+  {
+    "number": 76,
+    "primary_theme": "integration",
+    "subtheme": "sensing-actuation",
+    "secondary_themes": [
+      "tissue",
+      "routing"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "하이드로겔 전극과 엘라스토머 마찰층의 접합을 전력 관리 회로와 연결하여 저장·구동하는 조립 문제가 확인된다. 피부 접촉과 신축 전극은 보조 테마다.",
+    "rationale_en": "Joining the hydrogel electrode and elastomer triboelectric layer to a power-management circuit establishes a system-assembly focus. Tissue contact and stretchable conduction are secondary."
+  },
+  {
+    "number": 75,
+    "primary_theme": "tissue",
+    "subtheme": "repair-biofabrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "여러 위치의 상처에 생체 잉크를 직접 전달하고 세포 침투를 지원하는 조직 복구 제작이 중심이다. 로봇 사용만으로 전자 부품 통합 테마에 넣지 않는다.",
+    "rationale_en": "Direct delivery of bioinks to wounds and support for cell infiltration establish tissue-repair biofabrication. Robot use alone does not establish electronic component integration."
+  },
+  {
+    "number": 74,
+    "primary_theme": "routing",
+    "subtheme": "liquid-conductors",
+    "secondary_themes": [
+      "tissue",
+      "integration",
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "전도체 절을 기준으로 액체 기반 전기 경로에 주 배치하지만, 접착·봉지·항오염을 함께 다루는 종설이다. 단일 계면 연구로 고정할 수 없어 다중 테마와 불확실성을 유지한다.",
+    "rationale_en": "Conductor sections motivate the primary liquid-routing placement, but this review also covers adhesion, encapsulation and antifouling. Its breadth requires multiple themes and an ambiguity flag."
+  },
+  {
+    "number": 73,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "골 유착과 감염 억제를 다룬다는 서지 제목에 따른 임시 배치다. 초록·본문 미확인으로 선택적 생물학적 상호작용이나 구체적 표면 기전을 확정하지 않는다.",
+    "rationale_en": "This provisional placement follows the registered topic of osseointegration and infection. Without abstract/text, selective biological interactions and the surface mechanism remain unconfirmed."
+  },
+  {
+    "number": 72,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "변형하는 생체재료 표면의 비특이적 부착과 마찰을 줄이는 윤활 코팅이 중심이다. 전기 절연과 보호층 호환성은 패키징의 보조 연결이다.",
+    "rationale_en": "The central interface reduces nonspecific adhesion and friction on deforming biomaterials. Electrical insulation and protective-layer compatibility form a secondary packaging connection."
+  },
+  {
+    "number": 71,
+    "primary_theme": "routing",
+    "subtheme": "liquid-conductors",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": true,
+    "rationale_ko": "EGaIn 입자의 표면 기능화로 변형 가능한 전기화학 전극을 구성한다. 액체 전도체와 연결되지만 배선의 연속성 자체보다 전극 반응성이 중심이므로 확장 분류로 표시했다.",
+    "rationale_en": "Surface-functionalized EGaIn particles form deformable electrochemical electrodes. The work connects to liquid conductors, but its focus on electrode reactivity rather than interconnect continuity makes this an extended assignment.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 70,
+    "primary_theme": "tissue",
+    "subtheme": "wet-adhesion",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "젖은 출혈 조직에서 밀착과 접착을 유지하는 패치가 중심이다. 항균과 지혈은 재료–생물학적 상호작용의 보조 테마로 연결한다.",
+    "rationale_en": "The patch centers on conformal adhesion to wet bleeding tissue. Antibacterial and hemostatic behavior supply a secondary biological-interaction connection."
+  },
+  {
+    "number": 69,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "CNT가 포함된 신축 전도 패턴의 인쇄와 절단 후 전기 연결 회복을 실제 평가했다. 조직 부착·유사 역학은 보조 테마이며 명칭의 섬유에만 한정되지 않는 신축 전극 분류를 사용한다.",
+    "rationale_en": "Printed stretchable conductive patterns and electrical recovery after cutting were tested. Tissue adhesion/mechanics are secondary; this subtheme includes stretchable electrodes as well as fibers."
+  },
+  {
+    "number": 68,
+    "primary_theme": "integration",
+    "subtheme": "sensing-actuation",
+    "secondary_themes": [
+      "tissue",
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공통 고분자의 자가 결합으로 혈관 모형과 혈류 센서를 접속하는 구조가 중심이다. 밀봉 역학과 항혈전 윤활 표면을 보조 연결로 둔다.",
+    "rationale_en": "Self-bonding of a shared polymer joins the conduit and flow sensor. Resealing mechanics and the antithrombotic lubricant interface are secondary connections."
+  },
+  {
+    "number": 67,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "공개 초록은 복잡한 의료 기구의 항오염·저마찰 표면을 명시한다. 제작 공정이 존재해도 전기 배선–소자 접속 연구는 아니므로 소자 통합으로 자동 분류하지 않는다.",
+    "rationale_en": "The abstract explicitly concerns antifouling and low-friction medical surfaces. A coating process does not by itself establish an interconnect–component integration study."
+  },
+  {
+    "number": 66,
+    "primary_theme": "tissue",
+    "subtheme": "tissue-mechanics",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": false,
+    "rationale_ko": "나노 구속 구조를 이용해 조직 접촉 하이드로젤의 팽윤, 역학, 전도성을 함께 설계한다. 조직 적응 역학이 주제이며, 전도 경로와 표면 접착은 교차 연관으로 읽어야 한다.",
+    "rationale_en": "Nanoconfinement couples swelling control, mechanics and conductivity in a tissue-contacting hydrogel. Tissue-adaptive mechanics is the primary theme; electrical transport and adhesion are cross-cutting aspects.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 65,
+    "primary_theme": "integration",
+    "subtheme": "manufacturing",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "종설의 기판·전극·채널 제작과 결합을 기준으로 통합 공정에 임시 배치한다. 대부분 체외 미세유체 시스템이며 연성 배선–소자 계면과 직접 같지 않아 불확실성을 표시한다.",
+    "rationale_en": "Substrate, electrode and channel fabrication/joining motivate a provisional manufacturing placement. Most systems are in vitro microfluidics rather than soft interconnect–component interfaces, so ambiguity is retained."
+  },
+  {
+    "number": 64,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "초음파 변환기라는 서지 주제에 따른 소자 기초 연구의 임시 배치다. 본문 미확인으로 연성 기판 접합이나 생체 시스템 조립과의 직접 연결은 확정하지 않는다.",
+    "rationale_en": "The transducer topic motivates a provisional component-foundations placement. Without the text, soft-substrate joining or biological-system assembly cannot be established."
+  },
+  {
+    "number": 63,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "서지만 확인된 광범위 리뷰라 기존 숙주 적합성의 잠정 위치를 유지한다.",
+    "rationale_en": "Metadata alone supports only the existing provisional host-compatibility shelf."
+  },
+  {
+    "number": 62,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "읽은 초록은 물 유입을 읽는 광학 공진기이며 배선–칩 접속이나 생체 내 검증을 제시하지 않는다.",
+    "rationale_en": "The abstract describes optical wetting readout, not an interconnect–chip junction or in-host validation."
+  },
+  {
+    "number": 61,
+    "primary_theme": "tissue",
+    "subtheme": "wet-adhesion",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "기능성 생체접착의 조직 접착·재생·감지 역할이 실제 초록에서 확인된다.",
+    "rationale_en": "The abstract explicitly links bioadhesives to tissue adhesion, regeneration and sensing."
+  },
+  {
+    "number": 60,
+    "primary_theme": "integration",
+    "subtheme": "sensing-actuation",
+    "secondary_themes": [
+      "routing",
+      "tissue",
+      "host"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "로컬 본문에서 섬유 센서–FPCB 접속과 폐루프 전압 제어를 확인해 실제 연결·시스템 조립 분류를 유지한다.",
+    "rationale_en": "Local text confirms fiber-sensor/FPCB connections and closed-loop voltage control, supporting actual component/system integration."
+  },
+  {
+    "number": 59,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [
+      "tissue",
+      "integration"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 본문에서 삽입 마찰·부착·임피던스를 함께 검토하여 장치–숙주 반응 경계가 직접 확인된다.",
+    "rationale_en": "Public text directly examines the device–host boundary through insertion friction, attachment and electrode impedance."
+  },
+  {
+    "number": 58,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "전자약의 표적 기능과 이식 부작용이 초록에 명시되나 넓은 리뷰여서 주제 우선순위는 잠정적이다.",
+    "rationale_en": "The abstract joins targeted electronic treatment with implant side effects; the broad review remains thematically provisional."
+  },
+  {
+    "number": 57,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "rationale_ko": "정형외과 고정물에 윤활 계면을 형성해 세균 부착, 감염 관련 염증 및 골 치유를 함께 평가한다. 장치 표면에 대한 생물학적 반응을 다루므로 숙주 상호작용에 배치했다.",
+    "rationale_en": "A lubricated interface on orthopedic fixation hardware is evaluated for bacterial attachment, infection-related inflammation and bone healing. Device-surface biological responses place it within host interaction.",
+    "mapping_basis": "full_text"
+  },
+  {
+    "number": 56,
+    "primary_theme": "host",
+    "subtheme": "antifouling-lubrication",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": false,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 본문에서 렌즈의 혈액·단백질 오염과 윤활 유지·재처리를 다뤄 장치 환경 표면 상호작용에 직접 해당한다.",
+    "rationale_en": "Public text directly addresses lens blood/protein fouling and lubricant maintenance/reprocessing."
+  },
+  {
+    "number": 55,
+    "primary_theme": "host",
+    "subtheme": "immune-response",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록이 이물 반응과 이를 줄이는 연성·약물·생체모사 전략을 직접 분류한다.",
+    "rationale_en": "The abstract directly categorizes foreign-body-response mitigation through softness, drugs and biomimetic surfaces."
+  },
+  {
+    "number": 54,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [
+      "routing",
+      "integration"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록의 HA 가교·CNT 유출 제어와 피하 이식 반응을 반영해 host로 제안한다. 구동 재료 안정성에서 숙주 반응으로의 확장 분류는 불확실성을 유지한다.",
+    "rationale_en": "The abstract supports host placement through HA crosslinking, CNT retention and subcutaneous responses; extending actuator-material stability to host interaction retains ambiguity."
+  },
+  {
+    "number": 53,
+    "primary_theme": "routing",
+    "subtheme": "deformable-substrates",
+    "secondary_themes": [
+      "tissue",
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "전도 네트워크가 삽입된 연성 기판이므로 routing을 유지한다. 별도 기판–배선 접합부보다 일체형 매트이며 세포 지지까지 확장되어 불확실성을 표시한다.",
+    "rationale_en": "Routing remains relevant to the conductive soft substrate, but a monolithic mat with cell support extends beyond a discrete substrate–interconnect junction."
+  },
+  {
+    "number": 52,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "GelMA 내 심장 섬유아세포의 압축 반응을 다룬 조직 역학 기초 연구다. 시험관 내 섬유화 모델을 이식 장치의 숙주 반응과 구분한다.",
+    "rationale_en": "Foundational tissue mechanics: compression of cardiac fibroblasts in GelMA. The in-vitro fibrosis model is distinct from an implanted-device host response."
+  },
+  {
+    "number": 51,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "실제 초록은 비불소 재진입 형상의 액체 반발을 보이지만 생체 오염·숙주 반응은 확인하지 않는다.",
+    "rationale_en": "The abstract establishes nonfluorinated re-entrant repellency, not biofouling or host-response outcomes."
+  },
+  {
+    "number": 50,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "세포–재료 고속 스크리닝의 기초 연구로 조직 계면에 연결한다. 시험관 내 평가를 이식 장치의 숙주 반응 입증과 구분한다.",
+    "rationale_en": "Foundational cell–material screening relates to the tissue interface. In-vitro assays do not establish implanted-device host responses."
+  },
+  {
+    "number": 49,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "자체 초록·본문을 확보하지 못해 등록 제목에 근거한 잠정 기초 분류를 유지한다. 숙주 관련 보조 분류를 뒷받침할 근거는 없다.",
+    "rationale_en": "Without an abstract or full text, the registered-title-based foundational placement remains provisional; a host secondary tag is unsupported."
+  },
+  {
+    "number": 48,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "읽은 초록은 수분 노출에도 기능하는 Kevlar 복합 전도 인터커넥터를 직접 명시한다. 숙주 반응은 검증되지 않아 host 보조 분류를 제거한다.",
+    "rationale_en": "The abstract explicitly describes moisture-resistant Kevlar composite interconnects; unverified host response does not justify a host secondary tag."
+  },
+  {
+    "number": 47,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "registered_title",
+    "rationale_ko": "등록 제목 이외 본문 근거가 없어 감지 소자를 배선–칩 통합으로 승격하지 않는다.",
+    "rationale_en": "Registered metadata alone does not establish an interconnect–chip integration contribution."
+  },
+  {
+    "number": 46,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "mapping_basis": "abstract",
+    "rationale_ko": "변형 중 섬유 전도 경로의 저항 변화가 직접 대상이다. 성능 수치는 인장 이력별로 분리해야 한다.",
+    "rationale_en": "Resistance changes in deforming conductive fibers directly fit routing; performance depends on strain history."
+  },
+  {
+    "number": 45,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "세포–기질 역학의 기반 연구다. 3D 배양 압축을 생체 조직 접착이나 이식 소자의 호스트 반응으로 확장하지 않는다.",
+    "rationale_en": "Cell–matrix mechanics is foundational; 3D culture compression does not establish tissue adhesion or implanted-device host response."
+  },
+  {
+    "number": 44,
+    "primary_theme": "integration",
+    "subtheme": "sensing-actuation",
+    "secondary_themes": [
+      "tissue",
+      "routing"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "전극·겔·생체 구동 요소의 조립은 기능 통합에 해당한다. BCCI의 좁은 interconnect–chip 접합을 직접 입증한 논문은 아니다.",
+    "rationale_en": "Electrode–gel–biological actuator assembly supports functional integration, but the narrow BCCI interconnect–chip junction is not directly established."
+  },
+  {
+    "number": 43,
+    "primary_theme": "tissue",
+    "subtheme": "analyte-transport",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "바이오 유체의 분석 지점 전달과 연결된다. 체외 액적 조작이며 조직–재료 계면의 직접 증거는 아니다.",
+    "rationale_en": "Biofluid delivery to assay sites relates to analyte transport; ex vivo droplet handling does not directly establish tissue–material coupling."
+  },
+  {
+    "number": 42,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "비생물학적 액체 반발의 기반 리뷰다. 초양소성만으로 항오염·면역 반응 개선을 입증하지 않는다.",
+    "rationale_en": "Foundational liquid-repellency review; superamphiphobicity alone does not prove antifouling or immune-response benefits."
+  },
+  {
+    "number": 41,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "세포–재료 상호작용의 스크리닝 기반 리뷰다. 본문에서 이식형 스크리닝은 미래 방향이며 실증 결과가 아니다.",
+    "rationale_en": "Foundational cell–material screening review; implantable screening is a future direction in the text, not a demonstrated result."
+  },
+  {
+    "number": 40,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "전도성 섬유를 포함하지만 약물 전달·조직 제작까지 포괄하는 리뷰다. 전 범위를 전기 배선으로 간주하지 않는다.",
+    "rationale_en": "Conductive fibers support routing, but the review also covers delivery and tissue fabrication; its entire scope is not electrical routing."
+  },
+  {
+    "number": 39,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "세포–재료 지형 기반 분화 연구다. 조직 결합이나 만성 이식 반응을 직접 평가한 것으로 해석하지 않는다.",
+    "rationale_en": "Foundational cell–material topography/differentiation study; it does not directly establish tissue bonding or chronic implant response."
+  },
+  {
+    "number": 38,
+    "primary_theme": "tissue",
+    "subtheme": "repair-biofabrication",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "조직 제작용 재료 제어의 확장 분류다. 리뷰 전체가 실제 조직 접촉 계면을 입증한 것은 아니다.",
+    "rationale_en": "An extended tissue-fabrication grouping; the whole review does not establish direct tissue-contact interface performance."
+  },
+  {
+    "number": 37,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "생체 분포·분해·독성의 기반 리뷰로 호스트 상호작용과 관련된다. BCCI의 이식 장치–호스트 계면과는 범위가 다르다.",
+    "rationale_en": "Biodistribution, degradation and toxicity relate to host interaction, but differ from the BCCI implanted-device/host interface."
+  },
+  {
+    "number": 36,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "비생체 광학 가스 센서의 기반 연구다. 센싱 기능만으로 칩 연결·부품 접합을 입증했다고 분류하지 않는다.",
+    "rationale_en": "Foundational nonbiological optical gas sensor; sensing performance alone does not establish chip connections or component joining."
+  },
+  {
+    "number": 35,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "내피 장벽과 간세포의 상호작용을 다룬 체외 간 독성 모델의 기초 연구다. 조직 복구나 이식 기기–숙주 반응의 직접 입증과 구분한다.",
+    "rationale_en": "Foundational in-vitro liver-toxicity modeling of endothelial barriers and hepatocyte interactions. It does not directly establish tissue repair or implanted-device host responses."
+  },
+  {
+    "number": 34,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "분석물 전달의 기반 기법이지만 초록의 시연은 염료다. 조직·바이오 유체 전달을 직접 실증했다고 보지 않는다.",
+    "rationale_en": "Foundational analyte delivery; the abstract demonstrates dyes, not direct tissue/biofluid transport."
+  },
+  {
+    "number": 33,
+    "primary_theme": "host",
+    "subtheme": "biological-regulation",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "장치 자극에 따른 세포 전환의 확장 분류다. 그래픽 초록만으로 이식 호스트 반응·치료 결과를 확정할 수 없다.",
+    "rationale_en": "Extended biological regulation through device stimulation; the graphical abstract cannot establish implant-host response or therapeutic outcomes."
+  },
+  {
+    "number": 32,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "세포 배양 기판의 분화 기반 연구다. 기능성 세포 생성이 곧 환자 치료나 조직 접착을 뜻하지 않는다.",
+    "rationale_en": "Foundational differentiation on culture substrates; functional cell generation is not patient therapy or tissue adhesion."
+  },
+  {
+    "number": 31,
+    "primary_theme": "routing",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "선택적 Pd 장식으로 그래핀 전도와 PET 히터를 개선한 공개 본문을 확인했다. 변형 중 배선 수명·연결 계면은 검토 범위에 없어 routing의 기초 분류를 유지한다.",
+    "rationale_en": "The body supports Pd-selective decoration, conduction and a PET heater; deformable-routing lifetime and connection interfaces remain outside the checked evidence. Retain routing foundations."
+  },
+  {
+    "number": 30,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "tissue"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록이 극한 젖음의 표면 화학·구조와 생의학 응용을 묶는 리뷰임을 확인했다. 특정 장치–숙주 반응 실증으로 확대하지 않고 host 기초 분류를 유지한다.",
+    "rationale_en": "The abstract connects wetting chemistry/structure with biomedical applications, but does not establish a specific device–host response. Retain host foundations."
+  },
+  {
+    "number": 29,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 본문에서 SERS 입자 보호층과 분석 측정 구조를 확인했다. 칩–연성 배선 접합은 다루지 않아 integration의 분석 부품 기초 자료로 유지한다.",
+    "rationale_en": "Checked sections support protective SERS shells and analytical measurements, not chip–soft-interconnect bonding. Retain integration foundations."
+  },
+  {
+    "number": 28,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "1문장 등록 요약은 InP MOS 유전체·패시베이션 적층만 확인한다. 네 BCCI 계면의 직접 검증으로 보지 않고 반도체 소자 기초로 유지한다.",
+    "rationale_en": "The one-sentence registered summary supports only an InP MOS dielectric/passivation stack, not direct verification of a BCCI interface. Retain semiconductor foundations."
+  },
+  {
+    "number": 27,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록에서 직물 전자 부품과 에너지 수확·저장 리뷰 범위를 확인했다. 칩–배선 통합을 특정하지 않으므로 integration 기초와 routing 보조 연결을 유지한다.",
+    "rationale_en": "The abstract covers textile components and energy harvesting/storage without specifying chip–interconnect integration. Retain integration foundations with secondary routing."
+  },
+  {
+    "number": 26,
+    "primary_theme": "routing",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 PDF의 Raman·전기 측정은 조사 에너지에 따른 그래핀 결함 연구를 뒷받침한다. 변형 배선 계면 실증은 아니므로 routing 재료 기초로 유지한다.",
+    "rationale_en": "Public PDF Raman/electrical results support energy-dependent graphene-defect research, not a deformable-routing interface demonstration. Retain routing materials foundations."
+  },
+  {
+    "number": 25,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 PDF에서 여러 액체의 기체 구동 부착 전환을 확인했다. 생물학적 숙주 반응은 검증하지 않으므로 host 계면 제어의 기초 분류를 유지한다.",
+    "rationale_en": "The public PDF supports gas-driven adhesion switching for several liquids, without biological host-response evidence. Retain host interface-control foundations."
+  },
+  {
+    "number": 24,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록에서 액적 조작과 SERS·세포 전달 응용을 확인했다. 물방울 접착은 조직 접착과 다르며 칩–배선 접합 실증도 아니므로 integration 기초로 유지한다.",
+    "rationale_en": "The abstract supports droplet manipulation, SERS and cellular delivery; droplet adhesion is not tissue adhesion or chip–interconnect joining. Retain integration foundations."
+  },
+  {
+    "number": 23,
+    "primary_theme": "routing",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "등록 초록과 PubMed 초록에서 실리콘 기반 GO 환원·막 형성을 확인했다. 전도체 제조의 기반이며 변형 배선 부착은 입증되지 않아 routing 기초로 유지한다.",
+    "rationale_en": "The abstracts support silicon-based GO reduction and film formation, not deformable-interconnect attachment. Retain routing foundations."
+  },
+  {
+    "number": 22,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 PDF에서 Si 나노와이어의 표면 트랩·Auger 운반자 동역학을 확인했다. 소자 물리의 기반으로서 integration 기초에 두며 부품 조립 실증으로 표현하지 않는다.",
+    "rationale_en": "The public PDF supports surface-trap/Auger carrier dynamics in Si nanowires. This is device-physics groundwork, not a component-assembly demonstration."
+  },
+  {
+    "number": 21,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [],
+    "ambiguity": false,
+    "rationale_ko": "은 나노와이어로 보강한 신축 전도성 섬유의 전기 전달을 다룬다. 초록에서 확인한 착용형 전자소자 방향을 근거로 변형 가능한 전기 배선의 전도성 섬유에 배치했다.",
+    "rationale_en": "Silver-nanowire reinforcement supports electrical transport in stretchable conductive fibers. The abstract’s wearable-electronics focus supports placement under conductive fibers in deformable electrical routing.",
+    "mapping_basis": "abstract"
+  },
+  {
+    "number": 20,
+    "primary_theme": "routing",
+    "subtheme": "conductive-fibers",
+    "secondary_themes": [
+      "integration"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록에서 코팅 전도 섬유와 직조형 압력 센서를 확인했다. 섬유 소재 축으로 routing에 두되 변형 불변 배선이 아닌 감지 요소라는 경계 때문에 모호성을 표시한다.",
+    "rationale_en": "The abstract supports coated conductive fibres and woven pressure sensing. Keep the conductive-fibre shelf, flagged because transduction does not establish strain-invariant routing."
+  },
+  {
+    "number": 19,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록에서 PMMA 선택 투과층과 Pd/그래핀 수소 센서를 확인했다. 체액 분석물 이동이나 칩–배선 연결은 아니므로 integration 기초 감지 부품으로 유지한다.",
+    "rationale_en": "The abstract supports a PMMA-selective layer and Pd/graphene hydrogen sensor, not biofluid transport or chip–interconnect joining. Retain integration foundations."
+  },
+  {
+    "number": 18,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "공개 PDF의 DTS 코팅 카본블랙은 연료전지 촉매 지지체의 부식 문제를 다룬다. 생체 패키징으로 확대하지 않는 에너지 재료 기초 분류다.",
+    "rationale_en": "The public PDF concerns DTS-coated carbon-black catalyst corrosion in fuel cells. It remains an energy-materials foundation, without extrapolation to bioelectronic packaging."
+  },
+  {
+    "number": 17,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "1문장 등록 요약은 정전기 액적 트랙을 명시한다. 전기 배선 경로와 액적 경로를 혼동하지 않고 integration 기초 플랫폼으로 유지한다.",
+    "rationale_en": "The one-sentence registered summary supports an electrostatic droplet track. Droplet routing is not electrical routing; retain integration foundations."
+  },
+  {
+    "number": 16,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "abstract",
+    "rationale_ko": "초록에서 유연 SWNT 고분자 X선 감지층과 전하 수송 상충을 확인했다. 유연성만으로 칩 접합·신축 배선 실증이 되지 않아 integration 기초로 유지한다.",
+    "rationale_en": "The abstract supports flexible SWNT/polymer X-ray sensing and transport trade-offs; flexibility alone does not establish chip joining or stretchable routing. Retain integration foundations."
+  },
+  {
+    "number": 15,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "Cu–SiO2 장벽·접착은 전자 통합 기반이다. 변형 배선·생체액 봉지로 일반화하지 않는다.",
+    "rationale_en": "Cu–SiO2 barrier/adhesion informs electronics foundations without establishing deformable routing or biofluid packaging."
+  },
+  {
+    "number": 14,
+    "primary_theme": "tissue",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "host"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "배양 표면이 줄기세포 스페로이드 형성과 시험관 내 혈관형성 관련 지표에 미치는 영향을 다룬 세포–재료 기초 연구다. 생체 내 효능과 기기–숙주 반응은 입증 범위에 포함하지 않는다.",
+    "rationale_en": "Foundational cell–material research on culture surfaces, stem-cell spheroids and in-vitro angiogenic readouts. In-vivo efficacy and device–host responses are outside the established scope."
+  },
+  {
+    "number": 13,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "SERS 표면 제조를 확인했다. 생체 시료·칩 조립 계면이 검증되지 않아 분석 부품 기반으로 둔다.",
+    "rationale_en": "SERS fabrication supports analytical foundations without established biological samples or chip-assembly interfaces."
+  },
+  {
+    "number": 12,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "유연 다색 발광 시연은 확인했으나 생체 부품 접합이 아닌 광전자 소재·소자 기반에 둔다.",
+    "rationale_en": "Flexible multicolour emission is verified, but remains optoelectronic foundations rather than bioelectronic joining."
+  },
+  {
+    "number": 11,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "기체 구동 물방울 부착은 표면 기초다. 생물학적 적용은 제안 수준이므로 숙주 실증과 구분한다.",
+    "rationale_en": "Gas-controlled droplet adhesion is a surface foundation; proposed biological use is distinct from host validation."
+  },
+  {
+    "number": 10,
+    "primary_theme": "host",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "물–나노와이어 젖음은 표면 기반 연구다. 단백질 오염·면역 반응을 검증한 숙주 연구는 아니다.",
+    "rationale_en": "Water–nanowire wetting is a surface foundation without verified protein fouling or immune response."
+  },
+  {
+    "number": 9,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [
+      "routing"
+    ],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "소재·회로·생체 통합을 가로지르는 리뷰로, 특정 계면 단일 실험이 아닌 통합 기반에 둔다.",
+    "rationale_en": "This review spans materials, circuits and biointegration; it is an integration foundation rather than a single-interface experiment."
+  },
+  {
+    "number": 8,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "유연 FET는 확인했으나 별도 칩–배선 접합이나 BCCI 조립 계면은 확인되지 않았다.",
+    "rationale_en": "Flexible FETs are verified, while separate chip–interconnect joining and BCCI assembly interfaces remain unverified."
+  },
+  {
+    "number": 7,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "표면 평탄화와 접합 전기·광 특성은 생체 계면보다 반도체 부품 기초에 해당한다.",
+    "rationale_en": "Surface smoothing and junction optoelectronics support semiconductor foundations rather than biological interfaces."
+  },
+  {
+    "number": 6,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "물방울 경로 플랫폼이다. 조직 분석물 이동·숙주 반응이 검증되지 않아 통합 기반으로 둔다.",
+    "rationale_en": "Droplet-routing platforms remain foundations without established tissue analyte transport or host response."
+  },
+  {
+    "number": 5,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "이종접합 나노와이어 광다이오드 연구이며 BCCI 부품–배선 접합은 다루지 않는다.",
+    "rationale_en": "Heterojunction nanowire photodiodes do not demonstrate BCCI component–interconnect joining."
+  },
+  {
+    "number": 4,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "UV 검출용 성장·기판 형상 연구다. 소프트 통합의 직접 근거가 없어 기반 참고로 둔다.",
+    "rationale_en": "UV-detector growth and substrate morphology remain foundations without direct soft-integration evidence."
+  },
+  {
+    "number": 3,
+    "primary_theme": "routing",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "Si–PDMS 주름 역학은 변형 구조의 기반이다. 전기적 배선 연속성 실증과 구분한다.",
+    "rationale_en": "Silicon–PDMS wrinkles inform deformable structures; electrical routing continuity is unverified."
+  },
+  {
+    "number": 2,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "MOS 저장 노드·터널링은 전자 재료 기초이며 BCCI 부품 접합이 아니다.",
+    "rationale_en": "MOS storage nodes and tunnelling concern electronics foundations rather than BCCI component joining."
+  },
+  {
+    "number": 1,
+    "primary_theme": "integration",
+    "subtheme": "foundations",
+    "secondary_themes": [],
+    "ambiguity": true,
+    "mapping_basis": "full_text",
+    "rationale_ko": "유리의 투명 전극 공정이다. 소프트·생체 통합으로 확장하지 않고 전자 재료 기초에 둔다.",
+    "rationale_en": "Transparent-electrode processing on glass supports electronics foundations without demonstrated soft or biological integration."
+  }
+]

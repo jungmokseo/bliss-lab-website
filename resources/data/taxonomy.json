@@ -1,0 +1,165 @@
+[
+  {
+    "id": "tissue",
+    "name_en": "Tissue coupling",
+    "name_ko": "조직 결합",
+    "boundary_ko": "조직–생체재료 계면. 조직과의 접촉, 기계적 적응, 분석물 이동을 중심으로 분류한다.",
+    "boundary_en": "Tissue–biomaterial interface. Classification centers on tissue contact, mechanical adaptation and analyte transport.",
+    "description_ko": "조직에 맞닿는 재료의 접착, 역학, 분자 이동을 설계하여 감지나 치료에 필요한 접촉과 접근 경로를 다룬다.",
+    "description_en": "Designs adhesion, mechanics and molecular transport in tissue-contacting materials to support the contact and access paths needed for sensing or therapy.",
+    "subthemes": [
+      {
+        "id": "wet-adhesion",
+        "label_ko": "습윤 조직 접착",
+        "label_en": "Wet tissue adhesion",
+        "description_ko": "젖은 조직과 소재 사이의 결합과 접촉 유지가 중심인 연구.",
+        "description_en": "Research centered on bonding to wet tissue and maintaining contact."
+      },
+      {
+        "id": "tissue-mechanics",
+        "label_ko": "조직 적응 역학",
+        "label_en": "Tissue-adaptive mechanics",
+        "description_ko": "조직 접촉층의 순응성, 강인성, 회복, 팽윤을 설계하는 연구.",
+        "description_en": "Research on compliance, toughness, recovery and swelling in tissue-contacting layers."
+      },
+      {
+        "id": "analyte-transport",
+        "label_ko": "분석물 이동",
+        "label_en": "Analyte transport",
+        "description_ko": "조직이나 체액의 분석물이 감지부에 도달하는 경로와 유입량을 조절하는 연구.",
+        "description_en": "Research on controlling the paths and flux of analytes from tissue or biofluids to a sensing element."
+      },
+      {
+        "id": "repair-biofabrication",
+        "label_ko": "조직 복구와 바이오제작",
+        "label_en": "Tissue repair and biofabrication",
+        "description_ko": "조직과 맞닿는 재료의 형상, 전달 방법, 제작을 조직 복구 기능과 연결하는 연구.",
+        "description_en": "Research linking the shape, delivery and fabrication of tissue-contacting materials to tissue repair."
+      },
+      {
+        "id": "foundations",
+        "label_ko": "기초 연구 · 연결 검토",
+        "label_en": "Foundations · connection under review",
+        "description_ko": "이 테마로 이어질 수 있는 기초 소재·공정 연구의 임시 분류. 테마 적합성을 확정하지 않으며 논문별 판단 근거와 불확실성을 표시한다.",
+        "description_en": "A provisional grouping for foundational materials or processes that may connect to this theme. It does not establish theme fit; each paper retains a rationale and ambiguity flag."
+      }
+    ]
+  },
+  {
+    "id": "routing",
+    "name_en": "Deformable electrical routing",
+    "name_ko": "변형 가능한 전기 배선",
+    "boundary_ko": "연성 기판–배선 계면. 패터닝, 기판 부착, 변형 중 전기적 연속성을 중심으로 분류한다.",
+    "boundary_en": "Soft substrate–interconnect interface. Classification centers on patterning, attachment to the substrate and electrical continuity during deformation.",
+    "description_ko": "연성 기판 위의 전도 경로를 만들고 부착하여, 제작과 변형 과정에서 신호와 전력을 전달하는 문제를 다룬다.",
+    "description_en": "Addresses how conductive paths are formed and attached on soft substrates to carry signals and power through fabrication and deformation.",
+    "subthemes": [
+      {
+        "id": "liquid-conductors",
+        "label_ko": "액체 전도체",
+        "label_en": "Liquid conductors",
+        "description_ko": "액체금속 등 유동성 전도체의 패터닝, 기판 부착, 전기적 연결을 다루는 연구.",
+        "description_en": "Research on patterning, substrate attachment and electrical connections in liquid conductors, including liquid metals."
+      },
+      {
+        "id": "conductive-fibers",
+        "label_ko": "전도성 섬유와 신축 전극",
+        "label_en": "Conductive fibers and stretchable electrodes",
+        "description_ko": "섬유나 신축 전극에서 변형과 전기적 전달을 함께 다루는 연구.",
+        "description_en": "Research on electrical transport during deformation in fibers and stretchable electrodes."
+      },
+      {
+        "id": "deformable-substrates",
+        "label_ko": "변형 가능한 기판",
+        "label_en": "Deformable substrates",
+        "description_ko": "전도 경로를 지지하는 연성 기판과 기판·배선 계면을 설계하는 연구.",
+        "description_en": "Research on soft substrates that support conductive paths and on substrate–interconnect interfaces."
+      },
+      {
+        "id": "foundations",
+        "label_ko": "기초 연구 · 연결 검토",
+        "label_en": "Foundations · connection under review",
+        "description_ko": "이 테마로 이어질 수 있는 기초 소재·공정 연구의 임시 분류. 테마 적합성을 확정하지 않으며 논문별 판단 근거와 불확실성을 표시한다.",
+        "description_en": "A provisional grouping for foundational materials or processes that may connect to this theme. It does not establish theme fit; each paper retains a rationale and ambiguity flag."
+      }
+    ]
+  },
+  {
+    "id": "integration",
+    "name_en": "Component integration",
+    "name_ko": "소자 통합",
+    "boundary_ko": "배선–칩 및 기판–소자 접합부. 기능성 부품의 접속과 조립을 중심으로 분류한다.",
+    "boundary_en": "Interconnect–chip and substrate–component junctions. Classification centers on connecting and assembling functional components.",
+    "description_ko": "변형 가능한 배선과 기능성 소자를 접속하고, 접촉 저항, 전기적 절연, 기계적 적합성, 공정 호환성을 함께 검토한다.",
+    "description_en": "Connects deformable wiring to functional components and examines contact resistance, electrical isolation, mechanical compatibility and process compatibility together.",
+    "subthemes": [
+      {
+        "id": "packaging",
+        "label_ko": "접합과 보호 패키징",
+        "label_en": "Joining and protective packaging",
+        "description_ko": "소자 접합, 전기 접속, 봉지 구조의 조립과 호환성을 다루는 연구. 보호와 투과 제어는 다른 테마에도 공통으로 적용한다.",
+        "description_en": "Research on assembling compatible component joints, electrical contacts and encapsulation structures. Protection and transport control also span the other themes."
+      },
+      {
+        "id": "sensing-actuation",
+        "label_ko": "센서와 구동부의 연결",
+        "label_en": "Sensor and actuator integration",
+        "description_ko": "센서, 자극·구동부, 회로의 연결과 시스템 조립이 중심인 연구. 단순 감지 성능만으로 분류하지 않는다.",
+        "description_en": "Research centered on connecting sensors, stimulation or actuation elements and circuits into a system. Sensing performance alone does not establish this classification."
+      },
+      {
+        "id": "manufacturing",
+        "label_ko": "소자 조립과 제작 공정",
+        "label_en": "Component assembly and fabrication",
+        "description_ko": "서로 다른 소재·소자를 결합하는 공정, 접속 구조, 제작 호환성을 다루는 연구.",
+        "description_en": "Research on processes, junction structures and fabrication compatibility for joining different materials and components."
+      },
+      {
+        "id": "foundations",
+        "label_ko": "기초 연구 · 연결 검토",
+        "label_en": "Foundations · connection under review",
+        "description_ko": "이 테마로 이어질 수 있는 기초 소재·공정 연구의 임시 분류. 테마 적합성을 확정하지 않으며 논문별 판단 근거와 불확실성을 표시한다.",
+        "description_en": "A provisional grouping for foundational materials or processes that may connect to this theme. It does not establish theme fit; each paper retains a rationale and ambiguity flag."
+      }
+    ]
+  },
+  {
+    "id": "host",
+    "name_en": "Host interaction",
+    "name_ko": "숙주 상호작용",
+    "boundary_ko": "장치–숙주 반응 계면. 원치 않는 생물학적 반응과 필요한 조직 상호작용의 균형을 중심으로 분류한다.",
+    "boundary_en": "Device–host response interface. Classification centers on limiting unwanted biological responses while preserving useful tissue interaction.",
+    "description_ko": "생체와 만나는 장치 표면의 오염, 마찰, 염증 및 이물 반응을 다루고, 필요한 생물학적 상호작용을 유지하는 방법을 검토한다.",
+    "description_en": "Examines fouling, friction, inflammation and foreign-body responses at device surfaces, together with ways to retain the intended biological interaction.",
+    "subthemes": [
+      {
+        "id": "antifouling-lubrication",
+        "label_ko": "오염 억제와 윤활 표면",
+        "label_en": "Antifouling and lubricious surfaces",
+        "description_ko": "장치 표면의 비특이적 부착과 마찰을 줄이고 필요한 생체 접촉을 유지하는 연구.",
+        "description_en": "Research on reducing nonspecific attachment and friction at device surfaces while retaining the intended biological contact."
+      },
+      {
+        "id": "immune-response",
+        "label_ko": "면역과 이물 반응",
+        "label_en": "Immune and foreign-body responses",
+        "description_ko": "장치·재료에 대한 숙주의 염증, 면역, 이물 반응을 평가하거나 조절하는 연구.",
+        "description_en": "Research that evaluates or modulates inflammation, immune responses and foreign-body responses to devices or materials."
+      },
+      {
+        "id": "biological-regulation",
+        "label_ko": "생물학적 상호작용 조절",
+        "label_en": "Biological interaction control",
+        "description_ko": "재료·장치가 생물학적 대상과 맺는 기능적 상호작용을 다루는 확장 분류. 숙주 반응과의 직접 연결이 약한 논문은 불확실성을 표시한다.",
+        "description_en": "An extended grouping for functional interactions between materials or devices and biological targets. Papers with a weak direct connection to host responses retain an ambiguity flag."
+      },
+      {
+        "id": "foundations",
+        "label_ko": "기초 연구 · 연결 검토",
+        "label_en": "Foundations · connection under review",
+        "description_ko": "이 테마로 이어질 수 있는 기초 소재·공정 연구의 임시 분류. 테마 적합성을 확정하지 않으며 논문별 판단 근거와 불확실성을 표시한다.",
+        "description_en": "A provisional grouping for foundational materials or processes that may connect to this theme. It does not establish theme fit; each paper retains a rationale and ambiguity flag."
+      }
+    ]
+  }
+]

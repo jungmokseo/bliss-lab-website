@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/jungmokseo/bliss-lab-website",
+  "branch": "main",
+  "commit": "87fdd35accb10bf397b147df85accf68da40921a",
+  "retrieved_at": "2026-10-03",
+  "publication_count": 101,
+  "publications_sha256": "1393932efe59a1a57cd12bfc296424381a02bf6f6d12c1284df9eba4fe695990",
+  "read_only_reference": "../bliss-reference",
+  "notes": "Read-only source snapshot taken before independent library development and publication. The reference checkout remains unchanged; no Mini access."
+}

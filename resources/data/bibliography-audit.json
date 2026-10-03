@@ -1,0 +1,1644 @@
+[
+  {
+    "number": 101,
+    "doi": null,
+    "status": "missing_doi",
+    "source_url": null,
+    "checked_at": "2026-10-03T06:59:53+00:00",
+    "canonical_title": null,
+    "publisher": null,
+    "published_year": null,
+    "license_urls": [],
+    "title_match": null,
+    "notes_ko": "연구실 원본 목록의 DOI가 비어 있습니다. DOI를 추정하지 않았으며, 서지 확정과 학교 Chrome 전문 검증을 보류합니다.",
+    "notes_en": "The original lab list has no DOI. No DOI was inferred. Bibliographic confirmation and full-text verification in the school Chrome session remain pending."
+  },
+  {
+    "number": 100,
+    "doi": "10.1016/j.mser.2026.101285",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mser.2026.101285",
+    "checked_at": "2026-10-03T06:57:42+00:00",
+    "canonical_title": "Bridging IC chips and deformable circuits: A packaging framework for high-density soft electronics",
+    "publisher": "Elsevier BV",
+    "published_year": 2026,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-004",
+      "https://doi.org/10.15223/policy-012",
+      "https://doi.org/10.15223/policy-017",
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 99,
+    "doi": "10.1002/smsc.70402",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002/smsc.70402",
+    "checked_at": "2026-10-03T06:59:53+00:00",
+    "canonical_title": "Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    ],
+    "title_match": true,
+    "notes_ko": "원본 목록에서 누락된 DOI를 출판사 페이지와 Crossref 등록 서지로 확인했습니다. 2026년 9월 21일 정식 온라인 출판, Small Science 6(9), e70402. 원본 Accepted 항목은 baseline에 보존합니다.",
+    "notes_en": "The DOI missing from the baseline was verified at the publisher and Crossref. Published online 21 September 2026, Small Science 6(9), e70402. The original Accepted record is preserved in the baseline."
+  },
+  {
+    "number": 98,
+    "doi": "10.1093/burnst/tkag055",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1093%2Fburnst%2Ftkag055",
+    "checked_at": "2026-10-03T06:57:42+00:00",
+    "canonical_title": "Bioadhesive hydrogels as immunomodulatory interfaces for chronic wound healing: from microenvironmental regulation mechanism to engineering strategies",
+    "publisher": "Oxford University Press (OUP)",
+    "published_year": 2026,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 97,
+    "doi": "10.1002/adma.74385",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.74385",
+    "checked_at": "2026-10-03T06:57:42+00:00",
+    "canonical_title": "Play‐Doh Inspired a Transformative, Shape‐Adaptive iHEÄLS Enabling Post‐Crosslinking Mechanical‐Biological Modulation and Its Effectiveness in Musculoskeletal Repair",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://doi.wiley.com/10.1002/tdm_license_1.1",
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 96,
+    "doi": "10.1002/adfm.77191",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadfm.77191",
+    "checked_at": "2026-10-03T06:57:42+00:00",
+    "canonical_title": "Immune‐Responsive Bioinks Enable Vision‐Guided in Situ Robotic Bioprinting to Accelerate Diabetic Wound Healing",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://doi.wiley.com/10.1002/tdm_license_1.1",
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 95,
+    "doi": "10.1016/j.mtbio.2026.103405",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mtbio.2026.103405",
+    "checked_at": "2026-10-03T06:57:43+00:00",
+    "canonical_title": "Lubricious anti-adhesive interface prevents friction, biofilm, and encrustation in long-term indwelling ureteral stents",
+    "publisher": "Elsevier BV",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 94,
+    "doi": "10.1016/j.mtbio.2026.103299",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mtbio.2026.103299",
+    "checked_at": "2026-10-03T06:57:43+00:00",
+    "canonical_title": "Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis",
+    "publisher": "Elsevier BV",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 93,
+    "doi": "10.1021/acsami.6c04312",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.6c04312",
+    "checked_at": "2026-10-03T06:57:43+00:00",
+    "canonical_title": "Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2026,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 A 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article A. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 92,
+    "doi": "10.1038/s41467-026-72068-6",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-72068-6",
+    "checked_at": "2026-10-03T06:57:44+00:00",
+    "canonical_title": "Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2026,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 91,
+    "doi": "10.1016/j.bioactmat.2026.02.003",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.bioactmat.2026.02.003",
+    "checked_at": "2026-10-03T06:57:44+00:00",
+    "canonical_title": "Slippery dopamine–fluoropolymer hybrid surface for improving biliary stent longevity",
+    "publisher": "Elsevier BV",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 90,
+    "doi": "10.1002/adma.202515767",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.202515767",
+    "checked_at": "2026-10-03T06:57:44+00:00",
+    "canonical_title": "Ion‑Mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 89,
+    "doi": "10.1002/smll.202510949",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.202510949",
+    "checked_at": "2026-10-03T06:57:45+00:00",
+    "canonical_title": "Mechanically Robust and Anti‐Biofouling Hybrid Encapsulation via Layered Organic–Liquid Interfaces for Implantable Devices",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://doi.wiley.com/10.1002/tdm_license_1.1",
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 88,
+    "doi": "10.1002/adhm.202504939",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadhm.202504939",
+    "checked_at": "2026-10-03T06:57:45+00:00",
+    "canonical_title": "Optimized Electrical Stimulation Using a Spray‐Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice",
+    "publisher": "Wiley",
+    "published_year": 2026,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 87,
+    "doi": "10.1021/acsami.5c19771",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.5c19771",
+    "checked_at": "2026-10-03T06:57:45+00:00",
+    "canonical_title": "A Remotely Actuated Multifunctional Nitinol–PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2025,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 86,
+    "doi": "10.1002/aelm.202500475",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Faelm.202500475",
+    "checked_at": "2026-10-03T06:57:46+00:00",
+    "canonical_title": "Encapsulation Strategies for OLEDs: From Conventional Devices to Flexible and Biointegrated Applications",
+    "publisher": "Wiley",
+    "published_year": 2025,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 85,
+    "doi": "10.1126/sciadv.adz1228",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1126%2Fsciadv.adz1228",
+    "checked_at": "2026-10-03T06:57:46+00:00",
+    "canonical_title": "Bioadaptive liquid-infused multifunctional fibers for long-term neural recording via BDNF stabilization and enhanced neural interaction",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "published_year": 2025,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 84,
+    "doi": "10.1002/smll.202501590",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.202501590",
+    "checked_at": "2026-10-03T06:57:46+00:00",
+    "canonical_title": "Gas‐Specific and Tunable Hydrogen‐Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques",
+    "publisher": "Wiley",
+    "published_year": 2025,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 83,
+    "doi": "10.1002/admi.202500353",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadmi.202500353",
+    "checked_at": "2026-10-03T06:57:46+00:00",
+    "canonical_title": "Rapid and Scalable Lubrication Coating for Industrial and Medical Applications via Sequential Dip‐Coating",
+    "publisher": "Wiley",
+    "published_year": 2025,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 82,
+    "doi": "10.1002/adhm.202401735",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadhm.202401735",
+    "checked_at": "2026-10-03T06:57:46+00:00",
+    "canonical_title": "Large Scale Ultrafast Manufacturing of Wireless Soft Bioelectronics Enabled by Autonomous Robot Arm Printing Assisted by a Computer Vision‐Enabled Guidance System for Personalized Wound Healing",
+    "publisher": "Wiley",
+    "published_year": 2024,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref 대표 출판 연도는 2024이나, 온라인/인쇄 출판일 중 원본 연도 2025도 확인되어 실질 불일치로 분류하지 않았습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Crossref's primary publication year is 2024; the original year 2025 also occurs among online/print publication dates, so this is not classified as a substantive mismatch. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 81,
+    "doi": "10.1002/smll.202402431",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.202402431",
+    "checked_at": "2026-10-03T06:57:47+00:00",
+    "canonical_title": "Lubricant‐Coated Organ‐on‐a‐Chip for Enhanced Precision in Preclinical Drug Testing",
+    "publisher": "Wiley",
+    "published_year": 2024,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 80,
+    "doi": "10.1038/s41528-024-00327-x",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fs41528-024-00327-x",
+    "checked_at": "2026-10-03T06:57:47+00:00",
+    "canonical_title": "Universal hydrogel adhesives with robust chain entanglement for bridging soft electronic materials",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2024,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 79,
+    "doi": "10.1002/admt.202400157",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadmt.202400157",
+    "checked_at": "2026-10-03T06:57:47+00:00",
+    "canonical_title": "Hydrogel Ink for 3D Printing with High and Widely Tunable Mechanical Properties via the Salting‐Out Effect",
+    "publisher": "Wiley",
+    "published_year": 2024,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 78,
+    "doi": "10.1021/acsnano.4c00396",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsnano.4c00396",
+    "checked_at": "2026-10-03T06:57:48+00:00",
+    "canonical_title": "Postoperative Long-Term Monitoring of Mechanical Characteristics in Reconstructed Soft Tissues Using Biocompatible, Immune-Tolerant, and Wireless Electronic Sutures",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2024,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 77,
+    "doi": "10.1016/j.bios.2024.116257",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.bios.2024.116257",
+    "checked_at": "2026-10-03T06:57:48+00:00",
+    "canonical_title": "Modulus-tunable multifunctional hydrogel ink with nanofillers for 3D-Printed soft electronics",
+    "publisher": "Elsevier BV",
+    "published_year": 2024,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-004",
+      "https://doi.org/10.15223/policy-012",
+      "https://doi.org/10.15223/policy-017",
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 76,
+    "doi": "10.1002/aelm.202400013",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Faelm.202400013",
+    "checked_at": "2026-10-03T06:57:48+00:00",
+    "canonical_title": "Autonomously Self‐healing, Adhesive, and Stretchable Triboelectric Nanogenerator Using Multifunctional Hydrogel‐Elastomer Double Layer with a Power Management Circuit",
+    "publisher": "Wiley",
+    "published_year": 2024,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 75,
+    "doi": "10.1002/admt.202400060",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadmt.202400060",
+    "checked_at": "2026-10-03T06:57:48+00:00",
+    "canonical_title": "Intelligent In situ Printing of Multimaterial Bioinks for First‐Aid Wound Care Guided by Eye‐In‐Hand Robot Technology",
+    "publisher": "Wiley",
+    "published_year": 2024,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 74,
+    "doi": "10.1039/d3im00122a",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fd3im00122a",
+    "checked_at": "2026-10-03T06:57:49+00:00",
+    "canonical_title": "Liquid-based electronic materials for bioelectronics: current trends and challenges",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2024,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by-nc/3.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 73,
+    "doi": "10.1016/j.cej.2024.149043",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.cej.2024.149043",
+    "checked_at": "2026-10-03T06:57:49+00:00",
+    "canonical_title": "Bioactivated lubricant-infused surfaces: A dual-action strategy for enhancing osseointegration and preventing implant-associated infections",
+    "publisher": "Elsevier BV",
+    "published_year": 2024,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-004",
+      "https://doi.org/10.15223/policy-012",
+      "https://doi.org/10.15223/policy-017",
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 72,
+    "doi": "10.1002/adfm.202312740",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadfm.202312740",
+    "checked_at": "2026-10-03T06:57:49+00:00",
+    "canonical_title": "Lubricant‐Infused Polymeric Interfaces: A Stretchable and Anti‐Fouling Surface for Implantable Biomaterials",
+    "publisher": "Wiley",
+    "published_year": 2023,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref 대표 출판 연도는 2023이나, 온라인/인쇄 출판일 중 원본 연도 2024도 확인되어 실질 불일치로 분류하지 않았습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Crossref's primary publication year is 2023; the original year 2024 also occurs among online/print publication dates, so this is not classified as a substantive mismatch. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 71,
+    "doi": "10.1002/adfm.202311696",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadfm.202311696",
+    "checked_at": "2026-10-03T06:57:49+00:00",
+    "canonical_title": "Functionalized EGaIn Electrodes with Tunable Reduced‐Graphene‐Oxide Assembled EGaIn Core–Shell Particles for Soft and Deformable Electrochemical Biosensors",
+    "publisher": "Wiley",
+    "published_year": 2023,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref 대표 출판 연도는 2023이나, 온라인/인쇄 출판일 중 원본 연도 2024도 확인되어 실질 불일치로 분류하지 않았습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Crossref's primary publication year is 2023; the original year 2024 also occurs among online/print publication dates, so this is not classified as a substantive mismatch. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 70,
+    "doi": "10.1002/advs.202303651",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadvs.202303651",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "A Mechanically Resilient and Tissue‐Conformable Hydrogel with Hemostatic and Antibacterial Capabilities for Wound Care",
+    "publisher": "Wiley",
+    "published_year": 2023,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 69,
+    "doi": "10.18063/ijb.765",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.18063%2Fijb.765",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "3D printing of mechanically tough and self-healing hydrogels with carbon nanotube fillers",
+    "publisher": "AccScience Publishing",
+    "published_year": 2023,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 68,
+    "doi": "10.1021/acsnano.2c10657",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsnano.2c10657",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "Resealable Antithrombotic Artificial Vascular Graft Integrated with a Self-Healing Blood Flow Sensor",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2023,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 67,
+    "doi": "10.1016/j.bioactmat.2022.07.019",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.bioactmat.2022.07.019",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications",
+    "publisher": "Elsevier BV",
+    "published_year": 2023,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 66,
+    "doi": "10.1002/advs.202207237",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadvs.202207237",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "Intrinsically Nonswellable Multifunctional Hydrogel with Dynamic Nanoconfinement Networks for Robust Tissue‐Adaptable Bioelectronics",
+    "publisher": "Wiley",
+    "published_year": 2023,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 65,
+    "doi": "10.3390/bios13010083",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.3390%2Fbios13010083",
+    "checked_at": "2026-10-03T06:57:50+00:00",
+    "canonical_title": "A Review on Microfluidics-Based Impedance Biosensors",
+    "publisher": "MDPI AG",
+    "published_year": 2023,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 64,
+    "doi": "10.1109/ius54386.2022.9958066",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1109%2Fius54386.2022.9958066",
+    "checked_at": "2026-10-03T06:57:51+00:00",
+    "canonical_title": "Giant Pressure Output Efficiency of Capacitive Micromachined Ultrasonic Transducers Using Nano-Silicon-Springs",
+    "publisher": "IEEE",
+    "published_year": 2022,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 63,
+    "doi": "10.1021/acsaelm.1c01212",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsaelm.1c01212",
+    "checked_at": "2026-10-03T06:57:51+00:00",
+    "canonical_title": "Functional Bioelectronic Materials for Long-Term Biocompatibility and Functionality",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2022,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 62,
+    "doi": "10.1002/smll.202107060",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.202107060",
+    "checked_at": "2026-10-03T06:57:51+00:00",
+    "canonical_title": "Development of a Photonic Switch via Electro‐Capillarity‐Induced Water Penetration Across a 10‐nm Gap",
+    "publisher": "Wiley",
+    "published_year": 2022,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 61,
+    "doi": "10.1002/biot.202100231",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fbiot.202100231",
+    "checked_at": "2026-10-03T06:57:51+00:00",
+    "canonical_title": "Rational engineering and applications of functional bioadhesives in biomedical engineering",
+    "publisher": "Wiley",
+    "published_year": 2021,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 60,
+    "doi": "10.1039/d1nr04508c",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fd1nr04508c",
+    "checked_at": "2026-10-03T06:57:51+00:00",
+    "canonical_title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2021,
+    "license_urls": [
+      "http://rsc.li/journals-terms-of-use"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 59,
+    "doi": "10.1002/advs.202100231",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadvs.202100231",
+    "checked_at": "2026-10-03T06:57:52+00:00",
+    "canonical_title": "A Lubricated Nonimmunogenic Neural Probe for Acute Insertion Trauma Minimization and Long‐Term Signal Recording",
+    "publisher": "Wiley",
+    "published_year": 2021,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 58,
+    "doi": "10.1002/adma.202005930",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.202005930",
+    "checked_at": "2026-10-03T06:57:52+00:00",
+    "canonical_title": "Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases",
+    "publisher": "Wiley",
+    "published_year": 2021,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 57,
+    "doi": "10.1126/sciadv.abb0025",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1126%2Fsciadv.abb0025",
+    "checked_at": "2026-10-03T06:57:52+00:00",
+    "canonical_title": "Antibacterial infection and immune-evasive coating for orthopedic implants",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "published_year": 2020,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by-nc/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 56,
+    "doi": "10.1038/s41598-020-74517-8",
+    "status": "mismatch",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fs41598-020-74517-8",
+    "checked_at": "2026-10-03T06:57:52+00:00",
+    "canonical_title": "Lubricant-infused directly engraved nano-microstructures for mechanically durable endoscope lens with anti-biofouling and anti-fogging properties",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2020,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": false,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 정규화 후에도 제목이 달라 수동 검토가 필요합니다. 원본 제목을 자동 수정하지 않았습니다. 원본의 nanostructures와 정식 제목의 nano-microstructures가 달라 구조 길이 척도 표현을 확인해야 합니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. The titles differ after normalization and require manual review. The original title was not changed. The original nanostructures differs from canonical nano-microstructures; the length-scale wording requires review. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 55,
+    "doi": "10.1007/s13206-020-4105-7",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1007%2Fs13206-020-4105-7",
+    "checked_at": "2026-10-03T06:57:53+00:00",
+    "canonical_title": "Recent Advances in Anti-inflammatory Strategies for Implantable Biosensors and Medical Implants",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2020,
+    "license_urls": [
+      "http://www.springer.com/tdm"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 54,
+    "doi": "10.1021/acsami.9b02927",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.9b02927",
+    "checked_at": "2026-10-03T06:57:53+00:00",
+    "canonical_title": "Biocompatible Carbon Nanotube-Based Hybrid Microfiber for Implantable Electrochemical Actuator and Flexible Electronic Applications",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2019,
+    "license_urls": [
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://doi.org/10.15223/policy-045"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 원본 Acutator와 정식 Actuator의 철자 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found the original spelling Acutator versus canonical Actuator. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 53,
+    "doi": "10.1002/cnma.201900146",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fcnma.201900146",
+    "checked_at": "2026-10-03T06:57:53+00:00",
+    "canonical_title": "Flexible and Stretchable PEDOT‐Embedded Hybrid Substrates for Bioengineering and Sensory Applications",
+    "publisher": "Wiley",
+    "published_year": 2019,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 52,
+    "doi": "10.1002/adhm.201801146",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadhm.201801146",
+    "checked_at": "2026-10-03T06:57:53+00:00",
+    "canonical_title": "Cardiac Fibrotic Remodeling on a Chip with Dynamic Mechanical Stimulation",
+    "publisher": "Wiley",
+    "published_year": 2019,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 51,
+    "doi": "10.1021/acsami.8b17181",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.8b17181",
+    "checked_at": "2026-10-03T06:57:54+00:00",
+    "canonical_title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref 대표 출판 연도는 2018이나, 온라인/인쇄 출판일 중 원본 연도 2019도 확인되어 실질 불일치로 분류하지 않았습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Crossref's primary publication year is 2018; the original year 2019 also occurs among online/print publication dates, so this is not classified as a substantive mismatch. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 50,
+    "doi": "10.2174/1381612825666190207093438",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.2174%2F1381612825666190207093438",
+    "checked_at": "2026-10-03T06:57:54+00:00",
+    "canonical_title": "Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior",
+    "publisher": "Bentham Science Publishers Ltd.",
+    "published_year": 2019,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 49,
+    "doi": "10.1021/acsanm.8b01429",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsanm.8b01429",
+    "checked_at": "2026-10-03T06:57:54+00:00",
+    "canonical_title": "pH-Responsive DNA Nanolinker Conjugated Hybrid Materials for Electrochemical Microactuator and Biosensor Applications",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 48,
+    "doi": "10.1021/acsami.8b10217",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.8b10217",
+    "checked_at": "2026-10-03T06:57:54+00:00",
+    "canonical_title": "Highly Conductive Fiber with Waterproof and Self-Cleaning Properties for Textile Electronics",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 A 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article A. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 47,
+    "doi": "10.1016/j.snb.2018.04.040",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.snb.2018.04.040",
+    "checked_at": "2026-10-03T06:57:54+00:00",
+    "canonical_title": "Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection",
+    "publisher": "Elsevier BV",
+    "published_year": 2018,
+    "license_urls": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 46,
+    "doi": "10.1021/acsnano.7b07795",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsnano.7b07795",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "Highly Sensitive Multifilament Fiber Strain Sensors with Ultrabroad Sensing Range for Textile Electronics",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 45,
+    "doi": "10.1021/acsami.7b17991",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.7b17991",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "Interconnectable Dynamic Compression Bioreactors for Combinatorial Screening of Cell Mechanobiology in Three Dimensions",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 44,
+    "doi": "10.1002/adma.201704189",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.201704189",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "Electrically Driven Microengineered Bioinspired Soft Robots",
+    "publisher": "Wiley",
+    "published_year": 2018,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#am",
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 43,
+    "doi": "10.1021/acsnano.7b05826",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsnano.7b05826",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "Single-Droplet Multiplex Bioassay on a Robust and Stretchable Extreme Wetting Substrate through Vacuum-Based Droplet Manipulation",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2018,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 A 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article A. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 42,
+    "doi": "10.3390/coatings8020047",
+    "status": "mismatch",
+    "source_url": "https://api.crossref.org/works/10.3390%2Fcoatings8020047",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "Chemical and Physical Pathways for Fabricating Flexible Superamphiphobic Surfaces with High Transparency",
+    "publisher": "MDPI AG",
+    "published_year": 2018,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": false,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 정규화 후에도 제목이 달라 수동 검토가 필요합니다. 원본 제목을 자동 수정하지 않았습니다. 원본에 and its recent developments가 추가되어 있고 for the fabrication of와 for Fabricating도 다릅니다. 정식 제목과의 차이를 확인해야 합니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. The titles differ after normalization and require manual review. The original title was not changed. The original adds and its recent developments and uses for the fabrication of rather than for Fabricating. The altered title requires review. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 41,
+    "doi": "10.1016/j.biomaterials.2017.06.022",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.biomaterials.2017.06.022",
+    "checked_at": "2026-10-03T06:57:55+00:00",
+    "canonical_title": "High-throughput approaches for screening and analysis of cell behaviors",
+    "publisher": "Elsevier BV",
+    "published_year": 2018,
+    "license_urls": [
+      "http://www.elsevier.com/open-access/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 40,
+    "doi": "10.1088/1674-4926/39/1/011009",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1088%2F1674-4926%2F39%2F1%2F011009",
+    "checked_at": "2026-10-03T06:57:56+00:00",
+    "canonical_title": "Hybrid functional microfibers for textile electronics and biosensors",
+    "publisher": "IOP Publishing",
+    "published_year": 2018,
+    "license_urls": [
+      "http://iopscience.iop.org/info/page/text-and-data-mining",
+      "http://iopscience.iop.org/page/copyright"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 39,
+    "doi": "10.1039/c7nr05446g",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fc7nr05446g",
+    "checked_at": "2026-10-03T06:57:56+00:00",
+    "canonical_title": "Electroconductive nanoscale topography for enhanced neuronal differentiation and electrophysiological maturation of human neural stem cells",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2017,
+    "license_urls": [
+      "http://rsc.li/journals-terms-of-use"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 nanotopography와 nanoscale topography의 표현 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found nanotopography versus nanoscale topography. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 38,
+    "doi": "10.1016/j.mser.2017.07.001",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.mser.2017.07.001",
+    "checked_at": "2026-10-03T06:57:56+00:00",
+    "canonical_title": "Spatially and temporally controlled hydrogels for tissue engineering",
+    "publisher": "Elsevier BV",
+    "published_year": 2017,
+    "license_urls": [
+      "http://www.elsevier.com/open-access/userlicense/1.0/",
+      "https://doi.org/10.15223/policy-004",
+      "https://doi.org/10.15223/policy-012",
+      "https://doi.org/10.15223/policy-017",
+      "https://doi.org/10.15223/policy-029",
+      "https://doi.org/10.15223/policy-037",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 37,
+    "doi": "10.1016/j.nantod.2017.06.008",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.nantod.2017.06.008",
+    "checked_at": "2026-10-03T06:57:56+00:00",
+    "canonical_title": "Evolution and clinical translation of drug delivery nanomaterials",
+    "publisher": "Elsevier BV",
+    "published_year": 2017,
+    "license_urls": [
+      "http://www.elsevier.com/open-access/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 36,
+    "doi": "10.1002/adfm.201701618",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadfm.201701618",
+    "checked_at": "2026-10-03T06:57:57+00:00",
+    "canonical_title": "Bioinspired Geometry‐Switchable Janus Nanofibers for Eye‐Readable H2 Sensors",
+    "publisher": "Wiley",
+    "published_year": 2017,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 35,
+    "doi": "10.1063/1.4994708",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1063%2F1.4994708",
+    "checked_at": "2026-10-03T06:57:57+00:00",
+    "canonical_title": "Bioprinted 3D vascularized tissue model for drug toxicity analysis",
+    "publisher": "AIP Publishing",
+    "published_year": 2017,
+    "license_urls": [
+      "https://publishing.aip.org/authors/rights-and-permissions"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 34,
+    "doi": "10.1002/smll.201602865",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.201602865",
+    "checked_at": "2026-10-03T06:57:57+00:00",
+    "canonical_title": "A Droplet‐Based High‐Throughput SERS Platform on a Droplet‐Guiding‐Track‐Engraved Superhydrophobic Substrate",
+    "publisher": "Wiley",
+    "published_year": 2016,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref 대표 출판 연도는 2016이나, 온라인/인쇄 출판일 중 원본 연도 2017도 확인되어 실질 불일치로 분류하지 않았습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Crossref's primary publication year is 2016; the original year 2017 also occurs among online/print publication dates, so this is not classified as a substantive mismatch. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 33,
+    "doi": "10.1002/adma.201601900",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.201601900",
+    "checked_at": "2026-10-03T06:57:57+00:00",
+    "canonical_title": "Triboelectric Nanogenerator Accelerates Highly Efficient Nonviral Direct Conversion and In Vivo Reprogramming of Fibroblasts to Functional Neuronal Cells",
+    "publisher": "Wiley",
+    "published_year": 2016,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 32,
+    "doi": "10.1021/acsami.6b01804",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facsami.6b01804",
+    "checked_at": "2026-10-03T06:57:57+00:00",
+    "canonical_title": "Graphene Oxide Hierarchical Patterns for the Derivation of Electrophysiologically Functional Neuron-like Cells from Human Neural Stem Cells",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2016,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 the 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article the. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 31,
+    "doi": "10.1038/am.2016.42",
+    "status": "mismatch",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fam.2016.42",
+    "checked_at": "2026-10-03T06:57:58+00:00",
+    "canonical_title": "A facile method for the selective decoration of graphene defects based on a galvanic displacement reaction",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2016,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": false,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 정규화 후에도 제목이 달라 수동 검토가 필요합니다. 원본 제목을 자동 수정하지 않았습니다. 원본 selective healing과 정식 selective decoration은 서로 다른 과학적 행위를 나타내므로 우선 검토가 필요합니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. The titles differ after normalization and require manual review. The original title was not changed. Original selective healing and canonical selective decoration describe different scientific actions and require priority review. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 30,
+    "doi": "10.3390/ma9020116",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.3390%2Fma9020116",
+    "checked_at": "2026-10-03T06:57:58+00:00",
+    "canonical_title": "Bio-Inspired Extreme Wetting Surfaces for Biomedical Applications",
+    "publisher": "MDPI AG",
+    "published_year": 2016,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 29,
+    "doi": "10.1155/2015/975043",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1155%2F2015%2F975043",
+    "checked_at": "2026-10-03T06:57:58+00:00",
+    "canonical_title": "Highly Stable Surface‐Enhanced Raman Spectroscopy Substrates Using Few‐Layer Graphene on Silver Nanoparticles",
+    "publisher": "Wiley",
+    "published_year": 2015,
+    "license_urls": [
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 28,
+    "doi": "10.1039/c5tc01890k",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fc5tc01890k",
+    "checked_at": "2026-10-03T06:57:58+00:00",
+    "canonical_title": "The impact of atomic layer deposited SiO 2 passivation for high-k Ta 1−x Zr x O on the InP substrate",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2015,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 the 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article the. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 27,
+    "doi": "10.3390/nano5031493",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.3390%2Fnano5031493",
+    "checked_at": "2026-10-03T06:57:58+00:00",
+    "canonical_title": "Textile-Based Electronic Components for Energy Applications: Principles, Problems, and Perspective",
+    "publisher": "MDPI AG",
+    "published_year": 2015,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 26,
+    "doi": "10.1016/j.apsusc.2015.03.107",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.apsusc.2015.03.107",
+    "checked_at": "2026-10-03T06:57:59+00:00",
+    "canonical_title": "Proton irradiation energy dependence of defect formation in graphene",
+    "publisher": "Elsevier BV",
+    "published_year": 2015,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 25,
+    "doi": "10.1021/acs.chemmater.5b01038",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facs.chemmater.5b01038",
+    "checked_at": "2026-10-03T06:57:59+00:00",
+    "canonical_title": "Reversible Liquid Adhesion Switching of Superamphiphobic Pd-Decorated Ag Dendrites via Gas-Induced Structural Changes",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2015,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 24,
+    "doi": "10.1038/srep12326",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fsrep12326",
+    "checked_at": "2026-10-03T06:57:59+00:00",
+    "canonical_title": "Path-programmable water droplet manipulations on an adhesion controlled superhydrophobic surface",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2015,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 an 및 surface/surfaces 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found the article an and surface/surfaces variation. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 23,
+    "doi": "10.1038/srep12306",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fsrep12306",
+    "checked_at": "2026-10-03T06:58:00+00:00",
+    "canonical_title": "Efficient Direct Reduction of Graphene Oxide by Silicon Substrate",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2015,
+    "license_urls": [
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 22,
+    "doi": "10.1109/tthz.2015.2428619",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1109%2Ftthz.2015.2428619",
+    "checked_at": "2026-10-03T06:58:00+00:00",
+    "canonical_title": "Counterbalanced Effect of Surface Trap and Auger Recombination on the Transverse Terahertz Carrier Dynamics in Silicon Nanowires",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published_year": 2015,
+    "license_urls": [
+      "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 21,
+    "doi": "10.1002/adfm.201500628",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadfm.201500628",
+    "checked_at": "2026-10-03T06:58:00+00:00",
+    "canonical_title": "Ag Nanowire Reinforced Highly Stretchable Conductive Fibers for Wearable Electronics",
+    "publisher": "Wiley",
+    "published_year": 2015,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 20,
+    "doi": "10.1002/adma.201500009",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.201500009",
+    "checked_at": "2026-10-03T06:58:00+00:00",
+    "canonical_title": "Conductive Fiber‐Based Ultrasensitive Textile Pressure Sensor for Wearable Electronics",
+    "publisher": "Wiley",
+    "published_year": 2015,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 19,
+    "doi": "10.1021/am5073645",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Fam5073645",
+    "checked_at": "2026-10-03T06:58:01+00:00",
+    "canonical_title": "A Highly Sensitive Hydrogen Sensor with Gas Selectivity Using a PMMA Membrane-Coated Pd Nanoparticle/Single-Layer Graphene Hybrid",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2015,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 a 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article a. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 18,
+    "doi": "10.1016/j.jpowsour.2014.10.137",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.jpowsour.2014.10.137",
+    "checked_at": "2026-10-03T06:58:01+00:00",
+    "canonical_title": "Preparation of a self-assembled organosilane coating on carbon black as a catalyst support in polymer electrolyte membrane fuel cells",
+    "publisher": "Elsevier BV",
+    "published_year": 2015,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 17,
+    "doi": "10.1039/c4ra13014f",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fc4ra13014f",
+    "checked_at": "2026-10-03T06:58:01+00:00",
+    "canonical_title": "Electrostatically-induced trajectory switching system on a multi-inlet-multi-outlet superhydrophobic droplet guiding track",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2015,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 Electrostatic-Induced와 Electrostatically-induced의 어법 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found Electrostatic-Induced versus Electrostatically-induced. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 16,
+    "doi": "10.1186/1556-276x-9-610",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1186%2F1556-276x-9-610",
+    "checked_at": "2026-10-03T06:58:01+00:00",
+    "canonical_title": "Enhancement of X-ray detection by single-walled carbon nanotube enriched flexible polymer composite",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2014,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 15,
+    "doi": "10.1039/c4ra08134j",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1039%2Fc4ra08134j",
+    "checked_at": "2026-10-03T06:58:01+00:00",
+    "canonical_title": "Coupled self-assembled monolayer for enhancement of Cu diffusion barrier and adhesion properties",
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "published_year": 2014,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 14,
+    "doi": "10.1002/adma.201402273",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.201402273",
+    "checked_at": "2026-10-03T06:58:02+00:00",
+    "canonical_title": "Switchable Water‐Adhesive, Superhydrophobic Palladium‐Layered Silicon Nanowires Potentiate the Angiogenic Efficacy of Human Stem Cell Spheroids",
+    "publisher": "Wiley",
+    "published_year": 2014,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 13,
+    "doi": "10.1021/am5000382",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Fam5000382",
+    "checked_at": "2026-10-03T06:58:02+00:00",
+    "canonical_title": "Capillary Force-Induced Glue-Free Printing of Ag Nanoparticle Arrays for Highly Sensitive SERS Substrates",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2014,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 as와 for의 전치사 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found the preposition as versus for. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 12,
+    "doi": "10.1021/nn4040926",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Fnn4040926",
+    "checked_at": "2026-10-03T06:58:02+00:00",
+    "canonical_title": "Extremely Bright Full Color Alternating Current Electroluminescence of Solution-Blended Fluorescent Polymers with Self-Assembled Block Copolymer Micelles",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2013,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 11,
+    "doi": "10.1002/adma.201300979",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fadma.201300979",
+    "checked_at": "2026-10-03T06:58:02+00:00",
+    "canonical_title": "Gas‐Driven Ultrafast Reversible Switching of Super‐hydrophobic Adhesion on Palladium‐Coated Silicon Nanowires",
+    "publisher": "Wiley",
+    "published_year": 2013,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 10,
+    "doi": "10.1016/j.tsf.2012.12.010",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.tsf.2012.12.010",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "Reversible wettability control of silicon nanowire surfaces: From superhydrophilicity to superhydrophobicity",
+    "publisher": "Elsevier BV",
+    "published_year": 2013,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 9,
+    "doi": "10.1016/j.tsf.2012.10.001",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.tsf.2012.10.001",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "Nanomaterials on flexible substrates to explore innovative functions: From energy harvesting to bio-integrated electronics",
+    "publisher": "Elsevier BV",
+    "published_year": 2012,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 8,
+    "doi": "10.1002/smll.201102367",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1002%2Fsmll.201102367",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "Direct Gravure Printing of Silicon Nanowires Using Entropic Attraction Forces",
+    "publisher": "Wiley",
+    "published_year": 2012,
+    "license_urls": [
+      "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 7,
+    "doi": "10.1007/s11051-012-0840-6",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1007%2Fs11051-012-0840-6",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "The effects of surface modification on the electrical properties of p–n + junction silicon nanowires grown by an aqueous electroless etching method",
+    "publisher": "Springer Science and Business Media LLC",
+    "published_year": 2012,
+    "license_urls": [
+      "http://www.springer.com/tdm"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 6,
+    "doi": "10.1021/am2011756",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1021%2Fam2011756",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "Guided Transport of Water Droplets on Superhydrophobic–Hydrophilic Patterned Si Nanowires",
+    "publisher": "American Chemical Society (ACS)",
+    "published_year": 2011,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 5,
+    "doi": "10.3938/jkps.59.501",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.3938%2Fjkps.59.501",
+    "checked_at": "2026-10-03T06:58:03+00:00",
+    "canonical_title": "Si/Si1-xGex/Si Heterojunction PIN Nanowires Fabricated by Using an Aqueous Electroless Etching Method",
+    "publisher": "Korean Physical Society",
+    "published_year": 2011,
+    "license_urls": [],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 fabricated by와 fabricated by using의 표현 차이를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. Crossref에 라이선스 링크가 없으며 재배포 권리는 확인되지 않았습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found fabricated by versus fabricated by using. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. No license link is present in Crossref; redistribution rights have not been established."
+  },
+  {
+    "number": 4,
+    "doi": "10.1016/j.apsusc.2010.12.158",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.apsusc.2010.12.158",
+    "checked_at": "2026-10-03T06:58:04+00:00",
+    "canonical_title": "Growth, modulation and photoresponse characteristics of vertically aligned ZnO nanowires",
+    "publisher": "Elsevier BV",
+    "published_year": 2011,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 3,
+    "doi": "10.1016/j.tsf.2010.08.140",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.tsf.2010.08.140",
+    "checked_at": "2026-10-03T06:58:04+00:00",
+    "canonical_title": "Surface deformation of amorphous silicon thin film on elastomeric substrate",
+    "publisher": "Elsevier BV",
+    "published_year": 2010,
+    "license_urls": [
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 2,
+    "doi": "10.1143/jjap.49.104003",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1143%2Fjjap.49.104003",
+    "checked_at": "2026-10-03T06:58:04+00:00",
+    "canonical_title": "Trade-Off Relationship of Size and Density of Platinum Nanocrystal in Nonvolatile Memory Characteristics",
+    "publisher": "IOP Publishing",
+    "published_year": 2010,
+    "license_urls": [
+      "https://iopscience.iop.org/info/page/text-and-data-mining",
+      "https://iopscience.iop.org/page/copyright"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. 수동 대조 결과 관사 the 유무를 확인했습니다. 동일 논문을 가리키는 경미한 서지 표현 차이로 판정했으며 원본값은 유지했습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. Manual comparison found presence/absence of the article the. This was adjudicated as a minor bibliographic variation referring to the same paper; original values were retained. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  },
+  {
+    "number": 1,
+    "doi": "10.1016/j.apsusc.2008.11.085",
+    "status": "verified_metadata",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.apsusc.2008.11.085",
+    "checked_at": "2026-10-03T06:58:04+00:00",
+    "canonical_title": "Effects of H2 ambient annealing in fully 002-textured ZnO:Ga thin films grown on glass substrates using RF magnetron co-sputter deposition",
+    "publisher": "Elsevier BV",
+    "published_year": 2009,
+    "license_urls": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/"
+    ],
+    "title_match": true,
+    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+  }
+]
