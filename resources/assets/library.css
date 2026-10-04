@@ -537,3 +537,10 @@ html:lang(ko) .library-outro h2 { font-family:var(--sans); font-weight:600; lett
 .research-figure .figure-credit { color:#6a707a; font-size:.67rem; }
 .figure-reference { margin:25px 0; padding:20px; border-left:2px solid #b8c7e2; font-size:.78rem; }
 @media(max-width:560px) { .research-figure{padding:12px;margin:23px 0 28px;} .research-figure figcaption p{font-size:.73rem;} .research-figure .figure-credit{font-size:.64rem;} }
+
+/* Mobile concept captions: preserve the existing typefaces, layout and imagery. */
+@media screen and (max-width:560px) {
+  .concept-figure figcaption,
+  .concept-figure figcaption p { font-size:.875rem; }
+  .concept-figure .figure-credit { color:var(--text-secondary); font-size:.8125rem; }
+}
