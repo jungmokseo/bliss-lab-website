@@ -1,5 +1,420 @@
 [
   {
+    "number": 99,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-099-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/smsc.70402",
+    "source_url": "https://doi.org/10.1002/smsc.70402",
+    "sources": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13618461/fullTextXML",
+        "locator": "§1 Introduction; §7 Conclusion",
+        "read_scope": "public_repository_selected_full_text_read"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13618461/fullTextXML",
+        "locator": "§3.1 Geometry Modification; §3.2 Stretchable Interconnect; §7 Conclusion",
+        "read_scope": "public_repository_selected_full_text_read"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13618461/fullTextXML",
+        "locator": "§2.1 Seebeck Effect; §2.2 Peltier Effect",
+        "read_scope": "public_repository_selected_full_text_read"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13618461/fullTextXML",
+        "locator": "§7 Conclusion; editorial comparison conditions, not independently audited cited experiments",
+        "read_scope": "public_repository_selected_full_text_read"
+      }
+    ],
+    "sha256": "23aa95d773c8dd0b57e70c4a8ceb8db5473bf852236842f504ac8f355fc2d464",
+    "caption_ko": "AI 생성 개념도: 착용형 열전 소자에서 곡면 접촉, 변형 가능한 전기 연결과 열 전달을 함께 고려하는 종설의 설계 관점입니다. 화살표는 개념적 열 흐름을 뜻하며, 특정 장치의 체온 발전 출력이나 냉각 성능을 나타내지 않습니다.",
+    "caption_en": "AI-generated concept of a review perspective linking curved-surface contact, deformable electrical connections and heat transport in wearable thermoelectrics. Arrows indicate conceptual heat flow, not a device’s body-heat power output or cooling performance.",
+    "alt_ko": "따뜻한 곡면 위의 파란 유연 운반층에 회색 블록 세 개가 놓이고 금색 연결부로 이어지며, 열 흐름 화살표가 위로 향하는 개념도입니다.",
+    "alt_en": "Three gray blocks linked by gold connections on a blue compliant carrier above a warm curved surface, with upward heat-flow arrows.",
+    "concept_scope_ko": "개별 블록은 기능 단위, 금색 띠는 연결의 기호입니다. 내부 열전 접합, 배선도, 재료 조성, 온도·출력·치수와 개수 비율은 재현하지 않았습니다. 종설의 키리가미 실험을 묘사한 그림이 아닙니다.",
+    "concept_scope_en": "Blocks and gold links denote functional units and connections. Internal thermoelectric junctions, circuit routing, composition, temperature, output and dimensions are not reproduced. This is not the review’s cited kirigami experiment.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 98,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-098-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1093/burnst/tkag055",
+    "source_url": "https://doi.org/10.1093/burnst/tkag055",
+    "sources": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13602266/fullTextXML",
+        "locator": "sec6, Required properties of bioadhesive hydrogels in clinical practices: coordinated interfacial, mechanical, transport and biological requirements; subtype/stage-dependent design",
+        "read_scope": "existing public XML cache sec6 directly read in this review; approved manuscript reused for remaining boundaries"
+      }
+    ],
+    "sha256": "d4ef232049d7c7815d61b4759fb501adca4d98bd5fed0913fa4d743728370a85",
+    "caption_ko": "AI 생성 개념도: 만성 상처용 하이드로젤의 접착·제거, 변형 수용, 물질 이동, 면역 조절 시점을 정리한 종설의 설계 틀입니다. 특정 재료의 성능이나 임상 효과를 나타내는 실험 결과가 아니며, 형상과 비율은 설명용입니다.",
+    "caption_en": "AI-generated concept: a review framework for hydrogel adhesion/removal, deformation, transport and the timing of immune regulation at chronic-wound interfaces. It is not experimental evidence of material performance or clinical efficacy; shapes and proportions are illustrative.",
+    "alt_ko": "젖은 계면 위 파란 하이드로젤 밴드 주변에 접착·제거, 변형, 물질 이동, 면역 조절 시점을 나타내는 네 아이콘이 연결된 개념도입니다.",
+    "alt_en": "A blue hydrogel ribbon above a wet interface connects to four icons for adhesion/removal, deformation, transport and immune timing.",
+    "concept_scope_ko": "종설의 정성적 분류만 표현합니다. 시계 바늘은 실제 처치 시점이 아니며, 화살표는 접착 강도·제거 손상·투과율·면역 억제량을 표시하지 않습니다. 분자 구조와 조직 미세구조를 재현하지 않았습니다.",
+    "concept_scope_en": "Qualitative review categories only. Clock hands do not specify treatment times, and arrows do not quantify adhesion, removal injury, permeability or immune suppression. Molecular and tissue microstructures are not reproduced.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 93,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-093-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1021/acsami.6c04312",
+    "source_url": "https://doi.org/10.1021/acsami.6c04312",
+    "sources": [
+      {
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator": "message.abstract, title and DOI; publisher-registered abstract only",
+        "access": "publisher_registered_abstract_via_Crossref"
+      }
+    ],
+    "sha256": "20bfa356ac7a5d257ba63985d3b45bad49ce59ba9c3ca26e28b59e210ee37a6a",
+    "caption_ko": "AI 생성 개념도: 공개 초록에 명시된 SHIELD-C의 PDMS 브러시·실리콘오일 계면과 윤활액 보충을 설명합니다. 캡 외형과 밴드는 기능을 나타내는 기호이며 실제 구조·실험 영상·임상 결과가 아닙니다.",
+    "caption_en": "AI-generated concept of SHIELD-C’s PDMS-brush/silicone-oil interface and lubricant replenishment described in the public abstract. The cap outline and bands are functional symbols, not actual geometry, experimental imagery or clinical outcomes.",
+    "alt_ko": "일반적인 내시경 캡에서 PDMS 브러시와 실리콘오일의 기능 밴드로 연결되고 보충 방울이 별도로 표시된 초록 기반 개념도입니다.",
+    "alt_en": "An abstract-based concept linking a generic endoscope-cap symbol to PDMS-brush and silicone-oil functional bands, with a separate replenishment droplet.",
+    "concept_scope_ko": "Crossref에 등록된 출판사 초록만으로 판단했습니다. 화살표는 광 경로와 보충 개념이며 투과량·시야 회복·자동 공급을 뜻하지 않습니다. 실제 캡 장착부, 브러시 분자 배열, 층 두께와 보충 절차를 재현하지 않습니다. 본문 심화는 계속 대기입니다.",
+    "concept_scope_en": "Judgment uses the publisher-registered Crossref abstract only. Arrows denote optical path and replenishment, not transmittance, restored vision or automated supply. Mounting hardware, brush molecular arrangement, thickness and replenishment procedures are not reproduced. Article-depth work remains blocked.",
+    "generation_provenance_ko": "공개 초록에서 확인한 개념으로 웹 ChatGPT에서 생성하고 초록 범위에서 독립 검토했습니다. 논문 본문·보충자료를 검증했다는 뜻이 아닙니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts verified in the public abstract and independently reviewed within that abstract-only scope. This does not claim verification of the main text or supplements. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 89,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-089-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/smll.202510949",
+    "source_url": "https://doi.org/10.1002/smll.202510949",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1002/smll.202510949",
+        "locator": "PDF pp. 1–2: introduction",
+        "read_scope": "local_published_pdf_selected_full_text_read"
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202510949",
+        "locator": "PDF pp. 2–3: architecture; p. 11: §4.1",
+        "read_scope": "local_published_pdf_selected_full_text_read"
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202510949",
+        "locator": "PDF pp. 9–10: implant/antenna evaluation; p. 12: §4.10",
+        "read_scope": "local_published_pdf_selected_full_text_read"
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202510949",
+        "locator": "PDF p. 11: Conclusions, future validation paragraph",
+        "read_scope": "local_published_pdf_selected_full_text_read"
+      }
+    ],
+    "sha256": "ef93c8b6145f7722a81c6d2b0d360f8cc815755eee81e64ae62074acccd4b3ab",
+    "caption_ko": "AI 생성 개념도: MOLE의 결합 차단 영역과 외부 윤활 계면의 역할을 나눠 설명합니다. 물·이온의 침투에 대한 전기적 보호와 표면 부착 조절은 별도 평가 대상입니다. 실제 적층이나 실험 결과를 재현하지 않았습니다.",
+    "caption_en": "AI-generated concept separating MOLE’s bonded barrier and outer lubricated interface. Electrical protection against water/ion ingress and control of surface attachment require separate evaluations. The image does not reproduce the actual stack or test results.",
+    "alt_ko": "연성 기기 위 파란 실리콘·Parylene C 결합 차단 영역과 금색 윤활 계면, 그 위의 물·이온·단백질 기호를 구분해 표시한 개념도입니다.",
+    "alt_en": "A soft device below a blue silicone/Parylene C bonded-barrier region and gold lubricated interface, with water, ion and protein symbols above.",
+    "concept_scope_ko": "층 개수·두께·결합 화학과 회로를 재현하지 않은 기능 영역입니다. 바깥쪽 화살표는 종별 반사·배출 경로나 완전 차단을 뜻하지 않습니다. 금색 윤활 영역 하나가 모든 침투를 막거나 무기한 유지된다는 의미도 아닙니다.",
+    "concept_scope_en": "These are functional regions, not layer counts, thicknesses, bonding chemistry or circuitry. Outward arrows do not specify species-level reflection, expulsion or complete exclusion. The gold lubricant alone is not presented as an indefinite barrier to all ingress.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 86,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-086-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/aelm.202500475",
+    "source_url": "https://doi.org/10.1002/aelm.202500475",
+    "sources": [
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aelm.202500475",
+        "locator": "§3 Evaluation methods; §5.3 Encapsulation for Bioelectronic Devices",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aelm.202500475",
+        "locator": "§3.1 WVTR; §3.2 Mechanical Stability; §3.3 Additional Evaluation Methods",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aelm.202500475",
+        "locator": "§5.3; §5.4 barrier/mechanical trade-offs",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aelm.202500475",
+        "locator": "§5.4 Practical Challenges and Industrial Viability",
+        "read_scope": "public_publisher_selected_full_text_read"
+      }
+    ],
+    "sha256": "d9cbb775ce09bd9580b59143612bfa362a621c6eb3e20d1aa7dc3858ce831685",
+    "caption_ko": "AI 생성 개념도: 유연 봉지 종설에서 막의 차단성, 변형 하중, 기기 기능을 구분해 평가하는 관점입니다. 각 아이콘은 평가 범주를 뜻하며 물방울이나 회로 기호 자체가 투과도 또는 기능 유지의 측정 결과는 아닙니다.",
+    "caption_en": "AI-generated concept of a flexible-encapsulation review framework separating film-barrier, mechanical-loading and device-function evaluation. The icons denote categories; a droplet or circuit symbol is not a measurement of permeability or retained function.",
+    "alt_ko": "차단성·순응성 연결선 아래 물방울이 놓인 막, 굽힌 막, 회로 기판 아이콘이 각각 막 차단·기계 하중·기기 기능으로 표시된 개념도입니다.",
+    "alt_en": "Below a barrier/compliance link, icons of a droplet on a film, a bent film and a circuit board denote film barrier, mechanical loading and device function.",
+    "concept_scope_ko": "물방울은 수분 노출의 기호로 수분 투과도 측정법이나 접촉각 결과를 재현하지 않습니다. 굽힘·회로 그림도 실제 시험 구성, 변형 조건, 성능 유지 또는 최적 재료를 뜻하지 않습니다.",
+    "concept_scope_en": "The droplet symbolizes moisture exposure, not a WVTR method or contact-angle result. The bending and circuit icons do not specify test setups, deformation conditions, retained performance or an optimal material.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 83,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-083-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/admi.202500353",
+    "source_url": "https://doi.org/10.1002/admi.202500353",
+    "sources": [
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202500353",
+        "locator": "§2.1 Fabrication/design; Conclusion",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202500353",
+        "locator": "§2.1: low-molecular-weight PFPE adsorption and high-molecular-weight mobile lubricant",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202500353",
+        "locator": "§2.3 first three paragraphs; Fig. 3A and main-text description of SAM comparison referencing Fig. S3; supplementary figure itself not independently audited",
+        "read_scope": "public_publisher_selected_full_text_read"
+      },
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202500353",
+        "locator": "§2.3; §2.5; Conclusion; editorial durability and implant-safety questions",
+        "read_scope": "public_publisher_selected_full_text_read"
+      }
+    ],
+    "sha256": "62f0fa2b7e41d4e302014e9b1bcaeb2f31124098bfe4abf2365f84103ac91ec8",
+    "caption_ko": "AI 생성 개념도: SLIME의 낮은 분자량 PFPE 흡착 기반과 높은 분자량 PFPE의 이동성 윤활 영역을 구분합니다. 화살표는 남아 있는 액체의 이동 가능성을 뜻하며, 고체 균열의 자가치유나 실제 회복 유동을 측정한 결과가 아닙니다.",
+    "caption_en": "AI-generated concept separating SLIME’s lower-molecular-weight adsorbed PFPE base and higher-molecular-weight mobile lubricant. Arrows indicate possible motion of remaining liquid, not solid-crack healing or a measured recovery-flow field.",
+    "alt_ko": "연속된 곡면 기판 위 얇은 파란 기반 영역과 금색 윤활 영역이 놓이고, 측방 화살표와 물방울이 표시된 개념도입니다.",
+    "alt_en": "A thin blue base and gold lubricating region on a continuous curved substrate, with lateral arrows and a resting droplet.",
+    "concept_scope_ko": "금색은 액체 영역을 구분하는 색이며 금속층을 뜻하지 않습니다. 층 두께·분자 배열·화살표 방향과 속도·물방울 접촉각을 재현하지 않았습니다. 윤활액 소실 뒤 무한 재생이나 무보충 수명도 나타내지 않습니다.",
+    "concept_scope_en": "Gold distinguishes liquid, not a metal film. Thickness, molecular arrangement, arrow direction/speed and droplet contact angle are not reproduced. The image does not imply regeneration after lubricant loss or maintenance-free lifetime.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 81,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-081-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/smll.202402431",
+    "source_url": "https://doi.org/10.1002/smll.202402431",
+    "sources": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/smll.202402431",
+        "locator": "Abstract; §2.1 Composition and Principle; §2.2 Fabrication and Characterizations (regional coatings and PET membrane)",
+        "access": "public_publisher_selected_full_text_reread"
+      }
+    ],
+    "sha256": "357332f125a5d4afd84b802232b7a89f554888dbb7ca96ab3b97f9fc14f44f9c",
+    "caption_ko": "AI 생성 개념도: PreD의 윤활 채널 벽과 ECM 코팅 PET 세포 지지막의 서로 다른 역할을 설명합니다. 한 채널만 단순화한 그림이며 약물 회수율·독성 예측·장기 기능의 실험 결과가 아닙니다.",
+    "caption_en": "AI-generated concept separating PreD’s lubricated channel walls from its ECM-coated PET cell-support membrane. Only one simplified channel is shown; this is not evidence of drug recovery, toxicity prediction or organ function.",
+    "alt_ko": "윤활 벽이 파란색으로 표시된 투명 채널에서 금색 ECM 위 세포와 다공성 막, 용질 기호 및 유동 화살표를 구분한 개념도입니다.",
+    "alt_en": "A transparent channel with blue lubricated walls, cells on gold ECM above a porous-membrane symbol, solute symbols and a flow arrow.",
+    "concept_scope_ko": "아래쪽 채널은 생략했습니다. 막의 확대된 구멍과 두께, ECM 섬유·세포·용질의 모양과 개수는 설명용 기호이며 실제 기공 배열·세포 형태·농도·흐름장을 재현하지 않습니다. 금색은 금속을 뜻하지 않습니다.",
+    "concept_scope_en": "The lower channel is omitted. Enlarged pores, thickness, ECM fibers, cells and solutes are symbols rather than actual pore architecture, morphology, concentration or flow fields. Gold does not signify metal.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 77,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-077-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1016/j.bios.2024.116257",
+    "source_url": "https://doi.org/10.1016/j.bios.2024.116257",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1016/j.bios.2024.116257",
+        "locator": "Main PDF pp. 3–4, §§3.1–3.2: THIN-X/THIN-C roles, sequential support/conducting-layer fabrication and nanofillers; Methods §2.7 for separate NHS treatment",
+        "access": "local_published_pdf_selected_text_reread"
+      }
+    ],
+    "sha256": "3a96bd038f95652a246ad599d17945a35419a1d2d358ec3be103fa2aefaef294",
+    "caption_ko": "AI 생성 개념도: 나노클레이를 포함한 THIN-X의 지지 영역과 기능화 CNT를 포함한 THIN-C의 전도 경로를 구분한 하이드로겔 인쇄 개념입니다. 실제 조성·입자 분포·기기 형상이나 회복 성능을 재현하지 않습니다.",
+    "caption_en": "AI-generated printing concept separating a nanoclay-containing THIN-X support from a functionalized-CNT-containing THIN-C conductive path. Formulation, filler distribution, device geometry and recovery performance are not reproduced.",
+    "alt_ko": "판상 필러 기호가 있는 밝은 하이드로겔 위에 곡선 CNT 기호가 있는 진한 경로를 노즐로 인쇄하는 개념도입니다.",
+    "alt_en": "A nozzle prints a dark hydrogel path with curved CNT symbols onto a pale hydrogel support containing platelet symbols.",
+    "concept_scope_ko": "회색 판과 짧은 곡선은 각각 나노클레이와 CNT의 기호입니다. 크기·밀도·배향·분산도·전도망을 측정한 영상이 아니며, 매트릭스가 투명하게 보이는 것은 내부 역할을 설명하기 위한 표현입니다. 피부 접착·전체 기기 자가복구를 뜻하지 않습니다.",
+    "concept_scope_en": "Gray plates and short curves symbolize nanoclay and CNTs. They do not measure size, loading, orientation, dispersion or a percolating network. Transparency exposes conceptual internal roles; skin adhesion and whole-device repair are not implied.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 74,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-074-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1039/d3im00122a",
+    "source_url": "https://doi.org/10.1039/d3im00122a",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1039/d3im00122a",
+        "locator": "Local published PDF pp. 2–14: conductor sections, §3 liquid-infused encapsulation, §4 adhesives, Table 1 and §5 Conclusions; title/DOI matched.",
+        "read_scope": "local_pdf_selected_main_text"
+      }
+    ],
+    "sha256": "9232e156a5913c2f20fbd5db7a0002faa87708ec2a2723445e6101b634afc430",
+    "caption_ko": "AI 생성 개념도. 액체 기반 생체전자 종설의 전도·보호·접착 기능을 독립된 장면으로 정리했습니다. 형상과 색은 기능 기호이며 단일 제작 장치, 특정 재료, 완전 방수 구조나 성능 결과를 재현하지 않습니다.",
+    "caption_en": "AI-generated concept showing conduction, protection and adhesion as separate roles in a liquid-based bioelectronics review. Shapes and colors denote functions, not one fabricated device, specified materials, complete waterproofing or measured performance.",
+    "alt_ko": "왼쪽에는 금색 경로가 있는 굽은 파란 띠, 가운데에는 투명 돔 아래 회색 부품과 외부 물방울, 오른쪽에는 회색 표면을 따라 붙는 파란 띠가 있습니다.",
+    "alt_en": "A bending blue ribbon with a gold path sits left; a gray component beneath a translucent dome and external droplets sits center; a blue ribbon follows an uneven gray surface at right.",
+    "concept_scope_ko": "종설의 기능 분류를 설명하는 비정량적 개념 이미지로 승인합니다. 실제 층·하우징 설계나 액체 차단 성능은 포함하지 않습니다.",
+    "concept_scope_en": "Approved as a nonquantitative map of review functions; actual layer/housing designs and liquid-barrier performance are excluded.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 72,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-072-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/adfm.202312740",
+    "source_url": "https://doi.org/10.1002/adfm.202312740",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1002/adfm.202312740",
+        "locator": "Local published PDF coating design; §2.2/Fig. 2e–j stretching/cracking; §2.5/Fig. 5d–f explant testing following renewed PFPE immersion; Conclusion.",
+        "read_scope": "previously verified selected main text; no new SI claim"
+      }
+    ],
+    "sha256": "9dccfb6a8101264ecffab69b893cbcc594283ea8c8f47c76f427a0b1026f5d9c",
+    "caption_ko": "AI 생성 개념도. 늘어나는 기판에 윤활 계면을 유지하려는 L-VIP의 설계 개념을 표현했습니다. 색띠와 화살표는 기능을 단순화한 기호이며 실제 층수·두께·입자 이동을 나타내지 않습니다. 무보충 윤활 수명이나 생체 내 치료 결과를 보여 주는 실험 그림이 아닙니다.",
+    "caption_en": "AI-generated concept of the L-VIP design goal: maintaining a lubricated interface on a deforming substrate. Colored bands and arrows are functional symbols, not actual layer counts, thicknesses or particle trajectories. This is not experimental evidence of maintenance-free lubricant life or an in vivo treatment outcome.",
+    "alt_ko": "흰 배경에 좌우로 늘어나는 코발트색 기판, 연한 파란 계면 영역과 금색 윤활 영역이 겹쳐 있습니다. 표면 위 회색 입자와 오른쪽 곡선 화살표, 양끝의 바깥 방향 화살표가 보입니다. 라벨은 Stretch, Interface, Lubricant입니다.",
+    "alt_en": "On white, a cobalt substrate stretches laterally beneath a pale-blue interface zone and a gold lubricant zone. Gray particles and a rightward curved arrow appear above; outward arrows flank the substrate. Labels read Stretch, Interface and Lubricant.",
+    "concept_scope_ko": "늘어나는 기판과 연속된 윤활 계면이라는 비정량적 설계 개념으로 사용할 수 있습니다. 아래의 AI 생성 표기·범위 제한 캡션을 함께 사용하는 조건의 승인입니다. 실제 L-VIP 층 구조, 제조도, 측정 결과를 재현한 그림으로 승인한 것은 아닙니다. 계면의 연속성과 변형 수용이라는 기능적 관계를 설명하는 자료실 개념 이미지. 제외 범위: 실제 단면·층수·층 두께·분자 구조; 정량 신축성·반복 수·손상 임계값; 입자별 궤적·작용력·살균; 기판 간 직접 비교 성능; 재윤활 없는 체내 수명·치료 효능.",
+    "concept_scope_en": "Approved as a nonquantitative concept of a deforming substrate with a continuous lubricated interface, provided the AI-generated label and bounded caption below accompany it. This approval does not treat it as a reconstruction of the actual L-VIP layer stack, fabrication or measurements. Library illustration of the functional relationship between interface continuity and accommodated deformation. Excluded: Actual cross section, layer count/thickness or molecular structure; Quantitative strain, cycle counts or damage thresholds; Particle trajectories, forces or bacterial killing; Direct comparative performance across substrates; Unreplenished in vivo lifetime or treatment efficacy.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 68,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-068-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1021/acsnano.2c10657",
+    "source_url": "https://doi.org/10.1021/acsnano.2c10657",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1021/acsnano.2c10657",
+        "locator": "Local published PDF pp. 10–13: Fig. 5 pressure/resistance and puncture tests; Fig. 6 ex vivo vessel connections, one-week subcutaneous observation and three-day injured-IVC wrapping; in vivo methods.",
+        "read_scope": "local_pdf_selected_main_text"
+      }
+    ],
+    "sha256": "366f00754bc60f3479be43308b0b74cdca473d5576275cd1635cd60fb22f43a8",
+    "caption_ko": "AI 생성 개념도. 도관의 압력·변형에 따른 저항 감지와 재밀봉 기능을 구분했습니다. 패턴·저항 기호·접합 확대도는 기능을 단순화한 표현이며 실제 센서 회로, 재료 단면, 체적 유량 정확도 또는 장기 혈관 대체 결과를 나타내지 않습니다.",
+    "caption_en": "AI-generated concept separating resistance sensing of conduit pressure/deformation from resealing. The pattern, resistor symbol and seam inset are functional abstractions, not actual sensor circuitry, material cross sections, volumetric-flow accuracy or chronic vessel-replacement results.",
+    "alt_ko": "잘라 보인 도관 내부에는 유동과 벽 방향 화살표가 있고, 바깥의 센서 무늬는 저항 기호와 연결됩니다. 오른쪽 확대 원은 두 가장자리가 만나려는 틈을 보여 줍니다.",
+    "alt_en": "A cutaway conduit shows axial flow and wall-directed arrows; an external sensor pattern connects to a resistance symbol. A right-hand inset shows two seam edges approaching.",
+    "concept_scope_ko": "벤치형 통합 설계의 두 기능을 설명하는 개념도로 승인합니다. 실제 이식·장기 개통성·혈전 방지·센서 회로·체적 유량 측정의 실증은 제외합니다.",
+    "concept_scope_en": "Approved for the two functions of a benchtop integration concept; implantation, chronic patency, thrombosis prevention, sensor circuitry and demonstrated volumetric-flow measurement are excluded.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 65,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-065-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.3390/bios13010083",
+    "source_url": "https://doi.org/10.3390/bios13010083",
+    "sources": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9855525/fullTextXML",
+        "locator": "§§2–8: silicon/PCB/polymer/glass/paper/stretchable substrates; §3 PCB linewidth limits; §5 stationary-interface and flowing-cell modes; §6 paper-electrode trade-offs.",
+        "read_scope": "public_repository_selected_main_text"
+      }
+    ],
+    "sha256": "fbe4b5568ddc60eb89443d1e03cb786c2ad06a6d845a85c9427e308c05a08c79",
+    "caption_ko": "AI 생성 개념도. 미세유체 임피던스 종설의 유동 중 대상 측정과 정지 계면 측정, 기판 선택 범주를 구분했습니다. 액체 영역·전극·대상의 배치는 설명용 단순화이며 실제 측정 셀, 결합 기전, 치수 또는 성능 순위를 나타내지 않습니다.",
+    "caption_en": "AI-generated concept distinguishing flowing-target and stationary-interface impedance modes and substrate categories in the review. Liquid, electrode and target arrangements are explanatory simplifications, not an actual measurement cell, binding mechanism, dimensions or performance ranking.",
+    "alt_ko": "왼쪽 채널에서는 금색 입자가 두 전극 사이를 흐릅니다. 오른쪽에는 서로 떨어진 평면 전극 두 개와 한쪽 전극 위의 금색 점, 뒤쪽의 투명 액체 영역이 보입니다. 아래에는 여섯 기판 범주가 나란히 있습니다.",
+    "alt_en": "Gold particles flow between electrodes at left. At right, two separated coplanar electrodes have gold dots on one patch, with a translucent liquid region behind them. Six substrate categories appear below.",
+    "concept_scope_ko": "선택 본문으로 확인한 두 측정 범주와 기판 분류의 개념도에 한정해 승인합니다. 정확한 실험 장치·측정 프로토콜·화학 결합·정량 성능 및 임상 진단의 주장은 제외합니다.",
+    "concept_scope_en": "Approval is limited to the two measurement modes and substrate categories supported by selected main text. Exact experimental apparatus, protocols, chemical binding, quantitative performance and clinical diagnosis are excluded.",
+    "generation_provenance_ko": "공개 논문의 개념으로 웹 ChatGPT에서 생성하고, 선택적으로 읽은 본문과 명시된 독립 검토 범위 안에서 개념의 일치 여부를 확인했습니다. 전체 본문·보충자료 검증을 뜻하지 않습니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts in a public paper and checked for conceptual consistency within the selected main-text reading and stated independent-review scope. This does not claim a complete main-text or supplement audit. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 58,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-058-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1002/adma.202005930",
+    "source_url": "https://doi.org/10.1002/adma.202005930",
+    "sources": [
+      {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202005930",
+        "locator": "Actual Abstract read: real-time body signals; targeted treatment; ingestible/GI and patch/skin examples; spatial/temporal framing; implantation-related inflammation/scarring. Main text unavailable.",
+        "read_scope": "public_publisher_abstract"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1002/adma.202005930",
+        "locator": "message.abstract; publisher-registered abstract content, consistent with the previously read publisher Abstract.",
+        "read_scope": "publisher_registered_abstract_via_Crossref"
+      }
+    ],
+    "sha256": "d6cd8f49e56f90296f99e37a223861db8907e056e29c6a2c7e94b542c56b7f52",
+    "caption_ko": "AI 생성 개념도·초록 범위. 전자약 종설의 공간·시간 관점과 섭취형·패치형 장치 예시를 표현했습니다. 장치 모양·화살표·시계는 주제 기호이며 실제 내부 구조, 통신 방식, 감지·치료 기전 또는 투약 일정·임상 효과를 나타내지 않습니다.",
+    "caption_en": "AI-generated concept, abstract scope only: spatial/temporal themes and ingestible/patch examples in an electronic-drug review. Device shapes, pointers and the clock are thematic symbols, not actual internal designs, communication methods, sensing/treatment mechanisms, dosing schedules or clinical effects.",
+    "alt_ko": "왼쪽에는 캡슐에서 위장관 기호로 향하는 포인터, 오른쪽에는 패치에서 피부선으로 향하는 포인터가 있습니다. 중앙에는 Time 시계와 Space 위치 기호가 있고 무선 기호나 발광은 없습니다.",
+    "alt_en": "A pointer links a capsule to a GI symbol at left and a patch to a skin line at right. A Time clock and Space location marker occupy the center, without wireless symbols or glowing targets.",
+    "concept_scope_ko": "읽은 초록의 주제와 장치 유형만 설명하는 개념도로 승인합니다. 본문을 읽은 것으로 승격하지 않으며 구체적 치료·통신·제어·임상 효능의 주장은 계속 제외합니다.",
+    "concept_scope_en": "Approved only as a concept of the themes and device classes named in the read abstract. It does not upgrade evidence to full text or support detailed therapy, communication, control or clinical-efficacy claims.",
+    "generation_provenance_ko": "공개 초록에서 확인한 개념으로 웹 ChatGPT에서 생성하고 초록 범위에서 독립 검토했습니다. 논문 본문·보충자료를 검증했다는 뜻이 아닙니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts verified in the public abstract and independently reviewed within that abstract-only scope. This does not claim verification of the main text or supplements. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
+    "number": 55,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-055-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1007/s13206-020-4105-7",
+    "source_url": "https://doi.org/10.1007/s13206-020-4105-7",
+    "sources": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7",
+        "locator": "Actual Abstract: reducing foreign-body responses via body-like softness, drug delivery and biomimetic surfaces; publisher page explicitly subscription preview. PDF request returned this HTML rather than full text.",
+        "read_scope": "public_publisher_abstract"
+      }
+    ],
+    "sha256": "599085575f6171252f171521cd7e787cd7e8a955039326222cbf96b1ad35f9af",
+    "caption_ko": "AI 생성 개념도·초록 범위. 이물 반응 감소를 목표로 검토한 연성 재료·약물 전달·생체모사 표면의 세 전략을 분류했습니다. 점·경계·무늬는 추상 기호이며 특정 약물·방출구·생물 모사·효능 또는 세 전략을 결합한 장치를 뜻하지 않습니다.",
+    "caption_en": "AI-generated concept, abstract scope only, categorizing softness, drug delivery and biomimetic surfaces reviewed toward reducing foreign-body responses. Dots, boundaries and patterns are abstract symbols, not a specified drug, release port, biological template, efficacy result or combined device.",
+    "alt_ko": "일반 이식물–조직 기호 아래에 유연 층, 경계 옆 금색 점, 반복 표면 무늬를 담은 Softness·Delivery·Surface 카드가 나란히 있습니다.",
+    "alt_en": "Below a generic implant–tissue symbol, equal Softness, Delivery and Surface cards show a compliant layer, gold dots near an interface and a repeating surface pattern.",
+    "concept_scope_ko": "초록에 명시된 세 전략 범주의 관계만 승인합니다. 그림 속 경계·입자·무늬의 구체적 기전이나 임상 효능은 포함하지 않습니다.",
+    "concept_scope_en": "Approved only for the three strategy categories named in the abstract, excluding specific mechanisms or clinical efficacy represented by boundaries, particles or patterns.",
+    "generation_provenance_ko": "공개 초록에서 확인한 개념으로 웹 ChatGPT에서 생성하고 초록 범위에서 독립 검토했습니다. 논문 본문·보충자료를 검증했다는 뜻이 아닙니다. 표시용 WebP 인코딩 외에 자르기나 내용 편집을 하지 않았습니다.",
+    "generation_provenance_en": "Generated in ChatGPT on the web from concepts verified in the public abstract and independently reviewed within that abstract-only scope. This does not claim verification of the main text or supplements. Display processing is limited to WebP encoding, without cropping or content editing."
+  },
+  {
     "number": 48,
     "generated": true,
     "asset_path": "assets/concepts/paper-048-concept.webp",
