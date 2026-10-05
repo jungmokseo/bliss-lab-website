@@ -169,8 +169,8 @@
       "https://creativecommons.org/licenses/by/4.0"
     ],
     "title_match": true,
-    "notes_ko": "Crossref에 등록된 공개 서지 메타데이터만 확인했습니다. 출판사 페이지·초록·본문을 읽었다는 뜻이 아니며, 학교 Chrome 전문 검증은 보류입니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
-    "notes_en": "Only public bibliographic metadata registered with Crossref was checked. This does not mean that the publisher page, abstract, or full text was read; full-text verification in the school Chrome session remains pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
+    "notes_ko": "이 Crossref 항목은 공개 서지 메타데이터 대조 기록이며, 그 자체로 출판사 초록·본문 열람을 뜻하지 않습니다. 별도의 근거 기록에 명시한 공개 출판사 본문과 보유 출판 PDF의 선택 부분을 확인했습니다. 전체 본문·보충자료·원자료의 전수 검증은 완료되지 않았으며, 보충자료·원자료 대조는 남아 있습니다. license_urls는 등록된 링크 목록이며 본문·그림 재배포 허가를 의미하지 않습니다. TDM 또는 게시 정책 링크가 포함될 수 있습니다.",
+    "notes_en": "This Crossref entry records a public bibliographic metadata check; it does not itself establish that the publisher abstract or main text was read. Separate evidence records document the selected sections checked in the public publisher text and a locally held published PDF. A complete audit of all main text, supplementary information and source data has not been completed; supplementary and source-data checks remain pending. license_urls lists registered links and does not establish permission to redistribute text or figures. It may include TDM or posting-policy links."
   },
   {
     "number": 91,

@@ -223,7 +223,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "요관 스텐트의 마찰과 결석 침착",
+    "background_heading_en": "Ureteral stent coatings: friction and encrustation"
   },
   {
     "number": 92,
@@ -304,7 +306,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "젖은 조직의 접착과 지혈용 하이드로젤",
+    "background_heading_en": "Hydrogels for wet-tissue adhesion and hemostasis"
   },
   {
     "number": 91,
@@ -385,7 +389,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 논문 본문·외부 초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 인용 원저 전수 검토, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "담도 스텐트 코팅과 바이오필름",
+    "background_heading_en": "Biliary stent coatings and biofilms"
   },
   {
     "number": 90,
@@ -536,7 +542,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "연성 이식형 기기의 보호 봉지와 표면 오염",
+    "background_heading_en": "Protective encapsulation and biofouling in soft implants"
   },
   {
     "number": 88,
@@ -772,7 +780,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "신경 기록용 섬유 탐침과 조직 상호작용",
+    "background_heading_en": "Fiber probes for neural recording and tissue interaction"
   },
   {
     "number": 83,
@@ -1000,7 +1010,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "체외 장기칩의 약물 손실과 세포 배양면",
+    "background_heading_en": "Drug loss and cell-culture interfaces in organ-on-a-chip models"
   },
   {
     "number": 80,
@@ -1081,7 +1093,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 공개 논문 본문·초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 전수 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "연성 전자소자의 이종 재료 접합",
+    "background_heading_en": "Bonding dissimilar materials in soft electronics"
   },
   {
     "number": 78,
@@ -1233,7 +1247,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "명시한 논문 본문·외부 초록의 열람 범위에서 한영 기사형 해설 사용을 승인합니다. 전체 SI, 인용 원저 전수 검토, 원자료 재분석, 재현성·임상 효능 또는 연구 간 성능 순위의 검증은 포함하지 않습니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "3D 인쇄형 하이드로젤 잉크와 연성 전자소자",
+    "background_heading_en": "Hydrogel inks for 3D-printed soft electronics"
   },
   {
     "number": 76,
@@ -1906,7 +1922,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "현재 한영 6필드의 선택 본문 근거에 한정한 기사형 사용 승인입니다. SI 전수, 재현성, 임상 성능, 원저 간 수치 순위의 승인은 아닙니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "신경 탐침의 삽입 마찰과 표면 부착",
+    "background_heading_en": "Insertion friction and surface attachment on neural probes"
   },
   {
     "number": 57,
@@ -1982,7 +2000,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "현재 한영 6필드의 선택 본문 근거에 한정한 기사형 사용 승인입니다. SI 전수, 재현성, 임상 성능, 원저 간 수치 순위의 승인은 아닙니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "정형외과 고정물의 오염과 표면 손상",
+    "background_heading_en": "Fouling and surface damage on orthopedic fixation devices"
   },
   {
     "number": 56,
@@ -2058,7 +2078,9 @@
     "article_deepening_complete": true,
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "현재 한영 6필드의 선택 본문 근거에 한정한 기사형 사용 승인입니다. SI 전수, 재현성, 임상 성능, 원저 간 수치 순위의 승인은 아닙니다.",
-    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+    "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit.",
+    "background_heading_ko": "내시경 렌즈의 오염·김 서림과 내구성",
+    "background_heading_en": "Endoscope-lens fouling, fogging and durability"
   },
   {
     "number": 48,

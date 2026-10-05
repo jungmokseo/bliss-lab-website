@@ -137,7 +137,21 @@
         "label_ko": "오염 억제와 윤활 표면",
         "label_en": "Antifouling and lubricious surfaces",
         "description_ko": "장치 표면의 비특이적 부착과 마찰을 줄이고 필요한 생체 접촉을 유지하는 연구.",
-        "description_en": "Research on reducing nonspecific attachment and friction at device surfaces while retaining the intended biological contact."
+        "description_en": "Research on reducing nonspecific attachment and friction at device surfaces while retaining the intended biological contact.",
+        "reading_note_ko": "스텐트 코팅 연구에서는 요관의 마찰·결석 침착과 담도의 바이오필름·폐색을 구분해 읽습니다. 아래 두 해설은 서로 다른 유체 환경과 전임상 평가를 다룹니다.",
+        "reading_note_en": "For stent coatings, read ureteral friction and encrustation separately from biliary biofilm and occlusion. The two briefs examine different fluid environments and preclinical evaluations.",
+        "reading_links": [
+          {
+            "number": 95,
+            "label_ko": "요관 스텐트 코팅과 결석 침착: FLUID 연구",
+            "label_en": "Ureteral stent coatings and encrustation: the FLUID study"
+          },
+          {
+            "number": 91,
+            "label_ko": "담도 스텐트 코팅과 바이오필름: ELFS 연구",
+            "label_en": "Biliary stent coatings and biofilms: the ELFS study"
+          }
+        ]
       },
       {
         "id": "immune-response",

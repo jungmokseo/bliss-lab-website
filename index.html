@@ -1041,6 +1041,7 @@ section[id] {
             <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Instant hemostasis</span>
           </div>
           <div class="hl-journal"><em><strong>Nature Communications</strong></em>, 17, 5526 (2026) · IF 18.1</div>
+          <a class="read-link" href="/resources/ko/papers/092.html" data-href-kr="/resources/ko/papers/092.html" data-href-en="/resources/en/papers/092.html"><span data-kr="연구 해설" data-en="Research brief">연구 해설</span> <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </div>
 
@@ -1052,13 +1053,14 @@ section[id] {
         <div class="hl-card-body">
           <span class="tag tag-reliability">#Sensor Reliability</span>
           <h3>Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity</h3>
-          <div class="hl-desc" data-kr="도파민-플루오로폴리머 하이브리드 코팅으로 담도 스텐트 표면의 바이오필름 형성을 원천 차단하여, 체내 이식형 센서의 수명을 획기적으로 연장합니다." data-en="A dopamine–fluoropolymer hybrid coating fundamentally blocks biofilm formation on biliary stents, dramatically extending implantable sensor longevity in vivo.">A dopamine–fluoropolymer hybrid coating fundamentally blocks biofilm formation on biliary stents, dramatically extending implantable sensor longevity in vivo.</div>
+          <div class="hl-desc" data-kr="담도 스텐트 코팅의 바이오필름과 폐색 문제를 다룹니다. ELFS는 도파민–플루오로폴리머 기반 윤활 표면을 사용하며, 생쥐 담낭의 오염과 토끼 담관의 개통성을 서로 다른 전임상 모델에서 평가했습니다." data-en="This study addresses biofilm and occlusion in biliary stent coatings. ELFS uses a dopamine–fluoropolymer lubricated surface, with fouling in mouse gallbladders and patency in rabbit bile ducts evaluated in separate preclinical models.">This study addresses biofilm and occlusion in biliary stent coatings. ELFS uses a dopamine–fluoropolymer lubricated surface, with fouling in mouse gallbladders and patency in rabbit bile ducts evaluated in separate preclinical models.</div>
           <div class="hl-sig">
             <span class="hl-sig-pill"><i class="fas fa-flask"></i> Anti-biofouling</span>
             <span class="hl-sig-pill"><i class="fas fa-cog"></i> Dopamine–fluoropolymer</span>
             <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Biliary stent</span>
           </div>
           <div class="hl-journal"><em><strong>Bioactive Materials</strong></em>, 61, 210–228 (2026) · IF 23.6</div>
+          <a class="read-link" href="/resources/ko/papers/091.html" data-href-kr="/resources/ko/papers/091.html" data-href-en="/resources/en/papers/091.html"><span data-kr="연구 해설" data-en="Research brief">연구 해설</span> <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </div>
 
@@ -1077,6 +1079,7 @@ section[id] {
             <span class="hl-sig-pill"><i class="fas fa-heart-pulse"></i> Wearable / CGM</span>
           </div>
           <div class="hl-journal"><em><strong>Advanced Materials</strong></em>, 38(19), e15767 (2026) · IF 29.1</div>
+          <a class="read-link" href="/resources/ko/papers/090.html" data-href-kr="/resources/ko/papers/090.html" data-href-en="/resources/en/papers/090.html"><span data-kr="연구 해설" data-en="Research brief">연구 해설</span> <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </div>
 
@@ -2448,6 +2451,9 @@ function toggleLang() {
   document.body.classList.toggle('kr', isKR);
   document.querySelectorAll('[data-kr][data-en]').forEach(el => {
     el.innerHTML = isKR ? el.dataset.kr : el.dataset.en;
+  });
+  document.querySelectorAll('a[data-href-kr][data-href-en]').forEach(el => {
+    el.setAttribute('href', isKR ? el.dataset.hrefKr : el.dataset.hrefEn);
   });
 }
 
