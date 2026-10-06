@@ -1987,10 +1987,12 @@
     "number": 63,
     "doi": "10.1021/acsaelm.1c01212",
     "title": "Functional Bioelectronic Materials for Long-Term Biocompatibility and Functionality",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo"
+    ],
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2004,8 +2006,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://pubs.acs.org/doi/10.1021/acsaelm.1c01212",
+        "locator_ko": "Final published PDF pp.1,17 / printed pp.1449,1465; ACS Applied Electronic Materials 4, 1449–1468 (2022)",
+        "locator_en": "Final published PDF pp.1,17 / printed pp.1449,1465; ACS Applied Electronic Materials 4, 1449–1468 (2022)",
+        "exact_notation": "Corresponding Author: Jungmok Seo",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/acsaelm.1c01212",
         "locator": "HTTP 403; metadata only",
@@ -2013,17 +2030,24 @@
         "evidence_scope": "access_limited_metadata_or_abstract"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_correspondence_type": "sole",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판 PDF 1·17쪽(1449·1465쪽)의 권 4, 연도 2022, DOI와 완전한 Corresponding Author 구간을 확인했습니다. 교신저자는 Jungmok Seo 한 명이며 서정목 단독교신입니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The saved final published PDF was checked on PDF pp. 1 and 17 (printed pp. 1449 and 1465), including volume 4, year 2022, DOI and the complete Corresponding Author block. Jungmok Seo is the sole corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 62,
     "doi": "10.1002/smll.202107060",
     "title": "Development of a Photonic Switch via Electro‐Capillarity‐Induced Water Penetration Across a 10‐nm Gap",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
+    "status": "confirmed_not_corresponding",
+    "named_corresponding_authors": [
+      "Yong-Sang Ryu"
+    ],
     "seo_email_match": false,
-    "correspondence_evidence_sufficient": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2037,8 +2061,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/smll.202107060",
+        "locator_ko": "Saved complete official Wiley author block; published PDF copy p.1; Small 2022;18:2107060",
+        "locator_en": "Saved complete official Wiley author block; published PDF copy p.1; Small 2022;18:2107060",
+        "exact_notation": "Corresponding Author: Yong-Sang Ryu; Jungmok Seo: regular author",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://chromistechnologies.com/wp-content/uploads/2022/06/TalkFile-2022Corres-Small-2022-Yu-Development-of-a-Photonic-Switch-via-Electro%E2%80%90Capillarity%E2%80%90Induced-Water-Penetration-Across-a-10%E2%80%90nm-Gap.pdf.pdf",
         "locator": "public copy of published Wiley PDF, page 1; DOI 10.1002/smll.202107060",
@@ -2046,17 +2085,24 @@
         "evidence_scope": "public_published_pdf_copy_header_read"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_correspondence_type": "not_corresponding",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 공식 Wiley 페이지의 전체 9저자 블록은 Yong-Sang Ryu만 Corresponding Author로 명시하고 Jungmok Seo는 일반 저자로 연결합니다. 게재판 PDF 첫 페이지의 전체 저자행과 교신 각주도 일치하여 서정목 비교신을 확인했습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The complete nine-author block of the saved official Wiley page designates only Yong-Sang Ryu as Corresponding Author and associates Jungmok Seo with a regular author role. The complete author row and correspondence footnote on the published PDF’s first page corroborate that Seo is not a corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 61,
     "doi": "10.1002/biot.202100231",
     "title": "Rational engineering and applications of functional bioadhesives in biomedical engineering",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo"
+    ],
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2070,8 +2116,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.202100231",
+        "locator_ko": "Saved complete official Wiley author block; published PDF p.1; Biotechnology Journal 2021;16:2100231",
+        "locator_en": "Saved complete official Wiley author block; published PDF p.1; Biotechnology Journal 2021;16:2100231",
+        "exact_notation": "Corresponding Author: Jungmok Seo",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/biot.202100231",
         "locator": "publisher page fetch error; Europe PMC PMID 34469052 abstract only",
@@ -2079,17 +2140,25 @@
         "evidence_scope": "access_limited_metadata_or_abstract"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_correspondence_type": "sole",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 공식 Wiley 페이지의 전체 4저자 블록과 게재판 PDF 첫 페이지의 Correspondence란을 대조했습니다. Jungmok Seo만 Corresponding Author로 명시되어 서정목 단독교신을 확인했습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The complete four-author block of the saved official Wiley page was checked against the Correspondence panel on the published PDF’s first page. Only Jungmok Seo is designated Corresponding Author, confirming Seo as the sole corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 60,
     "doi": "10.1039/d1nr04508c",
     "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jaehong Lee",
+      "Jungmok Seo"
+    ],
     "seo_email_match": true,
-    "correspondence_evidence_sufficient": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": false,
@@ -2103,8 +2172,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2021/nr/d1nr04508c",
+        "locator_ko": "Saved published first page, printed p.18112; Nanoscale 13, 18112–18124 (2021); saved official RSC author-role print",
+        "locator_en": "Saved published first page, printed p.18112; Nanoscale 13, 18112–18124 (2021); saved official RSC author-role print",
+        "exact_notation": "Corresponding authors: Jaehong Lee; Jungmok Seo",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://doi.org/10.1039/d1nr04508c",
         "locator": "BLS06_Nanoscale_2021_Multifunctional_Electronic_Suture_MAIN.pdf; PDF page 2 author list and affiliation emails",
@@ -2112,8 +2196,13 @@
         "evidence_scope": "local_public_pdf_header_read"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": true,
+    "seo_correspondence_type": "co",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판 첫 페이지(18112쪽)와 공식 RSC 저자 역할 페이지 인쇄 사본을 대조했습니다. 전체 11저자 중 Jaehong Lee와 Jungmok Seo가 공동교신저자로 명시됩니다. 보관 사본은 첫 페이지와 저자 역할 부분이며 전체 본문 확보를 뜻하지 않습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The saved final published first page (p. 18112) was checked against a saved print of the official RSC author-role page. Within the complete eleven-author list, Jaehong Lee and Jungmok Seo are explicitly co-corresponding authors. The saved evidence covers the first page and author-role section, not acquisition of the complete article. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 59,
@@ -2369,10 +2458,13 @@
     "number": 54,
     "doi": "10.1021/acsami.9b02927",
     "title": "Biocompatible Carbon Nanotube-Based Hybrid Microfiber for Implantable Electrochemical Actuator and Flexible Electronic Applications",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_not_corresponding",
+    "named_corresponding_authors": [
+      "Ali Khademhosseini",
+      "Su Ryon Shin"
+    ],
+    "seo_email_match": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2386,8 +2478,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://pubs.acs.org/doi/10.1021/acsami.9b02927",
+        "locator_ko": "Final published PDF pp.1,11 / printed pp.20615,20625; ACS Applied Materials & Interfaces 11(23), 20615–20627 (2019)",
+        "locator_en": "Final published PDF pp.1,11 / printed pp.20615,20625; ACS Applied Materials & Interfaces 11(23), 20615–20627 (2019)",
+        "exact_notation": "Corresponding Authors: Ali Khademhosseini; Su Ryon Shin",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/acsami.9b02927",
         "locator": "publisher HTTP 403; PMC6660641 verification screen; Europe PMC XML HTTP 500",
@@ -2395,8 +2502,13 @@
         "evidence_scope": "access_limited_metadata_or_abstract"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_correspondence_type": "not_corresponding",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판 PDF 1·11쪽(20615·20625쪽)의 전체 15저자와 완전한 Corresponding Authors 구간을 확인했습니다. 교신저자는 Ali Khademhosseini와 Su Ryon Shin이며 서정목은 비교신저자입니다. 서정목의 기호는 동등 기여입니다. PMC XML은 보조 대조 자료로 사용했습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The complete fifteen-author list and Corresponding Authors block were checked on PDF pp. 1 and 11 (printed pp. 20615 and 20625) of the saved final published version. Ali Khademhosseini and Su Ryon Shin are the corresponding authors; Jungmok Seo is not. Seo’s symbol denotes equal contribution. PMC XML provided supporting corroboration. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 53,
@@ -2535,9 +2647,11 @@
     "number": 50,
     "doi": "10.2174/1381612825666190207093438",
     "title": "Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo"
+    ],
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2564,6 +2678,21 @@
     "proofs": [
       {
         "url": "https://www.benthamscience.com/public/article/96469",
+        "locator_ko": "Final published PDF p.1 / printed p.5458; Current Pharmaceutical Design 24(45), 5458–5470 (2018); saved official publisher metadata corroboration",
+        "locator_en": "Final published PDF p.1 / printed p.5458; Current Pharmaceutical Design 24(45), 5458–5470 (2018); saved official publisher metadata corroboration",
+        "exact_notation": "Address correspondence to this author: Jungmok Seo",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": null,
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
+      {
+        "url": "https://www.benthamscience.com/public/article/96469",
         "locator": "Author(s), author affiliation popover",
         "exact_notation": "Jungmok Seo*",
         "evidence_scope": "publisher_abstract_and_HTML_author_metadata"
@@ -2575,8 +2704,15 @@
         "evidence_scope": "attempt_only_HTTP_403"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_email_match": true,
+    "seo_correspondence_type": "sole",
+    "checked_at": "2026-10-06",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판 5458쪽의 전체 저자행과 Address correspondence to this author 각주에서 서정목 단독교신을 확인했습니다. Kijun Park와 Yeontaek Lee의 †는 동등 기여 표기입니다. 게재 권호 연도 2018과 온라인 공개일 2019-02-07을 구분하며 이번 분류 정정으로 서지 연도를 바꾸지 않습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The complete author row and Address correspondence to this author footnote on printed p. 5458 of the saved final published version identify Jungmok Seo as the sole corresponding author. The † marks for Kijun Park and Yeontaek Lee denote equal contribution. The 2018 issue year and online publication date of 2019-02-07 are distinguished; this role correction does not change the bibliographic year. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 49,
@@ -2676,9 +2812,12 @@
     "number": 47,
     "doi": "10.1016/j.snb.2018.04.040",
     "title": "Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo",
+      "Kwan Hyi Lee"
+    ],
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2705,13 +2844,35 @@
     "proofs": [
       {
         "url": "https://www.sciencedirect.com/science/article/pii/S0925400518307366",
+        "locator_ko": "Final published PDF p.1 / printed p.237; Sensors and Actuators B: Chemical 267 (2018), 237–244",
+        "locator_en": "Final published PDF p.1 / printed p.237; Sensors and Actuators B: Chemical 267 (2018), 237–244",
+        "exact_notation": "Corresponding authors: Jungmok Seo; Kwan Hyi Lee",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": null,
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925400518307366",
         "locator": "author/correspondence section not reached",
         "exact_notation": null,
         "evidence_scope": "attempt_only_HTTP_403"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": true,
+    "seo_email_match": true,
+    "seo_correspondence_type": "co",
+    "checked_at": "2026-10-06",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판 237쪽에서 전체 3저자와 Corresponding authors 각주를 확인했습니다. Jungmok Seo와 Kwan Hyi Lee가 공동교신저자입니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The complete three-author list and Corresponding authors footnote were checked on printed p. 237 of the saved final published version. Jungmok Seo and Kwan Hyi Lee are co-corresponding authors. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 46,
@@ -3354,12 +3515,12 @@
     "number": 32,
     "doi": "10.1021/acsami.6b01804",
     "title": "Graphene Oxide Hierarchical Patterns for the Derivation of Electrophysiologically Functional Neuron-like Cells from Human Neural Stem Cells",
-    "status": "final_source_recheck",
+    "status": "confirmed_not_corresponding",
     "named_corresponding_authors": [
       "Taeyoon Lee",
       "Seung-Woo Cho"
     ],
-    "correspondence_evidence_sufficient": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -3385,24 +3546,41 @@
     },
     "proofs": [
       {
+        "url": "https://pubs.acs.org/doi/10.1021/acsami.6b01804",
+        "locator_ko": "Final published PDF pp.1,10 / printed pp.17763,17772; 2016, volume 8, pp.17763–17774",
+        "locator_en": "Final published PDF pp.1,10 / printed pp.17763,17772; 2016, volume 8, pp.17763–17774",
+        "exact_notation": "Corresponding Authors: Taeyoon Lee; Seung-Woo Cho",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "final_source_recheck",
+    "previous_checked_at": "2026-10-05",
+    "checked_at": "2026-10-06",
+    "correspondence_review_date": "2026-10-06",
+    "previous_evidence_sufficient": false,
+    "final_correspondence_check_pending": false,
+    "correspondence_review_ko": "보관된 최종 게재판 PDF 1·10쪽의 실제 페이지 번호 17763·17772, 권 8, 연도 2016, DOI와 완전한 교신저자 구간을 확인했습니다. 교신저자는 Taeyoon Lee와 Seung-Woo Cho이며 서정목은 비교신저자입니다. 이전 XXXX/A–L 쪽 사본에 따른 최종본 재확인 보류를 해소했습니다. 호(issue)는 이번 PDF 표기에서 독립 확인하지 않았습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The saved final published PDF was checked on PDF pp. 1 and 10 (printed pp. 17763 and 17772), including volume 8, year 2016, DOI and the complete correspondence block. Taeyoon Lee and Seung-Woo Cho are the corresponding authors; Jungmok Seo is not. This resolves the final-version check left pending by the earlier XXXX/A–L copy. The issue number was not independently verified from this PDF. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": "",
+    "previous_proofs": [
+      {
         "url": "https://nbdl.yonsei.ac.kr/pdf/2016_07_ACSAMI.pdf#page=10",
         "locator": "PDF p.10; author/correspondence information",
         "exact_notation": "Corresponding Authors; E-mail: [omitted]; E-mail: [omitted]",
         "evidence_scope": "publisher_PDF_publicly_hosted_by_author_institution"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false,
-    "previous_status": "confirmed_not_corresponding",
-    "previous_checked_at": null,
-    "checked_at": "2026-10-05",
-    "correspondence_review_date": "2026-10-05",
-    "previous_evidence_sufficient": true,
-    "final_correspondence_check_pending": true,
-    "correspondence_review_ko": "기존 비교신 기록의 사본에는 XXXX/XXX 및 A–K 쪽 표시가 남아 있습니다. 사본 안의 교신 명단은 분명하지만 최종 게재판과 같은지는 직접 대조하지 못했습니다. 공식 검색 고지는 보강 자료로 구분하며 최종본 교신 정보 재확인을 남깁니다.",
-    "correspondence_review_en": "The copy supporting the earlier non-corresponding record retains XXXX/XXX and A–K pagination. Its correspondence list is explicit, but it has not been directly matched to the final published version. Official search results are supporting evidence; final-version correspondence verification remains pending.",
-    "correspondence_pending_ko": "ACS Applied Materials & Interfaces 8(28), 17763–17774의 최종 PDF 또는 공식 전체 교신저자 절이 필요합니다.",
-    "correspondence_pending_en": "The final PDF of ACS Applied Materials & Interfaces 8(28), 17763–17774, or the complete official correspondence block is needed."
+    "previous_correspondence_review_ko": "기존 비교신 기록의 사본에는 XXXX/XXX 및 A–K 쪽 표시가 남아 있습니다. 사본 안의 교신 명단은 분명하지만 최종 게재판과 같은지는 직접 대조하지 못했습니다. 공식 검색 고지는 보강 자료로 구분하며 최종본 교신 정보 재확인을 남깁니다.",
+    "previous_correspondence_review_en": "The copy supporting the earlier non-corresponding record retains XXXX/XXX and A–K pagination. Its correspondence list is explicit, but it has not been directly matched to the final published version. Official search results are supporting evidence; final-version correspondence verification remains pending.",
+    "previous_correspondence_pending_ko": "ACS Applied Materials & Interfaces 8(28), 17763–17774의 최종 PDF 또는 공식 전체 교신저자 절이 필요합니다.",
+    "previous_correspondence_pending_en": "The final PDF of ACS Applied Materials & Interfaces 8(28), 17763–17774, or the complete official correspondence block is needed.",
+    "co_corresponding": false,
+    "seo_email_match": false,
+    "seo_correspondence_type": "not_corresponding"
   },
   {
     "number": 31,
@@ -4030,10 +4208,12 @@
     "number": 17,
     "doi": "10.1039/c4ra13014f",
     "title": "Electrostatically-induced trajectory switching system on a multi-inlet-multi-outlet superhydrophobic droplet guiding track",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_not_corresponding",
+    "named_corresponding_authors": [
+      "Taeyoon Lee"
+    ],
+    "seo_email_match": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -4055,10 +4235,33 @@
           "field": "article_deepening_reason",
           "text": "Jungmok Seo correspondence status remains unclear, and full methods/supplement review is incomplete."
         }
+      ],
+      "current_pending_ko": [
+        "학교 Chrome에서 전체 초록·본문의 전극 구조와 작동 범위를 우선 확인한다.",
+        "논문 전체 방법·보충자료 심화 검토도 완료하지 않았습니다."
+      ],
+      "current_pending_en": [
+        "Prioritize the complete abstract, electrode geometry and operating window in school Chrome.",
+        "Full methods/supplement review is incomplete."
       ]
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
+      {
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2015/ra/c4ra13014f",
+        "locator_ko": "PDF p.1 / printed p.5754; RSC Advances 2015, 5, 5754–5761",
+        "locator_en": "PDF p.1 / printed p.5754; RSC Advances 2015, 5, 5754–5761",
+        "exact_notation": "Taeyoon Lee: corresponding author; Jungmok Seo: author without correspondence designation",
+        "evidence_scope_ko": "이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+        "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "previous_evidence_sufficient": false,
+    "previous_proofs": [
       {
         "url": "https://pubs.rsc.org/en/content/articlehtml/2015/ra/c4ra13014f",
         "locator": "Publisher article access attempt; available Crossref abstract has no correspondence block",
@@ -4066,8 +4269,13 @@
         "evidence_scope": "Available public body/abstract and attempted publisher access reviewed; explicit named correspondence role was not established."
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "co_corresponding": false,
+    "seo_correspondence_type": "not_corresponding",
+    "correspondence_review_date": "2026-10-06",
+    "correspondence_review_ko": "보관된 최종 게재판의 첫 페이지(5754쪽)에서 전체 10저자와 소속·교신 각주를 대조했습니다. 교신저자는 Taeyoon Lee이며 서정목은 비교신저자입니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
+    "correspondence_review_en": "The saved final published first page (p. 5754) was checked against the complete ten-author list, affiliations and correspondence footnote. Taeyoon Lee is the corresponding author; Jungmok Seo is not a corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 16,
