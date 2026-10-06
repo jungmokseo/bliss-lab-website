@@ -731,14 +731,14 @@
     "number": 87,
     "doi": "10.1021/acsami.5c19771",
     "title": "A Remotely Actuated Multifunctional Nitinol–PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release",
-    "status": "confirmed_not_corresponding",
+    "status": "final_source_recheck",
     "named_corresponding_authors": [
       "Sung Woon Cha",
       "Jun Young Yoon"
     ],
-    "co_corresponding": false,
-    "seo_email_match": false,
-    "correspondence_evidence_sufficient": true,
+    "co_corresponding": null,
+    "seo_email_match": null,
+    "correspondence_evidence_sufficient": false,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": null,
@@ -762,7 +762,7 @@
         }
       ]
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-05",
     "proofs": [
       {
         "url": "https://api.figshare.com/v2/articles/30833525",
@@ -778,7 +778,18 @@
       }
     ],
     "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "article_deepening_complete": false,
+    "previous_status": "confirmed_not_corresponding",
+    "previous_checked_at": "2026-10-03",
+    "correspondence_review_date": "2026-10-05",
+    "previous_evidence_sufficient": true,
+    "final_correspondence_check_pending": true,
+    "previous_co_corresponding": false,
+    "previous_seo_email_match": false,
+    "correspondence_review_ko": "기존 비교신 기록은 공식 SI 첫 페이지의 저자·교신 고지에 근거합니다. 이 범위를 본 논문의 모든 공동교신자 배제로 확대하지 않습니다. 새 공식 검색 고지는 보강 자료이지만 최종 본문의 전체 교신저자 절은 직접 확인하지 못했습니다. 기관 PDF는 열람 암호가 필요해 읽지 않았습니다.",
+    "correspondence_review_en": "The earlier non-corresponding record was based on the author and correspondence notice on the first page of official supplementary information. That scope cannot exclude all co-corresponding authors of the main paper. New official search results provide supporting information, but the final main-paper correspondence block was not directly read. The institution-hosted PDF required an opening password and was not read.",
+    "correspondence_pending_ko": "정상적으로 열람할 수 있는 최종 ACS 저자 정보 또는 DOI 일치 최종 PDF의 전체 저자 행·교신 각주가 필요합니다.",
+    "correspondence_pending_en": "The complete author row and correspondence block in accessible final ACS author information or the DOI-matched final PDF are needed."
   },
   {
     "number": 86,
@@ -1782,10 +1793,12 @@
     "number": 67,
     "doi": "10.1016/j.bioactmat.2022.07.019",
     "title": "Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo"
+    ],
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -1799,8 +1812,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-05",
     "proofs": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:10088055&metadataPrefix=pmc_fm",
+        "locator": "PMC10088055.1, official OAI-PMH JATS front matter: complete contrib-group; au9 xref ref-type=corresp rid=cor1; author-notes/corresp id=cor1",
+        "exact_notation": "Jungmok Seo (au9) → cor1: Corresponding author. [email omitted]",
+      "evidence_scope": "official_PMC_JATS_front_matter_author_role_read",
+      "evidence_scope_ko": "PMC 공식 OAI 앞부분 메타데이터에서 전체 저자 목록과 교신 각주만 확인했습니다. 과학 본문과 보충자료는 읽지 않았습니다.",
+      "evidence_scope_en": "Read only the complete author list and correspondence notes in the official PMC OAI front-matter metadata. The scientific main text and supplements were not read.",
+        "checked_at": "2026-10-05"
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "prior_proofs": [
       {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10088055/",
         "locator": "PMC: browser verification screen; Europe PMC XML HTTP 500",
@@ -1808,8 +1836,10 @@
         "evidence_scope": "access_limited_metadata_or_abstract"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "correspondence_review_date": "2026-10-05",
+    "co_corresponding": false,
+    "correspondence_review_ko": "PMC 공식 앞부분 XML의 전체 9명 저자와 교신 각주를 대조했습니다. Jungmok Seo(au9)의 교신 연결 cor1이 유일한 Corresponding author 고지를 가리킵니다. 본문·보충자료를 읽은 것은 아니며 초록 등급을 유지합니다.",
+    "correspondence_review_en": "The official PMC front-matter XML contains all nine authors and the correspondence note. Jungmok Seo (au9) links to cor1, the sole Corresponding author notice. This checks author designation only; the main text and supplements were not read and the abstract-level review is unchanged."
   },
   {
     "number": 66,
@@ -2431,10 +2461,13 @@
     "number": 51,
     "doi": "10.1021/acsami.8b17181",
     "title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo",
+      "Taeyoon Lee"
+    ],
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -2448,8 +2481,23 @@
       "pending_reasons_ko": [],
       "pending_reasons_en": []
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-05",
     "proofs": [
+      {
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf#page=7",
+        "locator": "Final published PDF, ACS Applied Materials & Interfaces 11(5), 5484–5491 (2019): p.1 author markers and p.7 / journal p.5490, complete Corresponding Authors block",
+        "exact_notation": "Jungmok Seo*; Taeyoon Lee* — Corresponding Authors; E-mail: [omitted]; E-mail: [omitted]",
+      "evidence_scope": "institution_hosted_final_published_PDF_author_and_correspondence_sections_read",
+      "evidence_scope_ko": "기관 공개 최종 게재 PDF의 저자 행과 교신저자 절만 확인했습니다. 과학 본문과 보충자료는 추가로 검토하지 않았습니다.",
+      "evidence_scope_en": "Read only the author row and correspondence section of the institution-hosted final published PDF. The scientific main text and supplements were not additionally reviewed.",
+        "checked_at": "2026-10-05"
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "prior_proofs": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/acsami.8b17181",
         "locator": "publisher HTTP 403; PMID 30576594 abstract",
@@ -2457,8 +2505,10 @@
         "evidence_scope": "access_limited_metadata_or_abstract"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "correspondence_review_date": "2026-10-05",
+    "co_corresponding": true,
+    "correspondence_review_ko": "기관 공개 최종 게재 PDF의 첫 쪽 저자 행과 7쪽(저널 5490쪽)의 전체 교신저자 절을 대조해 서정목–이태윤 공동교신을 확인했습니다. 저자·교신 정보만 추가로 읽었으며 본문·보충자료 검토 범위와 초록 등급은 유지합니다.",
+    "correspondence_review_en": "The complete author row on page 1 and Corresponding Authors section on page 7 (journal page 5490) of the institution-hosted final PDF identify Jungmok Seo and Taeyoon Lee as co-corresponding authors. Only author and correspondence information was additionally read; the abstract-level scientific review and supplementary limits remain unchanged."
   },
   {
     "number": 50,
@@ -3283,12 +3333,12 @@
     "number": 32,
     "doi": "10.1021/acsami.6b01804",
     "title": "Graphene Oxide Hierarchical Patterns for the Derivation of Electrophysiologically Functional Neuron-like Cells from Human Neural Stem Cells",
-    "status": "confirmed_not_corresponding",
+    "status": "final_source_recheck",
     "named_corresponding_authors": [
       "Taeyoon Lee",
       "Seung-Woo Cho"
     ],
-    "correspondence_evidence_sufficient": true,
+    "correspondence_evidence_sufficient": false,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -3321,7 +3371,17 @@
       }
     ],
     "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "article_deepening_complete": false,
+    "previous_status": "confirmed_not_corresponding",
+    "previous_checked_at": null,
+    "checked_at": "2026-10-05",
+    "correspondence_review_date": "2026-10-05",
+    "previous_evidence_sufficient": true,
+    "final_correspondence_check_pending": true,
+    "correspondence_review_ko": "기존 비교신 기록의 사본에는 XXXX/XXX 및 A–K 쪽 표시가 남아 있습니다. 사본 안의 교신 명단은 분명하지만 최종 게재판과 같은지는 직접 대조하지 못했습니다. 공식 검색 고지는 보강 자료로 구분하며 최종본 교신 정보 재확인을 남깁니다.",
+    "correspondence_review_en": "The copy supporting the earlier non-corresponding record retains XXXX/XXX and A–K pagination. Its correspondence list is explicit, but it has not been directly matched to the final published version. Official search results are supporting evidence; final-version correspondence verification remains pending.",
+    "correspondence_pending_ko": "ACS Applied Materials & Interfaces 8(28), 17763–17774의 최종 PDF 또는 공식 전체 교신저자 절이 필요합니다.",
+    "correspondence_pending_en": "The final PDF of ACS Applied Materials & Interfaces 8(28), 17763–17774, or the complete official correspondence block is needed."
   },
   {
     "number": 31,
@@ -3844,10 +3904,12 @@
     "number": 19,
     "doi": "10.1021/am5073645",
     "title": "A Highly Sensitive Hydrogen Sensor with Gas Selectivity Using a PMMA Membrane-Coated Pd Nanoparticle/Single-Layer Graphene Hybrid",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_not_corresponding",
+    "named_corresponding_authors": [
+      "Taeyoon Lee"
+    ],
+    "seo_email_match": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
       "body_pending": true,
@@ -3861,18 +3923,33 @@
       "pending_reasons_ko": [
         {
           "field": "article_deepening_reason",
-          "text": "서정목 교신저자 여부가 보류 상태이며 논문 전체 방법·보충자료 심화 검토도 완료하지 않았습니다."
+          "text": "논문 전체 방법·보충자료 심화 검토는 완료하지 않았습니다."
         }
       ],
       "pending_reasons_en": [
         {
           "field": "article_deepening_reason",
-          "text": "Jungmok Seo correspondence status remains unclear, and full methods/supplement review is incomplete."
+          "text": "Review of full methods and supplementary materials remains incomplete."
         }
       ]
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-05",
     "proofs": [
+      {
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2015_02_ACSAMI.pdf#page=7",
+        "locator": "Final published PDF, ACS Applied Materials & Interfaces 7, 3554–3561 (2015): p.1 complete author row and p.7 / journal p.3560, complete singular Corresponding Author block",
+        "exact_notation": "Taeyoon Lee* — Corresponding Author; E-mail: [omitted]. Jungmok Seo has an affiliation marker only.",
+      "evidence_scope": "institution_hosted_final_published_PDF_author_and_correspondence_sections_read",
+      "evidence_scope_ko": "기관 공개 최종 게재 PDF의 저자 행과 교신저자 절만 확인했습니다. 과학 본문과 보충자료는 추가로 검토하지 않았습니다.",
+      "evidence_scope_en": "Read only the author row and correspondence section of the institution-hosted final published PDF. The scientific main text and supplements were not additionally reviewed.",
+        "checked_at": "2026-10-05"
+      }
+    ],
+    "article_deepening_ready": false,
+    "article_deepening_complete": false,
+    "previous_status": "unresolved",
+    "previous_checked_at": "2026-10-03",
+    "prior_proofs": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/am5073645",
         "locator": "Publisher article access attempt; PubMed abstract/author list",
@@ -3880,8 +3957,10 @@
         "evidence_scope": "Available public body/abstract and attempted publisher access reviewed; explicit named correspondence role was not established."
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "correspondence_review_date": "2026-10-05",
+    "co_corresponding": false,
+    "correspondence_review_ko": "기관 공개 최종 게재 PDF의 전체 저자 행과 교신저자 절은 이태윤 단독 교신을 명시하며 서정목에게는 소속 기호만 있습니다. 이번 추가 확인은 저자·교신 정보에 한정하며 초록 등급과 본문·보충자료 대기는 유지합니다.",
+    "correspondence_review_en": "The complete author row and correspondence section of the institution-hosted final PDF identify Taeyoon Lee alone as corresponding author; Jungmok Seo has an affiliation marker only. The additional reading concerns author designation, leaving the abstract-level review and main-text/supplementary checks pending."
   },
   {
     "number": 18,

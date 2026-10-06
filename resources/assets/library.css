@@ -148,7 +148,7 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
 .correspondence-badge { border-style: dashed; }
 .correspondence-badge[data-correspondence="confirmed_corresponding"] { background: #eff3ff; border-color: #a9bce7; color: #2e4b8a; }
 .correspondence-badge[data-correspondence="confirmed_not_corresponding"] { background: #f5f5f5; border-color: #c8c8c8; color: #565656; }
-.correspondence-badge[data-correspondence="unresolved"] { background: #fff9ee; border-color: #d7be8c; color: #735b2d; }
+.correspondence-badge[data-correspondence="unresolved"], .correspondence-badge[data-correspondence="final_source_recheck"] { background: #fff9ee; border-color: #d7be8c; color: #735b2d; }
 .correspondence-overview { margin: 0 0 28px; padding: 22px 24px; border: 1px solid var(--border); border-left: 3px solid var(--accent); background: var(--white); border-radius: 0 5px 5px 0; }
 .correspondence-overview h2 { font-size: 1rem; line-height: 1.5; margin-bottom: 10px; }
 .correspondence-overview > p { color: var(--text-secondary); font-size: .84rem; line-height: 1.8; }
