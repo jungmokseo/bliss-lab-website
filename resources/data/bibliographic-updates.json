@@ -81,7 +81,24 @@
     "source_url": "https://pubs.acs.org/aamick/article/18/25/34821/5162735/Disposable-Endoscope-Cap-Maintaining-Clear",
     "published_date": "2026-06-10",
     "note_ko": "권·호·페이지 또는 논문번호 표기를 2026-10-03 확인한 공개 출판 서지와 맞췄습니다. 이 서지 대조는 본문 검토와 별개입니다.",
-    "note_en": "Volume, issue, pages or article-number notation was reconciled with public publication metadata checked on 3 October 2026. This bibliographic check is separate from main-text review."
+    "note_en": "Volume, issue, pages or article-number notation was reconciled with public publication metadata checked on 3 October 2026. This bibliographic check is separate from main-text review.",
+    "authors": "<strong>Kayoung Son</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Kyungwon Lee, <strong>Yejin Jo</strong>, <strong>Yurim Lee</strong>, Seung Hyun Lee, Min Young Seo, Jung Seung Lee, Seung Ah Lee, Seung-No Hong, Seung Hoon Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
+    "authorship_checked": "2026-10-06",
+    "authorship_note_ko": "저자 표시는 2026-10-06 공식 보충자료와 Crossref의 12명 목록에 맞췄습니다. 보존한 원본 목록에서 누락된 Seung-No Hong을 공식 순서에 추가했습니다. SI S1은 Kayoung Son·Yeontaek Lee의 동등 기여와 Seung Hoon Lee·Jungmok Seo의 교신 표기를 확인합니다. 이는 저자 서지 대조이며 과학 본문 검토와 구분합니다.",
+    "authorship_note_en": "The displayed author list was reconciled with the 12 authors in official supporting information and Crossref on 6 October 2026. Seung-No Hong, omitted from the preserved baseline, is included in the published order. SI S1 confirms equal contribution by Kayoung Son and Yeontaek Lee and correspondence by Seung Hoon Lee and Jungmok Seo. This authorship check is separate from scientific main-text review.",
+    "authorship_sources": [
+      {
+        "url": "https://ndownloader.figshare.com/files/65444582",
+        "locator_ko": "공식 SI S1: 전체 저자 순서, 동등 기여 각주 1, 교신 표기 *.",
+        "locator_en": "Official SI S1: complete author order, equal-contribution footnote 1, and correspondence marks *."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator_ko": "message.author: Seung-No Hong을 포함한 12명. 역할 판단은 SI 각주에 근거합니다.",
+        "locator_en": "message.author: 12 names including Seung-No Hong. Role interpretation uses the SI footnotes."
+      }
+    ],
+    "authorship_override_scope": "Current displayed authors, citation_author, ScholarlyArticle.author and catalogue search. Historical publications-baseline.json is preserved."
   },
   {
     "number": 92,

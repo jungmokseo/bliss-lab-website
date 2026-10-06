@@ -2432,5 +2432,372 @@
     "complete_main_and_si_audit": false,
     "editorial_approval_scope_ko": "검토한 현재 한영 원고의 명시된 본문 범위에 한정합니다. 전체 SI·재현성·임상 효과·외부 원저 성능 순위의 승인이 아닙니다.",
     "editorial_approval_scope_en": "Approved only for the stated evidence scope of this bilingual article. This is not a complete supplementary, reproducibility, clinical or cross-study performance audit."
+  },
+  {
+    "number": 51,
+    "doi": "10.1021/acsami.8b17181",
+    "main_text_read_scope_ko": "기관 공개 최종 게재 PDF 8쪽 전체의 텍스트를 읽었습니다. 과학 내용은 저널 5484–5490쪽의 초록·서론·Materials and Methods·Results and Discussion·Conclusions이며, Figure 2–4가 있는 PDF 3·4·6쪽 원페이지 렌더를 대조했습니다. 기존의 PDF 1·7쪽 저자·교신 확인과 이번 과학 본문 읽기를 구분합니다. 5490–5491쪽 참고문헌은 목록만 확인했으며 인용 원저 전수 검증은 하지 않았습니다.",
+    "main_text_read_scope_en": "Read the text of all eight pages of the institution-hosted final published PDF, including Abstract, Introduction, Materials and Methods, Results and Discussion and Conclusions on journal pages 5484–5490. Visually checked original-page renders containing Figures 2–4 on PDF pages 3, 4 and 6. This scientific reading is distinct from the earlier author/correspondence-only reading on PDF pages 1 and 7. The reference list on pages 5490–5491 was read without independently auditing all cited studies.",
+    "supplement_read_scope_ko": "ACS Figshare의 DOI 일치 공식 보충 PDF am8b17181_si_001.pdf, 공개 레코드 7549904 version 2, S-1–S-9 전체 텍스트와 식·Table S1–S2를 읽고 Figure S1–S10의 원페이지 렌더(S-4–S-9)를 대조했습니다. 별도 Movie S1·S2는 공개 목록과 PDF 안의 정지화면·설명만 확인했으며 동영상 파일을 내려받거나 재생하지 않았습니다. 원자료·반복별 데이터 재분석은 하지 않았습니다.",
+    "supplement_read_scope_en": "Read all text, equations and Tables S1–S2 in the DOI-matched official ACS Figshare supplementary PDF am8b17181_si_001.pdf, record 7549904 version 2, pages S-1–S-9. Visually checked the original-page renders of Figures S1–S10 on S-4–S-9. Separate Movies S1 and S2 were identified in the public listing; only their stills and descriptions in the PDF were read. The video files were not downloaded or played, and raw replicate data were not reanalysed.",
+    "pending_ko": "별도 Movie S1·S2의 연속 시간 기록은 미검토입니다. 반복 신장의 진폭·속도, 굽힘 반경·비틀림각, 반복 수 n과 오차막대 정의는 읽은 본문·보충 PDF에서 명시적으로 확인하지 못했습니다. 본문 약 85.7 Pa와 근사 반지름·표면장력의 수치 일치, 본문의 1,000회 초과 표현과 Figure 4c의 1,000회 축 범위를 추가 원자료·방법 설명에서 확인해야 합니다. 정량 마모·마찰 시험, 항응고·용혈·세포독성·생체 내 시험은 읽은 자료에서 확인되지 않았습니다.",
+    "pending_en": "Continuous records in Movies S1 and S2 remain unread. The inspected paper and supplementary PDF did not explicitly establish cyclic strain amplitude/rate, bend radius/twist angle, replicate n or error-bar definitions. Further source and methods review should check the approximate 85.7 Pa result against the rounded radius/surface tension and distinguish the prose claim of more than 1,000 cycles from Figure 4c’s axis ending at 1,000. Quantified abrasion/rubbing, coagulation, haemolysis, cytotoxicity and in vivo tests were not identified in the inspected material.",
+    "background_ko": "낮은 표면장력 액체의 침투를 막는 비불소 미세구조 연구입니다.",
+    "background_en": "This study uses nonfluorinated microgeometry to resist invasion by low-surface-tension liquids.",
+    "advances_ko": "Al 증착으로 PDMS 버섯기둥의 캡을 아래로 굽혀 액체 접촉선을 지지합니다.",
+    "advances_en": "Al deposition curls PDMS mushroom caps downward, supporting the liquid contact line.",
+    "evaluation_ko": "본문·SI에서 액적 젖음, 변형, 플라즈마와 증발 압력 시험을 읽었습니다. 별도 영상은 미열람입니다.",
+    "evaluation_en": "The paper and SI evaluate wetting, deformation, plasma exposure and evaporation pressure. Separate videos remain unread.",
+    "findings_ko": "신장 그래프는 1,000회까지입니다. 침투압은 약 85.7 Pa 보고값이며 근사입력 계산(약 89.0 Pa)과의 차이는 미해소입니다.",
+    "findings_en": "The stretching plot reaches 1,000 cycles. Reported breakthrough pressure is approximately 85.7 Pa; rounded inputs yield 89.0 Pa, requiring clarification.",
+    "limits_ko": "말 혈액 방울의 반발은 생체효능을 입증하지 않습니다. 마모·생체적합성 시험은 읽은 자료에서 확인되지 않았습니다.",
+    "limits_en": "Horse-blood droplet repellency does not establish biological efficacy. Dedicated abrasion and biocompatibility assays were not identified.",
+    "related_work_ko": "SLIPS 초록과 액체 계면 설계를 비교하며, 성능 우열은 판단하지 않습니다.",
+    "related_work_en": "The SLIPS abstract provides an interface-design comparison, without establishing a performance ranking.",
+    "sources": [
+      {
+        "section": "background",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF pp.1–2 / journal pp.5484–5485, Introduction; p.5 / p.5488, wetting mechanism and MP/F–MP controls",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF pp.3–5 / journal pp.5486–5488, Materials and Methods; Engineering of Diverse Parameters; Figure 2",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://ndownloader.figshare.com/files/14138540",
+        "locator": "S-2 equations; S-3 Tables S1–S2; S-4 Figures S1–S2",
+        "read_scope": "official_publisher_supplement_PDF_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF p.3 / journal p.5486, Materials and Methods and Characterization; pp.5–6 / pp.5488–5489, pressure and flexibility; Figures 3–4",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://ndownloader.figshare.com/files/14138540",
+        "locator": "S-5–S-9, Figures S3–S10",
+        "read_scope": "official_publisher_supplement_PDF_read"
+      },
+      {
+        "section": "findings",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF pp.5–6 / journal pp.5488–5489; Figures 3–4",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "findings",
+        "url": "https://ndownloader.figshare.com/files/14138540",
+        "locator": "S-3 Table S2; S-5 Figure S3; S-6 Figure S5; S-7 Figure S6; S-8–S-9 Figures S7–S10",
+        "read_scope": "official_publisher_supplement_PDF_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF p.4 Figure 3d; p.6 Figure 4 and pressure/flexibility text; Materials and Methods pp.2–3; read-scope absence assessment of scientific pp.1–7",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://ndownloader.figshare.com/files/14138540",
+        "locator": "S-1–S-9 complete supplementary PDF: no dedicated abrasion or biological-efficacy assay identified; Figure S6; Figures S9–S10",
+        "read_scope": "official_publisher_supplement_PDF_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "locator": "PDF pp.1–2 Introduction and p.8 reference 19",
+        "read_scope": "institution_hosted_final_published_full_text_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21938066&format=json&resultType=core",
+        "locator": "Europe PMC MED/21938066 resultList.result[0].abstractText; DOI 10.1038/nature10447",
+        "read_scope": "public_external_abstract_read"
+      }
+    ],
+    "editorial_review_approved": true,
+    "article_deepening_complete": false,
+    "complete_main_and_si_audit": false,
+    "checked_at": "2026-10-06",
+    "editorial_approval_scope_ko": "2026-10-06 독립 근거 검토를 거친 로컬 검토 후보입니다. 명시한 본문·보충자료 열람 범위의 해설만 승인하며, 전체 자료 검증이나 공개 배포 승인을 뜻하지 않습니다.",
+    "editorial_approval_scope_en": "Local candidate independently reviewed on 6 October 2026. Editorial approval covers commentary within the stated main-text/supplement reading scope, not a complete audit or authorization to publish."
+  },
+  {
+    "number": 55,
+    "doi": "10.1007/s13206-020-4105-7",
+    "main_text_read_scope_ko": "공식 Springer HTML에서 Introduction, FBR, Materials and Mechanics(연성·코팅·패턴), Drug Delivery(약물·운반체·액추에이터), Biomimetic Surface, Conclusion의 본문을 직접 읽었습니다. 그림 1–4의 캡션을 읽고 공식 PDF 1·6·7·11쪽(저널 48·53·54·58쪽)의 서지와 선정 문단을 교차 확인했습니다. 인용 원저의 실험·원자료와 그림 패널의 수치를 독립적으로 전수 검증하지 않았습니다.",
+    "main_text_read_scope_en": "Read the official Springer HTML Introduction, foreign-body response, Materials and Mechanics, Drug Delivery, Biomimetic Surface and Conclusion, including their subsections. Read captions for Figures 1–4 and crosschecked identity/selected passages on PDF pages 1, 6, 7 and 11 (journal pages 48, 53, 54 and 58). Cited original experiments, raw data and all figure-panel values were not independently audited.",
+    "supplement_read_scope_ko": "보충자료를 읽지 않았습니다. 확인한 공개 페이지에서 별도 SI 파일 링크를 식별하지 못했으며, 이것이 SI가 없다는 뜻은 아닙니다.",
+    "supplement_read_scope_en": "No supplementary file was read. No separate SI link was identified on the inspected public page; this does not establish that no SI exists.",
+    "pending_ko": "인용 원저의 투여량·표본 수·이식 부위·관찰 기간·통계와 원자료는 별도 검토가 필요합니다. SI 존재 여부와 내용, 장기 성능·안전성 및 연구 간 성능 순위는 미확인입니다. 종설의 사례를 동일 조건의 직접 비교나 임상 검증으로 해석하지 않습니다.",
+    "pending_en": "Cited originals still require checking for dose, sample size, implantation site, observation period, statistics and raw data. SI availability/content, long-term performance and safety, and cross-study rankings remain unverified. The review examples are not matched head-to-head tests or clinical validation.",
+    "background_ko": "단백질·면역세포 부착과 피막은 센서 감도·수명을 저해합니다. 종설은 한 이식물의 재료 안전성을 다른 적용으로 일반화하지 않습니다.",
+    "background_en": "Protein/cell adhesion and encapsulation reduce sensitivity and longevity. The review cautions against transferring material safety between implant applications.",
+    "advances_ko": "유연한 탐침도 삽입 강성이 필요합니다. 분해성 보강재는 일시적 지지 후 유연성을 회복하도록 설계되지만, 이물 반응을 완전히 막지는 못합니다.",
+    "advances_en": "Flexible probes require insertion stiffness; biodegradable reinforcement supplies temporary support before restoring compliance. Foreign-body responses can nevertheless persist.",
+    "evaluation_ko": "열 반응성 DNNC–PEG-DA 비교는 이식 7·30일의 대식세포와 피막을 평가합니다. 이 지표는 장치 수명 검증과 구별합니다.",
+    "evaluation_en": "The reviewed DNNC–PEG-DA comparison examines macrophages and capsules at 7/30 days. These endpoints do not establish sustained device function.",
+    "findings_ko": "mTOR siRNA 사례에서 세포실험의 증식·COL1A1 감소에도 생체 내 피막 두께는 유의하게 변하지 않았습니다. 원자료를 재분석한 결과는 아닙니다.",
+    "findings_en": "The review reports reduced fibroblast proliferation/COL1A1 after mTOR knockdown in vitro, without significant in-vivo capsule-thickness change. Original data were not reanalyzed.",
+    "limits_ko": "혈액 접촉 TLP와 고온 수술기구 LIS 시험은 만성 이식 검증과 구별해야 합니다. 종설도 표면 성능 유지와 생체 검증을 과제로 남깁니다.",
+    "limits_en": "Blood-contact TLP and heated-instrument LIS tests do not establish chronic implant protection; surface durability and in-vivo validation remain unresolved.",
+    "related_work_ko": "Anderson 등의 기존 초록은 대식세포 융합과 표면 특성을 다룹니다. #55의 개입 전략을 읽는 기전 틀이며, 외부 본문을 읽거나 전략별 효과 순위를 검증하지 않았습니다.",
+    "related_work_en": "Anderson’s previously verified abstract supplies macrophage-fusion and surface-property mechanisms for reading #55’s interventions. Its full text was not used, and this connection establishes no efficacy ranking.",
+    "sources": [
+      {
+        "section": "background",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec2",
+        "locator": "Foreign Body Response and Inflammatory Reaction, paragraphs on sensor function and application-specific material safety",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec4",
+        "locator": "Materials and Mechanics > Flexible Materials, insertion stiffness, degradable coatings and residual FBR",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec5",
+        "locator": "Materials and Mechanics > Biocompatible Material Coating, DNNC versus PEG-DA at 7/30 days; Figure 2b caption",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://link.springer.com/content/pdf/10.1007/s13206-020-4105-7.pdf#page=6",
+        "locator": "PDF page 6, journal page 53; DNNC paragraph",
+        "read_scope": "publisher_PDF_selected_text_crosscheck"
+      },
+      {
+        "section": "findings",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec8",
+        "locator": "Drug Delivery > Drug; Takahashi mTOR-siRNA paragraph separating in vitro from in vivo outcomes",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "findings",
+        "url": "https://link.springer.com/content/pdf/10.1007/s13206-020-4105-7.pdf#page=7",
+        "locator": "PDF page 7, journal page 54; Takahashi paragraph",
+        "read_scope": "publisher_PDF_selected_text_crosscheck"
+      },
+      {
+        "section": "limits",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec14",
+        "locator": "Biomedical Applications of Biomimetic Surfaces; TLP blood-contact and LIS instrument examples",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://link.springer.com/article/10.1007/s13206-020-4105-7#Sec15",
+        "locator": "Conclusion and Future Perspectives; persistence, durability and translation limits",
+        "read_scope": "publisher_full_text_sections_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://europepmc.org/article/MED/18162407",
+        "locator": "Previously verified Europe PMC core record abstractText, PMID 18162407; DOI 10.1016/j.smim.2007.11.004; public abstract cached 2026-10-03 and reread locally 2026-10-06",
+        "read_scope": "existing_public_external_abstract_reread_no_external_full_text"
+      }
+    ],
+    "editorial_review_approved": true,
+    "article_deepening_complete": false,
+    "complete_main_and_si_audit": false,
+    "checked_at": "2026-10-06",
+    "editorial_approval_scope_ko": "2026-10-06 독립 근거 검토를 거친 로컬 검토 후보입니다. 명시한 본문·보충자료 열람 범위의 해설만 승인하며, 전체 자료 검증이나 공개 배포 승인을 뜻하지 않습니다.",
+    "editorial_approval_scope_en": "Local candidate independently reviewed on 6 October 2026. Editorial approval covers commentary within the stated main-text/supplement reading scope, not a complete audit or authorization to publish."
+  },
+  {
+    "number": 58,
+    "doi": "10.1002/adma.202005930",
+    "main_text_read_scope_ko": "MacBook에 실제 저장된 저자기관 공개 PDF를 직접 읽었습니다. DOI·제목·서지·25쪽 표기를 대조한 게재본입니다. 본문/표/캡션을 읽은 페이지는 1–4, 6, 8–9, 14, 16, 18, 20–21쪽이며, 10·12·15쪽은 절 제목 위치만 확인했습니다. 참고문헌 22–25쪽은 지정 인용 항목을 식별하기 위해 확인했습니다. 본문 전부·그림 패널·인용 원저 전수를 읽었다는 뜻은 아닙니다.",
+    "main_text_read_scope_en": "Read the institutional PDF physically stored on this MacBook, checking DOI, title, bibliographic footer and 25-page pagination. Read text/tables/caption on PDF pages 1–4, 6, 8–9, 14, 16, 18 and 20–21; inspected pages 10, 12 and 15 only to locate section headings. Checked selected bibliography entries on pages 22–25. This does not claim a complete main-text, visual-panel, or cited-original audit.",
+    "supplement_read_scope_ko": "이 리뷰의 별도 SI를 확보하거나 읽지 않았습니다. 현재 PDF 텍스트에서 Supporting Information/Supplementary 표기를 찾지 못했지만 SI 부재의 증명으로 해석하지 않습니다. 인용된 장치 원저의 SI도 읽지 않았습니다.",
+    "supplement_read_scope_en": "No separate supplement for this review was obtained or read. No Supporting Information/Supplementary marker was found in this PDF text; that is not proof that no supplement exists. Supplements to cited device studies were not read.",
+    "pending_ko": "정정문과 공개 초록·캡션을 확인했습니다. 수정 패널·원저 전체·SI·반복 실험 원자료는 미검토입니다. 저자의 결론 불변 진술을 효능 검증으로 취급하지 않으며, 나머지 원저의 표본 수·용량·통계와 장기·임상 근거도 검증하지 않았습니다.",
+    "pending_en": "The correction notice, public abstract and caption were checked. Corrected panels, the full original, supplements and repeated-experiment raw data remain unreviewed. The authors’ unchanged-conclusion statement is not an independent efficacy check; sample sizes, doses, statistics and long-term or clinical evidence in other originals also remain unaudited.",
+    "background_ko": "전자약은 섭취·패치형, 생체흡수형, 장기 이식형으로 나뉩니다. 위치와 작동 기간이 중요합니다.",
+    "background_en": "The review groups ingestible/patch, bioresorbable, and chronic implanted devices by location and duration.",
+    "advances_ko": "종설은 섬유 가열식 방출과 항오염·유연 감지 구조를 소개합니다. 이 설계 설명을 치료효능 검증으로 해석하지 않습니다.",
+    "advances_en": "The review describes heated-fiber release and antifouling, compliant sensing designs; this does not independently establish therapeutic efficacy.",
+    "evaluation_ko": "전극의 분해 시험은 pH 10 PBS·37°C·두 달 조건입니다. 쥐 기록을 인체 수명으로 환산하지 않습니다.",
+    "evaluation_en": "Electrode dissolution used pH 10 PBS at 37°C for two months, separately from rat recordings.",
+    "findings_ko": "돼지 위 장치는 최대 14일 양방향 통신과 20.1일 체류를 보고했습니다. 이후 온도 전송은 단방향이었습니다.",
+    "findings_en": "The swine device distinguished up-to-14-day bilateral communication from 20.1-day residence and later unilateral temperature transmission.",
+    "limits_ko": "부산물·흉터·체액 중 안정성과 임상 검증은 남아 있습니다. 원저 본문과 SI는 직접 검토하지 않았습니다.",
+    "limits_en": "Byproducts, scarring, stability, and clinical validation remain unresolved. Originals and supplements were not audited.",
+    "related_work_ko": "드레싱 [15]의 정정은 Fig. 6A 스크래치 상처시험의 Control–Cefazolin 0·16시간 패널 중첩을 다룹니다. 원자료 미보유로 실험을 반복하고 새 대표 이미지를 반영했으며, 효능은 독립 검증하지 않았습니다.",
+    "related_work_en": "The correction to dressing study [15] addresses overlapping Figure 6A scratch-assay Control–Cefazolin images at 0 and 16 hours. The experiment was repeated and a new representative image incorporated because original raw data were unavailable; efficacy was not independently verified here.",
+    "sources": [
+      {
+        "section": "background",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.3, §1 final paragraph; PDF p.2, Fig.1 caption and explanatory paragraphs",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.8, §2.2, Mostafalu textile-dressing paragraph [15]; PDF p.16, §4.2, coating and flexible-mesh paragraphs [138,142]; PDF p.16, §4.2, right column, Xie et al. CGM coating [138]; bibliography p.24",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.14, §3.3 continuation, left column first paragraph; cited Yu et al. [79]. Context: Table 1 p.4; Tables 2–3 p.9.; PDF p.6, §2.1 continuation, left column, 3D-printed gastric-resident device [42]",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "findings",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.6, §2.1 continuation, left column, 3D-printed gastric-resident device [42]",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.21, §5 Conclusions and Perspectives, right column final discussion paragraph before Acknowledgements",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
+        "locator": "PDF p.8, §2.2, right column first paragraph, textile dressing [15]; reference entry p.22; PDF p.3, §2.1, right column last paragraph; reference [31] p.22; PDF p.6, §2.1 continuation, left column first paragraph [12]; bibliography p.22",
+        "read_scope": "public_institutional_selected_main_text_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25023947/",
+        "title": "Novel orally swallowable IntelliCap(®) device to quantify regional drug absorption in human GI tract using diltiazem as model drug",
+        "locator": "PubMed title, Authors, citation line and DOI/PMID/PMCID identifiers",
+        "read_scope": "official_bibliographic_metadata_only_no_original_full_text"
+      },
+      {
+        "section": "related_work",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29189367/",
+        "title": "Oxycodone Ingestion Patterns in Acute Fracture Pain With Digital Pills",
+        "locator": "PubMed title, Authors, citation line and DOI/PMID/PMCID identifiers",
+        "read_scope": "official_bibliographic_metadata_only_no_original_full_text"
+      },
+      {
+        "section": "related_work",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.201702399",
+        "title": "A Textile Dressing for Temporal and Dosage Controlled Drug Delivery",
+        "locator": "Publisher title, volume/issue/article-number header, DOI and How to cite; author details list",
+        "read_scope": "official_bibliographic_metadata_only_no_original_full_text"
+      },
+      {
+        "section": "advances",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.201702399",
+        "locator": "Public Abstract, second paragraph: composite fiber heater, thermoresponsive carriers and individually addressable release; original full text not read.",
+        "read_scope": "public_original_abstract_read_no_original_full_text_or_SI",
+        "resolution_source": "20261006-correction",
+        "title": "A Textile Dressing for Temporal and Dosage Controlled Drug Delivery — DOI 10.1002/adfm.201702399"
+      },
+      {
+        "section": "related_work",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202512170",
+        "locator": "Correction notice first and second paragraphs immediately before Figure6; corrected Figure6A caption. Named Control-Cefazolin T=0/T=16h overlap, unavailable raw data, repeated experiment, replacement image and authors unchanged-conclusion statement.",
+        "read_scope": "publisher_correction_notice_and_caption_read_no_corrected_panel_raw_data_or_SI_audit",
+        "resolution_source": "20261006-correction",
+        "title": "Correction to A Textile Dressing for Temporal and Dosage Controlled Drug Delivery — DOI 10.1002/adfm.202512170"
+      }
+    ],
+    "editorial_review_approved": true,
+    "article_deepening_complete": false,
+    "complete_main_and_si_audit": false,
+    "checked_at": "2026-10-06",
+    "editorial_approval_scope_ko": "2026-10-06 독립 근거 검토를 거친 로컬 검토 후보입니다. 명시한 본문·보충자료 열람 범위의 해설만 승인하며, 전체 자료 검증이나 공개 배포 승인을 뜻하지 않습니다.",
+    "editorial_approval_scope_en": "Local candidate independently reviewed on 6 October 2026. Editorial approval covers commentary within the stated main-text/supplement reading scope, not a complete audit or authorization to publish."
+  },
+  {
+    "number": 93,
+    "doi": "10.1021/acsami.6c04312",
+    "main_text_read_scope_ko": "출판사 등록 Crossref 초록을 새로 읽었습니다. ACS 본문 페이지는 403으로 열리지 않았으며 본문·본문 그림·실험 방법을 읽었다고 주장하지 않습니다.",
+    "main_text_read_scope_en": "The publisher-registered Crossref abstract was reread. The ACS article page returned 403; the main text, main figures and main experimental methods were not read.",
+    "supplement_read_scope_ko": "공식 ACS Figshare에서 DOI가 일치하는 am6c04312_si_002.pdf를 받아 S1–S20의 텍스트와 렌더링을 모두 읽었습니다. 범위는 저자·소속, 그림 S1–S16의 패널·축·캡션, 표 S1/S2입니다. 상세 Methods가 없는 보충 그림·표의 확인이며, 별도 보충 동영상은 읽지 않았습니다. 원자료 재분석이나 재현성 검증은 아닙니다.",
+    "supplement_read_scope_en": "The DOI-matched am6c04312_si_002.pdf was downloaded from official ACS Figshare. Text and rendered pages S1–S20 were read: authors/affiliations, panels/axes/captions of Figures S1–S16, and Tables S1/S2. This is a supplementary figure/table review without the detailed main Methods. The separate supplementary video was not reviewed; raw data and reproducibility were not audited.",
+    "pending_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 학교 Mini에 접근하지 않았습니다.",
+    "pending_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. No school Mini was accessed.",
+    "background_ko": "내시경의 김 서림과 혈액·점액 오염을 다루는 일회용 캡 연구입니다.",
+    "background_en": "This disposable-cap study addresses endoscope fogging and blood or mucus fouling.",
+    "advances_ko": "PDMS 브러시와 실리콘오일 계면을 결합하며, 윤활유 보충으로 기능 회복을 시도합니다.",
+    "advances_en": "PDMS brushes and silicone oil form a replenishable interface.",
+    "evaluation_ko": "공개 SI의 젖음성·반복 담금·세포·용혈 시험을 확인했습니다. 생체외 모델의 상세 본문은 미확인입니다.",
+    "evaluation_en": "Public SI shows wetting, repeated-dipping, cell and hemolysis tests; detailed ex vivo methods remain unread.",
+    "findings_ko": "대표 영상에서는 100회 혈액 담금 뒤 시야가 유지됩니다. 그러나 S14C의 축·범례 방향이 영상과 달라 정량 해석은 보류합니다.",
+    "findings_en": "Representative images retain visibility after 100 blood dips. Conflicting axis/legend directions in S14C prevent quantitative interpretation.",
+    "limits_ko": "pH·CA/SA·오염액 표기도 불일치합니다. 보충·멸균·노화의 일부 SI만으로 장기 내구나 환자 안전성을 확정하지 않습니다.",
+    "limits_en": "Other pH, CA/SA and fluid labels conflict. SI replenishment, sterilization and aging evidence does not establish long-term durability or patient safety.",
+    "related_work_ko": "외부 초록(DOI 10.1038/nbt.3020)의 액체 계면과 비교하되, 혈전 지표를 내시경 성능으로 바꾸어 읽지 않습니다.",
+    "related_work_en": "An external abstract (10.1038/nbt.3020) supports interface comparison; thrombosis endpoints do not establish endoscope performance.",
+    "sources": [
+      {
+        "section": "background",
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator": "message.abstract",
+        "read_scope": "publisher_registered_abstract_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator": "message.abstract",
+        "read_scope": "publisher_registered_abstract_read"
+      },
+      {
+        "section": "advances",
+        "url": "https://ndownloader.figshare.com/files/65444582",
+        "locator": "S8 Figure S6B/C; S18 Figure S16",
+        "read_scope": "public_publisher_supplement_pdf_read"
+      },
+      {
+        "section": "evaluation",
+        "url": "https://ndownloader.figshare.com/files/65444582",
+        "locator": "S5 Figure S3; S11–S14 Figures S9–S12; S16 Figure S14",
+        "read_scope": "public_publisher_supplement_pdf_read"
+      },
+      {
+        "section": "findings",
+        "url": "https://ndownloader.figshare.com/files/65444582",
+        "locator": "S16 Figure S14; S18 Figure S16; S20 Table S2",
+        "read_scope": "public_publisher_supplement_pdf_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://ndownloader.figshare.com/files/65444582",
+        "locator": "S6/S7 Figures S4/S5; S8 Figure S6; S9 Figure S7; S11–S14 Figures S9–S12; S16 Figure S14; S19 Table S1",
+        "read_scope": "public_publisher_supplement_pdf_read"
+      },
+      {
+        "section": "limits",
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator": "message.abstract: in vitro / ex vivo boundary",
+        "read_scope": "publisher_registered_abstract_read"
+      },
+      {
+        "section": "related_work",
+        "url": "https://www.nature.com/articles/nbt.3020",
+        "locator": "Existing baseline evidence.external: abstract read 2026-10-03; fresh Nature fetch failed on 2026-10-06",
+        "read_scope": "prior_public_external_abstract_review_carried_forward"
+      },
+      {
+        "section": "related_work",
+        "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
+        "locator": "message.abstract",
+        "read_scope": "publisher_registered_abstract_read"
+      }
+    ],
+    "editorial_review_approved": true,
+    "article_deepening_complete": false,
+    "complete_main_and_si_audit": false,
+    "checked_at": "2026-10-06",
+    "editorial_approval_scope_ko": "2026-10-06 독립 근거 검토를 거친 로컬 검토 후보입니다. 명시한 본문·보충자료 열람 범위의 해설만 승인하며, 전체 자료 검증이나 공개 배포 승인을 뜻하지 않습니다.",
+    "editorial_approval_scope_en": "Local candidate independently reviewed on 6 October 2026. Editorial approval covers commentary within the stated main-text/supplement reading scope, not a complete audit or authorization to publish."
   }
 ]

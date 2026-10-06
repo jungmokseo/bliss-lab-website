@@ -522,7 +522,7 @@
     "figure_status": "generated_concept",
     "original_rights_status": "pending_rights",
     "correspondence_status": "confirmed_corresponding",
-    "evidence_level": "abstract",
+    "evidence_level": "full_text",
     "asset_path": "assets/concepts/paper-058-concept.webp",
     "ko_page": "ko/papers/058.html",
     "en_page": "en/papers/058.html"
@@ -558,7 +558,7 @@
     "figure_status": "generated_concept",
     "original_rights_status": "link_only",
     "correspondence_status": "confirmed_corresponding",
-    "evidence_level": "abstract",
+    "evidence_level": "full_text",
     "asset_path": "assets/concepts/paper-055-concept.webp",
     "ko_page": "ko/papers/055.html",
     "en_page": "en/papers/055.html"
@@ -606,7 +606,7 @@
     "figure_status": "concept_review_pending",
     "original_rights_status": "pending_rights",
     "correspondence_status": "confirmed_corresponding",
-    "evidence_level": "abstract",
+    "evidence_level": "full_text",
     "asset_path": "",
     "ko_page": "ko/papers/051.html",
     "en_page": "en/papers/051.html"
