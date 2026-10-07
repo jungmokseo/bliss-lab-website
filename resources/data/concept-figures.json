@@ -663,5 +663,87 @@
     "alt_en": "A concept with one droplet above an abstract Pd-coated silicon-nanowire surface, surrounded by neutral modules for gas environment, surface geometry and droplet adhesion.",
     "concept_scope_en": "Connecting lines and the horizontal double arrow denote only conceptual relationships and the studied switching. They do not specify gas composition, molecular reactions, droplet lifting or levitation, actual wire arrangement or coating thickness, contact angles, response time, cycle count or perfect reversibility.",
     "generation_provenance_en": "Generated in ChatGPT on the web from concepts within the stated public-evidence scope and independently reviewed as a concept. This is not verification of the complete article body or supplementary information. Only display WebP encoding was applied, without cropping, resizing or content editing."
+  },
+  {
+    "number": 51,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-051-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1021/acsami.8b17181",
+    "source_url": "https://doi.org/10.1021/acsami.8b17181",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30576594/",
+        "title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays",
+        "access": "public_web_abstract",
+        "locator": "PubMed Abstract; DOI 10.1021/acsami.8b17181 matched. Checked 2026-10-03."
+      },
+      {
+        "url": "https://europepmc.org/article/MED/30576594",
+        "title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays.",
+        "access": "public_abstract_via_EuropePMC_API",
+        "locator": "Europe PMC REST search resultType=core, abstractText; PMID 30576594; DOI 10.1021/acsami.8b17181. Checked 2026-10-03."
+      },
+      {
+        "url": "https://nbdl.yonsei.ac.kr/pdf/2019_02_ACSAMI.pdf",
+        "title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays",
+        "access": "institution_hosted_final_published_full_text_read",
+        "locator": "2026-10-06; see the section-specific review locations below. PDF pp.1–2 / journal pp.5484–5485, Introduction; p.5 / p.5488, wetting mechanism and MP/F–MP controls"
+      },
+      {
+        "url": "https://ndownloader.figshare.com/files/14138540",
+        "title": "Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays",
+        "access": "official_publisher_supplement_PDF_read",
+        "locator": "2026-10-06; see the section-specific review locations below. S-2 equations; S-3 Tables S1–S2; S-4 Figures S1–S2"
+      }
+    ],
+    "sha256": "51412cc3011b30b583adad074354a789df07370c623ad57c1babb2cce58a2853",
+    "caption_ko": "AI 생성 비축척 개념도: PDMS 버섯형 미세기둥의 돌출된 캡과 아래로 굽은 가장자리, 얇은 Al 표면층을 통해 액체 아래에 공기 공간을 유지하는 구조적 액체 반발 원리를 단순화했습니다. 가는 은회색 윤곽은 얇은 표면막의 개략적 표시이며, Al 라벨은 코팅된 캡 표면을 가리킵니다. 실제 막 두께·피복 범위·계면·치수 비율을 재현하지 않으며 실험데이터나 측정 성능이 아닙니다. 검토한 근거에서 생체적합성·방오·임상 성과는 검증되지 않았습니다. 비불소 구조라는 사실만으로 안전성을 뜻하지 않습니다.",
+    "caption_en": "AI-generated, not-to-scale concept illustrating structural liquid repellency through overhanging PDMS mushroom caps, downturned rims and a thin Al surface layer, with air spaces below the liquid. The fine silver-gray contour schematically denotes a thin surface film; the Al label points to the coated cap surface. Actual film thickness, coverage, interfaces and dimensional proportions are not reproduced. This is not experimental data or measured performance. Biocompatibility, biofouling resistance and clinical outcomes have not been established within the reviewed evidence. A nonfluorinated structure alone does not establish safety.",
+    "alt_ko": "액체 아래 공기 공간을 유지하는 파란 PDMS 버섯형 미세기둥과 가는 은회색 Al 표면 윤곽의 개념도.",
+    "alt_en": "Concept of blue PDMS mushroom micropillars, fine silver-gray Al surface contours and air spaces below a liquid.",
+    "concept_scope_ko": "AI 생성 비축척 개념도: PDMS 버섯형 미세기둥의 돌출된 캡과 아래로 굽은 가장자리, 얇은 Al 표면층을 통해 액체 아래에 공기 공간을 유지하는 구조적 액체 반발 원리를 단순화했습니다. 가는 은회색 윤곽은 얇은 표면막의 개략적 표시이며, Al 라벨은 코팅된 캡 표면을 가리킵니다. 실제 막 두께·피복 범위·계면·치수 비율을 재현하지 않으며 실험데이터나 측정 성능이 아닙니다. 검토한 근거에서 생체적합성·방오·임상 성과는 검증되지 않았습니다. 비불소 구조라는 사실만으로 안전성을 뜻하지 않습니다.",
+    "concept_scope_en": "AI-generated, not-to-scale concept illustrating structural liquid repellency through overhanging PDMS mushroom caps, downturned rims and a thin Al surface layer, with air spaces below the liquid. The fine silver-gray contour schematically denotes a thin surface film; the Al label points to the coated cap surface. Actual film thickness, coverage, interfaces and dimensional proportions are not reproduced. This is not experimental data or measured performance. Biocompatibility, biofouling resistance and clinical outcomes have not been established within the reviewed evidence. A nonfluorinated structure alone does not establish safety.",
+    "generation_provenance_ko": "사용자가 승인한 기존 AI 개념도 원본을 실제 픽셀과 한영 필수 캡션 조건으로 검토했습니다. 표시용 WebP 인코딩만 수행했고 자르기·내용 편집·새 이미지 생성은 하지 않았습니다. 원논문 그림 재사용 허가나 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+    "generation_provenance_en": "The user-approved existing AI concept was reviewed as actual pixels with its required bilingual caption. Processing is limited to display WebP encoding, without cropping, content editing or new generation. This does not establish permission to reproduce original article figures or completion of an entire main-text/SI audit."
+  },
+  {
+    "number": 60,
+    "generated": true,
+    "asset_path": "assets/concepts/paper-060-concept.webp",
+    "width": 1536,
+    "height": 1024,
+    "source_doi": "10.1039/d1nr04508c",
+    "source_url": "https://doi.org/10.1039/d1nr04508c",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1039/d1nr04508c",
+        "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release",
+        "access": "local_pdf_read",
+        "locator": "Existing BLS06_Nanoscale_2021_Multifunctional_Electronic_Suture_MAIN.pdf; PDF pp.2-3,10 / article pp.18112-18113,18120; title and DOI matched. Checked 2026-10-03."
+      },
+      {
+        "url": "https://europepmc.org/article/MED/34604894",
+        "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release.",
+        "access": "public_abstract_via_EuropePMC_API",
+        "locator": "Europe PMC REST search resultType=core, abstractText; PMID 34604894; DOI 10.1039/d1nr04508c. Checked 2026-10-03."
+      },
+      {
+        "url": "https://pubs.rsc.org/nr/article/13/43/18112/736746/A-multifunctional-electronic-suture-for-continuous",
+        "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release",
+        "locator": "2026-10-06 actual publisher main-text reading, selected Results and Experimental; SI not included",
+        "access": "publisher_selected_main_text_read"
+      }
+    ],
+    "sha256": "c711c76014bd4ab33e8707df131a3d762aa1f2a0afb10025a58db9c0ec370343",
+    "caption_ko": "AI 생성 비축척 개념도: 전도성 섬유 코어와 약물 함유 열반응성 고분자 쉘의 변형 감지 기능, 외부 공급 전류의 줄 가열에 따른 약물 방출 기능을 단순화했습니다. 파란 밝기 변화 기호는 감지신호의 정성적 표시이며 실제 LED·광학 검출·신호 크기·시간 데이터를 뜻하지 않습니다. 금색 기호는 약물의 정성적 표시이며 실제 성분이나 입자수를 뜻하지 않습니다. 배선 경로·섬유 질감·상처 형상은 개략적이며 실제 치수·수술 배치·완전한 회로를 재현하지 않습니다. 실험데이터가 아니며 인간 치료효과는 검증되지 않았습니다. 실제 논문의 AgNP/PU 코어–PDMS 보호·절연 중간층–PVA–PNIPAm 외층 중 PDMS 중간층은 이 개념도에서 생략했습니다. 전체 단면 구조를 재현한 그림이 아닙니다.",
+    "caption_en": "AI-generated, not-to-scale concept illustrating strain sensing by a conductive fiber core and drug release from a drug-loaded thermoresponsive polymer shell through Joule heating driven by externally supplied current. The blue brightness-change symbol is a qualitative sensing cue, not an actual LED, optical detector, signal magnitude or time-series data. Gold symbols represent drugs qualitatively, not their actual composition or particle count. Wire routing, fiber texture and wound geometry are schematic and do not reproduce actual dimensions, surgical placement or a complete circuit. This is not experimental data; therapeutic efficacy in humans has not been established. The paper’s AgNP/PU core–PDMS protective/insulating intermediate layer–PVA–PNIPAm outer layer is simplified here: the PDMS intermediate layer is omitted. This image does not reproduce the complete cross-section.",
+    "alt_ko": "상처 주변의 전도성 섬유와 약물 함유 외층, 외부 배선과 정성적 변형 감지 기호의 개념도. PDMS 중간층은 생략됨.",
+    "alt_en": "Concept of a conductive fiber and drug-containing outer shell near a wound, with external wires and a qualitative sensing cue. The PDMS intermediate layer is omitted.",
+    "concept_scope_ko": "AI 생성 비축척 개념도: 전도성 섬유 코어와 약물 함유 열반응성 고분자 쉘의 변형 감지 기능, 외부 공급 전류의 줄 가열에 따른 약물 방출 기능을 단순화했습니다. 파란 밝기 변화 기호는 감지신호의 정성적 표시이며 실제 LED·광학 검출·신호 크기·시간 데이터를 뜻하지 않습니다. 금색 기호는 약물의 정성적 표시이며 실제 성분이나 입자수를 뜻하지 않습니다. 배선 경로·섬유 질감·상처 형상은 개략적이며 실제 치수·수술 배치·완전한 회로를 재현하지 않습니다. 실험데이터가 아니며 인간 치료효과는 검증되지 않았습니다. 실제 논문의 AgNP/PU 코어–PDMS 보호·절연 중간층–PVA–PNIPAm 외층 중 PDMS 중간층은 이 개념도에서 생략했습니다. 전체 단면 구조를 재현한 그림이 아닙니다.",
+    "concept_scope_en": "AI-generated, not-to-scale concept illustrating strain sensing by a conductive fiber core and drug release from a drug-loaded thermoresponsive polymer shell through Joule heating driven by externally supplied current. The blue brightness-change symbol is a qualitative sensing cue, not an actual LED, optical detector, signal magnitude or time-series data. Gold symbols represent drugs qualitatively, not their actual composition or particle count. Wire routing, fiber texture and wound geometry are schematic and do not reproduce actual dimensions, surgical placement or a complete circuit. This is not experimental data; therapeutic efficacy in humans has not been established. The paper’s AgNP/PU core–PDMS protective/insulating intermediate layer–PVA–PNIPAm outer layer is simplified here: the PDMS intermediate layer is omitted. This image does not reproduce the complete cross-section.",
+    "generation_provenance_ko": "사용자가 승인한 기존 AI 개념도 원본을 실제 픽셀과 한영 필수 캡션 조건으로 검토했습니다. 표시용 WebP 인코딩만 수행했고 자르기·내용 편집·새 이미지 생성은 하지 않았습니다. 원논문 그림 재사용 허가나 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+    "generation_provenance_en": "The user-approved existing AI concept was reviewed as actual pixels with its required bilingual caption. Processing is limited to display WebP encoding, without cropping, content editing or new generation. This does not establish permission to reproduce original article figures or completion of an entire main-text/SI audit."
   }
 ]

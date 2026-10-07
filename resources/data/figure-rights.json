@@ -111,10 +111,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Yurim Lee, Yeontaek Lee, Siyeon Park 외. “Bridging IC chips and deformable circuits: A packaging framework for high-density soft electronics”. DOI: 10.1016/j.mser.2026.101285. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -125,12 +125,18 @@
         "locator": "Public catalogue/metadata; no verified abstract or figure",
         "read_scope": "publisher_content_access_blocked",
         "finding": "공개 출판사 요청이 HTTP 403으로 막혔고 공개 본문·그림을 확보하지 못했습니다."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.mser.2026.101285",
+        "locator": "2026-10-06 normal DOI/title-matched publisher main text; selected original panels and reuse coverage not independently audited",
+        "read_scope": "selected_publisher_main_text_read_figure_reuse_unverified",
+        "finding": "본문 접근은 성공했습니다. 원그림을 새로 선정·복사하거나 재사용 허가를 확대하지 않았습니다."
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": "Crossref 서지에서 제목·DOI·권·논문번호를 확인했으나 초록 필드는 없다. ScienceDirect 검색 결과에 초록 일부가 나타났지만 직접 페이지 열기는 실패하여 전체 초록 검토로 계산하지 않았다. 이번 조사의 추가 열람 범위는 rights_evidence에 구분했습니다.",
-    "pending_reason_ko": "원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "pending_reason_en": "Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "rights_review_scope": "이전 접근 제한 기록을 보존합니다. 2026-10-06 DOI·제목 일치 출판사 본문을 정상 열람했으며 실제 본문/캡션 읽기 범위는 과학 근거에 기록했습니다. 선정 원그림의 패널·제3자 크레딧·재사용 조건을 별도로 검증하지 않아 수록하지 않습니다.",
+    "pending_reason_ko": "대표 원그림의 패널 확인·선정과 그림별 재사용 조건·제3자 크레딧 확인이 남아 수록을 보류합니다.",
+    "pending_reason_en": "Original-figure selection, panel inspection, figure-specific reuse conditions and third-party credits remain pending.",
     "link_label_ko": "공식 논문 페이지",
     "link_label_en": "Official article page",
     "modification": "Not reproduced; source link only.",
@@ -151,7 +157,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "Crossref 서지에서 제목·DOI·권·논문번호를 확인했으나 초록 필드는 없다. ScienceDirect 검색 결과에 초록 일부가 나타났지만 직접 페이지 열기는 실패하여 전체 초록 검토로 계산하지 않았다. 이번 조사의 추가 열람 범위는 rights_evidence에 구분했습니다."
   },
   {
     "number": 99,
@@ -688,10 +695,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Kayoung Son, Yeontaek Lee, Kyungwon Lee 외. “Disposable Endoscope Cap Maintaining Clear Surgical\nVisualization under Fogging and Fouling”. DOI: 10.1021/acsami.6c04312. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -903,7 +910,12 @@
     "verification_ko": "현재 통합 과정에서 파일을 열어 원그림 내용·패널·가시적 크레딧을 대조했습니다.",
     "verification_en": "The file was opened during integration to compare its content, panels and visible credits.",
     "asset_visual_qa_passed": true,
-    "asset_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4c1b/12924897/0f9e7079f7ad/gr1.jpg"
+    "asset_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4c1b/12924897/0f9e7079f7ad/gr1.jpg",
+    "creator": {
+      "@type": "Person",
+      "name": "이연택"
+    },
+    "copyright_notice": "© 2026 The Authors"
   },
   {
     "number": 90,
@@ -2340,10 +2352,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Jae Park, Daun Jeong, Yeontaek Lee 외. “Bioactivated lubricant-infused surfaces: A dual-action strategy for enhancing osseointegration and preventing implant-associated infections”. DOI: 10.1016/j.cej.2024.149043. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -2354,12 +2366,18 @@
         "locator": "publisher fetch error; metadata only",
         "read_scope": "metadata_only_access_blocked",
         "finding": "연구 내용 근거와 그림·권리문을 확인하지 못했습니다."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.cej.2024.149043",
+        "locator": "2026-10-06 normal DOI/title-matched publisher main text; selected original panels and reuse coverage not independently audited",
+        "read_scope": "selected_publisher_main_text_read_figure_reuse_unverified",
+        "finding": "본문 접근은 성공했습니다. 원그림을 새로 선정·복사하거나 재사용 허가를 확대하지 않았습니다."
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": "출판사 서지와 Crossref 제목·DOI만 확인했다. ScienceDirect 전문 요청은 오류였고 Crossref에 초록이 없으며 Europe PMC에도 해당 DOI 기록이 없었다.",
-    "pending_reason_ko": "원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "pending_reason_en": "Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "rights_review_scope": "이전 접근 제한 기록을 보존합니다. 2026-10-06 DOI·제목 일치 출판사 본문을 정상 열람했으며 실제 본문/캡션 읽기 범위는 과학 근거에 기록했습니다. 선정 원그림의 패널·제3자 크레딧·재사용 조건을 별도로 검증하지 않아 수록하지 않습니다.",
+    "pending_reason_ko": "대표 원그림의 패널 확인·선정과 그림별 재사용 조건·제3자 크레딧 확인이 남아 수록을 보류합니다.",
+    "pending_reason_en": "Original-figure selection, panel inspection, figure-specific reuse conditions and third-party credits remain pending.",
     "link_label_ko": "공식 논문 페이지",
     "link_label_en": "Official article page",
     "modification": "Not reproduced; source link only.",
@@ -2380,7 +2398,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "출판사 서지와 Crossref 제목·DOI만 확인했다. ScienceDirect 전문 요청은 오류였고 Crossref에 초록이 없으며 Europe PMC에도 해당 DOI 기록이 없었다."
   },
   {
     "number": 72,
@@ -2813,10 +2832,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Kijun Park, Seunghoi Kim, Yejin Jo 외. “Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications”. DOI: 10.1016/j.bioactmat.2022.07.019. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -2827,12 +2846,18 @@
         "locator": "PMC: browser verification screen; Europe PMC XML HTTP 500",
         "read_scope": "access_limited_or_abstract_only",
         "finding": "공개 초록은 확인했지만 본문 그림·라이선스는 접근 제한으로 확인하지 못했습니다."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.bioactmat.2022.07.019",
+        "locator": "2026-10-06 normal DOI/title-matched publisher main text; selected original panels and reuse coverage not independently audited",
+        "read_scope": "selected_publisher_main_text_read_figure_reuse_unverified",
+        "finding": "본문 접근은 성공했습니다. 원그림을 새로 선정·복사하거나 재사용 허가를 확대하지 않았습니다."
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": "연세대 연구자 저장소의 초록과 Europe PMC의 동일 DOI 초록을 확인했다. 출판사 페이지는 오류, PMC는 브라우저 확인 화면, XML API는 500 오류여서 전문은 읽지 못했다.",
-    "pending_reason_ko": "선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "pending_reason_en": "Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "rights_review_scope": "이전 접근 제한 기록을 보존합니다. 2026-10-06 DOI·제목 일치 출판사 본문을 정상 열람했으며 실제 본문/캡션 읽기 범위는 과학 근거에 기록했습니다. 선정 원그림의 패널·제3자 크레딧·재사용 조건을 별도로 검증하지 않아 수록하지 않습니다.",
+    "pending_reason_ko": "대표 원그림의 패널 확인·선정과 그림별 재사용 조건·제3자 크레딧 확인이 남아 수록을 보류합니다.",
+    "pending_reason_en": "Original-figure selection, panel inspection, figure-specific reuse conditions and third-party credits remain pending.",
     "link_label_ko": "공식 논문 페이지",
     "link_label_en": "Official article page",
     "modification": "Not reproduced; source link only.",
@@ -2853,7 +2878,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "연세대 연구자 저장소의 초록과 Europe PMC의 동일 DOI 초록을 확인했다. 출판사 페이지는 오류, PMC는 브라우저 확인 화면, XML API는 500 오류여서 전문은 읽지 못했다."
   },
   {
     "number": 66,
@@ -3110,10 +3136,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Jae Park, Yeontaek Lee, Tae Young Kim 외. “Functional Bioelectronic Materials for Long-Term Biocompatibility and Functionality”. DOI: 10.1021/acsaelm.1c01212. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -3127,7 +3153,7 @@
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": "Crossref 서지만 확인했다. 초록 필드가 없고 출판사 페이지 조회도 실패했다.",
+    "rights_review_scope": "2026-10-06 DOI 일치 보관 최종 게재 PDF의 선택 본문·표·캡션을 읽었습니다. 실제 페이지 범위는 과학 근거에 명시했습니다. 원그림 선정·그림별 재사용 조건·제3자 크레딧의 검증 완료로 확대하지 않습니다.",
     "pending_reason_ko": "원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
     "pending_reason_en": "Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
     "link_label_ko": "공식 논문 페이지",
@@ -3150,7 +3176,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "Crossref 서지만 확인했다. 초록 필드가 없고 출판사 페이지 조회도 실패했다."
   },
   {
     "number": 62,
@@ -3262,10 +3289,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Jae Park, Yeonju Kim, Beomsoo Chun 외. “Rational engineering and applications of functional bioadhesives in biomedical engineering”. DOI: 10.1002/biot.202100231. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -3279,7 +3306,7 @@
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": "출판사 직접 페이지는 접근 불가였다. Crossref 등록 초록과 Europe PMC 초록을 읽었다.",
+    "rights_review_scope": "2026-10-06 DOI 일치 보관 최종 게재 PDF의 선택 본문·표·캡션을 읽었습니다. 실제 페이지 범위는 과학 근거에 명시했습니다. 원그림 선정·그림별 재사용 조건·제3자 크레딧의 검증 완료로 확대하지 않습니다.",
     "pending_reason_ko": "선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
     "pending_reason_en": "Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
     "link_label_ko": "공식 논문 페이지",
@@ -3302,7 +3329,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "출판사 직접 페이지는 접근 불가였다. Crossref 등록 초록과 Europe PMC 초록을 읽었다."
   },
   {
     "number": 60,
@@ -3356,7 +3384,7 @@
       }
     ],
     "third_party_credit_checked": true,
-    "rights_review_scope": "DOI가 일치하는 기존 로컬 PDF의 초록, §2.1·2.9와 결론을 읽었다. 공개 API 초록도 대조했다.",
+    "rights_review_scope": "2026-10-06의 과학 본문 읽기 범위는 근거 기록에 별도로 갱신했습니다. 이전 권리·접근 확인 기록은 보존하며 선정 원그림의 그림별 재사용 허가와 제3자 크레딧을 확대하지 않습니다.",
     "pending_reason_ko": "그림 재사용을 허용하는 근거를 확보하지 못해 원그림을 수록하지 않습니다. 원문 링크를 제공합니다.",
     "pending_reason_en": "The original image is not reproduced because reusable figure rights were not established. A source link is provided.",
     "link_label_ko": "Figure 1 · 원문",
@@ -3379,7 +3407,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "DOI가 일치하는 기존 로컬 PDF의 초록, §2.1·2.9와 결론을 읽었다. 공개 API 초록도 대조했다."
   },
   {
     "number": 59,
@@ -3488,10 +3517,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Chihyeong Won, Chaebeen Kwon, Kijun Park 외. “Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases”. DOI: 10.1002/adma.202005930. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -4039,10 +4068,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 본문·보충자료의 실제 열람 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Selection and reuse conditions for a representative original figure remain pending, so the original image is not reproduced. Actual main-text and supplementary reading scope is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Hyunchul Kim, Heetak Han, Sanggeun Lee 외. “Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays”. DOI: 10.1021/acsami.8b17181. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -4108,10 +4137,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
+    "caption_summary_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_summary_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
+    "caption_ko": "대표 원그림의 선정·재사용 조건 확인이 남아 원그림 수록을 보류합니다. 실제 본문·표·캡션의 읽기 범위는 근거 기록에 명시했습니다.",
+    "caption_en": "Representative-original selection and reuse verification remain pending, so the original is not reproduced. Actual main-text, table and caption reading is documented in the evidence record.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Kijun Park, Yeontaek Lee, Jungmok Seo. “Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior”. DOI: 10.2174/1381612825666190207093438. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -4125,11 +4154,7 @@
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": {
-      "content_level_existing": "abstract",
-      "existing_scope_ko": "Crossref에 출판사가 등록한 초록과 Europe PMC 초록을 읽었다. 리뷰 본문은 미검토다.",
-      "figure_review_scope": "caption_and_rights_only; no automatic upgrade of research analysis"
-    },
+    "rights_review_scope": "2026-10-06 DOI 일치 보관 최종 게재 PDF의 선택 본문·표·캡션을 읽었습니다. 실제 페이지 범위는 과학 근거에 명시했습니다. 원그림 선정·그림별 재사용 조건·제3자 크레딧의 검증 완료로 확대하지 않습니다.",
     "pending_reason_ko": "선정 그림의 라이선스 적용 또는 제3자 크레딧 확인이 남아 원그림 수록을 보류합니다.",
     "pending_reason_en": "Reproduction remains pending until the selected figure’s license coverage or third-party credits are resolved.",
     "link_label_ko": "공식 논문 페이지",
@@ -4152,7 +4177,8 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": "2026-10-06의 과학 본문 읽기 범위는 근거 기록에 별도로 갱신했습니다. 이전 권리·접근 확인 기록은 보존하며 선정 원그림의 그림별 재사용 허가와 제3자 크레딧을 확대하지 않습니다."
   },
   {
     "number": 49,
@@ -4343,10 +4369,10 @@
     "asset_path": null,
     "permitted_scope_ko": "원그림 재사용 허가는 확인되지 않았습니다.",
     "permitted_scope_en": "Permission to reproduce the original figure is not established.",
-    "caption_summary_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_summary_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
-    "caption_ko": "원문 그림과 캡션을 확인한 뒤 대표 그림을 선정하겠습니다. 원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "caption_en": "A representative figure will be selected after the original image and caption are verified. Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "caption_summary_ko": "최종 게재 본문·그림 설명을 읽은 범위와 별도로 대표 원그림의 선정·재사용 조건 확인이 남아 수록을 보류합니다.",
+    "caption_summary_en": "Main-text and caption reading is separate from representative-original selection and reuse verification, which remain pending.",
+    "caption_ko": "최종 게재 본문·그림 설명을 읽은 범위와 별도로 대표 원그림의 선정·재사용 조건 확인이 남아 수록을 보류합니다.",
+    "caption_en": "Main-text and caption reading is separate from representative-original selection and reuse verification, which remain pending.",
     "alt_ko": "원그림이 수록되지 않았습니다.",
     "alt_en": "No original figure is reproduced.",
     "attribution_ko": "Tae Wha Seong, Jungmok Seo, Kwan Hyi Lee. “Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection”. DOI: 10.1016/j.snb.2018.04.040. 원그림을 수록하지 않았으며 원문 링크만 제공합니다.",
@@ -4360,13 +4386,9 @@
       }
     ],
     "third_party_credit_checked": false,
-    "rights_review_scope": {
-      "content_level_existing": "metadata",
-      "existing_scope_ko": "Crossref 서지만 확보했다. 출판사 초록·본문은 읽지 못했으며 검색 스니펫은 해설 근거로 쓰지 않았다.",
-      "figure_review_scope": "caption_and_rights_only; no automatic upgrade of research analysis"
-    },
-    "pending_reason_ko": "원문 그림과 전체 캡션을 충분히 확인하지 못해 대표 원그림 선정·수록을 보류합니다.",
-    "pending_reason_en": "Selection and reproduction remain pending because the original figure and its full caption have not been sufficiently verified.",
+    "rights_review_scope": "2026-10-06의 과학 본문 읽기 범위는 근거 기록에 별도로 갱신했습니다. 이전 권리·접근 확인 기록은 보존하며 선정 원그림의 그림별 재사용 허가와 제3자 크레딧을 확대하지 않습니다.",
+    "pending_reason_ko": "대표 원그림 선정과 그림별 재사용 조건·제3자 크레딧 확인이 남아 수록을 보류합니다.",
+    "pending_reason_en": "Original-figure selection, figure-specific reuse conditions and third-party credits remain pending.",
     "link_label_ko": "공식 논문 페이지",
     "link_label_en": "Official article page",
     "modification": "Not reproduced; source link only.",
@@ -4387,7 +4409,12 @@
     "verification_ko": "자산 준비 완료로 집계하지 않았습니다.",
     "verification_en": "Not counted as an asset-ready figure.",
     "asset_visual_qa_passed": false,
-    "asset_source_url": null
+    "asset_source_url": null,
+    "prior_rights_review_scope": {
+      "content_level_existing": "metadata",
+      "existing_scope_ko": "Crossref 서지만 확보했다. 출판사 초록·본문은 읽지 못했으며 검색 스니펫은 해설 근거로 쓰지 않았다.",
+      "figure_review_scope": "caption_and_rights_only; no automatic upgrade of research analysis"
+    }
   },
   {
     "number": 46,

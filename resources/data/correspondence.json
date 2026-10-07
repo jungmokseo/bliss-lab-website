@@ -47,45 +47,74 @@
     "number": 100,
     "doi": "10.1016/j.mser.2026.101285",
     "title": "Bridging IC chips and deformable circuits: A packaging framework for high-density soft electronics",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "co_corresponding": null,
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Jungmok Seo"
+    ],
+    "co_corresponding": false,
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": null,
-      "supplement_reviewed": null,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
+      "supplement_reviewed": false,
       "prior_pending_ko": "학교 Chrome에서 DOI 10.1016/j.mser.2026.101285의 초록·본문·비교표를 확인한다. 원본 서지는 수정하지 않았고 수치·제조 절차는 추가하지 않았다.",
       "prior_pending_en": "Verify DOI 10.1016/j.mser.2026.101285, abstract, main text and comparison tables in school Chrome. Original metadata remains untouched; no numerical results or fabrication procedures were added.",
-      "read_scope_ko": "Crossref 서지에서 제목·DOI·권·논문번호를 확인했으나 초록 필드는 없다. ScienceDirect 검색 결과에 초록 일부가 나타났지만 직접 페이지 열기는 실패하여 전체 초록 검토로 계산하지 않았다.",
-      "read_scope_en": "Crossref confirms title, DOI, volume and article number but has no abstract. ScienceDirect search exposed fragments; direct page access failed, so no complete abstract review is claimed.",
-      "supplement_read_scope_ko": "이번 배치에서 SI 내용은 읽지 않았습니다. 기존 scope에 명시된 범위 이상으로 검토 완료를 주장하지 않습니다.",
-      "supplement_read_scope_en": "Supplementary-information content was not read in this batch. No completed review beyond the previously stated scope is claimed.",
+      "read_scope_ko": "2026-10-06 DOI·제목이 일치하는 ScienceDirect 출판사 전문에서 초록, 서론, §2의 시스템 아키텍처, §3.1의 접착·공정 온도와 압력·재료 호환성, §3.2.4의 신호 무결성, §3.3.3의 열 응력, §4.1–4.3의 집적 전략, §4.4의 패키징 프레임워크, §5 결론 및 Table 2·3·4·7의 비교 맥락을 읽었습니다. 선정 구획을 바탕으로 한 리뷰 논문 해설이며 인용 원논문의 실험·원자료와 보충자료를 전수 검증한 것은 아닙니다.",
+      "read_scope_en": "Accessed the DOI/title-matched ScienceDirect publisher full text on 6 October 2026 and read the Abstract, Introduction, §2 system architectures, §3.1 adhesion/process temperature and pressure/material compatibility, §3.2.4 signal integrity, §3.3.3 thermal stress, §4.1–4.3 integration strategies, §4.4 packaging framework, §5 Conclusion and the comparison contexts of Tables 2–4 and 7. This is commentary on selected sections of a review article; cited original experiments, raw data and supporting information were not comprehensively audited.",
+      "supplement_read_scope_ko": "보충자료는 읽지 않았습니다. 본문에서 인용된 자료와 그 원문·보충자료를 직접 확인한 범위를 구분합니다.",
+      "supplement_read_scope_en": "Supporting information was not read. A main-text citation does not count as direct inspection of the cited original or its supporting information.",
       "pending_reasons_ko": [
         {
-          "field": "body_pending",
-          "text": "학교 Chrome에서 DOI 10.1016/j.mser.2026.101285의 초록·본문·비교표를 확인한다. 원본 서지는 수정하지 않았고 수치·제조 절차는 추가하지 않았다."
+          "field": "current_pending",
+          "text": "각 인용 연구의 접합 피치·부품 수준·저항 측정·반복 변형·환경 노출·불량 판정 조건을 대조하는 후속 확인이 남아 있습니다. 보충자료와 인용 원논문은 미검토이며, 장기 임상 내구성이나 보편적인 최적 접합법을 확정하지 않습니다."
         }
       ],
       "pending_reasons_en": [
         {
-          "field": "body_pending",
-          "text": "Verify DOI 10.1016/j.mser.2026.101285, abstract, main text and comparison tables in school Chrome. Original metadata remains untouched; no numerical results or fabrication procedures were added."
+          "field": "current_pending",
+          "text": "Further checks should reconcile joint pitch, component level, resistance measurements, cyclic deformation, environmental exposure and failure criteria in the cited original studies. Supporting information and cited originals remain unread; long-term clinical durability and a universally optimal joint are not established."
         }
-      ]
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "각 인용 연구의 접합 피치·부품 수준·저항 측정·반복 변형·환경 노출·불량 판정 조건을 대조하는 후속 확인이 남아 있습니다. 보충자료와 인용 원논문은 미검토이며, 장기 임상 내구성이나 보편적인 최적 접합법을 확정하지 않습니다.",
+      "current_pending_en": "Further checks should reconcile joint pitch, component level, resistance measurements, cyclic deformation, environmental exposure and failure criteria in the cited original studies. Supporting information and cited originals remain unread; long-term clinical durability and a universally optimal joint are not established.",
+      "checked_at": "2026-10-06"
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
       {
         "url": "https://www.sciencedirect.com/science/article/pii/S0927796X26001105",
-        "locator": "Public catalogue / publisher content attempt",
-        "exact_notation": "No verified correspondence designation obtained",
-        "evidence_scope": "publisher_http_403"
+        "locator": "2026-10-06 school Mini normal DOI, complete author list and explicit correspondence / Author & Article Information",
+        "exact_notation": "Full author list: only Seo correspondence icon; Seo Author panel explicitly Corresponding author; institutional email matches.",
+        "evidence_scope": "publisher_final_main_author_correspondence_block_read",
+        "checked_at": "2026-10-06"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "article_deepening_ready": true,
+    "article_deepening_complete": false,
+    "prior_normal_doi_status": {
+      "status": "unresolved",
+      "checked_at": "2026-10-03",
+      "proofs": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0927796X26001105",
+          "locator": "Public catalogue / publisher content attempt",
+          "exact_notation": "No verified correspondence designation obtained",
+          "evidence_scope": "publisher_http_403"
+        }
+      ],
+      "correspondence_pending_ko": null,
+      "correspondence_pending_en": null
+    },
+    "final_source_recheck_pending": false,
+    "seo_correspondence_type": "sole",
+    "correspondence_review_ko": "최종 출판사 페이지의 전체 저자 목록과 명시적 교신 정보를 대조했습니다. Jungmok Seo의 단독 교신을 확인했습니다.",
+    "correspondence_review_en": "The complete publisher author list and explicit correspondence information were checked. Jungmok Seo is the sole designated corresponding author.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 99,
@@ -121,8 +150,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 인용 원문의 시험 조건과 그림별 재사용 권리를 대조한다. 인용된 여러 장치의 성능을 같은 조건의 직접 비교로 해석하지 않는다.",
-      "current_pending_en": "Check cited original studies, test conditions and figure-specific reuse rights in school Chrome. Results from different devices are not matched direct comparisons.",
+      "current_pending_ko": "인용 원문의 시험 조건과 그림별 재사용 권리를 대조한다. 인용된 여러 장치의 성능을 같은 조건의 직접 비교로 해석하지 않는다.",
+      "current_pending_en": "Check cited original studies, test conditions and figure-specific reuse rights. Results from different devices are not matched direct comparisons.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -413,8 +442,8 @@
       "supplement_reviewed": true,
       "prior_pending_ko": "학교 Chrome에서 DOI 10.1021/acsami.6c04312의 생체외 모델·안전성·내구 시험을 확인한다. 임상시험으로 표기하지 않는다.",
       "prior_pending_en": "Verify ex vivo models, safety and durability for DOI 10.1021/acsami.6c04312 in school Chrome; do not label this a clinical trial.",
-      "read_scope_ko": "출판사 등록 Crossref 초록을 새로 읽었습니다. ACS 본문 페이지는 403으로 열리지 않았으며 본문·본문 그림·실험 방법을 읽었다고 주장하지 않습니다.",
-      "read_scope_en": "The publisher-registered Crossref abstract was reread. The ACS article page returned 403; the main text, main figures and main experimental methods were not read.",
+      "read_scope_ko": "초기 출판사 등록 Crossref 초록을 읽었고 당시 공개 ACS 요청은403으로 차단됐습니다. 현재 승인 해설의 과학 근거는 초록과 아래 공식SI 열람 범위입니다. 후속 기관 세션의 접근 기록을 본문 Methods의 검토 완료로 합산하지 않습니다.",
+      "read_scope_en": "The publisher-registered Crossref abstract was read; the initial public ACS request returned403. The approved commentary is based on the abstract and officialSI scope below. Subsequent institutional-session access is not counted as a completed main-Methods review.",
       "supplement_read_scope_ko": "공식 ACS Figshare에서 DOI가 일치하는 am6c04312_si_002.pdf를 받아 S1–S20의 텍스트와 렌더링을 모두 읽었습니다. 범위는 저자·소속, 그림 S1–S16의 패널·축·캡션, 표 S1/S2입니다. 상세 Methods가 없는 보충 그림·표의 확인이며, 별도 보충 동영상은 읽지 않았습니다. 원자료 재분석이나 재현성 검증은 아닙니다.",
       "supplement_read_scope_en": "The DOI-matched am6c04312_si_002.pdf was downloaded from official ACS Figshare. Text and rendered pages S1–S20 were read: authors/affiliations, panels/axes/captions of Figures S1–S16, and Tables S1/S2. This is a supplementary figure/table review without the detailed main Methods. The separate supplementary video was not reviewed; raw data and reproducibility were not audited.",
       "pending_reasons_ko": [
@@ -423,8 +452,8 @@
       "pending_reasons_en": [
         "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. No school Mini was accessed."
       ],
-      "current_pending_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 학교 Mini에 접근하지 않았습니다.",
-      "current_pending_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. No school Mini was accessed.",
+      "current_pending_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 용혈 결과와 분류 기준의 관계도 본문 시험 조건에서 대조해야 합니다.",
+      "current_pending_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. Hemolysis results and classification criteria also require reconciliation with the main-test conditions.",
       "checked_at": "2026-10-06"
     },
     "checked_at": "2026-10-03",
@@ -479,8 +508,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 보충자료·원자료를 대조한다. CC BY 4.0 표기는 확인했지만 제삼자 그림 권리는 별도다.",
-      "current_pending_en": "Reconcile supplements/source data in school Chrome. CC BY 4.0 is stated; third-party figure rights remain separate.",
+      "current_pending_ko": "보충자료·원자료를 대조한다. CC BY 4.0 표기는 확인했지만 제삼자 그림 권리는 별도다.",
+      "current_pending_en": "Reconcile supplements/source data. CC BY 4.0 is stated; third-party figure rights remain separate.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -535,8 +564,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "공개 저장소 본문은 확인했다. 학교 Chrome에서 출판사 판본과 보충자료·윤활제 잔존 측정 조건을 대조한다. 정정 DOI 10.1016/j.bioactmat.2026.03.015의 #91 항목은 연구비 사사 누락 보완이다. 같은 정정문의 다른 논문 도표 수정과 혼동하지 않는다.",
-      "current_pending_en": "Public repository text was read. Cross-check the publisher version, supplements and lubricant-retention measurements in school Chrome. Correction DOI 10.1016/j.bioactmat.2026.03.015 adds omitted funding for #91; figure corrections concern other articles in that notice.",
+      "current_pending_ko": "공개 저장소 본문은 확인했다. 출판사 판본과 보충자료·윤활제 잔존 측정 조건을 대조한다. 정정 DOI 10.1016/j.bioactmat.2026.03.015의 #91 항목은 연구비 사사 누락 보완이다. 같은 정정문의 다른 논문 도표 수정과 혼동하지 않는다.",
+      "current_pending_en": "Public repository text was read. Cross-check the publisher version, supplements and lubricant-retention measurements. Correction DOI 10.1016/j.bioactmat.2026.03.015 adds omitted funding for #91; figure corrections concern other articles in that notice.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -591,8 +620,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 각 센서의 보정·간섭·생체액 조건과 보충자료를 확인한다. 땀과 간질액 성능을 직접 순위화하지 않는다.",
-      "current_pending_en": "Check calibration, interference, biofluid conditions and supplements in school Chrome. Do not directly rank sweat and interstitial-fluid configurations.",
+      "current_pending_ko": "각 센서의 보정·간섭·생체액 조건과 보충자료를 확인한다. 땀과 간질액 성능을 직접 순위화하지 않는다.",
+      "current_pending_en": "Check calibration, interference, biofluid conditions and supplements. Do not directly rank sweat and interstitial-fluid configurations.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -728,22 +757,22 @@
     "number": 87,
     "doi": "10.1021/acsami.5c19771",
     "title": "A Remotely Actuated Multifunctional Nitinol–PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release",
-    "status": "final_source_recheck",
+    "status": "confirmed_not_corresponding",
     "named_corresponding_authors": [
       "Sung Woon Cha",
       "Jun Young Yoon"
     ],
-    "co_corresponding": null,
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "co_corresponding": false,
+    "seo_email_match": false,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
-      "body_pending": null,
+      "body_pending": false,
       "supplement_reviewed": null,
       "prior_pending_ko": "학교 Chrome에서 DOI 10.1021/acsami.5c19771의 열 안전성·제조 조건·방출 모델·생체적합성 범위를 확인한다.",
       "prior_pending_en": "Verify thermal safety, fabrication, release models and biocompatibility scope for DOI 10.1021/acsami.5c19771 in school Chrome.",
-      "read_scope_ko": "ACS 검색에 노출된 초록과 DOI 일치 PubMed 초록을 읽었다. 전문·보충자료는 미검토다.",
-      "read_scope_en": "ACS-indexed and DOI-matched PubMed abstracts were read; full text and supplements remain unchecked.",
+      "read_scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; 3 Conclusions; 4.1–4.10 Experimental Section; author and article information를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+      "read_scope_en": "Read the DOI/title-matched publisher page: Abstract; 3 Conclusions; 4.1–4.10 Experimental Section; author and article information. Unreviewed material is stated below.",
       "supplement_read_scope_ko": "공개 ACS Figshare SI의 첫 페이지 제목·저자·교신 고지만 읽었습니다. SI 실험·그림·결과 전체 검증은 하지 않았습니다.",
       "supplement_read_scope_en": "Only the first-page title, author list and correspondence notice in the public ACS Figshare supplementary information were read. The supplementary experiments, figures and results were not fully verified.",
       "pending_reasons_ko": [
@@ -757,21 +786,20 @@
           "field": "body_pending",
           "text": "Verify thermal safety, fabrication, release models and biocompatibility scope for DOI 10.1021/acsami.5c19771 in school Chrome."
         }
-      ]
+      ],
+      "current_pending_ko": "NIH-3T3 세포 적합성 시험과 체외 시연을 생체 내·인간 치료효과로 일반화하지 않습니다. 결과 절 전체·SI·장기 계면 안정성과 원격 체내 방출 검증은 남아 있습니다.",
+      "current_pending_en": "NIH-3T3 cytocompatibility and in vitro demonstrations do not establish in vivo or human therapeutic efficacy. Complete Results/SI review, long-term interfacial stability and remotely triggered in-body release remain unverified.",
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false
     },
-    "checked_at": "2026-10-05",
+    "checked_at": "2026-10-06",
     "proofs": [
       {
-        "url": "https://api.figshare.com/v2/articles/30833525",
-        "locator": "resource_doi and references; file am5c19771_si_003.pdf",
-        "exact_notation": "10.1021/acsami.5c19771",
-        "evidence_scope": "public_publisher_supplement_repository_metadata_read"
-      },
-      {
-        "url": "https://ndownloader.figshare.com/files/60226286",
-        "locator": "Supporting Information page 1: complete author list and corresponding-author footnote",
-        "exact_notation": "Sung Woon Cha a* and Jun Young Yoon a*; *Corresponding author : [emails redacted]",
-        "evidence_scope": "public_publisher_supplement_first_page_read"
+        "url": "https://pubs.acs.org/aamick/article/17/51/70047/3644085/A-Remotely-Actuated-Multifunctional-Nitinol-PMMA",
+        "locator": "2026-10-06 school Mini normal DOI, complete author list and explicit correspondence / Author & Article Information",
+        "exact_notation": "Both designated Corresponding author note nodes identify Cha and Yoon in complete author list. Author & Article Information explicitly gives swcha@yonsei.ac.kr and junyoung.yoon@yonsei.ac.kr. Seo has no corresponding designation.",
+        "evidence_scope": "publisher_final_main_author_correspondence_block_read",
+        "checked_at": "2026-10-06"
       }
     ],
     "article_deepening_ready": false,
@@ -780,13 +808,35 @@
     "previous_checked_at": "2026-10-03",
     "correspondence_review_date": "2026-10-05",
     "previous_evidence_sufficient": true,
-    "final_correspondence_check_pending": true,
+    "final_correspondence_check_pending": false,
     "previous_co_corresponding": false,
     "previous_seo_email_match": false,
-    "correspondence_review_ko": "기존 비교신 기록은 공식 SI 첫 페이지의 저자·교신 고지에 근거합니다. 이 범위를 본 논문의 모든 공동교신자 배제로 확대하지 않습니다. 새 공식 검색 고지는 보강 자료이지만 최종 본문의 전체 교신저자 절은 직접 확인하지 못했습니다. 기관 PDF는 열람 암호가 필요해 읽지 않았습니다.",
-    "correspondence_review_en": "The earlier non-corresponding record was based on the author and correspondence notice on the first page of official supplementary information. That scope cannot exclude all co-corresponding authors of the main paper. New official search results provide supporting information, but the final main-paper correspondence block was not directly read. The institution-hosted PDF required an opening password and was not read.",
-    "correspondence_pending_ko": "정상적으로 열람할 수 있는 최종 ACS 저자 정보 또는 DOI 일치 최종 PDF의 전체 저자 행·교신 각주가 필요합니다.",
-    "correspondence_pending_en": "The complete author row and correspondence block in accessible final ACS author information or the DOI-matched final PDF are needed."
+    "correspondence_review_ko": "최종 출판사 페이지의 전체 저자 목록과 명시적 교신 정보를 대조했습니다. 명시된 교신저자는 Sung Woon Cha·Jun Young Yoon이며 Jungmok Seo는 비교신입니다.",
+    "correspondence_review_en": "The complete publisher author list and explicit correspondence information were checked. The designated corresponding authors are Sung Woon Cha and Jun Young Yoon; Jungmok Seo has no corresponding designation.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": "",
+    "prior_normal_doi_status": {
+      "status": "final_source_recheck",
+      "checked_at": "2026-10-05",
+      "proofs": [
+        {
+          "url": "https://api.figshare.com/v2/articles/30833525",
+          "locator": "resource_doi and references; file am5c19771_si_003.pdf",
+          "exact_notation": "10.1021/acsami.5c19771",
+          "evidence_scope": "public_publisher_supplement_repository_metadata_read"
+        },
+        {
+          "url": "https://ndownloader.figshare.com/files/60226286",
+          "locator": "Supporting Information page 1: complete author list and corresponding-author footnote",
+          "exact_notation": "Sung Woon Cha a* and Jun Young Yoon a*; *Corresponding author : [emails redacted]",
+          "evidence_scope": "public_publisher_supplement_first_page_read"
+        }
+      ],
+      "correspondence_pending_ko": "정상적으로 열람할 수 있는 최종 ACS 저자 정보 또는 DOI 일치 최종 PDF의 전체 저자 행·교신 각주가 필요합니다.",
+      "correspondence_pending_en": "The complete author row and correspondence block in accessible final ACS author information or the DOI-matched final PDF are needed."
+    },
+    "final_source_recheck_pending": false,
+    "seo_correspondence_type": null
   },
   {
     "number": 86,
@@ -879,8 +929,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 최신 출판사 판본과 보충자료를 대조하고 동물별 전극 배치·장기 표본 탈락·단일 유닛 추적 기준을 확인한다. Figure 1은 비상업적 학술 자료실에 CC BY-NC 4.0 조건으로 수록했다.",
-      "current_pending_en": "Reconcile the latest publisher version and supplements through school Chrome, including electrode placement, long-term sample attrition and single-unit tracking criteria. Figure 1 is included under CC BY-NC 4.0 for this noncommercial academic library.",
+      "current_pending_ko": "최신 출판사 판본과 보충자료를 대조하고 동물별 전극 배치·장기 표본 탈락·단일 유닛 추적 기준을 확인한다. Figure 1은 비상업적 학술 자료실에 CC BY-NC 4.0 조건으로 수록했다.",
+      "current_pending_en": "Reconcile the latest publisher version and supplements including electrode placement, long-term sample attrition and single-unit tracking criteria. Figure 1 is included under CC BY-NC 4.0 for this noncommercial academic library.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -980,8 +1030,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "보충자료의 반복 세척·윤활제 손실 조건과 장기 노출 자료를 학교 Chrome DOI 검증에서 확인할 것.",
-      "current_pending_en": "Check supplementary cleaning, lubricant-loss conditions and prolonged-exposure evidence during school Chrome DOI verification.",
+      "current_pending_ko": "보충자료의 반복 세척·윤활제 손실 조건과 장기 노출 자료를 확인할 것.",
+      "current_pending_en": "Check supplementary cleaning, lubricant-loss conditions and prolonged-exposure evidence.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1037,8 +1087,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 보충 회로·코일 최적화 자료를 확인하고 수동 설계 단계가 후속 버전에서 자동화됐는지 별도 확인할 것.",
-      "current_pending_en": "Verify supplementary circuit/coil optimization at school; assess any later automation separately from this publication.",
+      "current_pending_ko": "보충 회로·코일 최적화 자료를 확인하고 수동 설계 단계가 후속 버전에서 자동화됐는지 별도 확인할 것.",
+      "current_pending_en": "Verify supplementary circuit/coil optimization ; assess any later automation separately from this publication.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1099,8 +1149,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "보충 약물 패널·산소 전달 자료와 장기 배양 범위를 학교 Chrome DOI 검증에서 확인할 것.",
-      "current_pending_en": "Verify the supplementary drug panel, oxygen-transport evidence and longer culture limits at school.",
+      "current_pending_ko": "보충 약물 패널·산소 전달 자료와 장기 배양 범위를 확인할 것.",
+      "current_pending_en": "Verify the supplementary drug panel, oxygen-transport evidence and longer culture limits.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1155,7 +1205,7 @@
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
       "current_pending_ko": "학교 Chrome 확인 시 보충표의 비교 접착제 조건과 피로·침지 데이터를 대조한다. Figure 1의 재사용 조건은 그림 아래에 표시했다.",
-      "current_pending_en": "Check comparator-adhesive conditions in the supplementary tables and reconcile fatigue/immersion data through school Chrome. Figure 1 reuse conditions are stated below the figure.",
+      "current_pending_en": "Check comparator-adhesive conditions in the supplementary tables and reconcile fatigue/immersion data. Figure 1 reuse conditions are stated below the figure.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1258,8 +1308,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "학교 Chrome에서 출판사 최신 본문·정정 여부와 보충자료의 강성 모델, 반복 측정 및 조직학 근거를 확인한다. 로컬 PDF의 기관 접근 표시는 공개 재배포 허가로 해석하지 않는다.",
-      "current_pending_en": "School Chrome verification should check the current publisher version, corrections and supplementary stiffness model, repeated measurements and histology. Institutional access markings do not authorize redistribution of the local PDF.",
+      "current_pending_ko": "출판사 최신 본문·정정 여부와 보충자료의 강성 모델, 반복 측정 및 조직학 근거를 확인한다. 로컬 PDF의 기관 접근 표시는 공개 재배포 허가로 해석하지 않는다.",
+      "current_pending_en": "Check the current publisher version, corrections and supplementary stiffness model, repeated measurements and histology. Institutional access markings do not authorize redistribution of the local PDF.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1314,8 +1364,8 @@
         }
       ],
       "body_pending_scope": "primary_main_text_access_for_the_approved_article_scope",
-      "current_pending_ko": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 는 403. 학교 Chrome에서 보충자료와 장기 노출 시험 범위를 확인할 것.",
-      "current_pending_en": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 returned 403. Verify supplementary and prolonged-exposure evidence at school.",
+      "current_pending_ko": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 의 이전 공개 요청은 403으로 차단됐습니다. 보충자료와 장기 노출 시험 범위를 확인할 것.",
+      "current_pending_en": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 previously returned 403 in a public request. Verify supplementary and prolonged-exposure evidence.",
       "prior_pending_is_historical": true,
       "complete_main_and_si_audit": false,
       "complete_supplement_audit": false,
@@ -1504,34 +1554,75 @@
     "number": 73,
     "doi": "10.1016/j.cej.2024.149043",
     "title": "Bioactivated lubricant-infused surfaces: A dual-action strategy for enhancing osseointegration and preventing implant-associated infections",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "seo_email_match": null,
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_corresponding",
+    "named_corresponding_authors": [
+      "Woo Young Jang",
+      "Jungmok Seo"
+    ],
+    "seo_email_match": true,
+    "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "https://www.sciencedirect.com/science/article/pii/S138589472400528X 는 403/가져오기 오류. 학교 Chrome에서 초록·본문·보충자료를 직접 읽어야 한다.",
       "prior_pending_en": "https://www.sciencedirect.com/science/article/pii/S138589472400528X returned 403/fetch errors. Abstract, main text and supplements require school Chrome verification.",
-      "read_scope_ko": "출판사 서지와 Crossref 제목·DOI만 확인했다. ScienceDirect 전문 요청은 오류였고 Crossref에 초록이 없으며 Europe PMC에도 해당 DOI 기록이 없었다.",
-      "read_scope_en": "Verified publisher/Crossref title and DOI only. ScienceDirect could not be fetched; Crossref has no abstract and Europe PMC returned no record for this DOI.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
-      "pending_reasons_ko": [],
-      "pending_reasons_en": []
+      "read_scope_ko": "2026-10-06 DOI·제목이 일치하는 ScienceDirect 전문의 초록, Methods §2.1–2.16, Results and discussion §3.1–3.6, §4 Conclusions와 본문 그림 설명 6개를 읽었습니다. 8명의 저자와 Woo Young Jang·Jungmok Seo의 명시적 교신저자 표기도 확인했습니다. SI와 원자료는 미검토이며 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+      "read_scope_en": "On 6 October 2026, read the DOI/title-matched ScienceDirect Abstract, Methods §§2.1–2.16, Results and discussion §§3.1–3.6, §4 Conclusions and six main-text figure captions. The eight authors and explicit correspondence for Woo Young Jang and Jungmok Seo were also checked. SI and raw data remain unread; a complete main-text/SI audit is not claimed.",
+      "supplement_read_scope_ko": "보충자료는 읽지 않았습니다. 본문 그림 설명 6개를 읽은 사실은 SI 그림·동영상·원자료를 확인한 것으로 합산하지 않습니다.",
+      "supplement_read_scope_en": "Supporting information was not read. Reading six main-text figure captions does not constitute review of SI figures, videos or raw data.",
+      "pending_reasons_ko": [
+        {
+          "field": "current_pending",
+          "text": "보충자료와 원자료는 미검토입니다. 감염 전처리·28일 골 평가와 별도 비감염 인발 시험의 시료·실험 단위를 분리해 유지해야 합니다. 특히 §3.6 말미의 일반화는 Methods §2.12·2.15의 서로 다른 조건을 넘어 감염 후 결합강도 실증으로 확대하지 않습니다. 장기 사용과 사람에서의 임상 효과는 후속 확인이 필요합니다."
+        }
+      ],
+      "pending_reasons_en": [
+        {
+          "field": "current_pending",
+          "text": "Supporting information and raw data remain unread. Preserve the distinct sample designs and experimental units for the prechallenged 28-day bone study and the separate noninoculated pull-out experiment. In particular, the generalizing narrative at the end of §3.6 must not override the different conditions in Methods §2.12 and §2.15 or be presented as mechanical-strength validation after infection. Longer-term use and human clinical effects remain to be established."
+        }
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "보충자료와 원자료는 미검토입니다. 감염 전처리·28일 골 평가와 별도 비감염 인발 시험의 시료·실험 단위를 분리해 유지해야 합니다. 특히 §3.6 말미의 일반화는 Methods §2.12·2.15의 서로 다른 조건을 넘어 감염 후 결합강도 실증으로 확대하지 않습니다. 장기 사용과 사람에서의 임상 효과는 후속 확인이 필요합니다.",
+      "current_pending_en": "Supporting information and raw data remain unread. Preserve the distinct sample designs and experimental units for the prechallenged 28-day bone study and the separate noninoculated pull-out experiment. In particular, the generalizing narrative at the end of §3.6 must not override the different conditions in Methods §2.12 and §2.15 or be presented as mechanical-strength validation after infection. Longer-term use and human clinical effects remain to be established.",
+      "checked_at": "2026-10-06"
     },
-    "checked_at": "2026-10-03",
+    "checked_at": "2026-10-06",
     "proofs": [
       {
-        "url": "https://doi.org/10.1016/j.cej.2024.149043",
-        "locator": "publisher fetch error; metadata only",
-        "exact_notation": "명시적 교신 표기 미확인",
-        "evidence_scope": "access_limited_metadata_or_abstract"
+        "url": "https://www.sciencedirect.com/science/article/pii/S138589472400528X",
+        "locator": "2026-10-06 school Mini normal DOI, complete author list and explicit correspondence / Author & Article Information",
+        "exact_notation": "Both author panels explicitly Corresponding authors at: (W.Y. Jang) and (J. Seo); Seo institutional email matches.",
+        "evidence_scope": "publisher_final_main_author_correspondence_block_read",
+        "checked_at": "2026-10-06"
       }
     ],
-    "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "article_deepening_ready": true,
+    "article_deepening_complete": false,
+    "prior_normal_doi_status": {
+      "status": "unresolved",
+      "checked_at": "2026-10-03",
+      "proofs": [
+        {
+          "url": "https://doi.org/10.1016/j.cej.2024.149043",
+          "locator": "publisher fetch error; metadata only",
+          "exact_notation": "명시적 교신 표기 미확인",
+          "evidence_scope": "access_limited_metadata_or_abstract"
+        }
+      ],
+      "correspondence_pending_ko": null,
+      "correspondence_pending_en": null
+    },
+    "co_corresponding": true,
+    "final_source_recheck_pending": false,
+    "seo_correspondence_type": "co",
+    "correspondence_review_ko": "최종 출판사 페이지의 전체 저자 목록과 명시적 교신 정보를 대조했습니다. Woo Young Jang과 Jungmok Seo의 공동 교신을 확인했습니다.",
+    "correspondence_review_en": "The complete publisher author list and explicit correspondence information were checked. Woo Young Jang and Jungmok Seo are designated co-corresponding authors.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 72,
@@ -1797,20 +1888,32 @@
     "seo_email_match": true,
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "https://www.sciencedirect.com/science/article/pii/S2452199X22003176 가져오기 오류, PMC10088055 확인 화면, Europe PMC fullTextXML 500. 학교 Chrome에서 전문·멸균·회복 조건 확인 필요.",
       "prior_pending_en": "Publisher fetch failed; PMC10088055 showed a browser check and Europe PMC fullTextXML returned 500. Verify full text, sterilization and recovery conditions at school.",
-      "read_scope_ko": "2026-10-06 MacBook에서 DOI가 일치하는 Europe PMC core API의 제목·초록·PMID 37056251·PMCID PMC10088055를 다시 확인했습니다. 과학 본문은 확보하지 못했습니다. 기존 2026-10-05의 PMC 앞부분 XML 열람은 저자·교신 각주만 확인한 기록입니다.",
-      "read_scope_en": "On 6 October 2026, rechecked the DOI-matched Europe PMC core record, abstract, PMID 37056251 and PMCID PMC10088055 on this MacBook. Scientific main text was not obtained. The prior PMC front-matter XML review on 5 October covered authors and correspondence notes only.",
-      "supplement_read_scope_ko": "새 보충자료를 확보하거나 읽지 않았습니다. API의 hasSuppl=Y는 존재 메타데이터이며 보충자료 열람을 뜻하지 않습니다.",
-      "supplement_read_scope_en": "No new supplementary file was obtained or read. The API flag hasSuppl=Y is existence metadata, not a supplement review.",
-      "pending_reasons_ko": [],
-      "pending_reasons_en": [],
-      "current_pending_ko": "2026-10-06 재확인: 출판사 ScienceDirect는 HTTP 403, PMC 웹은 브라우저 확인 화면, 공식 OAI의 pmc 전문 형식은 HTTP 400 cannotDisseminateFormat, Europe PMC가 무료 PDF로 연결한 주소는 HTTP 403 확인 화면입니다. 현재 MacBook에서 과학 본문·SI를 읽지 못했습니다. 열 회복·멸균의 온도/시간/회수, 윤활제 손실, 생체·혈액 시험의 모델·대조군·표본 수를 본문과 SI에서 확인해야 합니다. 접근 제한이나 Mini 연결을 우회하지 않았습니다.",
-      "current_pending_en": "Rechecked on 6 October 2026: ScienceDirect returned HTTP 403; the PMC web page showed a browser check; the official OAI pmc full-text format returned HTTP 400 cannotDisseminateFormat; and the free-PDF URL listed by Europe PMC returned an HTTP 403 challenge. Scientific main text and SI remain unread on this MacBook. Thermal-recovery and sterilization temperature, duration and cycles; lubricant loss; and biological/blood-test models, controls and sample sizes require direct main-text/SI review. Access restrictions and the Mini connection were not bypassed.",
-      "checked_at": "2026-10-06"
+      "read_scope_ko": "2026-10-06 DOI·제목이 일치하는 공식 ScienceDirect 전문에서 §1 Introduction, §2 Results and discussion, §3 Conclusion, Methods §4.1–4.15와 주 Figure 1–6 캡션을 읽었습니다. 이전 초록·저자·교신 각주 확인과 이번 본문 읽기를 구분합니다. SI·별도 영상·원자료·반복별 데이터는 미검토입니다. 캡션 읽기를 원그림 패널의 독립 시각 감사로 계산하지 않습니다.",
+      "read_scope_en": "On 6 October 2026, read the DOI/title-matched official ScienceDirect main text in §1 Introduction, §2 Results and discussion, §3 Conclusion and Methods §§4.1–4.15, plus captions of main Figures 1–6. This reading is distinct from the earlier abstract and author/correspondence-note check. SI, separate videos, raw and replicate-level data remain unread. Caption reading does not count as independent visual auditing of original panels.",
+      "supplement_read_scope_ko": "보충자료(SI)는 읽지 않았습니다. 본문에서 SI를 인용한 문장은 보충자료의 직접 검토로 계산하지 않습니다. 별도 영상과 원자료도 미검토입니다.",
+      "supplement_read_scope_en": "Supporting information remains unread. A main-text reference to SI does not count as direct SI inspection. Separate videos and raw data also remain unread.",
+      "pending_reasons_ko": [
+        {
+          "field": "current_pending",
+          "text": "SI와 공식 정정·추가 방법 설명을 확인하고 본문 내 조건 불일치를 대조해야 합니다. 혈액 유량은 Results 2 L/h와 Figure 6e·Methods §4.10의 3 L/h, E. coli 관찰 기간은 Results 72 h와 Methods §4.11의 48 h, cross-cut 블록 수는 Results 30개와 Methods 100개, 회복 관련 시간점은 Results 0/2/4/24 h와 Methods 0/2/12/24 h가 다릅니다. Figure 5f는 collagen–alginate, Methods §4.8은 gelatin–alginate를 표기하며, 서론의 53 μm·150 μm와 Methods §4.8의 최소 83 μm·§4.9의 높이 100 μm가 서로 어떤 시편·치수를 뜻하는지도 확인해야 합니다. 이 해설은 어느 값을 단일 확정 조건으로 선택하지 않습니다. 표본 수·오차막대·윤활제 손실 및 장기 사용 조건의 종합 검증은 남아 있으며, §3이 지적한 생체 내 검증 미충족을 유지합니다."
+        }
+      ],
+      "pending_reasons_en": [
+        {
+          "field": "current_pending",
+          "text": "SI and any official corrections or additional methods explanations are needed to reconcile main-text conditions. Blood flow is 2 L/h in Results versus 3 L/h in Figure 6e and Methods §4.10; E. coli observation is 72 h in Results versus 48 h in Methods §4.11; cross-cut blocks are 30 in Results versus 100 in Methods; recovery-related time points are 0/2/4/24 h in Results versus 0/2/12/24 h in Methods. Figure 5f identifies collagen–alginate whereas Methods §4.8 identifies gelatin–alginate. The Introduction’s 53 μm and 150 μm also need reconciliation with the minimum 83 μm in Methods §4.8 and the 100 μm height in §4.9, including whether they refer to different specimens or dimensions. This commentary selects none as the single definitive condition. A comprehensive check of sample sizes, error bars, lubricant loss and long-term use remains pending, and the unmet in vivo validation identified in §3 is retained."
+        }
+      ],
+      "current_pending_ko": "SI와 공식 정정·추가 방법 설명을 확인하고 본문 내 조건 불일치를 대조해야 합니다. 혈액 유량은 Results 2 L/h와 Figure 6e·Methods §4.10의 3 L/h, E. coli 관찰 기간은 Results 72 h와 Methods §4.11의 48 h, cross-cut 블록 수는 Results 30개와 Methods 100개, 회복 관련 시간점은 Results 0/2/4/24 h와 Methods 0/2/12/24 h가 다릅니다. Figure 5f는 collagen–alginate, Methods §4.8은 gelatin–alginate를 표기하며, 서론의 53 μm·150 μm와 Methods §4.8의 최소 83 μm·§4.9의 높이 100 μm가 서로 어떤 시편·치수를 뜻하는지도 확인해야 합니다. 이 해설은 어느 값을 단일 확정 조건으로 선택하지 않습니다. 표본 수·오차막대·윤활제 손실 및 장기 사용 조건의 종합 검증은 남아 있으며, §3이 지적한 생체 내 검증 미충족을 유지합니다.",
+      "current_pending_en": "SI and any official corrections or additional methods explanations are needed to reconcile main-text conditions. Blood flow is 2 L/h in Results versus 3 L/h in Figure 6e and Methods §4.10; E. coli observation is 72 h in Results versus 48 h in Methods §4.11; cross-cut blocks are 30 in Results versus 100 in Methods; recovery-related time points are 0/2/4/24 h in Results versus 0/2/12/24 h in Methods. Figure 5f identifies collagen–alginate whereas Methods §4.8 identifies gelatin–alginate. The Introduction’s 53 μm and 150 μm also need reconciliation with the minimum 83 μm in Methods §4.8 and the 100 μm height in §4.9, including whether they refer to different specimens or dimensions. This commentary selects none as the single definitive condition. A comprehensive check of sample sizes, error bars, lubricant loss and long-term use remains pending, and the unmet in vivo validation identified in §3 is retained.",
+      "checked_at": "2026-10-06",
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false
     },
     "checked_at": "2026-10-05",
     "proofs": [
@@ -1819,12 +1922,12 @@
         "locator": "PMC10088055.1, official OAI-PMH JATS front matter: complete contrib-group; au9 xref ref-type=corresp rid=cor1; author-notes/corresp id=cor1",
         "exact_notation": "Jungmok Seo (au9) → cor1: Corresponding author. [email omitted]",
         "evidence_scope": "official_PMC_JATS_front_matter_author_role_read",
-        "evidence_scope_ko": "PMC 공식 OAI 앞부분 메타데이터에서 전체 저자 목록과 교신 각주만 확인했습니다. 과학 본문과 보충자료는 읽지 않았습니다.",
-        "evidence_scope_en": "Read only the complete author list and correspondence notes in the official PMC OAI front-matter metadata. The scientific main text and supplements were not read.",
+        "evidence_scope_ko": "2026-10-05 PMC 공식 OAI 앞부분 메타데이터에서 전체 저자 목록과 교신 각주만 확인했습니다. 당시 확인은 과학 본문과 보충자료를 읽은 것이 아닙니다. 2026-10-06의 별도 본문 읽기 범위는 아래 본문 검토 기록에 구분합니다.",
+        "evidence_scope_en": "On 5 October 2026, read only the complete author list and correspondence notes in the official PMC OAI front-matter metadata. That earlier check did not read the scientific main text or supplements. The separate 6 October 2026 main-text reading is described in the body-review record below.",
         "checked_at": "2026-10-05"
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": "2026-10-03",
@@ -1838,8 +1941,9 @@
     ],
     "correspondence_review_date": "2026-10-05",
     "co_corresponding": false,
-    "correspondence_review_ko": "PMC 공식 앞부분 XML의 전체 9명 저자와 교신 각주를 대조했습니다. Jungmok Seo(au9)의 교신 연결 cor1이 유일한 Corresponding author 고지를 가리킵니다. 본문·보충자료를 읽은 것은 아니며 초록 등급을 유지합니다.",
-    "correspondence_review_en": "The official PMC front-matter XML contains all nine authors and the correspondence note. Jungmok Seo (au9) links to cor1, the sole Corresponding author notice. This checks author designation only; the main text and supplements were not read and the abstract-level review is unchanged."
+    "correspondence_review_ko": "2026-10-05 PMC 공식 앞부분 XML의 전체 9명 저자와 교신 각주를 대조했습니다. Jungmok Seo(au9)의 교신 연결 cor1이 유일한 Corresponding author 고지를 가리킵니다. 당시에는 저자 역할만 검토하여 초록 등급을 유지했습니다. 2026-10-06에 추가로 읽은 과학 본문과 아직 읽지 않은 SI의 범위는 아래 본문 검토 기록에 구분합니다.",
+    "correspondence_review_en": "On 5 October 2026, checked all nine authors and the correspondence note in the official PMC front-matter XML. Jungmok Seo (au9) links to cor1, the sole Corresponding author notice. That earlier author-role check retained the abstract-level review. The scientific main text additionally read on 6 October 2026 and the unread SI are distinguished in the body-review record below.",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 66,
@@ -1960,16 +2064,20 @@
     "correspondence_evidence_sufficient": false,
     "body_review": {
       "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "https://ieeexplore.ieee.org/document/9958066/ 브라우저 확인 화면; https://ieeexplore.ieee.org/iel7/9957114/9957143/09958066.pdf 가져오기 오류. 학교 Chrome에서 초록·4쪽 본문·효율 정의 확인 필요.",
       "prior_pending_en": "IEEE document page showed a browser challenge and its PDF could not be fetched. School Chrome must verify the abstract, four-page text and efficiency definition.",
-      "read_scope_ko": "IEEE와 Crossref에서 학회 논문의 제목·DOI를 확인했다. IEEE 본문은 브라우저 확인 화면, PDF는 가져오기 오류였고 등록 초록도 확보하지 못했다.",
-      "read_scope_en": "Verified the conference title/DOI through IEEE and Crossref. IEEE showed a browser challenge; PDF fetch failed and no registered abstract was available.",
+      "read_scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; I Introduction; II Fabrication Process; III Device Characterization; IV Conclusion를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+      "read_scope_en": "Read the DOI/title-matched publisher page: Abstract; I Introduction; II Fabrication Process; III Device Characterization; IV Conclusion. Unreviewed material is stated below.",
       "supplement_read_scope_ko": null,
       "supplement_read_scope_en": null,
       "pending_reasons_ko": [],
-      "pending_reasons_en": []
+      "pending_reasons_en": [],
+      "current_pending_ko": "웨어러블·휴대용 영상 장치는 후속 목표입니다. 본문 접근으로 임상 영상이나 무바이어스 구동을 입증하지 않으며, 명시적 교신 근거와 SI는 미확인입니다.",
+      "current_pending_en": "Wearable and portable imaging devices remain future work. Main-text access does not establish clinical imaging or bias-free operation; explicit correspondence evidence and SI remain unverified.",
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false
     },
     "checked_at": "2026-10-03",
     "proofs": [
@@ -1994,17 +2102,32 @@
     "seo_email_match": true,
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "ACS DOI 페이지는 403, 새 출판사 URL은 도구 접근 오류였다. Europe PMC DOI 조회는 결과가 없었다. 학교 Chrome에서 초록·본문을 확인한 뒤 기여·비교 해설을 작성한다.",
       "prior_pending_en": "ACS DOI retrieval returned 403; the new publisher URL failed in the tool. Europe PMC returned no DOI match. School Chrome must supply the abstract/text before contribution or comparison claims.",
-      "read_scope_ko": "Crossref 서지만 확인했다. 초록 필드가 없고 출판사 페이지 조회도 실패했다.",
-      "read_scope_en": "Crossref metadata only; no registered abstract and publisher retrieval failed.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
-      "pending_reasons_ko": [],
-      "pending_reasons_en": []
+      "read_scope_ko": "DOI 일치 보관 PDF(20쪽)의 DOI·제목·저자와 초록을 직접 확인했습니다. 로컬 PDF pp.1–2 서론·물리 적합성, p.6 기하학적·본질적 신축 설계, pp.7–10 항오염·생분해·약물 전달·생체분자 고정, pp.11–12 봉지와 Table 1, pp.13–15 접착 사례, pp.15–16 자가 치유, pp.16–17 결론의 선택 구간을 읽었습니다. Figures 1–7 캡션과 렌더링 화면 pp.1,2,7,13,14,16을 확인했습니다. 인쇄 쪽수는 로컬 PDF p.1=1449, p.12=1460, p.17=1465입니다. 최신 출판사 또는 실시간 기관 Chrome 접속 성공은 확인하지 않았습니다.",
+      "read_scope_en": "The DOI, title, authors and Abstract were checked directly in the existing user-owned 20-page PDF . Selected reading covered local PDF pp.1–2 Introduction/physical compatibility; p.6 geometric/intrinsic stretchability; pp.7–10 antifouling, degradation, drug delivery and biomolecule immobilization; pp.11–12 encapsulation and Table 1; pp.13–15 adhesive examples; pp.15–16 self-healing; and Conclusions on pp.16–17. Captions for Figures 1–7 and rendered pp.1,2,7,13,14,16 were inspected. Printed pagination maps local PDF p.1 to 1449, p.12 to 1460 and p.17 to 1465. No fresh publisher or live institutional Chrome access success is claimed.",
+      "supplement_read_scope_ko": "별도의 보충자료 파일은 읽지 않았습니다. 본문 그림 설명을 읽고 선택한 PDF 페이지를 렌더링한 사실은 SI·원자료 검토로 합산하지 않습니다.",
+      "supplement_read_scope_en": "No separate supporting-information file was read. Main-text figure-caption reading and rendering selected PDF pages do not constitute review of SI or raw data.",
+      "pending_reasons_ko": [
+        {
+          "field": "current_pending",
+          "text": "SI·원자료와 인용 원논문 전체는 미독입니다. 봉지의 고온 가속 결과·예상 37°C 수명과 실제 체내 추적 기간을 분리합니다. Figure 6A의 신호 명칭은 캡션 ECG·본문 EMG 차이가 있어 원문 문헌 93 재대조 전 특정하지 않습니다. 기존 초록 미확인 문구의 갱신은 Root 검토 후 별도로 수행할 사항이며 이 작업은 source를 수정하지 않았습니다."
+        }
+      ],
+      "pending_reasons_en": [
+        {
+          "field": "current_pending",
+          "text": "SI, raw data and complete cited primary articles remain unread. Separate high-temperature encapsulation tests, projected lifetime at 37°C and actual in vivo follow-up. Figure 6A labels ECG in its caption but EMG in the body; its signal type is not specified pending reconciliation against reference 93. Updating stale source statements about an unread Abstract is a separate root-reviewed integration step; this task did not edit source."
+        }
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "SI·원자료와 인용 원논문 전체는 미독입니다. 봉지의 고온 가속 결과·예상 37°C 수명과 실제 체내 추적 기간을 분리합니다. Figure 6A의 신호 명칭은 캡션 ECG·본문 EMG 차이가 있어 이 리뷰의 인용 문헌 [93] 재대조 전 특정하지 않습니다.",
+      "current_pending_en": "SI, raw data and complete cited primary articles remain unread. Separate high-temperature encapsulation tests, projected lifetime at 37°C and actual in vivo follow-up. Figure 6A labels ECG in its caption but EMG in the body; its signal type is not specified pending reconciliation against this review’s reference [93].",
+      "checked_at": "2026-10-06"
     },
     "checked_at": "2026-10-06",
     "proofs": [
@@ -2017,7 +2140,7 @@
         "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": "2026-10-03",
@@ -2036,7 +2159,8 @@
     "correspondence_review_ko": "보관된 최종 게재판 PDF 1·17쪽(1449·1465쪽)의 권 4, 연도 2022, DOI와 완전한 Corresponding Author 구간을 확인했습니다. 교신저자는 Jungmok Seo 한 명이며 서정목 단독교신입니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
     "correspondence_review_en": "The saved final published PDF was checked on PDF pp. 1 and 17 (printed pp. 1449 and 1465), including volume 4, year 2022, DOI and the complete Corresponding Author block. Jungmok Seo is the sole corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
     "correspondence_pending_ko": "",
-    "correspondence_pending_en": ""
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 62,
@@ -2104,17 +2228,32 @@
     "seo_email_match": true,
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "https://onlinelibrary.wiley.com/doi/10.1002/biot.202100231 접근 불가. 학교 Chrome에서 리뷰 표·인용 원문을 대조한다.",
       "prior_pending_en": "The Wiley DOI URL was inaccessible. Audit review tables and cited primary studies in school Chrome.",
-      "read_scope_ko": "출판사 직접 페이지는 접근 불가였다. Crossref 등록 초록과 Europe PMC 초록을 읽었다.",
-      "read_scope_en": "Publisher retrieval failed; Crossref-registered and Europe PMC abstracts were read.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
-      "pending_reasons_ko": [],
-      "pending_reasons_en": []
+      "read_scope_ko": "DOI 일치 보관 PDF(29쪽)의 DOI·제목과 첫 페이지를 직접 확인했습니다. 로컬 PDF p.1 초록·서론, pp.2–4의 접착 기전·응집력·생체적합성 설계 설명(4쪽은 선택 구간), p.9 항균, p.12 세포 침투, pp.14–15 전도, p.16 자가 치유, p.18 자극 반응, p.20 조직 재생, p.22 생체신호, p.24 결론을 읽었습니다. Table 1(pp.10–11)을 시각적으로 읽고 본문 Figures 1–11의 캡션을 읽었습니다. 렌더링 화면 pp.1,3,10,11,13,14,24를 확인했습니다. 이는 선택 본문 독서이며, 최신 출판사 또는 실시간 기관 Chrome 접속 성공을 확인한 것은 아닙니다.",
+      "read_scope_en": "The DOI, title and first page were checked directly in the existing user-owned 29-page PDF . Reading covered local PDF p.1 Abstract/Introduction; adhesion, cohesion and biocompatibility design on pp.2–4 (selected passages on p.4); antimicrobial discussion on p.9; cell infiltration on p.12; conductivity on pp.14–15; self-healing on p.16; stimuli response on p.18; regeneration on p.20; biosignals on p.22; and Conclusions on p.24. Table 1 on pp.10–11 was read visually and captions for main-text Figures 1–11 were read. Rendered pp.1,3,10,11,13,14,24 were inspected. This is selected main-text reading, without a fresh publisher or live institutional Chrome access claim.",
+      "supplement_read_scope_ko": "별도의 보충자료 파일은 읽지 않았습니다. 본문 그림 설명을 읽고 선택한 PDF 페이지를 렌더링한 사실은 SI·원자료 검토로 합산하지 않습니다.",
+      "supplement_read_scope_en": "No separate supporting-information file was read. Main-text figure-caption reading and rendering selected PDF pages do not constitute review of SI or raw data.",
+      "pending_reasons_ko": [
+        {
+          "field": "current_pending",
+          "text": "보충자료·원자료와 인용 원논문 전체는 미독입니다. Table 1은 재료·기전 분류표로 유지하고, 서로 다른 조직·수분·하중·측정법의 수치를 직접 순위화하지 않습니다. 결론의 광범위한 기계적 수치와 일부 본문·캡션 문헌번호 차이는 인용 원문 재대조 전 성능 주장에 사용하지 않습니다. Root의 사실·편집 검토가 필요합니다."
+        }
+      ],
+      "pending_reasons_en": [
+        {
+          "field": "current_pending",
+          "text": "SI, raw data and complete cited primary articles remain unread. Keep Table 1 as a material/mechanism taxonomy and avoid ranking numerical outcomes across different tissue, hydration, loading and measurement conditions. Broad mechanical comparisons in the Conclusions and some body/caption reference-number differences require primary-source reconciliation before use in performance claims. Root factual and editorial review is pending."
+        }
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "보충자료·원자료와 인용 원논문 전체는 미독입니다. Table 1은 재료·기전 분류표로 유지하고, 서로 다른 조직·수분·하중·측정법의 수치를 직접 순위화하지 않습니다. 결론의 광범위한 기계적 수치와 일부 본문·캡션 문헌번호 차이는 인용 원문 재대조 전 성능 주장에 사용하지 않습니다.",
+      "current_pending_en": "SI, raw data and complete cited primary articles remain unread. Keep Table 1 as a material/mechanism taxonomy and avoid ranking numerical outcomes across different tissue, hydration, loading and measurement conditions. Broad mechanical comparisons in the Conclusions and some body/caption reference-number differences require primary-source reconciliation before use in performance claims.",
+      "checked_at": "2026-10-06"
     },
     "checked_at": "2026-10-06",
     "proofs": [
@@ -2127,7 +2266,7 @@
         "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": "2026-10-03",
@@ -2146,7 +2285,8 @@
     "correspondence_review_ko": "보관된 공식 Wiley 페이지의 전체 4저자 블록과 게재판 PDF 첫 페이지의 Correspondence란을 대조했습니다. Jungmok Seo만 Corresponding Author로 명시되어 서정목 단독교신을 확인했습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
     "correspondence_review_en": "The complete four-author block of the saved official Wiley page was checked against the Correspondence panel on the published PDF’s first page. Only Jungmok Seo is designated Corresponding Author, confirming Seo as the sole corresponding author. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
     "correspondence_pending_ko": "",
-    "correspondence_pending_en": ""
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 60,
@@ -2160,17 +2300,32 @@
     "seo_email_match": true,
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
       "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "RSC articlelanding 및 새 URL 모두 403/도구 오류. Crossref의 abstract는 그림 설명뿐이다. 학교 Chrome에서 최신 본문·보충자료·권리를 대조한다.",
       "prior_pending_en": "RSC landing/new URLs failed with 403/tool errors. Crossref supplied only a graphical caption. Verify current text, supplements and rights in school Chrome.",
-      "read_scope_ko": "DOI가 일치하는 기존 로컬 PDF의 초록, §2.1·2.9와 결론을 읽었다. 공개 API 초록도 대조했다.",
-      "read_scope_en": "A DOI-matched local PDF supplied the abstract, §§2.1/2.9 and Conclusions; the public API abstract was cross-checked.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
-      "pending_reasons_ko": [],
-      "pending_reasons_en": []
+      "read_scope_ko": "2026-10-06 DOI·제목·최종 권호가 일치하는 RSC 전문의 서론, Results §2.1–2.3·2.5–2.9, Conclusions와 Experimental §4.1–4.12를 읽었습니다. SI와 원자료는 이 해설의 직접 검토 범위에 포함하지 않습니다. 기존 초록·§2.1·2.9·결론 한정 검토보다 본문 읽기 범위를 넓혔지만 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+      "read_scope_en": "On 6 October 2026, read the DOI/title/final-issue-matched RSC Introduction, Results §§2.1–2.3 and 2.5–2.9, Conclusions and Experimental §§4.1–4.12. SI and raw data are outside this commentary’s direct reading scope. This extends the earlier abstract/§§2.1/2.9/Conclusions reading, without claiming a complete main-text/SI audit.",
+      "supplement_read_scope_ko": "SI·별도 영상·원자료는 이 해설에서 직접 읽지 않았습니다.",
+      "supplement_read_scope_en": "SI, separate videos and raw data were not directly read for this commentary.",
+      "pending_reasons_ko": [
+        {
+          "field": "current_pending",
+          "text": "SI·원자료와 장기 사용 조건의 검토가 남아 있습니다. 친수성 약물 적재라는 한계와 생체 내 검증 필요성을 유지합니다. 세포 이동·적출 피부 시연은 인간의 상처 치유·임상 효능을 입증하지 않으며, 온도 보정 제어를 자율 진단·약물 용량 조절로 표현하지 않습니다."
+        }
+      ],
+      "pending_reasons_en": [
+        {
+          "field": "current_pending",
+          "text": "SI, raw data and long-term-use conditions remain to be reviewed. Hydrophilic-drug loading and the need for in vivo validation remain limitations. Cell migration and excised-skin demonstrations do not establish human wound healing or clinical efficacy; temperature compensation is not autonomous diagnosis or drug-dose control."
+        }
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "SI·원자료와 장기 사용 조건의 검토가 남아 있습니다. 친수성 약물 적재라는 한계와 생체 내 검증 필요성을 유지합니다. 세포 이동·적출 피부 시연은 인간의 상처 치유·임상 효능을 입증하지 않으며, 온도 보정 제어를 자율 진단·약물 용량 조절로 표현하지 않습니다.",
+      "current_pending_en": "SI, raw data and long-term-use conditions remain to be reviewed. Hydrophilic-drug loading and the need for in vivo validation remain limitations. Cell migration and excised-skin demonstrations do not establish human wound healing or clinical efficacy; temperature compensation is not autonomous diagnosis or drug-dose control.",
+      "checked_at": "2026-10-06"
     },
     "checked_at": "2026-10-06",
     "proofs": [
@@ -2183,7 +2338,7 @@
         "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": "2026-10-03",
@@ -2202,7 +2357,8 @@
     "correspondence_review_ko": "보관된 최종 게재판 첫 페이지(18112쪽)와 공식 RSC 저자 역할 페이지 인쇄 사본을 대조했습니다. 전체 11저자 중 Jaehong Lee와 Jungmok Seo가 공동교신저자로 명시됩니다. 보관 사본은 첫 페이지와 저자 역할 부분이며 전체 본문 확보를 뜻하지 않습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
     "correspondence_review_en": "The saved final published first page (p. 18112) was checked against a saved print of the official RSC author-role page. Within the complete eleven-author list, Jaehong Lee and Jungmok Seo are explicitly co-corresponding authors. The saved evidence covers the first page and author-role section, not acquisition of the complete article. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
     "correspondence_pending_ko": "",
-    "correspondence_pending_en": ""
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 59,
@@ -2276,8 +2432,8 @@
       "supplement_reviewed": false,
       "prior_pending_ko": "학교 Chrome에서 본문과 각 임상 주장에 연결된 원저를 확인한다.",
       "prior_pending_en": "Check the full review and primary evidence underlying clinical claims in school Chrome.",
-      "read_scope_ko": "MacBook에 실제 저장된 저자기관 공개 PDF를 직접 읽었습니다. DOI·제목·서지·25쪽 표기를 대조한 게재본입니다. 본문/표/캡션을 읽은 페이지는 1–4, 6, 8–9, 14, 16, 18, 20–21쪽이며, 10·12·15쪽은 절 제목 위치만 확인했습니다. 참고문헌 22–25쪽은 지정 인용 항목을 식별하기 위해 확인했습니다. 본문 전부·그림 패널·인용 원저 전수를 읽었다는 뜻은 아닙니다.",
-      "read_scope_en": "Read the institutional PDF physically stored on this MacBook, checking DOI, title, bibliographic footer and 25-page pagination. Read text/tables/caption on PDF pages 1–4, 6, 8–9, 14, 16, 18 and 20–21; inspected pages 10, 12 and 15 only to locate section headings. Checked selected bibliography entries on pages 22–25. This does not claim a complete main-text, visual-panel, or cited-original audit.",
+      "read_scope_ko": "이전 검토 단계에서 실제 확보한 저자기관 공개 PDF를 직접 읽었습니다. DOI·제목·서지·25쪽 표기를 대조한 게재본입니다. 본문/표/캡션을 읽은 페이지는 1–4, 6, 8–9, 14, 16, 18, 20–21쪽이며, 10·12·15쪽은 절 제목 위치만 확인했습니다. 참고문헌 22–25쪽은 지정 인용 항목을 식별하기 위해 확인했습니다. 본문 전부·그림 패널·인용 원저 전수를 읽었다는 뜻은 아닙니다. 이 리뷰의 별도 SI를 확보하거나 읽지 않았습니다. 현재 PDF 텍스트에서 Supporting Information/Supplementary 표기를 찾지 못했지만 SI 부재의 증명으로 해석하지 않습니다. 인용된 장치 원저의 SI도 읽지 않았습니다.",
+      "read_scope_en": "Read the institutional PDF obtained during the earlier review stage, checking DOI, title, bibliographic footer and 25-page pagination. Read text/tables/caption on PDF pages 1–4, 6, 8–9, 14, 16, 18 and 20–21; inspected pages 10, 12 and 15 only to locate section headings. Checked selected bibliography entries on pages 22–25. This does not claim a complete main-text, visual-panel, or cited-original audit. No separate supplement for this review was obtained or read. No Supporting Information/Supplementary marker was found in this PDF text; that is not proof that no supplement exists. Supplements to cited device studies were not read.",
       "supplement_read_scope_ko": "이 리뷰의 별도 SI를 확보하거나 읽지 않았습니다. 현재 PDF 텍스트에서 Supporting Information/Supplementary 표기를 찾지 못했지만 SI 부재의 증명으로 해석하지 않습니다. 인용된 장치 원저의 SI도 읽지 않았습니다.",
       "supplement_read_scope_en": "No separate supplement for this review was obtained or read. No Supporting Information/Supplementary marker was found in this PDF text; that is not proof that no supplement exists. Supplements to cited device studies were not read.",
       "pending_reasons_ko": [
@@ -2653,27 +2809,32 @@
     ],
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "출판사 링크 https://www.benthamscience.com/public/article/96469 는 서지·참고문헌 확인에 사용했다. 학교 Chrome에서 리뷰 본문과 플랫폼별 원저를 대조한다.",
       "prior_pending_en": "The Bentham article URL supplied metadata/references. Check the review text and platform-specific primary studies in school Chrome.",
-      "read_scope_ko": "기존 해설은 Crossref에 출판사가 등록한 초록과 Europe PMC 초록을 읽었다. 리뷰 본문은 미검토다. 이번의 그림·교신 항목 열람만으로 전체 심화 완료를 판정하지 않습니다.",
-      "read_scope_en": "The existing commentary is based on the following review: Publisher-registered Crossref and Europe PMC abstracts were read; review text was not. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
+      "read_scope_ko": "2026-10-06 DOI·제목·최종 서지가 일치하는 사용자 보관 게재 PDF의 인쇄 5458–5468쪽(PDF 1–11): 초록, §1, §2.1–2.2, §3.1–3.2, §4와 Conclusion and Future Perspective를 읽었습니다. 5458·5463–5464·5467–5468쪽 이미지도 대조했습니다. 인용 원저 전문은 미검토입니다. 별도 원저 Methods가 없는 리뷰이며 현재 출판사 Chrome 접근 성공을 보관 PDF 읽기에서 추론하지 않습니다.",
+      "read_scope_en": "On 6 October 2026, read the DOI/title/final-bibliography-matched saved published PDF, printed pp.5458–5468 (PDF 1–11): Abstract, §1, §§2.1–2.2, §§3.1–3.2, §4 and Conclusion and Future Perspective, with visual checks on pp.5458,5463–5464,5467–5468. Cited primary papers remain unread. This review has no independent original-study Methods; current publisher Chrome success is not inferred from saved-PDF reading.",
+      "supplement_read_scope_ko": "별도 SI는 확보·검토하지 않았습니다. 보관 PDF·HTML에서 SI 링크를 찾지 못한 기록은 SI가 존재하지 않는다는 증거가 아닙니다. 인용 원저의 본문·SI도 미검토입니다.",
+      "supplement_read_scope_en": "Separate SI was neither obtained nor reviewed. The absence of an identified SI link in the saved PDF/HTML does not establish that no SI exists. Cited primary papers and their SI remain unread.",
       "pending_reasons_ko": [
         {
-          "field": "article_deepening_scope",
-          "text": "기존 해설은 Crossref에 출판사가 등록한 초록과 Europe PMC 초록을 읽었다. 리뷰 본문은 미검토다. 이번의 그림·교신 항목 열람만으로 전체 심화 완료를 판정하지 않습니다."
+          "field": "current_pending",
+          "text": "인용 원저의 모델·Methods·수치와 SI 확인이 남아 있습니다. 5463쪽 §3.2 본문은 gas pressure·N₂ pressure chamber를 설명하고 Figure 4b 라벨도 이를 지지하지만 b(ii) 캡션은 magnetic actuation으로 표기합니다. 원저·정정 확인 전 구동 방식을 확정하지 않습니다. 본문의 약 60%와 Figure 4a(iii) 캡션의 약 40%는 강조가 다르나 실제 범례는 10·20·40·60% 조건을 포함하므로 한 값이 틀렸다고 단정하지 않습니다. 권호 연도 2018과 보관 출판사 HTML의 온라인 공개일 2019-02-07을 구분합니다."
         }
       ],
       "pending_reasons_en": [
         {
-          "field": "article_deepening_scope",
-          "text": "The existing commentary is based on the following review: Publisher-registered Crossref and Europe PMC abstracts were read; review text was not. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review."
+          "field": "current_pending",
+          "text": "Cited primary-study models, Methods, numbers and SI remain pending. The §3.2 text on p.5463 describes gas pressure/an N₂ pressure chamber and Figure 4b labels support this, whereas the b(ii) caption says magnetic actuation. The actuation mode is not resolved without the source study/corrections. Approximately 60% in the text and 40% in the Figure 4a(iii) caption emphasize different values, but the actual legend includes 10/20/40/60%; neither value is declared wrong. The 2018 issue year remains separate from the saved publisher HTML’s online date of 2019-02-07."
         }
-      ]
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "인용 원저의 모델·Methods·수치와 SI 확인이 남아 있습니다. 5463쪽 §3.2 본문은 gas pressure·N₂ pressure chamber를 설명하고 Figure 4b 라벨도 이를 지지하지만 b(ii) 캡션은 magnetic actuation으로 표기합니다. 원저·정정 확인 전 구동 방식을 확정하지 않습니다. 본문의 약 60%와 Figure 4a(iii) 캡션의 약 40%는 강조가 다르나 실제 범례는 10·20·40·60% 조건을 포함하므로 한 값이 틀렸다고 단정하지 않습니다. 권호 연도 2018과 보관 출판사 HTML의 온라인 공개일 2019-02-07을 구분합니다.",
+      "current_pending_en": "Cited primary-study models, Methods, numbers and SI remain pending. The §3.2 text on p.5463 describes gas pressure/an N₂ pressure chamber and Figure 4b labels support this, whereas the b(ii) caption says magnetic actuation. The actuation mode is not resolved without the source study/corrections. Approximately 60% in the text and 40% in the Figure 4a(iii) caption emphasize different values, but the actual legend includes 10/20/40/60%; neither value is declared wrong. The 2018 issue year remains separate from the saved publisher HTML’s online date of 2019-02-07.",
+      "checked_at": "2026-10-06"
     },
     "proofs": [
       {
@@ -2685,7 +2846,7 @@
         "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": null,
@@ -2712,23 +2873,27 @@
     "correspondence_review_ko": "보관된 최종 게재판 5458쪽의 전체 저자행과 Address correspondence to this author 각주에서 서정목 단독교신을 확인했습니다. Kijun Park와 Yeontaek Lee의 †는 동등 기여 표기입니다. 게재 권호 연도 2018과 온라인 공개일 2019-02-07을 구분하며 이번 분류 정정으로 서지 연도를 바꾸지 않습니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
     "correspondence_review_en": "The complete author row and Address correspondence to this author footnote on printed p. 5458 of the saved final published version identify Jungmok Seo as the sole corresponding author. The † marks for Kijun Park and Yeontaek Lee denote equal contribution. The 2018 issue year and online publication date of 2019-02-07 are distinguished; this role correction does not change the bibliographic year. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
     "correspondence_pending_ko": "",
-    "correspondence_pending_en": ""
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 49,
     "doi": "10.1021/acsanm.8b01429",
     "title": "pH-Responsive DNA Nanolinker Conjugated Hybrid Materials for Electrochemical Microactuator and Biosensor Applications",
-    "status": "unresolved",
-    "named_corresponding_authors": [],
-    "correspondence_evidence_sufficient": false,
+    "status": "confirmed_not_corresponding",
+    "named_corresponding_authors": [
+      "Chang Kee Lee",
+      "Su Ryon Shin"
+    ],
+    "correspondence_evidence_sufficient": true,
     "body_review": {
       "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "ACS DOI 및 /doi/abs/ URL은 도구 오류였고 Europe PMC DOI 조회도 미수록이다. 학교 Chrome에서 초록·본문을 확보하기 전 자체 기전·성능 해설은 보류한다.",
       "prior_pending_en": "ACS DOI and /doi/abs/ URLs failed; Europe PMC returned no DOI record. Mechanistic/performance commentary awaits the school Chrome abstract and text.",
-      "read_scope_ko": "기존 해설은 Crossref 서지에는 초록이 없다. ACS DOI·초록 페이지에서 실제 초록을 확보하지 못했다. 이번의 그림·교신 항목 열람만으로 전체 심화 완료를 판정하지 않습니다.",
-      "read_scope_en": "The existing commentary is based on the following review: Crossref has no abstract; ACS DOI/abstract pages did not return readable article text. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review.",
+      "read_scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; 3 Conclusion; 4 Experimental Section; author and article information; embedded SI S1–S2 correspondence only를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+      "read_scope_en": "Read the DOI/title-matched publisher page: Abstract; 3 Conclusion; 4 Experimental Section; author and article information; embedded SI S1–S2 correspondence only. Unreviewed material is stated below.",
       "supplement_read_scope_ko": null,
       "supplement_read_scope_en": null,
       "pending_reasons_ko": [
@@ -2742,18 +2907,46 @@
           "field": "article_deepening_scope",
           "text": "The existing commentary is based on the following review: Crossref has no abstract; ACS DOI/abstract pages did not return readable article text. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review."
         }
-      ]
+      ],
+      "current_pending_ko": "초록·결론·실험 절만 읽었습니다. 결과 절 전체와 SI 과학 내용을 검토하지 않아 수치 비교·체내 적용·임상 효능은 판정하지 않습니다.",
+      "current_pending_en": "Only the abstract, conclusion and experimental section were read. The complete Results section and scientific SI were not reviewed; no numerical ranking, in vivo use or clinical efficacy is established.",
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false
     },
     "proofs": [
       {
-        "url": "https://pubs.acs.org/doi/10.1021/acsanm.8b01429",
-        "locator": "author/correspondence section not reached",
-        "exact_notation": null,
-        "evidence_scope": "attempt_only_HTTP_403"
+        "url": "https://pubs.acs.org/aanmf6/article/1/12/6630/731374/pH-Responsive-DNA-Nanolinker-Conjugated-Hybrid",
+        "locator": "2026-10-06 school Mini normal DOI, complete author list and explicit correspondence / Author & Article Information",
+        "exact_notation": "Main author list identifies two Corresponding author notes; author-info emails match C.K.L./S.R.S.; embedded SI S2 explicitly Corresponding authors with same names and emails. Seo has no corresponding role.",
+        "evidence_scope": "publisher_final_main_author_correspondence_block_read",
+        "checked_at": "2026-10-06"
       }
     ],
     "article_deepening_ready": false,
-    "article_deepening_complete": false
+    "article_deepening_complete": false,
+    "prior_normal_doi_status": {
+      "status": "unresolved",
+      "checked_at": null,
+      "proofs": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acsanm.8b01429",
+          "locator": "author/correspondence section not reached",
+          "exact_notation": null,
+          "evidence_scope": "attempt_only_HTTP_403"
+        }
+      ],
+      "correspondence_pending_ko": null,
+      "correspondence_pending_en": null
+    },
+    "co_corresponding": false,
+    "seo_email_match": false,
+    "checked_at": "2026-10-06",
+    "final_source_recheck_pending": false,
+    "seo_correspondence_type": null,
+    "correspondence_review_ko": "최종 출판사 페이지의 전체 저자 목록과 명시적 교신 정보를 대조했습니다. 명시된 교신저자는 Chang Kee Lee·Su Ryon Shin이며 Jungmok Seo는 비교신입니다.",
+    "correspondence_review_en": "The complete publisher author list and explicit correspondence information were checked. The designated corresponding authors are Chang Kee Lee and Su Ryon Shin; Jungmok Seo has no corresponding designation.",
+    "correspondence_pending_ko": "",
+    "correspondence_pending_en": ""
   },
   {
     "number": 48,
@@ -2819,27 +3012,32 @@
     ],
     "correspondence_evidence_sufficient": true,
     "body_review": {
-      "deepening_assessment": "not_assessed",
-      "body_pending": true,
+      "deepening_assessment": "bounded_main_text_commentary_reviewed",
+      "body_pending": false,
       "supplement_reviewed": false,
       "prior_pending_ko": "DOI 및 ScienceDirect /science/article/pii/S0925400518307366 와 /abs/ 변형 URL 모두 도구 접근 오류였다. Europe PMC DOI 조회 미수록. 학교 Chrome에서 히스톤 절단·전기 신호·선택성의 실제 근거를 확인한다.",
       "prior_pending_en": "DOI and ScienceDirect article/abs PII URLs returned tool errors; Europe PMC had no DOI match. School Chrome must verify histone cleavage, transduction and specificity evidence.",
-      "read_scope_ko": "기존 해설은 Crossref 서지만 확보했다. 출판사 초록·본문은 읽지 못했으며 검색 스니펫은 해설 근거로 쓰지 않았다. 이번의 그림·교신 항목 열람만으로 전체 심화 완료를 판정하지 않습니다.",
-      "read_scope_en": "The existing commentary is based on the following review: Only Crossref metadata was secured; publisher abstract/text and search snippets were not used for substantive commentary. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review.",
-      "supplement_read_scope_ko": null,
-      "supplement_read_scope_en": null,
+      "read_scope_ko": "2026-10-06 DOI·제목·최종 서지가 일치하는 사용자 보관 게재 PDF의 인쇄 237–243쪽(PDF 1–7): 초록, Introduction, Experimental §2.1–2.7, Results and discussion §3.1–3.4, Conclusion, Appendix A를 읽고 해당 원페이지 이미지와 대조했습니다. 244쪽 참고문헌에 열거된 원저 전문은 미검토입니다. 현재 출판사 Chrome 접근 성공을 이 보관 PDF 읽기에서 추론하지 않습니다.",
+      "read_scope_en": "On 6 October 2026, read and visually cross-check the DOI/title/final-bibliography-matched saved published PDF, printed pp.237–243 (PDF 1–7): Abstract, Introduction, Experimental §§2.1–2.7, Results and discussion §§3.1–3.4, Conclusion and Appendix A. Original studies listed on p.244 remain unread. Current publisher Chrome success is not inferred from this saved-PDF reading.",
+      "supplement_read_scope_ko": "Supplementary Figures 1–2와 243쪽 Appendix A의 온라인 supplement 안내는 본문에서 확인한 기록입니다. SI 자체는 확보·검토하지 않았습니다.",
+      "supplement_read_scope_en": "Supplementary Figures 1–2 and the online-supplement notice in Appendix A on p.243 were identified through main-text references. The SI itself was not obtained or reviewed.",
       "pending_reasons_ko": [
         {
-          "field": "article_deepening_scope",
-          "text": "기존 해설은 Crossref 서지만 확보했다. 출판사 초록·본문은 읽지 못했으며 검색 스니펫은 해설 근거로 쓰지 않았다. 이번의 그림·교신 항목 열람만으로 전체 심화 완료를 판정하지 않습니다."
+          "field": "current_pending",
+          "text": "SI, 효소 간 선택성, 환자 시료 간섭·진단 성능 및 통계적 검출한계 근거를 확인해야 합니다. 절단분 전하는 §1·§3.1의 +13.2와 §3.3의 +13.4가 다릅니다. 배양액 정량에는 본문·Figure 4 annotation의 ng와 농도축의 ng/mL 표기가 혼재하므로 통일·추정 환산하지 않습니다. 1 ng/mL은 논문이 완충액 시험에서 보고한 LOD이며 임상 성능이나 배양액의 보편적 LOD로 옮기지 않습니다."
         }
       ],
       "pending_reasons_en": [
         {
-          "field": "article_deepening_scope",
-          "text": "The existing commentary is based on the following review: Only Crossref metadata was secured; publisher abstract/text and search snippets were not used for substantive commentary. Reading figure and correspondence information in this pass does not establish completion of a full in-depth article review."
+          "field": "current_pending",
+          "text": "SI, cross-protease selectivity, patient-matrix interference/diagnostic performance and the statistical detection-limit basis require further checks. Cleaved-fragment charge is +13.2 in §1/§3.1 versus +13.4 in §3.3. Culture-media quantities use ng in prose/Figure 4 annotations and ng/mL on the concentration axis; these are neither harmonized nor converted. The reported 1 ng/mL LOD belongs to the buffer assay, not clinical performance or a universal culture-media LOD."
         }
-      ]
+      ],
+      "prior_pending_is_historical": true,
+      "complete_main_and_si_audit": false,
+      "current_pending_ko": "SI, 효소 간 선택성, 환자 시료 간섭·진단 성능 및 통계적 검출한계 근거를 확인해야 합니다. 절단분 전하는 §1·§3.1의 +13.2와 §3.3의 +13.4가 다릅니다. 배양액 정량에는 본문·Figure 4 annotation의 ng와 농도축의 ng/mL 표기가 혼재하므로 통일·추정 환산하지 않습니다. 1 ng/mL은 논문이 완충액 시험에서 보고한 LOD이며 임상 성능이나 배양액의 보편적 LOD로 옮기지 않습니다.",
+      "current_pending_en": "SI, cross-protease selectivity, patient-matrix interference/diagnostic performance and the statistical detection-limit basis require further checks. Cleaved-fragment charge is +13.2 in §1/§3.1 versus +13.4 in §3.3. Culture-media quantities use ng in prose/Figure 4 annotations and ng/mL on the concentration axis; these are neither harmonized nor converted. The reported 1 ng/mL LOD belongs to the buffer assay, not clinical performance or a universal culture-media LOD.",
+      "checked_at": "2026-10-06"
     },
     "proofs": [
       {
@@ -2851,7 +3049,7 @@
         "evidence_scope_en": "This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review."
       }
     ],
-    "article_deepening_ready": false,
+    "article_deepening_ready": true,
     "article_deepening_complete": false,
     "previous_status": "unresolved",
     "previous_checked_at": null,
@@ -2872,7 +3070,8 @@
     "correspondence_review_ko": "보관된 최종 게재판 237쪽에서 전체 3저자와 Corresponding authors 각주를 확인했습니다. Jungmok Seo와 Kwan Hyi Lee가 공동교신저자입니다. 이번 확인은 보관된 저자·교신 구간에 한정하며 최신 출판사 변경이나 본문·보충자료 전체 검토를 완료했다는 뜻이 아닙니다.",
     "correspondence_review_en": "The complete three-author list and Corresponding authors footnote were checked on printed p. 237 of the saved final published version. Jungmok Seo and Kwan Hyi Lee are co-corresponding authors. This verification is limited to the saved author/correspondence sections; it does not establish a fresh check of publisher changes or completion of full main-text/supplementary review.",
     "correspondence_pending_ko": "",
-    "correspondence_pending_en": ""
+    "correspondence_pending_en": "",
+    "complete_main_and_si_audit": false
   },
   {
     "number": 46,

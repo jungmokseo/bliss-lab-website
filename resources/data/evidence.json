@@ -49,35 +49,23 @@
   },
   {
     "number": 100,
-    "level": "metadata",
-    "scope_ko": "Crossref 서지에서 제목·DOI·권·논문번호를 확인했으나 초록 필드는 없다. ScienceDirect 검색 결과에 초록 일부가 나타났지만 직접 페이지 열기는 실패하여 전체 초록 검토로 계산하지 않았다.",
-    "scope_en": "Crossref confirms title, DOI, volume and article number but has no abstract. ScienceDirect search exposed fragments; direct page access failed, so no complete abstract review is claimed.",
-    "summary_ko": "전체 초록을 확보하지 못해 패키징 프레임워크의 구체 내용 요약을 보류한다.",
-    "summary_en": "A substantive summary of the packaging framework awaits the complete abstract.",
-    "improvement_ko": "기존 접합법 대비 개선이나 공정 호환성 결론을 아직 도출하지 않는다.",
-    "improvement_en": "Improvements over existing joints and process compatibility are not yet established for this review.",
-    "unresolved_ko": "편집 질문: 어떤 칩·접합 피치·기판 조합이 비교 대상이며 신뢰성 근거는 무엇인가?",
-    "unresolved_en": "Editorial questions: Which chips, joint pitches and substrates are compared, and what supports reliability?",
-    "comparison_ko": "추후 접촉저항, 절연 간격, 조립 온도·압력, 반복 변형과 불량 판정 기준을 대조한다.",
-    "comparison_en": "Future comparisons should reconcile contact resistance, isolation spacing, assembly temperature/pressure, cyclic deformation and failure criteria.",
+    "level": "full_text",
+    "scope_ko": "2026-10-06 DOI·제목이 일치하는 ScienceDirect 출판사 전문에서 초록, 서론, §2의 시스템 아키텍처, §3.1의 접착·공정 온도와 압력·재료 호환성, §3.2.4의 신호 무결성, §3.3.3의 열 응력, §4.1–4.3의 집적 전략, §4.4의 패키징 프레임워크, §5 결론 및 Table 2·3·4·7의 비교 맥락을 읽었습니다. 선정 구획을 바탕으로 한 리뷰 논문 해설이며 인용 원논문의 실험·원자료와 보충자료를 전수 검증한 것은 아닙니다.",
+    "scope_en": "Accessed the DOI/title-matched ScienceDirect publisher full text on 6 October 2026 and read the Abstract, Introduction, §2 system architectures, §3.1 adhesion/process temperature and pressure/material compatibility, §3.2.4 signal integrity, §3.3.3 thermal stress, §4.1–4.3 integration strategies, §4.4 packaging framework, §5 Conclusion and the comparison contexts of Tables 2–4 and 7. This is commentary on selected sections of a review article; cited original experiments, raw data and supporting information were not comprehensively audited.",
+    "summary_ko": "단단한 IC 칩과 변형 가능한 회로를 연결하는 패키징을 세 가지 시스템 아키텍처와 요구조건 기반 선택 프레임워크로 정리한 리뷰 논문입니다.",
+    "summary_en": "A review of packaging rigid IC chips with deformable circuits, organized around three system architectures and a requirements-based selection framework.",
+    "improvement_ko": "칩 기능과 회로의 순응성을 연결하기 위해 구조 선택, 배선, 미세 피치 접합과 절연을 함께 판단합니다. 새로운 단일 실험의 성능 개선을 입증한 논문으로 표현하지 않습니다.",
+    "improvement_en": "Architecture, interconnects, fine-pitch attachment and isolation are considered together to connect chip functions with circuit compliance. This is not presented as a new experimental demonstration of performance improvement.",
+    "unresolved_ko": "표의 보고 변형률은 부품 수준과 시험 방식이 달라 직접 순위화할 수 없습니다. 수분·반복 변형·멸균·장기 접합 신뢰성의 조건별 근거와 보충자료 확인은 남아 있습니다.",
+    "unresolved_en": "Reported strain values cannot be directly ranked across component levels and test modes. Condition-specific evidence for moisture exposure, cyclic deformation, sterilization and long-term joint reliability, along with supporting information, remains to be checked.",
+    "comparison_ko": "목표 조직의 순응성과 기능 복잡도를 먼저 정하고, 접합 피치·패드 수·절연·재료 호환성과 접착·전기 접합 안정성·변형 허용 범위를 함께 대조합니다.",
+    "comparison_en": "Start with target-tissue compliance and functional complexity, then reconcile pitch, pad count, isolation and material compatibility with adhesion, electrical stability and deformation tolerance.",
     "sources": [
       {
-        "url": "https://api.crossref.org/works/10.1016/j.mser.2026.101285",
-        "title": "Crossref publisher-registered metadata — item 100",
-        "access": "publisher_registered_metadata_via_Crossref",
-        "locator": "Crossref response message.title, DOI, volume and article-number; abstract field absent; checked 2026-10-03."
-      },
-      {
         "url": "https://www.sciencedirect.com/science/article/pii/S0927796X26001105",
-        "title": "Materials Science and Engineering: R: Reports — publisher article",
-        "access": "Search metadata/fragments only; direct retrieval failed; checked 2026-10-03",
-        "locator": "Exact-title search; title/authors and partial Abstract snippet only; /science/article/ and /science/article/abs/ open attempts failed"
-      },
-      {
-        "url": "https://www.nature.com/articles/s41528-021-00123-x",
-        "title": "External comparator — npj Flexible Electronics",
-        "access": "Public publisher abstract; checked 2026-10-03",
-        "locator": "Abstract; LED chips integrated with liquid-metal interconnects; About this article > DOI"
+        "title": "Bridging IC chips and deformable circuits: A packaging framework for high-density soft electronics",
+        "access": "publisher_chrome_selected_full_text_read",
+        "locator": "DOI/title-matched publisher full text accessed once in normal school Mini Chrome; Abstract, Introduction, §2, §3.1, §3.2.4, §3.3.3, §4.1–4.3, §4.4, §5 and Tables 2–4 and 7 comparison contexts; cited originals and SI not audited"
       }
     ],
     "external": [
@@ -92,8 +80,14 @@
         "limits_en": "An LED array does not validate high-density IC joint yield, pitch or reliability; inclusion in #100 is also unverified."
       }
     ],
-    "pending_ko": "학교 Chrome에서 DOI 10.1016/j.mser.2026.101285의 초록·본문·비교표를 확인한다. 원본 서지는 수정하지 않았고 수치·제조 절차는 추가하지 않았다.",
-    "pending_en": "Verify DOI 10.1016/j.mser.2026.101285, abstract, main text and comparison tables in school Chrome. Original metadata remains untouched; no numerical results or fabrication procedures were added."
+    "pending_ko": "각 인용 연구의 접합 피치·부품 수준·저항 측정·반복 변형·환경 노출·불량 판정 조건을 대조하는 후속 확인이 남아 있습니다. 보충자료와 인용 원논문은 미검토이며, 장기 임상 내구성이나 보편적인 최적 접합법을 확정하지 않습니다.",
+    "pending_en": "Further checks should reconcile joint pitch, component level, resistance measurements, cyclic deformation, environmental exposure and failure criteria in the cited original studies. Supporting information and cited originals remain unread; long-term clinical durability and a universally optimal joint are not established.",
+    "complete_main_and_si_audit": false,
+    "review_form": "full_text_selected",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "checked_at": "2026-10-06",
+    "editorial_review_approved": true,
+    "article_deepening_complete": false
   },
   {
     "number": 99,
@@ -170,8 +164,8 @@
         "limits_en": "A review and an experimental study cannot be directly ranked; output under imposed temperature differences is not equivalent to everyday wearable output."
       }
     ],
-    "pending_ko": "학교 Chrome에서 인용 원문의 시험 조건과 그림별 재사용 권리를 대조한다. 인용된 여러 장치의 성능을 같은 조건의 직접 비교로 해석하지 않는다.",
-    "pending_en": "Check cited original studies, test conditions and figure-specific reuse rights in school Chrome. Results from different devices are not matched direct comparisons.",
+    "pending_ko": "인용 원문의 시험 조건과 그림별 재사용 권리를 대조한다. 인용된 여러 장치의 성능을 같은 조건의 직접 비교로 해석하지 않는다.",
+    "pending_en": "Check cited original studies, test conditions and figure-specific reuse rights. Results from different devices are not matched direct comparisons.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -517,18 +511,18 @@
   {
     "number": 93,
     "level": "abstract",
-    "scope_ko": "출판사 등록 Crossref 초록을 새로 읽었습니다. ACS 본문 페이지는 403으로 열리지 않았으며 본문·본문 그림·실험 방법을 읽었다고 주장하지 않습니다. 공식 ACS Figshare에서 DOI가 일치하는 am6c04312_si_002.pdf를 받아 S1–S20의 텍스트와 렌더링을 모두 읽었습니다. 범위는 저자·소속, 그림 S1–S16의 패널·축·캡션, 표 S1/S2입니다. 상세 Methods가 없는 보충 그림·표의 확인이며, 별도 보충 동영상은 읽지 않았습니다. 원자료 재분석이나 재현성 검증은 아닙니다.",
-    "scope_en": "The publisher-registered Crossref abstract was reread. The ACS article page returned 403; the main text, main figures and main experimental methods were not read. The DOI-matched am6c04312_si_002.pdf was downloaded from official ACS Figshare. Text and rendered pages S1–S20 were read: authors/affiliations, panels/axes/captions of Figures S1–S16, and Tables S1/S2. This is a supplementary figure/table review without the detailed main Methods. The separate supplementary video was not reviewed; raw data and reproducibility were not audited.",
+    "scope_ko": "초기 출판사 등록 Crossref 초록을 읽었고 당시 공개 ACS 요청은403으로 차단됐습니다. 현재 승인 해설의 과학 근거는 초록과 아래 공식SI 열람 범위입니다. 후속 기관 세션의 접근 기록을 본문 Methods의 검토 완료로 합산하지 않습니다. 공식 ACS Figshare에서 DOI가 일치하는 am6c04312_si_002.pdf를 받아 S1–S20의 텍스트와 렌더링을 모두 읽었습니다. 범위는 저자·소속, 그림 S1–S16의 패널·축·캡션, 표 S1/S2입니다. 상세 Methods가 없는 보충 그림·표의 확인이며, 별도 보충 동영상은 읽지 않았습니다. 원자료 재분석이나 재현성 검증은 아닙니다.",
+    "scope_en": "The publisher-registered Crossref abstract was read; the initial public ACS request returned403. The approved commentary is based on the abstract and officialSI scope below. Subsequent institutional-session access is not counted as a completed main-Methods review. The DOI-matched am6c04312_si_002.pdf was downloaded from official ACS Figshare. Text and rendered pages S1–S20 were read: authors/affiliations, panels/axes/captions of Figures S1–S16, and Tables S1/S2. This is a supplementary figure/table review without the detailed main Methods. The separate supplementary video was not reviewed; raw data and reproducibility were not audited.",
     "summary_ko": "일회용 내시경 캡의 김 서림과 혈액·점액 오염을 다루는 연구다. SHIELD-C는 PDMS 브러시와 실리콘오일을 결합한 일회용 내시경 캡이다.",
     "summary_en": "This study addresses fogging and blood/mucus fouling on disposable endoscope caps. SHIELD-C is a disposable endoscope cap combining a PDMS brush with silicone oil.",
     "improvement_ko": "광학 투명성을 유지하는 액체 계면과 윤활유 보충으로 혈액·점액 오염을 다룬다.",
     "improvement_en": "Its transparent liquid interface and lubricant replenishment address blood and mucus fouling.",
-    "unresolved_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 학교 Mini에 접근하지 않았습니다.",
-    "unresolved_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. No school Mini was accessed.",
+    "unresolved_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다.",
+    "unresolved_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability.",
     "comparison_ko": "렌즈·캡 형상, 오염액, 온습도, 세척·보충 횟수와 시야 판정 기준을 맞춘다.",
     "comparison_en": "Match lens/cap geometry, foulants, temperature/humidity, cleaning/replenishment cycles and visibility criteria.",
-    "pending_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 학교 Mini에 접근하지 않았습니다.",
-    "pending_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. No school Mini was accessed.",
+    "pending_ko": "DOI 10.1021/acsami.6c04312의 정식 본문에서 생체외 모델의 조직·표본 수·시술 조건, 안전성 시험의 동물·혈액·용량·관찰 기간, 내구 시험의 유량·하중·보충량·멸균 선량, 시야 점수 정의를 확인해야 합니다. SI 그림 S4/S5/S6/S14의 캡션·축·범례 불일치도 대조해야 합니다. 현재 자료로 임상시험·환자 안전성·실시간 3년 내구를 확정하지 않습니다. 용혈 결과와 분류 기준의 관계도 본문 시험 조건에서 대조해야 합니다.",
+    "pending_en": "The final main text for DOI 10.1021/acsami.6c04312 is still needed for ex vivo tissue/sample/procedure details; species, blood source, dose and follow-up in safety testing; flow/load/replenishment and sterilization conditions; and the visual-score definition. Caption/axis/legend inconsistencies in SI Figures S4/S5/S6/S14 also need reconciliation. These materials do not establish a clinical trial, patient safety or three-year real-time durability. Hemolysis results and classification criteria also require reconciliation with the main-test conditions.",
     "sources": [
       {
         "url": "https://api.crossref.org/works/10.1021/acsami.6c04312",
@@ -645,8 +639,8 @@
         "limits_en": "This is an abstract-based mechanism comparison, not a ranking of adhesion time or hemostasis across different models."
       }
     ],
-    "pending_ko": "학교 Chrome에서 보충자료·원자료를 대조한다. CC BY 4.0 표기는 확인했지만 제삼자 그림 권리는 별도다.",
-    "pending_en": "Reconcile supplements/source data in school Chrome. CC BY 4.0 is stated; third-party figure rights remain separate.",
+    "pending_ko": "보충자료·원자료를 대조한다. CC BY 4.0 표기는 확인했지만 제삼자 그림 권리는 별도다.",
+    "pending_en": "Reconcile supplements/source data. CC BY 4.0 is stated; third-party figure rights remain separate.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -670,8 +664,8 @@
     "unresolved_en": "Six-month mouse gallbladder exposure is not bile-duct patency. Rabbit patency was tested for two months; explant fluorine may reflect PFP rather than retained lubricant. Human clinical outcomes were not demonstrated.",
     "comparison_ko": "피부 면역·담낭 오염·담도 유동 모델을 구별하고 유치 기간·담즙·형상을 맞춘다. 토끼의 각 군은 4마리이며 장기 임상 수명과 직접 비교하지 않는다.",
     "comparison_en": "Separate skin immunity, gallbladder fouling and duct-flow models; match dwell time, bile and geometry. Rabbit groups each contained four animals and do not establish long-term clinical lifetime.",
-    "pending_ko": "공개 저장소 본문은 확인했다. 학교 Chrome에서 출판사 판본과 보충자료·윤활제 잔존 측정 조건을 대조한다. 정정 DOI 10.1016/j.bioactmat.2026.03.015의 #91 항목은 연구비 사사 누락 보완이다. 같은 정정문의 다른 논문 도표 수정과 혼동하지 않는다.",
-    "pending_en": "Public repository text was read. Cross-check the publisher version, supplements and lubricant-retention measurements in school Chrome. Correction DOI 10.1016/j.bioactmat.2026.03.015 adds omitted funding for #91; figure corrections concern other articles in that notice.",
+    "pending_ko": "공개 저장소 본문은 확인했다. 출판사 판본과 보충자료·윤활제 잔존 측정 조건을 대조한다. 정정 DOI 10.1016/j.bioactmat.2026.03.015의 #91 항목은 연구비 사사 누락 보완이다. 같은 정정문의 다른 논문 도표 수정과 혼동하지 않는다.",
+    "pending_en": "Public repository text was read. Cross-check the publisher version, supplements and lubricant-retention measurements. Correction DOI 10.1016/j.bioactmat.2026.03.015 adds omitted funding for #91; figure corrections concern other articles in that notice.",
     "sources": [
       {
         "url": "https://europepmc.org/article/MED/41732674",
@@ -787,8 +781,8 @@
     "unresolved_en": "Editorial question: How stable are transport and calibration under biofluids, swelling and repeated loading?",
     "comparison_ko": "같은 분석물·농도·겔 두께·팽윤 상태에서 민감도·응답시간·강도를 함께 비교한다.",
     "comparison_en": "Compare sensitivity, response time and strength at matched analyte, concentration, gel thickness and swelling state.",
-    "pending_ko": "학교 Chrome에서 각 센서의 보정·간섭·생체액 조건과 보충자료를 확인한다. 땀과 간질액 성능을 직접 순위화하지 않는다.",
-    "pending_en": "Check calibration, interference, biofluid conditions and supplements in school Chrome. Do not directly rank sweat and interstitial-fluid configurations.",
+    "pending_ko": "각 센서의 보정·간섭·생체액 조건과 보충자료를 확인한다. 땀과 간질액 성능을 직접 순위화하지 않는다.",
+    "pending_en": "Check calibration, interference, biofluid conditions and supplements. Do not directly rank sweat and interstitial-fluid configurations.",
     "sources": [
       {
         "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202515767",
@@ -1067,19 +1061,19 @@
   },
   {
     "number": 87,
-    "level": "abstract",
-    "scope_ko": "ACS 검색에 노출된 초록과 DOI 일치 PubMed 초록을 읽었다. 전문·보충자료는 미검토다.",
-    "scope_en": "ACS-indexed and DOI-matched PubMed abstracts were read; full text and supplements remain unchecked.",
-    "summary_ko": "Nitinol–PMMA 복합체는 비접촉 전자기 가열로 형상 변화·발포·담지 물질 방출을 결합한다.",
-    "summary_en": "Electromagnetic heating couples shape change, foaming and payload release in a Nitinol–PMMA composite.",
-    "improvement_ko": "같은 구동이 구조 변화와 방출을 연결하며 시험관 혈관 클램프 가능성을 평가한다.",
-    "improvement_en": "One trigger links structural change with release and an in vitro vascular-clamping demonstration.",
-    "unresolved_ko": "편집 질문: 조직 온도·반복 구동·방출량을 독립적으로 제어할 수 있는가? 생체 내 치료 효과는 확인하지 않았다.",
-    "unresolved_en": "Editorial question: Can tissue temperature, repeated actuation and release dose be independently controlled? In vivo therapeutic benefit was not verified.",
+    "level": "full_text",
+    "scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; 3 Conclusions; 4.1–4.10 Experimental Section; author and article information를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+    "scope_en": "Read the DOI/title-matched publisher page: Abstract; 3 Conclusions; 4.1–4.10 Experimental Section; author and article information. Unreviewed material is stated below.",
+    "summary_ko": "Nitinol–PMMA 복합체에서 전자기 유도가열을 이용한 형상 회복과 미세발포, 모델 물질 방출을 연결한 연구입니다.",
+    "summary_en": "The Nitinol–PMMA composite links induction-heated shape recovery, microcellular foaming and release of a model agent.",
+    "improvement_ko": "선택 본문은 발포 후 계면 결합 약화와 형상 제어 개선 필요성을 명시합니다. NaBz 방출 정량 시험은 60°C 열판에서 미리 발포시킨 시편을 PBS에서 분석한 조건입니다.",
+    "improvement_en": "The selected text identifies weakened interfacial bonding after foaming and a need to improve shape control. Quantified NaBz release uses specimens prefoamed on a 60°C hot plate and then tested in PBS.",
+    "unresolved_ko": "NIH-3T3 세포 적합성 시험과 체외 시연을 생체 내·인간 치료효과로 일반화하지 않습니다. 결과 절 전체·SI·장기 계면 안정성과 원격 체내 방출 검증은 남아 있습니다.",
+    "unresolved_en": "NIH-3T3 cytocompatibility and in vitro demonstrations do not establish in vivo or human therapeutic efficacy. Complete Results/SI review, long-term interfacial stability and remotely triggered in-body release remain unverified.",
     "comparison_ko": "시료 형상·가열 이력·기공률·담지 물질·방출 매질과 세포 평가를 맞춘다.",
     "comparison_en": "Match geometry, heating history, porosity, payload, release medium and cellular assays.",
-    "pending_ko": "학교 Chrome에서 DOI 10.1021/acsami.5c19771의 열 안전성·제조 조건·방출 모델·생체적합성 범위를 확인한다.",
-    "pending_en": "Verify thermal safety, fabrication, release models and biocompatibility scope for DOI 10.1021/acsami.5c19771 in school Chrome.",
+    "pending_ko": "NIH-3T3 세포 적합성 시험과 체외 시연을 생체 내·인간 치료효과로 일반화하지 않습니다. 결과 절 전체·SI·장기 계면 안정성과 원격 체내 방출 검증은 남아 있습니다.",
+    "pending_en": "NIH-3T3 cytocompatibility and in vitro demonstrations do not establish in vivo or human therapeutic efficacy. Complete Results/SI review, long-term interfacial stability and remotely triggered in-body release remain unverified.",
     "sources": [
       {
         "url": "https://europepmc.org/article/MED/41363129",
@@ -1098,6 +1092,12 @@
         "title": "Light-induced shape-memory polymers",
         "access": "public_external_abstract",
         "locator": "Abstract and DOI metadata; read 2026-10-03."
+      },
+      {
+        "url": "https://pubs.acs.org/aamick/article/17/51/70047/3644085/A-Remotely-Actuated-Multifunctional-Nitinol-PMMA",
+        "title": "A Remotely Actuated Multifunctional Nitinol–PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release",
+        "access": "publisher_selected_main_text_read",
+        "locator": "2026-10-06; Abstract; 3 Conclusions; 4.1–4.10 Experimental Section; author and article information"
       }
     ],
     "external": [
@@ -1111,7 +1111,16 @@
         "limits_ko": "광화학적 형상 회복과 열적 복합체 구동은 자극 경로·열 노출·방출 기능이 다르다.",
         "limits_en": "Photochemical recovery and thermal composite actuation differ in trigger, heat exposure and release functionality."
       }
-    ]
+    ],
+    "prior_scientific_access_record": {
+      "level": "abstract",
+      "scope_ko": "ACS 검색에 노출된 초록과 DOI 일치 PubMed 초록을 읽었다. 전문·보충자료는 미검토다.",
+      "scope_en": "ACS-indexed and DOI-matched PubMed abstracts were read; full text and supplements remain unchecked.",
+      "pending_ko": "학교 Chrome에서 DOI 10.1021/acsami.5c19771의 열 안전성·제조 조건·방출 모델·생체적합성 범위를 확인한다.",
+      "pending_en": "Verify thermal safety, fabrication, release models and biocompatibility scope for DOI 10.1021/acsami.5c19771 in school Chrome."
+    },
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06"
   },
   {
     "number": 86,
@@ -1276,8 +1285,8 @@
         "limits_en": "External full text was not read. Study duration also reflects endpoints, so reported durations cannot establish a device-lifetime improvement factor."
       }
     ],
-    "pending_ko": "학교 Chrome에서 최신 출판사 판본과 보충자료를 대조하고 동물별 전극 배치·장기 표본 탈락·단일 유닛 추적 기준을 확인한다. Figure 1은 비상업적 학술 자료실에 CC BY-NC 4.0 조건으로 수록했다.",
-    "pending_en": "Reconcile the latest publisher version and supplements through school Chrome, including electrode placement, long-term sample attrition and single-unit tracking criteria. Figure 1 is included under CC BY-NC 4.0 for this noncommercial academic library.",
+    "pending_ko": "최신 출판사 판본과 보충자료를 대조하고 동물별 전극 배치·장기 표본 탈락·단일 유닛 추적 기준을 확인한다. Figure 1은 비상업적 학술 자료실에 CC BY-NC 4.0 조건으로 수록했다.",
+    "pending_en": "Reconcile the latest publisher version and supplements including electrode placement, long-term sample attrition and single-unit tracking criteria. Figure 1 is included under CC BY-NC 4.0 for this noncommercial academic library.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1399,8 +1408,8 @@
         "limits_en": "The external paper was read at abstract level. Pressure stability and SLIME abrasion durability are different endpoints."
       }
     ],
-    "pending_ko": "보충자료의 반복 세척·윤활제 손실 조건과 장기 노출 자료를 학교 Chrome DOI 검증에서 확인할 것.",
-    "pending_en": "Check supplementary cleaning, lubricant-loss conditions and prolonged-exposure evidence during school Chrome DOI verification.",
+    "pending_ko": "보충자료의 반복 세척·윤활제 손실 조건과 장기 노출 자료를 확인할 것.",
+    "pending_en": "Check supplementary cleaning, lubricant-loss conditions and prolonged-exposure evidence.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1486,8 +1495,8 @@
         "limits_en": "External evidence is the public abstract; animal healing cannot be ranked directly against CARE cell-migration assays."
       }
     ],
-    "pending_ko": "학교 Chrome에서 보충 회로·코일 최적화 자료를 확인하고 수동 설계 단계가 후속 버전에서 자동화됐는지 별도 확인할 것.",
-    "pending_en": "Verify supplementary circuit/coil optimization at school; assess any later automation separately from this publication.",
+    "pending_ko": "보충 회로·코일 최적화 자료를 확인하고 수동 설계 단계가 후속 버전에서 자동화됐는지 별도 확인할 것.",
+    "pending_en": "Verify supplementary circuit/coil optimization ; assess any later automation separately from this publication.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1567,8 +1576,8 @@
         "limits_en": "The external abstract establishes the problem, not uniform loss or coating benefit for every molecule."
       }
     ],
-    "pending_ko": "보충 약물 패널·산소 전달 자료와 장기 배양 범위를 학교 Chrome DOI 검증에서 확인할 것.",
-    "pending_en": "Verify the supplementary drug panel, oxygen-transport evidence and longer culture limits at school.",
+    "pending_ko": "보충 약물 패널·산소 전달 자료와 장기 배양 범위를 확인할 것.",
+    "pending_en": "Verify the supplementary drug panel, oxygen-transport evidence and longer culture limits.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1655,7 +1664,7 @@
       }
     ],
     "pending_ko": "학교 Chrome 확인 시 보충표의 비교 접착제 조건과 피로·침지 데이터를 대조한다. Figure 1의 재사용 조건은 그림 아래에 표시했다.",
-    "pending_en": "Check comparator-adhesive conditions in the supplementary tables and reconcile fatigue/immersion data through school Chrome. Figure 1 reuse conditions are stated below the figure.",
+    "pending_en": "Check comparator-adhesive conditions in the supplementary tables and reconcile fatigue/immersion data. Figure 1 reuse conditions are stated below the figure.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1783,8 +1792,8 @@
         "limits_en": "External full text was not read. Different targets and readout architectures preclude abstract-only rankings of sensitivity, range or durability."
       }
     ],
-    "pending_ko": "학교 Chrome에서 출판사 최신 본문·정정 여부와 보충자료의 강성 모델, 반복 측정 및 조직학 근거를 확인한다. 로컬 PDF의 기관 접근 표시는 공개 재배포 허가로 해석하지 않는다.",
-    "pending_en": "School Chrome verification should check the current publisher version, corrections and supplementary stiffness model, repeated measurements and histology. Institutional access markings do not authorize redistribution of the local PDF.",
+    "pending_ko": "출판사 최신 본문·정정 여부와 보충자료의 강성 모델, 반복 측정 및 조직학 근거를 확인한다. 로컬 PDF의 기관 접근 표시는 공개 재배포 허가로 해석하지 않는다.",
+    "pending_en": "Check the current publisher version, corrections and supplementary stiffness model, repeated measurements and histology. Institutional access markings do not authorize redistribution of the local PDF.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -1870,8 +1879,8 @@
         "limits_en": "Conduction and hydration differ, so conductivity alone cannot rank them. External printing, properties and device sections were read."
       }
     ],
-    "pending_ko": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 는 403. 학교 Chrome에서 보충자료와 장기 노출 시험 범위를 확인할 것.",
-    "pending_en": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 returned 403. Verify supplementary and prolonged-exposure evidence at school.",
+    "pending_ko": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 의 이전 공개 요청은 403으로 차단됐습니다. 보충자료와 장기 노출 시험 범위를 확인할 것.",
+    "pending_en": "https://www.sciencedirect.com/science/article/abs/pii/S0956566324002628 previously returned 403 in a public request. Verify supplementary and prolonged-exposure evidence.",
     "previous_review": {
       "level": "full_text",
       "review_form": null,
@@ -2064,23 +2073,23 @@
   },
   {
     "number": 73,
-    "level": "metadata",
-    "scope_ko": "출판사 서지와 Crossref 제목·DOI만 확인했다. ScienceDirect 전문 요청은 오류였고 Crossref에 초록이 없으며 Europe PMC에도 해당 DOI 기록이 없었다.",
-    "scope_en": "Verified publisher/Crossref title and DOI only. ScienceDirect could not be fetched; Crossref has no abstract and Europe PMC returned no record for this DOI.",
-    "summary_ko": "골 유착과 임플란트 감염을 함께 다루는 제목의 논문으로 등록되어 있다. 방법과 결과는 아직 요약하지 않는다.",
-    "summary_en": "The registered paper concerns osseointegration and implant infection; methods and results remain unsummarized pending access.",
-    "improvement_ko": "개선 효과나 선택적 세포 부착 기전은 직접 읽은 근거가 없어 판단을 보류한다.",
-    "improvement_en": "Improvement and selective-cell-attachment mechanisms are unassessed because supporting text has not been read.",
-    "unresolved_ko": "항오염과 골세포 결합을 어떻게 양립시켰는지, 생체 내 감염·골 형성을 함께 시험했는지가 핵심 확인 질문이다.",
-    "unresolved_en": "Key questions are how antifouling coexists with bone-cell attachment and whether infection and bone formation were jointly tested in vivo.",
-    "comparison_ko": "후속 비교에서는 기판·생체활성 물질·균종·골 모델과 관찰 시간을 맞추고 세균 억제와 골 결합을 분리 평가해야 한다.",
-    "comparison_en": "Future comparison should match substrate, bioactive agent, bacteria, bone model and duration, separating antimicrobial and bone-integration endpoints.",
+    "level": "full_text",
+    "scope_ko": "2026-10-06 DOI·제목이 일치하는 ScienceDirect 전문의 초록, Methods §2.1–2.16, Results and discussion §3.1–3.6, §4 Conclusions와 본문 그림 설명 6개를 읽었습니다. 8명의 저자와 Woo Young Jang·Jungmok Seo의 명시적 교신저자 표기도 확인했습니다. SI와 원자료는 미검토이며 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+    "scope_en": "On 6 October 2026, read the DOI/title-matched ScienceDirect Abstract, Methods §§2.1–2.16, Results and discussion §§3.1–3.6, §4 Conclusions and six main-text figure captions. The eight authors and explicit correspondence for Woo Young Jang and Jungmok Seo were also checked. SI and raw data remain unread; a complete main-text/SI audit is not claimed.",
+    "summary_ko": "BILS는 티타늄 표면에 고정한 BMP-2와 PFPE 윤활 계면을 결합해 항오염 기능과 골아세포 반응을 함께 평가한 표면입니다. 세포 배양과 28일 토끼 모델을 읽었으며, 별도 비감염 인발 시험은 감염 실험과 구분합니다.",
+    "summary_en": "BILS combines immobilized BMP-2 on titanium with a PFPE lubricant interface to evaluate antifouling and osteoblast responses together. The reviewed cell-culture and 28-day rabbit results are kept separate from the additional noninoculated pull-out experiment.",
+    "improvement_ko": "골아세포는 부착·확산하고 섬유아세포는 약하게 부착한 둥근 형태로 남는 선택성을 평가했습니다. LOIS 대비 골유착 개선을 보고하지만 모든 세포의 포획, 완전한 조직 골유착이나 임상 우월성을 뜻하지 않습니다.",
+    "improvement_en": "The study evaluates osteoblast attachment/spreading while slightly adherent fibroblasts remain rounded. Reported integration improvements over LOIS do not establish universal cell capture, complete tissue osseointegration or clinical superiority.",
+    "unresolved_ko": "SI·원자료는 미독입니다. 비감염 인발 결과를 감염 후 결합강도로 일반화하지 않으며, 동물 수·시료 수와 28일 모델의 한계를 유지합니다.",
+    "unresolved_en": "SI and raw data remain unread. Noninoculated pull-out results must not be generalized to attachment strength after infection; animal/specimen units and the limits of the 28-day model are retained.",
+    "comparison_ko": "MRSA 12시간 사전 노출 여부, bare 음성·양성 대조, LOIS/BILS, 세포 평가 시점과 골·기계적 지표를 함께 대조합니다. 16마리 골 평가와 추가 3마리 비감염 인발 시험을 합산하지 않습니다.",
+    "comparison_en": "Compare MRSA preincubation, bare negative/positive controls, LOIS/BILS, cell-culture timepoints and bone/mechanical endpoints together. Do not merge the 16-animal bone study with the three additional noninoculated pull-out animals.",
     "sources": [
       {
-        "url": "https://doi.org/10.1016/j.cej.2024.149043",
-        "title": "Bioactivated Lubricant-Infused Surfaces: A Dual-Action Strategy for Enhancing Osseointegration and Preventing Implant-Associated Infections",
-        "access": "public_bibliography",
-        "locator": "Publisher indexed title; Crossref DOI record; no abstract"
+        "url": "https://www.sciencedirect.com/science/article/pii/S138589472400528X",
+        "title": "Bioactivated lubricant-infused surfaces: A dual-action strategy for enhancing osseointegration and preventing implant-associated infections",
+        "access": "publisher_chrome_selected_full_text_read",
+        "locator": "DOI/title-matched official publisher full text; Abstract, Methods §2.1–2.16, Results §3.1–3.6, §4 Conclusions and six main-text figure captions; SI/raw data unread"
       }
     ],
     "external": [
@@ -2091,12 +2100,18 @@
         "level": "abstract",
         "relation_ko": "Europe PMC에서 확인한 외부 초록은 티타늄에 항생제와 BMP-2를 결합하고 세균·골아세포를 평가한다. 두 목적을 분리 측정하는 관련 선행 사례다.",
         "relation_en": "The external abstract retrieved through Europe PMC combines gentamicin/BMP-2 on titanium and measures bacteria and osteoblasts, a relevant dual-endpoint precedent.",
-        "limits_ko": "본 논문의 초록 미확인 상태이므로 직접적인 기전 차이나 우월성을 주장하지 않는다.",
-        "limits_en": "Without the focal abstract, no direct mechanistic difference or superiority is asserted."
+        "limits_ko": "외부 원논문과 SI는 미검토입니다. 재료·감염·동물 조건이 달라 직접적인 수치 순위나 임상 우월성을 주장하지 않습니다.",
+        "limits_en": "The external original and SI remain unread. Different materials, infection designs and animal conditions preclude direct numerical ranking or a clinical-superiority claim."
       }
     ],
-    "pending_ko": "https://www.sciencedirect.com/science/article/pii/S138589472400528X 는 403/가져오기 오류. 학교 Chrome에서 초록·본문·보충자료를 직접 읽어야 한다.",
-    "pending_en": "https://www.sciencedirect.com/science/article/pii/S138589472400528X returned 403/fetch errors. Abstract, main text and supplements require school Chrome verification."
+    "pending_ko": "보충자료와 원자료는 미검토입니다. 감염 전처리·28일 골 평가와 별도 비감염 인발 시험의 시료·실험 단위를 분리해 유지해야 합니다. 특히 §3.6 말미의 일반화는 Methods §2.12·2.15의 서로 다른 조건을 넘어 감염 후 결합강도 실증으로 확대하지 않습니다. 장기 사용과 사람에서의 임상 효과는 후속 확인이 필요합니다.",
+    "pending_en": "Supporting information and raw data remain unread. Preserve the distinct sample designs and experimental units for the prechallenged 28-day bone study and the separate noninoculated pull-out experiment. In particular, the generalizing narrative at the end of §3.6 must not override the different conditions in Methods §2.12 and §2.15 or be presented as mechanical-strength validation after infection. Longer-term use and human clinical effects remain to be established.",
+    "complete_main_and_si_audit": false,
+    "review_form": "full_text_selected",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "checked_at": "2026-10-06",
+    "editorial_review_approved": true,
+    "article_deepening_complete": false
   },
   {
     "number": 72,
@@ -2430,17 +2445,17 @@
   },
   {
     "number": 67,
-    "level": "abstract",
-    "scope_ko": "2026-10-06 MacBook에서 DOI가 일치하는 Europe PMC core API의 제목·초록·PMID 37056251·PMCID PMC10088055를 다시 확인했습니다. 과학 본문은 확보하지 못했습니다. 기존 2026-10-05의 PMC 앞부분 XML 열람은 저자·교신 각주만 확인한 기록입니다.",
-    "scope_en": "On 6 October 2026, rechecked the DOI-matched Europe PMC core record, abstract, PMID 37056251 and PMCID PMC10088055 on this MacBook. Scientific main text was not obtained. The prior PMC front-matter XML review on 5 October covered authors and correspondence notes only.",
-    "summary_ko": "복잡한 의료 기구의 저마찰·항오염 표면 코팅을 다룬다. L-skin은 생체 접착층과 윤활제로 팽윤하는 불소계 고분자층을 사용해 복잡한 의료 기구의 표면을 코팅한다.",
-    "summary_en": "This study examines low-friction, antifouling coatings for complex medical devices. L-skin combines a bioadhesive layer with a lubricant-swellable fluoropolymer for complex medical-device surfaces.",
-    "improvement_ko": "초록은 좁은 관·카테터·미세유체·바이오인쇄에서 코팅 호환성과 저마찰·항오염 특성을 보고한다.",
-    "improvement_en": "The abstract reports coating compatibility and low-friction/antifouling behavior in tubing, catheters, microfluidics and bioprinting.",
-    "unresolved_ko": "열에 의한 회복과 멸균 내성의 정확한 조건을 읽지 못했다. 손상 회복이 체온에서 자발적으로 일어난다고 해석하지 않는다.",
-    "unresolved_en": "Exact thermal-recovery and sterilization conditions are unread; recovery must not be interpreted as spontaneous at body temperature.",
-    "comparison_ko": "관의 길이·내경·곡률, 코팅 균일도, 멸균 방법과 윤활제 손실을 맞춰 비교해야 한다.",
-    "comparison_en": "Match tube length, bore, curvature, coating uniformity, sterilization method and lubricant loss.",
+    "level": "full_text",
+    "scope_ko": "2026-10-06 DOI·제목이 일치하는 공식 ScienceDirect 전문에서 §1 Introduction, §2 Results and discussion, §3 Conclusion, Methods §4.1–4.15와 주 Figure 1–6 캡션을 읽었습니다. 이전 초록·저자·교신 각주 확인과 이번 본문 읽기를 구분합니다. SI·별도 영상·원자료·반복별 데이터는 미검토입니다. 캡션 읽기를 원그림 패널의 독립 시각 감사로 계산하지 않습니다.",
+    "scope_en": "On 6 October 2026, read the DOI/title-matched official ScienceDirect main text in §1 Introduction, §2 Results and discussion, §3 Conclusion and Methods §§4.1–4.15, plus captions of main Figures 1–6. This reading is distinct from the earlier abstract and author/correspondence-note check. SI, separate videos, raw and replicate-level data remain unread. Caption reading does not count as independent visual auditing of original panels.",
+    "summary_ko": "PDA에 고정한 불소계 고분자층을 윤활제로 팽윤시켜 복잡한 기구 표면에 L-skin을 형성하는 연구입니다. 본문은 제작·표면 특성과 세포·말 혈액 모델의 제한된 결과를 다룹니다.",
+    "summary_en": "This study forms L-skin on complex device surfaces by swelling a PDA-anchored fluoropolymer layer with lubricant. The main text addresses fabrication, surface behavior and bounded findings in cell and horse-blood models.",
+    "improvement_ko": "다양한 재료와 복잡한 형상의 기구에 윤활 계면을 형성하며 단백질 흡착·세포 부착 감소를 보고합니다. 사람 대상 안전성·효능은 입증하지 않습니다.",
+    "improvement_en": "It forms lubricated interfaces on diverse materials and complex device shapes and reports reduced protein adsorption and cell adhesion. Human safety and efficacy are not established.",
+    "unresolved_ko": "SI와 공식 정정·추가 방법 설명을 확인하고 본문 내 조건 불일치를 대조해야 합니다. 혈액 유량은 Results 2 L/h와 Figure 6e·Methods §4.10의 3 L/h, E. coli 관찰 기간은 Results 72 h와 Methods §4.11의 48 h, cross-cut 블록 수는 Results 30개와 Methods 100개, 회복 관련 시간점은 Results 0/2/4/24 h와 Methods 0/2/12/24 h가 다릅니다. Figure 5f는 collagen–alginate, Methods §4.8은 gelatin–alginate를 표기하며, 서론의 53 μm·150 μm와 Methods §4.8의 최소 83 μm·§4.9의 높이 100 μm가 서로 어떤 시편·치수를 뜻하는지도 확인해야 합니다. 이 해설은 어느 값을 단일 확정 조건으로 선택하지 않습니다. 표본 수·오차막대·윤활제 손실 및 장기 사용 조건의 종합 검증은 남아 있으며, §3이 지적한 생체 내 검증 미충족을 유지합니다.",
+    "unresolved_en": "SI and any official corrections or additional methods explanations are needed to reconcile main-text conditions. Blood flow is 2 L/h in Results versus 3 L/h in Figure 6e and Methods §4.10; E. coli observation is 72 h in Results versus 48 h in Methods §4.11; cross-cut blocks are 30 in Results versus 100 in Methods; recovery-related time points are 0/2/4/24 h in Results versus 0/2/12/24 h in Methods. Figure 5f identifies collagen–alginate whereas Methods §4.8 identifies gelatin–alginate. The Introduction’s 53 μm and 150 μm also need reconciliation with the minimum 83 μm in Methods §4.8 and the 100 μm height in §4.9, including whether they refer to different specimens or dimensions. This commentary selects none as the single definitive condition. A comprehensive check of sample sizes, error bars, lubricant loss and long-term use remains pending, and the unmet in vivo validation identified in §3 is retained.",
+    "comparison_ko": "편집 비교 조건: 관의 길이·내경·곡률, 코팅 균일도, 윤활제 유지·손실, 처리 조건과 생물학적 모델을 맞춰야 합니다. 외부 SLIPS 자료는 초록 수준이며 직접적인 성능 우열을 판단하지 않습니다.",
+    "comparison_en": "Editorial comparison conditions: match tube length, bore, curvature, coating uniformity, lubricant retention and loss, treatment conditions and biological models. The external SLIPS record remains abstract-only and cannot establish a performance ranking.",
     "sources": [
       {
         "url": "https://yonsei.elsevierpure.com/en/publications/lubricant-skin-on-diverse-biomaterials-with-complex-shapes-via-po",
@@ -2453,6 +2468,12 @@
         "title": "Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications",
         "access": "public_indexed_abstract",
         "locator": "Europe PMC core API abstractText; title and DOI matched"
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S2452199X22003176",
+        "title": "Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications",
+        "access": "official_publisher_full_text_read_via_normal_school_Mini_Chrome",
+        "locator": "DOI/title matched; §1 Introduction, §2 Results, §3 Conclusion, Methods §§4.1–4.15 and main Figures 1–6 captions read by root; SI and raw data unread"
       }
     ],
     "external": [
@@ -2467,9 +2488,15 @@
         "limits_en": "This is an abstract-level connection; durability or sterilization comparisons require full testing conditions."
       }
     ],
-    "pending_ko": "2026-10-06 재확인: 출판사 ScienceDirect는 HTTP 403, PMC 웹은 브라우저 확인 화면, 공식 OAI의 pmc 전문 형식은 HTTP 400 cannotDisseminateFormat, Europe PMC가 무료 PDF로 연결한 주소는 HTTP 403 확인 화면입니다. 현재 MacBook에서 과학 본문·SI를 읽지 못했습니다. 열 회복·멸균의 온도/시간/회수, 윤활제 손실, 생체·혈액 시험의 모델·대조군·표본 수를 본문과 SI에서 확인해야 합니다. 접근 제한이나 Mini 연결을 우회하지 않았습니다.",
-    "pending_en": "Rechecked on 6 October 2026: ScienceDirect returned HTTP 403; the PMC web page showed a browser check; the official OAI pmc full-text format returned HTTP 400 cannotDisseminateFormat; and the free-PDF URL listed by Europe PMC returned an HTTP 403 challenge. Scientific main text and SI remain unread on this MacBook. Thermal-recovery and sterilization temperature, duration and cycles; lubricant loss; and biological/blood-test models, controls and sample sizes require direct main-text/SI review. Access restrictions and the Mini connection were not bypassed.",
-    "checked_at": "2026-10-06"
+    "pending_ko": "SI와 공식 정정·추가 방법 설명을 확인하고 본문 내 조건 불일치를 대조해야 합니다. 혈액 유량은 Results 2 L/h와 Figure 6e·Methods §4.10의 3 L/h, E. coli 관찰 기간은 Results 72 h와 Methods §4.11의 48 h, cross-cut 블록 수는 Results 30개와 Methods 100개, 회복 관련 시간점은 Results 0/2/4/24 h와 Methods 0/2/12/24 h가 다릅니다. Figure 5f는 collagen–alginate, Methods §4.8은 gelatin–alginate를 표기하며, 서론의 53 μm·150 μm와 Methods §4.8의 최소 83 μm·§4.9의 높이 100 μm가 서로 어떤 시편·치수를 뜻하는지도 확인해야 합니다. 이 해설은 어느 값을 단일 확정 조건으로 선택하지 않습니다. 표본 수·오차막대·윤활제 손실 및 장기 사용 조건의 종합 검증은 남아 있으며, §3이 지적한 생체 내 검증 미충족을 유지합니다.",
+    "pending_en": "SI and any official corrections or additional methods explanations are needed to reconcile main-text conditions. Blood flow is 2 L/h in Results versus 3 L/h in Figure 6e and Methods §4.10; E. coli observation is 72 h in Results versus 48 h in Methods §4.11; cross-cut blocks are 30 in Results versus 100 in Methods; recovery-related time points are 0/2/4/24 h in Results versus 0/2/12/24 h in Methods. Figure 5f identifies collagen–alginate whereas Methods §4.8 identifies gelatin–alginate. The Introduction’s 53 μm and 150 μm also need reconciliation with the minimum 83 μm in Methods §4.8 and the 100 μm height in §4.9, including whether they refer to different specimens or dimensions. This commentary selects none as the single definitive condition. A comprehensive check of sample sizes, error bars, lubricant loss and long-term use remains pending, and the unmet in vivo validation identified in §3 is retained.",
+    "checked_at": "2026-10-06",
+    "review_form": "full_text_selected",
+    "complete_main_and_si_audit": false,
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "editorial_review_approved": true,
+    "core_word_count": 234,
+    "article_deepening_complete": false
   },
   {
     "number": 66,
@@ -2617,15 +2644,15 @@
   },
   {
     "number": 64,
-    "level": "metadata",
-    "scope_ko": "IEEE와 Crossref에서 학회 논문의 제목·DOI를 확인했다. IEEE 본문은 브라우저 확인 화면, PDF는 가져오기 오류였고 등록 초록도 확보하지 못했다.",
-    "scope_en": "Verified the conference title/DOI through IEEE and Crossref. IEEE showed a browser challenge; PDF fetch failed and no registered abstract was available.",
-    "summary_ko": "나노 실리콘 스프링을 이용한 CMUT 압력 출력 효율을 주제로 등록된 학회 논문이다. 검증된 결과 수치나 기전 설명은 아직 제공하지 않는다.",
-    "summary_en": "This conference paper is registered on CMUT pressure-output efficiency using nano-silicon springs. Verified performance or mechanism details are pending.",
-    "improvement_ko": "제목의 높은 효율 표현만으로 기존 변환기 대비 개선 크기나 전력 이득을 판단할 수 없다.",
-    "improvement_en": "The title alone does not establish the improvement magnitude or electrical-power benefit.",
-    "unresolved_ko": "효율의 정의, 구동 전압·바이어스, 주파수와 부하 매질 및 스프링 없는 대조 구조를 확인해야 한다.",
-    "unresolved_en": "The efficiency definition, drive/bias, frequency, loading medium and spring-free control require verification.",
+    "level": "full_text",
+    "scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; I Introduction; II Fabrication Process; III Device Characterization; IV Conclusion를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+    "scope_en": "Read the DOI/title-matched publisher page: Abstract; I Introduction; II Fabrication Process; III Device Characterization; IV Conclusion. Unreviewed material is stated below.",
+    "summary_ko": "나노 실리콘 스프링을 삽입한 CMUT의 피스톤형 운동으로 초음파 출력 효율을 높이는 학회 논문입니다.",
+    "summary_en": "This conference paper uses nano-silicon springs in a CMUT to increase average piston-plate displacement and acoustic output efficiency.",
+    "improvement_ko": "SOI 웨이퍼 접합 공정, 임피던스·레이저 진동계·하이드로폰 시험을 읽었습니다. 기름 속 측정 거리의 압력과 계산한 표면 최대 압력, DC 바이어스와 AC 펄스 조건을 구분합니다.",
+    "improvement_en": "The SOI-wafer fabrication and impedance, laser-vibrometry and hydrophone tests were read. Measured pressure at a distance in oil differs from the calculated surface maximum, and DC bias differs from the AC pulse amplitude.",
+    "unresolved_ko": "웨어러블·휴대용 영상 장치는 후속 목표입니다. 본문 접근으로 임상 영상이나 무바이어스 구동을 입증하지 않으며, 명시적 교신 근거와 SI는 미확인입니다.",
+    "unresolved_en": "Wearable and portable imaging devices remain future work. Main-text access does not establish clinical imaging or bias-free operation; explicit correspondence evidence and SI remain unverified.",
     "comparison_ko": "동일 개구 면적·대역폭·음향 부하에서 음압과 입력 에너지를 비교해야 하며 생체 적용 효능은 별도 문제다.",
     "comparison_en": "Compare pressure and input energy at matched aperture, bandwidth and acoustic load; biological efficacy is a separate question.",
     "sources": [
@@ -2634,6 +2661,12 @@
         "title": "Giant pressure output efficiency of capacitive micromachined ultrasonic transducers using nano-silicon-springs",
         "access": "public_bibliography",
         "locator": "Indexed IEEE conference metadata; Crossref DOI match"
+      },
+      {
+        "url": "https://ieeexplore.ieee.org/document/9958066/",
+        "title": "Giant Pressure Output Efficiency of Capacitive Micromachined Ultrasonic Transducers Using Nano-Silicon-Springs",
+        "access": "publisher_selected_main_text_read",
+        "locator": "2026-10-06; Abstract; I Introduction; II Fabrication Process; III Device Characterization; IV Conclusion"
       }
     ],
     "external": [
@@ -2648,28 +2681,37 @@
         "limits_en": "The external review does not validate the focal spring structure or establish its superiority."
       }
     ],
-    "pending_ko": "https://ieeexplore.ieee.org/document/9958066/ 브라우저 확인 화면; https://ieeexplore.ieee.org/iel7/9957114/9957143/09958066.pdf 가져오기 오류. 학교 Chrome에서 초록·4쪽 본문·효율 정의 확인 필요.",
-    "pending_en": "IEEE document page showed a browser challenge and its PDF could not be fetched. School Chrome must verify the abstract, four-page text and efficiency definition."
+    "pending_ko": "웨어러블·휴대용 영상 장치는 후속 목표입니다. 본문 접근으로 임상 영상이나 무바이어스 구동을 입증하지 않으며, 명시적 교신 근거와 SI는 미확인입니다.",
+    "pending_en": "Wearable and portable imaging devices remain future work. Main-text access does not establish clinical imaging or bias-free operation; explicit correspondence evidence and SI remain unverified.",
+    "prior_scientific_access_record": {
+      "level": "metadata",
+      "scope_ko": "IEEE와 Crossref에서 학회 논문의 제목·DOI를 확인했다. IEEE 본문은 브라우저 확인 화면, PDF는 가져오기 오류였고 등록 초록도 확보하지 못했다.",
+      "scope_en": "Verified the conference title/DOI through IEEE and Crossref. IEEE showed a browser challenge; PDF fetch failed and no registered abstract was available.",
+      "pending_ko": "https://ieeexplore.ieee.org/document/9958066/ 브라우저 확인 화면; https://ieeexplore.ieee.org/iel7/9957114/9957143/09958066.pdf 가져오기 오류. 학교 Chrome에서 초록·4쪽 본문·효율 정의 확인 필요.",
+      "pending_en": "IEEE document page showed a browser challenge and its PDF could not be fetched. School Chrome must verify the abstract, four-page text and efficiency definition."
+    },
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06"
   },
   {
     "number": 63,
-    "level": "metadata",
-    "scope_ko": "Crossref 서지만 확인했다. 초록 필드가 없고 출판사 페이지 조회도 실패했다.",
-    "scope_en": "Crossref metadata only; no registered abstract and publisher retrieval failed.",
-    "summary_ko": "",
-    "summary_en": "",
-    "improvement_ko": "",
-    "improvement_en": "",
-    "unresolved_ko": "",
-    "unresolved_en": "",
-    "comparison_ko": "",
-    "comparison_en": "",
+    "level": "full_text",
+    "scope_ko": "DOI 일치 보관 PDF(20쪽)의 DOI·제목·저자와 초록을 직접 확인했습니다. 로컬 PDF pp.1–2 서론·물리 적합성, p.6 기하학적·본질적 신축 설계, pp.7–10 항오염·생분해·약물 전달·생체분자 고정, pp.11–12 봉지와 Table 1, pp.13–15 접착 사례, pp.15–16 자가 치유, pp.16–17 결론의 선택 구간을 읽었습니다. Figures 1–7 캡션과 렌더링 화면 pp.1,2,7,13,14,16을 확인했습니다. 인쇄 쪽수는 로컬 PDF p.1=1449, p.12=1460, p.17=1465입니다. 최신 출판사 또는 실시간 기관 Chrome 접속 성공은 확인하지 않았습니다.",
+    "scope_en": "The DOI, title, authors and Abstract were checked directly in the existing user-owned 20-page PDF . Selected reading covered local PDF pp.1–2 Introduction/physical compatibility; p.6 geometric/intrinsic stretchability; pp.7–10 antifouling, degradation, drug delivery and biomolecule immobilization; pp.11–12 encapsulation and Table 1; pp.13–15 adhesive examples; pp.15–16 self-healing; and Conclusions on pp.16–17. Captions for Figures 1–7 and rendered pp.1,2,7,13,14,16 were inspected. Printed pagination maps local PDF p.1 to 1449, p.12 to 1460 and p.17 to 1465. No fresh publisher or live institutional Chrome access success is claimed.",
+    "summary_ko": "물리·생물·계면 적합성으로 장기 바이오전자 기능을 검토한 리뷰입니다. 로컬 PDF의 선택 본문·봉지 Table 1·7개 본문 그림 캡션을 직접 읽었습니다.",
+    "summary_en": "This review examines prolonged bioelectronic function through physical, biological and interfacial compatibility. Selected local-PDF text, encapsulation Table 1 and seven main-text figure captions were read directly.",
+    "improvement_ko": "기계적 변형 수용, 항오염·국소 생체활성, 체액 차단·접착·자가 치유를 각 실패 경로와 연결합니다. 한 장치의 공통 조건 검증이나 보편적 체내 수명을 뜻하지 않습니다.",
+    "improvement_en": "It links deformation accommodation, antifouling/local bioactivity, and fluid barriers/adhesion/healing with distinct failure paths. This does not establish matched-condition validation in one device or a universal implant lifetime.",
+    "unresolved_ko": "가속 시험 예상 수명과 실제 체내 기간, 기계적 회복과 전기 기능 회복을 분리합니다. SI·원자료·인용 원논문은 미독이고 Figure 6A의 ECG/EMG 표기는 재대조가 필요합니다.",
+    "unresolved_en": "Separate accelerated lifetime estimates from observed in vivo duration, and mechanical recovery from electrical recovery. SI, raw data and cited originals are unread; Figure 6A ECG/EMG labeling needs reconciliation.",
+    "comparison_ko": "재료 두께·변형 형태·조직·용액·시험 온도·실패 기준·추적 기간을 맞춥니다. 외부 이물 반응 리뷰는 기존 초록 수준의 기전 맥락으로만 유지합니다.",
+    "comparison_en": "Align thickness, deformation mode, tissue, medium, test temperature, failure criterion and follow-up. The external foreign-body review remains existing abstract-level mechanistic context.",
     "sources": [
       {
-        "url": "https://api.crossref.org/works/10.1021/acsaelm.1c01212",
+        "url": "https://pubs.acs.org/doi/10.1021/acsaelm.1c01212",
         "title": "Functional Bioelectronic Materials for Long-Term Biocompatibility and Functionality",
-        "access": "registered_metadata",
-        "locator": "Crossref cached record; no abstract field. Checked 2026-10-03."
+        "access": "existing_user_local_pdf_selected_main_text_read",
+        "locator": "Local PDF selected pages and main-text captions read directly; exact pages in private evidence ledger. No live institutional/publisher retrieval; SI and raw data unread."
       }
     ],
     "external": [
@@ -2680,14 +2722,14 @@
         "level": "abstract",
         "access": "public_abstract_via_EuropePMC_API",
         "locator": "REST core record abstractText read; PMID 18162407; checked 2026-10-03. External main text not used for the comparison.",
-        "relation_ko": "외부 초록은 표면 특성과 대식세포·이물거대세포 반응을 연결한다. #63 검토 후 사용할 기전 비교 후보다.",
-        "relation_en": "The external abstract links surface properties to macrophage/giant-cell responses; it is a candidate mechanistic comparator for #63.",
-        "limits_ko": "자체 초록이 없어 실제 차별성 판단은 보류한다.",
-        "limits_en": "No claim of difference is made without #63’s abstract."
+        "relation_ko": "기존 외부 초록은 표면 특성과 대식세포·이물거대세포 반응을 연결합니다. 이번에 로컬 PDF에서 읽은 #63의 생물 적합성 구획에 대한 기전 맥락으로만 연결합니다.",
+        "relation_en": "The existing external abstract links surface properties with macrophage and foreign-body giant-cell responses. It supplies mechanistic context for the biological compatibility passages read in the local #63 PDF.",
+        "limits_ko": "외부 원논문·SI는 이번에 읽지 않았습니다. 초록 수준 기전 맥락으로 유지하며 두 리뷰의 성능 우열이나 임상 효과를 확정하지 않습니다.",
+        "limits_en": "The external full text and SI were not read in this task. It remains abstract-level mechanistic context, without ranking the reviews or establishing clinical effects."
       }
     ],
-    "pending_ko": "ACS DOI 페이지는 403, 새 출판사 URL은 도구 접근 오류였다. Europe PMC DOI 조회는 결과가 없었다. 학교 Chrome에서 초록·본문을 확인한 뒤 기여·비교 해설을 작성한다.",
-    "pending_en": "ACS DOI retrieval returned 403; the new publisher URL failed in the tool. Europe PMC returned no DOI match. School Chrome must supply the abstract/text before contribution or comparison claims.",
+    "pending_ko": "SI·원자료와 인용 원논문 전체는 미독입니다. 봉지의 고온 가속 결과·예상 37°C 수명과 실제 체내 추적 기간을 분리합니다. Figure 6A의 신호 명칭은 캡션 ECG·본문 EMG 차이가 있어 이 리뷰의 인용 문헌 [93] 재대조 전 특정하지 않습니다.",
+    "pending_en": "SI, raw data and complete cited primary articles remain unread. Separate high-temperature encapsulation tests, projected lifetime at 37°C and actual in vivo follow-up. Figure 6A labels ECG in its caption but EMG in the body; its signal type is not specified pending reconciliation against this review’s reference [93].",
     "attempts": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/acsaelm.1c01212",
@@ -2704,7 +2746,12 @@
     ],
     "core_word_count": 0,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "complete_main_and_si_audit": false,
+    "editorial_review_approved": true,
+    "review_form": "full_text_selected",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "checked_at": "2026-10-06"
   },
   {
     "number": 62,
@@ -2755,29 +2802,23 @@
   },
   {
     "number": 61,
-    "level": "abstract",
-    "scope_ko": "출판사 직접 페이지는 접근 불가였다. Crossref 등록 초록과 Europe PMC 초록을 읽었다.",
-    "scope_en": "Publisher retrieval failed; Crossref-registered and Europe PMC abstracts were read.",
-    "summary_ko": "접착 강도만 다루던 생체접착제를 항균·세포 침투·자극 반응·전도·자가 치유 기능으로 확장한 리뷰다.",
-    "summary_en": "This review extends bioadhesives beyond bonding toward antimicrobial, cell-infiltrative, responsive, conductive and self-healing functions.",
-    "improvement_ko": "조직 환경에서 접착 유지와 재생·생체신호 측정을 함께 검토한다.",
-    "improvement_en": "It considers adhesion retention together with regeneration and biosignal sensing.",
-    "unresolved_ko": "편집 질문: 기능 간 상충과 상용화 장벽의 개별 근거는 본문에서 확인해야 한다.",
-    "unresolved_en": "Editorial question: verify the specific evidence for functional trade-offs and commercialization barriers in the full review.",
-    "comparison_ko": "편집 제안: 조직 수분·하중·평가 시점을 맞추고 접착과 생물학적 지표를 분리한다.",
-    "comparison_en": "Editorial comparison: match tissue hydration, loading and timing; separate bonding from biological endpoints.",
+    "level": "full_text",
+    "scope_ko": "DOI 일치 보관 PDF(29쪽)의 DOI·제목과 첫 페이지를 직접 확인했습니다. 로컬 PDF p.1 초록·서론, pp.2–4의 접착 기전·응집력·생체적합성 설계 설명(4쪽은 선택 구간), p.9 항균, p.12 세포 침투, pp.14–15 전도, p.16 자가 치유, p.18 자극 반응, p.20 조직 재생, p.22 생체신호, p.24 결론을 읽었습니다. Table 1(pp.10–11)을 시각적으로 읽고 본문 Figures 1–11의 캡션을 읽었습니다. 렌더링 화면 pp.1,3,10,11,13,14,24를 확인했습니다. 이는 선택 본문 독서이며, 최신 출판사 또는 실시간 기관 Chrome 접속 성공을 확인한 것은 아닙니다.",
+    "scope_en": "The DOI, title and first page were checked directly in the existing user-owned 29-page PDF . Reading covered local PDF p.1 Abstract/Introduction; adhesion, cohesion and biocompatibility design on pp.2–4 (selected passages on p.4); antimicrobial discussion on p.9; cell infiltration on p.12; conductivity on pp.14–15; self-healing on p.16; stimuli response on p.18; regeneration on p.20; biosignals on p.22; and Conclusions on p.24. Table 1 on pp.10–11 was read visually and captions for main-text Figures 1–11 were read. Rendered pp.1,3,10,11,13,14,24 were inspected. This is selected main-text reading, without a fresh publisher or live institutional Chrome access claim.",
+    "summary_ko": "계면 접착·재료 응집력과 항균·세포 침투·전도·자가 치유·자극 반응을 연결한 설계 리뷰입니다. 로컬 PDF의 선택 본문·Table 1·11개 본문 그림 캡션을 직접 읽었습니다.",
+    "summary_en": "This design review connects interfacial adhesion and material cohesion with antimicrobial, infiltrative, conductive, healing and responsive functions. Selected local-PDF text, Table 1 and 11 main-text figure captions were read directly.",
+    "improvement_ko": "조직 접착을 재생·생체신호 기능으로 확장하는 재료 경로와 상충을 정리합니다. 분류표를 공통 조건의 성능 우열이나 임상 효능 증거로 읽지 않습니다.",
+    "improvement_en": "It organizes material routes and trade-offs for extending tissue adhesion toward regeneration and biosignal functions. The taxonomy is not a matched-condition performance ranking or proof of clinical efficacy.",
+    "unresolved_ko": "SI·원자료·인용 원논문은 미독이며, 조직·시험법·하중·시간이 다른 수치를 통합하지 않습니다. 손상 조직 생체적합성과 경화·분해산물, 기능별 회복을 분리해 평가해야 합니다.",
+    "unresolved_en": "SI, raw data and cited originals remain unread; numerical results across different tissues, assays, loads and times are not pooled. Injured-tissue compatibility, curing/degradation products and recovery of each function need separate assessment.",
+    "comparison_ko": "조직 종류·수분·하중·평가 시점을 맞추고 접착·응집·세포 반응·전도·회복 지표를 분리합니다. 외부 건식 테이프는 기존 초록 수준 맥락으로만 유지합니다.",
+    "comparison_en": "Match tissue, hydration, load and timing, and separate adhesion, cohesion, cell response, conduction and recovery endpoints. The external dry tape remains an existing abstract-level comparator.",
     "sources": [
       {
-        "url": "https://api.crossref.org/works/10.1002/biot.202100231",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/biot.202100231",
         "title": "Rational engineering and applications of functional bioadhesives in biomedical engineering",
-        "access": "publisher_registered_abstract_via_Crossref",
-        "locator": "Crossref message.abstract supplied by the publisher; not a direct publisher-page read. Checked 2026-10-03."
-      },
-      {
-        "url": "https://europepmc.org/article/MED/34469052",
-        "title": "Rational engineering and applications of functional bioadhesives in biomedical engineering.",
-        "access": "public_abstract_via_EuropePMC_API",
-        "locator": "Europe PMC REST search resultType=core, abstractText; PMID 34469052; DOI 10.1002/biot.202100231. Checked 2026-10-03."
+        "access": "existing_user_local_pdf_selected_main_text_read",
+        "locator": "Local PDF selected pages and main-text captions read directly; exact pages in private evidence ledger. No live institutional/publisher retrieval; SI and raw data unread."
       }
     ],
     "external": [
@@ -2794,19 +2835,24 @@
         "limits_en": "A review category does not demonstrate superiority over the tape."
       }
     ],
-    "pending_ko": "https://onlinelibrary.wiley.com/doi/10.1002/biot.202100231 접근 불가. 학교 Chrome에서 리뷰 표·인용 원문을 대조한다.",
-    "pending_en": "The Wiley DOI URL was inaccessible. Audit review tables and cited primary studies in school Chrome.",
+    "pending_ko": "보충자료·원자료와 인용 원논문 전체는 미독입니다. Table 1은 재료·기전 분류표로 유지하고, 서로 다른 조직·수분·하중·측정법의 수치를 직접 순위화하지 않습니다. 결론의 광범위한 기계적 수치와 일부 본문·캡션 문헌번호 차이는 인용 원문 재대조 전 성능 주장에 사용하지 않습니다.",
+    "pending_en": "SI, raw data and complete cited primary articles remain unread. Keep Table 1 as a material/mechanism taxonomy and avoid ranking numerical outcomes across different tissue, hydration, loading and measurement conditions. Broad mechanical comparisons in the Conclusions and some body/caption reference-number differences require primary-source reconciliation before use in performance claims.",
     "core_word_count": 94,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "complete_main_and_si_audit": false,
+    "editorial_review_approved": true,
+    "review_form": "full_text_selected",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "checked_at": "2026-10-06"
   },
   {
     "number": 60,
     "level": "full_text",
-    "scope_ko": "DOI가 일치하는 기존 로컬 PDF의 초록, §2.1·2.9와 결론을 읽었다. 공개 API 초록도 대조했다.",
-    "scope_en": "A DOI-matched local PDF supplied the abstract, §§2.1/2.9 and Conclusions; the public API abstract was cross-checked.",
-    "summary_ko": "DRESS는 전도성 섬유 코어와 약물 함유 열반응성 쉘을 FPCB에 연결한다.",
-    "summary_en": "DRESS connects a conductive fiber core and drug-loaded thermoresponsive shell to an FPCB.",
+    "scope_ko": "2026-10-06 DOI·제목·최종 권호가 일치하는 RSC 전문의 서론, Results §2.1–2.3·2.5–2.9, Conclusions와 Experimental §4.1–4.12를 읽었습니다. SI와 원자료는 이 해설의 직접 검토 범위에 포함하지 않습니다. 기존 초록·§2.1·2.9·결론 한정 검토보다 본문 읽기 범위를 넓혔지만 전체 본문·SI 감사 완료를 뜻하지 않습니다.",
+    "scope_en": "On 6 October 2026, read the DOI/title/final-issue-matched RSC Introduction, Results §§2.1–2.3 and 2.5–2.9, Conclusions and Experimental §§4.1–4.12. SI and raw data are outside this commentary’s direct reading scope. This extends the earlier abstract/§§2.1/2.9/Conclusions reading, without claiming a complete main-text/SI audit.",
+    "summary_ko": "DRESS는 AgNP/PU 전도성 코어, PDMS 중간층과 약물 함유 PVA–PNIPAm 외층을 이용해 변형 감지와 전기 가열 방출을 결합합니다.",
+    "summary_en": "DRESS combines strain sensing and electrically heated release through an AgNP/PU conductive core, PDMS intermediate layer and drug-loaded PVA–PNIPAm outer layer.",
     "improvement_ko": "변형 감지와 줄 가열 방출을 결합하고 폐루프 전압 제어로 변형에 따른 온도 변화를 보정한다.",
     "improvement_en": "It combines strain sensing with Joule-triggered release; closed-loop voltage control compensates strain-dependent temperature changes.",
     "unresolved_ko": "저자는 친수성 약물만 적재할 수 있고 생체 내 검증이 필요하다고 명시한다.",
@@ -2825,6 +2871,12 @@
         "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release.",
         "access": "public_abstract_via_EuropePMC_API",
         "locator": "Europe PMC REST search resultType=core, abstractText; PMID 34604894; DOI 10.1039/d1nr04508c. Checked 2026-10-03."
+      },
+      {
+        "url": "https://pubs.rsc.org/nr/article/13/43/18112/736746/A-multifunctional-electronic-suture-for-continuous",
+        "title": "A multifunctional electronic suture for continuous strain monitoring and on-demand drug release",
+        "locator": "2026-10-06 actual publisher main-text reading, selected Results and Experimental; SI not included",
+        "access": "publisher_selected_main_text_read"
       }
     ],
     "external": [
@@ -2841,11 +2893,16 @@
         "limits_en": "Do not equate wireless operation with clinical or healing benefit."
       }
     ],
-    "pending_ko": "RSC articlelanding 및 새 URL 모두 403/도구 오류. Crossref의 abstract는 그림 설명뿐이다. 학교 Chrome에서 최신 본문·보충자료·권리를 대조한다.",
-    "pending_en": "RSC landing/new URLs failed with 403/tool errors. Crossref supplied only a graphical caption. Verify current text, supplements and rights in school Chrome.",
+    "pending_ko": "SI·원자료와 장기 사용 조건의 검토가 남아 있습니다. 친수성 약물 적재라는 한계와 생체 내 검증 필요성을 유지합니다. 세포 이동·적출 피부 시연은 인간의 상처 치유·임상 효능을 입증하지 않으며, 온도 보정 제어를 자율 진단·약물 용량 조절로 표현하지 않습니다.",
+    "pending_en": "SI, raw data and long-term-use conditions remain to be reviewed. Hydrophilic-drug loading and the need for in vivo validation remain limitations. Cell migration and excised-skin demonstrations do not establish human wound healing or clinical efficacy; temperature compensation is not autonomous diagnosis or drug-dose control.",
     "core_word_count": 101,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06",
+    "complete_main_and_si_audit": false,
+    "editorial_review_approved": true,
+    "scientific_review_scope": "main_text_read_with_explicit_limits"
   },
   {
     "number": 59,
@@ -2924,8 +2981,8 @@
   {
     "number": 58,
     "level": "full_text",
-    "scope_ko": "MacBook에 실제 저장된 저자기관 공개 PDF를 직접 읽었습니다. DOI·제목·서지·25쪽 표기를 대조한 게재본입니다. 본문/표/캡션을 읽은 페이지는 1–4, 6, 8–9, 14, 16, 18, 20–21쪽이며, 10·12·15쪽은 절 제목 위치만 확인했습니다. 참고문헌 22–25쪽은 지정 인용 항목을 식별하기 위해 확인했습니다. 본문 전부·그림 패널·인용 원저 전수를 읽었다는 뜻은 아닙니다. 이 리뷰의 별도 SI를 확보하거나 읽지 않았습니다. 현재 PDF 텍스트에서 Supporting Information/Supplementary 표기를 찾지 못했지만 SI 부재의 증명으로 해석하지 않습니다. 인용된 장치 원저의 SI도 읽지 않았습니다.",
-    "scope_en": "Read the institutional PDF physically stored on this MacBook, checking DOI, title, bibliographic footer and 25-page pagination. Read text/tables/caption on PDF pages 1–4, 6, 8–9, 14, 16, 18 and 20–21; inspected pages 10, 12 and 15 only to locate section headings. Checked selected bibliography entries on pages 22–25. This does not claim a complete main-text, visual-panel, or cited-original audit. No separate supplement for this review was obtained or read. No Supporting Information/Supplementary marker was found in this PDF text; that is not proof that no supplement exists. Supplements to cited device studies were not read.",
+    "scope_ko": "이전 검토 단계에서 실제 확보한 저자기관 공개 PDF를 직접 읽었습니다. DOI·제목·서지·25쪽 표기를 대조한 게재본입니다. 본문/표/캡션을 읽은 페이지는 1–4, 6, 8–9, 14, 16, 18, 20–21쪽이며, 10·12·15쪽은 절 제목 위치만 확인했습니다. 참고문헌 22–25쪽은 지정 인용 항목을 식별하기 위해 확인했습니다. 본문 전부·그림 패널·인용 원저 전수를 읽었다는 뜻은 아닙니다. 이 리뷰의 별도 SI를 확보하거나 읽지 않았습니다. 현재 PDF 텍스트에서 Supporting Information/Supplementary 표기를 찾지 못했지만 SI 부재의 증명으로 해석하지 않습니다. 인용된 장치 원저의 SI도 읽지 않았습니다.",
+    "scope_en": "Read the institutional PDF obtained during the earlier review stage, checking DOI, title, bibliographic footer and 25-page pagination. Read text/tables/caption on PDF pages 1–4, 6, 8–9, 14, 16, 18 and 20–21; inspected pages 10, 12 and 15 only to locate section headings. Checked selected bibliography entries on pages 22–25. This does not claim a complete main-text, visual-panel, or cited-original audit. No separate supplement for this review was obtained or read. No Supporting Information/Supplementary marker was found in this PDF text; that is not proof that no supplement exists. Supplements to cited device studies were not read.",
     "summary_ko": "전자약의 실시간 감지와 표적 치료를 공간·시간 제어의 관점에서 정리한 리뷰다.",
     "summary_en": "This review frames real-time sensing and targeted electronic therapeutics through spatial and temporal control.",
     "improvement_ko": "섭취형·패치형 장치의 기능과 이식 관련 염증·흉터 문제를 함께 다룬다.",
@@ -2939,7 +2996,7 @@
         "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202005930",
         "title": "Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases",
         "access": "public_web_abstract",
-        "locator": "Abstract; article metadata; main review text not read. Checked 2026-10-03."
+        "locator": "Initial abstract/metadata-only check on 2026-10-03; main review text was not read in that initial check. Later selected main-text reading is documented separately in the current review scope."
       },
       {
         "url": "https://nbdl.yonsei.ac.kr/pdf/2021_05_AM.pdf",
@@ -3348,17 +3405,17 @@
   },
   {
     "number": 50,
-    "level": "abstract",
-    "scope_ko": "Crossref에 출판사가 등록한 초록과 Europe PMC 초록을 읽었다. 리뷰 본문은 미검토다.",
-    "scope_en": "Publisher-registered Crossref and Europe PMC abstracts were read; review text was not.",
-    "summary_ko": "생체재료 마이크로어레이와 센서 통합을 이용한 세포·조직 거동 선별을 정리한 리뷰다.",
-    "summary_en": "This review covers biomaterial microarrays and sensor integration for screening cell and tissue behavior.",
-    "improvement_ko": "소형화된 환경에서 연속 측정과 다조건 선별을 연결한다.",
-    "improvement_en": "It links continuous readout with parallel screening in miniaturized environments.",
-    "unresolved_ko": "편집 질문: 처리량 증가가 재현성·임상 예측력을 높이는지는 개별 원저 확인이 필요하다.",
-    "unresolved_en": "Editorial question: greater throughput does not itself establish reproducibility or clinical predictive value.",
-    "comparison_ko": "편집 제안: 배열 크기·세포 공급원·배치 효과·측정 간격과 종말점을 맞춘다.",
-    "comparison_en": "Editorial comparison: match array scale, cell source, batch effects, sampling interval and endpoints.",
+    "level": "full_text",
+    "scope_ko": "2026-10-06 DOI·제목·최종 서지가 일치하는 사용자 보관 게재 PDF의 인쇄 5458–5468쪽(PDF 1–11): 초록, §1, §2.1–2.2, §3.1–3.2, §4와 Conclusion and Future Perspective를 읽었습니다. 5458·5463–5464·5467–5468쪽 이미지도 대조했습니다. 인용 원저 전문은 미검토입니다. 별도 원저 Methods가 없는 리뷰이며 현재 출판사 Chrome 접근 성공을 보관 PDF 읽기에서 추론하지 않습니다.",
+    "scope_en": "On 6 October 2026, read the DOI/title/final-bibliography-matched saved published PDF, printed pp.5458–5468 (PDF 1–11): Abstract, §1, §§2.1–2.2, §§3.1–3.2, §4 and Conclusion and Future Perspective, with visual checks on pp.5458,5463–5464,5467–5468. Cited primary papers remain unread. This review has no independent original-study Methods; current publisher Chrome success is not inferred from saved-PDF reading.",
+    "summary_ko": "재료 배열·미세유체·물리 자극에 따른 세포·조직 거동 선별과 장기칩 센싱 사례를 정리한 리뷰입니다. 고처리량 선별과 동적 환경의 연속 센싱 결합은 향후 과제로 제시됩니다.",
+    "summary_en": "This review surveys biomaterial, microfluidic and physical-stimulus screening alongside organ-on-chip sensing; integrating high-throughput screening with continual sensing in dynamic environments remains a future challenge.",
+    "improvement_ko": "재료·자극 조건의 선별과 센서 기반 연속 관찰을 함께 검토합니다. 새로운 통합 플랫폼의 실험 검증으로 표현하지 않습니다.",
+    "improvement_en": "It considers material/stimulus screening alongside continual sensor readout, without original experimental validation of a new integrated platform.",
+    "unresolved_ko": "인용 원저의 모델·Methods·수치와 SI, 현재 학교 Chrome 접근의 별도 완료 보고가 남아 있습니다. 5463쪽 §3.2 본문은 gas pressure·N₂ pressure chamber를 설명하고 Figure 4b 라벨도 이를 지지하지만 b(ii) 캡션은 magnetic actuation으로 표기합니다. 원저·정정 확인 전 구동 방식을 확정하지 않습니다. 본문의 약 60%와 Figure 4a(iii) 캡션의 약 40%는 강조가 다르나 실제 범례는 10·20·40·60% 조건을 포함하므로 한 값이 틀렸다고 단정하지 않습니다. 권호 연도 2018과 보관 출판사 HTML의 온라인 공개일 2019-02-07을 구분합니다.",
+    "unresolved_en": "Cited primary-study models, Methods, numbers and SI, together with a separate completed current school Chrome report, remain pending. The §3.2 text on p.5463 describes gas pressure/an N₂ pressure chamber and Figure 4b labels support this, whereas the b(ii) caption says magnetic actuation. The actuation mode is not resolved without the source study/corrections. Approximately 60% in the text and 40% in the Figure 4a(iii) caption emphasize different values, but the actual legend includes 10/20/40/60%; neither value is declared wrong. The 2018 issue year remains separate from the saved publisher HTML’s online date of 2019-02-07.",
+    "comparison_ko": "배열 규모·세포 공급원·배양 차원·자극 조건·측정 간격과 종말점을 맞춥니다. 원저 확인 없이 공통 성능 순위나 임상 예측력을 판단하지 않습니다.",
+    "comparison_en": "Match array scale, cells, culture dimensionality, stimuli, sampling and endpoints; do not infer performance rankings or clinical predictive validity without primary-study checks.",
     "sources": [
       {
         "url": "https://api.crossref.org/works/10.2174/1381612825666190207093438",
@@ -3371,6 +3428,13 @@
         "title": "Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior.",
         "access": "public_abstract_via_EuropePMC_API",
         "locator": "Europe PMC REST search resultType=core, abstractText; PMID 30727879; DOI 10.2174/1381612825666190207093438. Checked 2026-10-03."
+      },
+      {
+        "url": "https://www.benthamscience.com/public/article/96469",
+        "title": "Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior",
+        "access": "local_final_published_pdf_read",
+        "locator": "PDF 1-11 / printed 5458-5468; Abstract, 1, 2.1-2.2, 3.1-3.2, 4, Conclusion and Future Perspective; current Chrome access not claimed",
+        "sha256": "5659ab26f2aaf5cba4f71dc215e300877fe17fec845c23c27dbbf29fe50ffe72"
       }
     ],
     "external": [
@@ -3387,23 +3451,28 @@
         "limits_en": "Stem-cell colony outcomes cannot generalize to all cells or tissues."
       }
     ],
-    "pending_ko": "출판사 링크 https://www.benthamscience.com/public/article/96469 는 서지·참고문헌 확인에 사용했다. 학교 Chrome에서 리뷰 본문과 플랫폼별 원저를 대조한다.",
-    "pending_en": "The Bentham article URL supplied metadata/references. Check the review text and platform-specific primary studies in school Chrome.",
-    "core_word_count": 87,
+    "pending_ko": "인용 원저의 모델·Methods·수치와 SI 확인이 남아 있습니다. 5463쪽 §3.2 본문은 gas pressure·N₂ pressure chamber를 설명하고 Figure 4b 라벨도 이를 지지하지만 b(ii) 캡션은 magnetic actuation으로 표기합니다. 원저·정정 확인 전 구동 방식을 확정하지 않습니다. 본문의 약 60%와 Figure 4a(iii) 캡션의 약 40%는 강조가 다르나 실제 범례는 10·20·40·60% 조건을 포함하므로 한 값이 틀렸다고 단정하지 않습니다. 권호 연도 2018과 보관 출판사 HTML의 온라인 공개일 2019-02-07을 구분합니다.",
+    "pending_en": "Cited primary-study models, Methods, numbers and SI remain pending. The §3.2 text on p.5463 describes gas pressure/an N₂ pressure chamber and Figure 4b labels support this, whereas the b(ii) caption says magnetic actuation. The actuation mode is not resolved without the source study/corrections. Approximately 60% in the text and 40% in the Figure 4a(iii) caption emphasize different values, but the actual legend includes 10/20/40/60%; neither value is declared wrong. The 2018 issue year remains separate from the saved publisher HTML’s online date of 2019-02-07.",
+    "core_word_count": 156,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "editorial_review_approved": true,
+    "complete_main_and_si_audit": false
   },
   {
     "number": 49,
-    "level": "metadata",
-    "scope_ko": "Crossref 서지에는 초록이 없다. ACS DOI·초록 페이지에서 실제 초록을 확보하지 못했다.",
-    "scope_en": "Crossref has no abstract; ACS DOI/abstract pages did not return readable article text.",
-    "summary_ko": "",
-    "summary_en": "",
-    "improvement_ko": "",
-    "improvement_en": "",
-    "unresolved_ko": "",
-    "unresolved_en": "",
+    "level": "full_text",
+    "scope_ko": "출판사 DOI와 제목이 일치하는 페이지에서 Abstract; 3 Conclusion; 4 Experimental Section; author and article information; embedded SI S1–S2 correspondence only를 읽었습니다. 아래 미검토 범위를 유지합니다.",
+    "scope_en": "Read the DOI/title-matched publisher page: Abstract; 3 Conclusion; 4 Experimental Section; author and article information; embedded SI S1–S2 correspondence only. Unreviewed material is stated below.",
+    "summary_ko": "i-motif DNA를 SWCNT 네트워크에 결합해 pH 변화에 따른 미세섬유의 구조·전기화학 응답을 조절하는 연구입니다.",
+    "summary_en": "i-motif DNA links within a SWCNT network tune the structural and electrochemical response of hybrid microfibers to pH.",
+    "improvement_ko": "선택 본문의 결론과 실험 절에서 습식 방사, pH 응답, 전기화학 구동과 과산화수소 감지의 시험 구성을 확인했습니다.",
+    "improvement_en": "The selected conclusion and experimental section describe wet spinning, pH response, electrochemical actuation and hydrogen-peroxide sensing.",
+    "unresolved_ko": "초록·결론·실험 절만 읽었습니다. 결과 절 전체와 SI 과학 내용을 검토하지 않아 수치 비교·체내 적용·임상 효능은 판정하지 않습니다.",
+    "unresolved_en": "Only the abstract, conclusion and experimental section were read. The complete Results section and scientific SI were not reviewed; no numerical ranking, in vivo use or clinical efficacy is established.",
     "comparison_ko": "",
     "comparison_en": "",
     "sources": [
@@ -3412,6 +3481,12 @@
         "title": "pH-Responsive DNA Nanolinker Conjugated Hybrid Materials for Electrochemical Microactuator and Biosensor Applications",
         "access": "registered_metadata",
         "locator": "Crossref cached record; no abstract. Checked 2026-10-03."
+      },
+      {
+        "url": "https://pubs.acs.org/aanmf6/article/1/12/6630/731374/pH-Responsive-DNA-Nanolinker-Conjugated-Hybrid",
+        "title": "pH-Responsive DNA Nanolinker Conjugated Hybrid Materials for Electrochemical Microactuator and Biosensor Applications",
+        "access": "publisher_selected_main_text_read",
+        "locator": "2026-10-06; Abstract; 3 Conclusion; 4 Experimental Section; author and article information; embedded SI S1–S2 correspondence only"
       }
     ],
     "external": [
@@ -3424,12 +3499,12 @@
         "locator": "REST core record abstractText read; PMID 29642472; checked 2026-10-03. External main text not used for the comparison.",
         "relation_ko": "외부 초록의 DNA–SWCNT 계면은 pH와 K+/Li+에 따른 가역 산화환원 반응을 보인다. #49 검증 후 비교할 후보다.",
         "relation_en": "The external abstract reports pH/ion-responsive redox in DNA–SWCNT hybrids, a candidate comparator after #49 is verified.",
-        "limits_ko": "자체 초록 미확보로 나노링커의 기전 차이를 확정하지 않는다.",
-        "limits_en": "The nanolinker’s mechanistic difference is unverified without its abstract."
+        "limits_ko": "외부 원논문과 SI는 미검토입니다. pH·이온 조건과 DNA 구조가 달라 직접적인 성능 우월성을 주장하지 않습니다.",
+        "limits_en": "The external original and SI remain unread. Different pH/ion conditions and DNA structures do not establish direct performance superiority."
       }
     ],
-    "pending_ko": "ACS DOI 및 /doi/abs/ URL은 도구 오류였고 Europe PMC DOI 조회도 미수록이다. 학교 Chrome에서 초록·본문을 확보하기 전 자체 기전·성능 해설은 보류한다.",
-    "pending_en": "ACS DOI and /doi/abs/ URLs failed; Europe PMC returned no DOI record. Mechanistic/performance commentary awaits the school Chrome abstract and text.",
+    "pending_ko": "초록·결론·실험 절만 읽었습니다. 결과 절 전체와 SI 과학 내용을 검토하지 않아 수치 비교·체내 적용·임상 효능은 판정하지 않습니다.",
+    "pending_en": "Only the abstract, conclusion and experimental section were read. The complete Results section and scientific SI were not reviewed; no numerical ranking, in vivo use or clinical efficacy is established.",
     "attempts": [
       {
         "url": "https://pubs.acs.org/doi/10.1021/acsanm.8b01429",
@@ -3446,7 +3521,16 @@
     ],
     "core_word_count": 0,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "prior_scientific_access_record": {
+      "level": "metadata",
+      "scope_ko": "Crossref 서지에는 초록이 없다. ACS DOI·초록 페이지에서 실제 초록을 확보하지 못했다.",
+      "scope_en": "Crossref has no abstract; ACS DOI/abstract pages did not return readable article text.",
+      "pending_ko": "ACS DOI 및 /doi/abs/ URL은 도구 오류였고 Europe PMC DOI 조회도 미수록이다. 학교 Chrome에서 초록·본문을 확보하기 전 자체 기전·성능 해설은 보류한다.",
+      "pending_en": "ACS DOI and /doi/abs/ URLs failed; Europe PMC returned no DOI record. Mechanistic/performance commentary awaits the school Chrome abstract and text."
+    },
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06"
   },
   {
     "number": 48,
@@ -3537,23 +3621,30 @@
   },
   {
     "number": 47,
-    "level": "metadata",
-    "scope_ko": "Crossref 서지만 확보했다. 출판사 초록·본문은 읽지 못했으며 검색 스니펫은 해설 근거로 쓰지 않았다.",
-    "scope_en": "Only Crossref metadata was secured; publisher abstract/text and search snippets were not used for substantive commentary.",
-    "summary_ko": "",
-    "summary_en": "",
-    "improvement_ko": "",
-    "improvement_en": "",
-    "unresolved_ko": "",
-    "unresolved_en": "",
-    "comparison_ko": "",
-    "comparison_en": "",
+    "level": "full_text",
+    "scope_ko": "2026-10-06 DOI·제목·최종 서지가 일치하는 사용자 보관 게재 PDF의 인쇄 237–243쪽(PDF 1–7): 초록, Introduction, Experimental §2.1–2.7, Results and discussion §3.1–3.4, Conclusion, Appendix A를 읽고 해당 원페이지 이미지와 대조했습니다. 244쪽 참고문헌에 열거된 원저 전문은 미검토입니다. 현재 출판사 Chrome 접근 성공을 이 보관 PDF 읽기에서 추론하지 않습니다.",
+    "scope_en": "On 6 October 2026, read and visually cross-check the DOI/title/final-bibliography-matched saved published PDF, printed pp.237–243 (PDF 1–7): Abstract, Introduction, Experimental §§2.1–2.7, Results and discussion §§3.1–3.4, Conclusion and Appendix A. Original studies listed on p.244 remain unread. Current publisher Chrome success is not inferred from this saved-PDF reading.",
+    "summary_ko": "히스톤 H3를 결합한 확장 게이트 FET로 CTSL의 단백질 분해에 따른 전하 변화를 읽었습니다. 완충액과 두 암 세포주의 배양액에서 검증했으며 환자 시료의 진단 성능은 입증하지 않았습니다.",
+    "summary_en": "A histone-H3 extended-gate FET reads charge changes associated with CTSL proteolysis in buffer and two cancer-cell culture media; patient diagnostic performance is not established.",
+    "improvement_ko": "절단 가능한 기질로 효소 활성과 전기 신호를 연결하고 배지 기준 자기 정규화를 적용합니다. 교환형 게이트는 하나의 FET 사용을 여러 측정으로 확장합니다.",
+    "improvement_en": "A cleavable substrate links activity to electrical readout, with medium-referenced self-normalization and replaceable gates for multiple measurements using one FET.",
+    "unresolved_ko": "SI, 효소 간 선택성, 환자 시료 간섭·진단 성능 및 통계적 검출한계 근거를 확인해야 합니다. 절단분 전하는 §1·§3.1의 +13.2와 §3.3의 +13.4가 다릅니다. 배양액 정량에는 본문·Figure 4 annotation의 ng와 농도축의 ng/mL 표기가 혼재하므로 통일·추정 환산하지 않습니다. 1 ng/mL은 논문이 완충액 시험에서 보고한 LOD이며 임상 성능이나 배양액의 보편적 LOD로 옮기지 않습니다. 현재 학교 Chrome 결과는 별도 완료 보고를 기다립니다.",
+    "unresolved_en": "SI, cross-protease selectivity, patient-matrix interference/diagnostic performance and the statistical detection-limit basis require further checks. Cleaved-fragment charge is +13.2 in §1/§3.1 versus +13.4 in §3.3. Culture-media quantities use ng in prose/Figure 4 annotations and ng/mL on the concentration axis; these are neither harmonized nor converted. The reported 1 ng/mL LOD belongs to the buffer assay, not clinical performance or a universal culture-media LOD. Current school Chrome results await a separate completed report.",
+    "comparison_ko": "인식 방식 비교에 한정하며 효소 활성과 항체 결합, 표적과 시료 환경을 구분합니다. 외부 초록만으로 성능 우열을 정하지 않습니다.",
+    "comparison_en": "Compare recognition strategies while distinguishing activity from antibody binding and matching targets/matrices; external abstracts do not establish a performance ranking.",
     "sources": [
       {
         "url": "https://api.crossref.org/works/10.1016/j.snb.2018.04.040",
         "title": "Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection",
         "access": "registered_metadata",
         "locator": "Crossref cached metadata; abstract absent. Checked 2026-10-03."
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925400518307366",
+        "title": "Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection",
+        "access": "local_final_published_pdf_read",
+        "locator": "PDF 1-7 / printed 237-243; Abstract, Introduction, Experimental 2.1-2.7, Results and discussion 3.1-3.4, Conclusion, Appendix A; current Chrome access not claimed",
+        "sha256": "2bed46de5a4ea8b9382ca37269e72834c19ed6d1b23bd7bf0d673924071ca2b8"
       }
     ],
     "external": [
@@ -3566,12 +3657,12 @@
         "locator": "REST core record abstractText read; PMID 25746803; checked 2026-10-03. External main text not used for the comparison.",
         "relation_ko": "외부 초록은 항체 기능화 SiNW FET로 타액의 IL-8·TNF-α를 검출한다. #47 확인 후 인식 방식 비교에 사용할 후보다.",
         "relation_en": "The external abstract detects salivary IL-8/TNF-α with antibody-functionalized SiNW FETs, a candidate recognition-strategy comparator.",
-        "limits_ko": "자체 초록이 없어 단백질 활성 검출의 성능 비교는 보류한다.",
-        "limits_en": "Activity-sensing performance cannot be compared without #47’s abstract."
+        "limits_ko": "외부 논문은 초록만 확인했습니다. 표적·시료 환경·측정량이 달라 직접적인 민감도나 진단 성능 우위를 주장하지 않습니다.",
+        "limits_en": "Only the external abstract was checked. Different targets, matrices and measured quantities do not establish direct sensitivity or diagnostic-performance superiority."
       }
     ],
-    "pending_ko": "DOI 및 ScienceDirect /science/article/pii/S0925400518307366 와 /abs/ 변형 URL 모두 도구 접근 오류였다. Europe PMC DOI 조회 미수록. 학교 Chrome에서 히스톤 절단·전기 신호·선택성의 실제 근거를 확인한다.",
-    "pending_en": "DOI and ScienceDirect article/abs PII URLs returned tool errors; Europe PMC had no DOI match. School Chrome must verify histone cleavage, transduction and specificity evidence.",
+    "pending_ko": "SI, 효소 간 선택성, 환자 시료 간섭·진단 성능 및 통계적 검출한계 근거를 확인해야 합니다. 절단분 전하는 §1·§3.1의 +13.2와 §3.3의 +13.4가 다릅니다. 배양액 정량에는 본문·Figure 4 annotation의 ng와 농도축의 ng/mL 표기가 혼재하므로 통일·추정 환산하지 않습니다. 1 ng/mL은 논문이 완충액 시험에서 보고한 LOD이며 임상 성능이나 배양액의 보편적 LOD로 옮기지 않습니다.",
+    "pending_en": "SI, cross-protease selectivity, patient-matrix interference/diagnostic performance and the statistical detection-limit basis require further checks. Cleaved-fragment charge is +13.2 in §1/§3.1 versus +13.4 in §3.3. Culture-media quantities use ng in prose/Figure 4 annotations and ng/mL on the concentration axis; these are neither harmonized nor converted. The reported 1 ng/mL LOD belongs to the buffer assay, not clinical performance or a universal culture-media LOD.",
     "attempts": [
       {
         "url": "https://doi.org/10.1016/j.snb.2018.04.040",
@@ -3590,9 +3681,14 @@
         "outcome": "DOI included in batch OR query; no matching record returned"
       }
     ],
-    "core_word_count": 0,
+    "core_word_count": 135,
     "editorial_note_ko": "비교 조건은 편집 제안이며 외부 논문 초록만으로 성능 우열을 정하지 않는다.",
-    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings."
+    "editorial_note_en": "Comparison conditions are editorial proposals; external abstracts do not establish performance rankings.",
+    "review_form": "full_text_selected",
+    "checked_at": "2026-10-06",
+    "scientific_review_scope": "main_text_read_with_explicit_limits",
+    "editorial_review_approved": true,
+    "complete_main_and_si_audit": false
   },
   {
     "number": 46,
