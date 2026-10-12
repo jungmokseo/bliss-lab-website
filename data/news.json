@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "BLISS 서정목 교수 연구팀 '지혈용 하이드로겔 및 그 제조방법' 특허 등록 (제10-3020010호)",
+      "titleEn": "BLISS Prof. Jungmok Seo's team — Korean patent registered for 'Hydrogel for Hemostasis and Manufacturing Method Thereof' (No. 10-3020010)",
+      "slug": "patent_hemostat_reg",
+      "date": "2026-10-12",
+      "month": "Oct 2026",
+      "categories": [
+        "General"
+      ],
+      "summary": "서정목 교수, 김태영 박사, 박재규 졸업생이 발명한 '지혈용 하이드로겔 및 그 제조방법'이 2026년 9월 10일 대한민국 특허 제10-3020010호로 등록되었다. 가교된 폴리비닐알코올(PVA)과 폴리아크릴산(PAA)을 포함하는 지혈용 하이드로겔에 관한 발명이며, 연세대학교 산학협력단과 (주)링크솔루텍이 공동 특허권자이다.",
+      "summaryEn": "The invention 'Hydrogel for Hemostasis and Manufacturing Method Thereof' by Prof. Jungmok Seo, Dr. Tae Young Kim and alumnus Jae Park was registered as Korean Patent No. 10-3020010 on September 10, 2026. It covers a hemostatic hydrogel comprising crosslinked poly(vinyl alcohol) (PVA) and poly(acrylic acid) (PAA). Yonsei University Industry-Academic Cooperation Foundation and Lynk Solutec, Inc. are the joint patentees.",
+      "thumbnail": "images/news/patent_hemostat_reg.jpg",
+      "contentImage": "images/news/patent_hemostat_reg-content.jpg"
+    },
+    {
       "title": "BLISS 육근영 학생 Advanced Science 에 논문 게재 승인 (Impact factor = 14.1)",
       "titleEn": "BLISS Keun-Young Yook — Paper accepted in Advanced Science (Impact Factor = 14.1)",
       "slug": "yky_advsci",
