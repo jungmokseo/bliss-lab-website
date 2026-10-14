@@ -125,7 +125,7 @@
     "title": "Enhancement of X-ray detection by single-walled carbon nanotube enriched flexible polymer composite",
     "doi": "10.1186/1556-276x-9-610",
     "summary": "Adding single-walled carbon nanotubes changes X-ray sensing in a flexible polymer. The abstract reports a trade-off: higher nanotube loading aids charge separation but also increases dark current and slows the response.",
-    "source_scope": "The research account is limited to the Crossref and Europe PMC/PubMed abstracts; it does not include review of the article body."
+    "source_scope": "The account draws on the abstracts and the previously read Europe PMC article XML. Review of the original Figures 2–5 and the supplementary information remains incomplete."
   },
   {
     "number": 17,
@@ -220,8 +220,8 @@
     "language": "en",
     "title": "The impact of atomic layer deposited SiO 2 passivation for high-k Ta 1−x Zr x O on the InP substrate",
     "doi": "10.1039/c5tc01890k",
-    "summary": "This study concerns a silicon-dioxide passivation layer and a tantalum–zirconium oxide dielectric in an indium-phosphide MOS capacitor. The available one-sentence summary does not establish the direction or size of a performance change.",
-    "source_scope": "The research account is limited to a one-sentence summary registered with Crossref. The complete publisher abstract and article body are outside its evidence scope."
+    "summary": "This study examined how silicon-dioxide passivation changes interfacial diffusion and electrical properties in InP MOS capacitors.",
+    "source_scope": "The review covers the existing local publisher PDF, pages 10293–10301, including the main text, experimental methods and Figures 1–8. SI has not been read, and the current complete SI inventory and latest correction status remain unverified."
   },
   {
     "number": 29,
@@ -285,7 +285,7 @@
     "title": "Bioinspired Geometry‐Switchable Janus Nanofibers for Eye‐Readable H2 Sensors",
     "doi": "10.1002/adfm.201701618",
     "summary": "Hydrogen-responsive Janus nanofibers change shape to produce a visible optical signal. The sensor uses changes in light transmission to reveal hydrogen exposure without electrical measurement equipment.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "source_scope": "The earlier review of the eight-page main paper and four original figures is retained. The stored 22-page SI PDF, including Methods, equations 1–10, Table S1 and Figures S1–S11, has now been read. Four supplementary videos were inspected through sampled frames at roughly one-second intervals. The current complete publisher attachment list, latest version, later corrections, and uninterrupted video/audio review remain unresolved."
   },
   {
     "number": 37,
@@ -349,7 +349,7 @@
     "title": "Electrically Driven Microengineered Bioinspired Soft Robots",
     "doi": "10.1002/adma.201704189",
     "summary": "A ray-inspired soft robot combines cardiomyocytes, patterned hydrogels and gold microelectrodes. The electrodes provide mechanical support and local electrical stimulation for cell-driven actuation.",
-    "source_scope": "This account is based on the Wiley and Crossref abstracts. The main text and supplementary information are outside its scope."
+    "source_scope": "The original account used Wiley and Crossref abstracts. A locally held 13-page publisher-format article was checked on 14 October 2026. Supplementary files, videos and current correction history remain unverified."
   },
   {
     "number": 45,
@@ -605,7 +605,7 @@
     "title": "Autonomously Self‐healing, Adhesive, and Stretchable Triboelectric Nanogenerator Using Multifunctional Hydrogel‐Elastomer Double Layer with a Power Management Circuit",
     "doi": "10.1002/aelm.202400013",
     "summary": "A hydrogel electrode and elastomer triboelectric layer convert movement into electrical output, which a power-management circuit collects for storage. With the same capacitor and charging interval, the managed circuit stored more energy than direct charging.",
-    "source_scope": "Selected public Wiley text on the double layer, recovery, power management and device demonstrations was read, together with §2.4 on pp. 6–8 of the matching published PDF. These passages cover temporary storage, threshold switching and output transfer. Supplementary information and videos were not comprehensively read; main-text references to them are not direct inspection."
+    "source_scope": "Building on the earlier public Wiley and power-management reading, the review now covers all 11 pages of the stored published PDF, including the main text, figures, experimental methods and reference list. Supplementary information and videos were not directly reviewed, and the latest publisher version and correction status remain to be checked."
   },
   {
     "number": 77,
@@ -669,7 +669,7 @@
     "title": "Gas‐Specific and Tunable Hydrogen‐Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques",
     "doi": "10.1002/smll.202501590",
     "summary": "This gas-separation study physically confines and seals ZIF-8 membranes to control nonselective transport pathways. It examines how confinement, liquid sealing and surface fluorination separately affect hydrogen selectivity.",
-    "source_scope": "The Wiley abstract, introduction and structural-design explanations were read. The scope is gas-separation research; these passages do not establish biological or bioelectronic performance."
+    "source_scope": "The scientific text of the archived official article XML and Figure 1 were reviewed. Original Figures 2–5 and the contents of the supporting information remain unreviewed. This is gas-separation research and does not establish biological or bioelectronic performance."
   },
   {
     "number": 85,
@@ -933,7 +933,7 @@
     "title": "Enhancement of X-ray detection by single-walled carbon nanotube enriched flexible polymer composite",
     "doi": "10.1186/1556-276x-9-610",
     "summary": "유연한 고분자에 단일벽 탄소나노튜브를 넣어 X선 감지 성능을 조절합니다. 초록은 나노튜브 함량을 높일 때 전하 분리가 향상되는 한편, 암전류가 커지고 응답이 느려지는 상충 관계를 보고합니다.",
-    "source_scope": "연구 설명의 범위는 Crossref와 Europe PMC/PubMed 초록입니다. 본문 전체의 검토를 포함하지 않습니다."
+    "source_scope": "해설은 초록과 기존에 읽은 Europe PMC 본문 XML을 참고합니다. Fig. 2–5의 원그림과 보충자료는 검토를 완료하지 않았습니다."
   },
   {
     "number": 17,
@@ -1028,8 +1028,8 @@
     "language": "ko",
     "title": "The impact of atomic layer deposited SiO 2 passivation for high-k Ta 1−x Zr x O on the InP substrate",
     "doi": "10.1039/c5tc01890k",
-    "summary": "인화인듐 기판 위의 금속–산화물–반도체 커패시터에서 이산화규소 표면 처리층과 탄탈럼–지르코늄 산화물 절연층을 다룹니다. 한 문장으로 공개된 요약만으로는 성능이 어느 방향으로 얼마나 달라졌는지 알 수 없습니다.",
-    "source_scope": "연구 설명은 Crossref에 등록된 한 문장 요약에 한정됩니다. 출판사의 전체 초록과 본문은 이 근거 범위에 포함되지 않습니다."
+    "summary": "이 연구는 InP 기반 MOS 커패시터에 SiO₂ 패시베이션을 도입해 계면 확산과 전기적 특성이 어떻게 달라지는지 살폈습니다.",
+    "source_scope": "기존 로컬 출판사 PDF 9쪽(10293–10301)의 본문·실험방법과 Figure 1–8을 검토했습니다. SI는 미독이며 현재 공식 SI 전체 목록과 최신 정정 여부는 확인하지 못했습니다."
   },
   {
     "number": 29,
@@ -1093,7 +1093,7 @@
     "title": "Bioinspired Geometry‐Switchable Janus Nanofibers for Eye‐Readable H2 Sensors",
     "doi": "10.1002/adfm.201701618",
     "summary": "수소에 노출되면 모양이 바뀌는 야누스 나노섬유를 이용해, 기체 감지를 눈으로 읽을 수 있는 광학 신호로 바꾼 연구입니다. 섬유의 형상 변화에 따른 빛 투과를 활용해 별도의 전기 측정 장치 없이 수소 노출을 확인합니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "source_scope": "기존 본문 8쪽과 원그림 4개 검토를 유지하며, 보유 SI PDF 22쪽의 Methods·식 1–10·표 S1·그림 S1–S11을 추가로 읽었다. 보충영상 4개는 약 1초 간격의 표본 프레임으로 확인했다. 현재 출판사 전체 첨부목록·최신판·후속 정정과 영상 연속 동작·음성 검토는 미완료다."
   },
   {
     "number": 37,
@@ -1157,7 +1157,7 @@
     "title": "Electrically Driven Microengineered Bioinspired Soft Robots",
     "doi": "10.1002/adma.201704189",
     "summary": "심근세포, 부드러운 하이드로젤 구조, 금 미세전극을 결합한 가오리 모양의 생체모사 로봇 연구입니다. 미세전극이 구조를 지지하면서 세포에 국소적인 전기 자극을 전달하도록 설계했습니다.",
-    "source_scope": "해설은 Wiley와 Crossref의 초록에 근거합니다. 본문·보충자료는 확인 범위에 포함되지 않습니다."
+    "source_scope": "기존 해설은 Wiley·Crossref 초록에 근거하며, 2026-10-14에 보유한 출판사 형식 원문 13쪽을 대조했습니다. 보충자료·동영상과 최신 정정 이력은 아직 확인하지 못했습니다."
   },
   {
     "number": 45,
@@ -1413,7 +1413,7 @@
     "title": "Autonomously Self‐healing, Adhesive, and Stretchable Triboelectric Nanogenerator Using Multifunctional Hydrogel‐Elastomer Double Layer with a Power Management Circuit",
     "doi": "10.1002/aelm.202400013",
     "summary": "하이드로젤 전극과 엘라스토머 마찰층으로 움직임을 전기로 바꾸고, 전력 관리 회로를 통해 그 에너지를 저장하는 연구입니다. 같은 축전기를 일정 시간 충전한 비교에서 전력 관리 회로를 썼을 때 더 많은 에너지가 저장됐습니다.",
-    "source_scope": "공개 Wiley 본문의 이중층, 회복, 전력 관리, 기기 시연 부분과 같은 논문의 게재본 PDF 6–8쪽 §2.4를 읽었습니다. 임시 저장, 문턱 스위칭, 출력 전달을 다룬 범위입니다. 보충자료와 영상 전체를 읽지는 않았으며, 본문의 보충자료 인용을 직접 확인한 결과로 간주하지 않습니다."
+    "source_scope": "앞서 읽은 공개 Wiley 본문과 전력 관리 부분을 바탕으로, 보관된 게재본 PDF 11쪽의 본문·그림·실험 방법·참고문헌 목록까지 검토 범위를 넓혔습니다. 보충자료와 영상은 직접 검토하지 않았으며, 최신 출판사 판본과 정정 여부도 추가 확인이 필요합니다."
   },
   {
     "number": 77,
@@ -1477,7 +1477,7 @@
     "title": "Gas‐Specific and Tunable Hydrogen‐Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques",
     "doi": "10.1002/smll.202501590",
     "summary": "기체 분리용 ZIF-8 막에서 구조를 물리적으로 구속하고 틈을 밀봉해, 기체가 비선택적 경로로 새는 문제를 다룹니다. 구조 구속, 윤활액 밀봉, 표면 불소화가 수소 선택성에 미치는 역할을 구분해 살핍니다.",
-    "source_scope": "Wiley 초록, 서론, 구조 설계 설명을 읽었습니다. 기체 분리 연구에 관한 범위이며 생물학적·바이오전자 성능을 입증하는 내용은 아닙니다."
+    "source_scope": "보관된 공식 본문 XML의 과학 텍스트와 Figure 1을 검토했습니다. 원그림 2–5와 보충자료의 실제 내용은 아직 확인하지 못했습니다. 이 연구는 기체 분리에 관한 것이며 생물학적·바이오전자 성능을 입증하지 않습니다."
   },
   {
     "number": 85,
