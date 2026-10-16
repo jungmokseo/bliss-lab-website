@@ -3,16 +3,6 @@
     {
       "number": 102,
       "year": 2026,
-      "title": "Omniphobic Polymer/Graphene Oxide-Coated PVDF Membrane for Stable Membrane Distillation in Surfactant-Containing Seawater",
-      "authors": "Jiwon Kim, Kwang-Duck Park, <strong>Jungmok Seo</strong>, Yun Chul Woo, Dae Woo Kim",
-      "journal": "ACS Environmental Au, 6(1), 125-133 (2026)",
-      "impactFactor": null,
-      "image": "",
-      "link": "https://doi.org/10.1021/acsenvironau.5c00199"
-    },
-    {
-      "number": 101,
-      "year": 2026,
       "title": "Synergistic Mechano-Fluidic Self-Fusion of Poly(vinyl alcohol)-Modified Liquid-Metal Particles for Post-Treatment-Free Soft Electronics",
       "authors": "<strong>Keun-Young Yook</strong>, <strong>Sangwon Kim</strong>, <strong>Chansoo Kim</strong>, <strong>Minkyong Kang</strong>, <strong>Yurim Lee</strong>, <strong>Mido Kim</strong>, <strong>Kijun Park</strong>, Seung Yeop Han, Seung-Woo Cho, Gun-Hee Lee, <strong>Kayoung Son</strong>, <strong>Hanbit Jang</strong>, <strong>Tae Young Kim</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
       "journal": "Advanced Science, e78062 (2026)",
@@ -21,7 +11,7 @@
       "link": "https://doi.org/10.1002/advs.78062"
     },
     {
-      "number": 100,
+      "number": 101,
       "year": 2026,
       "title": "Bridging IC Chips and Deformable Circuits: A Packaging Framework for High-Density Soft Electronics",
       "authors": "<strong>Yurim Lee</strong>, <strong>Yeontaek Lee</strong>, <strong>Siyeon Park</strong>, <strong>Hyein Ham</strong>, <strong>Hanbit Jang</strong>, <strong>Yunmin Jung</strong>, Sooin Lee, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -31,7 +21,7 @@
       "link": "https://doi.org/10.1016/j.mser.2026.101285"
     },
     {
-      "number": 99,
+      "number": 100,
       "year": 2026,
       "title": "Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance",
       "authors": "<strong>Yurim Lee</strong><sup>†</sup>, <strong>Hyein Ham</strong><sup>†</sup>, <strong>Siyeon Park</strong>, <strong>Hanbit Jang</strong>, <strong>Seungwan Hong</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -41,7 +31,7 @@
       "link": "https://doi.org/10.1002/smsc.70402"
     },
     {
-      "number": 98,
+      "number": 99,
       "year": 2026,
       "title": "Bioadhesive Hydrogels as Immunomodulatory Interfaces for Chronic Wound Healing: From Microenvironmental Regulation Mechanism to Engineering Strategies",
       "authors": "<strong>Kayoung Son</strong><sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, <strong>Minkyong Kang</strong>, <strong>Yejin Jo</strong>, <strong>Chansoo Kim</strong>, <strong>Kijun Park</strong>, <strong>Yunmin Jung</strong>, <strong>Tae Young Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -51,7 +41,7 @@
       "link": "https://doi.org/10.1093/burnst/tkag055"
     },
     {
-      "number": 97,
+      "number": 98,
       "year": 2026,
       "title": "Play-Doh Inspired a Transformative, Shape-Adaptive iHEÄLS Enabling Post-Crosslinking Mechanical-Biological Modulation and Its Effectiveness in Musculoskeletal Repair",
       "authors": "Niyou Wang<sup>†</sup>, Chao Liang<sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, Jessica Heline Lopes da Fonseca, María José Veana Hernandez, Zahra Rezaei, Alvaro Dario Martinez Blanco, Nicole Joy Bassous, Da Seul Kim, <strong>Yejin Jo</strong>, <strong>Tae Young Kim</strong>, Yipei Yang, Ziqi Huang, Siyuan Chen, Feiming Li, Marcos Akira dAvila, June-Seo Kim, Misun Kang, <strong>Jungmok Seo</strong>, Sang Jin Lee<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
@@ -61,7 +51,7 @@
       "link": "https://doi.org/10.1002/adma.74385"
     },
     {
-      "number": 96,
+      "number": 97,
       "year": 2026,
       "title": "Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing",
       "authors": "Seol-Ha Jeong<sup>†</sup>, Eleftheria-Angeliki Valsami<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, <strong>Jungmok Seo</strong>, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, <strong>Yejin Jo</strong>, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
@@ -76,7 +66,7 @@
       }
     },
     {
-      "number": 95,
+      "number": 96,
       "year": 2026,
       "title": "Lubricious Anti-Adhesive Interface Prevents Friction, Biofilm, and Encrustation in Long-Term Indwelling Ureteral Stents",
       "authors": "<strong>Yejin Jo</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Sungun Bang, <strong>Kayoung Son</strong>, <strong>Kijun Park</strong>, Dokyun Kim, <strong>Soo A Kim</strong>, Seonghyeon Eom, Inhee Choi, Su-Jin Shin, Kyo Chul Koo<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -91,7 +81,7 @@
       }
     },
     {
-      "number": 94,
+      "number": 95,
       "year": 2026,
       "title": "Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis",
       "authors": "Jiaqi Liu<sup>†</sup>, Jun Li<sup>†</sup>, Huiyan Sun, <strong>Jungmok Seo</strong>, Yanmei Zhang<sup>*</sup>, Yunlong Yu<sup>*</sup>",
@@ -101,7 +91,7 @@
       "link": "https://doi.org/10.1016/j.mtbio.2026.103299"
     },
     {
-      "number": 93,
+      "number": 94,
       "year": 2026,
       "title": "Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling",
       "authors": "<strong>Kayoung Son</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Kyungwon Lee, <strong>Yejin Jo</strong>, <strong>Yurim Lee</strong>, Seung Hyun Lee, Min Young Seo, Jung Seung Lee, Seung Ah Lee, Seung-No Hong, Seung Hoon Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -111,7 +101,7 @@
       "link": "https://doi.org/10.1021/acsami.6c04312"
     },
     {
-      "number": 92,
+      "number": 93,
       "year": 2026,
       "title": "Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion",
       "authors": "<strong>Tae Young Kim</strong><sup>†</sup>, <strong>Kayoung Son</strong><sup>†</sup>, Chang-Hwan Moon, <strong>Keun-Young Yook</strong>, <strong>Soo A Kim</strong>, <strong>Hyein Ham</strong>, <strong>Yurim Lee</strong>, Soo In Lee, <strong>Yejin Jo</strong>, Yunlong Yu, Dae-Hyun Kim, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -126,7 +116,7 @@
       }
     },
     {
-      "number": 91,
+      "number": 92,
       "year": 2026,
       "title": "Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity",
       "authors": "<strong>Tae Young Kim</strong><sup>†</sup>, Won-Jong Lee<sup>†</sup>, <strong>Yurim Lee</strong>, Seo Jung Kim, Sungjin Min, Seyong Chung, <strong>Soo A Kim</strong>, <strong>Keun-Young Yook</strong>, Chang-Hwan Moon, <strong>Yeontaek Lee</strong>, <strong>Kijun Park</strong>, Dae-Hyun Kim<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -136,7 +126,7 @@
       "link": "https://doi.org/10.1016/j.bioactmat.2026.02.003"
     },
     {
-      "number": 90,
+      "number": 91,
       "year": 2026,
       "title": "Ion‑mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors",
       "authors": "Dongwook Lee<sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, Beom‐Jun Shim, <strong>Yurim Lee</strong>, <strong>Tae Young Kim</strong>, Sunghyun Park, <strong>Yeontaek Lee</strong>, Hyeong Gyu Choi, <strong>Kayoung Son</strong>, Su Bin Han, <strong>Keun-Young Yook</strong>, Seo Jung Kim, Won-Yong Lee, <strong>Jungmok Seo</strong><sup>*</sup>, Jayoung Kim<sup>*</sup>",
@@ -151,7 +141,7 @@
       }
     },
     {
-      "number": 89,
+      "number": 90,
       "year": 2026,
       "title": "Mechanically Robust and Anti-biofouling Hybrid Encapsulation via Layered Organic–Liquid Interfaces for Implantable Devices",
       "authors": "<strong>Sangwoo Park</strong><sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, <strong>Tae Young Kim</strong>, <strong>Yejin Jo</strong>, <strong>Jangho Kim</strong>, <strong>Kayoung Son</strong>, Hayoung Choi, Myoung-Ryul Ok, Su Ryon Shin<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
@@ -161,7 +151,7 @@
       "link": "https://doi.org/10.1002/smll.202510949"
     },
     {
-      "number": 88,
+      "number": 89,
       "year": 2026,
       "title": "Optimized Electrical Stimulation Using a Spray-Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice",
       "authors": "Jung Hyun Kim<sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, Seung Hyun Lee, Young Min Jeon, <strong>Kijun Park</strong>, <strong>Minkyong Kang</strong>, <strong>Sangwon Kim</strong>, <strong>Tae Young Kim</strong>, <strong>Yeontaek Lee</strong>, Chun Gwon Park, <strong>Jungmok Seo</strong><sup>*</sup>, Jung Seung Lee<sup>*</sup>",
@@ -169,6 +159,16 @@
       "impactFactor": 11,
       "image": "images/publications/pub-88.png",
       "link": "https://doi.org/10.1002/adhm.202504939"
+    },
+    {
+      "number": 88,
+      "year": 2026,
+      "title": "Omniphobic Polymer/Graphene Oxide-Coated PVDF Membrane for Stable Membrane Distillation in Surfactant-Containing Seawater",
+      "authors": "Jiwon Kim, Kwang-Duck Park, <strong>Jungmok Seo</strong>, Yun Chul Woo, Dae Woo Kim",
+      "journal": "ACS Environmental Au, 6(1), 125-133 (2026)",
+      "impactFactor": null,
+      "image": "",
+      "link": "https://doi.org/10.1021/acsenvironau.5c00199"
     },
     {
       "number": 87,
