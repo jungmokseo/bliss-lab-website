@@ -386,8 +386,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1039/d1nr04508c
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/d1nr04508c.html
 - Theme: Device integration and packaging
-- Summary: An electronic suture senses strain through resistance changes and uses heat from externally supplied current to trigger drug release. Evaluation includes cell culture and excised porcine skin, without demonstrating treatment efficacy in live animals or patients.
-- Source scope: The source basis is the RSC introduction, Results §§2.1–2.3 and 2.5–2.9, Conclusions and Experimental §§4.1–4.12. This is not exhaustive main-text coverage; supplementary information and raw data are excluded.
+- Summary: A core-shell electronic suture senses its own strain (gauge factor ~686) and releases drug from a heat-responsive shell, tested in cells and excised pig skin.
+- Source scope: This summary is based on the published PDF of the article (abstract, Sections 1-4, Figures 1-6 legends and author contributions); the electronic supplementary information and movies were not reviewed.
 
 ## #59 A Lubricated Nonimmunogenic Neural Probe for Acute Insertion Trauma Minimization and Long‐Term Signal Recording
 - Authors: Yeontaek Lee, Hyogeun Shin, Dongwon Lee, Sungah Choi, Il-Joo Cho, Jungmok Seo
@@ -395,8 +395,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/advs.202100231
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/advs-202100231.html
 - Theme: Biological responses and surface design
-- Summary: A neural probe combines a lubricated coating with electrode design to address insertion friction and electrical contact together. The study examines insertion injury and local immune responses, with repeated neural recordings in mice.
-- Source scope: The source basis is the introduction and §§2.1–2.3, Europe PMC §§2.6–2.8, the full Figure 5 caption, §3 Discussion, and experimental sections on animals, surgery, electrophysiology, signal analysis and statistics. Sections 2.4–2.5 were outside the additional selected reading; a complete supplementary review was not established.
+- Summary: A lubricated, anti-biofouling coating on silicon neural probes cut insertion impulse by 86% and extended neural recording in mice from 8 to 16 weeks.
+- Source scope: This summary is based on the published PDF of the article (14 pages: abstract, introduction, results, discussion, experimental section and figure legends); the supporting information was not reviewed.
 
 ## #58 Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases
 - Authors: Chihyeong Won, Chaebeen Kwon, Kijun Park, Jungmok Seo, Taeyoon Lee
@@ -404,8 +404,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.202005930
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-202005930.html
 - Theme: Biological responses and surface design
-- Summary: This review examines electronic medicines through where they act and how long they operate. It compares ingestible and patch devices, bioresorbable systems and chronic implants, linking stimulation, drug release and sensing with stability in the body.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A review of electronic drugs grouped by site and duration of action: ingestible and patch devices, bioresorbable implants and long-term implants.
+- Source scope: This summary is based on the published PDF of the review (25 pages: abstract, Sections 1-5, Tables 1-3 and figure legends); the cited primary studies were not read.
 
 ## #57 Antibacterial infection and immune-evasive coating for orthopedic implants
 - Authors: Kyomin Chae, Woo Young Jang, Kijun Park, Jinhyeok Lee, Hyunchul Kim, Kyoungbun Lee, Chang Kyu Lee, Yeontaek Lee, Soon Hyuck Lee, Jungmok Seo
@@ -413,8 +413,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1126/sciadv.abb0025
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/sciadv-abb0025.html
 - Theme: Biological responses and surface design
-- Summary: A lubricated micro/nanostructured coating aims to limit bacterial attachment on orthopedic fixation hardware. A rabbit fracture model with precontaminated implants evaluates infection-related inflammation and bone healing.
-- Source scope: The source basis is the PMC Results, Figures 3–6, Discussion and Materials and Methods, including the precontamination model and bare controls around Figs.5C–G and 6B–F. Bone observations are summarized qualitatively. Inconsistent late-source wording for bare-positive and bare-negative controls is not adopted. Supplementary information is outside its scope.
+- Summary: A lubricant-infused stainless-steel implant coating prevented infection in all six rabbits given MRSA-preincubated fixation implants, versus six of six bare.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC7608784); the Supplementary Materials were not reviewed, and group labels that differ within the text (SHP in the flexural strength comparison; bare positive in the osteoclast and 6-week descriptions) are reported as written or omitted.
 
 ## #56 Lubricant-infused directly engraved nano-microstructures for mechanically durable endoscope lens with anti-biofouling and anti-fogging properties
 - Authors: Yeontaek Lee, Yong Woo Chung, Jaeho Park, Kijun Park, Youngmin Seo, Seung-No Hong, Seung Hoon Lee, Hojeong Jeon, Jungmok Seo
@@ -422,8 +422,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/s41598-020-74517-8
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/s41598-020-74517-8.html
 - Theme: Biological responses and surface design
-- Summary: A lubricant-filled micro/nanotexture engraved directly into an endoscope lens is designed to reduce blood fouling and fogging. Tests examine optical performance, wear and sterilization durability, with lubricant replenishment included in repeated sterilization.
-- Source scope: The eleven-page main text, original figures and complete official supplementary DOCX were read. The two supplementary movies remain unreviewed; this is not a complete supplementary-material or independent raw-data review.
+- Summary: Femtosecond-laser nanostructures engraved into an endoscope lens and filled with lubricant kept over 80% of the view clear after repeated dipping in blood.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC7566624); the Supplementary Information and the two supplementary videos were not reviewed.
 
 ## #55 Recent Advances in Anti-inflammatory Strategies for Implantable Biosensors and Medical Implants
 - Authors: Dongwon Lee, Kijun Park, Jungmok Seo
@@ -431,8 +431,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1007/s13206-020-4105-7
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/s13206-020-4105-7.html
 - Theme: Biological responses and surface design
-- Summary: This review surveys material strategies for reducing inflammation and foreign-body responses around implantable sensors and medical devices. It examines compliant structures, local drug delivery and biomimetic surfaces in relation to cell attachment and fibrous encapsulation.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed. Individual cited studies were not all read in full.
+- Summary: A review of strategies against the foreign body response to implants: soft and flexible materials, biocompatible coatings, drug delivery and slippery surfaces.
+- Source scope: This summary is based on the published PDF of the review (15 pages, including all sections and figure legends); the primary studies it cites were not read.
 
 ## #54 Biocompatible Carbon Nanotube-Based Hybrid Microfiber for Implantable Electrochemical Actuator and Flexible Electronic Applications
 - Authors: Ting Zheng, Parisa Pour Shahid Saeed Abadi, Jungmok Seo, Byung-Hyun Cha, Beatrice Miccoli, Yi-Chen Li, Kijun Park, Sunghyun Park, Seon-Ji Choi, Rasoul Bayaniahangar, Dongxing Zhang, Soo-Hong Lee, Chang-Kee Lee, Ali Khademhosseini, Su Ryon Shin
@@ -440,8 +440,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.9b02927
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-9b02927.html
 - Theme: Biological responses and surface design
-- Summary: Crosslinked hyaluronic acid binds carbon nanotubes into an electrochemical actuator fiber designed to limit nanotube leakage and deformation under sustained load. The study combines actuation tests with early biological responses after subcutaneous implantation.
-- Source scope: This account is based on the DOI-matched PubMed abstract available through Europe PMC. Publisher and PMC main text are outside its scope. The original figure and caption have not been independently reviewed.
+- Summary: Crosslinking hyaluronic acid in carbon nanotube microfibers limited creep and enzyme degradation; a braided six-fiber bundle gave a stable 0.05% strain in DPBS.
+- Source scope: This summary is based on the publisher's version of record PDF (ACS Appl. Mater. Interfaces 2019, 11, 20615-20627; 13 pages; local copy), including the Experimental Section and the legends of Figures 1-5; the Supporting Information was not reviewed. The article reports the single-fiber recovered strain as 0.05 without a unit, and gives a single value of 1.0 ± 0.5 GPa for both Young's modulus and tensile strength at 8 mg/mL.
 
 ## #53 Flexible and Stretchable PEDOT‐Embedded Hybrid Substrates for Bioengineering and Sensory Applications
 - Authors: Afsoon Fallahi, Serena Mandla, Thomas Kerr-Phillip, Jungmok Seo, Raquel O. Rodrigues, Yasamin A. Jodat, Roya Samanipour, Mohammad Asif Hussain, Chang Kee Lee, Hojae Bae, Ali Khademhosseini, Jadranka Travas-Sejdic, and Su Ryon Shin
@@ -449,8 +449,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/cnma.201900146
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/cnma-201900146.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Embedding the conductive polymer PEDOT in electrospun fiber mats combines strain-responsive electrical behavior with support for cultured cardiac cells. The study examines how fiber alignment changes mechanical and electrical directionality.
-- Source scope: The supplied proof’s main text, Methods and original figures were read. This copy does not contain the scientific abstract; the current published version and supplementary materials have not been checked. Conductivity units differ between the text and figure, so quantitative comparisons require further confirmation.
+- Summary: PEDOT polymerized inside rubbery electrospun fiber mats gave about 5 S/cm, resistance that tracked stretching and finger bending, and cardiac cell support.
+- Source scope: This summary is based on the publisher's version of record PDF (ChemNanoMat 2019, 5, 729-737; 9 pages; local copy), including the Experimental Section and the legends of Figures 1-4; the Supporting Information was not reviewed. Within the article, conductivity is given in S/cm in the text but the Figure 3A axis is labelled S/m, the text describes a threefold reduction in elongation at break although the reported values imply a smaller ratio, the resistance test is described as 100 cycles in the Results and 10 cycles in the Experimental Section, and the fiber diameter is given as about 7 μm in Figure 1D but 15 ± 5 μm in the nanoindentation description.
 
 ## #52 Cardiac Fibrotic Remodeling on a Chip with Dynamic Mechanical Stimulation
 - Authors: Ming Kong, Junmin Lee, Iman K. Yazdi, Amir K. Miri, Yi-Dong Lin, Jungmok Seo, Yu Shrike Zhang, Ali Khademhosseini, and Su Ryon Shin
@@ -458,8 +458,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adhm.201801146
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adhm-201801146.html
 - Theme: Materials in contact with tissue
-- Summary: An in vitro chip model applies cyclic compression and cytokines to cardiac fibroblasts embedded in a hydrogel. It examines how mechanical deformation and cell maturity relate to fibrotic behavior.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A pneumatic chip applied 1 Hz cyclic compression (0–20%) to cardiac fibroblasts in GelMA; 15–20% strain promoted myofibroblast activation, 5–10% did not.
+- Source scope: This summary is based on the publisher's version of record PDF (Adv. Healthcare Mater. 2019, 8, 1801146; 13 pages; local copy), including the Experimental Section and the legends of Figures 1-5; the Supporting Information (Figures S1-S5) was not reviewed. The Figure 3 legend gives n = 6 for the proliferation assay while the Experimental Section gives n = 4, and the cell-spreading paragraph calls 20% a physiological strain although the article elsewhere classes 15% and 20% as pathological.
 
 ## #51 Nonfluorinated Superomniphobic Surfaces through Shape-Tunable Mushroom-like Polymeric Micropillar Arrays
 - Authors: Hyunchul Kim, Heetak Han, Sanggeun Lee, Janghoon Woo, Jungmok Seo, Taeyoon Lee
@@ -467,8 +467,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.8b17181
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-8b17181.html
 - Theme: Biological responses and surface design
-- Summary: Mushroom-shaped polymer micropillars use downward-curled edges to resist penetration by low-surface-tension liquids without fluorinated surface treatment. Aluminum deposition tunes the cap geometry, which is evaluated through wetting and deformation tests.
-- Source scope: The eight-page main text, original figures, official nine-page supplementary PDF and ordered key scenes from two movies were read. This does not include examining every frame or independently reproducing the experiments.
+- Summary: Mushroom-shaped PDMS micropillars whose cap edges curl down after 50 nm Al deposition repel liquids down to 14.8 mN/m without any fluorinated coating.
+- Source scope: This summary is based on the publisher PDF of the article, including its figure legends; the Supporting Information PDF and the two supporting movies were not reviewed.
 
 ## #50 Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior
 - Authors: Kijun Park, Yeontaek Lee, Jungmok Seo
@@ -476,8 +476,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.2174/1381612825666190207093438
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/2174-1381612825666190207093438.html
 - Theme: Materials in contact with tissue
-- Summary: This review surveys biomaterial microarrays for high-throughput screening of cell and tissue behavior. It connects chemical and physical control of 2D and 3D cultures with continual sensing in organ-on-chip models.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: Review of biomaterial microarray platforms that screen cell responses to chemical and physical cues in 2D and 3D, and biosensors for organ-on-chip monitoring.
+- Source scope: This summary is based on the publisher PDF of the review, including its figure legends; the primary studies it cites were not read.
 
 ## #49 pH-Responsive DNA Nanolinker Conjugated Hybrid Materials for Electrochemical Microactuator and Biosensor Applications
 - Authors: Yasamin A. Jodat, Parisa Lotfi, Parisa Pour Shahid Saeed Abadi, Ji-Young Mun, Jungmok Seo, Eun Ae Shin, Sung Mi Jung, Chang Kee Lee, Su Ryon Shin
@@ -485,8 +485,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsanm.8b01429
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsanm-8b01429.html
 - Theme: Device integration and packaging
-- Summary: DNA nanolinkers connect carbon nanotubes into microfibers whose structure and electrochemical response change with pH. The study explores these hybrid fibers for electrochemical actuation and hydrogen-peroxide sensing.
-- Source scope: This summary draws on the supplied online-publication PDF and its original figures. Identity with the final issue version, supplementary materials and underlying data has not been independently checked.
+- Summary: i-motif DNA cross-links dsDNA-wrapped carbon nanotubes into wet-spun microfibers with ∼27 S/cm conductivity, pH-switchable porosity and H2O2-responsive redox.
+- Source scope: This summary is based on the publisher PDF of the article as first published online (ASAP version with provisional pagination), including figure legends; the Supporting Information was not reviewed.
 
 ## #48 Highly Conductive Fiber with Waterproof and Self-Cleaning Properties for Textile Electronics
 - Authors: Byungwoo Choi, Jaehong Lee, Heetak Han, Janghoon Woo, Kijun Park, Jungmok Seo, Taeyoon Lee
