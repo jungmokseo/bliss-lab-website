@@ -696,6 +696,22 @@
     "source_scope": "The publisher abstract, §3 Conclusions and Experimental §§4.1–4.10 were read, together with article information. The complete Results section and supplementary information were not reviewed."
   },
   {
+    "number": 88,
+    "language": "en",
+    "title": "Omniphobic Polymer/Graphene Oxide-Coated PVDF Membrane for Stable Membrane Distillation in Surfactant-Containing Seawater",
+    "doi": "10.1021/acsenvironau.5c00199",
+    "summary": "This study coats commercial PVDF membranes with graphene oxide and then perfluoropolyether (PFPE) so that membrane-distillation membranes resist wetting in surfactant-containing seawater. The abstract reports more than 99.7% NaCl rejection and more than 15 LMH water flux during long-term operation.",
+    "source_scope": "Based on the DOI-matched PubMed abstract (PMID 41583865). The PMC main text, supplementary information and original figures were not reviewed. This is water-treatment membrane research and does not address biological applications."
+  },
+  {
+    "number": 88,
+    "language": "ko",
+    "title": "Omniphobic Polymer/Graphene Oxide-Coated PVDF Membrane for Stable Membrane Distillation in Surfactant-Containing Seawater",
+    "doi": "10.1021/acsenvironau.5c00199",
+    "summary": "계면활성제가 섞인 해수에서도 막 증류용 분리막이 젖지 않도록, 상용 PVDF 막에 산화그래핀층과 과불화폴리에테르(PFPE)층을 차례로 입힌 연구입니다. 초록은 장기 운전에서 NaCl 제거율 99.7% 이상과 수투과 유속 15 LMH 이상을 보고합니다.",
+    "source_scope": "DOI 일치 PubMed 초록(PMID 41583865)에 근거한 소개입니다. PMC 본문, 보충자료와 원그림은 검토하지 않았습니다. 이 연구는 수처리용 분리막에 관한 것이며 생체 적용 성능을 다루지 않습니다."
+  },
+  {
     "number": 89,
     "language": "en",
     "title": "Optimized Electrical Stimulation Using a Spray‐Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice",
