@@ -1,0 +1,42 @@
+# BLISS Lab, Yonsei University
+
+> BLISS Lab (BioLogical Interfaces and Sensor Systems) is a research group in the School of Electrical and Electronic Engineering at Yonsei University, Seoul, Korea, led by Jungmok Seo (서정목), Associate Professor · Principal Investigator. The lab develops soft bioelectronic materials, bio-interfaces, implantable sensors, stretchable circuits and IC packaging for devices that work reliably in contact with the body.
+
+- Principal investigator: Jungmok Seo (서정목), ORCID https://orcid.org/0000-0002-8898-044X, Google Scholar https://scholar.google.com/citations?user=kl7IdKgAAAAJ
+- Publications listed on the site: 102 (numbered #1–#102, newest first)
+- Current members listed: 20; alumni listed: 16
+
+## Main pages
+- [Lab homepage](https://bliss.yonsei.ac.kr/): research areas, highlights, publications, team, news
+- [Research Library](https://bliss.yonsei.ac.kr/resources/en/index.html): plain-language summaries of each publication, grouped into four research themes (Korean: https://bliss.yonsei.ac.kr/resources/ko/index.html)
+- [All publications with summaries](https://bliss.yonsei.ac.kr/resources/en/publications.html)
+- [How the summaries are written](https://bliss.yonsei.ac.kr/resources/en/methods.html)
+
+## Research themes
+- [Materials in contact with tissue](https://bliss.yonsei.ac.kr/resources/en/themes/tissue.html)
+- [Stretchable conductors and interconnects](https://bliss.yonsei.ac.kr/resources/en/themes/routing.html)
+- [Device integration and packaging](https://bliss.yonsei.ac.kr/resources/en/themes/integration.html)
+- [Biological responses and surface design](https://bliss.yonsei.ac.kr/resources/en/themes/host.html)
+
+## Recent publications
+- #102 Synergistic Mechano-Fluidic Self-Fusion of Poly(vinyl alcohol)-Modified Liquid-Metal Particles for Post-Treatment-Free Soft Electronics — Advanced Science, e78062 (2026). DOI: 10.1002/advs.78062. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/102.html
+- #101 Bridging IC Chips and Deformable Circuits: A Packaging Framework for High-Density Soft Electronics — Materials Science and Engineering R: Reports, 171, 101285 (2026). DOI: 10.1016/j.mser.2026.101285. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/101.html
+- #100 Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance — Small Science, 6(9), e70402 (2026). DOI: 10.1002/smsc.70402. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/100.html
+- #99 Bioadhesive Hydrogels as Immunomodulatory Interfaces for Chronic Wound Healing: From Microenvironmental Regulation Mechanism to Engineering Strategies — Burns & Trauma, 14, tkag055 (2026). DOI: 10.1093/burnst/tkag055. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/099.html
+- #98 Play-Doh Inspired a Transformative, Shape-Adaptive iHEÄLS Enabling Post-Crosslinking Mechanical-Biological Modulation and Its Effectiveness in Musculoskeletal Repair — Advanced Materials, e74385 (2026). DOI: 10.1002/adma.74385. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/098.html
+- #97 Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing — Advanced Functional Materials, 36(67), e77191 (2026). DOI: 10.1002/adfm.77191. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/097.html
+- #96 Lubricious Anti-Adhesive Interface Prevents Friction, Biofilm, and Encrustation in Long-Term Indwelling Ureteral Stents — Materials Today Bio, 39, 103405 (2026). DOI: 10.1016/j.mtbio.2026.103405. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/096.html
+- #95 Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis — Materials Today Bio, 38, 103299 (2026). DOI: 10.1016/j.mtbio.2026.103299. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/095.html
+- #94 Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling — ACS Applied Materials & Interfaces, 18(25), 34821-34834 (2026). DOI: 10.1021/acsami.6c04312. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/094.html
+- #93 Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion — Nature Communications, 17, 5526 (2026). DOI: 10.1038/s41467-026-72068-6. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/093.html
+- #92 Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity — Bioactive Materials, 61, 210 - 228 (2026). DOI: 10.1016/j.bioactmat.2026.02.003. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/092.html
+- #91 Ion‑mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors — Advanced Materials, 38(19), e15767 (2026). DOI: 10.1002/adma.202515767. Summary: https://bliss.yonsei.ac.kr/resources/en/papers/091.html
+
+## Data
+- [Publication catalogue (JSON)](https://bliss.yonsei.ac.kr/resources/data/publications.json): number, title, authors, journal, year, DOI, summary page URL, theme, summary and source scope (English and Korean)
+- [Publication catalogue (CSV)](https://bliss.yonsei.ac.kr/resources/data/publications.csv)
+- [Homepage publication data (JSON)](https://bliss.yonsei.ac.kr/data/publications.json)
+- [Full text of all English summaries](https://bliss.yonsei.ac.kr/llms-full.txt)
+
+## Notes
+- Each summary states which sources it was based on (abstract, main text or publication details only). Summaries are written by the lab site, not by the journals; quote the original article for authoritative results.
