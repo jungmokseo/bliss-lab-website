@@ -7,7 +7,8 @@ BLISS Lab 웹사이트용: Notion DB에서 논문/특허 데이터를 가져와 
   Cowork에서 "논문 데이터 동기화해줘" 또는 "Notion에서 publications 업데이트해줘" 라고 요청
   → 이 스크립트의 로직을 Cowork가 실행하여 data/publications.json을 업데이트
 
-Notion DB ID: 4b7523f8178b4502933eba18bbf7891d
+Notion DB ID: 3b50e7418cee46e9b473783d9ede418c (data source collection://83412dae-f192-4c9f-b3e0-26b615733ea2)
+(구 4b7523f8…는 3/16 시드 DB — 2026-09-27 보관함으로 이동, 사용 금지)
 """
 
 # 이 스크립트는 직접 실행하지 않고, Cowork 세션에서 Notion MCP를 통해 실행됩니다.
