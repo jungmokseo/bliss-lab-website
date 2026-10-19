@@ -818,8 +818,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/nn4040926
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/nn4040926.html
 - Theme: Device integration and packaging
-- Summary: Carbon nanotubes, fluorescent polymers and self-assembled polymer structures combine to produce multicolour light under alternating voltage. Flexible light emission was demonstrated, while peak brightness and lifetime were measured under different conditions.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Polymer AC electroluminescent devices with carbon nanotubes, micelles and polymer blends gave blue, green and red emission of about 2300, 6000 and 5000 cd m⁻².
+- Source scope: This summary is based on the publisher PDF of the article, including the Methods, Table 1 and figure legends; the Supporting Information was not reviewed, and values given only in Table 1, some of which differ from the corresponding values in the text, were not used.
 
 ## #11 Gas‐Driven Ultrafast Reversible Switching of Super‐hydrophobic Adhesion on Palladium‐Coated Silicon Nanowires
 - Authors: Jungmok Seo, Soonil Lee, Heetak Han, Hwae bong Jung, Juree Hong, Giyoung Song, Suk Man Cho, Cheolmin Park, Wooyoung Lee, Taeyoon Lee
@@ -827,8 +827,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.201300979
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201300979.html
 - Theme: Biological responses and surface design
-- Summary: Palladium-coated silicon nanowires change shape as they take up and release hydrogen. Switching the gas environment lets the surface hold or release water droplets without direct contact.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Hydrogen-induced expansion of Pd on DTS-coated silicon nanowires switched droplets from rolling off to pinned; air restored roll-off within 3 s, over 50 cycles.
+- Source scope: This summary is based on the publisher PDF of the communication, including the Experimental Section and figure legends; the Supporting Information (Figures S1 and S2 and videos) was not reviewed, so results shown there are reported only as described in the main text.
 
 ## #10 Reversible wettability control of silicon nanowire surfaces: From superhydrophilicity to superhydrophobicity
 - Authors: Jungmok Seo, Soonil Lee, Heetak Han, Youngwon Chung, Jaehong Lee, Sung-Dae Kim, Young-Woon Kim, Sangwoo Lim, Taeyoon Lee
@@ -836,8 +836,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.tsf.2012.12.010
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/tsf-2012-12-010.html
 - Theme: Biological responses and surface design
-- Summary: Heat treatment and changes in surface chemistry control whether silicon nanowires attract or repel water. The study also examines how the surface becomes wettable again in air.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Cyclic rapid thermal annealing in oxygen made silicon nanowire arrays superhydrophobic yet water-adhesive (CA 154.3°); air storage restored superhydrophilicity.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental procedure, Results and discussion and figure legends; values read only from plotted data were not used.
 
 ## #9 Nanomaterials on flexible substrates to explore innovative functions: From energy harvesting to bio-integrated electronics
 - Authors: Ja Hoon Koo, Jungmok Seo, Taeyoon Lee
@@ -845,8 +845,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.tsf.2012.10.001
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/tsf-2012-10-001.html
 - Theme: Device integration and packaging
-- Summary: This 2012 review surveys nanomaterials on flexible substrates for energy harvesting, sensors and biointegrated circuits, connecting materials and fabrication methods with mechanics and device functions.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed. Individual cited studies were not all read in full.
+- Summary: A 2012 review of nanomaterials on flexible substrates for piezoelectric energy harvesting, chemical and pressure sensing, and bio-integrated electronics.
+- Source scope: This summary is based on the publisher PDF of the review, including Tables 1 and 2 and the figure legends; the cited primary studies were not read, so their results are reported as the review states them.
 
 ## #8 Direct Gravure Printing of Silicon Nanowires Using Entropic Attraction Forces
 - Authors: Jungmok Seo, Hyonik Lee, Seulah Lee, Tae Il Lee, Jae-Min Myoung, Taeyoon Lee
@@ -854,8 +854,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smll.201102367
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/smll-201102367.html
 - Theme: Device integration and packaging
-- Summary: Silicon nanowires align at engraved corners and are transferred onto flexible substrates by gravure printing. The process is demonstrated in flexible field-effect transistors.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Silicon nanowires aligned at micro-engraved grooves during droplet evaporation were gravure-printed onto plastic, giving FETs with 17.1 cm²/V·s hole mobility.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information was not reviewed. The abstract attributes the 95% selectivity to the transfer step, whereas the Results define it as the fraction of nanowires assembled in the engraved regions; this summary follows the Results definition.
 
 ## #7 The effects of surface modification on the electrical properties of p–n + junction silicon nanowires grown by an aqueous electroless etching method
 - Authors: Seulah Lee, Ja Hoon Koo, Jungmok Seo, Sung-Dae Kim, Kwang Hyun Lee, Seongil Im, Young-Woon Kim, Taeyoon Lee
@@ -863,8 +863,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1007/s11051-012-0840-6
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/s11051-012-0840-6.html
 - Theme: Device integration and packaging
-- Summary: Oxidation followed by oxide removal smooths silicon nanowires and changes their electrical and light-response behavior. Improved forward and leakage-current characteristics come with reduced photocurrent.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Rapid thermal oxidation and HF etching smoothed electroless-etched p–n+ silicon nanowires, raising forward current density about 6.3-fold at 4 V.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental details, figure legends and Conclusion; no supplementary material is listed for this article.
 
 ## #6 Guided Transport of Water Droplets on Superhydrophobic–Hydrophilic Patterned Si Nanowires
 - Authors: Jungmok Seo, Soonil Lee, Jaehong Lee, Taeyoon Lee
@@ -872,8 +872,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/am2011756
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/am2011756.html
 - Theme: Device integration and packaging
-- Summary: Ultraviolet treatment creates water-attracting tracks on a water-repellent silicon-nanowire surface, guiding droplets along chosen paths. Resetting the tracks requires recoating and another UV treatment.
-- Source scope: This account draws on the abstract and conclusion in the public author-hosted published article. It does not represent a complete review of the article, supplements or raw data. The comparison conditions are suggestions for reading studies together.
+- Summary: UV patterning of a DTS coating on superhydrophobic Si nanowires formed erasable hydrophilic tracks that guided 8 μL droplets at 6.91 cm/s at a 5° tilt.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information was not reviewed, so results described there are reported only as stated in the main text.
 
 ## #5 Si/Si1-xGex/Si Heterojunction PIN Nanowires Fabricated by Using an Aqueous Electroless Etching Method
 - Authors: Hyonik Lee, Min Su Kim, Jungmok Seo, Ja Hoon Koo, Edward Namkyu Cho, Ilgu Yun, Taeyoon Lee
@@ -881,8 +881,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.3938/jkps.59.501
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/jkps-59-501.html
 - Theme: Device integration and packaging
-- Summary: A water-based etching process turns silicon/silicon–germanium layers into vertical nanowire photodiodes. The study compares their ability to distinguish light from dark with that of bulk structures.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Aqueous electroless etching made Si/SiGe/Si PIN nanowire photodiodes with a reverse dark current of 9.2 × 10⁻⁶ A, against 1.0 × 10⁻² A for bulk devices.
+- Source scope: This summary is based on the full publisher PDF of the article, including the Experiments section, figure legends and references; the article has no supplementary material, and figure panel values not stated in the text were not used.
 
 ## #4 Growth, modulation and photoresponse characteristics of vertically aligned ZnO nanowires
 - Authors: J.P. Kar, S.N. Das, J.H. Choi, T.I. Lee, J. Seo, T. Lee, J.M. Myoung
@@ -890,8 +890,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.apsusc.2010.12.158
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/apsusc-2010-12-158.html
 - Theme: Device integration and packaging
-- Summary: This study uses substrate surface layers and microscopic cavities to control the shape and density of zinc oxide nanowires for ultraviolet detection, examining how growth conditions affect their response to light.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: ZnO nanowires grown by MOCVD in KOH-etched Si microcavities had higher aspect ratio and density; UV detectors there gave an on/off ratio of 6 and a 5 s decay.
+- Source scope: This summary is based on the full publisher PDF of the article, including the Experimental section, figure legends and references; the article refers to no supplementary material, and the earlier microchannel paper was compared using its abstract only.
 
 ## #3 Surface deformation of amorphous silicon thin film on elastomeric substrate
 - Authors: Sangwook Lee, Jungmok Seo, Ja Hoon Koo, Kyeong-Ju Moon, Jae-Min Myoung, Taeyoon Lee
@@ -899,8 +899,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.tsf.2010.08.140
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/tsf-2010-08-140.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Thermal compression creates wavy and herringbone wrinkles in a thin amorphous-silicon film on soft silicone rubber. The study examines the height and spacing of these wrinkles to understand how the film deforms.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Thermally pre-strained PDMS buckled 270 nm amorphous silicon films into wavy, random and herringbone wrinkles; 1D and random amplitudes matched c-Si models.
+- Source scope: This summary is based on the publisher PDF of the article (Thin Solid Films 519 (2010) 823–828), including the Experimental procedure, Results and discussion, Conclusion, the footnote equations and figure captions; numerical values were taken from the text and captions, and the figure images themselves were not re-measured.
 
 ## #2 Trade-Off Relationship of Size and Density of Platinum Nanocrystal in Nonvolatile Memory Characteristics
 - Authors: Jungmok Seo, Taeyoon Lee
@@ -908,8 +908,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1143/jjap.49.104003
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/jjap-49-104003.html
 - Theme: Device integration and packaging
-- Summary: This study examines how the size and density of platinum nanocrystals affect the trade-off between storing more charge and retaining it for longer in memory devices.
-- Source scope: This account draws on the abstract and conclusion in the public author-hosted published article. It does not represent a complete review of the article, supplements or raw data. The comparison conditions are suggestions for reading studies together.
+- Summary: Larger Pt nanocrystals (15.1 to 55.2 nm) in MOS memory capacitors raised the flatband voltage shift from 5.75 to 13.05 V; the smallest retained charge best.
+- Source scope: This summary is based on the publisher PDF of the article (Japanese Journal of Applied Physics 49 (2010) 104003), including the Experimental Methods, Results and Discussion, Conclusion, Table I and figure captions; numerical values were taken from the text and captions, and the figure images themselves were not re-measured.
 
 ## #1 Effects of H2 ambient annealing in fully 002-textured ZnO:Ga thin films grown on glass substrates using RF magnetron co-sputter deposition
 - Authors: Sungyeon Kim, Jungmok Seo, Hyeon Woo Jang, Jungsik Bang, Woong Lee, Taeyoon Lee, Jae-Min Myoung
@@ -917,5 +917,5 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.apsusc.2008.11.085
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/apsusc-2008-11-085.html
 - Theme: Device integration and packaging
-- Summary: This study examines how heating gallium-doped zinc oxide films in hydrogen changes their electrical and optical properties for use as transparent electrodes on glass.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: H2 annealing at 623 K reduced Ga2O3 and ZnGa2O4 in co-sputtered ZnO:Ga films, lowering resistivity to 5.2 × 10⁻⁴ Ω cm with transmittance over 90% of glass.
+- Source scope: This summary is based on the publisher PDF of the article (Applied Surface Science 255 (2009) 4616–4622), including the Experimental procedure, Results and discussion, Conclusions and figure captions; numerical values were taken from the text and captions, and the figure images themselves were not re-measured.
