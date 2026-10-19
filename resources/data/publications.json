@@ -204,8 +204,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Water capillary forces transfer arrays of silver nanoparticles without added glue, creating surfaces for surface-enhanced Raman spectroscopy (SERS). Dye molecules were used to evaluate detection performance.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "Capillary forces of water printed Ag nanoparticle line arrays from buckled templates onto flat substrates without glue; the SERS arrays detected R6G at 10⁻¹² M.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information was not reviewed, so results described there are reported only as stated in the main text."
   },
   {
     "number": 14,
@@ -220,8 +220,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A palladium–silicon surface with switchable droplet adhesion supports the culture of stem-cell spheroids. Their secretions and effects on vascular endothelial cells were evaluated in vitro; therapeutic effects in the body were not demonstrated.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "Hydrogen-switchable Pd/Si nanowires held hanging culture drops for human stem cell spheroids that secreted more VEGF than spinner-flask or petri-dish spheroids.",
+    "source_scope": "This summary is based on the publisher PDF of the Communication, including figure legends; the Supporting Information was not reviewed."
   },
   {
     "number": 15,
@@ -236,8 +236,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Chemically coupled molecular layers between copper and silicon dioxide are designed to limit copper diffusion and strengthen adhesion. Diffusion-barrier and bending-based adhesion tests evaluate these two functions.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "A 2 nm coupled APTMS-MPA monolayer raised the Cu barrier's t63.2 four-fold over APTMS, comparable to 50 nm TaN, and annealed Cu/SiO2 adhesion energy by 33%.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental section and figure legends; the electronic supplementary information was not reviewed, and symbols lost in text extraction (such as ± and ∼) were confirmed on the rendered pages."
   },
   {
     "number": 16,
@@ -252,8 +252,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Adding single-walled carbon nanotubes changes X-ray sensing in a flexible polymer. The abstract reports a trade-off: higher nanotube loading aids charge separation but also increases dark current and slows the response.",
-    "source_scope": "The account draws on the abstracts and the previously read Europe PMC article XML. Review of the original Figures 2–5 and the supplementary information remains incomplete."
+    "summary": "Adding 0.01 wt.% carbon nanotubes to a flexible polymer X-ray detector raised sensitivity from 12.5 to 38.9 μC/mGy/cm3 at 150 V; 0.005 wt.% gave a better SNR.",
+    "source_scope": "This summary is based on the full text, figure legends and Table 1 of the open-access article (Europe PMC, PMC4493992), checked against the publisher PDF; the supplementary information was not reviewed, and the text cites the conditions of Figure 4a for the bending test in Figure 5b."
   },
   {
     "number": 17,
@@ -267,9 +267,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/c4ra13014f.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "An electrostatic system switches water-droplet paths on a water-repellent track with multiple inlets and outlets. This description is based on a one-sentence public summary, which does not establish quantitative performance.",
-    "source_scope": "The research account is limited to a one-sentence summary registered with Crossref. The complete publisher abstract and article body are outside its evidence scope."
+    "source_level": "full_text",
+    "summary": "Capacitors 2 mm above a superhydrophobic Ag/Cu groove track switched the path of rolling 5 μL water drops without contact on a 3-inlet, 4-outlet track.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Materials and methods and figure legends; the electronic supplementary information and videos were not reviewed, and the text gives a fixed 1 kV bias for the tilt-voltage experiments although Fig. 3c varies the applied voltage."
   },
   {
     "number": 18,
@@ -284,8 +284,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A water-repellent organosilane coating is applied to carbon-black catalyst supports to address corrosion in fuel cells. Cell measurements and carbon-dioxide evolution tests examine mass transport and corrosion resistance.",
-    "source_scope": "The research account draws on the abstract, introduction and selected corrosion and polarization results in the author-hosted published article. It is not a complete article or supplementary-material review."
+    "summary": "A self-assembled DTS organosilane coating made carbon black fuel-cell supports hydrophobic and cut CO2 released in a 1.3 V corrosion test from 291 to 177 μL.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental section, figure legends and Table 1; the text cites Fig. 6 for the mass spectrometry data, which appear in Fig. 7."
   },
   {
     "number": 19,
@@ -299,9 +299,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/am5073645.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "A polymer membrane controls gas access to palladium nanoparticles on graphene for selective hydrogen sensing. The abstract reports suppressed responses to the tested methane, carbon monoxide and nitrogen dioxide.",
-    "source_scope": "The research account is based on PubMed and Europe PMC abstracts. The article body is outside its evidence scope."
+    "source_level": "full_text",
+    "summary": "A PMMA membrane over Pd nanoparticles on single-layer graphene blocked methane, CO and NO2, while the sensor gave a 66.37% average response to 2% hydrogen.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information (Figures S1-S3) was not reviewed, and the Introduction gives the average response as 66.67% whereas the Abstract and Results give 66.37%."
   },
   {
     "number": 20,
@@ -316,8 +316,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Conductive fibres coated with dielectric rubber form a pressure sensor that can be woven into textiles. The abstract describes glove and clothing demonstrations for wireless control.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Kevlar fibres with Ag nanoparticles in SBS, coated with PDMS and crossed, formed a textile capacitive pressure sensor with 0.21 kPa−1 sensitivity below 2 kPa.",
+    "source_scope": "This summary is based on the publisher PDF of the communication, including the figure legends; the Supporting Information (Figures S1-S9, simulation model and experimental details) and movies were not reviewed, and the main text gives a relaxation time of about 10 ms whereas the closing summary states less than 10 ms."
   },
   {
     "number": 21,
@@ -332,8 +332,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Silver nanowires bridge silver nanoparticles inside stretchable polymer fibres. The abstract reports conduction during stretching and glove-based motion sensing, with resistance changing as the fibre deforms.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Silver nanowires inside wet-spun SBS fibres bridged silver nanoparticle networks, keeping conduction up to 220% strain; a five-fibre glove read sign letters.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information (Figures S1-S11 and percolation calculations) and movies were not reviewed. The Abstract pairs 2450 S cm−1 and 900% elongation, which the Results report for the 1.68 wt% and 0.56 wt% fibres respectively, and the Results give the disconnection strain without AgNWs as both 70% and 80%."
   },
   {
     "number": 22,
@@ -348,8 +348,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "unresolved",
     "source_level": "full_text",
-    "summary": "Terahertz measurements track how light-generated charge carriers decay in silicon nanowires. The study examines competition between surface trapping and Auger recombination, a process involving interactions among charge carriers.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Terahertz probing of silicon nanowires showed Auger scattering offsetting surface-trap decay; SiO2-encapsulated wires had a carrier lifetime of around 1.1 ns.",
+    "source_scope": "This summary is based on the full publisher PDF of the article, including figure legends; symbols and several fluence values missing from the PDF text layer were read from the page images, and the Fig. 4 legend gives the fit to the encapsulated-SiNW peak signal as proportional to F^1/3, whereas the text describes a third-order dependence."
   },
   {
     "number": 23,
@@ -364,8 +364,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Silicon is used to reduce graphene oxide and form thin films. The abstracts describe silicon nanosheets and wafers acting as reducing agents or film-forming templates, avoiding impurities from conventional chemical reductants.",
-    "source_scope": "The nine-page main text, original figures and eleven-page supplementary PDF were read. Underlying data were not independently reanalysed and the experiments were not reproduced."
+    "summary": "Oxide-free silicon reduced graphene oxide without added reductants: nanosheets raised C/O from 2.12 to about 9.32, and films on etched wafers had 3.54 KΩ/sq.",
+    "source_scope": "This summary is based on the open-access full text and figure legends (PMC4648420); the Supplementary Information was not reviewed, and in the main text the Raman peak labels are interchanged (G at 1341 cm-1, D at 1573 cm-1) and the film heating temperature is given as 80 °C in one Methods subsection and 100 °C in another."
   },
   {
     "number": 24,
@@ -380,8 +380,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Vacuum creates small dimples in an elastic, water-repellent surface to move, merge and mix droplets. The abstract describes applications in Raman analysis and delivery of siRNA to cells.",
-    "source_scope": "The ten-page main text, original figures, nine-page supplementary PDF and ordered key scenes from one supplementary movie were read. This does not include examining every video frame or independently reanalysing the data."
+    "summary": "Vacuum-formed dimples in a 275 μm thick superhydrophobic PDMS micro-pillar film steered water droplets; on-chip mixing raised GFP silencing from 70.0% to 78.8%.",
+    "source_scope": "This summary is based on the open-access full text and figure legends (PMC4511949); the Supplementary Information and Supplementary Movie 1 were not reviewed."
   },
   {
     "number": 25,
@@ -1852,8 +1852,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "물의 모세관 힘으로 은 나노입자 배열을 옮겨, 접착제 없이 라만 분광 분석용 표면을 만드는 방법입니다. 염료 분자를 검출하는 시험으로 분석 성능을 살펴봤습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "물의 모세관 힘으로 주름 틀의 은 나노입자 선 배열을 접착제 없이 평탄한 기판에 인쇄했고, SERS 기판으로 R6G를 10⁻¹² M까지 검출했습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명을 바탕으로 작성했습니다. 보충자료는 검토하지 않았으므로 보충자료에 실린 결과는 본문 서술 범위에서만 소개했습니다."
   },
   {
     "number": 14,
@@ -1868,8 +1868,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "물방울 부착을 조절할 수 있는 팔라듐–실리콘 표면에서 줄기세포를 구형 집합체인 스페로이드로 배양합니다. 분비 물질과 혈관 내피세포의 반응을 시험관 내에서 평가했으며, 생체 내 치료 효과를 보여주는 연구는 아닙니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "수소로 물 접착을 전환하는 Pd/Si 나노와이어에 매단 배양액 방울에서 만든 사람 줄기세포 스페로이드가 기존 배양법보다 VEGF를 더 많이 분비했습니다.",
+    "source_scope": "이 해설은 출판사 PDF의 Communication 본문과 그림 설명을 바탕으로 작성했으며, 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 15,
@@ -1884,8 +1884,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "구리와 이산화규소 사이에 두 종류의 분자를 화학적으로 연결한 얇은 층을 만들어 구리 확산을 막고 접착을 높이는 방법을 살펴봅니다. 확산 장벽 시험과 굽힘을 이용한 접착 시험으로 두 기능을 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "APTMS와 MPA를 결합한 2 nm 단분자막이 APTMS 대비 구리 확산 장벽의 t63.2를 4배 늘려 50 nm TaN과 비슷했고, 어닐링 후 Cu/SiO2 접착 에너지를 33% 높였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명을 바탕으로 작성했습니다. 전자 보충자료는 검토하지 않았으며, 텍스트 추출에서 빠진 기호(±, ∼ 등)는 렌더링한 인쇄면에서 확인했습니다."
   },
   {
     "number": 16,
@@ -1900,8 +1900,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "유연한 고분자에 단일벽 탄소나노튜브를 넣어 X선 감지 성능을 조절합니다. 초록은 나노튜브 함량을 높일 때 전하 분리가 향상되는 한편, 암전류가 커지고 응답이 느려지는 상충 관계를 보고합니다.",
-    "source_scope": "해설은 초록과 기존에 읽은 Europe PMC 본문 XML을 참고합니다. Fig. 2–5의 원그림과 보충자료는 검토를 완료하지 않았습니다."
+    "summary": "유연 고분자 X선 검출기에 탄소나노튜브 0.01 wt.%를 넣어 150 V 감도를 12.5에서 38.9 μC/mGy/cm3로 높였고, 신호대잡음비를 고려한 최적 함량은 0.005 wt.%였습니다.",
+    "source_scope": "이 해설은 오픈 액세스 논문(Europe PMC, PMC4493992)의 본문, 그림 설명과 표 1을 출판사 PDF와 대조해 작성했으며, 보충자료는 검토하지 않았습니다. 본문은 그림 5b의 굽힘 시험 조건을 그림 4a와 같다고 적고 있습니다."
   },
   {
     "number": 17,
@@ -1915,9 +1915,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/c4ra13014f.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "정전기력으로 여러 입구와 출구 사이에서 물방울의 이동 경로를 바꾸는 장치입니다. 공개된 한 문장 요약에 근거한 소개로, 정량적인 성능은 확인되지 않았습니다.",
-    "source_scope": "연구 설명은 Crossref에 등록된 한 문장 요약에 한정됩니다. 출판사의 전체 초록과 본문은 이 근거 범위에 포함되지 않습니다."
+    "source_level": "full_text",
+    "summary": "초소수성 Ag/Cu 홈 트랙 위 2 mm에 둔 축전기로 굴러가는 5 μL 물방울의 경로를 비접촉 방식으로 바꾸어 입구 3개와 출구 4개 사이에서 이동시켰습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 재료 및 방법, 그림 설명을 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았습니다. 본문은 경사각·전압 실험의 바이어스를 1 kV로 적었지만 그림 3c는 인가 전압을 바꾸어 가며 정리했습니다."
   },
   {
     "number": 18,
@@ -1932,8 +1932,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "연료전지 촉매를 받치는 카본블랙에 물을 밀어내는 유기실란 코팅을 입혀 부식을 줄이는 방법을 살펴봅니다. 물질 전달과 부식 저항성을 연료전지 측정 및 이산화탄소 발생 시험으로 평가했습니다.",
-    "source_scope": "연구 설명은 저자 기관이 공개한 게재본의 초록, 도입과 선택된 부식·분극 시험 결과에 근거합니다. 본문 전체나 보충자료를 검토한 범위는 아닙니다."
+    "summary": "카본블랙 촉매 지지체에 DTS 자기조립 유기실란 코팅을 입혀 소수성으로 바꾸었고, 1.3 V 부식 시험의 CO2 배출량을 291 μL에서 177 μL로 줄였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명, 표 1을 바탕으로 작성했습니다. 본문은 질량분석 결과를 그림 6으로 인용하지만 해당 데이터는 그림 7에 실려 있습니다."
   },
   {
     "number": 19,
@@ -1947,9 +1947,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/am5073645.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "팔라듐 나노입자와 그래핀 위에 고분자 막을 씌워 수소가 선택적으로 도달하도록 만든 가스 센서입니다. 초록은 시험한 메탄·일산화탄소·이산화질소에 대한 반응이 억제됐다고 보고합니다.",
-    "source_scope": "연구 설명은 PubMed와 Europe PMC 초록에 근거합니다. 본문은 이 근거 범위에 포함되지 않습니다."
+    "source_level": "full_text",
+    "summary": "단층 그래핀 위 팔라듐 나노입자에 PMMA 막을 씌워 메탄·일산화탄소·이산화질소에는 반응하지 않고 2% 수소에 평균 66.37%로 응답한 센서입니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명을 바탕으로 작성했으며, 보충자료(그림 S1~S3)는 검토하지 않았습니다. 평균 응답은 서론에 66.67%, 초록과 결과에 66.37%로 서로 다르게 적혀 있습니다."
   },
   {
     "number": 20,
@@ -1964,8 +1964,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "전기가 통하는 섬유에 절연성 고무를 입혀, 직물처럼 엮을 수 있는 압력 센서를 만듭니다. 초록은 장갑과 의류에 센서를 넣어 무선 제어에 활용하는 예를 소개합니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "SBS 속 은 나노입자로 전도성을 준 케블라 섬유에 PDMS를 입혀 교차시킨 직물형 정전용량 압력 센서로, 2 kPa 이하에서 0.21 kPa−1의 감도를 보였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명을 바탕으로 작성했으며, 보충자료(그림 S1~S9, 해석 모델과 실험 세부 사항)와 동영상은 검토하지 않았습니다. 이완 시간은 본문에 약 10 ms, 마지막 요약 문단에 10 ms 미만으로 적혀 있습니다."
   },
   {
     "number": 21,
@@ -1980,8 +1980,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "늘어나는 고분자 섬유 안에서 은 나노와이어가 은 나노입자 사이를 연결해 전기가 통하는 길을 유지하도록 설계했습니다. 초록은 늘어나는 동안의 전도와 장갑을 이용한 움직임 감지를 보고하며, 섬유의 저항은 변형에 따라 달라집니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "습식 방사한 SBS 섬유 속 은 나노와이어가 은 나노입자 연결망을 이어 220% 변형까지 전도를 유지했고, 섬유 다섯 가닥을 단 장갑으로 수화 문자를 인식했습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명을 바탕으로 작성했으며, 보충자료(그림 S1~S11, 퍼콜레이션 계산)와 동영상은 검토하지 않았습니다. 초록은 2450 S cm−1와 900% 연신율을 한 섬유의 값처럼 제시하지만 결과에서는 각각 1.68 wt%와 0.56 wt% 섬유의 값이며, AgNW가 없는 섬유의 단선 변형은 결과에 70%와 80%로 함께 적혀 있습니다."
   },
   {
     "number": 22,
@@ -1996,8 +1996,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "unresolved",
     "source_level": "full_text",
-    "summary": "실리콘 나노와이어 안에서 빛으로 생성된 전하가 사라지는 과정을 테라헤르츠 측정으로 추적합니다. 표면에 전하가 붙잡히는 현상과 전하 사이의 상호작용에 따른 재결합이 어떻게 경쟁하는지 살펴봅니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "광펌프-테라헤르츠 탐침 분광으로 실리콘 나노와이어에서 오제 산란이 표면 트랩 재결합을 상쇄함을 보였고, SiO2 피막 나노와이어의 운반자 수명은 약 1.1 ns였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 전문과 그림 설명을 바탕으로 작성했으며, PDF 텍스트 층에서 빠진 기호와 일부 플루언스 값은 쪽 이미지에서 확인했습니다. 그림 4 설명은 피막 SiNW 신호 최댓값의 맞춤 함수를 F^1/3에 비례한다고 적은 반면, 본문은 3차 의존성으로 기술합니다."
   },
   {
     "number": 23,
@@ -2012,8 +2012,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "실리콘을 이용해 산화그래핀을 환원하고 얇은 막을 만드는 방법을 다룹니다. 초록은 실리콘 나노시트와 웨이퍼를 환원제 또는 막 형성용 틀로 활용해, 기존 화학 환원제가 남길 수 있는 불순물을 피하는 접근을 소개합니다.",
-    "source_scope": "본문 9쪽과 원그림, 보충 PDF 11쪽을 참고했습니다. 원자료의 독립 재분석이나 실험 재현은 수행하지 않았습니다."
+    "summary": "실리콘 나노시트와 산화막을 제거한 웨이퍼로 환원제 없이 산화그래핀을 환원해, 나노시트 환원 분말의 C/O 비가 2.12에서 약 9.32로 높아졌고 웨이퍼 위 막은 3.54 KΩ/sq였습니다.",
+    "source_scope": "이 해설은 오픈 액세스 전문과 그림 설명(PMC4648420)을 바탕으로 작성했으며 보충자료는 검토하지 않았습니다. 본문에는 라만 피크 명칭이 서로 바뀌어(G 1341 cm-1, D 1573 cm-1) 있고, 막 가열 온도가 방법의 한 소절에서는 80 °C, 다른 소절에서는 100 °C로 적혀 있습니다."
   },
   {
     "number": 24,
@@ -2028,8 +2028,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "진공으로 탄성 표면에 작은 움푹한 곳을 만들어 물방울을 이동시키고, 합치고, 섞습니다. 초록은 이 방식을 라만 분광 분석과 세포에 siRNA를 전달하는 데 활용한 예를 소개합니다.",
-    "source_scope": "본문 10쪽과 원그림, 보충 PDF 9쪽 및 보충영상 1개의 시간순 주요 장면을 참고했습니다. 모든 영상 프레임의 개별 판독이나 원자료 재분석은 수행하지 않았습니다."
+    "summary": "두께 275 μm의 초소수성 PDMS 마이크로 기둥 필름에 진공으로 오목부를 만들어 물방울을 이동시켰고, 표면 위 혼합으로 GFP 억제율을 70.0%에서 78.8%로 높였습니다.",
+    "source_scope": "이 해설은 오픈 액세스 전문과 그림 설명(PMC4511949)을 바탕으로 작성했으며, 보충자료와 보충 동영상 1은 검토하지 않았습니다."
   },
   {
     "number": 25,

@@ -710,8 +710,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/srep12326
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/srep12326.html
 - Theme: Device integration and packaging
-- Summary: Vacuum creates small dimples in an elastic, water-repellent surface to move, merge and mix droplets. The abstract describes applications in Raman analysis and delivery of siRNA to cells.
-- Source scope: The ten-page main text, original figures, nine-page supplementary PDF and ordered key scenes from one supplementary movie were read. This does not include examining every video frame or independently reanalysing the data.
+- Summary: Vacuum-formed dimples in a 275 μm thick superhydrophobic PDMS micro-pillar film steered water droplets; on-chip mixing raised GFP silencing from 70.0% to 78.8%.
+- Source scope: This summary is based on the open-access full text and figure legends (PMC4511949); the Supplementary Information and Supplementary Movie 1 were not reviewed.
 
 ## #23 Efficient Direct Reduction of Graphene Oxide by Silicon Substrate
 - Authors: Su Chan Lee, Surajit Some, Sung Wook Kim, Sun Jun Kim, Jungmok Seo, Jooho Lee, Taeyoon Lee, Jong-Hyun Ahn, Heon-Jin Choi, Seong Chan Jun
@@ -719,8 +719,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/srep12306
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/srep12306.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Silicon is used to reduce graphene oxide and form thin films. The abstracts describe silicon nanosheets and wafers acting as reducing agents or film-forming templates, avoiding impurities from conventional chemical reductants.
-- Source scope: The nine-page main text, original figures and eleven-page supplementary PDF were read. Underlying data were not independently reanalysed and the experiments were not reproduced.
+- Summary: Oxide-free silicon reduced graphene oxide without added reductants: nanosheets raised C/O from 2.12 to about 9.32, and films on etched wafers had 3.54 KΩ/sq.
+- Source scope: This summary is based on the open-access full text and figure legends (PMC4648420); the Supplementary Information was not reviewed, and in the main text the Raman peak labels are interchanged (G at 1341 cm-1, D at 1573 cm-1) and the film heating temperature is given as 80 °C in one Methods subsection and 100 °C in another.
 
 ## #22 Counterbalanced Effect of Surface Trap and Auger Recombination on the Transverse Terahertz Carrier Dynamics in Silicon Nanowires
 - Authors: Chilhun In, Jungmok Seo, Hyukho Kwon, Jeongmook Choi, Sangwan Sim, Jaeseok Kim, Taeyong Kim, Taeyoon Lee, Hyunyong Choi
@@ -728,8 +728,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1109/tthz.2015.2428619
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/tthz-2015-2428619.html
 - Theme: Device integration and packaging
-- Summary: Terahertz measurements track how light-generated charge carriers decay in silicon nanowires. The study examines competition between surface trapping and Auger recombination, a process involving interactions among charge carriers.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Terahertz probing of silicon nanowires showed Auger scattering offsetting surface-trap decay; SiO2-encapsulated wires had a carrier lifetime of around 1.1 ns.
+- Source scope: This summary is based on the full publisher PDF of the article, including figure legends; symbols and several fluence values missing from the PDF text layer were read from the page images, and the Fig. 4 legend gives the fit to the encapsulated-SiNW peak signal as proportional to F^1/3, whereas the text describes a third-order dependence.
 
 ## #21 Ag Nanowire Reinforced Highly Stretchable Conductive Fibers for Wearable Electronics
 - Authors: Seulah Lee, Sera Shin, Sanggeun Lee, Jungmok Seo, Jaehong Lee, Seung-Bae Son, Hyeon Jin Cho, Hassan Algadi, Saleh Al-Sayari, Dae-Eun Kim, Taeyoon Lee
@@ -737,8 +737,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.201500628
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adfm-201500628.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Silver nanowires bridge silver nanoparticles inside stretchable polymer fibres. The abstract reports conduction during stretching and glove-based motion sensing, with resistance changing as the fibre deforms.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Silver nanowires inside wet-spun SBS fibres bridged silver nanoparticle networks, keeping conduction up to 220% strain; a five-fibre glove read sign letters.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information (Figures S1-S11 and percolation calculations) and movies were not reviewed. The Abstract pairs 2450 S cm−1 and 900% elongation, which the Results report for the 1.68 wt% and 0.56 wt% fibres respectively, and the Results give the disconnection strain without AgNWs as both 70% and 80%.
 
 ## #20 Conductive Fiber‐Based Ultrasensitive Textile Pressure Sensor for Wearable Electronics
 - Authors: Jaehong Lee, Hyukho Kwon, Jungmok Seo, Sera Shin, Ja Hoon Koo, Changhyun Pang, Seungbae Son, Jae Hyung Kim, Yong Hoon Jang, Dae-Eun Kim, Taeyoon Lee
@@ -746,8 +746,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.201500009
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201500009.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Conductive fibres coated with dielectric rubber form a pressure sensor that can be woven into textiles. The abstract describes glove and clothing demonstrations for wireless control.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Kevlar fibres with Ag nanoparticles in SBS, coated with PDMS and crossed, formed a textile capacitive pressure sensor with 0.21 kPa−1 sensitivity below 2 kPa.
+- Source scope: This summary is based on the publisher PDF of the communication, including the figure legends; the Supporting Information (Figures S1-S9, simulation model and experimental details) and movies were not reviewed, and the main text gives a relaxation time of about 10 ms whereas the closing summary states less than 10 ms.
 
 ## #19 A Highly Sensitive Hydrogen Sensor with Gas Selectivity Using a PMMA Membrane-Coated Pd Nanoparticle/Single-Layer Graphene Hybrid
 - Authors: Juree Hong, Sanggeun Lee, Jungmok Seo, Soonjae Pyo, Jong-back Kim, Taeyoon Lee
@@ -755,8 +755,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/am5073645
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/am5073645.html
 - Theme: Device integration and packaging
-- Summary: A polymer membrane controls gas access to palladium nanoparticles on graphene for selective hydrogen sensing. The abstract reports suppressed responses to the tested methane, carbon monoxide and nitrogen dioxide.
-- Source scope: The research account is based on PubMed and Europe PMC abstracts. The article body is outside its evidence scope.
+- Summary: A PMMA membrane over Pd nanoparticles on single-layer graphene blocked methane, CO and NO2, while the sensor gave a 66.37% average response to 2% hydrogen.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information (Figures S1-S3) was not reviewed, and the Introduction gives the average response as 66.67% whereas the Abstract and Results give 66.37%.
 
 ## #18 Preparation of a self-assembled organosilane coating on carbon black as a catalyst support in polymer electrolyte membrane fuel cells
 - Authors: Woonghee Lee, Jungmok Seo, Taeyoon Lee, Hansung Kim
@@ -764,8 +764,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.jpowsour.2014.10.137
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/jpowsour-2014-10-137.html
 - Theme: Device integration and packaging
-- Summary: A water-repellent organosilane coating is applied to carbon-black catalyst supports to address corrosion in fuel cells. Cell measurements and carbon-dioxide evolution tests examine mass transport and corrosion resistance.
-- Source scope: The research account draws on the abstract, introduction and selected corrosion and polarization results in the author-hosted published article. It is not a complete article or supplementary-material review.
+- Summary: A self-assembled DTS organosilane coating made carbon black fuel-cell supports hydrophobic and cut CO2 released in a 1.3 V corrosion test from 291 to 177 μL.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental section, figure legends and Table 1; the text cites Fig. 6 for the mass spectrometry data, which appear in Fig. 7.
 
 ## #17 Electrostatically-induced trajectory switching system on a multi-inlet-multi-outlet superhydrophobic droplet guiding track
 - Authors: Soonil Lee, Seulah Lee, Dayeong Kim, Jungmok Seo, Chandreswar Mahata, Hyunseok Hwang, Hassan Algadi, Saleh Al-Sayari, Youngcheol Chae, Taeyoon Lee
@@ -773,8 +773,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1039/c4ra13014f
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/c4ra13014f.html
 - Theme: Device integration and packaging
-- Summary: An electrostatic system switches water-droplet paths on a water-repellent track with multiple inlets and outlets. This description is based on a one-sentence public summary, which does not establish quantitative performance.
-- Source scope: The research account is limited to a one-sentence summary registered with Crossref. The complete publisher abstract and article body are outside its evidence scope.
+- Summary: Capacitors 2 mm above a superhydrophobic Ag/Cu groove track switched the path of rolling 5 μL water drops without contact on a 3-inlet, 4-outlet track.
+- Source scope: This summary is based on the publisher PDF of the article, including the Materials and methods and figure legends; the electronic supplementary information and videos were not reviewed, and the text gives a fixed 1 kV bias for the tilt-voltage experiments although Fig. 3c varies the applied voltage.
 
 ## #16 Enhancement of X-ray detection by single-walled carbon nanotube enriched flexible polymer composite
 - Authors: Heetak Han, Sanggeun Lee, Jungmok Seo, Chandreswar Mahata, Sung Hwan Cho, A-Reum Han, Keun-Sung Hong, Joon-Ho Park, Myung-Jin Soh, Cheolmin Park, Taeyoon Lee
@@ -782,8 +782,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1186/1556-276x-9-610
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/1186-1556-276x-9-610.html
 - Theme: Device integration and packaging
-- Summary: Adding single-walled carbon nanotubes changes X-ray sensing in a flexible polymer. The abstract reports a trade-off: higher nanotube loading aids charge separation but also increases dark current and slows the response.
-- Source scope: The account draws on the abstracts and the previously read Europe PMC article XML. Review of the original Figures 2–5 and the supplementary information remains incomplete.
+- Summary: Adding 0.01 wt.% carbon nanotubes to a flexible polymer X-ray detector raised sensitivity from 12.5 to 38.9 μC/mGy/cm3 at 150 V; 0.005 wt.% gave a better SNR.
+- Source scope: This summary is based on the full text, figure legends and Table 1 of the open-access article (Europe PMC, PMC4493992), checked against the publisher PDF; the supplementary information was not reviewed, and the text cites the conditions of Figure 4a for the bending test in Figure 5b.
 
 ## #15 Coupled self-assembled monolayer for enhancement of Cu diffusion barrier and adhesion properties
 - Authors: Yongwon Chung, Sanggeun Lee, Chandreswar Mahata, Jungmok Seo, Seungmin Lim, Minsu Jeong, Hanearl Jung, Young-chang Joo, Young-bae Park, Hyungjun Kim, Taeyoon Lee
@@ -791,8 +791,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1039/c4ra08134j
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/c4ra08134j.html
 - Theme: Device integration and packaging
-- Summary: Chemically coupled molecular layers between copper and silicon dioxide are designed to limit copper diffusion and strengthen adhesion. Diffusion-barrier and bending-based adhesion tests evaluate these two functions.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A 2 nm coupled APTMS-MPA monolayer raised the Cu barrier's t63.2 four-fold over APTMS, comparable to 50 nm TaN, and annealed Cu/SiO2 adhesion energy by 33%.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental section and figure legends; the electronic supplementary information was not reviewed, and symbols lost in text extraction (such as ± and ∼) were confirmed on the rendered pages.
 
 ## #14 Switchable Water‐Adhesive, Superhydrophobic Palladium‐Layered Silicon Nanowires Potentiate the Angiogenic Efficacy of Human Stem Cell Spheroids
 - Authors: Jungmok Seo, Jung Seung Lee, Kihong Lee, Dayeong Kim, Kisuk Yang, Sera Shin, Chandreswar Mahata, Hwae bong Jung, Wooyoung Lee, Seung-Woo Cho, Taeyoon Lee
@@ -800,8 +800,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.201402273
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201402273.html
 - Theme: Materials in contact with tissue
-- Summary: A palladium–silicon surface with switchable droplet adhesion supports the culture of stem-cell spheroids. Their secretions and effects on vascular endothelial cells were evaluated in vitro; therapeutic effects in the body were not demonstrated.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Hydrogen-switchable Pd/Si nanowires held hanging culture drops for human stem cell spheroids that secreted more VEGF than spinner-flask or petri-dish spheroids.
+- Source scope: This summary is based on the publisher PDF of the Communication, including figure legends; the Supporting Information was not reviewed.
 
 ## #13 Capillary Force-Induced Glue-Free Printing of Ag Nanoparticle Arrays for Highly Sensitive SERS Substrates
 - Authors: Jaehong Lee, Jungmok Seo, Dayeong Kim, Sera Shin, Sanggeun Lee, Chandreswar Mahata, Hyo-Sung Lee, Byung-Wook Min, Taeyoon Lee
@@ -809,8 +809,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/am5000382
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/am5000382.html
 - Theme: Device integration and packaging
-- Summary: Water capillary forces transfer arrays of silver nanoparticles without added glue, creating surfaces for surface-enhanced Raman spectroscopy (SERS). Dye molecules were used to evaluate detection performance.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Capillary forces of water printed Ag nanoparticle line arrays from buckled templates onto flat substrates without glue; the SERS arrays detected R6G at 10⁻¹² M.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information was not reviewed, so results described there are reported only as stated in the main text.
 
 ## #12 Extremely Bright Full Color Alternating Current Electroluminescence of Solution-Blended Fluorescent Polymers with Self-Assembled Block Copolymer Micelles
 - Authors: Sung Hwan Cho, Seong Soon Jo, Ihn Hwang, Jinwoo Sung, Jungmok Seo, Seok-Heon Jung, Insung Bae, Jae Ryung Choi, Himchan Cho, Taeyoon Lee, Jin Kyun Lee, Tae-Woo Lee, Cheolmin Park
