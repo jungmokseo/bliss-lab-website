@@ -494,8 +494,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.8b10217
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-8b10217.html
 - Theme: Stretchable conductors and interconnects
-- Summary: A Kevlar fiber combines a silver-based conductive composite with a water-repellent surface treatment for textile wiring exposed to moisture. Immersion, folding and washing tests examine how the protective surface affects electrical resistance.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A Kevlar fiber coated with a silver nanoparticle-SBS composite and a fluorinated monolayer kept 0.11-0.28 Ω/cm after 20 washes and repelled water and stains.
+- Source scope: This summary is based on the publisher PDF of the article, including the figure legends and experimental section; the Supporting Information was not reviewed.
 
 ## #47 Full length histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection
 - Authors: Tae Wha Seong, Jungmok Seo, Kwan Hyi Lee
@@ -503,8 +503,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.snb.2018.04.040
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/snb-2018-04-040.html
 - Theme: Device integration and packaging
-- Summary: A sensor uses surface-bound histone H3 to turn cleavage by the protease cathepsin L into an electrical signal. Tests used buffer and cell-culture media; diagnostic validation in patient samples was not included.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: An extended-gate FET carrying full-length histone H3 detected cathepsin L activity by substrate cleavage, reaching 1 ng/mL compared with 10 μg/mL for fluorometry.
+- Source scope: This summary is based on the publisher PDF of the article, including the figure legends and experimental section; the supplementary data were not reviewed.
 
 ## #46 Highly Sensitive Multifilament Fiber Strain Sensors with Ultrabroad Sensing Range for Textile Electronics
 - Authors: Jaehong Lee, Sera Shin, Sanggeun Lee, Jaekang Song, Subin Kang, Heetak Han, SeulGee Kim, Seunghoe Kim, Jungmok Seo, DaeEun Kim, Taeyoon Lee
@@ -512,8 +512,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsnano.7b07795
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsnano-7b07795.html
 - Theme: Stretchable conductors and interconnects
-- Summary: A conductive multifilament fiber incorporating silver nanoparticles senses strain through changes in resistance as it stretches. Sensitivity and sensing range are evaluated separately for the first stretch and subsequent loading.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Ag nanoparticles grown inside a multifilament elastic fiber gave a strain sensor with a gauge factor of about 9.3 × 10^5 and a 450% sensing range on first stretch.
+- Source scope: This summary is based on the publisher PDF of the article, including the figure legends and Methods; the Supporting Information and movies were not reviewed.
 
 ## #45 Interconnectable Dynamic Compression Bioreactors for Combinatorial Screening of Cell Mechanobiology in Three Dimensions
 - Authors: Jungmok Seo, Jungyoun Shin, Jeroen Leijten, Oju Jeon, Ayça Bal Öztürk, Jeroen Rouwkema, Yuancheng Li, Su Ryon Shin, Hadi Hajiali, Eben Alsberg, Ali Khademhosseini
@@ -521,8 +521,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.7b17991
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-7b17991.html
 - Theme: Materials in contact with tissue
-- Summary: Interconnectable compression bioreactors examine how mesenchymal stem cells in 3D hydrogel cultures respond to cyclic loading. The modular setup supports parallel comparisons of gel concentration and mechanical-stimulation conditions.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Stackable gas-driven bioreactors applied 0–42% cyclic compression to stem cells in 3D GelMA; 42% strain in 5% GelMA raised Runx2, ALP and calcium deposition.
+- Source scope: This summary is based on the publisher PDF of the article (ACS Appl. Mater. Interfaces 2018, 10, 13293-13303; 11 pages, local copy), including the abstract, main text, Figure 1-6 legends, Experimental Section and author information; the Supporting Information and movies were not reviewed, and values shown only in figure panels were not used.
 
 ## #44 Electrically Driven Microengineered Bioinspired Soft Robots
 - Authors: Su Ryon Shin, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, Jungmok Seo, Serena Mandla, Alessandro Enrico, Silvia Antonia, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini
@@ -530,8 +530,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.201704189
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201704189.html
 - Theme: Device integration and packaging
-- Summary: A ray-inspired soft robot combines cardiomyocytes, patterned hydrogels and gold microelectrodes. The electrodes provide mechanical support and local electrical stimulation for cell-driven actuation.
-- Source scope: The original account used Wiley and Crossref abstracts. A locally held 13-page publisher-format article was checked on 14 October 2026. Supplementary files, videos and current correction history remain unverified.
+- Summary: A stingray-like soft actuator with cardiomyocytes on patterned CNT–GelMA and PEG hydrogels and embedded Au microelectrodes was locally paced at 0.5 and 1.0 Hz.
+- Source scope: This summary is based on the publisher PDF of the communication (Adv. Mater. 2018, 30, 1704189; 13 pages, local copy), including the abstract, main text, Figure 1-4 legends and the Experimental Section; the Supporting Information and Videos S1-S6 were not reviewed, and values shown only in figure panels were not used.
 
 ## #43 Single-Droplet Multiplex Bioassay on a Robust and Stretchable Extreme Wetting Substrate through Vacuum-Based Droplet Manipulation
 - Authors: Heetak Han, Jung Seung Lee, Hyuncheol Kim, Sera Shin, Jaehong Lee, Jongchan Kim, Xu Hou, Seung-Woo Cho, Jungmok Seo, Taeyoon Lee
@@ -539,8 +539,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsnano.7b05826
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsnano-7b05826.html
 - Theme: Materials in contact with tissue
-- Summary: A vacuum tip deforms a soft substrate from below to guide droplets, while wettable patterns retain small portions for separate assays. The study evaluates in vitro colorimetric glucose, uric-acid and lactate readouts, including glucose measurements in mouse-derived samples.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A vacuum tip beneath stretchable superamphiphobic PDMS moved droplets and left 0.05–1.4 μL aliquots on wettable spots for glucose, uric acid and lactate assays.
+- Source scope: This summary is based on the publisher PDF of the article (ACS Nano 2018, 12, 932-941; 10 pages, local copy), including the abstract, main text, figure legends, Table 1, Methods and author information; the Supporting Information and movies were not reviewed, and values shown only in figure panels were not used.
 
 ## #42 Chemical and Physical Pathways for Fabricating Flexible Superamphiphobic Surfaces with High Transparency
 - Authors: Bichitra Sahoo, Kukro Yoon, Jungmok Seo, Taeyoon Lee
@@ -548,8 +548,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.3390/coatings8020047
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/coatings8020047.html
 - Theme: Biological responses and surface design
-- Summary: This review examines the trade-offs in making surfaces repel both water and oil while remaining transparent and flexible. It compares pattern transfer, nanoparticle assembly and surface-chemistry modification as ways to control wetting, light scattering and durability under deformation.
-- Source scope: The source basis is the institution-hosted published PDF, pp.1–26: introduction, wetting models and transitions, all three fabrication routes, applications, recommendations, conclusions, figure captions and Table 1. Individual references on pp.26–32 and original-study data are outside the independent-verification scope.
+- Summary: Review of pattern transfer, nanoparticle assembly and thiol-ene routes to flexible, transparent superamphiphobic surfaces, with wetting and optical data.
+- Source scope: This summary is based on the publisher PDF of the review, including Table 1 and figure legends; the cited primary studies were not read.
 
 ## #41 High-throughput approaches for screening and analysis of cell behaviors
 - Authors: Jungmok Seo, Jung-Youn Shin, Jeroen Leijten, Oju Jeon, Gulden Camci-Unal, Anna D. Dikina, Katelyn Brinegar, Amir M. Ghaemmaghami, Eben Alsberg, Ali Khademhosseini
@@ -557,8 +557,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.biomaterials.2017.06.022
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/biomaterials-2017-06-022.html
 - Theme: Materials in contact with tissue
-- Summary: This review examines high-throughput methods for comparing how cells respond to different culture conditions. It connects cell–material environments, biomolecule delivery and analysis of secreted products with the choice of cellular readouts.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: Review of high-throughput platforms that screen cell responses to biomaterials and delivered molecules in 2D and 3D and analyze genes, glycans and proteins.
+- Source scope: This summary is based on the publisher PDF of the review, including Table 1 and figure legends; the cited primary studies were not read.
 
 ## #40 Hybrid functional microfibers for textile electronics and biosensors
 - Authors: Bichitra Nanda Sahoo, Byungwoo Choi, Jungmok Seo, Taeyoon Lee
@@ -566,8 +566,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1088/1674-4926/39/1/011009
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/1088-1674-4926-39-1-011009.html
 - Theme: Stretchable conductors and interconnects
-- Summary: This review explores how carbon and metal nanomaterials and hydrogels give microfibers multiple functions. Applications span textile sensors, biosensing, drug delivery and tissue fabrication.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed. Individual cited studies were not all read in full.
+- Summary: Review of hybrid microfibers with carbon and metal nanomaterials and hydrogels for textile electronics, pressure sensors, biosensors and tissue engineering.
+- Source scope: This summary is based on the publisher PDF of the review, including figure legends; the cited primary studies were not read.
 
 ## #39 Electroconductive nanoscale topography for enhanced neuronal differentiation and electrophysiological maturation of human neural stem cells
 - Authors: Kisuk Yang, Seung Jung Yu, Jong Seung Lee, Hak-Rae Lee, Gyeong-Eon Chang, Jungmok Seo, Taeyoon Lee, Eunji Cheong, Sung Gap Im, Seung-Woo Cho
@@ -575,8 +575,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1039/c7nr05446g
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/c7nr05446g.html
 - Theme: Materials in contact with tissue
-- Summary: Human neural stem cells were cultured on titanium-coated nanogratings to study alignment, differentiation and electrophysiological maturation. Coated flat surfaces and uncoated gratings helped examine the combined effects of conductivity and surface topography.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Titanium-coated nanogratings with pulsed stimulation raised MAP2-positive cells from human neural stem cells to 56.2% in 5 days, versus 24.6% on bare flat PUA.
+- Source scope: This summary is based on the publisher PDF of the article, including the methods and figure legends; the electronic supplementary information was not reviewed.
 
 ## #38 Spatially and temporally controlled hydrogels for tissue engineering
 - Authors: Jeroen Leijten, Jungmok Seo, Kan Yue, Grissel Trujillo-de Santiago, Ali Tamayol, Guillermo U. Ruiz-Esparza, Su Ryon Shin, Roholah Sharifi, Iman Noshadi, Mario Moisés Álvarez, Yu Shrike Zhang, Ali Khademhosseini
@@ -584,8 +584,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.mser.2017.07.001
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/mser-2017-07-001.html
 - Theme: Materials in contact with tissue
-- Summary: This review examines hydrogels that organize cells in space while controlling how their biochemical environment changes over time. It connects patterning and printing with timed release and degradation for tissue engineering.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: Review of tissue engineering hydrogels controlled in space and time, from micropatterning and 3D bioprinting to timed release, stiffening and degradation.
+- Source scope: This summary is based on the publisher PDF of the review, including its figure legends; the primary studies it cites were not read, and numeric dimensions written with the micro sign, which the PDF text layer renders incorrectly, were not used.
 
 ## #37 Evolution and clinical translation of drug delivery nanomaterials
 - Authors: Shabir Hassan, Gyan Prakash, Ayça Bal Öztürk, Saghi Saghazadeh, Mohammad Farhan Sohail, Jungmok Seo, Mehmet R. Dokmeci, Yu Shrike Zhang, Ali Khademhosseini
@@ -593,8 +593,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.nantod.2017.06.008
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/nantod-2017-06-008.html
 - Theme: Biological responses and surface design
-- Summary: This review traces the development of drug-delivery nanomaterials and the barriers to clinical translation. It connects carrier design for particular tissues and payloads with questions of biodistribution, degradation and toxicity.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: Review tracing inorganic, polymeric and lipid-based drug delivery nanomaterials to FDA approval, noting over 200 nanomaterial products then in clinical studies.
+- Source scope: This summary is based on the publisher PDF of the review, including Table 1 and the figure legends; the primary studies it cites were not read.
 
 ## #36 Bioinspired Geometry‐Switchable Janus Nanofibers for Eye‐Readable H2 Sensors
 - Authors: Heetak Han, Sangyul Baik, Borui Xu, Jungmok Seo, Sanggeun Lee, Sera Shin, Jaehong Lee, Ja Hoon Koo, Yongfeng Mei, Changhyun Pang, Taeyoon Lee

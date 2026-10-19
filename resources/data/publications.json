@@ -588,8 +588,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review traces the development of drug-delivery nanomaterials and the barriers to clinical translation. It connects carrier design for particular tissues and payloads with questions of biodistribution, degradation and toxicity.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "Review tracing inorganic, polymeric and lipid-based drug delivery nanomaterials to FDA approval, noting over 200 nanomaterial products then in clinical studies.",
+    "source_scope": "This summary is based on the publisher PDF of the review, including Table 1 and the figure legends; the primary studies it cites were not read."
   },
   {
     "number": 38,
@@ -604,8 +604,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines hydrogels that organize cells in space while controlling how their biochemical environment changes over time. It connects patterning and printing with timed release and degradation for tissue engineering.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "Review of tissue engineering hydrogels controlled in space and time, from micropatterning and 3D bioprinting to timed release, stiffening and degradation.",
+    "source_scope": "This summary is based on the publisher PDF of the review, including its figure legends; the primary studies it cites were not read, and numeric dimensions written with the micro sign, which the PDF text layer renders incorrectly, were not used."
   },
   {
     "number": 39,
@@ -620,8 +620,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Human neural stem cells were cultured on titanium-coated nanogratings to study alignment, differentiation and electrophysiological maturation. Coated flat surfaces and uncoated gratings helped examine the combined effects of conductivity and surface topography.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "Titanium-coated nanogratings with pulsed stimulation raised MAP2-positive cells from human neural stem cells to 56.2% in 5 days, versus 24.6% on bare flat PUA.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the methods and figure legends; the electronic supplementary information was not reviewed."
   },
   {
     "number": 40,
@@ -636,8 +636,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review explores how carbon and metal nanomaterials and hydrogels give microfibers multiple functions. Applications span textile sensors, biosensing, drug delivery and tissue fabrication.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed. Individual cited studies were not all read in full."
+    "summary": "Review of hybrid microfibers with carbon and metal nanomaterials and hydrogels for textile electronics, pressure sensors, biosensors and tissue engineering.",
+    "source_scope": "This summary is based on the publisher PDF of the review, including figure legends; the cited primary studies were not read."
   },
   {
     "number": 41,
@@ -652,8 +652,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines high-throughput methods for comparing how cells respond to different culture conditions. It connects cell–material environments, biomolecule delivery and analysis of secreted products with the choice of cellular readouts.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "Review of high-throughput platforms that screen cell responses to biomaterials and delivered molecules in 2D and 3D and analyze genes, glycans and proteins.",
+    "source_scope": "This summary is based on the publisher PDF of the review, including Table 1 and figure legends; the cited primary studies were not read."
   },
   {
     "number": 42,
@@ -668,8 +668,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines the trade-offs in making surfaces repel both water and oil while remaining transparent and flexible. It compares pattern transfer, nanoparticle assembly and surface-chemistry modification as ways to control wetting, light scattering and durability under deformation.",
-    "source_scope": "The source basis is the institution-hosted published PDF, pp.1–26: introduction, wetting models and transitions, all three fabrication routes, applications, recommendations, conclusions, figure captions and Table 1. Individual references on pp.26–32 and original-study data are outside the independent-verification scope."
+    "summary": "Review of pattern transfer, nanoparticle assembly and thiol-ene routes to flexible, transparent superamphiphobic surfaces, with wetting and optical data.",
+    "source_scope": "This summary is based on the publisher PDF of the review, including Table 1 and figure legends; the cited primary studies were not read."
   },
   {
     "number": 43,
@@ -684,8 +684,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A vacuum tip deforms a soft substrate from below to guide droplets, while wettable patterns retain small portions for separate assays. The study evaluates in vitro colorimetric glucose, uric-acid and lactate readouts, including glucose measurements in mouse-derived samples.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "A vacuum tip beneath stretchable superamphiphobic PDMS moved droplets and left 0.05–1.4 μL aliquots on wettable spots for glucose, uric acid and lactate assays.",
+    "source_scope": "This summary is based on the publisher PDF of the article (ACS Nano 2018, 12, 932-941; 10 pages, local copy), including the abstract, main text, figure legends, Table 1, Methods and author information; the Supporting Information and movies were not reviewed, and values shown only in figure panels were not used."
   },
   {
     "number": 44,
@@ -700,8 +700,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A ray-inspired soft robot combines cardiomyocytes, patterned hydrogels and gold microelectrodes. The electrodes provide mechanical support and local electrical stimulation for cell-driven actuation.",
-    "source_scope": "The original account used Wiley and Crossref abstracts. A locally held 13-page publisher-format article was checked on 14 October 2026. Supplementary files, videos and current correction history remain unverified."
+    "summary": "A stingray-like soft actuator with cardiomyocytes on patterned CNT–GelMA and PEG hydrogels and embedded Au microelectrodes was locally paced at 0.5 and 1.0 Hz.",
+    "source_scope": "This summary is based on the publisher PDF of the communication (Adv. Mater. 2018, 30, 1704189; 13 pages, local copy), including the abstract, main text, Figure 1-4 legends and the Experimental Section; the Supporting Information and Videos S1-S6 were not reviewed, and values shown only in figure panels were not used."
   },
   {
     "number": 45,
@@ -716,8 +716,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Interconnectable compression bioreactors examine how mesenchymal stem cells in 3D hydrogel cultures respond to cyclic loading. The modular setup supports parallel comparisons of gel concentration and mechanical-stimulation conditions.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Stackable gas-driven bioreactors applied 0–42% cyclic compression to stem cells in 3D GelMA; 42% strain in 5% GelMA raised Runx2, ALP and calcium deposition.",
+    "source_scope": "This summary is based on the publisher PDF of the article (ACS Appl. Mater. Interfaces 2018, 10, 13293-13303; 11 pages, local copy), including the abstract, main text, Figure 1-6 legends, Experimental Section and author information; the Supporting Information and movies were not reviewed, and values shown only in figure panels were not used."
   },
   {
     "number": 46,
@@ -732,8 +732,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A conductive multifilament fiber incorporating silver nanoparticles senses strain through changes in resistance as it stretches. Sensitivity and sensing range are evaluated separately for the first stretch and subsequent loading.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "Ag nanoparticles grown inside a multifilament elastic fiber gave a strain sensor with a gauge factor of about 9.3 × 10^5 and a 450% sensing range on first stretch.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the figure legends and Methods; the Supporting Information and movies were not reviewed."
   },
   {
     "number": 47,
@@ -748,8 +748,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A sensor uses surface-bound histone H3 to turn cleavage by the protease cathepsin L into an electrical signal. Tests used buffer and cell-culture media; diagnostic validation in patient samples was not included.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "An extended-gate FET carrying full-length histone H3 detected cathepsin L activity by substrate cleavage, reaching 1 ng/mL compared with 10 μg/mL for fluorometry.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the figure legends and experimental section; the supplementary data were not reviewed."
   },
   {
     "number": 48,
@@ -764,8 +764,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A Kevlar fiber combines a silver-based conductive composite with a water-repellent surface treatment for textile wiring exposed to moisture. Immersion, folding and washing tests examine how the protective surface affects electrical resistance.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "A Kevlar fiber coated with a silver nanoparticle-SBS composite and a fluorinated monolayer kept 0.11-0.28 Ω/cm after 20 washes and repelled water and stains.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the figure legends and experimental section; the Supporting Information was not reviewed."
   },
   {
     "number": 49,
@@ -2236,8 +2236,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "약물 전달용 나노소재의 발전과 임상 적용 과제를 정리한 종설입니다. 표적 조직과 약물에 맞춘 운반체 설계를 체내 분포, 분해, 독성 문제와 연결해 살핍니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "무기·고분자·지질 기반 약물전달 나노소재가 FDA 승인에 이른 과정을 정리하고, 당시 200개 이상의 제품이 임상 단계였음을 밝힌 종설입니다.",
+    "source_scope": "이 해설은 종설의 출판사 게재본 PDF(표 1과 그림 설명 포함)를 바탕으로 했으며, 종설이 인용한 개별 연구는 읽지 않았습니다."
   },
   {
     "number": 38,
@@ -2252,8 +2252,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "세포가 자리 잡는 공간과 시간에 따른 생화학적 변화를 함께 설계하는 조직공학용 하이드로젤 종설입니다. 미세 패터닝과 프린팅으로 만드는 구조를 물질 방출·분해의 시간 제어와 연결합니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "미세 패터닝과 3D 바이오프린팅부터 시간에 따른 방출·경화·분해까지, 공간과 시간에 따라 구조와 성질을 제어하는 조직공학용 하이드로젤 종설입니다.",
+    "source_scope": "이 해설은 종설의 출판사 게재본 PDF(그림 설명 포함)를 바탕으로 했으며, 종설이 인용한 개별 연구는 읽지 않았고 PDF 텍스트에서 마이크로 기호가 잘못 표기된 수치는 사용하지 않았습니다."
   },
   {
     "number": 39,
@@ -2268,8 +2268,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "티타늄을 코팅한 나노 크기의 홈 구조 위에서 인간 신경줄기세포를 배양해, 세포의 정렬·분화·전기생리학적 성숙을 평가한 연구입니다. 전도성과 표면 지형이 함께 작용하는 방식을 평평한 코팅 표면과 코팅하지 않은 홈 구조와 비교했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "티타늄을 코팅한 나노격자에 펄스 전기자극을 더하자 5일 뒤 인간 신경줄기세포에서 분화한 MAP2 양성 세포 비율이 56.2%로, 코팅하지 않은 평판(24.6%)보다 높았습니다.",
+    "source_scope": "이 해설은 출판사 게재본 PDF의 본문, 실험 방법, 그림 설명을 바탕으로 했으며, 전자 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 40,
@@ -2284,8 +2284,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "탄소·금속 나노소재와 하이드로젤을 섬유에 결합해 여러 기능을 만드는 방법을 정리한 종설입니다. 섬유형 센서와 바이오센서뿐 아니라 약물 전달과 조직 제작까지 다룹니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다. 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "탄소·금속 나노소재와 하이드로젤로 만든 하이브리드 미세섬유를 섬유 전자소자, 압력 센서, 바이오센서, 조직공학 관점에서 정리한 종설입니다.",
+    "source_scope": "이 해설은 종설의 출판사 PDF와 그림 설명을 바탕으로 했으며, 종설이 인용한 원 연구는 읽지 않았습니다."
   },
   {
     "number": 41,
@@ -2300,8 +2300,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "다양한 배양 조건에서 세포의 반응을 빠르게 비교하는 고속 스크리닝 방법을 정리한 종설입니다. 세포–재료 환경, 생체분자 전달, 세포가 분비한 물질의 분석을 연결해 실험 조건과 측정 방법을 살핍니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "생체재료와 전달 분자에 대한 2차원·3차원 세포 반응을 대량 선별하고 유전자·당·단백질을 분석하는 고처리량 플랫폼을 정리한 종설입니다.",
+    "source_scope": "이 해설은 종설의 출판사 PDF와 표 1, 그림 설명을 바탕으로 했으며, 종설이 인용한 원 연구는 읽지 않았습니다."
   },
   {
     "number": 42,
@@ -2316,8 +2316,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "물과 기름을 튕겨내면서 투명성과 유연성을 유지하는 표면 설계의 상충을 다룬 종설입니다. 패턴 전사, 나노입자 조립, 표면 화학 개질을 통해 젖음과 빛 산란, 변형 내구성을 조절하는 방법을 비교합니다.",
-    "source_scope": "해설은 기관 공개 게재본 PDF 1–26쪽의 서론, 젖음 모델·전이, 세 제작 경로, 응용, 권고, 결론, 그림 설명과 Table 1에 근거합니다. 26–32쪽에 실린 개별 참고문헌과 원저 데이터는 독립 검증 범위에 포함되지 않습니다."
+    "summary": "패턴 전사, 나노입자 조립, 티올-엔 반응으로 유연하고 투명한 초양친매성 표면을 만드는 방법을 젖음·광학·내구성 수치와 함께 비교한 종설입니다.",
+    "source_scope": "이 해설은 종설의 출판사 PDF와 표 1, 그림 설명을 바탕으로 했으며, 종설이 인용한 원 연구는 읽지 않았습니다."
   },
   {
     "number": 43,
@@ -2332,8 +2332,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "유연한 기판 아래에서 진공으로 작은 오목부를 만들어 액적을 이동시키고, 잘 젖는 패턴에 시료 일부를 남겨 여러 분석을 수행합니다. 포도당·요산·젖산의 색 변화 기반 체외 분석과 생쥐 유래 시료의 포도당 측정을 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "신축성 초발액성(SPO) PDMS 아래 진공 팁으로 액적을 옮겨 친액성 점에 0.05–1.4 μL를 나누고 포도당·요산·젖산을 발색 분석한 연구입니다.",
+    "source_scope": "이 해설은 논문 게재본 PDF(ACS Nano 2018, 12, 932-941; 10쪽, 로컬 사본)의 초록, 본문, 그림 설명, 표 1, 방법과 저자 정보를 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았고 그림 패널에만 표시된 수치는 사용하지 않았습니다."
   },
   {
     "number": 44,
@@ -2348,8 +2348,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "심근세포, 부드러운 하이드로젤 구조, 금 미세전극을 결합한 가오리 모양의 생체모사 로봇 연구입니다. 미세전극이 구조를 지지하면서 세포에 국소적인 전기 자극을 전달하도록 설계했습니다.",
-    "source_scope": "기존 해설은 Wiley·Crossref 초록에 근거하며, 2026-10-14에 보유한 출판사 형식 원문 13쪽을 대조했습니다. 보충자료·동영상과 최신 정정 이력은 아직 확인하지 못했습니다."
+    "summary": "패턴 CNT–GelMA·PEG 하이드로젤에 심근세포와 금 미세전극을 결합한 가오리형 연성 구동체로, 국소 자극으로 박동을 0.5·1.0 Hz에 맞췄습니다.",
+    "source_scope": "이 해설은 논문 게재본 PDF(Adv. Mater. 2018, 30, 1704189; 13쪽, 로컬 사본)의 초록, 본문, 그림 1~4 설명과 실험 절을 바탕으로 작성했으며, 보충자료와 동영상 S1~S6은 검토하지 않았고 그림 패널에만 표시된 수치는 사용하지 않았습니다."
   },
   {
     "number": 45,
@@ -2364,8 +2364,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "연결 가능한 압축 배양 장치로 3차원 하이드로젤 속 중간엽 줄기세포가 반복 압축에 어떻게 반응하는지 살핀 연구입니다. 젤 농도와 기계적 자극 조건을 나란히 비교할 수 있도록 구성했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "적층형 가스 구동 바이오리액터로 3차원 GelMA 속 줄기세포에 0~42% 반복 압축을 가했고, 5% GelMA의 42% 변형에서 Runx2·ALP·칼슘 침착이 증가했습니다.",
+    "source_scope": "이 해설은 논문 게재본 PDF(ACS Appl. Mater. Interfaces 2018, 10, 13293-13303; 11쪽, 로컬 사본)의 초록, 본문, 그림 1~6 설명, 실험 절과 저자 정보를 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았고 그림 패널에만 표시된 수치는 사용하지 않았습니다."
   },
   {
     "number": 46,
@@ -2380,8 +2380,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "은 나노입자와 여러 가닥의 섬유로 만든 전도성 구조에서, 늘어남에 따른 저항 변화를 이용해 변형을 감지합니다. 처음 늘릴 때와 반복해서 늘릴 때의 감도·측정 범위를 구분해 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "다중 필라멘트 탄성 섬유 내부에 은 나노입자를 형성한 변형 센서로, 첫 신장에서 게이지 계수 약 9.3 × 10^5와 450%의 감지 범위를 보였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명, 방법을 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았습니다."
   },
   {
     "number": 47,
@@ -2396,8 +2396,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "히스톤 H3 단백질을 감지 표면에 붙이고, 이를 절단하는 카텝신 L 효소의 활성을 전기 신호로 읽는 센서입니다. 완충액과 세포 배양액에서 평가했으며, 환자 시료를 이용한 진단 검증은 포함하지 않았습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "전장 히스톤 H3를 붙인 확장 게이트 FET로 카텝신 L의 절단 활성을 검출해, 형광법(10 μg/mL)보다 낮은 1 ng/mL의 검출 한계를 보였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명, 실험 방법을 바탕으로 작성했으며, 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 48,
@@ -2412,8 +2412,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "케블라 섬유에 은 기반 전도성 복합체와 발수 표면 처리를 결합해, 물에 노출되는 섬유형 배선의 전기적 연결을 유지하려는 연구입니다. 침수·접힘·세탁 시험으로 표면 보호와 저항 변화를 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "Kevlar 섬유에 은 나노입자-SBS 복합층과 불소계 단분자막을 입혀, 20회 세탁 후에도 0.11~0.28 Ω/cm를 유지하고 물과 오염을 밀어내는 전도성 섬유입니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명, 실험 방법을 바탕으로 작성했으며, 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 49,
