@@ -1271,8 +1271,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "Flexible neural-recording fibers combine a lubricated interface with immobilized brain-derived neurotrophic factor (BDNF) to resist nonspecific attachment while supporting neuronal interaction. Representative single-unit recordings extend to twelve months, while comparative electrode statistics cover a separate eight-month period.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "A lubricant-infused, BDNF-immobilized coating on flexible neural fibers cut insertion load from 25.2 to 2.94 mN and enabled 12-month recording in mice.",
+    "source_scope": "This summary is based on the full text, figure legends and Materials and Methods of the open-access article (PMC12422202); the supplementary materials were not reviewed. Quantitative values for in vitro cell coverage and protein attachment are taken from the Introduction, and most histological comparisons are reported as relative differences without numerical values in the main text."
   },
   {
     "number": 86,
@@ -1286,8 +1286,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines encapsulation strategies that protect flexible OLEDs from moisture and oxygen while accommodating bending. It connects film-barrier properties, deformation-induced defects and operating-device degradation across conventional displays and biointegrated applications.",
-    "source_scope": "The public Wiley review was read selectively: §§3.1–3.3 on barrier, mechanical and device evaluation; §§5.3–5.4 on bioelectronics and practical limits; and the opening of §6. Cited numerical results and processes were not individually reviewed, and supplementary information was not comprehensively read."
+    "summary": "Review of OLED encapsulation from glass lids to thin-film hybrid multilayers, linking WVTR targets near 10−6 g m−2 day−1 to flexible and bioelectronic devices.",
+    "source_scope": "This summary is based on the full HTML text of the open-access review (CC BY 4.0), Sections 1 to 6 and Tables 1 to 6. Figure captions were not displayed on the page and were not read, and the cited primary studies were not checked against their original reports."
   },
   {
     "number": 87,
@@ -1301,8 +1301,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A Nitinol–PMMA composite combines induction-heated shape recovery, microcellular foaming and release of a model agent. Quantified release was measured in buffer after specimens were prefoamed on a hot plate, not through remotely triggered drug release inside the body.",
-    "source_scope": "The publisher abstract, §3 Conclusions and Experimental §§4.1–4.10 were read, together with article information. The complete Results section and supplementary information were not reviewed."
+    "summary": "Nitinol–PMMA composite in which induction heating drives shape recovery and CO2 foaming; foaming raised impact strength by 142% and tuned model drug release.",
+    "source_scope": "This summary is based on the full text of the article on the publisher's site (Results and Discussion, Experimental Section, Table 1 and figure captions); the Supporting Information, which holds the CEM43 and lap-shear data, was not reviewed, and the impact strength gain is given as 143% in the abstract and 142% in the Results."
   },
   {
     "number": 88,
@@ -1315,9 +1315,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/088.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "This study coats commercial PVDF membranes with graphene oxide and then perfluoropolyether (PFPE) so that membrane-distillation membranes resist wetting in surfactant-containing seawater. The abstract reports more than 99.7% NaCl rejection and more than 15 LMH water flux during long-term operation.",
-    "source_scope": "Based on the DOI-matched PubMed abstract (PMID 41583865). The PMC main text, supplementary information and original figures were not reviewed. This is water-treatment membrane research and does not address biological applications."
+    "source_level": "full_text",
+    "summary": "A graphene oxide and perfluoropolyether coating on PVDF kept salt rejection above 99.7% at 15.4 LMH flux for 24 h of distillation with 0.4 mM surfactant.",
+    "source_scope": "This summary is based on the full text, figure captions and Table 1 of the open-access article retrieved from Europe PMC (PMC12828614); the supporting information was not reviewed."
   },
   {
     "number": 88,
@@ -1330,9 +1330,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/088.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "계면활성제가 섞인 해수에서도 막 증류용 분리막이 젖지 않도록, 상용 PVDF 막에 산화그래핀층과 과불화폴리에테르(PFPE)층을 차례로 입힌 연구입니다. 초록은 장기 운전에서 NaCl 제거율 99.7% 이상과 수투과 유속 15 LMH 이상을 보고합니다.",
-    "source_scope": "DOI 일치 PubMed 초록(PMID 41583865)에 근거한 소개입니다. PMC 본문, 보충자료와 원그림은 검토하지 않았습니다. 이 연구는 수처리용 분리막에 관한 것이며 생체 적용 성능을 다루지 않습니다."
+    "source_level": "full_text",
+    "summary": "상용 PVDF 막에 산화그래핀과 과불화폴리에테르를 차례로 입혀, 계면활성제 0.4 mM 조건의 막 증류에서 24시간 동안 염 제거율 99.7% 이상, 수투과 유속 15.4 LMH를 유지했습니다.",
+    "source_scope": "이 해설은 Europe PMC에서 받은 오픈액세스 논문(PMC12828614)의 본문, 그림 설명, 표 1을 바탕으로 작성했으며 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 89,
@@ -1346,8 +1346,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A spray-printed poly(vinyl alcohol)–liquid-metal patch delivers electrical stimulation to wounds. The study screens stimulation conditions in macrophage experiments, then evaluates wound and inflammatory responses in mice with induced type 1 diabetes.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "A spray-printed PVA/liquid-metal patch delivered screened stimulation to diabetic mouse wounds, leaving 23.4% wound area at day 3 versus 66.8% untreated.",
+    "source_scope": "This summary is based on the main text, figure legends and Methods of the published CC BY 4.0 version of record (17 pages); the supporting information (Figures S1–S25) and source data were not reviewed."
   },
   {
     "number": 90,
@@ -1361,8 +1361,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "Bonded silicone and Parylene C layers protect implantable devices against water and ion ingress, while an outer lubricated interface addresses biofouling. The study evaluates electrical isolation in buffer and tissue responses after seven days of subcutaneous implantation.",
-    "source_scope": "This account draws on selected text, conclusions and leakage-current methods on pp. 1–3 and 7–12 of the published PDF, including pp. 9–12. It is not a complete review of the main text or supplementary information."
+    "summary": "A bonded silicone/Parylene C multilayer with an oil-infused surface gave 86-fold higher adhesion than Parylene C and 160-fold longer insulation life at 85 °C.",
+    "source_scope": "This summary is based on the main text, figure legends and Methods of the published version of record in Small (15 pages); the supporting information (Figures S1–S8) was not reviewed, and the derivation of the 445 h estimate at 37 °C was not found in the main text."
   },
   {
     "number": 91,
@@ -1376,8 +1376,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "Changing the order of sulfate and calcium treatments tunes the mechanics and analyte transport of poly(vinyl alcohol)–alginate sensor interfaces. The study examines how the sequence of network and pore formation changes strength and diffusion pathways, even when the ions are the same.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "Sulfate and calcium treatment order tuned PVA–alginate hydrogel pores from 65 nm to 2.5 µm, setting glucose sensor ranges for sweat and interstitial fluid.",
+    "source_scope": "This summary is based on the full text and figure legends of the open-access article (PMC13040517); the Supporting Information, which contains several of the cited supplementary figures and tables, was not reviewed."
   },
   {
     "number": 92,
@@ -1391,8 +1391,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A polydopamine-anchored, fluorinated lubricating interface is designed to reduce sludge and biofilm accumulation on biliary stents. The study evaluates fouling on fragments in mouse gallbladders separately from stent patency in rabbit common bile ducts.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "ELFS, a polydopamine-anchored lubricant-infused stent coating, kept rabbit bile duct stents open for 2 months while uncoated stents became fully occluded.",
+    "source_scope": "This summary is based on the full text and figure legends of the open-access article (PMC12924897); the supplementary data, which include several of the cited supplementary figures, were not reviewed."
   },
   {
     "number": 93,
@@ -1406,8 +1406,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A double-network hydrogel uses quinone-mediated bonding to adhere to wet tissue. The study tests adhesion on porcine skin and evaluates patch and injectable applications in animal bleeding and incision models.",
-    "source_scope": "The nineteen-page main text, original figures, twenty-three-page supplement, one-page movie description and ordered key scenes from five movies were read. The three-page reporting form, fifty-three-page peer-review file and forty-six Source Data sheets were also examined. Long numerical series were checked through their curves, ranges and representative values; this was not an individual reading of every numerical cell or an independent reanalysis."
+    "summary": "STAT, a quinone-mediated double-network hydrogel, bonded to wet porcine skin at 273 kPa lap-shear strength and stopped mouse liver bleeding within 10 s.",
+    "source_scope": "This summary is based on the full text and figure legends of the open-access article (PMC13287715), the Supplementary Information figure legends and Supplementary Table 1, and selected Source Data sheets; values given as ranges are the individual data points in the Source Data. The supplementary movies, reporting summary and peer review file were not reviewed."
   },
   {
     "number": 94,
@@ -1420,9 +1420,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/094.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
-    "source_level": "abstract",
-    "summary": "A disposable endoscope cap combines polymer brushes with a silicone-oil interface to address fogging and blood or mucus fouling. This introduction draws on repeated-fouling and lubricant-replenishment results in the abstract and supplementary material. These sources do not establish effectiveness in patients.",
-    "source_scope": "This account draws on the publisher-registered Crossref abstract and the official supplementary PDF am6c04312_si_002.pdf: the text on pp. S1–S20, Figures S1–S16 and Tables S1/S2. Detailed main-text Methods and the separate supplementary video were not read; raw data and reproducibility were not reviewed. This defines the evidence used for the account, rather than the article’s complete experimental scope."
+    "source_level": "full_text",
+    "summary": "A single-use endoscope cap with a PDMS brush and silicone oil interface; one sponge refresh restored visual clarity from 84.3 ± 4.8% to 98.9 ± 1.2%.",
+    "source_scope": "This summary is based on the full main text, methods and figure legends of the published article and the text of its supporting information (figure captions S1-S16 and Tables S1-S2); Supplementary Video 1 and values plotted only in figure panels were not reviewed."
   },
   {
     "number": 95,
@@ -1435,9 +1435,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/095.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "This review examines the structural and system design of piezoelectric antibacterial platforms driven by multiple energy sources. Its abstract connects charge separation, external stimulation and AI with wound, implant and localized-infection applications, while highlighting stability and biosafety challenges.",
-    "source_scope": "This account is based on the PubMed abstract available through Europe PMC. The review’s full text, mechanism tables, cited studies and AI validation details were not read."
+    "source_level": "full_text",
+    "summary": "Review of piezoelectric antibacterial platforms driven by multiple energy inputs and AI, covering mechanisms, material design, applications and reporting gaps.",
+    "source_scope": "This summary is based on the full text of the open-access review (PMC13253188), including its tables and figure legends; quantitative examples are reported as the review summarizes them, and the cited primary studies were not checked."
   },
   {
     "number": 96,
@@ -1451,8 +1451,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A porous lubricant reservoir helps maintain a low-friction, attachment-resistant ureteral-stent surface. The study combines artificial-ureter friction tests with tissue and deposit assessments in a noninfected porcine model, which cannot by itself establish infection prevention.",
-    "source_scope": "Selected Europe PMC XML was read: design (sec17), friction and retention methods (sec10), porcine methods (sec13), stability and friction (sec20–21), porcine design (sec25), and histology, deposits, limitations and conclusions (sec27–30). Only selected paragraphs of sec26 were read. Supplementary information was not comprehensively reviewed."
+    "summary": "A ureteral stent whose microporous TPU wall stores silicone oil. Pull-out force was 0.07 ± 0.02 N, 7.9-fold lower than Polaris Ultra, without pre-hydration.",
+    "source_scope": "This summary is based on the full text and figure legends of the open-access article (PMC13355568); supplementary figures, tables and the supplementary movie were not reviewed."
   },
   {
     "number": 97,
@@ -1465,9 +1465,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/097.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "A vision-guided robot prints bioink containing oxygen-generating zein microparticles and human mesenchymal stem cells directly into wounds. The abstract describes hypoxia and immune modulation; the use of human cells does not indicate a clinical trial.",
-    "source_scope": "The Crossref and publisher abstracts and metadata were compared for DOI 10.1002/adfm.77191, published online on 23 July 2026. Main text, supplementary information and spatial-transcriptomic source data were not read."
+    "source_level": "full_text",
+    "summary": "An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm.",
+    "source_scope": "This summary is based on the full text, figure legends and parts of the Methods of the author manuscript on PubMed Central (PMC13668246). Supplementary figures, tables, videos and spatial-transcriptomic source data were not reviewed."
   },
   {
     "number": 98,
@@ -1480,9 +1480,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/098.html",
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "A triple-network hydrogel is designed to fill defects, adhere to tissue and recover its shape. The abstract describes post-crosslinking mechanical training to tune material and biological responses, with evaluation in a bone-regeneration model.",
-    "source_scope": "The Crossref abstract was checked against publisher metadata and the abstract for DOI 10.1002/adma.74385, published online on 1 August 2026. Main text, supplementary information and quantitative experimental conditions were not read."
+    "source_level": "full_text",
+    "summary": "A moldable PVA/gelatin/nanocellulose hydro-dough stopped calvarial sinus bleeding within 50 s and, with bone fragments, reached 34.80% BV/TV at 8 weeks.",
+    "source_scope": "This summary is based on the main text, figure legends and Methods sections 5.1 to 5.9 of the article on Wiley Online Library. Later Methods sections and the supplementary information were not reviewed; the liver hemostasis value follows the Results (about 78%), while the Discussion gives a reduction of over 65%."
   },
   {
     "number": 99,
@@ -1496,8 +1496,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines how adhesive hydrogels can coordinate adhesion, deformation, transport and immune regulation at chronic wounds. It considers how inflammation, exudate and removal injury change with wound stage, shaping when and how each function is needed.",
-    "source_scope": "Selected public XML passages were read: required properties (sec6), the sensing-integration introduction (sec20), future challenges (sec22) and conclusions (sec23). Cited experiments and regulatory assertions were not independently reviewed. Supplementary information was not comprehensively read."
+    "summary": "A review of bioadhesive hydrogels as immunomodulatory interfaces for chronic wounds, grouped into protective, bioactive, stimuli-responsive and sensing designs.",
+    "source_scope": "This summary is based on the full text and Table 1 of the open-access review (PMC13602266); Tables 2 to 4 were reviewed through their headings and the passages that cite them, and the cited primary studies were not read."
   },
   {
     "number": 100,
@@ -1511,8 +1511,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines design strategies that balance wearability with thermoelectric power generation and cooling. It considers how skin contact, deformable electrical connections and heat-transfer paths constrain device-level performance.",
-    "source_scope": "The publisher abstract and selected review sections were read: §1, §§2.1–2.2, §§3.1–3.2, §4.1 and §7, using publisher and public XML versions. This includes the kirigami example in §3.1. Cited original experiments and numerical raw data were not independently reviewed, and supplementary information was not comprehensively read."
+    "summary": "Review of wearable thermoelectric devices that links skin contact, stretchable design and heat-flow paths to performance; Table 4 spans up to 25.34 μW cm−2 K−2.",
+    "source_scope": "This summary is based on the full text, Tables 1–4 and figure legends of the open-access review (PMC13618461). Device values are reported as summarized in the review; the cited primary studies were not consulted."
   },
   {
     "number": 101,
@@ -1526,8 +1526,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines architectures and packaging methods for connecting rigid integrated-circuit chips to deformable circuits. It brings fine-pitch attachment, electrical isolation, adhesion and deformation tolerance into a framework for selecting assembly methods around tissue mechanics and device functions.",
-    "source_scope": "Selected publisher-review material was read: the abstract and introduction; §2 on architectures; §3.1 on adhesion, processing and compatibility; §3.2.4 on signal integrity; §3.3.3 on thermal stress; §§4.1–4.4 on integration and packaging; §5 Conclusion; and the comparison contexts of Tables 2–4 and 7. Cited original experiments and raw data were not comprehensively reviewed. Supporting information was not read."
+    "summary": "Review of packaging rigid IC chips into soft electronics across three architectures and three interface requirements; sub-100 μm fine pitch is the key barrier.",
+    "source_scope": "This summary is based on the full main text, Tables 1–7 and figure captions of the published version, read from a local text copy of the ScienceDirect article. Figure images and the reference list were not reviewed, and device values are reported as summarized in the review."
   },
   {
     "number": 102,
@@ -1540,9 +1540,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/102.html",
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
-    "source_level": "catalogue",
-    "summary": "This paper studies PVA-modified liquid-metal particles for soft electronics. This entry provides the published title and bibliographic details; the experimental methods and performance have not yet been reviewed for a full research summary.",
-    "source_scope": "The publisher record confirms the title, DOI 10.1002/advs.78062, 14 authors and Early View publication on 6 October 2026. This entry is limited to bibliographic information; it does not constitute a review of the scientific abstract, main text, supplementary materials or underlying data."
+    "source_level": "full_text",
+    "summary": "PVA-modified liquid-metal particle ink that conducts as sprayed, giving 1.5 × 10^6 S m−1 without post-treatment and continuity beyond 200% strain.",
+    "source_scope": "This summary is based on the full text, Experimental Section and figure legends of the open-access article (PMC13643113). The supporting information, videos and source data were not reviewed."
   },
   {
     "number": 1,
@@ -2816,8 +2816,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "신경 기록용 유연 섬유에 윤활 계면과 고정화한 뇌유래신경영양인자(BDNF)를 결합해, 비특이적 부착을 억제하면서 신경세포와의 상호작용을 돕습니다. 대표 단일 신경세포 기록은 12개월까지 제시되며, 코팅 유무에 따른 전극별 비교 통계는 별도의 8개월 범위입니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "윤활제 주입층과 BDNF 고정화를 결합한 TAB 코팅을 유연 신경 섬유에 적용해 삽입 하중을 25.2 mN에서 2.94 mN으로 낮추고, 생쥐에서 최대 12개월 단일 뉴런 기록을 보고했습니다.",
+    "source_scope": "이 해설은 공개 논문(PMC12422202)의 본문, 그림 설명, 재료 및 방법을 바탕으로 작성했으며 보충자료는 검토하지 않았습니다. 체외 세포 피복률과 단백질 부착 수치는 서론에 제시된 값이며, 조직학 비교 대부분은 본문에서 수치 없이 상대적 차이로 보고되어 있습니다."
   },
   {
     "number": 86,
@@ -2831,8 +2831,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "유연 OLED를 수분과 산소로부터 보호하면서 굽힘에도 견디게 하는 봉지 전략을 정리한 종설입니다. 박막의 차단 성능, 변형 뒤 생기는 결함, 실제 소자의 열화를 연결해 기존 디스플레이부터 생체 통합 응용까지 살핍니다.",
-    "source_scope": "공개 Wiley 리뷰 중 차단·역학·기기 평가를 다룬 §§3.1–3.3, 바이오전자·실용적 한계를 다룬 §§5.3–5.4, §6의 도입부를 읽었습니다. 인용된 수치 결과와 공정을 각각 검토하지 않았으며 보충자료 전체를 읽은 범위도 아닙니다."
+    "summary": "유리 덮개부터 박막·하이브리드 다층 봉지까지 OLED 봉지 기술을 정리하고, 10−6 g m−2 day−1 수준의 수증기 투과율 요건을 유연·신축·생체전자 응용과 연결한 종설입니다.",
+    "source_scope": "이 해설은 CC BY 4.0 공개 종설의 HTML 본문 1~6절과 표 1~6을 바탕으로 작성했습니다. 그림 설명은 페이지에 표시되지 않아 읽지 못했고, 인용된 원 논문의 수치는 원문과 대조하지 않았습니다."
   },
   {
     "number": 87,
@@ -2846,8 +2846,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "형상기억 합금 니티놀과 고분자 PMMA를 결합해, 유도 가열에 의한 형상 회복과 미세 발포, 모델 물질 방출을 연구합니다. 방출량은 열판에서 미리 발포한 시료를 완충액에 넣어 측정했으며, 체내에서 원격으로 약물을 방출한 시험은 아닙니다.",
-    "source_scope": "출판사 초록, §3 Conclusions, Experimental §§4.1–4.10과 논문 정보를 읽었습니다. Results 전체와 보충자료를 검토한 범위는 아닙니다."
+    "summary": "유도 가열로 니티놀의 형상 회복과 PMMA의 CO2 미세 발포를 함께 일으키는 복합재로, 발포 후 충격 강도가 142% 높아졌고 기공률에 따라 모델 약물 방출을 조절했습니다.",
+    "source_scope": "이 해설은 출판사 사이트에서 읽은 논문 본문(결과 및 고찰, 실험 방법, 표 1, 그림 설명)을 바탕으로 하며, CEM43과 겹치기 전단 데이터가 담긴 보충자료는 검토하지 않았습니다. 충격 강도 증가율은 초록에 143%, 결과에 142%로 기재되어 있습니다."
   },
   {
     "number": 89,
@@ -2861,8 +2861,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "분무 인쇄한 폴리비닐알코올·액체금속 패치로 상처에 전기 자극을 전달하는 연구입니다. 대식세포 실험에서 자극 조건을 살핀 뒤 제1형 당뇨 생쥐의 상처와 염증 지표를 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "분무 인쇄한 PVA/액체금속 패치로 선별한 전기 자극을 당뇨 생쥐 상처에 전달해, 3일째 남은 상처 면적이 무처치 66.8%에 비해 23.4%로 작았습니다.",
+    "source_scope": "이 해설은 CC BY 4.0으로 게재된 논문 게재본(17쪽)의 본문, 그림 설명, 방법을 바탕으로 작성했으며 보충자료(Figure S1–S25)와 원자료는 검토하지 않았습니다."
   },
   {
     "number": 90,
@@ -2876,8 +2876,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "서로 접착한 실리콘·파릴렌 C 층으로 물과 이온의 침투를 줄이고, 바깥쪽 윤활 계면으로 생물학적 오염 부착을 줄이도록 설계한 이식형 소자 보호층입니다. 완충액에서 전기 절연을 평가하고 7일 피하 이식에서 조직 반응을 살폈습니다.",
-    "source_scope": "이 해설은 게재본 PDF 1–3·7–12쪽(9–12쪽 포함)의 본문, 결론, 누설전류 방법 가운데 관련 부분을 바탕으로 합니다. 본문 전체와 보충자료 전체를 검토한 범위는 아닙니다."
+    "summary": "실리콘·파릴렌 C 다층과 오일 함침 외층으로 구성한 이식형 소자 봉지층으로, 파릴렌 C 대비 접착 강도 86배, 85 °C 가속 시험의 절연 수명 160배를 보였습니다.",
+    "source_scope": "이 해설은 Small 게재본(15쪽)의 본문, 그림 설명, 방법을 바탕으로 작성했습니다. 보충자료(Figure S1–S8)는 검토하지 않았으며, 37 °C 기준 445시간 추정의 산출 근거는 본문에서 확인하지 못했습니다."
   },
   {
     "number": 91,
@@ -2891,8 +2891,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "폴리비닐알코올·알지네이트 하이드로젤에 황산염과 칼슘 이온을 처리하는 순서를 바꿔, 센서 계면의 강도와 분석물 이동을 조절합니다. 같은 이온을 쓰더라도 망상 구조와 기공이 형성되는 순서에 따라 기계적 특성과 확산 경로가 달라지는 점을 살핍니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "황산염과 칼슘 이온의 처리 순서로 PVA–알지네이트 하이드로젤의 기공을 65 nm–2.5 µm 범위에서 조절해, 땀과 간질액용 포도당 센서의 측정 범위를 맞췄습니다.",
+    "source_scope": "이 해설은 오픈 액세스 논문의 본문과 그림 설명(PMC13040517)을 바탕으로 하며, 본문에서 인용한 보충 그림과 표가 담긴 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 92,
@@ -2906,8 +2906,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "담도 스텐트에 폴리도파민 기반 고정층과 불소계 윤활 계면을 더해 담즙 찌꺼기와 생물막의 부착을 줄이는 연구입니다. 생쥐 담낭의 시편 오염과 토끼 총담관의 스텐트 개통성을 서로 다른 동물시험에서 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "폴리도파민으로 고정한 윤활제 주입형 스텐트 코팅 ELFS는 토끼 총담관에서 스텐트를 2개월간 개통 상태로 유지했고, 코팅하지 않은 스텐트는 완전히 막혔습니다.",
+    "source_scope": "이 해설은 오픈 액세스 논문의 본문과 그림 설명(PMC12924897)을 바탕으로 하며, 본문에서 인용한 보충 그림이 포함된 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 93,
@@ -2921,8 +2921,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "퀴논을 매개로 젖은 조직과 결합하도록 설계한 이중 네트워크 하이드로젤입니다. 돼지 피부의 접착 시험과 동물의 출혈·절개 모델에서 패치 및 주입 형태의 적용을 평가했습니다.",
-    "source_scope": "본문 19쪽과 원그림, 보충 PDF 23쪽, 영상 설명 1쪽 및 영상 5개의 시간순 주요 장면을 참고했습니다. 보고 양식 3쪽, 공개 심사자료 53쪽과 Source Data 46개 시트도 살펴봤습니다. 긴 수치열은 곡선·범위·대표값을 대조했으며, 모든 숫자 셀의 개별 육안 판독이나 원자료의 독립 재분석은 수행하지 않았습니다."
+    "summary": "퀴논 매개 이중 네트워크 하이드로젤 STAT은 젖은 돼지 피부에 273 kPa의 전단 접착 강도를 보였고, 생쥐 간 천자 모델에서 10초 이내에 지혈했습니다.",
+    "source_scope": "이 해설은 오픈 액세스 논문의 본문과 그림 설명(PMC13287715), 보충정보의 그림 설명과 Supplementary Table 1, 일부 Source Data 시트를 바탕으로 하며, 범위로 제시한 수치는 Source Data의 개별 측정값입니다. 보충 영상, 보고 양식, 심사자료는 검토하지 않았습니다."
   },
   {
     "number": 94,
@@ -2935,9 +2935,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/094.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
-    "source_level": "abstract",
-    "summary": "일회용 내시경 캡에 고분자 브러시와 실리콘오일 계면을 만들어 김 서림과 혈액·점액 오염으로 시야가 가려지는 문제를 다룹니다. 이 소개는 초록과 보충자료의 반복 오염 시험과 윤활유 보충 결과를 바탕으로 하며, 이 자료만으로 환자에서의 효과를 판단할 수는 없습니다.",
-    "source_scope": "이 해설은 출판사가 Crossref에 등록한 초록과 공식 보충 PDF am6c04312_si_002.pdf의 S1–S20쪽 텍스트, Figures S1–S16, Tables S1/S2를 바탕으로 합니다. 상세 본문 Methods와 별도 보충영상은 읽지 않았으며, 원자료와 재현성도 검토하지 않았습니다. 이는 해설의 근거 범위이며 논문의 전체 실험 범위를 뜻하지는 않습니다."
+    "source_level": "full_text",
+    "summary": "PDMS 브러시와 실리콘 오일 계면을 적용한 일회용 내시경 캡입니다. 스펀지로 한 번 보충하자 시야 선명도가 84.3 ± 4.8%에서 98.9 ± 1.2%로 회복되었습니다.",
+    "source_scope": "이 해설은 출판된 논문의 본문, 방법, 그림 설명 전체와 보충자료 텍스트(그림 S1~S16 설명, 표 S1~S2)를 바탕으로 하며, 보충 영상 1과 그림 패널에만 표시된 수치는 검토하지 않았습니다."
   },
   {
     "number": 95,
@@ -2950,9 +2950,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/095.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "여러 에너지원으로 구동하는 압전 항균 재료의 구조 설계와 시스템 구성을 다룬 종설입니다. 초록은 전하 분리, 외부 자극, 인공지능의 활용을 상처·이식체·국소 감염 응용과 연결하며, 안정성과 생체 안전성을 남은 과제로 제시합니다.",
-    "source_scope": "Europe PMC에서 제공한 PubMed 초록에 바탕을 둡니다. 리뷰 본문, 기전 표, 인용 연구, 인공지능 검증의 상세 조건은 읽지 않았습니다."
+    "source_level": "full_text",
+    "summary": "여러 에너지원과 인공지능을 결합한 압전 항균 플랫폼의 기전, 소재 설계, 응용, 보고 기준의 공백을 정리한 종설입니다.",
+    "source_scope": "이 해설은 공개 종설(PMC13253188)의 본문 전체와 표·그림 설명을 바탕으로 하며, 정량 사례는 종설이 요약한 값을 옮긴 것이고 인용된 원 연구는 확인하지 않았습니다."
   },
   {
     "number": 96,
@@ -2966,8 +2966,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "윤활액을 저장하고 보충하는 다공성 층으로 요관 스텐트의 마찰과 부착을 줄이는 연구입니다. 인공 요관의 마찰 시험과 비감염 돼지 이식에서 조직 반응·침착물을 평가했으며, 이 동물시험만으로 감염 예방 효과를 판단할 수는 없습니다.",
-    "source_scope": "Europe PMC XML에서 설계(sec17), 마찰·유지 방법(sec10), 돼지 방법(sec13), 안정성·마찰(sec20–21), 돼지 실험 설계(sec25), 조직학·침착·한계·결론(sec27–30)을 읽었습니다. sec26은 전체가 아닌 일부 문단만 읽었습니다. 보충자료 전체를 검토한 범위는 아닙니다."
+    "summary": "미세다공성 TPU 벽에 실리콘 오일을 저장한 요관 스텐트입니다. 사전 수화 없이 인공 요관 인출력 0.07 ± 0.02 N으로 Polaris Ultra보다 7.9배 낮았습니다.",
+    "source_scope": "이 해설은 공개 논문(PMC13355568)의 본문 전체와 그림 설명을 바탕으로 하며, 보충 그림·표와 보충 영상은 검토하지 않았습니다."
   },
   {
     "number": 97,
@@ -2980,9 +2980,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/097.html",
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "산소를 발생시키는 제인 미세입자와 사람 중간엽 줄기세포를 담은 바이오잉크를 시각 유도 로봇으로 상처에 직접 인쇄하는 접근입니다. 초록은 저산소와 면역 환경 조절을 함께 다루지만, 사람 세포를 사용했다는 사실이 환자 대상 시험을 뜻하지는 않습니다.",
-    "source_scope": "2026년 7월 23일 온라인 공개된 DOI 10.1002/adfm.77191의 Crossref·출판사 초록과 메타데이터를 대조했습니다. 본문, 보충자료, 공간전사체 원자료는 읽지 않았습니다."
+    "source_level": "full_text",
+    "summary": "산소 발생 미세입자와 인간 중간엽줄기세포를 담은 콜로이드 바이오잉크를 영상 유도 로봇이 당뇨 생쥐 상처에 직접 출력해, 10일간 Tegaderm보다 상처 봉합을 앞당겼습니다.",
+    "source_scope": "이 해설은 PubMed Central에 공개된 저자 원고(PMC13668246)의 본문 전체, 그림 설명, 방법의 일부를 바탕으로 하며, 보충 그림·표·영상과 공간전사체 원자료는 검토하지 않았습니다."
   },
   {
     "number": 98,
@@ -2995,9 +2995,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/098.html",
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "삼중 네트워크 하이드로젤로 결손 부위를 채우고 조직 접착과 형상 회복을 함께 구현하려는 연구입니다. 초록은 가교 뒤 기계적 훈련으로 재료와 생물학적 반응을 조절하고 골 재생 모델에서 평가한 접근을 소개합니다.",
-    "source_scope": "2026년 8월 1일 온라인 공개된 DOI 10.1002/adma.74385의 Crossref 초록을 출판사 메타데이터·초록과 대조했습니다. 본문, 보충자료, 정량적인 실험 조건은 읽지 않았습니다."
+    "source_level": "full_text",
+    "summary": "PVA·젤라틴·셀룰로오스 나노결정으로 만든 반죽형 하이드로젤로, 쥐 두개골 결손에서 정맥동 출혈을 50초 안에 멈추고 골편과 함께 8주 후 골부피 분율 34.80%에 도달했습니다.",
+    "source_scope": "이 해설은 Wiley Online Library에 게재된 논문의 본문, 그림 설명, 방법 5.1–5.9를 바탕으로 하며, 이후 방법 소절과 보충 자료는 검토하지 않았습니다. 간 지혈 수치는 결과의 약 78%를 따랐으며, 고찰에는 65% 이상 감소로 적혀 있습니다."
   },
   {
     "number": 99,
@@ -3011,8 +3011,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "만성 상처에 붙이는 하이드로젤이 접착, 변형, 물질 이동, 면역 반응을 함께 조절하는 방법을 정리한 종설입니다. 상처 단계에 따라 달라지는 염증과 삼출액, 제거 시 조직 손상을 고려해 각 기능을 언제 어떻게 작동시킬지 살핍니다.",
-    "source_scope": "공개 XML에서 요구 특성(sec6), 감지 통합의 도입부(sec20), 향후 과제(sec22), 결론(sec23)을 읽었습니다. 인용 실험과 규제 관련 서술은 독립적으로 검토하지 않았으며 보충자료 전체를 읽은 범위도 아닙니다."
+    "summary": "생체접착 하이드로젤을 만성 상처의 면역 조절 계면으로 보고, 보호·밀봉형부터 감지 통합형까지 네 가지 설계 전략으로 정리한 종설입니다.",
+    "source_scope": "이 해설은 공개 종설(PMC13602266)의 본문 전체와 표 1을 바탕으로 하며, 표 2–4는 제목·열 항목과 이를 인용한 본문으로 확인했고 인용된 원 연구는 읽지 않았습니다."
   },
   {
     "number": 100,
@@ -3026,8 +3026,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "몸에 붙이는 열전 소자의 발전·냉각 성능과 착용성을 함께 높이는 설계 전략을 정리한 종설입니다. 피부와의 접촉, 변형 가능한 전기 연결, 열을 전달하고 내보내는 경로가 기기 전체의 성능을 어떻게 제한하는지 살핍니다.",
-    "source_scope": "출판사와 공개 XML 판본에서 초록, §1, §§2.1–2.2, §§3.1–3.2, §4.1, §7을 읽었으며 §3.1의 키리가미 사례를 포함합니다. 인용된 원실험과 정량 원자료는 독립적으로 검토하지 않았고 보충자료 전체를 읽은 범위도 아닙니다."
+    "summary": "피부 접촉, 신축 구조, 열 흐름 경로가 착용형 열전 소자의 성능을 좌우하는 방식을 정리한 종설로, Table 4의 정규화 출력은 최대 25.34 μW cm−2 K−2입니다.",
+    "source_scope": "이 해설은 공개 종설(PMC13618461)의 본문, Table 1–4, 그림 설명을 바탕으로 작성했습니다. 소자 수치는 종설이 정리한 값을 옮긴 것이며, 인용된 원연구는 따로 확인하지 않았습니다."
   },
   {
     "number": 101,
@@ -3041,8 +3041,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "단단한 집적회로 칩을 변형 가능한 회로에 연결하는 구조와 패키징 방법을 정리한 종설입니다. 미세 간격 접합, 전기 절연, 접착과 변형 내성을 함께 살펴 조직의 움직임과 필요한 기능에 맞는 조립 방식을 선택하는 틀을 제시합니다.",
-    "source_scope": "출판사 리뷰의 초록·서론, 구조를 다룬 §2, 접착·공정·호환성의 §3.1, 신호 무결성의 §3.2.4, 열응력의 §3.3.3, 통합·패키징의 §§4.1–4.4, §5 결론, Tables 2–4·7의 비교 맥락을 읽었습니다. 인용된 원실험과 원자료 전체를 검토한 것은 아니며 보충자료는 읽지 않았습니다."
+    "summary": "단단한 IC 칩을 연성 전자소자에 패키징하는 방법을 세 가지 구조와 세 가지 계면 요건으로 정리한 종설로, 100 μm 미만 미세 피치를 핵심 과제로 제시합니다.",
+    "source_scope": "이 해설은 ScienceDirect 출판본을 저장한 로컬 텍스트 사본으로 본문 전체, Table 1–7, 그림 설명을 읽고 작성했습니다. 그림 이미지와 참고문헌 목록은 검토하지 않았으며, 소자 수치는 종설이 정리한 값을 옮긴 것입니다."
   },
   {
     "number": 102,
@@ -3055,8 +3055,8 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/102.html",
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
-    "source_level": "catalogue",
-    "summary": "폴리비닐알코올(PVA)로 개질한 액체금속 입자를 이용해 연성 전자소자를 만드는 연구입니다. 정식 제목과 출판 정보를 소개하며, 실험 방법과 성능에 대한 본문 해설은 아직 제공하지 않습니다.",
-    "source_scope": "출판사의 정식 제목, DOI 10.1002/advs.78062, 14인 저자 목록과 2026년 10월 6일 Early View 게재 정보를 확인했습니다. 이 소개는 서지 정보에 한정하며, 과학 초록·본문·보충자료와 원자료의 검토를 뜻하지 않습니다."
+    "source_level": "full_text",
+    "summary": "분사 인쇄 중 전도성을 띠는 PVA 개질 액체금속 입자 잉크로, 후처리 없이 1.5 × 10^6 S m−1의 전도도와 200% 이상 변형에서 전기적 연속성을 보였습니다.",
+    "source_scope": "이 해설은 공개 논문(PMC13643113)의 본문, Experimental Section, 그림 설명을 바탕으로 작성했습니다. 보충자료, 동영상, 원자료는 검토하지 않았습니다."
   }
 ]

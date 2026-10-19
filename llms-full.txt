@@ -8,8 +8,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/advs.78062
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/102.html
 - Theme: Stretchable conductors and interconnects
-- Summary: This paper studies PVA-modified liquid-metal particles for soft electronics. This entry provides the published title and bibliographic details; the experimental methods and performance have not yet been reviewed for a full research summary.
-- Source scope: The publisher record confirms the title, DOI 10.1002/advs.78062, 14 authors and Early View publication on 6 October 2026. This entry is limited to bibliographic information; it does not constitute a review of the scientific abstract, main text, supplementary materials or underlying data.
+- Summary: PVA-modified liquid-metal particle ink that conducts as sprayed, giving 1.5 × 10^6 S m−1 without post-treatment and continuity beyond 200% strain.
+- Source scope: This summary is based on the full text, Experimental Section and figure legends of the open-access article (PMC13643113). The supporting information, videos and source data were not reviewed.
 
 ## #101 Bridging IC chips and deformable circuits: A packaging framework for high-density soft electronics
 - Authors: Yurim Lee, Yeontaek Lee, Siyeon Park, Hyein Ham, Hanbit Jang, Yunmin Jung, Sooin Lee, Jungmok Seo
@@ -17,8 +17,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.mser.2026.101285
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/101.html
 - Theme: Device integration and packaging
-- Summary: This review examines architectures and packaging methods for connecting rigid integrated-circuit chips to deformable circuits. It brings fine-pitch attachment, electrical isolation, adhesion and deformation tolerance into a framework for selecting assembly methods around tissue mechanics and device functions.
-- Source scope: Selected publisher-review material was read: the abstract and introduction; §2 on architectures; §3.1 on adhesion, processing and compatibility; §3.2.4 on signal integrity; §3.3.3 on thermal stress; §§4.1–4.4 on integration and packaging; §5 Conclusion; and the comparison contexts of Tables 2–4 and 7. Cited original experiments and raw data were not comprehensively reviewed. Supporting information was not read.
+- Summary: Review of packaging rigid IC chips into soft electronics across three architectures and three interface requirements; sub-100 μm fine pitch is the key barrier.
+- Source scope: This summary is based on the full main text, Tables 1–7 and figure captions of the published version, read from a local text copy of the ScienceDirect article. Figure images and the reference list were not reviewed, and device values are reported as summarized in the review.
 
 ## #100 Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance
 - Authors: Yurim Lee, Hyein Ham, Siyeon Park, Hanbit Jang, Seungwan Hong, Jungmok Seo
@@ -26,8 +26,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smsc.70402
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/100.html
 - Theme: Device integration and packaging
-- Summary: This review examines design strategies that balance wearability with thermoelectric power generation and cooling. It considers how skin contact, deformable electrical connections and heat-transfer paths constrain device-level performance.
-- Source scope: The publisher abstract and selected review sections were read: §1, §§2.1–2.2, §§3.1–3.2, §4.1 and §7, using publisher and public XML versions. This includes the kirigami example in §3.1. Cited original experiments and numerical raw data were not independently reviewed, and supplementary information was not comprehensively read.
+- Summary: Review of wearable thermoelectric devices that links skin contact, stretchable design and heat-flow paths to performance; Table 4 spans up to 25.34 μW cm−2 K−2.
+- Source scope: This summary is based on the full text, Tables 1–4 and figure legends of the open-access review (PMC13618461). Device values are reported as summarized in the review; the cited primary studies were not consulted.
 
 ## #99 Bioadhesive hydrogels as immunomodulatory interfaces for chronic wound healing: from microenvironmental regulation mechanism to engineering strategies
 - Authors: Kayoung Son, Soo A Kim, Minkyong Kang, Yejin Jo, Chansoo Kim, Kijun Park, Yunmin Jung, Tae Young Kim, Jungmok Seo
@@ -35,8 +35,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1093/burnst/tkag055
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/099.html
 - Theme: Biological responses and surface design
-- Summary: This review examines how adhesive hydrogels can coordinate adhesion, deformation, transport and immune regulation at chronic wounds. It considers how inflammation, exudate and removal injury change with wound stage, shaping when and how each function is needed.
-- Source scope: Selected public XML passages were read: required properties (sec6), the sensing-integration introduction (sec20), future challenges (sec22) and conclusions (sec23). Cited experiments and regulatory assertions were not independently reviewed. Supplementary information was not comprehensively read.
+- Summary: A review of bioadhesive hydrogels as immunomodulatory interfaces for chronic wounds, grouped into protective, bioactive, stimuli-responsive and sensing designs.
+- Source scope: This summary is based on the full text and Table 1 of the open-access review (PMC13602266); Tables 2 to 4 were reviewed through their headings and the passages that cite them, and the cited primary studies were not read.
 
 ## #98 Play‐Doh Inspired a Transformative, Shape‐Adaptive iHEÄLS Enabling Post‐Crosslinking Mechanical‐Biological Modulation and Its Effectiveness in Musculoskeletal Repair
 - Authors: Niyou Wang, Chao Liang, Soo A Kim, Jessica Heline Lopes da Fonseca, María José Veana Hernandez, Zahra Rezaei, Alvaro Dario Martinez Blanco, Nicole Joy Bassous, Da Seul Kim, Yejin Jo, Tae Young Kim, Yipei Yang, Ziqi Huang, Siyuan Chen, Feiming Li, Marcos Akira dAvila, June-Seo Kim, Misun Kang, Jungmok Seo, Sang Jin Lee, Su Ryon Shin
@@ -44,8 +44,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.74385
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/098.html
 - Theme: Materials in contact with tissue
-- Summary: A triple-network hydrogel is designed to fill defects, adhere to tissue and recover its shape. The abstract describes post-crosslinking mechanical training to tune material and biological responses, with evaluation in a bone-regeneration model.
-- Source scope: The Crossref abstract was checked against publisher metadata and the abstract for DOI 10.1002/adma.74385, published online on 1 August 2026. Main text, supplementary information and quantitative experimental conditions were not read.
+- Summary: A moldable PVA/gelatin/nanocellulose hydro-dough stopped calvarial sinus bleeding within 50 s and, with bone fragments, reached 34.80% BV/TV at 8 weeks.
+- Source scope: This summary is based on the main text, figure legends and Methods sections 5.1 to 5.9 of the article on Wiley Online Library. Later Methods sections and the supplementary information were not reviewed; the liver hemostasis value follows the Results (about 78%), while the Discussion gives a reduction of over 65%.
 
 ## #97 Immune‐Responsive Bioinks Enable Vision‐Guided in Situ Robotic Bioprinting to Accelerate Diabetic Wound Healing
 - Authors: Seol-Ha Jeong, Eleftheria-Angeliki Valsami, Ki-Tae Kim, Kijun Park, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, Soo A Kim, Jungmok Seo, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, Yejin Jo, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim, Georgios Theocharidis, Su Ryon Shin
@@ -53,8 +53,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.77191
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/097.html
 - Theme: Biological responses and surface design
-- Summary: A vision-guided robot prints bioink containing oxygen-generating zein microparticles and human mesenchymal stem cells directly into wounds. The abstract describes hypoxia and immune modulation; the use of human cells does not indicate a clinical trial.
-- Source scope: The Crossref and publisher abstracts and metadata were compared for DOI 10.1002/adfm.77191, published online on 23 July 2026. Main text, supplementary information and spatial-transcriptomic source data were not read.
+- Summary: An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm.
+- Source scope: This summary is based on the full text, figure legends and parts of the Methods of the author manuscript on PubMed Central (PMC13668246). Supplementary figures, tables, videos and spatial-transcriptomic source data were not reviewed.
 
 ## #96 Lubricious anti-adhesive interface prevents friction, biofilm, and encrustation in long-term indwelling ureteral stents
 - Authors: Yejin Jo, Yeontaek Lee, Sungun Bang, Kayoung Son, Kijun Park, Dokyun Kim, Soo A Kim, Seonghyeon Eom, Inhee Choi, Su-Jin Shin, Kyo Chul Koo, Jungmok Seo
@@ -62,8 +62,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.mtbio.2026.103405
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/096.html
 - Theme: Biological responses and surface design
-- Summary: A porous lubricant reservoir helps maintain a low-friction, attachment-resistant ureteral-stent surface. The study combines artificial-ureter friction tests with tissue and deposit assessments in a noninfected porcine model, which cannot by itself establish infection prevention.
-- Source scope: Selected Europe PMC XML was read: design (sec17), friction and retention methods (sec10), porcine methods (sec13), stability and friction (sec20–21), porcine design (sec25), and histology, deposits, limitations and conclusions (sec27–30). Only selected paragraphs of sec26 were read. Supplementary information was not comprehensively reviewed.
+- Summary: A ureteral stent whose microporous TPU wall stores silicone oil. Pull-out force was 0.07 ± 0.02 N, 7.9-fold lower than Polaris Ultra, without pre-hydration.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC13355568); supplementary figures, tables and the supplementary movie were not reviewed.
 
 ## #95 Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis
 - Authors: Jiaqi Liu, Jun Li, Huiyan Sun, Jungmok Seo, Yanmei Zhang, Yunlong Yu
@@ -71,8 +71,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.mtbio.2026.103299
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/095.html
 - Theme: Biological responses and surface design
-- Summary: This review examines the structural and system design of piezoelectric antibacterial platforms driven by multiple energy sources. Its abstract connects charge separation, external stimulation and AI with wound, implant and localized-infection applications, while highlighting stability and biosafety challenges.
-- Source scope: This account is based on the PubMed abstract available through Europe PMC. The review’s full text, mechanism tables, cited studies and AI validation details were not read.
+- Summary: Review of piezoelectric antibacterial platforms driven by multiple energy inputs and AI, covering mechanisms, material design, applications and reporting gaps.
+- Source scope: This summary is based on the full text of the open-access review (PMC13253188), including its tables and figure legends; quantitative examples are reported as the review summarizes them, and the cited primary studies were not checked.
 
 ## #94 Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling
 - Authors: Kayoung Son, Yeontaek Lee, Kyungwon Lee, Yejin Jo, Yurim Lee, Seung Hyun Lee, Min Young Seo, Jung Seung Lee, Seung Ah Lee, Seung-No Hong, Seung Hoon Lee, Jungmok Seo
@@ -80,8 +80,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.6c04312
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/094.html
 - Theme: Biological responses and surface design
-- Summary: A disposable endoscope cap combines polymer brushes with a silicone-oil interface to address fogging and blood or mucus fouling. This introduction draws on repeated-fouling and lubricant-replenishment results in the abstract and supplementary material. These sources do not establish effectiveness in patients.
-- Source scope: This account draws on the publisher-registered Crossref abstract and the official supplementary PDF am6c04312_si_002.pdf: the text on pp. S1–S20, Figures S1–S16 and Tables S1/S2. Detailed main-text Methods and the separate supplementary video were not read; raw data and reproducibility were not reviewed. This defines the evidence used for the account, rather than the article’s complete experimental scope.
+- Summary: A single-use endoscope cap with a PDMS brush and silicone oil interface; one sponge refresh restored visual clarity from 84.3 ± 4.8% to 98.9 ± 1.2%.
+- Source scope: This summary is based on the full main text, methods and figure legends of the published article and the text of its supporting information (figure captions S1-S16 and Tables S1-S2); Supplementary Video 1 and values plotted only in figure panels were not reviewed.
 
 ## #93 Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion
 - Authors: Tae Young Kim, Kayoung Son, Chang-Hwan Moon, Keun-Young Yook, Soo A Kim, Hyein Ham, Yurim Lee, Soo In Lee, Yejin Jo, Yunlong Yu, Dae-Hyun Kim, Jungmok Seo
@@ -89,8 +89,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/s41467-026-72068-6
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/093.html
 - Theme: Materials in contact with tissue
-- Summary: A double-network hydrogel uses quinone-mediated bonding to adhere to wet tissue. The study tests adhesion on porcine skin and evaluates patch and injectable applications in animal bleeding and incision models.
-- Source scope: The nineteen-page main text, original figures, twenty-three-page supplement, one-page movie description and ordered key scenes from five movies were read. The three-page reporting form, fifty-three-page peer-review file and forty-six Source Data sheets were also examined. Long numerical series were checked through their curves, ranges and representative values; this was not an individual reading of every numerical cell or an independent reanalysis.
+- Summary: STAT, a quinone-mediated double-network hydrogel, bonded to wet porcine skin at 273 kPa lap-shear strength and stopped mouse liver bleeding within 10 s.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC13287715), the Supplementary Information figure legends and Supplementary Table 1, and selected Source Data sheets; values given as ranges are the individual data points in the Source Data. The supplementary movies, reporting summary and peer review file were not reviewed.
 
 ## #92 Slippery dopamine–fluoropolymer hybrid surface for improving biliary stent longevity
 - Authors: Tae Young Kim, Won-Jong Lee, Yurim Lee, Seo Jung Kim, Sungjin Min, Seyong Chung, Soo A Kim, Keun-Young Yook, Chang-Hwan Moon, Yeontaek Lee, Kijun Park, Dae-Hyun Kim, Jungmok Seo
@@ -98,8 +98,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.bioactmat.2026.02.003
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/092.html
 - Theme: Biological responses and surface design
-- Summary: A polydopamine-anchored, fluorinated lubricating interface is designed to reduce sludge and biofilm accumulation on biliary stents. The study evaluates fouling on fragments in mouse gallbladders separately from stent patency in rabbit common bile ducts.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: ELFS, a polydopamine-anchored lubricant-infused stent coating, kept rabbit bile duct stents open for 2 months while uncoated stents became fully occluded.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC12924897); the supplementary data, which include several of the cited supplementary figures, were not reviewed.
 
 ## #91 Ion‑Mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors
 - Authors: Dongwook Lee, Soo A Kim, Beom‐Jun Shim, Yurim Lee, Tae Young Kim, Sunghyun Park, Yeontaek Lee, Hyeong Gyu Choi, Kayoung Son, Su Bin Han, Keun-Young Yook, Seo Jung Kim, Won-Yong Lee, Jungmok Seo, Jayoung Kim
@@ -107,8 +107,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.202515767
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/091.html
 - Theme: Materials in contact with tissue
-- Summary: Changing the order of sulfate and calcium treatments tunes the mechanics and analyte transport of poly(vinyl alcohol)–alginate sensor interfaces. The study examines how the sequence of network and pore formation changes strength and diffusion pathways, even when the ions are the same.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: Sulfate and calcium treatment order tuned PVA–alginate hydrogel pores from 65 nm to 2.5 µm, setting glucose sensor ranges for sweat and interstitial fluid.
+- Source scope: This summary is based on the full text and figure legends of the open-access article (PMC13040517); the Supporting Information, which contains several of the cited supplementary figures and tables, was not reviewed.
 
 ## #90 Mechanically Robust and Anti‐Biofouling Hybrid Encapsulation via Layered Organic–Liquid Interfaces for Implantable Devices
 - Authors: Sangwoo Park, Kijun Park, Tae Young Kim, Yejin Jo, Jangho Kim, Kayoung Son, Hayoung Choi, Myoung-Ryul Ok, Su Ryon Shin, Jungmok Seo
@@ -116,8 +116,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smll.202510949
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/090.html
 - Theme: Device integration and packaging
-- Summary: Bonded silicone and Parylene C layers protect implantable devices against water and ion ingress, while an outer lubricated interface addresses biofouling. The study evaluates electrical isolation in buffer and tissue responses after seven days of subcutaneous implantation.
-- Source scope: This account draws on selected text, conclusions and leakage-current methods on pp. 1–3 and 7–12 of the published PDF, including pp. 9–12. It is not a complete review of the main text or supplementary information.
+- Summary: A bonded silicone/Parylene C multilayer with an oil-infused surface gave 86-fold higher adhesion than Parylene C and 160-fold longer insulation life at 85 °C.
+- Source scope: This summary is based on the main text, figure legends and Methods of the published version of record in Small (15 pages); the supporting information (Figures S1–S8) was not reviewed, and the derivation of the 445 h estimate at 37 °C was not found in the main text.
 
 ## #89 Optimized Electrical Stimulation Using a Spray‐Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice
 - Authors: Jung Hyun Kim, Soo A Kim, Seung Hyun Lee, Young Min Jeon, Kijun Park, Minkyong Kang, Sangwon Kim, Tae Young Kim, Yeontaek Lee, Chun Gwon Park, Jungmok Seo, Jung Seung Lee
@@ -125,8 +125,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adhm.202504939
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/089.html
 - Theme: Biological responses and surface design
-- Summary: A spray-printed poly(vinyl alcohol)–liquid-metal patch delivers electrical stimulation to wounds. The study screens stimulation conditions in macrophage experiments, then evaluates wound and inflammatory responses in mice with induced type 1 diabetes.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A spray-printed PVA/liquid-metal patch delivered screened stimulation to diabetic mouse wounds, leaving 23.4% wound area at day 3 versus 66.8% untreated.
+- Source scope: This summary is based on the main text, figure legends and Methods of the published CC BY 4.0 version of record (17 pages); the supporting information (Figures S1–S25) and source data were not reviewed.
 
 ## #88 Omniphobic Polymer/Graphene Oxide-Coated PVDF Membrane for Stable Membrane Distillation in Surfactant-Containing Seawater
 - Authors: Jiwon Kim, Kwang-Duck Park, Jungmok Seo, Yun Chul Woo, Dae Woo Kim
@@ -134,8 +134,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsenvironau.5c00199
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/088.html
 - Theme: Biological responses and surface design
-- Summary: This study coats commercial PVDF membranes with graphene oxide and then perfluoropolyether (PFPE) so that membrane-distillation membranes resist wetting in surfactant-containing seawater. The abstract reports more than 99.7% NaCl rejection and more than 15 LMH water flux during long-term operation.
-- Source scope: Based on the DOI-matched PubMed abstract (PMID 41583865). The PMC main text, supplementary information and original figures were not reviewed. This is water-treatment membrane research and does not address biological applications.
+- Summary: A graphene oxide and perfluoropolyether coating on PVDF kept salt rejection above 99.7% at 15.4 LMH flux for 24 h of distillation with 0.4 mM surfactant.
+- Source scope: This summary is based on the full text, figure captions and Table 1 of the open-access article retrieved from Europe PMC (PMC12828614); the supporting information was not reviewed.
 
 ## #87 A Remotely Actuated Multifunctional Nitinol–PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release
 - Authors: Donghwan Lim, Jaehoo Kim, Tae Young Kim, Jiwon Kwon, Jaewoo Kim, Jungmok Seo, Yong Hoon Jang, Sung Woon Cha, and Jun Young Yoon
@@ -143,8 +143,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.5c19771
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/087.html
 - Theme: Device integration and packaging
-- Summary: A Nitinol–PMMA composite combines induction-heated shape recovery, microcellular foaming and release of a model agent. Quantified release was measured in buffer after specimens were prefoamed on a hot plate, not through remotely triggered drug release inside the body.
-- Source scope: The publisher abstract, §3 Conclusions and Experimental §§4.1–4.10 were read, together with article information. The complete Results section and supplementary information were not reviewed.
+- Summary: Nitinol–PMMA composite in which induction heating drives shape recovery and CO2 foaming; foaming raised impact strength by 142% and tuned model drug release.
+- Source scope: This summary is based on the full text of the article on the publisher's site (Results and Discussion, Experimental Section, Table 1 and figure captions); the Supporting Information, which holds the CEM43 and lap-shear data, was not reviewed, and the impact strength gain is given as 143% in the abstract and 142% in the Results.
 
 ## #86 Encapsulation Strategies for OLEDs: From Conventional Devices to Flexible and Biointegrated Applications
 - Authors: Jangho Kim, Sangwoo Park, Tae Young Kim, Yejin Jo, Kijun Park, Jungmok Seo
@@ -152,8 +152,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/aelm.202500475
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/086.html
 - Theme: Device integration and packaging
-- Summary: This review examines encapsulation strategies that protect flexible OLEDs from moisture and oxygen while accommodating bending. It connects film-barrier properties, deformation-induced defects and operating-device degradation across conventional displays and biointegrated applications.
-- Source scope: The public Wiley review was read selectively: §§3.1–3.3 on barrier, mechanical and device evaluation; §§5.3–5.4 on bioelectronics and practical limits; and the opening of §6. Cited numerical results and processes were not individually reviewed, and supplementary information was not comprehensively read.
+- Summary: Review of OLED encapsulation from glass lids to thin-film hybrid multilayers, linking WVTR targets near 10−6 g m−2 day−1 to flexible and bioelectronic devices.
+- Source scope: This summary is based on the full HTML text of the open-access review (CC BY 4.0), Sections 1 to 6 and Tables 1 to 6. Figure captions were not displayed on the page and were not read, and the cited primary studies were not checked against their original reports.
 
 ## #85 Bioadaptive liquid-infused multifunctional fibers for long-term neural recording via BDNF stabilization and enhanced neural interaction
 - Authors: Tae Young Kim, Yeonzu Son, Keun-Young Yook, Dong Gyu Lee, Young Kim, Seo Jung Kim, Kijun Park, Yurim Lee, Tae Kyung Lee, Justin J. Chung, Congqi Yang, Seongjun Park, Jungmok Seo
@@ -161,8 +161,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1126/sciadv.adz1228
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/085.html
 - Theme: Biological responses and surface design
-- Summary: Flexible neural-recording fibers combine a lubricated interface with immobilized brain-derived neurotrophic factor (BDNF) to resist nonspecific attachment while supporting neuronal interaction. Representative single-unit recordings extend to twelve months, while comparative electrode statistics cover a separate eight-month period.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A lubricant-infused, BDNF-immobilized coating on flexible neural fibers cut insertion load from 25.2 to 2.94 mN and enabled 12-month recording in mice.
+- Source scope: This summary is based on the full text, figure legends and Materials and Methods of the open-access article (PMC12422202); the supplementary materials were not reviewed. Quantitative values for in vitro cell coverage and protein attachment are taken from the Introduction, and most histological comparisons are reported as relative differences without numerical values in the main text.
 
 ## #84 Gas‐Specific and Tunable Hydrogen‐Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques
 - Authors: Eunji Choi, Seungho Yu, Taehwan Kim, Yeontaek Lee, Hyungjoon Ji, Minsu Kim, Wooyoung Choi, Ju Yeon Kim, Yunseong Ji, Jungmok Seo, Kiwon Eum, Ki Chul Kim, Dae Woo Kim
