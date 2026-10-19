@@ -21,6 +21,11 @@
   },
   "categories": [
     {
+      "id": "researchprof",
+      "labelKr": "연구교수",
+      "labelEn": "Research Professor"
+    },
+    {
       "id": "postdoc",
       "labelKr": "박사후연구원",
       "labelEn": "Postdoctoral Researcher"
@@ -42,13 +47,14 @@
       "initials": "TK",
       "nameKr": "김태영",
       "nameEn": "Tae Young Kim",
-      "roleKr": "박사후연구원",
-      "roleEn": "Postdoctoral Researcher",
+      "roleKr": "연구교수",
+      "roleEn": "Research Professor",
       "research": "Functional Hydrogel Materials & Bio-interfaces",
       "email": "taeyoung.kim92@yonsei.ac.kr",
-      "category": "postdoc",
+      "category": "researchprof",
       "education": [
-        "Postdoctoral Researcher, Yonsei University (2024.09–present)",
+        "Research Professor, Yonsei University (present)",
+        "Postdoctoral Researcher, Yonsei University (from 2024.09)",
         "Ph.D., School of EEE, Yonsei University (2021.09–2024.08)",
         "M.S., Department of Medical Science, Yonsei University (2019.03–2021.02)"
       ]
