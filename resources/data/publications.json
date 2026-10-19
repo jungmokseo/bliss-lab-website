@@ -972,8 +972,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines how tissue bonding and cohesion within a material support the design of functional bioadhesives. It connects antimicrobial activity, cell infiltration, conductivity, self-healing and stimulus response with tissue repair and biosignal sensing.",
-    "source_scope": "The source basis is selected passages in the 29-page published PDF: p.1 abstract/introduction; pp.2–4 adhesion, cohesion and biocompatibility (selected p.4 passages); p.9 antimicrobial design; p.12 infiltration; pp.14–15 conduction; p.16 healing; p.18 stimulus response; p.20 regeneration; p.22 biosignals; p.24 conclusions; Table 1 on pp.10–11; and Figures 1–11 captions. This is not exhaustive verification of the main text, supplementary information, raw data or cited originals."
+    "summary": "A review of bioadhesives that add antimicrobial, cell-infiltrative, conductive, self-healing or stimuli-responsive functions for tissue healing and sensing.",
+    "source_scope": "This summary is based on the published PDF of the review (29 pages: abstract, Sections 1-6, Table 1 and figure legends); the cited primary studies were not read."
   },
   {
     "number": 62,
@@ -987,9 +987,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/smll-202107060.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "A liquid-permeable optical resonator turns water entering nanogaps into a visible color change. Electrically controlled wetting provides a route to photonic switching and optical memory.",
-    "source_scope": "The scientific account is based on Crossref and Europe PMC abstracts. The figure description includes fabrication and optical-characterization information from a public published PDF; this does not establish a complete main-text review."
+    "source_level": "full_text",
+    "summary": "A liquid-permeable Fabry–Perot resonator turned voltage-driven water entry across about 10-nm gaps into a color change, shifting resonance by 87 nm in 0.6 s.",
+    "source_scope": "This summary is based on the published PDF of the article (9 pages: abstract, main text, figure legends and Experimental Section); the Supporting Information and movies were not reviewed."
   },
   {
     "number": 63,
@@ -1004,8 +1004,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines materials that help bioelectronics keep functioning amid body motion, biofluids and surrounding cellular responses. It connects flexibility, antifouling, encapsulation, adhesion and self-healing with mechanical, biological and interfacial compatibility.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "A review of materials that keep wearable and implantable bioelectronics working long term, organized by physical, biological and interfacial compatibility.",
+    "source_scope": "This summary is based on the published PDF of the review (20 pages: abstract, Sections 1-5, figure legends and author information); the cited primary studies were not read, and the values in Table 1 were not used because its layout was not preserved in text extraction."
   },
   {
     "number": 64,
@@ -1020,8 +1020,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "unresolved",
     "source_level": "full_text",
-    "summary": "This conference paper investigates nano-silicon springs in a capacitive micromachined ultrasonic transducer to increase plate displacement and acoustic output efficiency. It covers device fabrication and vibration/pressure testing, rather than a validated wearable or clinical imaging system.",
-    "source_scope": "The source basis is the publisher page’s abstract, I Introduction, II Fabrication Process, III Device Characterization and IV Conclusion. Supplementary information is outside its scope."
+    "summary": "A capacitive micromachined ultrasonic transducer with nano-silicon springs beneath its plate gave a calculated surface pressure of 1.1 MPa at 5 VPP (220 kPa/V).",
+    "source_scope": "This summary is based on the full text of the IEEE Xplore conference paper (abstract, Sections I to IV, figure captions and author affiliations); the figure images were not analysed."
   },
   {
     "number": 65,
@@ -1036,8 +1036,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This review examines microfluidic impedance biosensors through how samples encounter electrodes. It distinguishes measurements of flowing cells from signals at binding interfaces and compares the linked choices of substrate, electrode geometry and flow.",
-    "source_scope": "The source basis is Europe PMC §§2–8 on substrates, flow, electrodes, fabrication and conclusions, including §2/3 opening and closing passages, PCB linewidth and §6 paper-cost/electrode discussion. Supplementary information is outside its scope."
+    "summary": "A review classifying microfluidic impedance biosensors into six substrate types and contrasting flow cytometry of moving cells with impedance spectroscopy.",
+    "source_scope": "This summary is based on the open-access full text in Europe PMC (PMC9855525), including figure captions and author information; the cited primary studies were not consulted."
   },
   {
     "number": 66,
@@ -1052,8 +1052,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A hydrogel uses a dynamic nanoconfinement network to limit swelling while retaining compliant, conductive behavior. Demonstrations include deformation sensing on an excised porcine bladder and electromyography recorded at the skin.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "A PVA/PAA hydrogel with tannic acid and carbon nanotube nanoconfinement resisted swelling, self-healed within 5 min, conducted ≈40 S m−1 and was 3D printable.",
+    "source_scope": "This summary is based on the open-access full text in Europe PMC (PMC10131858), including figure legends and the Experimental Section; the Supporting Information and movies were not reviewed."
   },
   {
     "number": 67,
@@ -1068,8 +1068,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A polydopamine anchoring layer enables lubricated, antifouling coatings on medical devices with complex shapes. Tests examine protein and cell attachment and ex vivo blood responses, while in vivo validation remains an open task.",
-    "source_scope": "The source basis is ScienceDirect §1 Introduction, §2 Results and discussion, §3 Conclusion, Methods §§4.1–4.15 and Figures 1–6 captions. Supplementary information, separate videos and raw or replicate-level data are excluded. Caption coverage does not establish independent verification of every original figure panel."
+    "summary": "Polydopamine-anchored, lubricant-swollen fluoropolymer coating for complex devices; with it, 34 G bioprinting nozzles avoided the drop to 72 ± 5.15% viability.",
+    "source_scope": "This summary is based on the published Bioactive Materials PDF, including the abstract, Introduction, Results and discussion, Conclusion, Experimental section 4.1-4.15 and the legends of Figs. 1-6; the supplementary data (Figs. S1-S11 and supporting movies) were not reviewed."
   },
   {
     "number": 68,
@@ -1084,8 +1084,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A self-bonding polymer joins a resealable vascular conduit with a carbon-nanotube sensor to track flow-induced pressure and deformation. Benchtop and short-term biological tests assess sealing and sensing, without establishing chronic vessel replacement or direct volumetric-flow measurement.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Self-healing polymer vascular graft with a lubricant-swollen lumen and built-in CNT pressure sensor; it resealed 25G needle holes and sensed flow to 100 mL/min.",
+    "source_scope": "This summary is based on the published ACS Nano PDF, including the abstract, Introduction, Results and Discussion, Conclusion, Experimental Section and the legends of Figs. 1-6; the Supporting Information (Figs. S1-S10 and Movies S1-S4) was not reviewed."
   },
   {
     "number": 69,
@@ -1100,8 +1100,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This study 3D-prints stretchable conductive patterns from carbon-nanotube-filled hydrogel inks and tests electrical recovery after cutting and rejoining. Rejoining a cut printed circuit restored its ability to light an LED.",
-    "source_scope": "The complete public full text and Methods were read and compared with the figures in the published PDF. S1–S11 and Table S1 in the five-page supplement were also read. Underlying data were not independently reanalysed and experiments were not reproduced."
+    "summary": "A 3D-printable PVA/tannic acid/PAA hydrogel ink printed at about 100 μm resolution; with 6 mg/mL CNT it reached ~0.95 S/m and regained conduction after cutting.",
+    "source_scope": "This summary is based on the open-access full text in PubMed Central (PMC10406165), including the Materials and methods, Results and discussion and the legends of Figs. 1-5; the supplementary file (Figs. S1-S11 and Table S1) was not reviewed."
   },
   {
     "number": 70,
@@ -1116,8 +1116,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "This wound-care hydrogel combines tannic acid with a polymer network to maintain contact with moving, wet tissue. The study separately evaluates porcine-skin adhesion, antibacterial activity in culture and acute hemostasis in a mouse liver-injury model.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "A tannic acid double-network hydrogel patch that self-heals, resists swelling and bonds to porcine skin (≈35.98 kPa); it stopped mouse liver bleeding in 10 s.",
+    "source_scope": "This summary is based on the open-access full text in Europe PMC (PMC10602564), including the Experimental Section and the legends of Figures 1-6; the Supporting Information was not reviewed. The original article gives the inhibition zone incubation as 24 h in the results text and 12 h in the Figure 5 legend and methods."
   },
   {
     "number": 71,
@@ -1132,8 +1132,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Liquid-metal particles functionalized with reduced graphene oxide, platinum and gold form a deformable electrochemical electrode. The study evaluates analyte detection in buffer and electrode responses after repeated stretching, rather than establishing in-vivo sensing performance.",
-    "source_scope": "The publisher abstract and selected sections of a matching published PDF were read: the abstract, §§2.3, 2.4 and 3, and selected glucose results. Public-web full text and complete supplementary information were not reviewed."
+    "summary": "Stretchable liquid-metal electrodes coated with rGO-wrapped EGaIn particles resolved ascorbic acid, dopamine and uric acid peaks after 200 cycles of 30% strain.",
+    "source_scope": "This summary is based on the full text of the published Wiley article, including the Experimental Section and the legends of Figures 1-6; the Supporting Information was not reviewed. The glucose sensitivities are given in the units printed in the article (μA μM−1)."
   },
   {
     "number": 72,
@@ -1148,8 +1148,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "A stretchable adhesive layer, fluoropolymer and lubricant form a surface designed to resist fouling as a biomaterial deforms. The study compares coating cracks and liquid repellency under repeated stretching.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "A lubricant-infused V4D4/fluoropolymer coating stayed crack-free after 2000 cycles at 150% strain and reduced foreign body reaction around hydrogels in mice.",
+    "source_scope": "This summary is based on the full text of the published Wiley article, including the Experimental Section, Author Contributions and the legends of Figures 1-5; the Supporting Information was not reviewed. The accelerated aging condition is printed as 70° (no unit) and 10 V s−1 in the main text and as 10 V in the methods."
   },
   {
     "number": 73,
@@ -2620,8 +2620,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "젖은 조직에 붙는 힘과 재료 내부의 결합력을 바탕으로, 생체접착제에 추가 기능을 설계하는 방법을 정리한 종설입니다. 항균, 세포 침투, 전도, 자가 치유, 자극 반응을 조직 회복과 생체신호 측정에 연결합니다.",
-    "source_scope": "해설은 29쪽 게재본의 선택 구간에 근거합니다. PDF 1쪽 초록·서론, 2–4쪽 접착·응집력·생체적합성(4쪽 일부), 9쪽 항균, 12쪽 세포 침투, 14–15쪽 전도, 16쪽 자가 치유, 18쪽 자극 반응, 20쪽 재생, 22쪽 생체신호, 24쪽 결론, 10–11쪽 Table 1과 Figures 1–11 설명을 포함합니다. 전체 본문, 보충자료·원자료·인용 원논문의 포괄적인 검증 범위는 아닙니다."
+    "summary": "조직 접착에 항균, 세포 침투, 전도, 자가 치유, 자극 반응 기능을 더한 기능성 생체접착제와 조직 재생·생체신호 측정 응용을 정리한 종설입니다.",
+    "source_scope": "이 해설은 종설 게재본 PDF(29쪽)의 초록, 1~6절, 표 1, 그림 설명을 바탕으로 작성했으며, 인용된 원 연구는 읽지 않았습니다."
   },
   {
     "number": 62,
@@ -2635,9 +2635,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/smll-202107060.html",
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "나노미터 크기의 틈으로 물이 스며드는 과정을 색 변화로 읽는 광학 공진기 연구입니다. 전기장으로 젖음 상태를 바꿔 광 스위칭과 메모리 기능에 활용합니다.",
-    "source_scope": "과학 해설은 Crossref와 Europe PMC의 초록에 근거합니다. 그림 설명에는 공개 게재본에서 확인된 제작·광학 특성 정보가 사용되지만, 이는 본문 전체의 검토를 뜻하지 않습니다."
+    "source_level": "full_text",
+    "summary": "액체 투과형 Fabry–Perot 공진기에서 전압으로 약 10 nm 간극에 물을 침투시켜 0.6초 안에 공진 파장을 87 nm 이동시키고 색 변화로 읽었습니다.",
+    "source_scope": "이 해설은 게재본 PDF(9쪽)의 초록, 본문, 그림 설명, 실험 절을 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았습니다."
   },
   {
     "number": 63,
@@ -2652,8 +2652,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "바이오전자기기가 몸의 움직임과 체액, 주변 세포 반응 속에서 기능을 유지하도록 돕는 재료 설계를 정리한 종설입니다. 유연성·항오염·봉지·접착·자가 치유를 기계적, 생물학적, 계면 적합성의 관점에서 연결합니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "웨어러블·삽입형 바이오전자기기의 장기 작동을 돕는 재료를 물리·생물·계면 적합성으로 나누어 정리한 종설입니다.",
+    "source_scope": "이 해설은 종설 게재본 PDF(20쪽)의 초록, 1~5절, 그림 설명, 저자 정보를 바탕으로 작성했으며, 인용된 원 연구는 읽지 않았고 표 1은 텍스트 추출에서 열 배치가 유지되지 않아 수치를 사용하지 않았습니다."
   },
   {
     "number": 64,
@@ -2668,8 +2668,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "unresolved",
     "source_level": "full_text",
-    "summary": "나노 실리콘 스프링을 초음파 변환기에 넣어 진동판의 움직임과 음향 출력 효율을 높이려는 학회 논문입니다. 소자 제작과 진동·음압 측정을 다루며, 웨어러블 시스템이나 임상 영상 성능의 검증은 포함하지 않습니다.",
-    "source_scope": "해설은 출판사 페이지의 초록, I Introduction, II Fabrication Process, III Device Characterization, IV Conclusion에 근거합니다. 보충자료는 확인 범위에 포함되지 않습니다."
+    "summary": "진동판 아래에 나노 실리콘 스프링을 넣은 정전용량형 미세가공 초음파 변환기로 5 VPP에서 계산상 표면 음압 1.1 MPa(220 kPa/V)를 얻었습니다.",
+    "source_scope": "이 해설은 IEEE Xplore 학회 논문 전문(초록, I~IV절, 그림 설명, 저자 소속)을 바탕으로 작성했으며, 그림 이미지 자체는 분석하지 않았습니다."
   },
   {
     "number": 65,
@@ -2684,8 +2684,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "미세유체 채널 안에서 시료와 전극이 만나는 방식을 중심으로 임피던스 바이오센서를 정리한 종설입니다. 흐르는 세포를 읽는 측정과 표면 결합을 읽는 측정을 구분하고, 기판·전극·유동 설계의 선택을 비교합니다.",
-    "source_scope": "해설은 Europe PMC 본문 §2–8의 기판, 유동, 전극, 제작과 결론에 근거합니다. §2·3의 처음과 마지막 문단, PCB 선폭 설명과 §6의 종이 비용·전극 논의를 포함합니다. 보충자료는 확인 범위 밖입니다."
+    "summary": "미세유체 임피던스 바이오센서를 6가지 기판 유형으로 분류하고, 흐르는 세포를 읽는 임피던스 유세포 분석과 정지 시료의 임피던스 분광을 구분한 종설입니다.",
+    "source_scope": "이 해설은 Europe PMC 공개 전문(PMC9855525)의 본문, 그림 설명, 저자 정보를 바탕으로 작성했으며, 인용된 원 연구는 따로 확인하지 않았습니다."
   },
   {
     "number": 66,
@@ -2700,8 +2700,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "물속에서 부푸는 현상을 억제하면서 부드러움과 전도성을 유지하도록 나노 구속 네트워크를 설계한 하이드로젤입니다. 절제한 돼지 방광의 변형 감지와 피부 근전도 측정으로 응용 가능성을 살폈습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "탄닌산과 탄소나노튜브의 나노 구속 구조를 갖춘 PVA/PAA 하이드로젤로, 팽윤이 억제되고 5분 안에 자가치유되며 약 40 S m−1의 전도도와 3D 프린팅 특성을 보였습니다.",
+    "source_scope": "이 해설은 Europe PMC 공개 전문(PMC10131858)의 본문, 그림 설명, 실험 방법을 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았습니다."
   },
   {
     "number": 67,
@@ -2716,8 +2716,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "폴리도파민 접착층을 이용해 복잡한 모양의 의료기구에도 윤활성 항오염 표면을 만드는 코팅 방법입니다. 단백질·세포 부착과 체외 혈액 시험을 평가했으며, 생체 내 검증은 후속 과제로 남아 있습니다.",
-    "source_scope": "해설은 ScienceDirect 본문의 §1 Introduction, §2 Results and discussion, §3 Conclusion, Methods §4.1–4.15와 Figures 1–6 설명에 근거합니다. 보충자료, 별도 영상, 원자료·반복별 데이터는 포함하지 않습니다. 그림 설명의 확인은 원그림 패널을 독립적으로 검증한 것과 다릅니다."
+    "summary": "폴리도파민 접착층과 윤활액에 팽윤하는 불소고분자 박막으로 복잡한 형상의 의료기구를 코팅해, 34 G 바이오프린팅 노즐에서 세포 생존율 저하(72 ± 5.15%)를 막았습니다.",
+    "source_scope": "이 해설은 출판된 Bioactive Materials PDF의 초록, 서론, 결과 및 고찰, 결론, 실험 방법 4.1~4.15절, 그림 1~6 설명에 근거하며, 보충자료(그림 S1~S11과 보충 영상)는 검토하지 않았습니다."
   },
   {
     "number": 68,
@@ -2732,8 +2732,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "자가 결합하는 고분자로 혈관형 튜브와 탄소나노튜브 센서를 연결해, 구멍이 난 뒤의 밀봉과 흐름에 따른 압력·변형 감지를 함께 다룬 연구입니다. 실험실 시험과 단기 생체 평가를 수행했으며, 장기 혈관 대체나 혈류량의 직접 측정은 검증하지 않았습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "윤활액이 스민 내벽과 탄소나노튜브 압력 센서를 갖춘 자가치유 고분자 인공혈관으로, 25G 바늘 구멍을 다시 막고 최대 100 mL/min의 유량 변화를 감지했습니다.",
+    "source_scope": "이 해설은 출판된 ACS Nano PDF의 초록, 서론, 결과 및 고찰, 결론, 실험 방법, 그림 1~6 설명에 근거하며, 보충자료(그림 S1~S10과 영상 S1~S4)는 검토하지 않았습니다."
   },
   {
     "number": 69,
@@ -2748,8 +2748,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "탄소나노튜브를 넣은 하이드로젤 잉크로 늘어나는 전도 패턴을 3D 인쇄하고, 잘린 부분을 다시 이어 전기 연결을 복구하는 연구입니다. 인쇄 회로를 절단하면 꺼졌던 LED가 재접합 뒤 다시 켜지는 것을 확인했습니다.",
-    "source_scope": "공개 전문 전체와 Methods를 읽고 게재 PDF의 원그림을 대조했습니다. 보충 PDF 5쪽의 S1–S11과 Table S1도 참고했습니다. 원자료의 독립 재분석과 실험 재현은 수행하지 않았습니다."
+    "summary": "PVA/탄닌산/PAA 하이드로젤 잉크를 약 100 μm 해상도로 3D 인쇄하고, CNT 6 mg/mL를 넣어 약 0.95 S/m 전도도와 절단 후 전기 연결 회복을 보였습니다.",
+    "source_scope": "이 해설은 PubMed Central(PMC10406165)의 공개 전문 중 재료 및 방법, 결과 및 고찰, 그림 1~5 설명에 근거하며, 보충자료(그림 S1~S11과 표 S1)는 검토하지 않았습니다."
   },
   {
     "number": 70,
@@ -2764,8 +2764,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "움직이는 젖은 조직에 밀착하도록 탄닌산과 고분자 네트워크를 결합한 상처용 하이드로젤 패치입니다. 돼지 피부에서의 접착, 세균 배양에서의 항균 반응, 생쥐 간 손상 모델에서의 급성 지혈을 각각 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "탄닌산을 넣은 이중 네트워크 하이드로젤 패치입니다. 자가치유·비팽윤 특성과 돼지 피부 접착(약 35.98 kPa)을 보였고, 생쥐 간 출혈을 10초 안에 멈췄습니다.",
+    "source_scope": "이 해설은 Europe PMC의 오픈액세스 본문(PMC10602564)을 실험 방법과 그림 1~6 설명까지 포함해 바탕으로 하며, 보충자료는 검토하지 않았습니다. 원문은 억제대 시험의 배양 시간을 결과 본문에서 24시간, 그림 5 설명과 방법에서 12시간으로 적고 있습니다."
   },
   {
     "number": 71,
@@ -2780,8 +2780,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "환원 그래핀 산화물과 백금·금으로 표면을 기능화한 액체금속 입자를 이용해 늘어나는 전기화학 전극을 만듭니다. 완충액에서 분석물 검출과 반복 인장 후 전극 응답을 평가한 연구로, 체내 센서 성능을 입증한 것은 아닙니다.",
-    "source_scope": "출판사 초록과 같은 논문의 게재본 PDF 중 초록, §§2.3·2.4·3, 일부 포도당 결과를 읽었습니다. 공개 웹의 본문과 보충자료 전체를 검토한 범위는 아닙니다."
+    "summary": "RGO로 감싼 EGaIn 입자를 결합한 신축성 액체금속 전극으로, 30% 인장 200회 뒤에도 아스코르브산·도파민·요산 신호를 구분해 검출했습니다.",
+    "source_scope": "이 해설은 출판된 Wiley 논문의 본문 전체(실험 방법과 그림 1~6 설명 포함)를 바탕으로 하며, 보충자료는 검토하지 않았습니다. 포도당 감도는 논문에 인쇄된 단위(μA μM−1) 그대로 옮겼습니다."
   },
   {
     "number": 72,
@@ -2796,8 +2796,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "신축성 접착층에 불소계 고분자와 윤활액을 결합해, 생체재료가 늘어날 때도 오염물이 쉽게 달라붙지 않는 표면을 설계합니다. 시험한 반복 인장 조건에서 코팅의 균열과 액체 반발 성능을 비교했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "윤활액을 주입한 V4D4/불소 고분자 코팅입니다. 150% 변형 2000회 후에도 균열이 없었고, 생쥐에 이식한 하이드로젤 주변의 이물 반응을 줄였습니다.",
+    "source_scope": "이 해설은 출판된 Wiley 논문의 본문 전체(실험 방법, 저자 기여, 그림 1~5 설명 포함)를 바탕으로 하며, 보충자료는 검토하지 않았습니다. 가속 노화 조건은 본문에 70°(단위 없음)와 10 V s−1로, 실험 방법에는 10 V로 표기되어 있습니다."
   },
   {
     "number": 73,

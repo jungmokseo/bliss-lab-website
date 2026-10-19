@@ -278,8 +278,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.202312740
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adfm-202312740.html
 - Theme: Biological responses and surface design
-- Summary: A stretchable adhesive layer, fluoropolymer and lubricant form a surface designed to resist fouling as a biomaterial deforms. The study compares coating cracks and liquid repellency under repeated stretching.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A lubricant-infused V4D4/fluoropolymer coating stayed crack-free after 2000 cycles at 150% strain and reduced foreign body reaction around hydrogels in mice.
+- Source scope: This summary is based on the full text of the published Wiley article, including the Experimental Section, Author Contributions and the legends of Figures 1-5; the Supporting Information was not reviewed. The accelerated aging condition is printed as 70° (no unit) and 10 V s−1 in the main text and as 10 V in the methods.
 
 ## #71 Functionalized EGaIn Electrodes with Tunable Reduced‐Graphene‐Oxide Assembled EGaIn Core–Shell Particles for Soft and Deformable Electrochemical Biosensors
 - Authors: Dongwook Lee, Sunghyun Park, Jungmok Seo, Won-Yong Lee, Min-gu Kim, Jayoung Kim
@@ -287,8 +287,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.202311696
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adfm-202311696.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Liquid-metal particles functionalized with reduced graphene oxide, platinum and gold form a deformable electrochemical electrode. The study evaluates analyte detection in buffer and electrode responses after repeated stretching, rather than establishing in-vivo sensing performance.
-- Source scope: The publisher abstract and selected sections of a matching published PDF were read: the abstract, §§2.3, 2.4 and 3, and selected glucose results. Public-web full text and complete supplementary information were not reviewed.
+- Summary: Stretchable liquid-metal electrodes coated with rGO-wrapped EGaIn particles resolved ascorbic acid, dopamine and uric acid peaks after 200 cycles of 30% strain.
+- Source scope: This summary is based on the full text of the published Wiley article, including the Experimental Section and the legends of Figures 1-6; the Supporting Information was not reviewed. The glucose sensitivities are given in the units printed in the article (μA μM−1).
 
 ## #70 A Mechanically Resilient and Tissue‐Conformable Hydrogel with Hemostatic and Antibacterial Capabilities for Wound Care
 - Authors: Jae Park, Tae Young Kim, Yeonju Kim, Soohwan An, Kyeong Seok Kim, Minkyong Kang, Soo A Kim, Jayoung Kim, Joonseok Lee, Seung-Woo Cho, Jungmok Seo
@@ -296,8 +296,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/advs.202303651
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/advs-202303651.html
 - Theme: Materials in contact with tissue
-- Summary: This wound-care hydrogel combines tannic acid with a polymer network to maintain contact with moving, wet tissue. The study separately evaluates porcine-skin adhesion, antibacterial activity in culture and acute hemostasis in a mouse liver-injury model.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A tannic acid double-network hydrogel patch that self-heals, resists swelling and bonds to porcine skin (≈35.98 kPa); it stopped mouse liver bleeding in 10 s.
+- Source scope: This summary is based on the open-access full text in Europe PMC (PMC10602564), including the Experimental Section and the legends of Figures 1-6; the Supporting Information was not reviewed. The original article gives the inhibition zone incubation as 24 h in the results text and 12 h in the Figure 5 legend and methods.
 
 ## #69 3D printing of mechanically tough and self-healing hydrogels with carbon nanotube fillers
 - Authors: Soo A Kim, Yeontaek Lee, Kijun Park, Jae Park, Soohwan An, Jinseok Oh, Minkyong Kang, Yurim Lee, Yejin Jo, Seung-Woo Cho, Jungmok Seo
@@ -305,8 +305,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.18063/ijb.765
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/ijb-765.html
 - Theme: Stretchable conductors and interconnects
-- Summary: This study 3D-prints stretchable conductive patterns from carbon-nanotube-filled hydrogel inks and tests electrical recovery after cutting and rejoining. Rejoining a cut printed circuit restored its ability to light an LED.
-- Source scope: The complete public full text and Methods were read and compared with the figures in the published PDF. S1–S11 and Table S1 in the five-page supplement were also read. Underlying data were not independently reanalysed and experiments were not reproduced.
+- Summary: A 3D-printable PVA/tannic acid/PAA hydrogel ink printed at about 100 μm resolution; with 6 mg/mL CNT it reached ~0.95 S/m and regained conduction after cutting.
+- Source scope: This summary is based on the open-access full text in PubMed Central (PMC10406165), including the Materials and methods, Results and discussion and the legends of Figs. 1-5; the supplementary file (Figs. S1-S11 and Table S1) was not reviewed.
 
 ## #68 Resealable Antithrombotic Artificial Vascular Graft Integrated with a Self-Healing Blood Flow Sensor
 - Authors: Kijun Park, Soojung An, Jihyun Kim, Sungjun Yoon, Jihyang Song, Daekwang Jung, Jae Park, Yeontaek Lee, Donghee Son, Jungmok Seo
@@ -314,8 +314,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsnano.2c10657
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsnano-2c10657.html
 - Theme: Device integration and packaging
-- Summary: A self-bonding polymer joins a resealable vascular conduit with a carbon-nanotube sensor to track flow-induced pressure and deformation. Benchtop and short-term biological tests assess sealing and sensing, without establishing chronic vessel replacement or direct volumetric-flow measurement.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Self-healing polymer vascular graft with a lubricant-swollen lumen and built-in CNT pressure sensor; it resealed 25G needle holes and sensed flow to 100 mL/min.
+- Source scope: This summary is based on the published ACS Nano PDF, including the abstract, Introduction, Results and Discussion, Conclusion, Experimental Section and the legends of Figs. 1-6; the Supporting Information (Figs. S1-S10 and Movies S1-S4) was not reviewed.
 
 ## #67 Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications
 - Authors: Kijun Park, Seunghoi Kim, Yejin Jo, Jae Park, Inwoo Kim, Sooyoung Hwang, Yeontaek Lee, Soyeon Kim, Jungmok Seo
@@ -323,8 +323,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.bioactmat.2022.07.019
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/bioactmat-2022-07-019.html
 - Theme: Biological responses and surface design
-- Summary: A polydopamine anchoring layer enables lubricated, antifouling coatings on medical devices with complex shapes. Tests examine protein and cell attachment and ex vivo blood responses, while in vivo validation remains an open task.
-- Source scope: The source basis is ScienceDirect §1 Introduction, §2 Results and discussion, §3 Conclusion, Methods §§4.1–4.15 and Figures 1–6 captions. Supplementary information, separate videos and raw or replicate-level data are excluded. Caption coverage does not establish independent verification of every original figure panel.
+- Summary: Polydopamine-anchored, lubricant-swollen fluoropolymer coating for complex devices; with it, 34 G bioprinting nozzles avoided the drop to 72 ± 5.15% viability.
+- Source scope: This summary is based on the published Bioactive Materials PDF, including the abstract, Introduction, Results and discussion, Conclusion, Experimental section 4.1-4.15 and the legends of Figs. 1-6; the supplementary data (Figs. S1-S11 and supporting movies) were not reviewed.
 
 ## #66 Intrinsically Nonswellable Multifunctional Hydrogel with Dynamic Nanoconfinement Networks for Robust Tissue‐Adaptable Bioelectronics
 - Authors: Jae Park, Ju Yeon Kim, Jeong Hyun Heo, Yeonju Kim, Soo A Kim, Kijun Park, Yeontaek Lee, Yoonhee Jin, Su Ryon Shin, Dae Woo Kim, Jungmok Seo
@@ -332,8 +332,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/advs.202207237
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/advs-202207237.html
 - Theme: Materials in contact with tissue
-- Summary: A hydrogel uses a dynamic nanoconfinement network to limit swelling while retaining compliant, conductive behavior. Demonstrations include deformation sensing on an excised porcine bladder and electromyography recorded at the skin.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A PVA/PAA hydrogel with tannic acid and carbon nanotube nanoconfinement resisted swelling, self-healed within 5 min, conducted ≈40 S m−1 and was 3D printable.
+- Source scope: This summary is based on the open-access full text in Europe PMC (PMC10131858), including figure legends and the Experimental Section; the Supporting Information and movies were not reviewed.
 
 ## #65 A Review on Microfluidics-Based Impedance Biosensors
 - Authors: Yu-Shih Chen, Chun-Hao Huang, Ping-Ching Pai, Jungmok Seo, Kin Fong Lei
@@ -341,8 +341,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.3390/bios13010083
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/bios13010083.html
 - Theme: Device integration and packaging
-- Summary: This review examines microfluidic impedance biosensors through how samples encounter electrodes. It distinguishes measurements of flowing cells from signals at binding interfaces and compares the linked choices of substrate, electrode geometry and flow.
-- Source scope: The source basis is Europe PMC §§2–8 on substrates, flow, electrodes, fabrication and conclusions, including §2/3 opening and closing passages, PCB linewidth and §6 paper-cost/electrode discussion. Supplementary information is outside its scope.
+- Summary: A review classifying microfluidic impedance biosensors into six substrate types and contrasting flow cytometry of moving cells with impedance spectroscopy.
+- Source scope: This summary is based on the open-access full text in Europe PMC (PMC9855525), including figure captions and author information; the cited primary studies were not consulted.
 
 ## #64 Giant Pressure Output Efficiency of Capacitive Micromachined Ultrasonic Transducers Using Nano-Silicon-Springs
 - Authors: Hae Youn Kim, Dong-Hyun Kang, Shyinyong Shim, Jungmok Seo, Butrus T. Khuri-Yakub, Byung Chul Lee
@@ -350,8 +350,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1109/ius54386.2022.9958066
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/ius54386-2022-9958066.html
 - Theme: Device integration and packaging
-- Summary: This conference paper investigates nano-silicon springs in a capacitive micromachined ultrasonic transducer to increase plate displacement and acoustic output efficiency. It covers device fabrication and vibration/pressure testing, rather than a validated wearable or clinical imaging system.
-- Source scope: The source basis is the publisher page’s abstract, I Introduction, II Fabrication Process, III Device Characterization and IV Conclusion. Supplementary information is outside its scope.
+- Summary: A capacitive micromachined ultrasonic transducer with nano-silicon springs beneath its plate gave a calculated surface pressure of 1.1 MPa at 5 VPP (220 kPa/V).
+- Source scope: This summary is based on the full text of the IEEE Xplore conference paper (abstract, Sections I to IV, figure captions and author affiliations); the figure images were not analysed.
 
 ## #63 Functional Bioelectronic Materials for Long-Term Biocompatibility and Functionality
 - Authors: Jae Park, Yeontaek Lee, Tae Young Kim, Sooyoung Hwang, Jungmok Seo
@@ -359,8 +359,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsaelm.1c01212
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsaelm-1c01212.html
 - Theme: Biological responses and surface design
-- Summary: This review examines materials that help bioelectronics keep functioning amid body motion, biofluids and surrounding cellular responses. It connects flexibility, antifouling, encapsulation, adhesion and self-healing with mechanical, biological and interfacial compatibility.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: A review of materials that keep wearable and implantable bioelectronics working long term, organized by physical, biological and interfacial compatibility.
+- Source scope: This summary is based on the published PDF of the review (20 pages: abstract, Sections 1-5, figure legends and author information); the cited primary studies were not read, and the values in Table 1 were not used because its layout was not preserved in text extraction.
 
 ## #62 Development of a Photonic Switch via Electro‐Capillarity‐Induced Water Penetration Across a 10‐nm Gap
 - Authors: Eui-Sang Yu, Kyomin Chae, Taehyun Kim, Jongsu Lee, Jungmok Seo, In Soo Kim, Aram J. Chung, Sin-Doo Lee, and Yong-Sang Ryu
@@ -368,8 +368,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smll.202107060
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/smll-202107060.html
 - Theme: Device integration and packaging
-- Summary: A liquid-permeable optical resonator turns water entering nanogaps into a visible color change. Electrically controlled wetting provides a route to photonic switching and optical memory.
-- Source scope: The scientific account is based on Crossref and Europe PMC abstracts. The figure description includes fabrication and optical-characterization information from a public published PDF; this does not establish a complete main-text review.
+- Summary: A liquid-permeable Fabry–Perot resonator turned voltage-driven water entry across about 10-nm gaps into a color change, shifting resonance by 87 nm in 0.6 s.
+- Source scope: This summary is based on the published PDF of the article (9 pages: abstract, main text, figure legends and Experimental Section); the Supporting Information and movies were not reviewed.
 
 ## #61 Rational engineering and applications of functional bioadhesives in biomedical engineering
 - Authors: Jae Park, Yeonju Kim, Beomsoo Chun, Jungmok Seo
@@ -377,8 +377,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/biot.202100231
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/biot-202100231.html
 - Theme: Materials in contact with tissue
-- Summary: This review examines how tissue bonding and cohesion within a material support the design of functional bioadhesives. It connects antimicrobial activity, cell infiltration, conductivity, self-healing and stimulus response with tissue repair and biosignal sensing.
-- Source scope: The source basis is selected passages in the 29-page published PDF: p.1 abstract/introduction; pp.2–4 adhesion, cohesion and biocompatibility (selected p.4 passages); p.9 antimicrobial design; p.12 infiltration; pp.14–15 conduction; p.16 healing; p.18 stimulus response; p.20 regeneration; p.22 biosignals; p.24 conclusions; Table 1 on pp.10–11; and Figures 1–11 captions. This is not exhaustive verification of the main text, supplementary information, raw data or cited originals.
+- Summary: A review of bioadhesives that add antimicrobial, cell-infiltrative, conductive, self-healing or stimuli-responsive functions for tissue healing and sensing.
+- Source scope: This summary is based on the published PDF of the review (29 pages: abstract, Sections 1-6, Table 1 and figure legends); the cited primary studies were not read.
 
 ## #60 A multifunctional electronic suture for continuous strain monitoring and on-demand drug release
 - Authors: Yeontaek Lee, Hwajoong Kim, Yeonju Kim, Seungbeom Noh, Beomsoo Chun, Jinho Kim, Charnmin Park, Minyoung Choi, Kijun Park, Jaehong Lee, Jungmok Seo
