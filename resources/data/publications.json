@@ -396,8 +396,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Gas-induced shape changes in palladium-decorated silver dendrites switch the adhesion of water and lower-surface-tension liquids. Excess palladium deposition and oil wetting can eliminate reversibility.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Hydrogen-induced expansion of Pd on Ag dendrites switched superamphiphobic adhesion reversibly; a 7 μL hexadecane drop held upside down with 31.8 μN in 8% H2.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information and videos were not reviewed, and the text and legends number the Figure 2 and Figure 6 panels differently."
   },
   {
     "number": 26,
@@ -412,8 +412,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This study asks how proton energy changes defects and electrical behavior in graphene at a fixed irradiation fluence. It combines Raman spectroscopy and transistor measurements with energy-transfer calculations.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Graphene transistors under 5, 10 and 15 MeV protons showed vacancy defects at 5 and 10 MeV but mainly sp3-type Raman signals and a flat Dirac region at 15 MeV.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the figure legends; the Abstract calls the 2 × 10^14 cm^-2 value a dose rate, while the main text describes it as a fixed fluence."
   },
   {
     "number": 27,
@@ -428,8 +428,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review surveys conductive textiles for energy harvesting and storage, covering component fabrication, operating principles and limitations. It connects textile flexibility and conductivity with energy-device design.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "Review of conductive textiles, fiber transistors, LEDs and pressure sensors, and textile energy harvesters and storage, with reported outputs and open problems.",
+    "source_scope": "This summary is based on the publisher PDF of the open-access review, including Table 1 and figure legends; the cited primary studies were not read, and for the power shirt the text gives a 10 nF capacity while the Figure 9d legend names a 2.2 μF capacitor."
   },
   {
     "number": 28,
@@ -444,8 +444,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This study examined how silicon-dioxide passivation changes interfacial diffusion and electrical properties in InP MOS capacitors.",
-    "source_scope": "The review covers the existing local publisher PDF, pages 10293–10301, including the main text, experimental methods and Figures 1–8. SI has not been read, and the current complete SI inventory and latest correction status remain unverified."
+    "summary": "An atomic-layer-deposited SiO2 interlayer under Ta1−xZrxO on InP cut capacitance dispersion from 21.1% to 11.3% and lowered leakage in MOS capacitors.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the experimental section and Figure 1–8 legends; the electronic supplementary information (Fig. S2 and the CET calculation) was not reviewed."
   },
   {
     "number": 29,
@@ -460,8 +460,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A thin graphene coating protects silver nanoparticles used for surface-enhanced Raman spectroscopy. Oxidation tests and dye signals after heating in air examine both protection and retained sensing function.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "Few-layer graphene grown on silver nanoparticles from PMMA blocked oxidation in air; a dye Raman peak went from 36,304 to 24,436, versus 113 on bare silver.",
+    "source_scope": "This summary is based on the publisher PDF of the open-access article, including the experiment section and Figure 1–6 legends; numerical values shown only inside figure panels were not used."
   },
   {
     "number": 30,
@@ -476,8 +476,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "This review surveys the chemistry, structures and fabrication of bio-inspired surfaces that strongly attract or repel liquids. It explores their use in biomedical devices and high-throughput cell culture.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full."
+    "summary": "A review of bio-inspired extreme wetting surfaces, from lotus-type to slippery designs, and their use in cell patterning, spheroid culture, devices and assays.",
+    "source_scope": "This summary is based on the open-access full text in Europe PMC (PMC5456462), including figure captions, checked against the publisher PDF; the individual studies cited in the review were not read."
   },
   {
     "number": 31,
@@ -492,8 +492,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Palladium nanoparticles selectively deposit at graphene defects, lowering sheet resistance and improving a transparent heater. This metal-deposition approach does not establish complete repair of the carbon lattice.",
-    "source_scope": "The eleven-page main text, original figures, S1–S6 and all tables in the supporting document, and ordered key scenes from two movies were read. Cited original studies and underlying data were not independently reanalysed."
+    "summary": "Palladium nanoparticles grown by a galvanic displacement reaction decorated defects in CVD graphene, lowering sheet resistance from about 1 kΩ/sq to 173 Ω/sq.",
+    "source_scope": "This summary is based on the open-access publisher PDF of the article, including figure legends. The supplementary figures, tables and videos were not reviewed; the text gives the post-decoration transmittance at 500 nm, whereas the Figure 6 legend states 550 nm."
   },
   {
     "number": 32,
@@ -507,9 +507,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/en/papers/acsami-6b01804.html",
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "Grooves and nanoscale texture on graphene-oxide surfaces guide human neural stem-cell attachment and differentiation. The study evaluates electrical function in cultured cells; it does not establish therapeutic effects in patients.",
-    "source_scope": "The research account is based on the full abstract indexed in Europe PMC. The article body is outside its evidence scope."
+    "source_level": "full_text",
+    "summary": "Graphene oxide substrates with 5 μm grooves, ridges and nanoroughness increased neuronal differentiation of human neural stem cells without neurogenic factors.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including figure legends; the Supporting Information (Live/Dead staining, fibronectin adsorption and inhibitor viability data) was not reviewed."
   },
   {
     "number": 33,
@@ -524,8 +524,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Electrical stimulation from a triboelectric generator assists the nonviral conversion of fibroblasts into neuronal cells. The graphical abstract reports improved conversion and electrical maturation; quantitative effects and therapeutic outcomes are not established by this summary.",
-    "source_scope": "The main text and all original figures were read. Detailed Methods are supplied separately in the supporting information and have not been reviewed, nor have the supplementary materials and underlying data."
+    "summary": "A triboelectric stimulator raised nonviral conversion of mouse fibroblasts into neuronal cells from 6.41% to 14.17% and in skin from 0.04% to 5.86%.",
+    "source_scope": "This summary is based on the publisher PDF of the Communication, including figure legends; the Supporting Information with the Experimental Section, supplementary figures and videos was not reviewed. The short-circuit current is given as approximately 270 nA in the introduction and 280 nA in the results, and the BAM-group neurite length is printed as 0.10 µm beside 0.17 mm for the BAM/TES group."
   },
   {
     "number": 34,
@@ -540,8 +540,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Tracks and stopping points on a water-repellent silver surface guide droplets sequentially to Raman measurement sites. The abstract demonstrates different dyes; performance with complex biological samples remains to be established.",
-    "source_scope": "This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed."
+    "summary": "A superhydrophobic silver-dendrite track with a droplet stopper moved 1 µL droplets to a Raman spot for successive SERS reads; enhancement factor 6.3 × 10⁵.",
+    "source_scope": "This summary is based on the publisher PDF of the article, including the experimental section and figure legends; the Supporting Information and movie were not reviewed."
   },
   {
     "number": 35,
@@ -556,8 +556,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "A bioprinted, in vitro liver model combines liver cells with perfusable channels lined by endothelial cells. It examines how this vascular barrier affects molecular transport and cell survival during drug-toxicity testing.",
-    "source_scope": "This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full."
+    "summary": "A bioprinted GelMA liver model with an endothelial-lined channel delayed dye diffusion and lessened acetaminophen-induced loss of HepG2/C3A metabolic activity.",
+    "source_scope": "This summary is based on the publisher-layout PDF of the article, including the methods and figure legends; the supplementary material was not reviewed."
   },
   {
     "number": 36,
@@ -572,8 +572,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "Hydrogen-responsive Janus nanofibers change shape to produce a visible optical signal. The sensor uses changes in light transmission to reveal hydrogen exposure without electrical measurement equipment.",
-    "source_scope": "The earlier review of the eight-page main paper and four original figures is retained. The stored 22-page SI PDF, including Methods, equations 1–10, Table S1 and Figures S1–S11, has now been read. Four supplementary videos were inspected through sampled frames at roughly one-second intervals. The current complete publisher attachment list, latest version, later corrections, and uninterrupted video/audio review remain unresolved."
+    "summary": "Slanted polymer nanofibers coated with palladium on one side straightened in 4 vol% hydrogen, raising light transmittance by about 65% with a 5.1 s response.",
+    "source_scope": "This summary is based on the publisher PDF of the article and its Supporting Information PDF, including the methods and figure legends; the supplementary movies were not reviewed."
   },
   {
     "number": 37,
@@ -2044,8 +2044,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "팔라듐으로 장식한 가지 모양의 은 구조가 기체에 따라 형태를 바꾸는 현상을 이용해 액체의 부착을 조절합니다. 물뿐 아니라 표면장력이 낮은 액체에서도 시험했으며, 팔라듐이 너무 많거나 기름이 표면을 적시면 가역성이 사라질 수 있습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "은 덴드라이트 위 팔라듐의 수소 팽창으로 초양친매성 표면의 액체 접착을 가역 전환했으며, 8% H2에서 7 μL 헥사데칸 액적이 31.8 μN으로 뒤집힌 표면에 붙어 있었습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 실험 절, 그림 설명을 바탕으로 작성했으며, 보충자료와 동영상은 검토하지 않았습니다. 그림 2와 그림 6의 패널 번호는 본문과 그림 설명에서 서로 다르게 표기되어 있습니다."
   },
   {
     "number": 26,
@@ -2060,8 +2060,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "그래핀에 같은 양의 양성자를 조사하더라도 입사 에너지가 달라지면 결함과 전기적 특성이 어떻게 달라지는지 살펴봅니다. 라만 분광과 트랜지스터 측정을 에너지 전달 계산과 연결했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "그래핀 트랜지스터에 5, 10, 15 MeV 양성자를 조사한 결과, 5와 10 MeV에서는 공공형 결함이, 15 MeV에서는 주로 sp3형 신호와 디랙점 평탄화가 나타났습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명을 바탕으로 작성했습니다. 초록은 2 × 10^14 cm^-2 값을 선량률(dose rate)로, 본문은 고정 플루언스로 표기합니다."
   },
   {
     "number": 27,
@@ -2076,8 +2076,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "전도성 직물로 에너지를 수확하거나 저장하는 부품을 만드는 원리와 제작법을 정리한 종설입니다. 직물의 유연성과 전기 전도성을 에너지 소자 설계의 요구 조건과 연결해 살펴봅니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "전도성 직물, 섬유형 트랜지스터·발광소자·압력 센서, 직물 기반 에너지 수확·저장 소자의 보고 성능과 남은 과제를 정리한 종설입니다.",
+    "source_scope": "이 해설은 오픈 액세스 종설의 출판사 PDF와 표 1, 그림 설명을 바탕으로 했으며, 종설이 인용한 원 연구는 읽지 않았습니다. 파워 셔츠의 충전 용량은 본문에 10 nF, 그림 9d 설명에 2.2 μF 커패시터로 서로 다르게 적혀 있습니다."
   },
   {
     "number": 28,
@@ -2092,8 +2092,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "이 연구는 InP 기반 MOS 커패시터에 SiO₂ 패시베이션을 도입해 계면 확산과 전기적 특성이 어떻게 달라지는지 살폈습니다.",
-    "source_scope": "기존 로컬 출판사 PDF 9쪽(10293–10301)의 본문·실험방법과 Figure 1–8을 검토했습니다. SI는 미독이며 현재 공식 SI 전체 목록과 최신 정정 여부는 확인하지 못했습니다."
+    "summary": "InP 기판의 Ta1−xZrxO 게이트 유전막 아래에 원자층 증착 SiO2 중간층을 넣어 MOS 커패시터의 정전용량 분산을 21.1%에서 11.3%로 줄이고 누설전류를 낮췄습니다.",
+    "source_scope": "이 해설은 출판사 게재본 PDF의 본문, 실험 방법, 그림 1–8 설명을 바탕으로 했으며, 전자 보충자료(Fig. S2와 CET 계산)는 검토하지 않았습니다."
   },
   {
     "number": 29,
@@ -2108,8 +2108,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "은 나노입자를 얇은 그래핀으로 덮어 라만 분광 분석용 표면을 보호하는 방법입니다. 공기 중 열처리 뒤의 산화와 염료 분광 신호를 측정해 보호 효과와 분석 기능을 함께 살펴봤습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "PMMA를 탄소원으로 은 나노입자 위에 다층 그래핀을 성장시켜 공기 중 산화를 막았고, 염료 라만 피크가 36,304에서 24,436으로 유지되었습니다(맨 은은 113).",
+    "source_scope": "이 해설은 공개 접근 논문의 출판사 게재본 PDF의 본문, 실험 방법, 그림 1–6 설명을 바탕으로 했으며, 그림 패널 안에만 표시된 수치는 사용하지 않았습니다."
   },
   {
     "number": 30,
@@ -2124,8 +2124,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "물을 극단적으로 끌어당기거나 밀어내는 생체모방 표면의 화학, 구조, 제작법을 정리한 종설입니다. 의료기기와 여러 조건을 한꺼번에 비교하는 세포 배양에 이러한 표면을 활용하는 방법을 살펴봅니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다. 검토 논문에 인용된 개별 연구의 전문을 모두 읽은 것은 아닙니다."
+    "summary": "연꽃잎형부터 미끄러운 표면까지 생체모방 극한 젖음 표면의 설계와 세포 패터닝, 스페로이드 배양, 의료기기, 고속 선별 응용을 정리한 종설입니다.",
+    "source_scope": "이 해설은 Europe PMC의 공개 전문(PMC5456462)과 그림 설명을 바탕으로 출판사 게재본 PDF와 대조해 작성했으며, 종설이 인용한 개별 연구는 읽지 않았습니다."
   },
   {
     "number": 31,
@@ -2140,8 +2140,8 @@
     "theme": "routing",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "그래핀의 결함 부위에 팔라듐 나노입자가 선택적으로 붙도록 해 전기 저항을 낮추고 투명 히터 성능을 개선합니다. 금속 입자를 붙이는 방식이며, 그래핀의 탄소 격자를 완전히 복구했다는 의미는 아닙니다.",
-    "source_scope": "본문 11쪽, 원그림, 보충 문서의 S1–S6 및 표 전체와 보충영상 2개의 시간순 주요 장면을 참고했습니다. 인용 원논문과 원자료를 독립적으로 재분석한 것은 아닙니다."
+    "summary": "갈바닉 치환 반응으로 CVD 그래핀의 결함에 팔라듐 나노입자를 선택적으로 형성해 면저항을 약 1 kΩ/sq에서 173 Ω/sq로 낮춘 연구입니다.",
+    "source_scope": "이 해설은 오픈액세스 출판사 PDF 본문과 그림 설명을 바탕으로 했으며, 보충 그림·표·영상은 검토하지 않았습니다. 장식 후 투과율의 측정 파장은 본문에 500 nm, 그림 6 설명에 550 nm로 서로 다르게 적혀 있습니다."
   },
   {
     "number": 32,
@@ -2155,9 +2155,9 @@
     "url": "https://bliss.yonsei.ac.kr/resources/ko/papers/acsami-6b01804.html",
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
-    "source_level": "abstract",
-    "summary": "산화그래핀 표면에 크기가 다른 홈과 거칠기를 조합해 사람 신경줄기세포의 부착과 분화를 유도합니다. 배양된 세포의 전기생리 기능을 평가한 연구로, 환자 치료 효과를 보여주는 임상 연구는 아닙니다.",
-    "source_scope": "연구 설명은 Europe PMC에 수록된 정규 초록에 근거합니다. 본문은 이 근거 범위에 포함되지 않습니다."
+    "source_level": "full_text",
+    "summary": "5 μm 홈, 능선, 나노 거칠기를 결합한 산화그래핀 기판에서 신경 유도 인자 없이 사람 신경줄기세포의 신경 분화가 증가했습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명을 바탕으로 했으며, 보충자료(세포 생존 염색, 피브로넥틴 흡착, 억제제 처리 후 생존율 자료)는 검토하지 않았습니다."
   },
   {
     "number": 33,
@@ -2172,8 +2172,8 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "마찰전기 발전기를 이용한 전기 자극으로 섬유아세포를 신경세포로 전환하는 접근입니다. 그래픽 초록은 비바이러스성 전환과 전기생리학적 성숙의 개선을 소개하지만, 정량적 효과와 치료 성과는 이 소개에서 확인되지 않았습니다.",
-    "source_scope": "논문 본문과 모든 원그림을 참고했습니다. 상세 Methods는 보충자료에 있으며, 해당 Methods·보충자료·원자료의 검토는 완료하지 않았습니다."
+    "summary": "마찰전기 자극기로 생쥐 섬유아세포의 비바이러스 신경세포 전환 효율을 6.41%에서 14.17%로, 피부에서는 0.04%에서 5.86%로 높였습니다.",
+    "source_scope": "이 해설은 출판사 PDF 본문과 그림 설명을 바탕으로 했으며, 실험 방법과 보충 그림·영상이 실린 보충자료는 검토하지 않았습니다. 단락 전류는 서론에 약 270 nA, 결과에 280 nA로 적혀 있고, BAM군의 평균 신경돌기 길이는 BAM/TES군의 0.17 mm와 달리 0.10 µm로 인쇄되어 있습니다."
   },
   {
     "number": 34,
@@ -2188,8 +2188,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "물을 밀어내는 은 표면에 물방울 이동 경로와 정지 지점을 만들어 시료를 차례로 라만 분광 분석 위치에 보냅니다. 초록에 소개된 시연은 서로 다른 염료를 사용했으며, 복잡한 생체 시료의 분석 성능은 별도 확인이 필요합니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료 전체와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "기울인 초소수성 은 수지상 표면의 홈과 정지턱으로 1 µL 물방울을 라만 측정 위치에 차례로 보내 연속 SERS 측정을 수행했고, 증강 인자는 6.3 × 10⁵였습니다.",
+    "source_scope": "이 해설은 출판사 게재본 PDF의 본문, 실험 방법, 그림 설명을 바탕으로 했으며, 보충자료와 동영상은 검토하지 않았습니다."
   },
   {
     "number": 35,
@@ -2204,8 +2204,8 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "혈관 통로와 내피세포층을 갖춘 3차원 간 조직을 바이오프린팅해 약물 독성을 살피는 체외 모델입니다. 내피세포층이 없는 모델과 비교해 분자 이동과 간세포 생존에 미치는 영향을 평가했습니다.",
-    "source_scope": "이 해설은 논문 본문과 원그림을 참고합니다. 보충자료와 원자료의 별도 검토는 완료하지 않았습니다."
+    "summary": "내피세포로 덮인 채널을 넣은 바이오프린팅 GelMA 간 모델에서 염료 확산이 늦어지고, 아세트아미노펜에 의한 HepG2/C3A 대사 활성 저하가 줄었습니다.",
+    "source_scope": "이 해설은 출판사 게재본 형식 PDF의 본문, 재료 및 방법, 그림 설명을 바탕으로 했으며, 보충자료는 검토하지 않았습니다."
   },
   {
     "number": 36,
@@ -2220,8 +2220,8 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "수소에 노출되면 모양이 바뀌는 야누스 나노섬유를 이용해, 기체 감지를 눈으로 읽을 수 있는 광학 신호로 바꾼 연구입니다. 섬유의 형상 변화에 따른 빛 투과를 활용해 별도의 전기 측정 장치 없이 수소 노출을 확인합니다.",
-    "source_scope": "기존 본문 8쪽과 원그림 4개 검토를 유지하며, 보유 SI PDF 22쪽의 Methods·식 1–10·표 S1·그림 S1–S11을 추가로 읽었다. 보충영상 4개는 약 1초 간격의 표본 프레임으로 확인했다. 현재 출판사 전체 첨부목록·최신판·후속 정정과 영상 연속 동작·음성 검토는 미완료다."
+    "summary": "한쪽 면에 팔라듐을 입힌 기울어진 고분자 나노섬유가 4 vol% 수소에서 펴지며 빛 투과율이 약 65% 변했고, 응답 시간은 5.1초였습니다.",
+    "source_scope": "이 해설은 출판사 게재본 PDF와 보충자료 PDF의 본문, 실험 방법, 그림 설명을 바탕으로 했으며, 보충 동영상은 검토하지 않았습니다."
   },
   {
     "number": 37,

@@ -602,8 +602,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.201701618
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adfm-201701618.html
 - Theme: Device integration and packaging
-- Summary: Hydrogen-responsive Janus nanofibers change shape to produce a visible optical signal. The sensor uses changes in light transmission to reveal hydrogen exposure without electrical measurement equipment.
-- Source scope: The earlier review of the eight-page main paper and four original figures is retained. The stored 22-page SI PDF, including Methods, equations 1–10, Table S1 and Figures S1–S11, has now been read. Four supplementary videos were inspected through sampled frames at roughly one-second intervals. The current complete publisher attachment list, latest version, later corrections, and uninterrupted video/audio review remain unresolved.
+- Summary: Slanted polymer nanofibers coated with palladium on one side straightened in 4 vol% hydrogen, raising light transmittance by about 65% with a 5.1 s response.
+- Source scope: This summary is based on the publisher PDF of the article and its Supporting Information PDF, including the methods and figure legends; the supplementary movies were not reviewed.
 
 ## #35 Bioprinted 3D vascularized tissue model for drug toxicity analysis
 - Authors: Solange Massa, Mahmoud Ahmed Sakr, Jungmok Seo, Praveen Bandaru, Andrea Arneri, Simone Bersini, Elaheh Zare-Eelanjegh, Elmira Jalilian, Byun-Hyun Cha, Silvia Antona, Alessandro Enrico, Yuan Gao, Shabir Hassan, Juan Pablo Acevedo, Mehmet R. Dokmeci, Yu Shrike Zhang, Ali Khademhosseini, Su Ryon Shin
@@ -611,8 +611,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1063/1.4994708
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/1063-1-4994708.html
 - Theme: Materials in contact with tissue
-- Summary: A bioprinted, in vitro liver model combines liver cells with perfusable channels lined by endothelial cells. It examines how this vascular barrier affects molecular transport and cell survival during drug-toxicity testing.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: A bioprinted GelMA liver model with an endothelial-lined channel delayed dye diffusion and lessened acetaminophen-induced loss of HepG2/C3A metabolic activity.
+- Source scope: This summary is based on the publisher-layout PDF of the article, including the methods and figure legends; the supplementary material was not reviewed.
 
 ## #34 A Droplet‐Based High‐Throughput SERS Platform on a Droplet‐Guiding‐Track‐Engraved Superhydrophobic Substrate
 - Authors: Sera Shin, Jaehong Lee, Sanggeun Lee, Jungmok Seo, Dayeong Kim, Hyunchul Kim, Juree Hong, Soonil Lee, Taeyoon Lee
@@ -620,8 +620,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smll.201602865
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/smll-201602865.html
 - Theme: Materials in contact with tissue
-- Summary: Tracks and stopping points on a water-repellent silver surface guide droplets sequentially to Raman measurement sites. The abstract demonstrates different dyes; performance with complex biological samples remains to be established.
-- Source scope: This summary draws on the main text and original figures. The complete supplementary materials and underlying data have not been independently reviewed.
+- Summary: A superhydrophobic silver-dendrite track with a droplet stopper moved 1 µL droplets to a Raman spot for successive SERS reads; enhancement factor 6.3 × 10⁵.
+- Source scope: This summary is based on the publisher PDF of the article, including the experimental section and figure legends; the Supporting Information and movie were not reviewed.
 
 ## #33 Triboelectric Nanogenerator Accelerates Highly Efficient Nonviral Direct Conversion and In Vivo Reprogramming of Fibroblasts to Functional Neuronal Cells
 - Authors: Yoonhee Jin, Jungmok Seo, Jung Seung Lee, Sera Shin, Hyun-Ji Park, Sungjin Min, Eunji Cheong, Taeyoon Lee, Seung-Woo Cho
@@ -629,8 +629,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adma.201601900
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201601900.html
 - Theme: Biological responses and surface design
-- Summary: Electrical stimulation from a triboelectric generator assists the nonviral conversion of fibroblasts into neuronal cells. The graphical abstract reports improved conversion and electrical maturation; quantitative effects and therapeutic outcomes are not established by this summary.
-- Source scope: The main text and all original figures were read. Detailed Methods are supplied separately in the supporting information and have not been reviewed, nor have the supplementary materials and underlying data.
+- Summary: A triboelectric stimulator raised nonviral conversion of mouse fibroblasts into neuronal cells from 6.41% to 14.17% and in skin from 0.04% to 5.86%.
+- Source scope: This summary is based on the publisher PDF of the Communication, including figure legends; the Supporting Information with the Experimental Section, supplementary figures and videos was not reviewed. The short-circuit current is given as approximately 270 nA in the introduction and 280 nA in the results, and the BAM-group neurite length is printed as 0.10 µm beside 0.17 mm for the BAM/TES group.
 
 ## #32 Graphene Oxide Hierarchical Patterns for the Derivation of Electrophysiologically Functional Neuron-like Cells from Human Neural Stem Cells
 - Authors: Kisuk Yang, Jaehong Lee, Jong Seung Lee, Dayeong Kim, Gyeong-Eon Chang, Jungmok Seo, Eunji Cheong, Taeyoon Lee, Seung-Woo Cho
@@ -638,8 +638,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.6b01804
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-6b01804.html
 - Theme: Materials in contact with tissue
-- Summary: Grooves and nanoscale texture on graphene-oxide surfaces guide human neural stem-cell attachment and differentiation. The study evaluates electrical function in cultured cells; it does not establish therapeutic effects in patients.
-- Source scope: The research account is based on the full abstract indexed in Europe PMC. The article body is outside its evidence scope.
+- Summary: Graphene oxide substrates with 5 μm grooves, ridges and nanoroughness increased neuronal differentiation of human neural stem cells without neurogenic factors.
+- Source scope: This summary is based on the publisher PDF of the article, including figure legends; the Supporting Information (Live/Dead staining, fibronectin adsorption and inhibitor viability data) was not reviewed.
 
 ## #31 A facile method for the selective decoration of graphene defects based on a galvanic displacement reaction
 - Authors: Juree Hong, Jae-Bok Lee, Sanggeun Lee, Jungmok Seo, Hyunsoo Lee, Jeong Young Park, Jong-Hyun Ahn, Tae Il Seo, Taeyoon Lee, Han-Bo-Ram Lee
@@ -647,8 +647,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/am.2016.42
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/am-2016-42.html
 - Theme: Stretchable conductors and interconnects
-- Summary: Palladium nanoparticles selectively deposit at graphene defects, lowering sheet resistance and improving a transparent heater. This metal-deposition approach does not establish complete repair of the carbon lattice.
-- Source scope: The eleven-page main text, original figures, S1–S6 and all tables in the supporting document, and ordered key scenes from two movies were read. Cited original studies and underlying data were not independently reanalysed.
+- Summary: Palladium nanoparticles grown by a galvanic displacement reaction decorated defects in CVD graphene, lowering sheet resistance from about 1 kΩ/sq to 173 Ω/sq.
+- Source scope: This summary is based on the open-access publisher PDF of the article, including figure legends. The supplementary figures, tables and videos were not reviewed; the text gives the post-decoration transmittance at 500 nm, whereas the Figure 6 legend states 550 nm.
 
 ## #30 Bio-Inspired Extreme Wetting Surfaces for Biomedical Applications
 - Authors: Sera Shin, Jungmok Seo, Heetak Han, Subin Kang, Hyunchul Kim, Taeyoon Lee
@@ -656,8 +656,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.3390/ma9020116
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/ma9020116.html
 - Theme: Biological responses and surface design
-- Summary: This review surveys the chemistry, structures and fabrication of bio-inspired surfaces that strongly attract or repel liquids. It explores their use in biomedical devices and high-throughput cell culture.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: A review of bio-inspired extreme wetting surfaces, from lotus-type to slippery designs, and their use in cell patterning, spheroid culture, devices and assays.
+- Source scope: This summary is based on the open-access full text in Europe PMC (PMC5456462), including figure captions, checked against the publisher PDF; the individual studies cited in the review were not read.
 
 ## #29 Highly Stable Surface‐Enhanced Raman Spectroscopy Substrates Using Few‐Layer Graphene on Silver Nanoparticles
 - Authors: Jaehong Lee, Sera Shin, Subin Kang, Sanggeun Lee, Jungmok Seo, Taeyoon Lee
@@ -665,8 +665,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1155/2015/975043
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/1155-2015-975043.html
 - Theme: Device integration and packaging
-- Summary: A thin graphene coating protects silver nanoparticles used for surface-enhanced Raman spectroscopy. Oxidation tests and dye signals after heating in air examine both protection and retained sensing function.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Few-layer graphene grown on silver nanoparticles from PMMA blocked oxidation in air; a dye Raman peak went from 36,304 to 24,436, versus 113 on bare silver.
+- Source scope: This summary is based on the publisher PDF of the open-access article, including the experiment section and Figure 1–6 legends; numerical values shown only inside figure panels were not used.
 
 ## #28 The impact of atomic layer deposited SiO2 passivation for high-k Ta1−xZrxO on the InP substrate
 - Authors: Chandreswar Mahata, Il-Kwon Oh, Chang Mo Yoon, Chang Wan Lee, Jungmok Seo, Hassan Algadi, Mi-Hyang Sheen, Young-Woon Kim, Hyungjun Kim, Taeyoon Lee
@@ -674,8 +674,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1039/c5tc01890k
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/c5tc01890k.html
 - Theme: Device integration and packaging
-- Summary: This study examined how silicon-dioxide passivation changes interfacial diffusion and electrical properties in InP MOS capacitors.
-- Source scope: The review covers the existing local publisher PDF, pages 10293–10301, including the main text, experimental methods and Figures 1–8. SI has not been read, and the current complete SI inventory and latest correction status remain unverified.
+- Summary: An atomic-layer-deposited SiO2 interlayer under Ta1−xZrxO on InP cut capacitance dispersion from 21.1% to 11.3% and lowered leakage in MOS capacitors.
+- Source scope: This summary is based on the publisher PDF of the article, including the experimental section and Figure 1–8 legends; the electronic supplementary information (Fig. S2 and the CET calculation) was not reviewed.
 
 ## #27 Textile-Based Electronic Components for Energy Applications: Principles, Problems, and Perspective
 - Authors: Vishakha Kaushik, Jaehong Lee, Juree Hong, Seulah Lee, Sanggeun Lee, Jungmok Seo, Chandreswar Mahata, Taeyoon Lee
@@ -683,8 +683,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.3390/nano5031493
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/nano5031493.html
 - Theme: Device integration and packaging
-- Summary: This review surveys conductive textiles for energy harvesting and storage, covering component fabrication, operating principles and limitations. It connects textile flexibility and conductivity with energy-device design.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full. Individual cited studies and their supplements were not independently reviewed in full.
+- Summary: Review of conductive textiles, fiber transistors, LEDs and pressure sensors, and textile energy harvesters and storage, with reported outputs and open problems.
+- Source scope: This summary is based on the publisher PDF of the open-access review, including Table 1 and figure legends; the cited primary studies were not read, and for the power shirt the text gives a 10 nF capacity while the Figure 9d legend names a 2.2 μF capacitor.
 
 ## #26 Proton irradiation energy dependence of defect formation in graphene
 - Authors: Sanggeun Lee, Jungmok Seo, Juree Hong, Seul Hyun Park, Joo-Hee Lee, Byung-Wook Min, Taeyoon Lee
@@ -692,8 +692,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.apsusc.2015.03.107
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/apsusc-2015-03-107.html
 - Theme: Stretchable conductors and interconnects
-- Summary: This study asks how proton energy changes defects and electrical behavior in graphene at a fixed irradiation fluence. It combines Raman spectroscopy and transistor measurements with energy-transfer calculations.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Graphene transistors under 5, 10 and 15 MeV protons showed vacancy defects at 5 and 10 MeV but mainly sp3-type Raman signals and a flat Dirac region at 15 MeV.
+- Source scope: This summary is based on the publisher PDF of the article, including the figure legends; the Abstract calls the 2 × 10^14 cm^-2 value a dose rate, while the main text describes it as a fixed fluence.
 
 ## #25 Reversible Liquid Adhesion Switching of Superamphiphobic Pd-Decorated Ag Dendrites via Gas-Induced Structural Changes
 - Authors: Dayeong Kim, Jungmok Seo, Sera Shin, Soonil Lee, Kilsoo Lee, Hyunjin Cho, Wooyoung Shim, Han-Bo-Ram Lee, Taeyoon Lee
@@ -701,8 +701,8 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acs.chemmater.5b01038
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acs-chemmater-5b01038.html
 - Theme: Biological responses and surface design
-- Summary: Gas-induced shape changes in palladium-decorated silver dendrites switch the adhesion of water and lower-surface-tension liquids. Excess palladium deposition and oil wetting can eliminate reversibility.
-- Source scope: This summary draws on the main text and original figures. Supplementary materials and underlying data have not been independently reviewed in full.
+- Summary: Hydrogen-induced expansion of Pd on Ag dendrites switched superamphiphobic adhesion reversibly; a 7 μL hexadecane drop held upside down with 31.8 μN in 8% H2.
+- Source scope: This summary is based on the publisher PDF of the article, including the Experimental Section and figure legends; the Supporting Information and videos were not reviewed, and the text and legends number the Figure 2 and Figure 6 panels differently.
 
 ## #24 Path-programmable water droplet manipulations on an adhesion controlled superhydrophobic surface
 - Authors: Jungmok Seo, Seung-ki Lee, Jaehong Lee, Jung Seung Lee, Hyukho Kwon, Seung-Woo Cho, Jonghyun Ahn, Taeyoon Lee
