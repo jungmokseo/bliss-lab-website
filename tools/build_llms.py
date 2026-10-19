@@ -31,6 +31,7 @@ def main():
     n_pubs = len(plist)
     recent = [p for p in plist if p['year'] >= max(p['year'] for p in plist) - 1][:12]
     members = team.get('members', [])
+    slugs = {e['number']: e['slug'] for e in cat if e.get('slug')}  # brief pages live at papers/<slug>.html
 
     lines = [
         '# BLISS Lab, Yonsei University',
@@ -58,12 +59,12 @@ def main():
     lines += ['', '## Recent publications']
     for p in recent:
         link = p.get('link') or ''
-        brief = f'{SITE}/resources/en/papers/{p["number"]:03d}.html'
+        slug = slugs.get(p['number'])
         lines.append(f'- #{p["number"]} {plain(p["title"])} — {plain(p["journal"])}. '
                      + (f'DOI: {link.replace("https://doi.org/", "")}. ' if link else '')
-                     + f'Summary: {brief}')
+                     + (f'Summary: {SITE}/resources/en/papers/{slug}.html' if slug else '').rstrip())
     lines += ['', '## Data',
-              f'- [Publication catalogue (JSON)]({SITE}/resources/data/publications.json): number, title, authors, journal, year, DOI, summary page URL, theme, summary and source scope (English and Korean)',
+              f'- [Publication catalogue (JSON)]({SITE}/resources/data/publications.json): number, title, authors, journal, year, DOI, slug, summary page URL (resources/{{en,ko}}/papers/<slug>.html), theme, summary and source scope (English and Korean)',
               f'- [Publication catalogue (CSV)]({SITE}/resources/data/publications.csv)',
               f'- [Homepage publication data (JSON)]({SITE}/data/publications.json)',
               f'- [Full text of all English summaries]({SITE}/llms-full.txt)',

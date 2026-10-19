@@ -8,8 +8,9 @@ JavaScript, so everything they should read must already be in the HTML.
   python3 tools/prerender.py --check  # exit 1 if index.html is out of date
 
 Run it after every change to data/publications.json, data/team.json or
-data/news.json, and whenever a research-library page is added
-(resources/ko/papers/NNN.html).
+data/news.json, and whenever a research-library brief is added to the
+catalogue resources/data/publications.json (the "slug" there names the brief
+page resources/{ko,en}/papers/<slug>.html; see tools/migrate_brief_slugs.py).
 
 Publications: Python port of loadPublications() in index.html. Keep the two
 in sync; the generated block must equal what the JS template would produce.
@@ -42,23 +43,27 @@ def num_str(v):
     return str(v)
 
 
-def library_max():
-    d = os.path.join(ROOT, 'resources', 'ko', 'papers')
-    nums = [int(f[:3]) for f in os.listdir(d) if re.fullmatch(r'\d{3}\.html', f)]
-    return max(nums)
+def brief_slugs():
+    """Paper number -> research-library slug, from resources/data/publications.json."""
+    cat = json.load(open(os.path.join(ROOT, 'resources', 'data', 'publications.json'), encoding='utf-8'))
+    out = {}
+    for e in cat:
+        if e.get('slug'):
+            out[int(e['number'])] = e['slug']
+    return out
 
 
-def brief_html(pub, lib_max):
+def brief_html(pub, slugs):
     n = pub.get('number')
-    if n is None or not (1 <= n <= lib_max):
+    slug = slugs.get(int(n)) if n is not None else None
+    if not slug:
         return ''
-    p = f'{int(n):03d}'
-    kr, en = f'/resources/ko/papers/{p}.html', f'/resources/en/papers/{p}.html'
+    kr, en = f'/resources/ko/papers/{slug}.html', f'/resources/en/papers/{slug}.html'
     return (f'<a class="pub-doi pub-brief" href="{kr}" data-href-kr="{kr}" data-href-en="{en}">'
             f'<i class="fas fa-book-open"></i> <span data-kr="연구 해설" data-en="Research brief">연구 해설</span></a>')
 
 
-def render_publications(data, lib_max):
+def render_publications(data, slugs):
     recent = GROUPING_YEAR - 2
     range_key = f'2019–{recent - 1}'
     grouped, order = {}, []
@@ -110,7 +115,7 @@ def render_publications(data, lib_max):
           <div class="pub-content">
             <div class="pub-title">{numl}{th}</div>
             <div class="pub-authors">{san(pub['authors'])}</div>
-            <div class="pub-journal">{jh}{ifb}{doi}{brief_html(pub, lib_max)}</div>
+            <div class="pub-journal">{jh}{ifb}{doi}{brief_html(pub, slugs)}</div>
             {awards_html}
           </div>
         </div>''')
@@ -180,17 +185,20 @@ def build(html):
     pubs = json.load(open(os.path.join(ROOT, 'data', 'publications.json'), encoding='utf-8'))
     team = json.load(open(os.path.join(ROOT, 'data', 'team.json'), encoding='utf-8'))
     news = json.load(open(os.path.join(ROOT, 'data', 'news.json'), encoding='utf-8'))
-    lib_max = library_max()
+    slugs = brief_slugs()
     count = len(pubs['publications'])
 
     begin, end = '<!-- BEGIN GENERATED PUBLICATIONS -->', '<!-- END GENERATED PUBLICATIONS -->'
     cur = html[html.index(begin) + len(begin):html.index(end)]
     lead = cur[:len(cur) - len(cur.lstrip())]
     trail = cur[len(cur.rstrip()):]
-    html = replace_between(html, begin, end, lead + render_publications(pubs, lib_max).strip() + trail)
+    html = replace_between(html, begin, end, lead + render_publications(pubs, slugs).strip() + trail)
 
     html = re.sub(r'data-publication-count="\d+"', f'data-publication-count="{count}"', html)
-    html = re.sub(r'data-library-max="\d+"', f'data-library-max="{lib_max}"', html)
+    # number -> slug map read by the JS fallback renderer (used only when the list is not prerendered)
+    slug_json = json.dumps({str(k): v for k, v in sorted(slugs.items())}, separators=(',', ':'))
+    html = re.sub(r'(<script type="application/json" id="briefSlugs">).*?(</script>)',
+                  lambda m: m.group(1) + slug_json + m.group(2), html, count=1, flags=re.S)
     html = re.sub(r'(id="impactPubCount">)\d+\+', rf'\g<1>{count}+', html)
     html = re.sub(r'\b\d+\+ publications · ', f'{count}+ publications · ', html)
 
