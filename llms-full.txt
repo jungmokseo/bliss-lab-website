@@ -472,7 +472,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 
 ## #50 Recent Advances in High-throughput Platforms with Engineered Biomaterial Microarrays for Screening of Cell and Tissue Behavior
 - Authors: Kijun Park, Yeontaek Lee, Jungmok Seo
-- Journal: Current Pharmaceutical Design, 24 (45), 5458-5470 (2019)
+- Journal: Current Pharmaceutical Design, 24 (45), 5458-5470 (2018)
 - DOI: https://doi.org/10.2174/1381612825666190207093438
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/2174-1381612825666190207093438.html
 - Theme: Materials in contact with tissue
@@ -525,7 +525,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Source scope: This summary is based on the publisher PDF of the article (ACS Appl. Mater. Interfaces 2018, 10, 13293-13303; 11 pages, local copy), including the abstract, main text, Figure 1-6 legends, Experimental Section and author information; the Supporting Information and movies were not reviewed, and values shown only in figure panels were not used.
 
 ## #44 Electrically Driven Microengineered Bioinspired Soft Robots
-- Authors: Su Ryon Shin, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, Jungmok Seo, Serena Mandla, Alessandro Enrico, Silvia Antonia, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini
+- Authors: Su Ryon Shin, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, Jungmok Seo, Serena Mandla, Alessandro Enrico, Silvia Antona, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini
 - Journal: Advanced Materials, 30 (10), 1704189 (2018)
 - DOI: https://doi.org/10.1002/adma.201704189
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adma-201704189.html
@@ -534,7 +534,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Source scope: This summary is based on the publisher PDF of the communication (Adv. Mater. 2018, 30, 1704189; 13 pages, local copy), including the abstract, main text, Figure 1-4 legends and the Experimental Section; the Supporting Information and Videos S1-S6 were not reviewed, and values shown only in figure panels were not used.
 
 ## #43 Single-Droplet Multiplex Bioassay on a Robust and Stretchable Extreme Wetting Substrate through Vacuum-Based Droplet Manipulation
-- Authors: Heetak Han, Jung Seung Lee, Hyuncheol Kim, Sera Shin, Jaehong Lee, Jongchan Kim, Xu Hou, Seung-Woo Cho, Jungmok Seo, Taeyoon Lee
+- Authors: Heetak Han, Jung Seung Lee, Hyunchul Kim, Sera Shin, Jaehong Lee, Jongchan Kim, Xu Hou, Seung-Woo Cho, Jungmok Seo, Taeyoon Lee
 - Journal: ACS Nano, 12 (2), 932-941 (2018)
 - DOI: https://doi.org/10.1021/acsnano.7b05826
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsnano-7b05826.html
@@ -615,7 +615,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Source scope: This summary is based on the publisher-layout PDF of the article, including the methods and figure legends; the supplementary material was not reviewed.
 
 ## #34 A Droplet‐Based High‐Throughput SERS Platform on a Droplet‐Guiding‐Track‐Engraved Superhydrophobic Substrate
-- Authors: Sera Shin, Jaehong Lee, Sanggeun Lee, Jungmok Seo, Dayeong Kim, Hyunchul Kim, Juree Hong, Soonil Lee, Taeyoon Lee
+- Authors: Sera Shin, Jaehong Lee, Sanggeun Lee, Hyunchul Kim, Jungmok Seo, Dayeong Kim, Juree Hong, Soonil Lee, Taeyoon Lee
 - Journal: Small, 13 (7), 1602865 (2017)
 - DOI: https://doi.org/10.1002/smll.201602865
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/smll-201602865.html
@@ -696,7 +696,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Source scope: This summary is based on the publisher PDF of the article, including the figure legends; the Abstract calls the 2 × 10^14 cm^-2 value a dose rate, while the main text describes it as a fixed fluence.
 
 ## #25 Reversible Liquid Adhesion Switching of Superamphiphobic Pd-Decorated Ag Dendrites via Gas-Induced Structural Changes
-- Authors: Dayeong Kim, Jungmok Seo, Sera Shin, Soonil Lee, Kilsoo Lee, Hyunjin Cho, Wooyoung Shim, Han-Bo-Ram Lee, Taeyoon Lee
+- Authors: Dayeong Kim, Jungmok Seo, Sera Shin, Soonil Lee, Kilsoo Lee, Hyeonjin Cho, Wooyoung Shim, Han-Bo-Ram Lee, Taeyoon Lee
 - Journal: Chemistry of Materials, 27 (14), 4964-4971 (2015)
 - DOI: https://doi.org/10.1021/acs.chemmater.5b01038
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acs-chemmater-5b01038.html
@@ -750,7 +750,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Source scope: This summary is based on the publisher PDF of the communication, including the figure legends; the Supporting Information (Figures S1-S9, simulation model and experimental details) and movies were not reviewed, and the main text gives a relaxation time of about 10 ms whereas the closing summary states less than 10 ms.
 
 ## #19 A Highly Sensitive Hydrogen Sensor with Gas Selectivity Using a PMMA Membrane-Coated Pd Nanoparticle/Single-Layer Graphene Hybrid
-- Authors: Juree Hong, Sanggeun Lee, Jungmok Seo, Soonjae Pyo, Jong-back Kim, Taeyoon Lee
+- Authors: Juree Hong, Sanggeun Lee, Jungmok Seo, Soonjae Pyo, Jongbaeg Kim, Taeyoon Lee
 - Journal: ACS Applied Materials & Interfaces, 7 (6), 3554-3561 (2015)
 - DOI: https://doi.org/10.1021/am5073645
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/am5073645.html
