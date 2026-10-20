@@ -323,7 +323,8 @@
     {
       "number": 74,
       "year": 2024,
-      "title": "[Invited Review] Liquid-based electronic materials for bioelectronics: current trends and challenges",
+      "title": "Liquid-based electronic materials for bioelectronics: current trends and challenges",
+      "displayLabel": "Invited Review",
       "authors": "<strong>Kijun Park</strong>, <strong>Sangwoo Park</strong>, <strong>Yejin Jo</strong>, <strong>Soo A Kim</strong>, <strong>Tae Young Kim</strong>, <strong>Sangwon Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup>",
       "journal": "Industrial Chemistry & Materials, 2(3), 361-377 (2024)",
       "impactFactor": 15.7,
@@ -544,7 +545,7 @@
     {
       "number": 56,
       "year": 2020,
-      "title": "Lubricant Infused Directly Engraved Nanostructures for Mechanically Durable Endoscope Lens with Anti-biofouling and Anti-fogging properties",
+      "title": "Lubricant-infused directly engraved nano-microstructures for mechanically durable endoscope lens with anti-biofouling and anti-fogging properties",
       "authors": "<strong>Yeontaek Lee</strong>, Yong Woo Chung, Jaeho Park, <strong>Kijun Park</strong>, Youngmin Seo, Seung-No Hong, Seung Hoon Lee, Hojeong Jeon<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>",
       "journal": "Scientific Reports, 10, 17454 (2020)",
       "impactFactor": 4.9,
@@ -564,7 +565,7 @@
     {
       "number": 54,
       "year": 2019,
-      "title": "Biocompatible Carbon Nanotube-based Hybrid Microfiber for Implantable Electrochemical Acutator and Flexible Electronic Applications",
+      "title": "Biocompatible Carbon Nanotube-Based Hybrid Microfiber for Implantable Electrochemical Actuator and Flexible Electronic Applications",
       "authors": "Ting Zheng<sup>†</sup>, Parisa Pour Shahid Saeed Abadi<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Byung-Hyun Cha, Beatrice Miccoli, Yi-Chen Li, <strong>Kijun Park</strong>, Sunghyun Park, Seon-Ji Choi, Rasoul Bayaniahangar, Dongxing Zhang, Soo-Hong Lee, Chang-Kee Lee, Ali Khademhosseini<sup>*</sup>, Su Ryon Shin<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 11(23), 20615-20627 (2019)",
       "impactFactor": 7.8,
@@ -623,7 +624,7 @@
     {
       "number": 48,
       "year": 2018,
-      "title": "A highly conductive fiber with waterproof and self-cleaning properties for textile electronics",
+      "title": "Highly Conductive Fiber with Waterproof and Self-Cleaning Properties for Textile Electronics",
       "authors": "Byungwoo Choi<sup>*</sup>, Jaehong Lee, Heetak Han, Janghoon Woo, <strong>Kijun Park</strong>, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 10 (42), 36094-36101 (2018)",
       "impactFactor": 7.8,
@@ -673,7 +674,7 @@
     {
       "number": 43,
       "year": 2018,
-      "title": "A single-droplet multiplex bioassay on a robust and stretchable extreme wetting substrate through vacuum based droplet manipulation",
+      "title": "Single-Droplet Multiplex Bioassay on a Robust and Stretchable Extreme Wetting Substrate through Vacuum-Based Droplet Manipulation",
       "authors": "Heetak Han<sup>*</sup>, Jung Seung Lee, Hyunchul Kim, Sera Shin, Jaehong Lee, Jongchan Kim, Xu Hou, Seung-Woo Cho, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup>",
       "journal": "ACS Nano, 12 (2), 932-941 (2018)",
       "impactFactor": 17.3,
@@ -688,7 +689,7 @@
     {
       "number": 42,
       "year": 2018,
-      "title": "Chemical and physical pathways for the fabrication of flexible superamphiphobic surfaces with high transparency and its recent developments",
+      "title": "Chemical and Physical Pathways for Fabricating Flexible Superamphiphobic Surfaces with High Transparency",
       "authors": "Bichitra Sahoo<sup>*</sup>, Kukro Yoon, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup>",
       "journal": "Coatings, 8 (2), 47 (2018)",
       "impactFactor": 3.4,
@@ -718,7 +719,7 @@
     {
       "number": 39,
       "year": 2017,
-      "title": "Electroconductive nanotopography for enhanced neuronal differentiation and electrophysiological maturation of human neural stem cells",
+      "title": "Electroconductive nanoscale topography for enhanced neuronal differentiation and electrophysiological maturation of human neural stem cells",
       "authors": "Kisuk Yang, Seung Jung Yu, Jong Seung Lee, Hak-Rae Lee, Gyeong-Eon Chang, <strong>Jungmok Seo</strong>, Taeyoon Lee, Eunji Cheong<sup>*</sup>, Sung Gap Im<sup>*</sup>, Seung-Woo Cho<sup>*</sup>",
       "journal": "Nanoscale, 9(47), 18737-18752 (2017)",
       "impactFactor": 5.2,
@@ -781,7 +782,7 @@
     {
       "number": 32,
       "year": 2016,
-      "title": "Graphene oxide hierarchical patterns for derivation of electrophysiologically functional neuron-like cells from human neural stem cells",
+      "title": "Graphene Oxide Hierarchical Patterns for the Derivation of Electrophysiologically Functional Neuron-like Cells from Human Neural Stem Cells",
       "authors": "Kisuk Yang, Jaehong Lee, Jong Seung Lee, Dayeong Kim, Gyeong-Eon Chang, <strong>Jungmok Seo</strong>, Eunji Cheong, Taeyoon Lee<sup>*</sup>, Seung-Woo Cho<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 8 (28), 17763-17774 (2016)",
       "impactFactor": 7.8,
@@ -790,7 +791,7 @@
     {
       "number": 31,
       "year": 2016,
-      "title": "A facile method for selective healing of graphene defects based on galvanic displacement reaction",
+      "title": "A facile method for the selective decoration of graphene defects based on a galvanic displacement reaction",
       "authors": "Juree Hong, Jae-Bok Lee, Sanggeun Lee, <strong>Jungmok Seo</strong>, Hyunsoo Lee, Jeong Young Park, Jong-Hyun Ahn, Tae Il Seo, Taeyoon Lee<sup>*</sup>, Han-Bo-Ram Lee<sup>*</sup>",
       "journal": "NPG Asia Materials, 8(4), e262 (2016)",
       "impactFactor": 9,
@@ -816,7 +817,7 @@
     {
       "number": 28,
       "year": 2015,
-      "title": "The impact of atomic layer deposited SiO<sub>2</sub> passivation for high-k Ta<sub>1-x</sub>Zr<sub>x</sub>O on InP substrate",
+      "title": "The impact of atomic layer deposited SiO<sub>2</sub> passivation for high-k Ta<sub>1-x</sub>Zr<sub>x</sub>O on the InP substrate",
       "authors": "Chandreswar Mahata, Il-Kwon Oh, Chang Mo Yoon, Chang Wan Lee, <strong>Jungmok Seo</strong>, Hassan Algadi, Mi-Hyang Sheen, Young-Woon Kim, Hyungjun Kim, Taeyoon Lee<sup>*</sup>",
       "journal": "Journal of Materials Chemistry C, 3(39), 10293-10301 (2015)",
       "impactFactor": 5.1,
@@ -852,7 +853,7 @@
     {
       "number": 24,
       "year": 2015,
-      "title": "Path-programmable water droplet manipulations on adhesion controlled superhydrophobic surfaces",
+      "title": "Path-programmable water droplet manipulations on an adhesion controlled superhydrophobic surface",
       "authors": "<strong>Jungmok Seo</strong><sup>†</sup>, Seung-ki Lee<sup>†</sup>, Jaehong Lee, Jung Seung Lee, Hyukho Kwon, Seung-Woo Cho, Jonghyun Ahn<sup>*</sup>, Taeyoon Lee<sup>*</sup>",
       "journal": "Scientific Reports, 5, 12326 (2015)",
       "impactFactor": 4.9,
@@ -897,7 +898,7 @@
     {
       "number": 19,
       "year": 2015,
-      "title": "Highly sensitive hydrogen sensor with gas selectivity using PMMA membrane-coated Pd nanoparticle/single-layer graphene hybrid",
+      "title": "A Highly Sensitive Hydrogen Sensor with Gas Selectivity Using a PMMA Membrane-Coated Pd Nanoparticle/Single-Layer Graphene Hybrid",
       "authors": "Juree Hong, Sanggeun Lee, <strong>Jungmok Seo</strong>, Soonjae Pyo, Jongbaeg Kim, Taeyoon Lee<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 7 (6), 3554-3561 (2015)",
       "impactFactor": 7.8,
@@ -915,7 +916,7 @@
     {
       "number": 17,
       "year": 2015,
-      "title": "Electrostatic-Induced trajectory switching system on a multi-inlet-multi-outlet superhydrophobic droplet guiding track",
+      "title": "Electrostatically-induced trajectory switching system on a multi-inlet-multi-outlet superhydrophobic droplet guiding track",
       "authors": "Soonil Lee, Seulah Lee, Dayeong Kim, <strong>Jungmok Seo</strong>, Chandreswar Mahata, Hyunseok Hwang, Hassan Algadi, Saleh Al-Sayari, Youngcheol Chae<sup>*</sup>, Taeyoon Lee<sup>*</sup>",
       "journal": "RSC Advances, 5(8), 5754-5761 (2015)",
       "impactFactor": 6.1,
@@ -950,7 +951,7 @@
     {
       "number": 13,
       "year": 2014,
-      "title": "Capillary force induced glue-free printing of Ag nanoparticle arrays as highly sensitive SERS substrates",
+      "title": "Capillary Force-Induced Glue-Free Printing of Ag Nanoparticle Arrays for Highly Sensitive SERS Substrates",
       "authors": "Jaehong Lee, <strong>Jungmok Seo</strong>, Dayeong Kim, Sera Shin, Sanggeun Lee, Chandreswar Mahata, Hyo-Sung Lee, Byung-Wook Min, Taeyoon Lee<sup>*</sup>",
       "journal": "ACS Applied Materials & Interfaces, 6 (12), 9053-9060 (2014)",
       "impactFactor": 7.8,
@@ -1022,7 +1023,7 @@
     {
       "number": 5,
       "year": 2011,
-      "title": "Si/Si<sub>1-x</sub>Ge<sub>x</sub>/Si heterojunction PIN nanowires fabricated by an aqueous electroless etching method",
+      "title": "Si/Si<sub>1-x</sub>Ge<sub>x</sub>/Si Heterojunction PIN Nanowires Fabricated by Using an Aqueous Electroless Etching Method",
       "authors": "Hyonik Lee, Min Su Kim, <strong>Jungmok Seo</strong>, Ja Hoon Koo, Edward Namkyu Cho, Ilgu Yun, Taeyoon Lee<sup>*</sup>",
       "journal": "Journal of the Korean Physical Society, 59 (2), 501-504 (2011)",
       "impactFactor": 1,
@@ -1049,7 +1050,7 @@
     {
       "number": 2,
       "year": 2010,
-      "title": "The trade-off relationship of size and density of platinum nanocrystal in the non-volatile memory characteristics",
+      "title": "Trade-Off Relationship of Size and Density of Platinum Nanocrystal in Nonvolatile Memory Characteristics",
       "authors": "<strong>Jungmok Seo</strong>, Taeyoon Lee<sup>*</sup>",
       "journal": "Japanese Journal of Applied Physics, 49(10R), 104003 (2010)",
       "impactFactor": 1.7,

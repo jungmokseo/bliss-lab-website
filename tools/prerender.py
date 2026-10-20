@@ -107,11 +107,13 @@ def render_publications(data, slugs):
                   if jn else esc(js))
             ts = san(pub['title'])
             th = f'<a href="{esc(link)}" target="_blank" rel="noopener noreferrer">{ts}</a>' if link else ts
+            label = (f'<span class="pub-display-label">[{esc(pub["displayLabel"])}]</span> '
+                     if pub.get('displayLabel') else '')
             items.append(f'''
         <div class="pub-item{' pub-item-with-img' if has_img else ''}">
           {img}
           <div class="pub-content">
-            <div class="pub-title">{numl}{th}</div>
+            <div class="pub-title">{numl}{label}{th}</div>
             <div class="pub-authors">{san(pub['authors'])}</div>
             <div class="pub-journal">{jh}{ifb}{doi}{brief_html(pub, slugs)}</div>
             {awards_html}

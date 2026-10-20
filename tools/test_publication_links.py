@@ -17,11 +17,31 @@ class DoiMetadata(HTMLParser):
     def __init__(self):
         super().__init__()
         self.values = []
+        self._json = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        if tag == 'meta' and attrs.get('name') == 'citation_doi':
-            self.values.append(normalize_doi(attrs.get('content')))
+        if tag == 'script' and attrs.get('type') == 'application/ld+json':
+            self._json = []
+
+    def handle_data(self, data):
+        if self._json is not None:
+            self._json.append(data)
+
+    def handle_endtag(self, tag):
+        if tag != 'script' or self._json is None:
+            return
+        document = json.loads(''.join(self._json))
+        self._json = None
+        for node in document.get('@graph', []):
+            if node.get('@type') != 'ScholarlyArticle':
+                continue
+            identifiers = node.get('identifier', [])
+            if isinstance(identifiers, dict):
+                identifiers = [identifiers]
+            for identifier in identifiers:
+                if identifier.get('propertyID', '').upper() == 'DOI':
+                    self.values.append(normalize_doi(identifier.get('value')))
 
 
 class BriefIdentityTests(unittest.TestCase):
@@ -81,6 +101,27 @@ class BriefIdentityTests(unittest.TestCase):
         ]
         with self.assertRaisesRegex(ValueError, 'duplicate display number 102'):
             brief_slugs_by_number(publications, self.catalogue)
+
+    def test_destination_identity_comes_from_separate_article_not_legacy_meta(self):
+        article = {
+            '@type': 'ScholarlyArticle',
+            'identifier': [
+                {'@type': 'PropertyValue', 'propertyID': 'Article number', 'value': '123'},
+                {'@type': 'PropertyValue', 'propertyID': 'DOI', 'value': '10.1002/advs.78062'},
+            ],
+        }
+        metadata = DoiMetadata()
+        metadata.feed('<meta name="citation_doi" content="10.1002/wrong">'
+                      '<script type="application/ld+json">' + json.dumps({
+                          '@graph': [
+                              {'@type': 'WebPage', 'mainEntity': {
+                                  '@type': 'ScholarlyArticle',
+                                  'identifier': {'propertyID': 'DOI', 'value': '10.1002/nested'},
+                              }},
+                              article,
+                          ],
+                      }) + '</script>')
+        self.assertEqual(metadata.values, ['10.1002/advs.78062'])
 
     def test_current_destinations_identify_the_linked_doi_in_both_languages(self):
         root = Path(__file__).resolve().parents[1]
