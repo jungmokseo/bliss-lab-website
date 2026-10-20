@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Rebuild the static (prerendered) parts of index.html from data/*.json.
 
-Crawlers used by AI search (GPTBot, ClaudeBot, PerplexityBot ...) do not run
-JavaScript, so everything they should read must already be in the HTML.
+Static HTML makes publications readable without requiring JavaScript.
+Search crawlers and model-training crawlers serve different purposes; rendering
+content here does not change their permissions in robots.txt.
 
   python3 tools/prerender.py          # rewrite index.html
   python3 tools/prerender.py --check  # exit 1 if index.html is out of date
@@ -18,6 +19,7 @@ Team members and news: plain <noscript> lists (browsers with JS never show
 them; the JS renderers fill the same containers on load).
 """
 import json, os, re, sys
+from publication_links import brief_slugs_by_number
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX = os.path.join(ROOT, 'index.html')
@@ -43,14 +45,10 @@ def num_str(v):
     return str(v)
 
 
-def brief_slugs():
-    """Paper number -> research-library slug, from resources/data/publications.json."""
+def brief_slugs(publications):
+    """Current display number -> research-library slug, matched by DOI."""
     cat = json.load(open(os.path.join(ROOT, 'resources', 'data', 'publications.json'), encoding='utf-8'))
-    out = {}
-    for e in cat:
-        if e.get('slug'):
-            out[int(e['number'])] = e['slug']
-    return out
+    return brief_slugs_by_number(publications, cat)
 
 
 def brief_html(pub, slugs):
@@ -185,7 +183,7 @@ def build(html):
     pubs = json.load(open(os.path.join(ROOT, 'data', 'publications.json'), encoding='utf-8'))
     team = json.load(open(os.path.join(ROOT, 'data', 'team.json'), encoding='utf-8'))
     news = json.load(open(os.path.join(ROOT, 'data', 'news.json'), encoding='utf-8'))
-    slugs = brief_slugs()
+    slugs = brief_slugs(pubs['publications'])
     count = len(pubs['publications'])
 
     begin, end = '<!-- BEGIN GENERATED PUBLICATIONS -->', '<!-- END GENERATED PUBLICATIONS -->'

@@ -7,6 +7,7 @@ Run after changing data/publications.json, data/team.json or the research
 library catalogue (resources/data/publications.json).
 """
 import json, os, re, html, datetime
+from publication_links import brief_slugs_by_number
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://bliss.yonsei.ac.kr'
@@ -31,7 +32,7 @@ def main():
     n_pubs = len(plist)
     recent = [p for p in plist if p['year'] >= max(p['year'] for p in plist) - 1][:12]
     members = team.get('members', [])
-    slugs = {e['number']: e['slug'] for e in cat if e.get('slug')}  # brief pages live at papers/<slug>.html
+    slugs = brief_slugs_by_number(plist, cat)  # DOI identifies the brief; numbers are labels.
 
     lines = [
         '# BLISS Lab, Yonsei University',
