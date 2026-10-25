@@ -62,7 +62,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1016/j.mtbio.2026.103405
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/mtbio-2026-103405.html
 - Theme: Biological responses and surface design
-- Summary: A ureteral stent whose microporous TPU wall stores silicone oil. Pull-out force was 0.07 ± 0.02 N, 7.9-fold lower than Polaris Ultra, without pre-hydration.
+- Summary: FLUID maintains a lubricated interface using silicone oil stored in a porous ureteral-stent wall. Initial bacterial adhesion fell by over 94% at 72 hours, while bacterial recovery in a 14-day mature-biofilm model fell by about 21% or 28%, depending on the comparator stent.
 - Source scope: This summary is based on the full text and figure legends of the open-access article (PMC13355568); supplementary figures, tables and the supplementary movie were not reviewed.
 
 ## #95 Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis
@@ -116,7 +116,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/smll.202510949
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/smll-202510949.html
 - Theme: Device integration and packaging
-- Summary: A bonded silicone/Parylene C multilayer with an oil-infused surface gave 86-fold higher adhesion than Parylene C and 160-fold longer insulation life at 85 °C.
+- Summary: MOLE combines bonded silicone–Parylene C layers with a lubricated surface. Insulation was tested by accelerated aging at 85 °C, and device degradation and tissue responses by 7-day subcutaneous implantation in mice; these results do not establish a long-term human implant lifetime.
 - Source scope: This summary is based on the main text, figure legends and Methods of the published version of record in Small (15 pages); the supporting information (Figures S1–S8) was not reviewed, and the derivation of the 445 h estimate at 37 °C was not found in the main text.
 
 ## #89 Optimized Electrical Stimulation Using a Spray‐Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice
@@ -161,7 +161,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1126/sciadv.adz1228
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/sciadv-adz1228.html
 - Theme: Biological responses and surface design
-- Summary: A lubricant-infused, BDNF-immobilized coating on flexible neural fibers cut insertion load from 25.2 to 2.94 mN and enabled 12-month recording in mice.
+- Summary: TAB combines a lubricated interface with immobilized BDNF to reduce nonspecific attachment and support neuronal interactions. Representative single-unit recordings in mice extend to 12 months; electrode-level statistical comparisons cover a separate 8-month period.
 - Source scope: This summary is based on the full text, figure legends and Materials and Methods of the open-access article (PMC12422202); the supplementary materials were not reviewed. Quantitative values for in vitro cell coverage and protein attachment are taken from the Introduction, and most histological comparisons are reported as relative differences without numerical values in the main text.
 
 ## #84 Gas‐Specific and Tunable Hydrogen‐Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques
@@ -206,7 +206,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1038/s41528-024-00327-x
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/s41528-024-00327-x.html
 - Theme: Device integration and packaging
-- Summary: A sub-micrometre dried PVA/tannic acid multilayer adhesive bonded metals, polymers and hydrogels within 1 min and joined wearable and implantable soft devices.
+- Summary: d-HAPT joins dissimilar electronic materials through moisture-induced chain entanglement in dried PVA–tannic acid layers. Dry–dry bonding uses interfacial water and heat; wet–dry bonding uses hydrogel moisture. Wet–wet and dry-material–tissue adhesion remain limited.
 - Source scope: This summary is based on the open-access article on the publisher's website (main text, figure legends and Methods), checked against the published PDF; the Supplementary Information and movies were not reviewed.
 
 ## #79 Hydrogel Ink for 3D Printing with High and Widely Tunable Mechanical Properties via the Salting‐Out Effect

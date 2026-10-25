@@ -39,8 +39,9 @@ def main():
         '',
         f'> BLISS Lab (BioLogical Interfaces and Sensor Systems) is a research group in the School of Electrical and Electronic '
         f'Engineering at Yonsei University, Seoul, Korea, led by {pi["nameEn"]} ({pi["nameKr"]}), {pi["roleEn"]}. '
-        'The lab develops soft bioelectronic materials, bio-interfaces, implantable sensors, stretchable circuits and IC packaging '
-        'for devices that work reliably in contact with the body.',
+        'The lab studies interface engineering (계면공학) for bioelectronics: hydrogel adhesion, stretchable interconnects, '
+        'heterogeneous material bonding, device packaging and antifouling or lubricated surfaces. '
+        'The library distinguishes material tests, device demonstrations, reviews and preclinical evaluations.',
         '',
         f'- Principal investigator: {pi["nameEn"]} ({pi["nameKr"]}), ORCID https://orcid.org/0000-0002-8898-044X, '
         'Google Scholar https://scholar.google.com/citations?user=kl7IdKgAAAAJ',

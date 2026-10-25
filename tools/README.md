@@ -32,3 +32,130 @@ Run `build_llms.py` when its source data changes, and review generated diffs,
 including sitemap dates. Set `lastmod` only for pages actually changed.
 These checks verify source consistency; they do not measure search indexing,
 AI citations or traffic.
+
+## Interface engineering: bilingual terminology and evidence
+
+Use **interface engineering / 계면공학** to explain the lab's research across
+tissue-contacting materials, deformable conductors, material/device integration,
+and host-facing surfaces. Connect Jungmok Seo / 서정목 and BLISS Lab to this work
+in the homepage introduction and library introduction. Preserve the four existing
+library themes and DOI-based briefs; do not create parallel keyword landing pages.
+The umbrella term does not make every paper an experimental bioelectronic device
+study. Preserve the original paper's authorship and institutional attribution.
+
+Maintain the following map here when editing either language. Terms belong in
+the explanation of the relevant problem, material, mechanism or test; they are
+not a list to paste into every page.
+
+Each page should answer one main search intent, with only the related synonyms
+that help readers. Follow the [Google SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+and [AI features guidance](https://developers.google.com/search/docs/appearance/ai-features):
+clear visible text and links remain the basis; special AI markup is not required.
+
+| English term | Korean term | Where it applies and what must remain separate |
+| --- | --- | --- |
+| interface engineering; bioelectronic interface | 계면공학; 생체전자 계면 | Homepage and existing `/resources/ko/index.html` / English counterpart; explain which interfaces are designed and which measurements evaluate them. Do not claim field leadership or clinical validation. |
+| hydrogel adhesion; wet-tissue adhesion | 하이드로젤 접착 / 하이드로겔 접착; 습윤 조직 접착 | Link tissue-facing work to the existing `tissue` theme, including STAT, DOI `10.1038/s41467-026-72068-6`. Treat 하이드로젤 and 하이드로겔 as spelling variants of the same term, without duplicate pages. Identify the substrate, bonding mechanism, wet condition and adhesion or biological endpoint. A tissue adhesive is not automatically an electrical interconnect. |
+| heterogeneous material bonding; hydrogel adhesive | 이종 재료 접합; 하이드로젤 접착제 | Link d-HAPT to its existing DOI brief, `10.1038/s41528-024-00327-x`, under `integration`. The PVA–tannic-acid study's dry/dry bonding uses interfacial water and heating at 130 °C for 1 min; wet/dry bonding can occur without heating. Wet/wet and dry/tissue adhesion are limited, so do not describe it as a universal wet-tissue adhesive. Use “이종 재료 접합” for bonding unlike materials; do not imply a semiconductor heterojunction or a verified IC package. |
+| hydrogel anisotropic conductive film; H-ACF | 하이드로젤 이방성 전도 필름; H-ACF | Keep this term attached to the [official 2023 MRS presentation](https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2023-mrs-spring-meeting/2023-mrs-spring-meeting-3837486). As of 2026-10-25, a corresponding peer-reviewed DOI is unconfirmed. Do not add a journal-publication record, invent a DOI, or conflate the presentation with the separate Nature Electronics 2022 interconnect study. |
+| soft electronics; rigid–soft integration; IC packaging | 연성 전자소자; 강성–연성 집적; IC 패키징 | Use the existing `integration` theme. Distinguish packaging frameworks/reviews from devices actually fabricated and tested. DOI `10.1016/j.mser.2026.101285` is a review/framework; it does not establish experimental package performance. Attribute strain, pitch, resistance and lifetime to the tested specimen and conditions. |
+| liquid metal; stretchable conductors and interconnects | 액체금속; 신축성 전도체와 배선 | Use the existing `routing` theme. Identify the conductive material, deformation and electrical measurement; material stretchability is not proof of complete package or implanted-device reliability. |
+| antifouling; anti-biofouling; biofilm | 방오; 생물오염 억제; 바이오필름 | Use the existing `host` theme for the related stent/surface studies. Identify the endpoint: protein adsorption, initial bacterial attachment, mature biofilm, friction or encrustation. Reduction of one endpoint does not establish complete biofilm prevention. |
+| ureteral stent; FLUID | 요관 스텐트; FLUID | DOI `10.1016/j.mtbio.2026.103405`. Preserve the distinction between 72-hour initial attachment and 14-day mature-biofilm assays, including species and comparator. Do not recast a urinary device as a biliary or vascular stent. |
+| biliary stent; ELFS | 담도 스텐트; ELFS | DOI `10.1016/j.bioactmat.2026.02.003`. Keep gallbladder fouling and bile-duct patency models distinct. Describe the evaluated preclinical models, not clinical efficacy or all implant lifetimes. |
+| endoscope antifogging and antifouling | 내시경 김서림·오염 억제 | DOI `10.1038/s41598-020-74517-8` concerns a lens surface; DOI `10.1021/acsami.6c04312` concerns a disposable cap. Keep optical visibility, fouling and mechanical durability endpoints with the correct device. |
+| immune-evasive encapsulation; foreign-body response | 면역회피 캡슐화; 이물 반응 | Use only with the measured host-response evidence. For MOLE, DOI `10.1002/smll.202510949`, distinguish host-facing surface effects from the encapsulation barrier and mechanical tests. Do not imply absence of every immune response. |
+| barrier encapsulation; moisture protection | 배리어 봉지; 수분 차단 | State the tested barrier function and environment. Moisture protection and immune evasion are different properties; an OLED encapsulation review (`10.1002/aelm.202500475`) is not evidence of implanted-device lifetime. |
+| neural interface; chronic recording | 신경 계면; 장기 신경 기록 | TAB, DOI `10.1126/sciadv.adz1228`, combines a lubricated interface with immobilized BDNF. Distinguish representative 12-month mouse recordings from the separate 8-month electrode-level statistical comparison. Do not imply zero immune response or a one-year guarantee for every device. |
+| liquid metal; EGaIn; PVA-modified particles | 액체금속; 공정 갈륨–인듐; PVA 개질 입자 | PmLMP, DOI `10.1002/advs.78062`, uses spray-impact activation together with flow-driven capillary fusion. Do not attribute oxide disruption to capillarity alone or use conductor performance as IC-bond yield evidence. |
+| hydrogel interface; analyte diffusion | 하이드로젤 계면; 분석물 확산 | ISC-PAH, DOI `10.1002/adma.202515767`, belongs with tissue-contacting materials and electrochemical biosensors. Small healthy-participant and mouse demonstrations do not establish clinical efficacy. |
+
+For each substantive claim, preserve the sequence **interface problem → design
+and mechanism → measured result → test conditions and limits → DOI/original
+source**. Keep units, sample type, comparator and duration alongside numerical
+results. Preserve differences between representative examples and comparative
+statistics. Keep reviews, conference presentations, in vitro tests, animal
+experiments and clinical studies explicitly distinct. Use nanowire terminology
+only for papers that actually study nanowires, not as a general lab positioning
+claim. Never infer “first”, “leading”, clinical validation or universal device
+lifetime from an individual paper.
+
+## Where to maintain the terms
+
+- **Homepage and library headings:** name interface engineering and describe the
+  actual research questions. Homepage text lives in `index.html`, including its
+  `data-kr` / `data-en` values; library introductions live in the existing
+  `resources/{ko,en}/index.html` pages. Keep the language pairs equivalent in
+  evidence and certainty, while allowing natural phrasing.
+- **Titles and descriptions:** use a descriptive editorial page title and a
+  readable summary of its subject. Keep `<title>`, description and Open Graph
+  descriptions consistent with visible content. Preserve the formal published
+  article title in bibliography and `ScholarlyArticle`; do not insert search
+  phrases into an original title.
+- **Headings and links:** use specific anchors such as “hydrogel material
+  bonding” or “담도 스텐트 방오 연구” when linking to the matching existing
+  brief/theme. Preserve stable DOI slugs, self-canonicals and reciprocal language
+  links. Do not add duplicate URLs solely to target spelling variants.
+- **Classification and structured data:** assign `theme` for the paper's actual
+  main subject. Keep `source_level`, `source_scope` and
+  `jungmok_seo_author_role` evidence-based. Structured data must describe visible
+  content and distinguish the editorial WebPage from the DOI-identified article.
+  Do not add meta-keyword lists, hidden search terms, AI-specific schema or
+  unsupported schema claims. Do not create new keyword pages.
+- **Generated copies:** when changing a catalogue summary, update its matching
+  brief, listing and featured-card copies in both languages as applicable, plus
+  `resources/data/publications.csv`. Regenerate `llms.txt` / `llms-full.txt` when
+  their source changes. Review generated diffs and actual modification dates;
+  `build_llms.py` currently stamps `/` and `/llms.txt` with its execution date.
+
+## Notion publication records and public website data
+
+`sync-notion.py` documents the existing Notion Publication DB and its manual MCP
+export route; it is a comments-only guide, not an automatic synchronizer. Use the
+active DB identified there, never the archived seed DB. Coordinate any Notion
+write with the person maintaining that DB; website editing alone does not require
+or authorize changing it. The live DB schema and sync freshness were not audited
+in the 2026-10-25 website maintenance pass.
+
+Treat the DOI, checked against the publisher/original source, as the join key:
+
+| Destination | Public fields eligible for a reviewed transfer | Handling |
+| --- | --- | --- |
+| `data/publications.json` | Published title, authors and author order, journal/volume/pages, year, DOI link; existing public display number and image reference | Verify bibliographic changes against public records. Display numbers are labels, not permanent identifiers. Confirm image source and reuse permission separately. Do not infer or refresh impact factors from unverified notes. |
+| `resources/data/publications.json` | The verified public bibliography above, `doi`, stable `slug`, `url`, `language` | Match existing English and Korean records by DOI. Do not create a second brief because a display number changed. |
+| Library editorial fields and HTML | `theme`, verified `jungmok_seo_author_role`, `source_level`, `summary`, `source_scope`, explanations and limitations | Maintain as reviewed website commentary based on the stated sources. These are not an automatic import of a Notion abstract or private research notes. Keep JSON, CSV, pages and generated summaries consistent. |
+
+Do not export private notes, unpublished manuscripts or results, internal review
+status, student information, credentials, private attachments or private links.
+Keep records marked **Submitted** private; do not include them in public exports.
+An entry's presence in Notion does not establish permission to publish it. Include
+patent information only after checking its public disclosure and citation details.
+Public bibliographic metadata does not confer permission to republish full text
+or figures. This workflow does not change Notion access or sharing permissions.
+
+## Local review, deployment and measurement
+
+The institutional domain remains `https://bliss.yonsei.ac.kr/` (`CNAME`). Main
+commits currently trigger GitHub Pages builds and deployment: for example,
+`fe89679625a8cd30c20803255e923b7e0ad93ad7` ran
+[pages build and deployment](https://github.com/jungmokseo/bliss-lab-website/actions/runs/39366435460)
+on 2026-10-20. Treat pushing to `main` as publishing. Prepare and review exact
+diffs, source references, bilingual wording, metadata/canonical links, internal
+links, structured data, local checks and desktop/mobile readability before an
+authorized deployment. The 2026-10-25 maintenance scope permits local editing and
+verification only; do not push or deploy until the concrete changes are reviewed
+and publication authorization is confirmed.
+
+Keep the existing eight evaluation questions and search conditions fixed. The
+actual AI baseline is **2026-10-14–15**, with the planned four-week comparison on
+**2026-11-11** and eight-week comparison on **2026-12-09**. Do not rerun the baseline
+on 2026-10-25 or retry to select favorable answers. A page availability or sitemap
+check is an operational check, not a new AI baseline.
+
+Record these outcomes separately: (1) discovery of relevant research, (2) direct
+discovery of BLISS/Jungmok Seo, (3) actual AI citation of a source, and (4) search
+traffic. An HTTP 200, valid structured data, an indexed page or a related-paper
+mention does not establish the other outcomes. Content and keyword maintenance
+can improve clarity and source traceability; it does not guarantee rankings,
+traffic, prominence or AI citations. Google API recovery remains a separate,
+deferred task and is outside this website edit.

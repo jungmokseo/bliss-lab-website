@@ -1,6 +1,6 @@
 # BLISS Lab, Yonsei University
 
-> BLISS Lab (BioLogical Interfaces and Sensor Systems) is a research group in the School of Electrical and Electronic Engineering at Yonsei University, Seoul, Korea, led by Jungmok Seo (서정목), Associate Professor · Principal Investigator. The lab develops soft bioelectronic materials, bio-interfaces, implantable sensors, stretchable circuits and IC packaging for devices that work reliably in contact with the body.
+> BLISS Lab (BioLogical Interfaces and Sensor Systems) is a research group in the School of Electrical and Electronic Engineering at Yonsei University, Seoul, Korea, led by Jungmok Seo (서정목), Associate Professor · Principal Investigator. The lab studies interface engineering (계면공학) for bioelectronics: hydrogel adhesion, stretchable interconnects, heterogeneous material bonding, device packaging and antifouling or lubricated surfaces. The library distinguishes material tests, device demonstrations, reviews and preclinical evaluations.
 
 - Principal investigator: Jungmok Seo (서정목), ORCID https://orcid.org/0000-0002-8898-044X, Google Scholar https://scholar.google.com/citations?user=kl7IdKgAAAAJ
 - Publications listed on the site: 102 (numbered #1–#102, newest first)

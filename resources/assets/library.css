@@ -105,6 +105,7 @@ html:lang(ko) .hero h1:not([lang="en"]) { font-family: "Pretendard Variable", "P
 .page-heading .authors { max-width: 980px; color: var(--text-secondary); font-size: .85rem; line-height: 1.9; }
 .page-heading > a { display: inline-block; margin-top: 12px; font-size: .85rem; overflow-wrap: anywhere; }
 .page-heading .lead { margin-top: 18px; }
+.page-heading .prose, #h-acf-presentation { max-width: 880px; }
 .page-heading .authors + .lead { margin-top: 11px; font-size: .91rem; }
 .page-heading + .notice { margin-top: 0; }
 
