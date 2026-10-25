@@ -57,8 +57,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 body.kr { font-family: var(--kr-font); line-height: 1.75; }
-/* KR mode: use the Korean font for translated headings. */
-body.kr .hero h1 { font-family: var(--kr-font); line-height: 1.3; }
+/* KR mode: only override headings that actually display Korean text */
 body.kr .ra-card h3 { font-family: var(--kr-font); }
 body.kr .ra-card .ra-hook { font-family: var(--kr-font); }
 body.kr .ra-card .ra-desc { font-family: var(--kr-font); }
@@ -949,10 +948,10 @@ section[id] {
 <section class="hero">
   <div class="hero-text">
     <div class="hero-label reveal">BioLogical Interfaces and Sensor Systems</div>
-    <h1 class="reveal reveal-d1" data-kr="생체와 전자기기를 잇는&lt;br&gt;&lt;em&gt;계면공학&lt;/em&gt;" data-en="Interface Engineering&lt;br&gt;for &lt;em&gt;Bioelectronics&lt;/em&gt;">생체와 전자기기를 잇는<br><em>계면공학</em></h1>
-    <p class="hero-desc reveal reveal-d2" data-kr="서정목 교수의 연세대학교 BLISS Lab은 생체 조직과 전자재료가 만나는 계면을 연구합니다. 하이드로젤의 접착과 전도, 서로 다른 소재의 연결, 소자를 보호하는 봉지층, 단백질·세포의 부착을 조절하는 표면을 설계하고 각 연구의 실험 조건에서 성능을 평가합니다." data-en="At Yonsei University, Jungmok Seo’s BLISS Lab studies the interfaces where living tissue meets electronic materials. We design hydrogel adhesion and conduction, joints between different materials, protective encapsulation and surfaces that control protein and cell attachment, then evaluate their performance under the conditions of each study.">서정목 교수의 연세대학교 BLISS Lab은 생체 조직과 전자재료가 만나는 계면을 연구합니다. 하이드로젤의 접착과 전도, 서로 다른 소재의 연결, 소자를 보호하는 봉지층, 단백질·세포의 부착을 조절하는 표면을 설계하고 각 연구의 실험 조건에서 성능을 평가합니다.</p>
+    <h1 class="reveal reveal-d1" data-kr="Engineering the Future of <em>Bio-Electronic</em> Interfaces" data-en="Engineering the Future of <em>Bio-Electronic</em> Interfaces">Engineering the Future of <em>Bio-Electronic</em> Interfaces</h1>
+    <p class="hero-desc reveal reveal-d2" data-kr="Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics." data-en="Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics.">Pioneering soft, adaptive interfacing materials — functional hydrogels, stretchable conductors, bio-adhesives, and device packaging — that seamlessly bridge biology and electronics.</p>
     <div class="hero-actions reveal reveal-d3">
-      <a href="/resources/ko/index.html" data-href-kr="/resources/ko/index.html" data-href-en="/resources/en/index.html" class="btn-primary" data-kr="계면공학 연구 해설 &lt;i class=&quot;fas fa-arrow-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;" data-en="Explore interface research &lt;i class=&quot;fas fa-arrow-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;">계면공학 연구 해설 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#highlights" class="btn-primary" data-kr="Highlights <i class='fas fa-arrow-right'></i>" data-en="Highlights <i class='fas fa-arrow-right'></i>">Highlights <i class="fas fa-arrow-right"></i></a>
       <a href="#contact" class="btn-outline" data-kr="Join Us" data-en="Join Us">Join Us</a>
     </div>
   </div>
