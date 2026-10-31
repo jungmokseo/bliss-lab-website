@@ -108,6 +108,36 @@ lifetime from an individual paper.
   their source changes. Review generated diffs and actual modification dates;
   `build_llms.py` currently stamps `/` and `/llms.txt` with its execution date.
 
+## Selected brief titles and entry links
+
+For the three briefs below, the localized `<title>`, `og:title` and `WebPage.name`
+describe the library commentary. The visible paper H1, catalogue title and
+`ScholarlyArticle.name/headline` retain the formal published title. This is a
+small editorial selection, not a template change for every paper.
+
+| Existing DOI slug | Main reading intent (Korean / English) |
+| --- | --- |
+| `acsami-6c04312` | 내시경 캡의 김서림·오염 억제 / Endoscope-cap fogging and fouling (SHIELD-C) |
+| `mtbio-2026-103405` | 요관 스텐트의 윤활·세균 부착·결석 침착 / Ureteral-stent lubrication, adhesion and encrustation (FLUID) |
+| `mser-2026-101285` | 유연·신축성 전자소자의 IC 칩 패키징 종설 / IC-chip packaging review for flexible and stretchable electronics |
+
+The existing library introduction links directly to these DOI briefs; retain the
+featured cards and four themes. Keep the root Korean alias's links relative to
+`ko/`. The SHIELD-C catalogue summary is synchronized to its listing/theme cards,
+page description, Open Graph description, WebPage description and `llms-full.txt`.
+It identifies benchtop/ex vivo endoscopic evaluation; exact results remain in the
+brief body. Source-scope records are not recertified by a title or summary edit.
+
+The packaging brief's related-reading paragraph separates d-HAPT material bonding,
+IC electrical contacts, and MOLE moisture-barrier encapsulation. MOLE's accelerated
+and short animal tests do not demonstrate cyclic IC-contact reliability or human
+service life. Its H-ACF link leads to the existing, separately labelled conference
+note; it is not a claim that the packaging review cites or validates that work.
+
+The homepage's original English hero copy, design, buttons and font were restored
+at the user's request in `144b884`; preserve them during discovery improvements.
+Content edits and successful local checks do not authorize a push, PR or deployment.
+
 ## Notion publication records and public website data
 
 `sync-notion.py` documents the existing Notion Publication DB and its manual MCP

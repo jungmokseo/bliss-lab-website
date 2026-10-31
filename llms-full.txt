@@ -80,7 +80,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1021/acsami.6c04312
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/acsami-6c04312.html
 - Theme: Biological responses and surface design
-- Summary: A single-use endoscope cap with a PDMS brush and silicone oil interface; one sponge refresh restored visual clarity from 84.3 ± 4.8% to 98.9 ± 1.2%.
+- Summary: SHIELD-C is a disposable endoscope cap with a PDMS-brush/silicone-oil interface. Benchtop and ex vivo tests assess fogging, fouling and visibility recovery after lubricant replenishment; they do not establish clinical effectiveness.
 - Source scope: This summary is based on the full main text, methods and figure legends of the published article and the text of its supporting information (figure captions S1-S16 and Tables S1-S2); Supplementary Video 1 and values plotted only in figure panels were not reviewed.
 
 ## #93 Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion
