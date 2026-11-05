@@ -1068,6 +1068,18 @@
   ],
   "patents": [
     {
+      "number": "10-2026-0218863",
+      "title": "폴리비닐알코올 개질 액체금속 입자 잉크 및 이를 이용한 신축성 전도체 제조방법",
+      "inventors": "서정목, 김태영, 육근영",
+      "year": 2026,
+      "applicationDate": "2026-11-05",
+      "status": "출원",
+      "country": "KR",
+      "titleEn": "Poly(vinyl alcohol)-modified liquid metal particle ink and method for manufacturing stretchable conductor using same",
+      "inventorsEn": "Jungmok Seo, Tae Young Kim, Keun-Young Yook",
+      "statusEn": "Filed"
+    },
+    {
       "number": "10-2026-0120512",
       "title": "장기 유치형 요관 스텐트",
       "inventors": "서정목, 조예진, 구교철, 이연택",

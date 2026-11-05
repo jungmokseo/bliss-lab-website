@@ -15,8 +15,9 @@ page resources/{ko,en}/papers/<slug>.html; see tools/migrate_brief_slugs.py).
 
 Publications: Python port of loadPublications() in index.html. Keep the two
 in sync; the generated block must equal what the JS template would produce.
-Team members and news: plain <noscript> lists (browsers with JS never show
-them; the JS renderers fill the same containers on load).
+Patents: Korean-default bilingual HTML, replaced by the JS renderer on load;
+the list remains visible without JavaScript. Team members and news use plain
+<noscript> lists (the JS renderers fill the same containers on load).
 """
 import json, os, re, sys
 from publication_links import brief_slugs_by_number
@@ -134,6 +135,40 @@ def render_publications(data, slugs):
     return out
 
 
+def render_patents(data):
+    """Keep patent records readable when JavaScript or the JSON fetch fails."""
+    patents = data.get('patents', [])
+    if not patents:
+        return ''
+
+    def bi(kr, en, cls=''):
+        return (f'<span class="{cls}" data-kr="{esc(esc(kr))}" '
+                f'data-en="{esc(esc(en))}">{esc(kr)}</span>')
+
+    items = []
+    for p in patents:
+        tkr, ten = p.get('title', ''), p.get('titleEn') or p.get('title', '')
+        ikr, ien = p.get('inventors', ''), p.get('inventorsEn') or p.get('inventors', '')
+        status = ''
+        if p.get('status'):
+            skr, sen = f'[{p["status"]}]', f'[{p.get("statusEn") or p["status"]}]'
+            status = (f' <span style="color:var(--accent);font-weight:600;" '
+                      f'data-kr="{esc(esc(skr))}" data-en="{esc(esc(sen))}">{esc(skr)}</span>')
+        items.append(f'''<div class="patent-item">
+          <div class="patent-title" data-kr="{esc(esc(tkr))}" data-en="{esc(esc(ten))}">{esc(tkr)}</div>
+          <div class="patent-info">{bi(ikr, ien)} · {esc(p.get('number', ''))} · {esc(p.get('country', ''))}{status}</div>
+        </div>''')
+    count = len(patents)
+    return f'''
+        <noscript><style>#patentSection .patent-list {{ max-height: none; overflow: visible; }}</style></noscript>
+        <div class="patent-toggle reveal" aria-expanded="false" onclick="togglePatents(this)">
+          <span data-kr="Patents ({count})" data-en="Patents ({count})">Patents ({count})</span>
+          <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="patent-list">{''.join(items)}</div>
+      '''
+
+
 def render_team(team):
     cats = {c['id']: c for c in team.get('categories', [])}
     parts = ['<noscript><div class="team-static">']
@@ -193,6 +228,8 @@ def build(html):
     lead = cur[:len(cur) - len(cur.lstrip())]
     trail = cur[len(cur.rstrip()):]
     html = replace_between(html, begin, end, lead + render_publications(pubs, slugs).strip() + trail)
+
+    html = replace_between(html, '<!-- BEGIN GENERATED PATENTS -->', '<!-- END GENERATED PATENTS -->', render_patents(pubs))
 
     html = re.sub(r'data-publication-count="\d+"', f'data-publication-count="{count}"', html)
     # number -> slug map read by the JS fallback renderer (used only when the list is not prerendered)

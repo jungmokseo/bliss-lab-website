@@ -919,3 +919,223 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - Theme: Device integration and packaging
 - Summary: H2 annealing at 623 K reduced Ga2O3 and ZnGa2O4 in co-sputtered ZnO:Ga films, lowering resistivity to 5.2 × 10⁻⁴ Ω cm with transmittance over 90% of glass.
 - Source scope: This summary is based on the publisher PDF of the article (Applied Surface Science 255 (2009) 4616–4622), including the Experimental procedure, Results and discussion, Conclusions and figure captions; numerical values were taken from the text and captions, and the figure images themselves were not re-measured.
+
+## Patents
+
+Patent records distinguish filed applications from granted patents. Titles, inventor names and status labels are provided in Korean and English where available.
+
+### 10-2026-0218863 — Poly(vinyl alcohol)-modified liquid metal particle ink and method for manufacturing stretchable conductor using same
+- Korean title: 폴리비닐알코올 개질 액체금속 입자 잉크 및 이를 이용한 신축성 전도체 제조방법
+- Inventors: Jungmok Seo, Tae Young Kim, Keun-Young Yook
+- Inventors (Korean): 서정목, 김태영, 육근영
+- Country: KR; year: 2026; status: Filed (출원)
+
+### 10-2026-0120512 — Long-Term Indwelling Ureteral Stent
+- Korean title: 장기 유치형 요관 스텐트
+- Inventors: Jungmok Seo, Yejin Jo, Kyo Chul Koo, Yeontaek Lee
+- Inventors (Korean): 서정목, 조예진, 구교철, 이연택
+- Country: KR; year: 2026; status: Filed (출원)
+
+### 10-2026-0099568 — Double-network hydrogel and hemostatic wet-tissue adhesive using the same
+- Korean title: 이중 네트워크 하이드로겔 및 이를 이용한 지혈용 습윤 조직 접착제
+- Inventors: Jungmok Seo, Tae Young Kim, Kayoung Son
+- Inventors (Korean): 서정목, 김태영, 손가영
+- Country: KR; year: 2026; status: Filed (출원)
+
+### 10-2025-0153329 — Highly durable anti-biofouling encapsulation structure based on a multilayered organic–liquid interface, and manufacturing method thereof
+- Korean title: 적층형 유기-액상 계면 기반의 고내구성 항바이오파울링 봉지막 구조체 및 그 제조 방법
+- Inventors: Jungmok Seo, Sangwoo Park
+- Inventors (Korean): 서정목, 박상우
+- Country: KR; year: 2025; status: Filed (출원)
+
+### 10-2025-0053761 — Gas separation membrane with enhanced gas selectivity and manufacturing method thereof
+- Korean title: 기체 선택투과성이 향상된 기체분리막 및 그 제조 방법
+- Inventors: Dae Woo Kim, Jungmok Seo, Eunji Choi
+- Inventors (Korean): 김대우, 서정목, 최은지
+- Country: KR; year: 2025; status: Filed (출원)
+
+### 10-2730799 — Suture coating composition for preventing foreign-matter adhesion
+- Korean title: 이물질 부착 방지를 위한 봉합사 코팅용 조성물
+- Inventors: Jungmok Seo, Yeontaek Lee, Yejin Jo, Kayoung Son
+- Inventors (Korean): 서정목, 이연택, 조예진, 손가영
+- Country: KR; year: 2024; status: Registered (등록)
+
+### 10-2730798 — Coating composition for medical implants to prevent foreign substance adhesion
+- Korean title: 이물질 부착 방지를 위한 의료용 체내 삽입물 코팅용 조성물
+- Inventors: Jungmok Seo, Yeontaek Lee
+- Inventors (Korean): 서정목, 이연택
+- Country: KR; year: 2024; status: Registered (등록)
+
+### 10-2025-0068240 — Microfluidic chip and method for manufacturing microfluidic chip
+- Korean title: 미세유체칩 및 이의 제조 방법
+- Inventors: Jungmok Seo, Tae Young Kim, Tae-Eun Park, Jeong-Won Choi
+- Inventors (Korean): 서정목, 김태영, 박태은, 최정원
+- Country: KR; year: 2025; status: Published (공개)
+
+### 10-2025-0057540 — Adhesive film, adhesive member comprising the same and method for bonding using the same
+- Korean title: 접착필름, 이를 포함하는 접착부재 및 이를 이용한 접합방법
+- Inventors: Jungmok Seo, Yejin Jo, Yurim Lee
+- Inventors (Korean): 서정목, 조예진, 이유림
+- Country: KR; year: 2025; status: Published (공개)
+
+### PCT/KR2024/006246 — Surface-coated prosthesis
+- Korean title: 표면이 코팅된 인공삽입물
+- Inventors: Jungmok Seo, Jae Park, Woo-Young Jang
+- Inventors (Korean): 서정목, 박재규, 장우영
+- Country: PCT; year: 2024; status: Published (공개)
+
+### 10-2024-0050406 — 3D printed electronic device using hydrogel and its manufacturing method
+- Korean title: 하이드로겔을 이용한 3D 프린팅 전자소자 및 그 제조방법
+- Inventors: Jungmok Seo, Minkyong Kang
+- Inventors (Korean): 서정목, 강민경
+- Country: KR; year: 2024; status: Published (공개)
+
+### 10-2953197 — Triboelectric nanogenerator using hydrogel and its manufacturing method
+- Korean title: 하이드로겔을 이용한 마찰전기 나노발전기 및 그 제조방법
+- Inventors: Jungmok Seo, Jinseok Oh
+- Inventors (Korean): 서정목, 오진석
+- Country: KR; year: 2024; status: Registered (등록)
+
+### 10-3020010 — Hydrogel for Hemostasis and Manufacturing Method Thereof
+- Korean title: 지혈용 하이드로겔 및 그 제조방법
+- Inventors: Jungmok Seo, Tae Young Kim, Jae Park
+- Inventors (Korean): 서정목, 김태영, 박재규
+- Country: KR; year: 2023; status: Registered (등록)
+
+### 10-2023-0052580 — Stretchable anti-adhesive surface coating material and method of manufacturing the same
+- Korean title: 신축성 항부착 표면 코팅 소재 및 그 제조방법
+- Inventors: Jungmok Seo, Tae Young Kim
+- Inventors (Korean): 서정목, 김태영
+- Country: KR; year: 2023; status: Published (공개)
+
+### 10-2787141 — Hydrogel material with rapid self-healing, high electrical conductivity, and toughness
+- Korean title: 빠른 자가치유능, 높은 전기전도도 및 인성을 지니는 하이드로겔 소재
+- Inventors: Jungmok Seo, Jae Park
+- Inventors (Korean): 서정목, 박재규
+- Country: KR; year: 2023; status: Registered (등록)
+
+### 10-2023-0013357 — Prostheses with coated surfaces
+- Korean title: 표면이 코팅된 인공삽입물
+- Inventors: Jungmok Seo, Jae Park, Woo-Young Jang
+- Inventors (Korean): 서정목, 박재규, 장우영
+- Country: KR; year: 2023; status: Filed (출원)
+
+### 10-2022-0159635 — Encapsulation film, manufacturing method thereof, and display device
+- Korean title: 봉지막, 봉지막의 제조 방법 및 표시 장치
+- Inventors: Jungmok Seo, Hak-Jin Kim, Kwang-Hwan Ji, Sooyoung Hwang
+- Inventors (Korean): 서정목, 김학진, 지광환, 황수영
+- Country: KR; year: 2022; status: Filed (출원)
+
+### 10-2407163 — An endoscope cap with anti-bioadhesion coating
+- Korean title: 생부착 방지 코팅된 내시경 캡
+- Inventors: Jungmok Seo, Yeontaek Lee, Kijun Park
+- Inventors (Korean): 서정목, 이연택, 박기준
+- Country: KR; year: 2022; status: Registered (등록)
+
+### US 12,533,067 — In vivo insertable electrode and method of manufacturing the same
+- Korean title: 생체에 삽입가능한 전극 및 이의 제조 방법
+- Inventors: Jungmok Seo, Yeontaek Lee, Il-Joo Cho, Hyogeun Shin
+- Inventors (Korean): 서정목, 이연택, 조일주, 신효근
+- Country: US; year: 2022; status: Registered (등록)
+
+### 10-2531924 — In vivo insertable electrode and method of manufacturing the same
+- Korean title: 생체에 삽입가능한 전극 및 이의 제조 방법
+- Inventors: Jungmok Seo, Yeontaek Lee, Il-Joo Cho, Hyogeun Shin
+- Inventors (Korean): 서정목, 이연택, 조일주, 신효근
+- Country: KR; year: 2021; status: Registered (등록)
+
+### US 16/838,030 — Lens for Medical Device and Manufacturing Method Thereof
+- Korean title: Lens for Medical Device and Manufacturing Method Thereof
+- Inventors: Jungmok Seo, Yeontaek Lee, Hojeong Jeon, Seung Hoon Lee, Seung No Hong
+- Inventors (Korean): 서정목, 이연택, 전호정, 이승훈, 홍승노
+- Country: US; year: 2020; status: Abandoned (소멸)
+
+### 10-2346927 — Anti-biofouling coating method for maintaining endoscopic visual field
+- Korean title: 내시경 시야 유지를 위한 생부착 방지 코팅 방법
+- Inventors: Jungmok Seo, Yeontaek Lee
+- Inventors (Korean): 서정목, 이연택
+- Country: KR; year: 2020; status: Registered (등록)
+
+### PCT/KR2018/010338 — Orthopedic artificial metal article and manufacturing method therefor
+- Korean title: 정형외과적인 인공 금속물 및 이의 제조 방법
+- Inventors: Jungmok Seo, Soon-Hyuck Lee, Woo-Young Jang, Seung-Beom Hahn
+- Inventors (Korean): 서정목, 이순혁, 장우영, 한승범
+- Country: PCT; year: 2018; status: Published (공개)
+
+### 10-2052100 — Super-repellent surface and preparation method thereof
+- Korean title: 초발액성 표면 및 이의 제조방법
+- Inventors: Jungmok Seo, Taeyoon Lee, Hyunchul Kim, Heetak Han
+- Inventors (Korean): 서정목, 이태윤, 김현철, 한희탁
+- Country: KR; year: 2018; status: Registered (등록)
+
+### 10-2002478 — Waterproof conductive fiber, preparation method thereof and wearable device comprising the same
+- Korean title: 방수 전도성 섬유, 이의 제조방법 및 이를 포함하는 웨어러블 디바이스
+- Inventors: Jungmok Seo, Taeyoon Lee, Jaehong Lee, Byungwoo Choi
+- Inventors (Korean): 서정목, 이태윤, 이재홍, 최병우
+- Country: KR; year: 2018; status: Registered (등록)
+
+### 10-2040196 — Biosensor system capable of multiple detection and method of operating thereof
+- Korean title: 다중검지 바이오센서 시스템 및 그 동작 방법
+- Inventors: Jungmok Seo, Taeyoon Lee, Heetak Han
+- Inventors (Korean): 서정목, 이태윤, 한희탁
+- Country: KR; year: 2017; status: Lapsed (소멸)
+
+### 10-1985094 — Artificial Metallic Object and Manufacturing Method Thereof
+- Korean title: 정형외과적인 인공 금속물 및 이의 제조 방법
+- Inventors: Jungmok Seo, Soon-Hyuck Lee, Woo-Young Jang, Seung-Beom Hahn
+- Inventors (Korean): 서정목, 이순혁, 장우영, 한승범
+- Country: KR; year: 2017; status: Registered (등록)
+
+### 10-1875271 — Method of direct conversion for generating neurons from somatic cells using triboelectricity
+- Korean title: Method of direct conversion for generating neurons from somatic cells using triboelectricity
+- Inventors: Jungmok Seo, Yoonhee Jin, Seungwoo Cho, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Yoonhee Jin, Seungwoo Cho, Taeyoon Lee
+- Country: KR; year: 2016; status: Registered (등록)
+
+### US 9,975,117 / EP 3090804 — Apparatus and method for controlling droplet
+- Korean title: Apparatus and method for controlling droplet
+- Inventors: Jungmok Seo, Seoung-Ki Lee, Jong-Hyun Ahn, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Seoung-Ki Lee, Jong-Hyun Ahn, Taeyoon Lee
+- Country: US/EPO; year: 2015; status: Registered (등록)
+
+### 10-1555239 — Method of forming cell spheroids and apparatus of forming cell spheroids
+- Korean title: Method of forming cell spheroids and apparatus of forming cell spheroids
+- Inventors: Jungmok Seo, Jung Seung Lee, Seungwoo Cho, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Jung Seung Lee, Seungwoo Cho, Taeyoon Lee
+- Country: KR; year: 2015; status: Registered (등록)
+
+### 10-1411441 — Apparatus and method for controlling surface wetting property of materials, and lab on a chip using the same
+- Korean title: Apparatus and method for controlling surface wetting property of materials, and lab on a chip using the same
+- Inventors: Jungmok Seo, Soonil Lee, Heetak Han, Hwae bong Jung, Wooyoung Lee, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Soonil Lee, Heetak Han, Hwae bong Jung, Wooyoung Lee, Taeyoon Lee
+- Country: KR; year: 2014; status: Registered (등록)
+
+### 10-1295345 — Graphene composition, graphene source and method for manufacturing the same, method for manufacturing graphene thin film
+- Korean title: Graphene composition, graphene source and method for manufacturing the same, method for manufacturing graphene thin film
+- Inventors: Jungmok Seo, Jahoon Koo, Sangwook Lee, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Jahoon Koo, Sangwook Lee, Taeyoon Lee
+- Country: KR; year: 2013; status: Registered (등록)
+
+### 10-1252734 — Method of arranging nanowires
+- Korean title: Method of arranging nanowires
+- Inventors: Jungmok Seo, Hyonik Lee, Juree Hong, Jahoon Koo, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Hyonik Lee, Juree Hong, Jahoon Koo, Taeyoon Lee
+- Country: KR; year: 2013; status: Registered (등록)
+
+### 10-1165447 — Method for aligning nanowires, 3-dimensional frame for aligning nanowires, and method for 3-dimensional frame for aligning nanowires
+- Korean title: Method for aligning nanowires, 3-dimensional frame for aligning nanowires, and method for 3-dimensional frame for aligning nanowires
+- Inventors: Jungmok Seo, Hyonik Lee, Seulah Lee, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Hyonik Lee, Seulah Lee, Taeyoon Lee
+- Country: KR; year: 2012; status: Registered (등록)
+
+### US 13/353,882 — Nanowire ink solution and method of forming the ink solution
+- Korean title: Nanowire ink solution and method of forming the ink solution
+- Inventors: Jungmok Seo, Jahoon Koo, Seulah Lee, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Jahoon Koo, Seulah Lee, Taeyoon Lee
+- Country: US; year: 2012; status: Abandoned (소멸)
+
+### 10-1050198 — Method of generating nanowire diode
+- Korean title: Method of generating nanowire diode
+- Inventors: Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee
+- Inventors (Korean): Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee
+- Country: KR; year: 2011; status: Registered (등록)

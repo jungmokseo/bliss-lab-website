@@ -33,6 +33,27 @@ including sitemap dates. Set `lastmod` only for pages actually changed.
 These checks verify source consistency; they do not measure search indexing,
 AI citations or traffic.
 
+## Bilingual content checks
+
+Homepage patents share one JSON array. Maintain `title/titleEn`,
+`inventors/inventorsEn`, and `status/statusEn` together; a filed application
+must remain distinct from a registered patent. News uses `title/titleEn` and,
+when present, `summary/summaryEn`. Run `python3 tools/check_bilingual.py` before
+publication; `--json` emits the detailed evidence. The check covers required
+language fields, patent status and identity, paired library metadata, page
+existence and reciprocal language routes. It does not certify translation
+meaning or re-verify historical legal status.
+
+Run `prerender.py` after patent changes as well as other homepage data changes.
+It keeps bilingual patent records in the HTML when JavaScript or the data fetch
+is unavailable. `build_llms.py` also exports the same patent records. Keep the
+JavaScript and Python patent templates aligned when changing their presentation.
+
+Notion changes use the connected tools and a reviewed merge into existing JSON.
+Preserve fields absent from the current Notion schema, including English
+inventor spellings and status labels. `sync-notion.py` remains an explanatory
+file and does not perform synchronization when executed.
+
 ## Interface engineering: bilingual terminology and evidence
 
 Use **interface engineering / 계면공학** to explain the lab's research across

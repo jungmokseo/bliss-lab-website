@@ -23,12 +23,30 @@ def plain(s):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s or ''))).strip()
 
 
+def patent_lines(patents):
+    """Expose the same bilingual records as the homepage, without inventing metadata."""
+    lines = ['## Patents', '',
+             'Patent records distinguish filed applications from granted patents. '
+             'Titles, inventor names and status labels are provided in Korean and English where available.', '']
+    for p in patents:
+        title = p.get('titleEn') or p.get('title', '')
+        status = p.get('statusEn') or p.get('status', '')
+        lines += [f'### {plain(p.get("number"))} — {plain(title)}',
+                  f'- Korean title: {plain(p.get("title"))}',
+                  f'- Inventors: {plain(p.get("inventorsEn") or p.get("inventors"))}',
+                  f'- Inventors (Korean): {plain(p.get("inventors"))}',
+                  f'- Country: {plain(p.get("country"))}; year: {p.get("year", "")}; '
+                  f'status: {plain(status)} ({plain(p.get("status"))})', '']
+    return lines
+
+
 def main():
     pubs = json.load(open(os.path.join(ROOT, 'data', 'publications.json'), encoding='utf-8'))
     team = json.load(open(os.path.join(ROOT, 'data', 'team.json'), encoding='utf-8'))
     cat = json.load(open(os.path.join(ROOT, 'resources', 'data', 'publications.json'), encoding='utf-8'))
     pi = team['pi']
     plist = pubs['publications']
+    patents = pubs.get('patents', [])
     n_pubs = len(plist)
     recent = [p for p in plist if p['year'] >= max(p['year'] for p in plist) - 1][:12]
     members = team.get('members', [])
@@ -46,6 +64,7 @@ def main():
         f'- Principal investigator: {pi["nameEn"]} ({pi["nameKr"]}), ORCID https://orcid.org/0000-0002-8898-044X, '
         'Google Scholar https://scholar.google.com/citations?user=kl7IdKgAAAAJ',
         f'- Publications listed on the site: {n_pubs} (numbered #1–#{max(p["number"] for p in plist)}, newest first)',
+        f'- Patent records listed on the site: {len(patents)}; bilingual titles, inventors, numbers and application/grant status: {SITE}/#patentSection',
         f'- Current members listed: {len(members)}; alumni listed: {len(team.get("alumni", []))}',
         '',
         '## Main pages',
@@ -87,6 +106,7 @@ def main():
                  f'- Theme: {THEMES.get(e.get("theme"), e.get("theme") or "")}',
                  f'- Summary: {e["summary"]}',
                  f'- Source scope: {e["source_scope"]}', '']
+    full += patent_lines(patents)
     open(os.path.join(ROOT, 'llms-full.txt'), 'w', encoding='utf-8').write('\n'.join(full))
 
     today = datetime.date.today().isoformat()

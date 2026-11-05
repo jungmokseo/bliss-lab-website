@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "BLISS 서정목 교수 연구팀, PVA 개질 액체금속 입자 잉크 특허 출원",
+      "titleEn": "BLISS Prof. Jungmok Seo’s team files Korean patent application for PVA-modified liquid metal particle ink",
+      "slug": "patent_pva_liquid_metal_filing_20261105",
+      "date": "2026-11-05",
+      "month": "Nov 2026",
+      "categories": [
+        "General"
+      ],
+      "summary": "‘폴리비닐알코올 개질 액체금속 입자 잉크 및 이를 이용한 신축성 전도체 제조방법’이 2026년 11월 5일 대한민국 특허로 출원되었다(출원번호 10-2026-0218863). 발명자는 서정목, 김태영, 육근영이며, 출원인은 연세대학교 산학협력단이다.",
+      "summaryEn": "A Korean patent application (No. 10-2026-0218863) for ‘Poly(vinyl alcohol)-modified liquid metal particle ink and method for manufacturing stretchable conductor using same’ was filed on November 5, 2026. The inventors are Jungmok Seo, Tae Young Kim and Keun-Young Yook, and the applicant is Yonsei University Industry-Academic Cooperation Foundation.",
+      "thumbnail": "images/publications/pub-101.jpg",
+      "contentImage": null
+    },
+    {
       "title": "BLISS 서정목 교수 연구팀 '지혈용 하이드로겔 및 그 제조방법' 특허 등록 (제10-3020010호)",
       "titleEn": "BLISS Prof. Jungmok Seo's team — Korean patent registered for 'Hydrogel for Hemostasis and Manufacturing Method Thereof' (No. 10-3020010)",
       "slug": "patent_hemostat_reg",
