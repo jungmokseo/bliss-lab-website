@@ -151,14 +151,17 @@ def check_library(root, catalogue, publications, report):
             report.error(location, 'Korean/English DOI differs')
         if ko.get('title') == en.get('title'):
             report.note(location, 'Shared original publication title in both languages')
-    for paper in publications:
-        entries = pairs.get(paper.get('number'), {})
-        for language in ('ko', 'en'):
-            entry = entries.get(language)
-            if entry is None:
-                report.error(f'publication #{paper.get("number")}', f'Missing {language} catalogue entry')
-            elif normalize_doi(paper.get('link')) != normalize_doi(entry.get('doi')):
-                report.error(f'publication #{paper.get("number")}', f'{language} catalogue DOI differs')
+    by_number = {paper.get('number'): paper for paper in publications}
+    for number, entries in pairs.items():
+        paper = by_number.get(number)
+        if paper is None:
+            report.error(f'catalogue #{number}', 'No corresponding homepage publication')
+        else:
+            for language, entry in entries.items():
+                if normalize_doi(paper.get('link')) != normalize_doi(entry.get('doi')):
+                    report.error(f'publication #{number}', f'{language} catalogue DOI differs')
+    for number in by_number.keys() - pairs.keys():
+        report.note(f'publication #{number}', 'Listed on the homepage; no reviewed bilingual brief yet')
 
     routes = {language: {p.relative_to(root / 'resources' / language)
                          for p in (root / 'resources' / language).rglob('*.html')}

@@ -132,7 +132,7 @@ def render_publications(data, slugs):
           </div>
         </div>
       '''
-    return out
+    return '\n'.join(line.rstrip() for line in out.split('\n'))
 
 
 def render_patents(data):

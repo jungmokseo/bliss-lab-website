@@ -81,9 +81,9 @@ def main():
     for p in recent:
         link = p.get('link') or ''
         slug = slugs.get(p['number'])
-        lines.append(f'- #{p["number"]} {plain(p["title"])} — {plain(p["journal"])}. '
+        lines.append((f'- #{p["number"]} {plain(p["title"])} — {plain(p["journal"])}. '
                      + (f'DOI: {link.replace("https://doi.org/", "")}. ' if link else '')
-                     + (f'Summary: {SITE}/resources/en/papers/{slug}.html' if slug else '').rstrip())
+                     + (f'Summary: {SITE}/resources/en/papers/{slug}.html' if slug else '')).rstrip())
     lines += ['', '## Data',
               f'- [Publication catalogue (JSON)]({SITE}/resources/data/publications.json): number, title, authors, journal, year, DOI, slug, summary page URL (resources/{{en,ko}}/papers/<slug>.html), theme, summary and source scope (English and Korean)',
               f'- [Publication catalogue (CSV)]({SITE}/resources/data/publications.csv)',

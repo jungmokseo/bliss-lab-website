@@ -57,14 +57,14 @@ class BriefMetadataTests(unittest.TestCase):
             path = ROOT / 'resources' / entry['language'] / 'papers' / (entry['slug'] + '.html')
             cls.pages.append((entry, BriefMetadata(path.read_text())))
 
-    def test_catalogue_covers_every_current_publication_in_both_languages(self):
+    def test_every_reviewed_brief_has_both_languages_and_a_homepage_publication(self):
         routes = brief_slugs_by_number(self.publications, self.catalogue)
-        count = len(self.publications)
+        count = len({normalize_doi(e['doi']) for e in self.catalogue})
         self.assertGreater(count, 0)
         self.assertEqual(len(routes), count)
         self.assertEqual(len(self.catalogue), count * 2)
-        self.assertEqual({normalize_doi(p['link']) for p in self.publications},
-                         {normalize_doi(e['doi']) for e in self.catalogue})
+        self.assertLessEqual({normalize_doi(e['doi']) for e in self.catalogue},
+                             {normalize_doi(p['link']) for p in self.publications})
         self.assertEqual(Counter(e['language'] for e in self.catalogue), {'en': count, 'ko': count})
         expected = {f"resources/{e['language']}/papers/{e['slug']}.html" for e in self.catalogue}
         actual = {

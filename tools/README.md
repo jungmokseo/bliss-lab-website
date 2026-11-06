@@ -49,10 +49,12 @@ It keeps bilingual patent records in the HTML when JavaScript or the data fetch
 is unavailable. `build_llms.py` also exports the same patent records. Keep the
 JavaScript and Python patent templates aligned when changing their presentation.
 
-Notion changes use the connected tools and a reviewed merge into existing JSON.
-Preserve fields absent from the current Notion schema, including English
-inventor spellings and status labels. `sync-notion.py` remains an explanatory
-file and does not perform synchronization when executed.
+The Notion sync compares a complete read-only snapshot with a private baseline.
+It applies changed fields to an isolated copy of the current `origin/main`,
+preserves existing metadata, regenerates HTML and runs the bilingual, brief,
+regression and diff checks before committing. The public release must match the
+verified HTML/JSON before the baseline advances. Bootstrap and preview do not
+publish. Configuration, raw snapshots and state live outside the repository.
 
 ## Interface engineering: bilingual terminology and evidence
 
@@ -161,12 +163,13 @@ Content edits and successful local checks do not authorize a push, PR or deploym
 
 ## Notion publication records and public website data
 
-`sync-notion.py` documents the existing Notion Publication DB and its manual MCP
-export route; it is a comments-only guide, not an automatic synchronizer. Use the
-active DB identified there, never the archived seed DB. Coordinate any Notion
-write with the person maintaining that DB; website editing alone does not require
-or authorize changing it. The live DB schema and sync freshness were not audited
-in the 2026-10-25 website maintenance pass.
+`tools/notion_snapshot.js` reads the active Notion data sources via the connected
+tools. `sync-notion.py` applies the resulting snapshot; do not use an archived
+seed DB or regenerate the site from all Notion rows. Initial setup records the
+Notion baseline without changing public content. Supported later edits preserve
+unmanaged fields and never remove records automatically. A newly listed paper
+may await a separately reviewed bilingual Research Library brief; a partial or
+unmatched brief pair fails validation.
 
 Treat the DOI, checked against the publisher/original source, as the join key:
 
