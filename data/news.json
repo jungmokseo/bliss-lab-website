@@ -1,6 +1,21 @@
 {
   "news": [
     {
+      "title": "BLISS Lab, 2026 로보월드 참관",
+      "titleEn": "BLISS Lab Visits ROBOTWORLD 2026",
+      "slug": "bliss-robotworld-20261106",
+      "date": "2026-11-06",
+      "month": "Nov 2026",
+      "categories": [
+        "Event"
+      ],
+      "summary": "BLISS Lab 구성원들이 고양 킨텍스에서 열린 2026 로보월드를 참관했습니다.",
+      "summaryEn": "BLISS Lab members visited ROBOTWORLD 2026 at KINTEX in Goyang.",
+      "thumbnail": "images/news/bliss-robotworld-20261106.jpg",
+      "contentImage": null,
+      "preservePhotoFraming": true
+    },
+    {
       "title": "BLISS 서정목 교수 연구팀, PVA 개질 액체금속 입자 잉크 특허 출원",
       "titleEn": "BLISS Prof. Jungmok Seo’s team files Korean patent application for PVA-modified liquid metal particle ink",
       "slug": "patent_pva_liquid_metal_filing_20261105",
@@ -13,6 +28,21 @@
       "summaryEn": "A Korean patent application (No. 10-2026-0218863) for ‘Poly(vinyl alcohol)-modified liquid metal particle ink and method for manufacturing stretchable conductor using same’ was filed on November 5, 2026. The inventors are Jungmok Seo, Tae Young Kim and Keun-Young Yook, and the applicant is Yonsei University Industry-Academic Cooperation Foundation.",
       "thumbnail": "images/publications/pub-101.jpg",
       "contentImage": null
+    },
+    {
+      "title": "BLISS Lab 가을 소풍",
+      "titleEn": "BLISS Lab Fall Outing",
+      "slug": "bliss-autumn-outing-20261029",
+      "date": "2026-10-29",
+      "month": "Oct 2026",
+      "categories": [
+        "Event"
+      ],
+      "summary": "BLISS Lab 구성원들이 10월 29일 가을 소풍을 다녀왔습니다.",
+      "summaryEn": "BLISS Lab members went on a fall outing on October 29.",
+      "thumbnail": "images/news/bliss-autumn-outing-20261029.jpg",
+      "contentImage": null,
+      "preservePhotoFraming": true
     },
     {
       "title": "BLISS 서정목 교수 연구팀 '지혈용 하이드로겔 및 그 제조방법' 특허 등록 (제10-3020010호)",
