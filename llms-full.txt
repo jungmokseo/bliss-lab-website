@@ -924,6 +924,12 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 
 Patent records distinguish filed applications from granted patents. Titles, inventor names and status labels are provided in Korean and English where available.
 
+### 10-2026-0224906 — Low-temperature organic–inorganic hybrid encapsulation film having self-replenishing lubricant interface and method for manufacturing the same
+- Korean title: 자가 재공급 윤활 계면을 갖는 저온 유무기 하이브리드 봉지막 및 그 제조방법
+- Inventors: Jungmok Seo, Hyun Jae Kim, Jangho Kim, Yejin Jo
+- Inventors (Korean): 서정목, 김현재, 김장호, 조예진
+- Country: KR; year: 2026; status: Filed (출원)
+
 ### 10-2026-0218863 — Poly(vinyl alcohol)-modified liquid metal particle ink and method for manufacturing stretchable conductor using same
 - Korean title: 폴리비닐알코올 개질 액체금속 입자 잉크 및 이를 이용한 신축성 전도체 제조방법
 - Inventors: Jungmok Seo, Tae Young Kim, Keun-Young Yook

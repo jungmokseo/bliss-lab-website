@@ -1068,6 +1068,18 @@
   ],
   "patents": [
     {
+      "number": "10-2026-0224906",
+      "title": "자가 재공급 윤활 계면을 갖는 저온 유무기 하이브리드 봉지막 및 그 제조방법",
+      "inventors": "서정목, 김현재, 김장호, 조예진",
+      "year": 2026,
+      "applicationDate": "2026-11-11",
+      "status": "출원",
+      "country": "KR",
+      "titleEn": "Low-temperature organic–inorganic hybrid encapsulation film having self-replenishing lubricant interface and method for manufacturing the same",
+      "inventorsEn": "Jungmok Seo, Hyun Jae Kim, Jangho Kim, Yejin Jo",
+      "statusEn": "Filed"
+    },
+    {
       "number": "10-2026-0218863",
       "title": "폴리비닐알코올 개질 액체금속 입자 잉크 및 이를 이용한 신축성 전도체 제조방법",
       "inventors": "서정목, 김태영, 육근영",
