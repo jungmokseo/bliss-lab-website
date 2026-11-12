@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 
 from check_bilingual import Markup
-from notion_highlights import LEGACY_DOIS, merge_highlights
+from notion_highlights import HighlightCards, LEGACY_DOIS, merge_highlights
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,6 +21,11 @@ class HighlightMergeTests(unittest.TestCase):
     def setUpClass(cls):
         cls.html = (ROOT / 'index.html').read_text(encoding='utf-8')
         cls.publications = json.loads((ROOT / 'data/publications.json').read_text())['publications']
+        [cls.target_index] = [
+            index for index, (_, _, links) in enumerate(HighlightCards(cls.html).cards)
+            if any(link.get('data-href-kr') ==
+                   '/resources/ko/papers/bioactmat-2026-02-003.html' for link in links)
+        ]
 
     def row(self, **changes):
         previous = {
@@ -58,9 +63,9 @@ class HighlightMergeTests(unittest.TestCase):
         new_descriptions = self.attributes(merged, 'div', 'hl-desc')
         self.assertEqual(len(new_descriptions), len(source_descriptions))
         self.assertEqual([i for i, (old, new) in enumerate(zip(source_descriptions, new_descriptions))
-                          if old != new], [1])
-        self.assertEqual(new_descriptions[1]['data-kr'], ko)
-        self.assertEqual(new_descriptions[1]['data-en'], en)
+                          if old != new], [self.target_index])
+        self.assertEqual(new_descriptions[self.target_index]['data-kr'], ko)
+        self.assertEqual(new_descriptions[self.target_index]['data-en'], en)
         self.assertEqual(self.attributes(merged, 'a', 'read-link'),
                          self.attributes(self.html, 'a', 'read-link'))
 
@@ -96,7 +101,7 @@ class HighlightMergeTests(unittest.TestCase):
         row['_site_unchanged'] = False
         with self.assertRaisesRegex(ValueError, 'reconcile the current site'):
             self.merge([row])
-        published = self.attributes(self.html, 'div', 'hl-desc')[1]
+        published = self.attributes(self.html, 'div', 'hl-desc')[self.target_index]
         row['_previous']['Description'] = published['data-kr']
         row['_previous']['Description EN'] = published['data-en']
         self.assertIn('New description.', self.merge([row]))
