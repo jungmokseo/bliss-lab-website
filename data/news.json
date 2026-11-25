@@ -1,6 +1,21 @@
 {
   "news": [
     {
+      "title": "손가영 학생, 한국바이오칩학회 Young Pioneers 최우수 구두 발표상 수상",
+      "titleEn": "Kayoung Son Receives the Young Pioneers Best Oral Presentation Award at the Korean BioChip Society Fall Meeting",
+      "slug": "kayoung-son-kbcs-young-pioneers-20261125",
+      "date": "2026-11-25",
+      "month": "Nov 2026",
+      "categories": [
+        "Award"
+      ],
+      "summary": "BLISS Lab 손가영 학생이 11월 10~13일 제주신화월드 랜딩컨벤션센터에서 열린 2026 한국바이오칩학회 추계국제학술대회에서 ‘Quinone-Enabled Wet Adhesion of a Tissue-Adaptive Double-Network Hydrogel for Rapid Hemostasis’ 발표로 Young Pioneers 최우수 구두 발표상을 받았습니다.",
+      "summaryEn": "Kayoung Son of BLISS Lab received the Young Pioneers Best Oral Presentation Award for her talk “Quinone-Enabled Wet Adhesion of a Tissue-Adaptive Double-Network Hydrogel for Rapid Hemostasis” at the 2026 Fall Meeting of the Korean BioChip Society, held November 10–13 at the Landing Convention Centre in Jeju Shinhwa World.",
+      "thumbnail": "images/team/son-gayoung.jpg",
+      "contentImage": null,
+      "preservePhotoFraming": true
+    },
+    {
       "title": "BLISS Lab, 2026 로보월드 참관",
       "titleEn": "BLISS Lab Visits ROBOTWORLD 2026",
       "slug": "bliss-robotworld-20261106",
