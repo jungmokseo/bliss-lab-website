@@ -91,6 +91,8 @@ def check_data(publications, team, news, report):
         report.pair(item, 'title', 'titleEn', location)
         if item.get('summary'):
             report.pair(item, 'summary', 'summaryEn', location)
+        for photo_index, photo in enumerate(item.get('photos') or []):
+            report.pair(photo, 'caption', 'captionEn', f'{location} photos[{photo_index}]')
     people = [('pi', team.get('pi', {}))]
     people += [(f'members[{i}]', item) for i, item in enumerate(team.get('members', []))]
     for location, person in people:

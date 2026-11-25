@@ -16,6 +16,38 @@
       "preservePhotoFraming": true
     },
     {
+      "title": "BLISS Lab, 피부 재생 하이드로겔과 치료용 소자 연구교류 세미나 개최",
+      "titleEn": "BLISS Lab Hosts a Research Seminar on Hydrogels for Skin Regeneration and Therapeutic Devices",
+      "slug": "bliss-research-seminar-20261124",
+      "date": "2026-11-24",
+      "month": "Nov 2026",
+      "categories": [
+        "Event"
+      ],
+      "summary": "BLISS Lab은 11월 24일 연세대학교에서 이준민 교수(포항공과대학교), 김한준 교수(고려대학교), 이강주 교수(인천대학교)를 초청해 연구교류 세미나를 열었습니다. 세 연자는 각각 생체재료를 활용한 조직 모델 제작, 질환 모델링과 치료, 기계공학에서의 지속 가능한 바이오소재를 주제로 발표했습니다.",
+      "summaryEn": "BLISS Lab hosted a research seminar at Yonsei University on November 24 with Prof. Junmin Lee (POSTECH), Prof. Hanjun Kim (Korea University), and Prof. KangJu Lee (Incheon National University). Their talks addressed fabrication of tissue models using biomaterials, disease modeling and therapeutics, and sustainable biomaterials in mechanical engineering, respectively.",
+      "thumbnail": "images/news/bliss-seminar-20261124-group.jpg",
+      "contentImage": null,
+      "preservePhotoFraming": true,
+      "photos": [
+        {
+          "src": "images/news/bliss-seminar-20261124-junmin-lee.jpg",
+          "caption": "이준민 교수",
+          "captionEn": "Prof. Junmin Lee"
+        },
+        {
+          "src": "images/news/bliss-seminar-20261124-hanjun-kim.jpg",
+          "caption": "김한준 교수",
+          "captionEn": "Prof. Hanjun Kim"
+        },
+        {
+          "src": "images/news/bliss-seminar-20261124-kangju-lee.jpg",
+          "caption": "이강주 교수",
+          "captionEn": "Prof. KangJu Lee"
+        }
+      ]
+    },
+    {
       "title": "BLISS Lab, 2026 로보월드 참관",
       "titleEn": "BLISS Lab Visits ROBOTWORLD 2026",
       "slug": "bliss-robotworld-20261106",

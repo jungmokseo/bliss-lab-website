@@ -204,8 +204,13 @@ def render_news(news, limit=20):
     for n in items:
         title = n.get('titleEn') or n.get('title')
         summ = n.get('summaryEn') or n.get('summary') or ''
+        photos = n.get('photos') or []
+        photo_links = ' · '.join(f'<a href="{esc(photo["src"])}">{esc(photo["captionEn"])}</a>'
+                                 for photo in photos)
         parts.append(f'<li><time datetime="{esc(n.get("date"))}">{esc(n.get("date"))}</time> — <strong>{esc(title)}</strong>'
-                     + (f'. {esc(summ)}' if summ else '') + '</li>')
+                     + (f'. {esc(summ)}' if summ else '')
+                     + (f' <a href="{esc(n["thumbnail"])}">Group photo</a> · {photo_links}' if photo_links else '')
+                     + '</li>')
     parts.append('</ul></noscript>')
     return ''.join(parts)
 
