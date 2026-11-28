@@ -33,7 +33,8 @@
   --white: #FFFFFF;
   --text-primary: #1A1A1A;
   --text-secondary: #555555;
-  --text-muted: #999999;
+  --text-muted: #6b6b6b;   /* text: at least 4.5:1 on #fff, #fafafa and --accent-soft */
+  --muted-decor: #999999;  /* non-text marks (chevrons, dots) keep the lighter grey */
   --accent: #0055FF;
   --accent-soft: #E8EFFE;
   --border: #E5E5E5;
@@ -57,6 +58,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 body.kr { font-family: var(--kr-font); line-height: 1.75; }
+/* Korean mode: break lines between words, not inside them; long unbroken tokens may still wrap */
+body.kr { word-break: keep-all; overflow-wrap: anywhere; }
 /* KR mode: only override headings that actually display Korean text */
 body.kr .ra-card h3 { font-family: var(--kr-font); }
 body.kr .ra-card .ra-hook { font-family: var(--kr-font); }
@@ -229,7 +232,7 @@ nav.scrolled { background: rgba(255,255,255,0.96); box-shadow: 0 1px 16px rgba(0
   padding: 96px var(--gutter); width: 100%;
 }
 .bg-section .section-label {
-  font-size: 0.68rem; font-weight: 600; text-transform: uppercase;
+  font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.14em; color: var(--accent); margin-bottom: 16px;
   display: flex; align-items: center; gap: 8px;
 }
@@ -256,7 +259,7 @@ nav.scrolled { background: rgba(255,255,255,0.96); box-shadow: 0 1px 16px rgba(0
   font-size: 1.6rem; font-weight: 700; color: #fff; line-height: 1.2;
 }
 .bg-stat-label {
-  font-size: 0.68rem; color: rgba(255,255,255,0.6);
+  font-size: 0.72rem; color: rgba(255,255,255,0.6);
   text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;
 }
 
@@ -323,7 +326,7 @@ section { padding: 96px 0; }
 .ra-library-link { display: inline-block; margin-top: 18px; font-size: 0.82rem; line-height: 1.5; }
 .ra-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .ra-tags span {
-  font-size: 0.68rem; font-weight: 500; padding: 3px 10px;
+  font-size: 0.72rem; font-weight: 500; padding: 3px 10px;
   border-radius: 3px; color: var(--text-muted);
 }
 .electrode .ra-tags span { background: rgba(0,85,255,0.05); }
@@ -445,7 +448,7 @@ section { padding: 96px 0; }
 
 /* ========== TAG COLORS ========== */
 .tag {
-  font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
+  font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.06em; padding: 3px 10px; border-radius: 3px;
 }
 .tag-electrode { background: rgba(0,85,255,0.07); color: var(--theme-electrode); }
@@ -472,7 +475,7 @@ section { padding: 96px 0; }
   background: var(--accent-soft); padding: 2px 10px; border-radius: 10px;
 }
 .pub-year-header .chevron {
-  font-size: 0.75rem; color: var(--text-muted); transition: transform 0.3s;
+  font-size: 0.75rem; color: var(--muted-decor); transition: transform 0.3s;
 }
 .pub-year-group.open .pub-year-header .chevron { transform: rotate(180deg); }
 .pub-year-items {
@@ -485,8 +488,8 @@ section { padding: 96px 0; }
 .pub-item.pub-item-with-img { display: grid; grid-template-columns: 160px 1fr; gap: 20px; align-items: start; }
 .pub-img { width: 160px; min-height: 90px; border-radius: 6px; overflow: hidden; background: var(--bg); }
 .pub-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.pub-if { display: inline-block; font-size: 0.68rem; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 8px; white-space: nowrap; }
-.pub-doi { display: inline-flex; align-items: center; gap: 4px; font-size: 0.68rem; color: var(--accent); border: 1px solid var(--accent-soft); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 4px; text-decoration: none; white-space: nowrap; transition: background 0.18s, color 0.18s; }
+.pub-if { display: inline-block; font-size: 0.72rem; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 8px; white-space: nowrap; }
+.pub-doi { display: inline-flex; align-items: center; gap: 4px; font-size: 0.72rem; color: var(--accent); border: 1px solid var(--accent-soft); padding: 2px 8px; border-radius: 10px; font-weight: 600; margin-left: 4px; text-decoration: none; white-space: nowrap; transition: background 0.18s, color 0.18s; }
 .pub-doi:hover, .pub-doi:focus { background: var(--accent); color: var(--white, #fff); outline: none; }
 .pub-doi i { font-size: 0.62rem; }
 .pub-awards { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
@@ -523,7 +526,7 @@ section { padding: 96px 0; }
 }
 .patent-toggle:hover { padding-left: 6px; }
 .patent-toggle span { font-size: 1.05rem; font-weight: 700; color: var(--text-primary); }
-.patent-toggle .chevron { font-size: 0.7rem; color: var(--text-muted); transition: transform 0.3s; }
+.patent-toggle .chevron { font-size: 0.7rem; color: var(--muted-decor); transition: transform 0.3s; }
 .patent-toggle.open .chevron { transform: rotate(180deg); }
 .patent-list {
   max-height: 0; overflow: hidden; transition: max-height 0.5s ease;
@@ -667,7 +670,7 @@ section { padding: 96px 0; }
   width: 28px; height: 28px; border-radius: 50%;
   border: none; background: var(--bg); cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  font-size: 0.7rem; color: var(--text-muted); transition: all 0.2s;
+  font-size: 0.7rem; color: var(--muted-decor); transition: all 0.2s;
 }
 .accordion-close:hover { background: var(--accent-soft); color: var(--accent); }
 .member-item.active .member-photo { transform: scale(1.06); box-shadow: 0 0 0 3px var(--accent); }
@@ -770,7 +773,7 @@ body.kr .news-hero .news-hero-body h3 { font-family: var(--kr-font); }
   pointer-events: none;
 }
 .pub-overlay .pub-ov-journal {
-  font-size: 0.68rem; font-weight: 600; color: rgba(255,255,255,0.85);
+  font-size: 0.72rem; font-weight: 600; color: rgba(255,255,255,0.85);
   letter-spacing: 0.02em; font-style: italic;
 }
 .pub-overlay .pub-ov-if {
@@ -793,12 +796,12 @@ body.kr .news-hero .news-hero-body h3 { font-family: var(--kr-font); }
 }
 .news-hero .pub-ov-if {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.68rem; font-weight: 600; color: rgba(255,255,255,0.85);
+  font-size: 0.72rem; font-weight: 600; color: rgba(255,255,255,0.85);
   background: rgba(255,255,255,0.12); padding: 3px 9px; border-radius: 3px;
 }
 .news-card-body { padding: 22px 24px 20px; flex: 1; display: flex; flex-direction: column; }
 .news-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
-.news-card-body h3 { font-size: 0.95rem; font-weight: 600; line-height: 1.45; margin-bottom: 8px; flex: 1; }
+.news-card-body h3 { font-size: 0.95rem; font-weight: 600; line-height: 1.45; margin-bottom: 8px; }
 .news-card-body p {
   font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 12px;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -817,7 +820,7 @@ body.kr .news-hero .news-hero-body h3 { font-family: var(--kr-font); }
   font-size: 0.72rem; color: var(--text-muted);
   display: flex; align-items: center; gap: 6px; margin-top: auto;
 }
-.news-card-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-muted); }
+.news-card-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--muted-decor); }
 .news-filters { display: flex; gap: 8px; margin-bottom: 28px; flex-wrap: wrap; }
 .news-filter-btn {
   padding: 6px 18px; border-radius: 20px; border: 1px solid var(--border-light);
@@ -890,6 +893,18 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
     border-bottom: 1px solid var(--border-light);
     box-shadow: 0 8px 24px rgba(0,0,0,0.04);
   }
+  /* Tap targets: at least 44x44px to hit, drawn at the same size as before.
+     Padding is offset by a negative margin / smaller gap so nothing moves. */
+  .hamburger { padding: 14px 11px; margin: -14px -11px; }
+  .nav-links.open { gap: 11px; padding-top: 17.5px; }
+  .nav-links.open a { display: flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 12px; }
+  .nav-links.open .lang-toggle { margin-top: 10.5px; }
+  .nav-links.open .lang-toggle, .news-filter-btn { position: relative; }
+  .nav-links.open .lang-toggle::after, .news-filter-btn::after {
+    content: ''; position: absolute; left: 50%; top: 50%;
+    width: 100%; min-width: 44px; height: 44px; transform: translate(-50%, -50%);
+  }
+  .news-filters { row-gap: 15px; }
   .hero h1 { font-size: 2.4rem; }
   .news-grid { grid-template-columns: 1fr; }
   .news-hero { min-height: 240px; }
@@ -897,7 +912,7 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
   .news-hero .news-hero-body h3 { font-size: 1.2rem; }
   .cover-item { width: 140px; height: 186px; }
   .pub-item.pub-item-with-img { grid-template-columns: 1fr; }
-  .pub-img { width: 100%; min-height: 120px; }
+  .pub-img { width: 100%; max-width: 360px; min-height: 120px; }
   .member-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 20px; }
   .accordion-inner { flex-direction: column; align-items: center; text-align: center; gap: 16px; }
   .accordion-details .acc-edu-list li { text-align: left; }
@@ -913,9 +928,8 @@ footer { padding: 36px 0; border-top: 1px solid var(--border-light); }
 }
 
 /* ========== SCROLL OFFSET FOR FIXED NAV ========== */
-section[id] {
-  scroll-margin-top: calc(var(--nav-height) + 16px);
-}
+/* The offset is set once, as scroll-padding-top on <html> (top of this sheet).
+   A second scroll-margin-top on the sections doubled it for scrollIntoView(). */
 
 /* ========== SCROLL ANIMATIONS ========== */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -1029,7 +1043,7 @@ section[id] {
 
 <!-- ===== BG SECTION 1: Bridging Biology & Electronics (hero-1) ===== -->
 <section class="bg-section style-glass reveal">
-  <img class="bg-image" src="images/hero/hero-1.jpg" alt="Bio-interface illustration">
+  <img class="bg-image" src="images/hero/hero-1.jpg" alt="Bio-interface illustration" width="1218" height="1334" loading="lazy" decoding="async">
   <div class="bg-overlay"></div>
   <div class="bg-content">
     <div class="section-label">Our Impact</div>
@@ -1056,7 +1070,7 @@ section[id] {
       <!-- 1. 2026 · Area 4 — Stretchable Circuit · Advanced Science · IF 14.1 -->
       <div class="hl-card reveal" id="highlight-lm-spray">
         <div class="hl-card-img">
-          <img src="images/highlights/lm_spray_self_fusion_illustration_20261112.png" alt="Spray impact and fluid-assisted self-fusion of PVA-modified liquid-metal particles">
+          <img src="images/highlights/lm_spray_self_fusion_illustration_20261112.png" alt="Spray impact and fluid-assisted self-fusion of PVA-modified liquid-metal particles" width="1388" height="781" loading="lazy" decoding="async">
         </div>
         <div class="hl-card-body">
           <span class="tag tag-circuit">#Stretchable Circuit</span>
@@ -1075,7 +1089,7 @@ section[id] {
       <!-- 2. 2026 · Area 4 — Stretchable Circuit · Materials Science and Engineering R: Reports · IF 21.1 -->
       <div class="hl-card reveal reveal-d1" id="highlight-mser">
         <div class="hl-card-img">
-          <img src="images/highlights/soft_electronics_packaging_illustration_20261112.png" alt="Packaging architectures connecting rigid IC chips with deformable circuits">
+          <img src="images/highlights/soft_electronics_packaging_illustration_20261112.png" alt="Packaging architectures connecting rigid IC chips with deformable circuits" width="1388" height="781" loading="lazy" decoding="async">
         </div>
         <div class="hl-card-body">
           <span class="tag tag-circuit">#Stretchable Circuit</span>
@@ -1094,7 +1108,7 @@ section[id] {
       <!-- 3. 2026 · Area 2 — Bio-Interface · Nature Communications · IF 18.1 -->
       <div class="hl-card reveal reveal-d2">
         <div class="hl-card-img">
-          <img src="images/highlights/quinone_double_network_hydrogel_illustration.png" alt="Quinone-Mediated Double-Network Hydrogel for Instant Hemostasis">
+          <img src="images/highlights/quinone_double_network_hydrogel_illustration.png" alt="Quinone-Mediated Double-Network Hydrogel for Instant Hemostasis" width="1388" height="781" loading="lazy" decoding="async">
         </div>
         <div class="hl-card-body">
           <span class="tag tag-interface">#Bio-Interface</span>
@@ -1113,7 +1127,7 @@ section[id] {
       <!-- 4. 2026 · Area 3 — Sensor Reliability · Bioactive Materials · IF 23.6 -->
       <div class="hl-card reveal reveal-d3">
         <div class="hl-card-img">
-          <img src="images/highlights/dopamine_fluoropolymer_biliary_stent_illustration.png" alt="Dopamine-Fluoropolymer Biliary Stent">
+          <img src="images/highlights/dopamine_fluoropolymer_biliary_stent_illustration.png" alt="Dopamine-Fluoropolymer Biliary Stent" width="1376" height="768" loading="lazy" decoding="async">
         </div>
         <div class="hl-card-body">
           <span class="tag tag-reliability">#Sensor Reliability</span>
@@ -1136,7 +1150,7 @@ section[id] {
         <!-- 5. 2026 · Area 1 — Soft Bioelectrode · Advanced Materials · IF 29.1 -->
         <div class="hl-card reveal" id="highlight-adma">
           <div class="hl-card-img">
-            <img src="images/highlights/ion_mediated_hydrogel_biosensor_illustration_20261112.png" alt="Ion-treated PVA-alginate hydrogel interfaces for sweat and interstitial glucose sensing">
+            <img src="images/highlights/ion_mediated_hydrogel_biosensor_illustration_20261112.png" alt="Ion-treated PVA-alginate hydrogel interfaces for sweat and interstitial glucose sensing" width="1388" height="781" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-electrode">#Soft Bioelectrode</span>
@@ -1155,7 +1169,7 @@ section[id] {
         <!-- 6. 2026 · Area 3 — Sensor Reliability · Small · IF 11.8 -->
         <div class="hl-card reveal reveal-d1">
           <div class="hl-card-img">
-            <img src="images/highlights/MOLE_implantable_device_encapsulation_illustration.png" alt="MOLE Implantable Device Encapsulation">
+            <img src="images/highlights/MOLE_implantable_device_encapsulation_illustration.png" alt="MOLE Implantable Device Encapsulation" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-reliability">#Sensor Reliability</span>
@@ -1174,7 +1188,7 @@ section[id] {
         <!-- 7. 2026 · Area 1 — Soft Bioelectrode · Adv Healthcare Materials · IF 11 -->
         <div class="hl-card reveal">
           <div class="hl-card-img">
-            <img src="images/highlights/SCOPE_patch_diabetic_wound_healing_illustration.png" alt="SCOPE Patch Diabetic Wound Healing">
+            <img src="images/highlights/SCOPE_patch_diabetic_wound_healing_illustration.png" alt="SCOPE Patch Diabetic Wound Healing" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-electrode">#Soft Bioelectrode</span>
@@ -1193,7 +1207,7 @@ section[id] {
         <!-- 8. 2025 · Area 2 — Bio-Interface · Science Advances · IF 13.9 -->
         <div class="hl-card reveal reveal-d1">
           <div class="hl-card-img">
-            <img src="images/highlights/liquid_infused_fiber_neural_recording_illustration.png" alt="Liquid-Infused Fiber Neural Recording">
+            <img src="images/highlights/liquid_infused_fiber_neural_recording_illustration.png" alt="Liquid-Infused Fiber Neural Recording" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-interface">#Bio-Interface</span>
@@ -1212,7 +1226,7 @@ section[id] {
         <!-- 9. 2024 · Area 4 — Stretchable Circuit · ACS Nano · IF 17.3 -->
         <div class="hl-card reveal">
           <div class="hl-card-img">
-            <img src="images/highlights/wireless_electronic_suture_monitoring_illustration.png" alt="Wireless Electronic Suture Monitoring">
+            <img src="images/highlights/wireless_electronic_suture_monitoring_illustration.png" alt="Wireless Electronic Suture Monitoring" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-circuit">#Stretchable Circuit</span>
@@ -1231,7 +1245,7 @@ section[id] {
         <!-- 10. 2024 · Area 4 — Stretchable Circuit · npj Flexible Electronics · IF 15.4 -->
         <div class="hl-card reveal reveal-d1">
           <div class="hl-card-img">
-            <img src="images/highlights/CsIl9XLm.png" alt="Universal Hydrogel Adhesives">
+            <img src="images/highlights/CsIl9XLm.png" alt="Universal Hydrogel Adhesives" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-circuit">#Stretchable Circuit</span>
@@ -1250,7 +1264,7 @@ section[id] {
         <!-- 11. 2024 · Area 3 — Sensor Reliability · AFM · IF 19.9 -->
         <div class="hl-card reveal">
           <div class="hl-card-img">
-            <img src="images/highlights/High-quality_scientific_illustration_of_a_stretcha-1775014107161.png" alt="Lubricant-Infused Polymeric Interfaces">
+            <img src="images/highlights/High-quality_scientific_illustration_of_a_stretcha-1775014107161.png" alt="Lubricant-Infused Polymeric Interfaces" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-reliability">#Sensor Reliability</span>
@@ -1269,7 +1283,7 @@ section[id] {
         <!-- 12. 2023 · Area 1 — Soft Bioelectrode · Advanced Science · IF 14.1 -->
         <div class="hl-card reveal reveal-d1">
           <div class="hl-card-img">
-            <img src="images/highlights/High-quality_scientific_illustration_of_an_intrins-1775014335644.png" alt="Intrinsically Nonswellable Multifunctional Hydrogel">
+            <img src="images/highlights/High-quality_scientific_illustration_of_an_intrins-1775014335644.png" alt="Intrinsically Nonswellable Multifunctional Hydrogel" width="1376" height="768" loading="lazy" decoding="async">
           </div>
           <div class="hl-card-body">
             <span class="tag tag-electrode">#Soft Bioelectrode</span>
@@ -1287,7 +1301,7 @@ section[id] {
       </div>
     </div>
 
-    <button class="hl-toggle-btn" id="hlToggleBtn" onclick="toggleHighlights()">
+    <button class="hl-toggle-btn" id="hlToggleBtn" onclick="toggleHighlights()" aria-expanded="false" aria-controls="hlMoreWrapper">
       <span data-kr="View More Highlights" data-en="View More Highlights">View More Highlights</span>
       <i class="fas fa-chevron-down chevron"></i>
     </button>
@@ -1315,7 +1329,7 @@ section[id] {
           <div class="pub-year-items">
 
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-101.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-101.jpg" alt="" width="1000" height="1044" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">102.</span><a href="https://doi.org/10.1002/advs.78062" target="_blank" rel="noopener noreferrer">Synergistic Mechano-Fluidic Self-Fusion of Poly(vinyl alcohol)-Modified Liquid-Metal Particles for Post-Treatment-Free Soft Electronics</a></div>
             <div class="pub-authors"><strong>Keun-Young Yook</strong>, <strong>Sangwon Kim</strong>, <strong>Chansoo Kim</strong>, <strong>Minkyong Kang</strong>, <strong>Yurim Lee</strong>, <strong>Mido Kim</strong>, <strong>Kijun Park</strong>, Seung Yeop Han, Seung-Woo Cho, Gun-Hee Lee, <strong>Kayoung Son</strong>, <strong>Hanbit Jang</strong>, <strong>Tae Young Kim</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1324,7 +1338,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-100.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-100.jpg" alt="" width="1000" height="898" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">101.</span><a href="https://doi.org/10.1016/j.mser.2026.101285" target="_blank" rel="noopener noreferrer">Bridging IC Chips and Deformable Circuits: A Packaging Framework for High-Density Soft Electronics</a></div>
             <div class="pub-authors"><strong>Yurim Lee</strong>, <strong>Yeontaek Lee</strong>, <strong>Siyeon Park</strong>, <strong>Hyein Ham</strong>, <strong>Hanbit Jang</strong>, <strong>Yunmin Jung</strong>, Sooin Lee, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1333,7 +1347,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-99.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-99.jpg" alt="" width="1000" height="1069" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">100.</span><a href="https://doi.org/10.1002/smsc.70402" target="_blank" rel="noopener noreferrer">Advances in Wearable Thermoelectric Devices: Strategies for Enhancing Wearability and Performance</a></div>
             <div class="pub-authors"><strong>Yurim Lee</strong><sup>†</sup>, <strong>Hyein Ham</strong><sup>†</sup>, <strong>Siyeon Park</strong>, <strong>Hanbit Jang</strong>, <strong>Seungwan Hong</strong>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1342,7 +1356,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-98.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-98.jpg" alt="" width="1000" height="993" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">99.</span><a href="https://doi.org/10.1093/burnst/tkag055" target="_blank" rel="noopener noreferrer">Bioadhesive Hydrogels as Immunomodulatory Interfaces for Chronic Wound Healing: From Microenvironmental Regulation Mechanism to Engineering Strategies</a></div>
             <div class="pub-authors"><strong>Kayoung Son</strong><sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, <strong>Minkyong Kang</strong>, <strong>Yejin Jo</strong>, <strong>Chansoo Kim</strong>, <strong>Kijun Park</strong>, <strong>Yunmin Jung</strong>, <strong>Tae Young Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1360,7 +1374,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-96.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-96.png" alt="" width="601" height="467" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">97.</span><a href="https://doi.org/10.1002/adfm.77191" target="_blank" rel="noopener noreferrer">Immune-Responsive Bioinks Enable Vision-Guided In situ Robotic Bioprinting to Accelerate Diabetic Wound Healing</a></div>
             <div class="pub-authors">Seol-Ha Jeong<sup>†</sup>, Eleftheria-Angeliki Valsami<sup>†</sup>, Ki-Tae Kim<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jihyun Kim, Javier Alejandro Lozano Soto, Jaeseo Lee, Rafael Alejandro Cornejo Rodríguez, Danilo Martins dos Santos, Jarno Hiemstra, Mei L. L. Cham-Pérez, Montserrat Legorreta Gonzalez, <strong>Soo A Kim</strong>, <strong>Jungmok Seo</strong>, Zhuqing Li, Brendan Craig Thibault, Nebras Sobahi, <strong>Yejin Jo</strong>, Mohammad Asif Hussain, Kyungsang Kim, Lance Fiondella, Aristidis Veves, Woo-Jin Kim<sup>*</sup>, Georgios Theocharidis<sup>*</sup>, Su Ryon Shin<sup>*</sup></div>
@@ -1369,7 +1383,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-95.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-95.jpg" alt="" width="1509" height="886" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">96.</span><a href="https://doi.org/10.1016/j.mtbio.2026.103405" target="_blank" rel="noopener noreferrer">Lubricious Anti-Adhesive Interface Prevents Friction, Biofilm, and Encrustation in Long-Term Indwelling Ureteral Stents</a></div>
             <div class="pub-authors"><strong>Yejin Jo</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Sungun Bang, <strong>Kayoung Son</strong>, <strong>Kijun Park</strong>, Dokyun Kim, <strong>Soo A Kim</strong>, Seonghyeon Eom, Inhee Choi, Su-Jin Shin, Kyo Chul Koo<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1378,7 +1392,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-94.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-94.jpg" alt="" width="2371" height="2352" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">95.</span><a href="https://doi.org/10.1016/j.mtbio.2026.103299" target="_blank" rel="noopener noreferrer">Intelligent multimodal-energy-driven piezoelectric antibacterial platforms: From structural control to system-level diagnosis</a></div>
             <div class="pub-authors">Jiaqi Liu<sup>†</sup>, Jun Li<sup>†</sup>, Huiyan Sun, <strong>Jungmok Seo</strong>, Yanmei Zhang<sup>*</sup>, Yunlong Yu<sup>*</sup></div>
@@ -1387,7 +1401,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-93.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-93.jpg" alt="" width="1437" height="560" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">94.</span><a href="https://doi.org/10.1021/acsami.6c04312" target="_blank" rel="noopener noreferrer">Disposable Endoscope Cap Maintaining Clear Surgical Visualization under Fogging and Fouling</a></div>
             <div class="pub-authors"><strong>Kayoung Son</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Kyungwon Lee, <strong>Yejin Jo</strong>, <strong>Yurim Lee</strong>, Seung Hyun Lee, Min Young Seo, Jung Seung Lee, Seung Ah Lee, Seung-No Hong, Seung Hoon Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1396,7 +1410,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-92.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-92.png" alt="" width="670" height="377" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">93.</span><a href="https://doi.org/10.1038/s41467-026-72068-6" target="_blank" rel="noopener noreferrer">Quinone-mediated, tissue-adaptive double-network hydrogel for instant hemostasis and wet-tissue adhesion</a></div>
             <div class="pub-authors"><strong>Tae Young Kim</strong><sup>†</sup>, <strong>Kayoung Son</strong><sup>†</sup>, Chang-Hwan Moon, <strong>Keun-Young Yook</strong>, <strong>Soo A Kim</strong>, <strong>Hyein Ham</strong>, <strong>Yurim Lee</strong>, Soo In Lee, <strong>Yejin Jo</strong>, Yunlong Yu, Dae-Hyun Kim, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1405,7 +1419,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-91.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-91.png" alt="" width="1920" height="697" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">92.</span><a href="https://doi.org/10.1016/j.bioactmat.2026.02.003" target="_blank" rel="noopener noreferrer">Slippery Dopamine–Fluoropolymer Hybrid Surface for Improving Biliary Stent Longevity</a></div>
             <div class="pub-authors"><strong>Tae Young Kim</strong><sup>†</sup>, Won-Jong Lee<sup>†</sup>, <strong>Yurim Lee</strong>, Seo Jung Kim, Sungjin Min, Seyong Chung, <strong>Soo A Kim</strong>, <strong>Keun-Young Yook</strong>, Chang-Hwan Moon, <strong>Yeontaek Lee</strong>, <strong>Kijun Park</strong>, Dae-Hyun Kim<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1414,7 +1428,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-90.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-90.png" alt="" width="1920" height="1064" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">91.</span><a href="https://doi.org/10.1002/adma.202515767" target="_blank" rel="noopener noreferrer">Ion‑mediated Structural Engineering of Hydrogel Interfaces for Tunable Mechanical and Analyte Diffusion Properties in Electrochemical Biosensors</a></div>
             <div class="pub-authors">Dongwook Lee<sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, Beom‐Jun Shim, <strong>Yurim Lee</strong>, <strong>Tae Young Kim</strong>, Sunghyun Park, <strong>Yeontaek Lee</strong>, Hyeong Gyu Choi, <strong>Kayoung Son</strong>, Su Bin Han, <strong>Keun-Young Yook</strong>, Seo Jung Kim, Won-Yong Lee, <strong>Jungmok Seo</strong><sup>*</sup>, Jayoung Kim<sup>*</sup></div>
@@ -1423,7 +1437,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-89.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-89.png" alt="" width="1920" height="1165" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">90.</span><a href="https://doi.org/10.1002/smll.202510949" target="_blank" rel="noopener noreferrer">Mechanically Robust and Anti-biofouling Hybrid Encapsulation via Layered Organic–Liquid Interfaces for Implantable Devices</a></div>
             <div class="pub-authors"><strong>Sangwoo Park</strong><sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, <strong>Tae Young Kim</strong>, <strong>Yejin Jo</strong>, <strong>Jangho Kim</strong>, <strong>Kayoung Son</strong>, Hayoung Choi, Myoung-Ryul Ok, Su Ryon Shin<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1432,7 +1446,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-88.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-88.png" alt="" width="1920" height="900" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">89.</span><a href="https://doi.org/10.1002/adhm.202504939" target="_blank" rel="noopener noreferrer">Optimized Electrical Stimulation Using a Spray-Printed Conductive Electroceutical Patch for Accelerated Wound Healing in Diabetic Mice</a></div>
             <div class="pub-authors">Jung Hyun Kim<sup>†</sup>, <strong>Soo A Kim</strong><sup>†</sup>, Seung Hyun Lee, Young Min Jeon, <strong>Kijun Park</strong>, <strong>Minkyong Kang</strong>, <strong>Sangwon Kim</strong>, <strong>Tae Young Kim</strong>, <strong>Yeontaek Lee</strong>, Chun Gwon Park, <strong>Jungmok Seo</strong><sup>*</sup>, Jung Seung Lee<sup>*</sup></div>
@@ -1460,7 +1474,7 @@ section[id] {
           <div class="pub-year-items">
 
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-87.jpeg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-87.jpeg" alt="" width="885" height="481" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">87.</span><a href="https://doi.org/10.1021/acsami.5c19771" target="_blank" rel="noopener noreferrer">A Remotely Actuated Multifunctional Nitinol−PMMA Smart Biocomposite: Microcellular Foaming, Shape Morphing, and Controlled Drug Release</a></div>
             <div class="pub-authors">Donghwan Lim, Jaehoo Kim, <strong>Tae Young Kim</strong>, Jiwon Kwon, Jaewoo Kim, <strong>Jungmok Seo</strong>, Yong Hoon Jang, Sung Woon Cha, and Jun Young Yoon<sup>*</sup></div>
@@ -1469,7 +1483,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-86.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-86.png" alt="" width="1890" height="950" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">86.</span><a href="https://doi.org/10.1002/aelm.202500475" target="_blank" rel="noopener noreferrer">Encapsulation Strategies for OLEDs: From Conventional Devices to Flexible and Biointegrated Applications</a></div>
             <div class="pub-authors"><strong>Jangho Kim</strong><sup>†</sup>, <strong>Sangwoo Park</strong>, <strong>Tae Young Kim</strong>, <strong>Yejin Jo</strong>, <strong>Kijun Park</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1478,7 +1492,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-85.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-85.jpg" alt="" width="901" height="442" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">85.</span><a href="https://doi.org/10.1126/sciadv.adz1228" target="_blank" rel="noopener noreferrer">Bioadaptive Liquid-Infused Multifunctional Fibers for Long-Term Neural Recording via BDNF Stabilization and Enhanced Neural Interaction</a></div>
             <div class="pub-authors"><strong>Tae Young Kim</strong><sup>†</sup>, Yeonzu Son<sup>†</sup>, <strong>Keun-Young Yook</strong>, Dong Gyu Lee, Young Kim, Seo Jung Kim, <strong>Kijun Park</strong>, <strong>Yurim Lee</strong>, Tae Kyung Lee, Justin J. Chung, Congqi Yang, Seongjun Park<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1487,7 +1501,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-84.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-84.jpg" alt="" width="1132" height="361" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">84.</span><a href="https://doi.org/10.1002/smll.202501590" target="_blank" rel="noopener noreferrer">Gas-Specific and Tunable Hydrogen-Selective ZIF Membrane through Combined Physical Confinement and Sealing Techniques</a></div>
             <div class="pub-authors">Eunji Choi, Seungho Yu, Taehwan Kim, <strong>Yeontaek Lee</strong>, Hyungjoon Ji, Minsu Kim, Wooyoung Choi, Ju Yeon Kim, Yunseong Ji, <strong>Jungmok Seo</strong>, Kiwon Eum, Ki Chul Kim, Dae Woo Kim<sup>*</sup></div>
@@ -1496,7 +1510,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-83.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-83.png" alt="" width="1920" height="700" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">83.</span><a href="https://doi.org/10.1002/admi.202500353" target="_blank" rel="noopener noreferrer">Rapid and Scalable Lubrication Coating for Industrial and Medical Applications via Sequential Dip-Coating</a></div>
             <div class="pub-authors"><strong>Yeontaek Lee</strong><sup>†</sup>, <strong>Kayoung Son</strong><sup>†</sup>, <strong>Yejin Jo</strong>, Seung Hyun Lee, <strong>Jeuhee Lee</strong>, <strong>Tae Young Kim</strong>, Seonghyeon Eom, Youn-Hoo Hwang, Dae-Eun Kim, Inhee Choi, Jung Seung Lee, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1524,7 +1538,7 @@ section[id] {
           <div class="pub-year-items">
 
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-81.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-81.png" alt="" width="1920" height="1230" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">81.</span><a href="https://doi.org/10.1002/smll.202402431" target="_blank" rel="noopener noreferrer">Lubricant-Coated Organ-on-a-Chip for Enhanced Precision in Preclinical Drug Testing</a></div>
             <div class="pub-authors"><strong>Tae Young Kim</strong>, Jeong-Won Choi, <strong>Kijun Park</strong>, SeungHwan Kim, Jeong F. Kim, Tae-Eun Park<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1533,7 +1547,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-80.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-80.png" alt="" width="645" height="429" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">80.</span><a href="https://doi.org/10.1038/s41528-024-00327-x" target="_blank" rel="noopener noreferrer">Universal Hydrogel Adhesives with Robust Chain Entanglement for Bridging Soft Electronic Materials</a></div>
             <div class="pub-authors"><strong>Yejin Jo</strong><sup>†</sup>, <strong>Yurim Lee</strong><sup>†</sup>, Jeong Hyun Heo, Yeonzu Son, <strong>Tae Young Kim</strong>, <strong>Kijun Park</strong>, <strong>Soye Kim</strong>, Seo Jung Kim, Yoonhee Jin, Seongjun Park, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1551,7 +1565,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-78.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-78.png" alt="" width="1920" height="1144" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">78.</span><a href="https://doi.org/10.1021/acsnano.4c00396" target="_blank" rel="noopener noreferrer">Postoperative Long-Term Monitoring of Mechanical Characteristics in Reconstructed Soft Tissues Using Biocompatible, Immune-Tolerant and Wireless Electronic Sutures</a></div>
             <div class="pub-authors">Mugeun Lee<sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, Ji Hye Choi<sup>†</sup>, Hwajoong Kim, Daun Jeong, <strong>Kijun Park</strong>, Jinho Kim, <strong>Jae Park</strong>, Woo Young Jang<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>, Jaehong Lee<sup>*</sup></div>
@@ -1560,7 +1574,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-77.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-77.png" alt="" width="974" height="623" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">77.</span><a href="https://doi.org/10.1016/j.bios.2024.116257" target="_blank" rel="noopener noreferrer">Modulus-tunable Multifunctional Hydrogel Ink with Nanofillers for 3D-Printed Soft Electronics</a></div>
             <div class="pub-authors"><strong>Minkyong Kang</strong>, <strong>Jae Park</strong>, <strong>Soo A Kim</strong>, <strong>Tae Young Kim</strong>, Ju Yeon Kim, Dae Woo Kim, <strong>Kijun Park</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1569,7 +1583,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-76.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-76.png" alt="" width="920" height="608" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">76.</span><a href="https://doi.org/10.1002/aelm.202400013" target="_blank" rel="noopener noreferrer">Autonomously Self-healing, Adhesive, and Stretchable Triboelectric Nanogenerator Using Multifunctional Hydrogel-Elastomer Double Layer with a Power Management Circuit</a></div>
             <div class="pub-authors"><strong>Jinseok Oh</strong>, <strong>Minkyong Kang</strong>, <strong>Jae Park</strong>, <strong>Tae Young Kim</strong>, <strong>Kijun Park</strong><sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1587,7 +1601,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-74.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-74.jpg" alt="" width="754" height="754" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">74.</span><span class="pub-display-label">[Invited Review]</span> <a href="https://doi.org/10.1039/d3im00122a" target="_blank" rel="noopener noreferrer">Liquid-based electronic materials for bioelectronics: current trends and challenges</a></div>
             <div class="pub-authors"><strong>Kijun Park</strong>, <strong>Sangwoo Park</strong>, <strong>Yejin Jo</strong>, <strong>Soo A Kim</strong>, <strong>Tae Young Kim</strong>, <strong>Sangwon Kim</strong>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1596,7 +1610,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-73.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-73.png" alt="" width="1310" height="617" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">73.</span><a href="https://doi.org/10.1016/j.cej.2024.149043" target="_blank" rel="noopener noreferrer">Bioactivated Lubricant-Infused Surfaces: A Dual-Action Strategy for Enhancing Osseointegration and Preventing Implant-Associated Infections</a></div>
             <div class="pub-authors"><strong>Jae Park</strong>, Daun Jeong, <strong>Yeontaek Lee</strong>, <strong>Kijun Park</strong>, <strong>Tae Young Kim</strong>, Ji Hye Choi, Woo Young Jang<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1605,7 +1619,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-72.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-72.png" alt="" width="620" height="456" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">72.</span><a href="https://doi.org/10.1002/adfm.202312740" target="_blank" rel="noopener noreferrer">Lubricant-Infused Polymeric Interfaces: A Stretchable and Anti-Fouling Surface for Implantable Biomaterials</a></div>
             <div class="pub-authors"><strong>Tae Young Kim</strong>, Soohwan An, Young Kim, Seung Yeop Han, <strong>Jeuhee Lee</strong>, <strong>Kijun Park</strong>, <strong>Sangin Kim</strong>, <strong>Jae Park</strong>, <strong>Soo A Kim</strong>, Justin J. Chung, Seung-Woo Cho, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1633,7 +1647,7 @@ section[id] {
           <div class="pub-year-items">
 
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-70.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-70.png" alt="" width="718" height="263" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">70.</span><a href="https://doi.org/10.1002/advs.202303651" target="_blank" rel="noopener noreferrer">A Mechanically Resilient and Tissue-conformable Hydrogel with Hemostatic and Antibacterial Capabilities for Wound Care</a></div>
             <div class="pub-authors"><strong>Jae Park</strong><sup>†</sup>, <strong>Tae Young Kim</strong><sup>†</sup>, <strong>Yeonju Kim</strong>, Soohwan An, Kyeong Seok Kim, <strong>Minkyong Kang</strong>, <strong>Soo A Kim</strong>, Jayoung Kim, Joonseok Lee, Seung-Woo Cho, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1642,7 +1656,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-69.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-69.png" alt="" width="1280" height="720" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">69.</span><a href="https://doi.org/10.18063/ijb.765" target="_blank" rel="noopener noreferrer">3D printing of mechanically tough and self-healing hydrogels with carbon nanotube fillers</a></div>
             <div class="pub-authors"><strong>Soo A Kim</strong>, <strong>Yeontaek Lee</strong>, <strong>Kijun Park</strong>, <strong>Jae Park</strong>, Soohwan An, <strong>Jinseok Oh</strong>, <strong>Minkyong Kang</strong>, <strong>Yurim Lee</strong>, <strong>Yejin Jo</strong>, Seung-Woo Cho, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1651,7 +1665,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-68.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-68.png" alt="" width="1051" height="468" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">68.</span><a href="https://doi.org/10.1021/acsnano.2c10657" target="_blank" rel="noopener noreferrer">Resealable anti-thrombotic artificial vascular graft integrated with a self-healing blood flow sensor</a></div>
             <div class="pub-authors"><strong>Kijun Park</strong><sup>†</sup>, Soojung An<sup>†</sup>, <strong>Jihyun Kim</strong><sup>†</sup>, Sungjun Yoon, Jihyang Song, Daekwang Jung, <strong>Jae Park</strong>, <strong>Yeontaek Lee</strong>, Donghee Son<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1660,7 +1674,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-67.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-67.png" alt="" width="1920" height="537" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">67.</span><a href="https://doi.org/10.1016/j.bioactmat.2022.07.019" target="_blank" rel="noopener noreferrer">Lubricant skin on diverse biomaterials with complex shapes via polydopamine-mediated surface functionalization for biomedical applications</a></div>
             <div class="pub-authors"><strong>Kijun Park</strong>, <strong>Seunghoi Kim</strong>, <strong>Yejin Jo</strong>, <strong>Jae Park</strong>, Inwoo Kim, <strong>Sooyoung Hwang</strong>, <strong>Yeontaek Lee</strong>, Soyeon Kim, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1696,7 +1710,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-63.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-63.png" alt="" width="960" height="720" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">63.</span><a href="https://doi.org/10.1021/acsaelm.1c01212" target="_blank" rel="noopener noreferrer">Functional Bioelectronic Materials for Long-term Biocompatibility and Functionality</a></div>
             <div class="pub-authors"><strong>Jae Park</strong><sup>†</sup>, <strong>Yeontaek Lee</strong><sup>†</sup>, <strong>Tae Young Kim</strong>, <strong>Sooyoung Hwang</strong>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1705,7 +1719,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-62.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-62.png" alt="" width="960" height="720" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">62.</span><a href="https://doi.org/10.1002/smll.202107060" target="_blank" rel="noopener noreferrer">Development of a Photonic Switch via Electro-Capillarity-Induced Water Penetration Across a 10-nm Gap</a></div>
             <div class="pub-authors">Eui-Sang Yu, <strong>Kyomin Chae</strong>, Taehyun Kim, Jongsu Lee, <strong>Jungmok Seo</strong>, In Soo Kim, Aram J. Chung, Sin-Doo Lee, and Yong-Sang Ryu<sup>*</sup></div>
@@ -1714,7 +1728,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-61.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-61.png" alt="" width="960" height="720" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">61.</span><a href="https://doi.org/10.1002/biot.202100231" target="_blank" rel="noopener noreferrer">Rational engineering and applications of functional bioadhesives in biomedical engineering</a></div>
             <div class="pub-authors"><strong>Jae Park</strong><sup>†</sup>, <strong>Yeonju Kim</strong>, Beomsoo Chun, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1723,7 +1737,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-60.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-60.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">60.</span><a href="https://doi.org/10.1039/d1nr04508c" target="_blank" rel="noopener noreferrer">A multifunctional electronic suture for continuous strain monitoring and on-demand drug release</a></div>
             <div class="pub-authors"><strong>Yeontaek Lee</strong><sup>†</sup>, Hwajoong Kim<sup>†</sup>, <strong>Yeonju Kim</strong>, Seungbeom Noh, Beomsoo Chun, Jinho Kim, Charnmin Park, Minyoung Choi, <strong>Kijun Park</strong>, Jaehong Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1732,7 +1746,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-59.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-59.png" alt="" width="1134" height="455" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">59.</span><a href="https://doi.org/10.1002/advs.202100231" target="_blank" rel="noopener noreferrer">A Lubricated Non-immunogenic Neural Probe for Acute Insertion Trauma Minimization and Long-Term Signal Recording</a></div>
             <div class="pub-authors"><strong>Yeontaek Lee</strong><sup>†</sup>, Hyogeun Shin<sup>†</sup>, <strong>Dongwon Lee</strong>, Sungah Choi, Il-Joo Cho<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1741,7 +1755,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-58.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-58.jpg" alt="" width="1367" height="995" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">58.</span><a href="https://doi.org/10.1002/adma.202005930" target="_blank" rel="noopener noreferrer">Electronic Drugs: Spatial and Temporal Medical Treatment of Human Diseases</a></div>
             <div class="pub-authors">Chihyeong Won<sup>†</sup>, Chaebeen Kwon<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup></div>
@@ -1750,7 +1764,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-57.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-57.png" alt="" width="1920" height="1131" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">57.</span><a href="https://doi.org/10.1126/sciadv.abb0025" target="_blank" rel="noopener noreferrer">Antibacterial Infection and Immune-evasive Coating for Orthopedic Implants</a></div>
             <div class="pub-authors"><strong>Kyomin Chae</strong><sup>†</sup>, Woo Young Jang<sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, Jinhyeok Lee, <strong>Hyunchul Kim</strong>, Kyoungbun Lee, Chang Kyu Lee, <strong>Yeontaek Lee</strong>, Soon Hyuck Lee<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1759,7 +1773,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-56.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-56.png" alt="" width="1920" height="501" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">56.</span><a href="https://doi.org/10.1038/s41598-020-74517-8" target="_blank" rel="noopener noreferrer">Lubricant-infused directly engraved nano-microstructures for mechanically durable endoscope lens with anti-biofouling and anti-fogging properties</a></div>
             <div class="pub-authors"><strong>Yeontaek Lee</strong>, Yong Woo Chung, Jaeho Park, <strong>Kijun Park</strong>, Youngmin Seo, Seung-No Hong, Seung Hoon Lee, Hojeong Jeon<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1768,7 +1782,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-55.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-55.png" alt="" width="1409" height="933" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">55.</span><a href="https://doi.org/10.1007/s13206-020-4105-7" target="_blank" rel="noopener noreferrer">Recent Advances in Anti-inflammatory Strategies for Implantable Biosensors and Medical Implants</a></div>
             <div class="pub-authors"><strong>Dongwon Lee</strong><sup>†</sup>, <strong>Kijun Park</strong><sup>†</sup>, <strong>Jungmok Seo</strong><sup>*</sup></div>
@@ -1777,7 +1791,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-54.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-54.jpg" alt="" width="658" height="403" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">54.</span><a href="https://doi.org/10.1021/acsami.9b02927" target="_blank" rel="noopener noreferrer">Biocompatible Carbon Nanotube-Based Hybrid Microfiber for Implantable Electrochemical Actuator and Flexible Electronic Applications</a></div>
             <div class="pub-authors">Ting Zheng<sup>†</sup>, Parisa Pour Shahid Saeed Abadi<sup>†</sup>, <strong>Jungmok Seo</strong><sup>†</sup>, Byung-Hyun Cha, Beatrice Miccoli, Yi-Chen Li, <strong>Kijun Park</strong>, Sunghyun Park, Seon-Ji Choi, Rasoul Bayaniahangar, Dongxing Zhang, Soo-Hong Lee, Chang-Kee Lee, Ali Khademhosseini<sup>*</sup>, Su Ryon Shin<sup>*</sup></div>
@@ -1786,7 +1800,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-53.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-53.jpg" alt="" width="689" height="436" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">53.</span><a href="https://doi.org/10.1002/cnma.201900146" target="_blank" rel="noopener noreferrer">Flexible and Stretchable PEDOT-embedded Hybrid Substrates for Bioengineering and Sensory Applications</a></div>
             <div class="pub-authors">Afsoon Fallahi, Serena Mandla, Thomas Kerr-Phillip, <strong>Jungmok Seo</strong>, Raquel O. Rodrigues, Yasamin A. Jodat, Roya Samanipour, Mohammad Asif Hussain, Chang Kee Lee, Hojae Bae, Ali Khademhosseini<sup>*</sup>, Jadranka Travas-Sejdic<sup>*</sup>, and Su Ryon Shin<sup>*</sup></div>
@@ -1795,7 +1809,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-52.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-52.jpg" alt="" width="720" height="376" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">52.</span><a href="https://doi.org/10.1002/adhm.201801146" target="_blank" rel="noopener noreferrer">Cardiac fibrotic remodeling on a chip with dynamic mechanical stimulation</a></div>
             <div class="pub-authors">Ming Kong, Junmin Lee, Iman K. Yazdi, Amir K. Miri, Yi-Dong Lin, <strong>Jungmok Seo</strong>, Yu Shrike Zhang, Ali Khademhosseini<sup>*</sup>, and Su Ryon Shin<sup>*</sup></div>
@@ -1804,7 +1818,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-51.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-51.png" alt="" width="719" height="603" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">51.</span><a href="https://doi.org/10.1021/acsami.8b17181" target="_blank" rel="noopener noreferrer">Nonfluorinated superomniphobic surfaces through shape-tunable mushroom-like polymeric micropillar arrays</a></div>
             <div class="pub-authors"><strong>Hyunchul Kim</strong><sup>*</sup>, Heetak Han, Sanggeun Lee, Janghoon Woo, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup></div>
@@ -1832,7 +1846,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-49.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-49.png" alt="" width="728" height="513" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">49.</span><a href="https://doi.org/10.1021/acsanm.8b01429" target="_blank" rel="noopener noreferrer">pH-Responsive DNA nanolinker conjugated hybrid materials for electrochemical microactuator and biosensor applications</a></div>
             <div class="pub-authors">Yasamin A. Jodat, Parisa Lotfi, Parisa Pour Shahid Saeed Abadi, Ji-Young Mun, <strong>Jungmok Seo</strong>, Eun Ae Shin, Sung Mi Jung, Chang Kee Lee<sup>*</sup>, Su Ryon Shin<sup>*</sup></div>
@@ -1841,7 +1855,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-48.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-48.png" alt="" width="622" height="520" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">48.</span><a href="https://doi.org/10.1021/acsami.8b10217" target="_blank" rel="noopener noreferrer">Highly Conductive Fiber with Waterproof and Self-Cleaning Properties for Textile Electronics</a></div>
             <div class="pub-authors">Byungwoo Choi<sup>*</sup>, Jaehong Lee, Heetak Han, Janghoon Woo, <strong>Kijun Park</strong>, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup></div>
@@ -1850,7 +1864,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-47.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-47.png" alt="" width="639" height="483" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">47.</span><a href="https://doi.org/10.1016/j.snb.2018.04.040" target="_blank" rel="noopener noreferrer">Full length Histone H3 conjugated electrochemical biosensor for extracellular proteolytic Cathepsin L activity detection</a></div>
             <div class="pub-authors">Tae Wha Seong<sup>*</sup>, <strong>Jungmok Seo</strong><sup>*</sup>, Kwan Hyi Lee<sup>*</sup></div>
@@ -1859,7 +1873,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-46.png" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-46.png" alt="" width="656" height="455" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">46.</span><a href="https://doi.org/10.1021/acsnano.7b07795" target="_blank" rel="noopener noreferrer">Highly sensitive multifilament fiber strain sensors with ultra-broad sensing range for textile electronics</a></div>
             <div class="pub-authors">Jaehong Lee, Sera Shin, Sanggeun Lee, Jaekang Song, Subin Kang, Heetak Han, SeulGee Kim, Seunghoe Kim, <strong>Jungmok Seo</strong>, DaeEun Kim, Taeyoon Lee<sup>*</sup></div>
@@ -1868,7 +1882,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-45.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-45.jpg" alt="" width="1235" height="907" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">45.</span><a href="https://doi.org/10.1021/acsami.7b17991" target="_blank" rel="noopener noreferrer">Interconnectable dynamic compression bioreactors for combinatorial screening of cell mechanobiology in three-dimensions</a></div>
             <div class="pub-authors"><strong>Jungmok Seo</strong>, Jungyoun Shin, Jeroen Leijten, Oju Jeon, Ayça Bal Öztürk, Jeroen Rouwkema, Yuancheng Li, Su Ryon Shin, Hadi Hajiali, Eben Alsberg<sup>*</sup>, Ali Khademhosseini<sup>*</sup></div>
@@ -1877,7 +1891,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-44.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-44.jpg" alt="" width="1235" height="1057" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">44.</span><a href="https://doi.org/10.1002/adma.201704189" target="_blank" rel="noopener noreferrer">Electrically driven microengineered bio-inspired soft robots</a></div>
             <div class="pub-authors">Su Ryon Shin<sup>*</sup>, Bianca Migliori, Beatrice Miccoli, Yi-Chen Li, Pooria Mostafalu, <strong>Jungmok Seo</strong>, Serena Mandla, Alessandro Enrico, Silvia Antona, Ram Sabarish, Ting Zheng, Lorenzo Pirrami, Kaizhen Zhang, Yu Shrike Zhang, Kai-tak Wan, Danilo Demarchi, Mehmet R. Dokmeci, Ali Khademhosseini<sup>*</sup></div>
@@ -1886,7 +1900,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-43.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-43.jpg" alt="" width="1198" height="618" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">43.</span><a href="https://doi.org/10.1021/acsnano.7b05826" target="_blank" rel="noopener noreferrer">Single-Droplet Multiplex Bioassay on a Robust and Stretchable Extreme Wetting Substrate through Vacuum-Based Droplet Manipulation</a></div>
             <div class="pub-authors">Heetak Han<sup>*</sup>, Jung Seung Lee, Hyunchul Kim, Sera Shin, Jaehong Lee, Jongchan Kim, Xu Hou, Seung-Woo Cho, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup></div>
@@ -1895,7 +1909,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-42.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-42.jpg" alt="" width="1223" height="1382" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">42.</span><a href="https://doi.org/10.3390/coatings8020047" target="_blank" rel="noopener noreferrer">Chemical and Physical Pathways for Fabricating Flexible Superamphiphobic Surfaces with High Transparency</a></div>
             <div class="pub-authors">Bichitra Sahoo<sup>*</sup>, Kukro Yoon, <strong>Jungmok Seo</strong><sup>*</sup>, Taeyoon Lee<sup>*</sup></div>
@@ -1904,7 +1918,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-41.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-41.jpg" alt="" width="1198" height="602" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">41.</span><a href="https://doi.org/10.1016/j.biomaterials.2017.06.022" target="_blank" rel="noopener noreferrer">High-throughput approaches for screening and analysis of cell behaviors</a></div>
             <div class="pub-authors"><strong>Jungmok Seo</strong>, Jung-Youn Shin, Jeroen Leijten, Oju Jeon, Gulden Camci-Unal, Anna D. Dikina, Katelyn Brinegar, Amir M. Ghaemmaghami, Eben Alsberg<sup>*</sup>, Ali Khademhosseini<sup>*</sup></div>
@@ -1913,7 +1927,7 @@ section[id] {
           </div>
         </div>
         <div class="pub-item pub-item-with-img">
-          <div class="pub-img"><img src="images/publications/pub-40.jpg" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>
+          <div class="pub-img"><img src="images/publications/pub-40.jpg" alt="" width="669" height="602" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>
           <div class="pub-content">
             <div class="pub-title"><span class="pub-number">40.</span><a href="https://doi.org/10.1088/1674-4926/39/1/011009" target="_blank" rel="noopener noreferrer">Hybrid functional microfibers for textile electronics and biosensors</a></div>
             <div class="pub-authors">Bichitra Nanda Sahoo, Byungwoo Choi, <strong>Jungmok Seo</strong>, Taeyoon Lee<sup>*</sup></div>
@@ -2419,7 +2433,7 @@ section[id] {
 <!-- BEGIN GENERATED PI -->
     <div class="pi-section reveal">
       <div class="pi-photo">
-        <img src="images/team/seo-jungmok.jpg" alt="Jungmok Seo" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <img src="images/team/seo-jungmok.jpg" alt="Jungmok Seo" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
         <span class="initials">JS</span>
       </div>
       <div class="pi-info">
@@ -2446,7 +2460,7 @@ section[id] {
 
 <!-- ===== BG SECTION 2: Vision (hero-3, brain/circuit) ===== -->
 <section class="bg-section style-dark reveal">
-  <img class="bg-image" src="images/hero/hero-3.jpg" alt="Brain circuit illustration">
+  <img class="bg-image" src="images/hero/hero-3.jpg" alt="Brain circuit illustration" width="1920" height="1280" loading="lazy" decoding="async">
   <div class="bg-overlay"></div>
   <div class="bg-content">
     <div class="section-label">Our Vision</div>
@@ -2482,7 +2496,7 @@ section[id] {
 
 <!-- ===== BG SECTION 3: Join Us (hero-4) ===== -->
 <section class="bg-section style-gradient reveal" style="min-height: 45vh;">
-  <img class="bg-image" src="images/hero/hero-4.jpg" alt="Bio-electronics concept">
+  <img class="bg-image" src="images/hero/hero-4.jpg" alt="Bio-electronics concept" width="1920" height="960" loading="lazy" decoding="async">
   <div class="bg-overlay"></div>
   <div class="bg-content">
     <div class="section-label">Join Our Lab</div>
@@ -2510,11 +2524,11 @@ section[id] {
         </div>
         <div class="contact-row">
           <div class="icon"><i class="fas fa-envelope"></i></div>
-          <div><div class="label">Email</div><div class="value">jungmok.seo@yonsei.ac.kr</div></div>
+          <div><div class="label">Email</div><div class="value"><a href="mailto:jungmok.seo@yonsei.ac.kr">jungmok.seo@yonsei.ac.kr</a></div></div>
         </div>
         <div class="contact-row">
           <div class="icon"><i class="fas fa-phone"></i></div>
-          <div><div class="label">Phone</div><div class="value">+82-2-2123-2868</div></div>
+          <div><div class="label">Phone</div><div class="value"><a href="tel:+82-2-2123-2868">+82-2-2123-2868</a></div></div>
         </div>
         <div class="contact-row">
           <div class="icon"><i class="fas fa-building-columns"></i></div>
@@ -2567,38 +2581,103 @@ window.addEventListener('scroll', () => {
   document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 20);
 });
 
-/* ===== Hamburger ===== */
-function toggleMenu() {
+/* ===== Hamburger =====
+   setMenu() is the only place that opens or closes the mobile menu, so the
+   hamburger's aria-expanded always matches what is on screen. */
+function setMenu(open) {
   const links = document.getElementById('navLinks');
   const burger = document.querySelector('.hamburger');
-  links.classList.toggle('open');
-  if (burger) burger.setAttribute('aria-expanded', links.classList.contains('open') ? 'true' : 'false');
+  if (!links) return;
+  links.classList.toggle('open', open);
+  if (burger) burger.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
+function isMenuOpen() {
+  const links = document.getElementById('navLinks');
+  return !!links && links.classList.contains('open');
+}
+function toggleMenu() { setMenu(!isMenuOpen()); }
+// Esc closes the open menu and returns focus to the hamburger.
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape' || !isMenuOpen()) return;
+  const hadFocus = document.getElementById('navLinks').contains(document.activeElement);
+  setMenu(false);
+  if (hadFocus) { const burger = document.querySelector('.hamburger'); if (burger) burger.focus(); }
+});
+// A tap outside the open menu closes it (the tap itself still does its job).
+// pointerdown covers touch screens, where a plain area may not send a click.
+['pointerdown', 'click'].forEach(type => document.addEventListener(type, e => {
+  if (!isMenuOpen() || !e.target.closest || e.target.closest('#navLinks, .hamburger')) return;
+  setMenu(false);
+}));
 
 /* ===== Robust in-page anchor navigation =====
-   Fixes mobile: closes the open hamburger menu on tap (so it doesn't cover the
-   target), and scrolls with an exact fixed-nav offset so links land precisely
-   on the section. Works for every a[href^="#"] (nav, hero buttons, contact). */
+   The single code path for every a[href^="#"] (desktop nav, mobile menu, hero
+   buttons, contact): close the mobile menu, then scroll so the section starts
+   one fixed-nav offset below the top.
+   The page can still change height while the smooth scroll is running (lazy
+   images, web fonts, the team/news lists), which would leave the first
+   destination stale. So once the scroll has stopped the target is measured
+   again and re-aimed until it sits under the nav, then watched briefly for
+   late shifts. Any scroll input from the visitor cancels the correction. */
 (function setupAnchorNav() {
+  const TOLERANCE = 2;   // px
+  let job = null;        // the jump being settled, if any
+
   function navOffset() {
     const v = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height'), 10);
     return (isNaN(v) ? 68 : v) + 16;
   }
-  function closeMenu() {
-    const links = document.getElementById('navLinks');
-    const burger = document.querySelector('.hamburger');
-    if (links && links.classList.contains('open')) {
-      links.classList.remove('open');
-      if (burger) burger.setAttribute('aria-expanded', 'false');
-    }
+  // Scroll position that puts the target under the nav (clamped to the page end).
+  function wantedTop(target) {
+    const max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    const y = target.getBoundingClientRect().top + window.pageYOffset - navOffset();
+    return Math.min(Math.max(0, Math.round(y)), max);
   }
+  function cancel() {
+    if (job) { clearTimeout(job.timer); job = null; }
+  }
+  function settle(target) {
+    cancel();
+    const me = job = { timer: 0 };
+    const started = Date.now();
+    let lastY = window.pageYOffset, still = 0, corrections = 0, calm = 0, arrivedAt = null, correctedFrom = null;
+    const tick = () => {
+      if (job !== me) return;
+      const y = window.pageYOffset;
+      if (Math.abs(y - lastY) > 0.5) { lastY = y; still = 0; } else { still++; }
+      if (still >= 4) {                              // about 200 ms without movement
+        const want = wantedTop(target);
+        if (Math.abs(want - y) <= TOLERANCE) {
+          arrivedAt = want;
+          if (++calm >= 30) { job = null; return; }  // on target for ~1.5 s: done
+        } else if (arrivedAt !== null && Math.abs(want - arrivedAt) <= TOLERANCE) {
+          job = null; return;                        // target did not move, the visitor did
+        } else if (correctedFrom !== null && Math.abs(y - correctedFrom) < 1) {
+          job = null; return;                        // the last correction changed nothing: as close as the page allows
+        } else if (corrections < 8) {
+          corrections++; calm = 0; still = 0; arrivedAt = null; correctedFrom = y;
+          try { window.scrollTo({ top: want, behavior: corrections > 3 ? 'instant' : 'smooth' }); }
+          catch (err) { window.scrollTo(0, want); }
+        } else { job = null; return; }
+      }
+      if (Date.now() - started > 12000) { job = null; return; }
+      me.timer = setTimeout(tick, 50);
+    };
+    me.timer = setTimeout(tick, 50);
+  }
+  // Wheel, touch, scrollbar drag or keyboard scrolling: the visitor is in charge again.
+  ['wheel', 'touchstart', 'touchmove', 'mousedown', 'keydown'].forEach(type => {
+    window.addEventListener(type, cancel, { capture: true, passive: true });
+  });
+
   document.addEventListener('click', function (e) {
     const a = e.target.closest('a[href^="#"]');
     if (!a) return;
     const href = a.getAttribute('href');
-    closeMenu(); // always close the mobile menu on any anchor tap
+    setMenu(false); // always close the mobile menu on any anchor tap
     if (href === '#' || href === '#!' || href.length < 2) {
       e.preventDefault();
+      cancel();
       window.scrollTo({ top: 0, behavior: 'smooth' });
       history.replaceState(null, '', location.pathname + location.search);
       return;
@@ -2606,9 +2685,9 @@ function toggleMenu() {
     const target = document.getElementById(decodeURIComponent(href.slice(1)));
     if (!target) return; // let the browser handle unknown anchors
     e.preventDefault();
-    const y = target.getBoundingClientRect().top + window.pageYOffset - navOffset();
-    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    window.scrollTo({ top: wantedTop(target), behavior: 'smooth' });
     history.replaceState(null, '', href);
+    settle(target);
   });
 })();
 
@@ -2639,10 +2718,34 @@ function toggleMenu() {
   }).observe(document.body, { childList: true, subtree: true });
 })();
 
-/* ===== Language Toggle ===== */
+/* ===== Language Toggle =====
+   Start-up order: ?lang=en|ko in the address, then the choice saved by the
+   toggle, then Korean. The toggle saves the choice (when storage is available). */
 let isKR = true;
+const LANG_STORAGE_KEY = 'bliss-lang';
+function initialLang() {
+  let code = null;
+  try { code = new URLSearchParams(location.search).get('lang'); } catch (e) { code = null; }
+  code = code ? code.toLowerCase() : null;
+  if (code !== 'en' && code !== 'ko') {
+    try { code = localStorage.getItem(LANG_STORAGE_KEY); } catch (e) { code = null; }
+  }
+  return code === 'en' ? 'en' : 'ko';
+}
 function toggleLang() {
-  isKR = !isKR;
+  applyLang(!isKR);
+  const code = isKR ? 'ko' : 'en';
+  try { localStorage.setItem(LANG_STORAGE_KEY, code); } catch (e) { /* private mode: the choice lasts for this page only */ }
+  try { // keep an explicit ?lang= in the address in step with the toggle
+    const url = new URL(location.href);
+    if (url.searchParams.has('lang')) {
+      url.searchParams.set('lang', code);
+      history.replaceState(history.state, '', url);
+    }
+  } catch (e) { /* address left as it is */ }
+}
+function applyLang(kr) {
+  isKR = kr;
   document.documentElement.lang = isKR ? 'ko' : 'en';
   document.getElementById('siteDescription').content = isKR
     ? "서정목 교수의 연세대학교 BLISS Lab은 계면공학으로 생체와 전자기기를 연결합니다. 하이드로젤 접착, 신축성 배선, 이종재료 접합과 패키징, 방오·윤활 표면의 설계와 검증 범위를 소개합니다."
@@ -2769,7 +2872,8 @@ async function loadPublications() {
         const hasImg = pub.image ? true : false;
         const ifBadge = pub.impactFactor != null ? `<span class="pub-if">IF ${escapeHtml(String(pub.impactFactor))}</span>` : '';
         const numLabel = pub.number != null ? `<span class="pub-number">${escapeHtml(String(pub.number))}.</span>` : '';
-        const imgHtml = hasImg ? `<div class="pub-img"><img src="${escapeHtml(pub.image)}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+        // tools/prerender.py also writes each image's width/height (read from the file) so the list keeps its height while images load
+        const imgHtml = hasImg ? `<div class="pub-img"><img src="${escapeHtml(pub.image)}" alt="" loading="lazy" decoding="async" onerror="this.parentElement.style.display='none'"></div>` : '';
         const awardChips = (pub.awards && pub.awards.length > 0)
           ? pub.awards.map(a => `<span class="pub-award"><i class="fas fa-trophy"></i> ${escapeHtml(a)}</span>`).join('')
           : '';
@@ -2912,7 +3016,7 @@ function renderTeam(data) {
   const piHtml = `
     <div class="pi-section reveal">
       <div class="pi-photo">
-        <img src="images/team/${escapeHtml(pi.id)}.jpg" alt="${escapeHtml(pi.nameEn)}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+        <img src="images/team/${escapeHtml(pi.id)}.jpg" alt="${escapeHtml(pi.nameEn)}" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
         <span class="initials">${escapeHtml(pi.initials)}</span>
       </div>
       <div class="pi-info">
@@ -2951,7 +3055,7 @@ function renderTeam(data) {
       return `
       <div class="member-item" data-member-id="${safeId}" onclick="toggleAccordion(this, '${safeId}')">
         <div class="member-photo">
-          <img src="images/team/${safeId}.jpg" alt="${escapeHtml(member.nameEn)}" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
+          <img src="images/team/${safeId}.jpg" alt="${escapeHtml(member.nameEn)}" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" style="width:100%;height:100%;object-fit:cover;">
           <span class="initials">${escapeHtml(member.initials)}</span>
         </div>
         <h4 data-kr="${escapeHtml(member.nameKr || member.nameEn)}" data-en="${escapeHtml(member.nameEn)}">${escapeHtml(isKR ? (member.nameKr || member.nameEn) : member.nameEn)}</h4>
@@ -3035,18 +3139,27 @@ function loadStaticTeam() {
 /* ===== Team Inline Accordion ===== */
 let currentAccordion = null;
 
+// Collapse a panel and remove it when the transition is over. While it is on
+// its way out it is marked .closing, so the next click opens a fresh panel
+// instead of "closing" the one that is already collapsing.
+function closeAccordion(acc) {
+  if (!acc) return;
+  acc.classList.add('closing');
+  acc.classList.remove('open');
+  acc.style.maxHeight = '0px';
+  setTimeout(() => acc.remove(), 400);
+  if (currentAccordion === acc) currentAccordion = null;
+}
+
 function toggleAccordion(itemEl, memberId) {
   const grid = itemEl.closest('.member-grid');
-  const existing = grid.querySelector('.member-accordion');
+  const existing = grid.querySelector('.member-accordion:not(.closing)');
 
   // Close any open accordion
   if (existing) {
     const wasOpen = existing.dataset.memberId === memberId;
-    existing.style.maxHeight = '0px';
-    existing.classList.remove('open');
     grid.querySelector('.member-item.active')?.classList.remove('active');
-    setTimeout(() => existing.remove(), 400);
-    currentAccordion = null;
+    closeAccordion(existing);
     if (wasOpen) return; // Toggle off if same member
   }
 
@@ -3126,12 +3239,9 @@ function toggleAccordion(itemEl, memberId) {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && currentAccordion) {
-    const grid = currentAccordion.closest('.member-grid');
-    grid.querySelector('.member-item.active')?.classList.remove('active');
-    currentAccordion.style.maxHeight = '0px';
-    currentAccordion.classList.remove('open');
-    setTimeout(() => currentAccordion?.remove(), 400);
-    currentAccordion = null;
+    const acc = currentAccordion;
+    acc.closest('.member-grid')?.querySelector('.member-item.active')?.classList.remove('active');
+    closeAccordion(acc);
   }
 });
 
@@ -3143,25 +3253,6 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08, rootMargin: '0px 0px -50px 0px' });
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-/* ===== Smooth scroll for nav ===== */
-document.querySelectorAll('.nav-links a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
-    e.preventDefault();
-    const navLinks = document.getElementById('navLinks');
-    const wasOpen = navLinks.classList.contains('open');
-    navLinks.classList.remove('open');
-    const target = document.querySelector(a.getAttribute('href'));
-    if (target) {
-      // On mobile, wait for menu close animation before scrolling
-      if (wasOpen) {
-        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
-      } else {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }
-  });
-});
 
 /* ===== News + Updates ===== */
 let allNewsItems = [];
@@ -3273,7 +3364,7 @@ function renderNewsPage() {
     const cs = getNewsCatStyle(first);
     heroEl.style.display = '';
     heroEl.innerHTML = `
-      <img class="news-hero-img" src="${escapeHtml(first.thumbnail || '')}" alt="${escapeHtml(first.title || '')}" loading="eager"
+      <img class="news-hero-img" src="${escapeHtml(first.thumbnail || '')}" alt="${escapeHtml(first.title || '')}" loading="lazy" decoding="async"
            onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#1a1a2e,#16213e)';">
       ${buildPubOverlay(first)}
       <div class="news-hero-overlay"></div>
@@ -3374,6 +3465,7 @@ function toggleHighlights() {
   const isOpen = wrapper.classList.contains('open');
   wrapper.classList.toggle('open');
   btn.classList.toggle('open');
+  btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
   isOpen ? collapseCollapsible(wrapper) : expandCollapsible(wrapper);
   const lbl = btn.querySelector('span'); const label = isOpen ? 'View More Highlights' : 'Show Less';
   lbl.dataset.kr = label; lbl.dataset.en = label; lbl.textContent = label;
@@ -3388,6 +3480,8 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-kr][data-en]').forEach(el => {
     el.innerHTML = el.dataset.kr;
   });
+  // English when the address or the saved choice asks for it (before the lists render)
+  if (initialLang() === 'en') applyLang(false);
   loadPublications();
   loadTeam();
   loadNews();
@@ -3443,6 +3537,7 @@ function initCoverMarquee() {
       img.src = src;
       img.alt = 'Journal Cover';
       img.loading = 'lazy';
+      img.decoding = 'async';
       item.appendChild(img);
       track.appendChild(item);
     });

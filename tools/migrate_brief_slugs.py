@@ -174,6 +174,7 @@ def plain_stub(lang, n, slug, title):
             f'<title>{esc(title)} | {t["lib"]}</title>\n'
             f'<meta content="0; url={slug}.html" http-equiv="refresh"/>\n'
             f'<link href="{url}" rel="canonical"/>\n'
+            f'<link href="/images/favicon.png" rel="icon" type="image/png"/>'
             f'<link href="../../assets/library.css" rel="stylesheet"/></head>\n'
             f'<body><main class="container" id="main"><p>{t["moved"]} <a href="{slug}.html">{esc(title)}</a></p></main></body></html>\n')
 
@@ -184,6 +185,7 @@ def choice_stub(lang, n, slug_now, title_now, notice_html, header, footer):
             f'<meta content="width=device-width,initial-scale=1" name="viewport"/>\n{STUB_MARK}\n'
             f'<title>{t["title_stub"].format(n=f"{n:03d}")} | {t["lib"]}</title>'
             f'<meta content="noindex,follow" name="robots"/>\n'
+            f'<link href="/images/favicon.png" rel="icon" type="image/png"/>'
             f'<link href="../../assets/library.css" rel="stylesheet"/><script defer="" src="../../assets/library.js"></script></head>\n'
             f'<body><a class="skip-link" href="#main">{t["skip"]}</a>\n{header}'
             f'<main class="container" id="main"><div class="breadcrumbs"><a class="" href="../index.html">'

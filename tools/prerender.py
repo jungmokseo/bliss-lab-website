@@ -14,12 +14,15 @@ catalogue resources/data/publications.json (the "slug" there names the brief
 page resources/{ko,en}/papers/<slug>.html; see tools/migrate_brief_slugs.py).
 
 Publications: Python port of loadPublications() in index.html. Keep the two
-in sync; the generated block must equal what the JS template would produce.
+in sync; the generated block must equal what the JS template would produce,
+except that only this script can add each thumbnail's intrinsic width/height
+(read from the image file). They reserve the image's space before it loads, so
+the page does not change height under an in-page jump.
 Patents: Korean-default bilingual HTML, replaced by the JS renderer on load;
 the list remains visible without JavaScript. Team members and news use plain
 <noscript> lists (the JS renderers fill the same containers on load).
 """
-import json, os, re, sys
+import json, os, re, struct, sys
 from publication_links import brief_slugs_by_number
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +47,68 @@ def num_str(v):
     if isinstance(v, float) and v.is_integer():
         return str(int(v))
     return str(v)
+
+
+def image_size(path):
+    """Displayed (width, height) of a PNG, GIF or JPEG file, or None if unknown."""
+    try:
+        with open(path, 'rb') as f:
+            head = f.read(26)
+            if head[:8] == b'\x89PNG\r\n\x1a\n' and head[12:16] == b'IHDR':
+                return struct.unpack('>II', head[16:24])
+            if head[:6] in (b'GIF87a', b'GIF89a'):
+                return struct.unpack('<HH', head[6:10])
+            if head[:2] != b'\xff\xd8':
+                return None
+            f.seek(2)
+            orientation = 1
+            while True:
+                byte = f.read(1)
+                while byte and byte != b'\xff':
+                    byte = f.read(1)
+                while byte == b'\xff':
+                    byte = f.read(1)
+                if not byte:
+                    return None
+                marker = byte[0]
+                if marker in (0xd8, 0x01) or 0xd0 <= marker <= 0xd7:
+                    continue
+                if marker in (0xd9, 0xda):
+                    return None
+                length = struct.unpack('>H', f.read(2))[0]
+                data = f.read(length - 2)
+                if marker == 0xe1 and data[:6] == b'Exif\x00\x00':
+                    orientation = exif_orientation(data[6:]) or orientation
+                # SOF0-SOF15 carry the frame size; C4, C8 and CC are other tables
+                if 0xc0 <= marker <= 0xcf and marker not in (0xc4, 0xc8, 0xcc):
+                    height, width = struct.unpack('>HH', data[1:5])
+                    # Browsers apply the EXIF orientation; 5-8 turn the image by 90 degrees.
+                    return (height, width) if orientation in (5, 6, 7, 8) else (width, height)
+    except (OSError, struct.error, IndexError):
+        return None
+
+
+def exif_orientation(tiff):
+    """EXIF Orientation (tag 0x0112) from a TIFF block, or None."""
+    try:
+        order = {b'II': '<', b'MM': '>'}[tiff[:2]]
+        offset = struct.unpack(order + 'I', tiff[4:8])[0]
+        count = struct.unpack(order + 'H', tiff[offset:offset + 2])[0]
+        for i in range(count):
+            entry = tiff[offset + 2 + 12 * i:offset + 14 + 12 * i]
+            if struct.unpack(order + 'H', entry[:2])[0] == 0x0112:
+                return struct.unpack(order + 'H', entry[8:10])[0]
+    except (KeyError, struct.error, IndexError):
+        pass
+    return None
+
+
+def image_dimensions(src):
+    """' width="W" height="H"' for a site-relative image path, or '' if unreadable."""
+    if not src or re.match(r'^(?:[a-z][a-z0-9+.-]*:|//)', src, re.I):
+        return ''
+    size = image_size(os.path.join(ROOT, src.split('?')[0].split('#')[0].lstrip('/')))
+    return f' width="{size[0]}" height="{size[1]}"' if size and all(size) else ''
 
 
 def brief_slugs(publications):
@@ -84,7 +149,8 @@ def render_publications(data, slugs):
             has_img = bool(pub.get('image'))
             ifb = f'<span class="pub-if">IF {esc(num_str(pub["impactFactor"]))}</span>' if pub.get('impactFactor') is not None else ''
             numl = f'<span class="pub-number">{esc(num_str(pub["number"]))}.</span>' if pub.get('number') is not None else ''
-            img = (f'<div class="pub-img"><img src="{esc(pub["image"])}" alt="" loading="lazy" '
+            img = (f'<div class="pub-img"><img src="{esc(pub["image"])}" alt=""{image_dimensions(pub["image"])} '
+                   f'loading="lazy" decoding="async" '
                    f'onerror="this.parentElement.style.display=\'none\'"></div>') if has_img else ''
             chips = ''.join(f'<span class="pub-award"><i class="fas fa-trophy"></i> {esc(a)}</span>' for a in (pub.get('awards') or []))
             press = ''

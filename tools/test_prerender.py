@@ -1,8 +1,11 @@
 """Check that editorial labels stay separate from original publication titles."""
 from html.parser import HTMLParser
+import os
+import struct
+import tempfile
 import unittest
 
-from prerender import render_publications, render_patents
+from prerender import image_size, render_publications, render_patents
 from build_llms import patent_lines
 
 
@@ -114,6 +117,46 @@ class PatentFallbackTests(unittest.TestCase):
         for value in ['10-2026-0123456', 'Wet-Tissue Adhesive', '습윤 조직 접착제',
                       'Jungmok Seo, Tae Young Kim', '서정목, 김태영', 'status: Filed (출원)']:
             self.assertIn(value, text)
+
+
+class ThumbnailSizeTests(unittest.TestCase):
+    """Thumbnails carry their intrinsic size so the list keeps its height while they load."""
+
+    def size_of(self, data):
+        with tempfile.NamedTemporaryFile(delete=False) as handle:
+            handle.write(data)
+        try:
+            return image_size(handle.name)
+        finally:
+            os.unlink(handle.name)
+
+    @staticmethod
+    def jpeg(width, height, orientation=None):
+        exif = b''
+        if orientation:
+            tiff = (b'MM\x00\x2a\x00\x00\x00\x08\x00\x01'
+                    + struct.pack('>HHIHH', 0x0112, 3, 1, orientation, 0) + b'\x00\x00\x00\x00')
+            body = b'Exif\x00\x00' + tiff
+            exif = b'\xff\xe1' + struct.pack('>H', len(body) + 2) + body
+        frame = b'\x08' + struct.pack('>HH', height, width) + b'\x01\x01\x11\x00'
+        return b'\xff\xd8' + exif + b'\xff\xc0' + struct.pack('>H', len(frame) + 2) + frame + b'\xff\xd9'
+
+    def test_reads_png_and_jpeg_sizes(self):
+        png = b'\x89PNG\r\n\x1a\n' + struct.pack('>I', 13) + b'IHDR' + struct.pack('>II', 640, 360)
+        self.assertEqual(tuple(self.size_of(png)), (640, 360))
+        self.assertEqual(tuple(self.size_of(self.jpeg(1000, 750))), (1000, 750))
+
+    def test_exif_rotation_swaps_the_displayed_size(self):
+        self.assertEqual(tuple(self.size_of(self.jpeg(1000, 750, orientation=6))), (750, 1000))
+        self.assertEqual(tuple(self.size_of(self.jpeg(1000, 750, orientation=3))), (1000, 750))
+
+    def test_unreadable_image_keeps_the_thumbnail_without_a_size(self):
+        self.assertIsNone(self.size_of(b'not an image'))
+        paper = {'number': 1, 'year': 2026, 'title': 'T', 'authors': 'A', 'journal': 'J, 1 (2026)',
+                 'image': 'images/publications/no-such-file.jpg'}
+        markup = render_publications({'publications': [paper]}, {})
+        self.assertIn('<img src="images/publications/no-such-file.jpg" alt="" loading="lazy"', markup)
+        self.assertNotIn('width=', markup)
 
 
 if __name__ == '__main__':

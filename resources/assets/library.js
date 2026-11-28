@@ -63,6 +63,16 @@
       const value = normalize(control ? control.value : "");
       return value === "all" ? "" : value;
     };
+    // A choice that no paper on this page carries can only produce an empty
+    // list, so it is taken out of the menu. The static HTML keeps every option.
+    [[theme, "themes"], [level, "levels"], [correspondence, "correspondence"]].forEach(([control, key]) => {
+      if (!control) return;
+      Array.from(control.options).forEach((option) => {
+        const value = normalize(option.value);
+        if (!value || value === "all") return;
+        if (!records.some((record) => record[key].includes(value))) option.remove();
+      });
+    });
     const apply = () => {
       const words = normalize(search ? search.value : "").split(" ").filter(Boolean);
       const themeValue = selected(theme);

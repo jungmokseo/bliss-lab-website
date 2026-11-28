@@ -202,6 +202,7 @@ html:lang(ko) .section-heading h2:not([lang="en"]) { font-family: "Pretendard Va
 .paper-card .tag, .paper-card .badge { margin-right: 3px; }
 .paper-card .read-link { display: inline-flex; min-height: 36px; align-items: center; font-size: .78rem; font-weight: 600; }
 .empty-state { padding: 44px 24px; margin-block: 20px; border: 1px dashed #c5ccda; border-radius: 5px; background: var(--white); color: var(--text-secondary); text-align: center; }
+.empty-state .button { margin-top: 16px; }
 
 /* Static article pages, provenance, and comparison content. */
 .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 9px; margin: 28px 0 0; color: var(--text-muted); font-size: .74rem; line-height: 1.7; overflow-wrap: anywhere; }
