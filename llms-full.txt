@@ -53,7 +53,7 @@ Source: https://bliss.yonsei.ac.kr/resources/en/publications.html. Principal inv
 - DOI: https://doi.org/10.1002/adfm.77191
 - Summary page: https://bliss.yonsei.ac.kr/resources/en/papers/adfm-77191.html
 - Theme: Biological responses and surface design
-- Summary: An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm.
+- Summary: An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm over 10 days.
 - Source scope: This summary is based on the full text, figure legends and parts of the Methods of the author manuscript on PubMed Central (PMC13668246). Supplementary figures, tables, videos and spatial-transcriptomic source data were not reviewed.
 
 ## #96 Lubricious anti-adhesive interface prevents friction, biofilm, and encrustation in long-term indwelling ureteral stents
@@ -1093,9 +1093,9 @@ Patent records distinguish filed applications from granted patents. Titles, inve
 - Country: KR; year: 2017; status: Registered (등록)
 
 ### 10-1875271 — Method of direct conversion for generating neurons from somatic cells using triboelectricity
-- Korean title: Method of direct conversion for generating neurons from somatic cells using triboelectricity
+- Korean title: 마찰전기를 이용한 체세포로부터 신경세포로의 직접교차분화방법
 - Inventors: Jungmok Seo, Yoonhee Jin, Seungwoo Cho, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Yoonhee Jin, Seungwoo Cho, Taeyoon Lee
+- Inventors (Korean): 서정목, 진윤희, 조승우, 이태윤
 - Country: KR; year: 2016; status: Registered (등록)
 
 ### US 9,975,117 / EP 3090804 — Apparatus and method for controlling droplet
@@ -1105,33 +1105,33 @@ Patent records distinguish filed applications from granted patents. Titles, inve
 - Country: US/EPO; year: 2015; status: Registered (등록)
 
 ### 10-1555239 — Method of forming cell spheroids and apparatus of forming cell spheroids
-- Korean title: Method of forming cell spheroids and apparatus of forming cell spheroids
+- Korean title: 세포 스페로이드 형성 방법 및 세포 스페로이드 형성 장치
 - Inventors: Jungmok Seo, Jung Seung Lee, Seungwoo Cho, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Jung Seung Lee, Seungwoo Cho, Taeyoon Lee
+- Inventors (Korean): 서정목, 이정승, 조승우, 이태윤
 - Country: KR; year: 2015; status: Registered (등록)
 
 ### 10-1411441 — Apparatus and method for controlling surface wetting property of materials, and lab on a chip using the same
-- Korean title: Apparatus and method for controlling surface wetting property of materials, and lab on a chip using the same
+- Korean title: 물질의 표면 젖음 특성 조절 장치와 방법 및 이를 이용한 랩온어칩
 - Inventors: Jungmok Seo, Soonil Lee, Heetak Han, Hwae bong Jung, Wooyoung Lee, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Soonil Lee, Heetak Han, Hwae bong Jung, Wooyoung Lee, Taeyoon Lee
+- Inventors (Korean): 서정목, 이순일, 한희탁, 정회봉, 이우영, 이태윤
 - Country: KR; year: 2014; status: Registered (등록)
 
 ### 10-1295345 — Graphene composition, graphene source and method for manufacturing the same, method for manufacturing graphene thin film
-- Korean title: Graphene composition, graphene source and method for manufacturing the same, method for manufacturing graphene thin film
-- Inventors: Jungmok Seo, Jahoon Koo, Sangwook Lee, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Jahoon Koo, Sangwook Lee, Taeyoon Lee
+- Korean title: 그래핀 조성물, 그래핀 소스 제조방법, 이 방법으로 제조된 그래핀 소스, 그래핀 박막 제조방법
+- Inventors: Jungmok Seo, Jahoon Koo, Taeyoon Lee
+- Inventors (Korean): 서정목, 구자훈, 이태윤
 - Country: KR; year: 2013; status: Registered (등록)
 
 ### 10-1252734 — Method of arranging nanowires
-- Korean title: Method of arranging nanowires
+- Korean title: 나노선 정렬 방법
 - Inventors: Jungmok Seo, Hyonik Lee, Juree Hong, Jahoon Koo, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Hyonik Lee, Juree Hong, Jahoon Koo, Taeyoon Lee
+- Inventors (Korean): 서정목, 이현익, 홍주리, 구자훈, 이태윤
 - Country: KR; year: 2013; status: Registered (등록)
 
 ### 10-1165447 — Method for aligning nanowires, 3-dimensional frame for aligning nanowires, and method for 3-dimensional frame for aligning nanowires
-- Korean title: Method for aligning nanowires, 3-dimensional frame for aligning nanowires, and method for 3-dimensional frame for aligning nanowires
-- Inventors: Jungmok Seo, Hyonik Lee, Seulah Lee, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Hyonik Lee, Seulah Lee, Taeyoon Lee
+- Korean title: 홈 구조를 이용한 나노선 정렬 방법, 나노선 정렬용 3차원 틀 및 나노선 정렬용 3차원 틀의 제조방법
+- Inventors: Jungmok Seo, Seulah Lee, Taeyoon Lee
+- Inventors (Korean): 서정목, 이슬아, 이태윤
 - Country: KR; year: 2012; status: Registered (등록)
 
 ### US 13/353,882 — Nanowire ink solution and method of forming the ink solution
@@ -1141,7 +1141,7 @@ Patent records distinguish filed applications from granted patents. Titles, inve
 - Country: US; year: 2012; status: Abandoned (소멸)
 
 ### 10-1050198 — Method of generating nanowire diode
-- Korean title: Method of generating nanowire diode
+- Korean title: 나노선 다이오드 생성 방법
 - Inventors: Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee
-- Inventors (Korean): Jungmok Seo, Hyonik Lee, Seulah Lee, Juree Hong, Taeyoon Lee
+- Inventors (Korean): 서정목, 이현익, 이슬아, 홍주리, 이태윤
 - Country: KR; year: 2011; status: Registered (등록)

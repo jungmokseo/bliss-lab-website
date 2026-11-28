@@ -255,7 +255,7 @@
       "date": "2026-05-15",
       "month": "May 2026",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ty_small_top10_2024.jpg",
@@ -437,7 +437,7 @@
       "date": "2025-10-13",
       "month": "Oct 2025",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ty_china-congress.jpg",
@@ -502,7 +502,7 @@
       "date": "2025-04-16",
       "month": "Apr 2025",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/as_topviewedarticle.jpg",
@@ -736,7 +736,7 @@
       "date": "2024-01-26",
       "month": "Jan 2024",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/yurmces.png",
@@ -814,7 +814,7 @@
       "date": "2023-10-10",
       "month": "Oct 2023",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/yscholarhub_kj.png",
@@ -866,7 +866,7 @@
       "date": "2023-07-26",
       "month": "Jul 2023",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/linksol_patenet.png",
@@ -1048,11 +1048,11 @@
       "date": "2023-02-25",
       "month": "Feb 2023",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.png",
-      "contentImage": "images/news/ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-content.pn"
+      "contentImage": "images/news/ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-content.png"
     },
     {
       "title": "BLISS 서정목 교수님 2023 경희대학교 캠퍼스타운 스타트업 CEO로 매거진 한경에서 소개",
@@ -1087,7 +1087,7 @@
       "date": "2023-01-16",
       "month": "Jan 2023",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ytlee-contest-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2.png",
@@ -1257,7 +1257,7 @@
       "date": "2022-03-07",
       "month": "Mar 2022",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ytlee-contest-2-2-2-2-2-2-2-2.png",
@@ -1361,7 +1361,7 @@
       "date": "2021-08-22",
       "month": "Aug 2021",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "",
       "thumbnail": "images/news/ytlee-contest.jpg",
@@ -1472,8 +1472,8 @@
       "contentImage": "images/news/lois-2-content.png"
     },
     {
-      "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정",
-      "titleEn": "BLISS selected in the final round for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program",
+      "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정 (전자봉합사)",
+      "titleEn": "BLISS selected in the final round for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program (electronic suture)",
       "slug": "kmddf_msict",
       "date": "2020-10-12",
       "month": "Oct 2020",
@@ -1486,8 +1486,8 @@
       "summaryEn": "BLISS was selected for a new project in the 2020 2nd round of the Multi-Ministry Full-Cycle Medical Device R&D Program (project: immune-evasive, regenerative electronic sutures for tendon reconstruction and rehabilitation)."
     },
     {
-      "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정",
-      "titleEn": "BLISS selected in the final round for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program",
+      "title": "BLISS 2020년 제2차 범부처전주기의료기기 연구개발사업 과제 최종 선정 (3D 프린팅 금속내고정물)",
+      "titleEn": "BLISS selected in the final round for the 2020 2nd Multi-Ministry Full-Cycle Medical Device R&D Program (3D-printed metal fixation implant)",
       "slug": "kmddf_mtie",
       "date": "2020-10-12",
       "month": "Oct 2020",
@@ -1618,20 +1618,6 @@
       "thumbnail": "images/news/techtransfer1.jpg",
       "contentImage": "images/news/techtransfer1-content.jpg",
       "summaryEn": "Prof. Jungmok Seo's team developed a surface-modification technology that fundamentally suppresses post-operative infection of orthopedic implants used for bone fixation, and signed a technology-transfer agreement with OID (Orthopedic Immune Defense) Co., Ltd."
-    },
-    {
-      "title": "서영민 박사님 연구교수로서 BLISS 합류",
-      "titleEn": "Dr. Youngmin Seo joins BLISS as a Research Professor",
-      "slug": "youngminseo",
-      "date": "2020-01-29",
-      "month": "Jan 2020",
-      "categories": [
-        "General"
-      ],
-      "summary": "기능성 삽입소자, 세포-물질 계면, 조직 공학의 전문가이신 서영민 박사님이 연구교수로서 BLISS에 합류하셨습니다. 환영합니다 !",
-      "thumbnail": "images/news/youngminseo.jpg",
-      "contentImage": "images/news/youngminseo-content.jpg",
-      "summaryEn": "Dr. Youngmin Seo, an expert in functional implantable devices, cell–material interfaces, and tissue engineering, has joined BLISS as a Research Professor. Welcome!"
     },
     {
       "title": "BLISS 2019년도 2학기 회식 - BLISS Lab dinner",
@@ -1777,7 +1763,7 @@
       "date": "2019-01-23",
       "month": "Jan 2019",
       "categories": [
-        "Grant"
+        "Award"
       ],
       "summary": "POSTECH 생물학연구정보센터(BRIC, 브릭, http://www.ibric.org)는 의생명과학관련 연구자들이 선정한 ‘2018년도 국내 5대 바이오 성과∙뉴스(국내 바이오분야 연구성과 및 뉴스 Top 5’s)’를 발표했다. 의생명과학관련 종사자 총 1,295명이 참여한 ‘올해의 국내 바이오 성과∙뉴스 Top5’s는 12월 3일부터 7일까지(5일간) ",
       "thumbnail": "images/news/2018-top5.jpg",

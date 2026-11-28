@@ -1564,7 +1564,7 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm.",
+    "summary": "An oxygen-releasing, hMSC-laden bioink printed into diabetic mouse wounds by a vision-guided robot accelerated wound closure relative to Tegaderm over 10 days.",
     "source_scope": "This summary is based on the full text, figure legends and parts of the Methods of the author manuscript on PubMed Central (PMC13668246). Supplementary figures, tables, videos and spatial-transcriptomic source data were not reviewed."
   },
   {
@@ -1660,7 +1660,7 @@
     "theme": "integration",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "동시 스퍼터링한 ZnO:Ga 박막을 623 K 수소 분위기에서 열처리해 Ga2O3·ZnGa2O4를 환원하고, 유리 대비 유리 대비 90% 이상의 투과도와 5.2 × 10⁻⁴ Ω cm의 비저항을 얻었습니다.",
+    "summary": "동시 스퍼터링한 ZnO:Ga 박막을 623 K 수소 분위기에서 열처리해 Ga2O3·ZnGa2O4를 환원하고, 유리 대비 90% 이상의 투과도와 5.2 × 10⁻⁴ Ω cm의 비저항을 얻었습니다.",
     "source_scope": "이 해설은 출판사 PDF(Applied Surface Science 255 (2009) 4616–4622)의 실험 절, 결과 및 고찰, 결론과 그림 설명을 바탕으로 작성했습니다. 수치는 본문과 그림 설명에서 옮겼으며, 그림 자체에서 값을 다시 읽지는 않았습니다."
   },
   {
@@ -2476,7 +2476,7 @@
     "theme": "tissue",
     "jungmok_seo_author_role": "confirmed_not_corresponding",
     "source_level": "full_text",
-    "summary": "공압 칩으로 GelMA 속 심장 섬유아세포에 1 Hz 주기 압축(0–20%)을 가한 결과, 15–20% 변형에서 근섬유아세포 활성화가 촉진되었습니다.",
+    "summary": "공압 칩으로 GelMA 속 심장 섬유아세포에 1 Hz 주기 압축(0–20%)을 가한 결과, 15–20% 변형에서는 근섬유아세포 활성화가 촉진되었고 5–10%에서는 그렇지 않았습니다.",
     "source_scope": "이 해설은 게재본 PDF(Adv. Healthcare Mater. 2019, 8, 1801146; 13쪽; 로컬 사본)의 본문, 실험 방법, 그림 1–5 설명을 바탕으로 하며, 보충자료(그림 S1–S5)는 검토하지 않았습니다. 원문은 증식 실험의 시료 수를 그림 3 설명에서 n = 6, 실험 방법에서 n = 4로 적고 있으며, 세포 퍼짐 단락에서는 20%를 생리적 변형으로 표현하지만 다른 곳에서는 15%와 20%를 병적 변형으로 분류합니다."
   },
   {
@@ -2972,7 +2972,7 @@
     "theme": "host",
     "jungmok_seo_author_role": "confirmed_corresponding",
     "source_level": "full_text",
-    "summary": "약 10초의 두 단계 불소계 윤활 담금 코팅으로 12종 소재의 접촉각을 약 110°로 균일하게 만들고, 마찰계수를 0.22에서 0.08로 낮췄습니다.",
+    "summary": "약 10초의 두 단계 불소계 윤활 담금 코팅으로 12종 소재의 접촉각을 약 110°로 균일하게 만들고, 마찰계수를 0.22에서 0.08로 낮췄으며 바실루스 세레우스 부착을 91.2% 줄였습니다.",
     "source_scope": "이 해설은 Advanced Materials Interfaces 공개 게재본(12쪽)의 본문, 그림 설명, 실험 방법을 바탕으로 작성했습니다. 보충자료와 동영상은 검토하지 않았으며, 서론과 결론의 일부 요약 수치(미끄럼각, 잔여물·혈액 얼룩 감소율)는 결과 절의 값과 달라 본문에 함께 적었습니다."
   },
   {
